@@ -6,6 +6,6 @@
 	"repositories": [
 		{ "type": "vcs", "url": "https://github.com/danielbachhuber/wp-cli-stat-command" },
 		{ "type": "vcs", "url": "https://github.com/pixline/wp-cli-theme-test-command" },
-		{ "type": "vcs", "url": "https://github.com/srtfisher/wp-composer" },
+		{ "type": "vcs", "url": "https://github.com/srtfisher/wp-composer" }
 	]
 }
