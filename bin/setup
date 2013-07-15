@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+git clone . web/
+REMOTE_URL=$(git config remote.origin.url)
+cd web/
+git remote set-url origin $REMOTE_URL
+git checkout gh-pages

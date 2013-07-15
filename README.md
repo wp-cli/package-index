@@ -13,19 +13,13 @@ This repository contains the source code for what you see at <http://wp-cli.org/
 
 The following instructions are meant for developers working on the infrastructure.
 
-1) [Install Satis](https://github.com/composer/satis#usage) somewhere.
-
-2) Create the appropriate clones of this repo:
+1) Run the setup script:
 
 ```bash
-git clone git@github.com:wp-cli/package-index.git wp-cli-package-index
-cd wp-cli-package-index
-git clone . web/
-cd web/
-git remote set-url origin git@github.com:wp-cli/package-index.git
-git checkout gh-pages
-cd -
+./bin/setup
 ```
+
+2) [Install Satis](https://github.com/composer/satis#usage) somewhere.
 
 3) Build:
 
