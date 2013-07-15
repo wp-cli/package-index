@@ -3,7 +3,13 @@ WP-CLI Package Index
 
 This repository contains the source code for what you see at <http://wp-cli.org/package-index>.
 
-### Setup
+### Adding your package to the index
+
+Just edit the [satis.json](https://github.com/wp-cli/package-index/blob/master/satis.json) file and open a pull request.
+
+### Internal Setup
+
+The following instructions are meant for developers working on the infrastructure.
 
 1) [Install Satis](https://github.com/composer/satis#usage) somewhere.
 
