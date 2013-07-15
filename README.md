@@ -14,6 +14,7 @@ git clone git@github.com:wp-cli/package-index.git wp-cli-package-index
 cd wp-cli-package-index
 git clone . web/
 cd web/
+git remote set-url origin git@github.com:wp-cli/package-index.git
 git checkout gh-pages
 cd -
 ```
