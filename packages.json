@@ -146,6 +146,191 @@
                     "source": "https://github.com/pixline/wp-cli-theme-test-command"
                 }
             }
+        },
+        "srtfisher/wp-composer": {
+            "0.1": {
+                "name": "srtfisher/wp-composer",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/srtfisher/wp-composer.git",
+                    "reference": "0.1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/srtfisher/wp-composer/zipball/0.1",
+                    "reference": "0.1",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "1.0.*@alpha"
+                },
+                "provide": {
+                    "wp-composer": "*"
+                },
+                "time": "2013-06-10 13:22:41",
+                "type": "wp-cli",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Sean Fisher",
+                        "homepage": "http://seanfisher.co"
+                    }
+                ],
+                "description": "WP-CLI wrapper for Composer",
+                "homepage": "http://wordpress.org/plugins/composer",
+                "keywords": [
+                    "composer",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/srtfisher/wp-composer/tree/0.1",
+                    "issues": "https://github.com/srtfisher/wp-composer/issues"
+                }
+            },
+            "0.1.1": {
+                "name": "srtfisher/wp-composer",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/srtfisher/wp-composer.git",
+                    "reference": "0.1.1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/srtfisher/wp-composer/zipball/0.1.1",
+                    "reference": "0.1.1",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "1.0.*@alpha"
+                },
+                "provide": {
+                    "wp-composer": "*"
+                },
+                "time": "2013-06-16 18:04:02",
+                "type": "wp-cli",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Sean Fisher",
+                        "homepage": "http://seanfisher.co"
+                    }
+                ],
+                "description": "WP-CLI wrapper for Composer",
+                "homepage": "http://wordpress.org/plugins/composer",
+                "keywords": [
+                    "composer",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/srtfisher/wp-composer/tree/0.1.1",
+                    "issues": "https://github.com/srtfisher/wp-composer/issues"
+                }
+            },
+            "0.1.2": {
+                "name": "srtfisher/wp-composer",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/srtfisher/wp-composer.git",
+                    "reference": "0.1.2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/srtfisher/wp-composer/zipball/0.1.2",
+                    "reference": "0.1.2",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "1.0.*@alpha",
+                    "php": ">=5.3.2"
+                },
+                "provide": {
+                    "wp-composer": "*"
+                },
+                "time": "2013-07-15 03:16:50",
+                "type": "wp-cli",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Sean Fisher",
+                        "homepage": "http://seanfisher.co"
+                    }
+                ],
+                "description": "WP-CLI wrapper for Composer",
+                "homepage": "http://wordpress.org/plugins/composer",
+                "keywords": [
+                    "composer",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/srtfisher/wp-composer/tree/0.1.2",
+                    "issues": "https://github.com/srtfisher/wp-composer/issues"
+                }
+            },
+            "dev-master": {
+                "name": "srtfisher/wp-composer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/srtfisher/wp-composer.git",
+                    "reference": "60fc3263a502262c5b03e2983633bc64a04be246"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/srtfisher/wp-composer/zipball/60fc3263a502262c5b03e2983633bc64a04be246",
+                    "reference": "60fc3263a502262c5b03e2983633bc64a04be246",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "1.0.*@alpha",
+                    "php": ">=5.3.2"
+                },
+                "provide": {
+                    "wp-composer": "*"
+                },
+                "time": "2013-07-15 16:10:23",
+                "type": "wp-cli",
+                "autoload": {
+                    "files": [
+                        "wp-cli-composer-command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Sean Fisher",
+                        "homepage": "http://seanfisher.co"
+                    }
+                ],
+                "description": "WP-CLI wrapper for Composer",
+                "homepage": "http://wordpress.org/plugins/composer",
+                "keywords": [
+                    "composer",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/srtfisher/wp-composer/tree/master",
+                    "issues": "https://github.com/srtfisher/wp-composer/issues"
+                }
+            }
         }
     }
 }
