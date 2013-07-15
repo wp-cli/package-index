@@ -1,0 +1,151 @@
+{
+    "packages": {
+        "danielbachhuber/wp-cli-stat-command": {
+            "dev-master": {
+                "name": "danielbachhuber/wp-cli-stat-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/wp-cli-stat-command.git",
+                    "reference": "4a9d2714811cd8553e00ccfadb64bfc40322736d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-cli-stat-command/zipball/4a9d2714811cd8553e00ccfadb64bfc40322736d",
+                    "reference": "4a9d2714811cd8553e00ccfadb64bfc40322736d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2013-05-09 03:38:54",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-stat-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "d@danielbachhuber.com",
+                        "homepage": "http://danielbachhuber.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Explore data about your WordPress site.",
+                "homepage": "https://github.com/danielbachhuber/wp-cli-stat-command",
+                "keywords": [
+                    "analytics",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/danielbachhuber/wp-cli-stat-command/tree/master",
+                    "issues": "https://github.com/danielbachhuber/wp-cli-stat-command/issues"
+                }
+            }
+        },
+        "pixline/wp-cli-theme-test-command": {
+            "dev-master": {
+                "name": "pixline/wp-cli-theme-test-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixline/wp-cli-theme-test-command.git",
+                    "reference": "f59b10af80da5a491d823815b7ef28a99ce9a4a5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-theme-test-command/zipball/f59b10af80da5a491d823815b7ef28a99ce9a4a5",
+                    "reference": "f59b10af80da5a491d823815b7ef28a99ce9a4a5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0",
+                    "wp-cli/wp-cli": "dev-master"
+                },
+                "time": "2013-07-07 19:49:55",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-theme-test-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Paolo Tresso",
+                        "email": "plugins@swergroup.com",
+                        "homepage": "http://swergroup.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Install and configure WordPress theme unit tests",
+                "homepage": "https://github.com/pixline/wp-cli-theme-test-command",
+                "keywords": [
+                    "theme-test",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/pixline/wp-cli-theme-test-command/issues",
+                    "source": "https://github.com/pixline/wp-cli-theme-test-command"
+                }
+            },
+            "dev-12-check-pages": {
+                "name": "pixline/wp-cli-theme-test-command",
+                "version": "dev-12-check-pages",
+                "version_normalized": "dev-12-check-pages",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixline/wp-cli-theme-test-command.git",
+                    "reference": "f59b10af80da5a491d823815b7ef28a99ce9a4a5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-theme-test-command/zipball/f59b10af80da5a491d823815b7ef28a99ce9a4a5",
+                    "reference": "f59b10af80da5a491d823815b7ef28a99ce9a4a5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0",
+                    "wp-cli/wp-cli": "dev-master"
+                },
+                "time": "2013-07-07 19:49:55",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-theme-test-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Paolo Tresso",
+                        "email": "plugins@swergroup.com",
+                        "homepage": "http://swergroup.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Install and configure WordPress theme unit tests",
+                "homepage": "https://github.com/pixline/wp-cli-theme-test-command",
+                "keywords": [
+                    "theme-test",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/pixline/wp-cli-theme-test-command/issues",
+                    "source": "https://github.com/pixline/wp-cli-theme-test-command"
+                }
+            }
+        }
+    }
+}
