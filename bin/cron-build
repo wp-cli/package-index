@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+# This script is run hourly by Cron.
+
+# fail on first error
+set -e
+
+SATIS=$HOME/satis/bin/satis
+
+cd web/
+git pull
+cd -
+
+git pull
+CURRENT_REV=$(git rev-parse HEAD)
+
+$SATIS build
+
+cd web/
+if git commit -am "build: $CURRENT_REV"
+then
+	git push
+fi
