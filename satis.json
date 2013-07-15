@@ -1,0 +1,10 @@
+{
+	"name": "WP-CLI Package Index",
+	"homepage": "http://wp-cli.org/package-index/",
+	"repositories": [
+		{ "type": "vcs", "url": "https://github.com/danielbachhuber/wp-cli-stat-command" },
+		{ "type": "vcs", "url": "https://github.com/pixline/wp-cli-theme-test-command" }
+	],
+	"require-all": true,
+	"output-dir": "web"
+}
