@@ -1,5 +1,5 @@
 {
-	"name": "WP-CLI Package Index",
+	"name": "WP-CLI",
 	"homepage": "http://wp-cli.org/package-index/",
 	"repositories": [
 		{ "type": "vcs", "url": "https://github.com/danielbachhuber/wp-cli-stat-command" },
