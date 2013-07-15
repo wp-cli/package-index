@@ -5,7 +5,7 @@
 # fail on first error
 set -e
 
-SATIS=$HOME/satis/bin/satis
+cd $HOME/package-index
 
 cd web/
 git pull
@@ -14,7 +14,7 @@ cd -
 git pull
 CURRENT_REV=$(git rev-parse HEAD)
 
-$SATIS build
+$HOME/satis/bin/satis build
 
 cd web/
 if git commit -am "build: $CURRENT_REV"
