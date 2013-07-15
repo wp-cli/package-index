@@ -11,8 +11,14 @@ cd web/
 git pull
 cd -
 
+PREV_REV=$(git rev-parse HEAD)
 git pull
 CURRENT_REV=$(git rev-parse HEAD)
+
+if [ $PREV_REV == $CURRENT_REV ]
+then
+	exit
+fi
 
 $HOME/satis/bin/satis build
 
