@@ -7,7 +7,7 @@ This repository contains the source code for what you see at <http://wp-cli.org/
 
 1. [Fork wp-cli/package-index](https://github.com/wp-cli/package-index/fork).
 2. Edit the [satis.json](https://github.com/wp-cli/package-index/blob/master/satis.json) file in your fork.
-3. Open a pull request.
+3. Open a [pull request](https://help.github.com/articles/creating-a-pull-request).
 
 ### Internal Setup
 
