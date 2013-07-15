@@ -19,5 +19,5 @@ $SATIS build
 cd web/
 if git commit -am "build: $CURRENT_REV"
 then
-	git push
+	git push origin gh-pages
 fi
