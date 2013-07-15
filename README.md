@@ -5,7 +5,9 @@ This repository contains the source code for what you see at <http://wp-cli.org/
 
 ### Adding your package to the index
 
-Just edit the [satis.json](https://github.com/wp-cli/package-index/blob/master/satis.json) file and open a pull request.
+1. [Fork wp-cli/package-index](https://github.com/wp-cli/package-index/fork).
+2. Edit the [satis.json](https://github.com/wp-cli/package-index/blob/master/satis.json) file in your fork.
+3. Open a pull request.
 
 ### Internal Setup
 
