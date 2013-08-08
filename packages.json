@@ -8,18 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-cli-stat-command.git",
-                    "reference": "4a9d2714811cd8553e00ccfadb64bfc40322736d"
+                    "reference": "1f15735772f024d4688ca678b6a896b34f7a6f7f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-cli-stat-command/zipball/4a9d2714811cd8553e00ccfadb64bfc40322736d",
-                    "reference": "4a9d2714811cd8553e00ccfadb64bfc40322736d",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-cli-stat-command/zipball/1f15735772f024d4688ca678b6a896b34f7a6f7f",
+                    "reference": "1f15735772f024d4688ca678b6a896b34f7a6f7f",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.3.0"
+                    "php": ">=5.3.0",
+                    "wp-cli/wp-cli": "dev-master"
                 },
-                "time": "2013-05-09 03:38:54",
+                "time": "2013-07-18 21:47:09",
                 "type": "command",
                 "autoload": {
                     "files": [
@@ -57,67 +58,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pixline/wp-cli-theme-test-command.git",
-                    "reference": "f59b10af80da5a491d823815b7ef28a99ce9a4a5"
+                    "reference": "29ff88afe20df20ddb1f9e74ca2957b1f7a24d3f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pixline/wp-cli-theme-test-command/zipball/f59b10af80da5a491d823815b7ef28a99ce9a4a5",
-                    "reference": "f59b10af80da5a491d823815b7ef28a99ce9a4a5",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-theme-test-command/zipball/29ff88afe20df20ddb1f9e74ca2957b1f7a24d3f",
+                    "reference": "29ff88afe20df20ddb1f9e74ca2957b1f7a24d3f",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0",
                     "wp-cli/wp-cli": "dev-master"
                 },
-                "time": "2013-07-07 19:49:55",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "wp-cli-theme-test-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Paolo Tresso",
-                        "email": "plugins@swergroup.com",
-                        "homepage": "http://swergroup.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Install and configure WordPress theme unit tests",
-                "homepage": "https://github.com/pixline/wp-cli-theme-test-command",
-                "keywords": [
-                    "theme-test",
-                    "wp-cli"
-                ],
-                "support": {
-                    "issues": "https://github.com/pixline/wp-cli-theme-test-command/issues",
-                    "source": "https://github.com/pixline/wp-cli-theme-test-command"
-                }
-            },
-            "dev-12-check-pages": {
-                "name": "pixline/wp-cli-theme-test-command",
-                "version": "dev-12-check-pages",
-                "version_normalized": "dev-12-check-pages",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pixline/wp-cli-theme-test-command.git",
-                    "reference": "f59b10af80da5a491d823815b7ef28a99ce9a4a5"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pixline/wp-cli-theme-test-command/zipball/f59b10af80da5a491d823815b7ef28a99ce9a4a5",
-                    "reference": "f59b10af80da5a491d823815b7ef28a99ce9a4a5",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0",
-                    "wp-cli/wp-cli": "dev-master"
-                },
-                "time": "2013-07-07 19:49:55",
+                "time": "2013-07-15 23:04:31",
                 "type": "command",
                 "autoload": {
                     "files": [
@@ -329,6 +282,44 @@
                 "support": {
                     "source": "https://github.com/srtfisher/wp-composer/tree/master",
                     "issues": "https://github.com/srtfisher/wp-composer/issues"
+                }
+            }
+        },
+        "wp-cli/server-command": {
+            "dev-master": {
+                "name": "wp-cli/server-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/server-command.git",
+                    "reference": "138b04774e73ff61df82cca5968a4c0ca909ec76"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/138b04774e73ff61df82cca5968a4c0ca909ec76",
+                    "reference": "138b04774e73ff61df82cca5968a4c0ca909ec76",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": ">=0.11"
+                },
+                "time": "2013-08-08 11:24:26",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Start a development server for WordPress",
+                "homepage": "https://github.com/wp-cli/server-command",
+                "support": {
+                    "source": "https://github.com/wp-cli/server-command/tree/master",
+                    "issues": "https://github.com/wp-cli/server-command/issues"
                 }
             }
         }
