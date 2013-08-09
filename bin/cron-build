@@ -19,7 +19,12 @@ CURRENT_REV=$(git rev-parse HEAD)
 $HOME/satis/bin/satis build
 
 cd web/
-if git commit -am "build: $CURRENT_REV"
+
+# index.html will always have an updated timestamp, so commit only if there
+# are some actual changes in the packages.
+
+if git ls-files -m | grep 'packages.json'
 then
+	git commit -am "build: $CURRENT_REV"
 	git push origin gh-pages
 fi
