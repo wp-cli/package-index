@@ -58,19 +58,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pixline/wp-cli-theme-test-command.git",
-                    "reference": "29ff88afe20df20ddb1f9e74ca2957b1f7a24d3f"
+                    "reference": "3c58ff495d1a05a8a4a5f8d8685a4734d39fcae3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pixline/wp-cli-theme-test-command/zipball/29ff88afe20df20ddb1f9e74ca2957b1f7a24d3f",
-                    "reference": "29ff88afe20df20ddb1f9e74ca2957b1f7a24d3f",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-theme-test-command/zipball/3c58ff495d1a05a8a4a5f8d8685a4734d39fcae3",
+                    "reference": "3c58ff495d1a05a8a4a5f8d8685a4734d39fcae3",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0",
-                    "wp-cli/wp-cli": "dev-master"
+                    "wp-cli/wp-cli": ">=0.11"
                 },
-                "time": "2013-07-15 23:04:31",
+                "time": "2013-08-08 15:43:00",
                 "type": "command",
                 "autoload": {
                     "files": [
@@ -293,19 +293,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "138b04774e73ff61df82cca5968a4c0ca909ec76"
+                    "reference": "5376fdb9f48d0450904c7b1fb6157453578eda4e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/138b04774e73ff61df82cca5968a4c0ca909ec76",
-                    "reference": "138b04774e73ff61df82cca5968a4c0ca909ec76",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/5376fdb9f48d0450904c7b1fb6157453578eda4e",
+                    "reference": "5376fdb9f48d0450904c7b1fb6157453578eda4e",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.4",
-                    "wp-cli/wp-cli": ">=0.11"
+                    "php": ">=5.4"
                 },
-                "time": "2013-08-08 11:24:26",
+                "time": "2013-08-09 14:10:41",
                 "type": "library",
                 "autoload": {
                     "files": [
