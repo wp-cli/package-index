@@ -293,18 +293,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "b2bdbb762d179c409653d9f7d4ef92b3f8b14876"
+                    "reference": "02ed09b618f15a93764df9c0965abb7097a340df"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/b2bdbb762d179c409653d9f7d4ef92b3f8b14876",
-                    "reference": "b2bdbb762d179c409653d9f7d4ef92b3f8b14876",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/02ed09b618f15a93764df9c0965abb7097a340df",
+                    "reference": "02ed09b618f15a93764df9c0965abb7097a340df",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2013-08-10 23:10:37",
+                "time": "2013-08-14 00:35:16",
                 "type": "library",
                 "autoload": {
                     "files": [
