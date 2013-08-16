@@ -50,6 +50,56 @@
                 }
             }
         },
+        "oxford-themes/wp-cli-git-command": {
+            "dev-master": {
+                "name": "oxford-themes/wp-cli-git-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/oxford-themes/wp-cli-git-command.git",
+                    "reference": "a0604ebf303ece03b9514a0c40861118cb92e4e7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/oxford-themes/wp-cli-git-command/zipball/a0604ebf303ece03b9514a0c40861118cb92e4e7",
+                    "reference": "a0604ebf303ece03b9514a0c40861118cb92e4e7",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.11"
+                },
+                "time": "2013-08-16 18:41:41",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-git-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Matthias Kadenbach",
+                        "email": "matthias.kadenbach@gmail.com"
+                    }
+                ],
+                "description": "Initialize Git repositories with pre-commit hooks that dump all MySQL tables.",
+                "homepage": "https://github.com/oxford-themes/wp-cli-git-command",
+                "keywords": [
+                    "dump",
+                    "git",
+                    "mysql",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/oxford-themes/wp-cli-git-command/issues",
+                    "source": "https://github.com/oxford-themes/wp-cli-git-command"
+                }
+            }
+        },
         "pixline/wp-cli-theme-test-command": {
             "dev-master": {
                 "name": "pixline/wp-cli-theme-test-command",
