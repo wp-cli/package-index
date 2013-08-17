@@ -16,6 +16,8 @@ cd -
 git pull
 CURRENT_REV=$(git rev-parse HEAD)
 
+php ./scripts/prepare-satis.php
+
 $HOME/satis/bin/satis build
 
 cd web/
