@@ -7,9 +7,9 @@ This repository contains the source code for what you see at <http://wp-cli.org/
 
 Dead simple:
 
-1. Go to the [repositories.txt](https://github.com/wp-cli/package-index/blob/master/repositories.txt) file.
-2. Press the "Edit" button.
-3. Add your package's repository URL to the file and save.
+1. Go to the [repositories.txt](https://github.com/wp-cli/package-index/blob/master/repositories.txt) file and press the "Edit" button.
+2. Add your package's repository URL to the file.
+3. Write a short summary for the change and click "Propose File Change".
 
 The Github UI will take care of forking and opening a pull request for you.
 
