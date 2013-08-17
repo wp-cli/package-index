@@ -249,6 +249,61 @@
                 }
             }
         },
+        "pods-framework/pods-wp-cli": {
+            "dev-master": {
+                "name": "pods-framework/pods-wp-cli",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pods-framework/pods-wp-cli.git",
+                    "reference": "aa00c43f1ff4680307ac6e77938cb06f2cb0d286"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pods-framework/pods-wp-cli/zipball/aa00c43f1ff4680307ac6e77938cb06f2cb0d286",
+                    "reference": "aa00c43f1ff4680307ac6e77938cb06f2cb0d286",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "time": "2013-08-17 19:50:58",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "Pods_Command.php",
+                        "PodsAPI_Command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pods Framework Team",
+                        "email": "contact@pods.io",
+                        "homepage": "http://pods.io/"
+                    },
+                    {
+                        "name": "Scott Kingsley Clark",
+                        "email": "lol@scottkclark.com",
+                        "homepage": "http://scottkclark.com"
+                    }
+                ],
+                "description": "WordPress Pods WP-CLI commands",
+                "homepage": "https://github.com/pods-framework/pods-wp-cli",
+                "keywords": [
+                    "pods",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/pods-framework/pods-wp-cli/issues",
+                    "source": "https://github.com/pods-framework/pods-wp-cli"
+                }
+            }
+        },
         "srtfisher/wp-composer": {
             "0.1": {
                 "name": "srtfisher/wp-composer",
