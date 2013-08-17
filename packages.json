@@ -100,6 +100,55 @@
                     "source": "https://github.com/oxford-themes/wp-cli-git-command"
                 }
             },
+            "v1.0.1": {
+                "name": "oxford-themes/wp-cli-git-command",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/oxford-themes/wp-cli-git-command.git",
+                    "reference": "v1.0.1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/oxford-themes/wp-cli-git-command/zipball/v1.0.1",
+                    "reference": "v1.0.1",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.11"
+                },
+                "time": "2013-08-17 14:41:08",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-git-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Matthias Kadenbach",
+                        "email": "matthias.kadenbach@gmail.com",
+                        "homepage": "http://oxford-themes.com"
+                    }
+                ],
+                "description": "WordPress Git helpers, like pre-commit hooks for automatic MySQL database dumps.",
+                "homepage": "https://github.com/oxford-themes/wp-cli-git-command",
+                "keywords": [
+                    "dump",
+                    "git",
+                    "mysql",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/oxford-themes/wp-cli-git-command/issues",
+                    "source": "https://github.com/oxford-themes/wp-cli-git-command"
+                }
+            },
             "dev-master": {
                 "name": "oxford-themes/wp-cli-git-command",
                 "version": "dev-master",
@@ -107,18 +156,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/oxford-themes/wp-cli-git-command.git",
-                    "reference": "v1.0.0"
+                    "reference": "v1.0.1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/oxford-themes/wp-cli-git-command/zipball/v1.0.0",
-                    "reference": "v1.0.0",
+                    "url": "https://api.github.com/repos/oxford-themes/wp-cli-git-command/zipball/v1.0.1",
+                    "reference": "v1.0.1",
                     "shasum": ""
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.11"
                 },
-                "time": "2013-08-17 14:06:48",
+                "time": "2013-08-17 14:41:08",
                 "type": "command",
                 "autoload": {
                     "files": [
