@@ -5,9 +5,13 @@ This repository contains the source code for what you see at <http://wp-cli.org/
 
 ### Adding your package to the index
 
-1. [Fork wp-cli/package-index](https://github.com/wp-cli/package-index/fork).
-2. Edit the [repositories.txt](https://github.com/wp-cli/package-index/blob/master/repositories.txt) file in your fork.
-3. Open a [pull request](https://help.github.com/articles/creating-a-pull-request).
+Dead simple:
+
+1. Go to the [repositories.txt](https://github.com/wp-cli/package-index/blob/master/repositories.txt) file.
+2. Press the Edit button in the upper-right corner.
+3. Add your package's repository URL to the file and save.
+
+The Github UI will take care of forking and opening a pull request for you.
 
 ### Internal Setup
 
