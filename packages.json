@@ -445,12 +445,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/srtfisher/wp-composer.git",
-                    "reference": "60fc3263a502262c5b03e2983633bc64a04be246"
+                    "reference": "bcb1e78d21e5a4649297a0c12e2b24961fe87efa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/srtfisher/wp-composer/zipball/60fc3263a502262c5b03e2983633bc64a04be246",
-                    "reference": "60fc3263a502262c5b03e2983633bc64a04be246",
+                    "url": "https://api.github.com/repos/srtfisher/wp-composer/zipball/bcb1e78d21e5a4649297a0c12e2b24961fe87efa",
+                    "reference": "bcb1e78d21e5a4649297a0c12e2b24961fe87efa",
                     "shasum": ""
                 },
                 "require": {
@@ -460,7 +460,7 @@
                 "provide": {
                     "wp-composer": "*"
                 },
-                "time": "2013-07-15 16:10:23",
+                "time": "2013-08-18 16:28:32",
                 "type": "wp-cli",
                 "autoload": {
                     "files": [
