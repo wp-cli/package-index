@@ -156,18 +156,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/oxford-themes/wp-cli-git-command.git",
-                    "reference": "v1.0.1"
+                    "reference": "1c1cb43781494304c838593eb530bf60bab3af98"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/oxford-themes/wp-cli-git-command/zipball/v1.0.1",
-                    "reference": "v1.0.1",
+                    "url": "https://api.github.com/repos/oxford-themes/wp-cli-git-command/zipball/1c1cb43781494304c838593eb530bf60bab3af98",
+                    "reference": "1c1cb43781494304c838593eb530bf60bab3af98",
                     "shasum": ""
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.11"
                 },
-                "time": "2013-08-17 14:41:08",
+                "time": "2013-08-19 09:58:34",
                 "type": "command",
                 "autoload": {
                     "files": [
