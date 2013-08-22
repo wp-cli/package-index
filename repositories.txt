@@ -1,5 +1,6 @@
 https://github.com/wp-cli/server-command
 https://github.com/danielbachhuber/wp-cli-stat-command
+https://github.com/humanmade/wp-cli-remote-command
 https://github.com/pixline/wp-cli-theme-test-command
 https://github.com/srtfisher/wp-composer
 https://github.com/oxford-themes/wp-cli-git-command
