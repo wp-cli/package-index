@@ -50,6 +50,45 @@
                 }
             }
         },
+        "humanmade/wp-cli-remote-command": {
+            "dev-master": {
+                "name": "humanmade/wp-cli-remote-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/wp-cli-remote-command.git",
+                    "reference": "0fcf5c982fcaf0b72a8ddc1d8bd76f268611ef39"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/wp-cli-remote-command/zipball/0fcf5c982fcaf0b72a8ddc1d8bd76f268611ef39",
+                    "reference": "0fcf5c982fcaf0b72a8ddc1d8bd76f268611ef39",
+                    "shasum": ""
+                },
+                "time": "2013-08-23 13:53:35",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-cli-remote-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Humanmade",
+                        "email": "hello@hmn.md"
+                    }
+                ],
+                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
+                "support": {
+                    "source": "https://github.com/humanmade/wp-cli-remote-command/tree/master",
+                    "issues": "https://github.com/humanmade/wp-cli-remote-command/issues"
+                }
+            }
+        },
         "oxford-themes/wp-cli-git-command": {
             "v1.0.0": {
                 "name": "oxford-themes/wp-cli-git-command",
