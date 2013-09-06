@@ -536,41 +536,6 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "81fc15825ffed0b6edce7a53cd26f26d18ba8d30"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/81fc15825ffed0b6edce7a53cd26f26d18ba8d30",
-                    "reference": "81fc15825ffed0b6edce7a53cd26f26d18ba8d30",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2013-08-19 12:41:32",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Start a development server for WordPress",
-                "homepage": "https://github.com/wp-cli/server-command",
-                "support": {
-                    "source": "https://github.com/wp-cli/server-command/tree/master",
-                    "issues": "https://github.com/wp-cli/server-command/issues"
-                }
-            },
-            "dev-docroot": {
-                "name": "wp-cli/server-command",
-                "version": "dev-docroot",
-                "version_normalized": "dev-docroot",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/server-command.git",
                     "reference": "e7ca161706c43ece9b82ab7b7d37fa73be6b199f"
                 },
                 "dist": {
