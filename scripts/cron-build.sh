@@ -5,7 +5,7 @@
 # fail on first error
 set -e
 
-cd $HOME/package-index
+cd $(dirname $0)/..
 
 # update the gh-pages branch
 cd web/
