@@ -300,18 +300,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pods-framework/pods-wp-cli.git",
-                    "reference": "aa00c43f1ff4680307ac6e77938cb06f2cb0d286"
+                    "reference": "04d7114c92c565256b174115bee66dd8ce64fede"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pods-framework/pods-wp-cli/zipball/aa00c43f1ff4680307ac6e77938cb06f2cb0d286",
-                    "reference": "aa00c43f1ff4680307ac6e77938cb06f2cb0d286",
+                    "url": "https://api.github.com/repos/pods-framework/pods-wp-cli/zipball/04d7114c92c565256b174115bee66dd8ce64fede",
+                    "reference": "04d7114c92c565256b174115bee66dd8ce64fede",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3"
                 },
-                "time": "2013-08-17 19:50:58",
+                "time": "2013-10-01 23:12:41",
                 "type": "command",
                 "autoload": {
                     "files": [
