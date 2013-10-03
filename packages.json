@@ -58,15 +58,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/humanmade/wp-remote-cli.git",
-                    "reference": "c08ead1dc6ce8f83487883e4b79406a67a2a9e38"
+                    "reference": "6a15c2c5e557e96ada42da064905ffcea19878c2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/c08ead1dc6ce8f83487883e4b79406a67a2a9e38",
-                    "reference": "c08ead1dc6ce8f83487883e4b79406a67a2a9e38",
+                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/6a15c2c5e557e96ada42da064905ffcea19878c2",
+                    "reference": "6a15c2c5e557e96ada42da064905ffcea19878c2",
                     "shasum": ""
                 },
-                "time": "2013-10-02 15:10:51",
+                "time": "2013-10-03 09:43:44",
                 "type": "library",
                 "autoload": {
                     "files": [
