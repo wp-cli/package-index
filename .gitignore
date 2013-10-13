@@ -1,2 +1,3 @@
 web/
 /satis.json
+.DS_store
