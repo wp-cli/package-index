@@ -1,63 +1,72 @@
 <!DOCTYPE html>
-<html>
 <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="robots" content="noindex,nofollow" />
-    <title>WP-CLI Composer Repository</title>
+    <link rel="icon" type="image/x-icon" href="//github.com/favicon.ico" />
+    <title>Composer Repository | WP-CLI</title>
+    <link rel="stylesheet" type="text/css" href="http://www.wp-cli.org/assets/css/stylesheet.css" media="screen" />
     <style type="text/css">
-    /*
-Copyright (c) 2009, Yahoo! Inc. All rights reserved.
-Code licensed under the BSD License:
-http://developer.yahoo.net/yui/license.txt
-version: 2.8.0r4
-*/
-html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea,button{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}body{text-align:center;}#doc,#doc2,#doc3,#doc4,.yui-t1,.yui-t2,.yui-t3,.yui-t4,.yui-t5,.yui-t6,.yui-t7{margin:auto;text-align:left;width:57.69em;*width:56.25em;}#doc2{width:73.076em;*width:71.25em;}#doc3{margin:auto 10px;width:auto;}#doc4{width:74.923em;*width:73.05em;}.yui-b{position:relative;}.yui-b{_position:static;}#yui-main .yui-b{position:static;}#yui-main,.yui-g .yui-u .yui-g{width:100%;}.yui-t1 #yui-main,.yui-t2 #yui-main,.yui-t3 #yui-main{float:right;margin-left:-25em;}.yui-t4 #yui-main,.yui-t5 #yui-main,.yui-t6 #yui-main{float:left;margin-right:-25em;}.yui-t1 .yui-b{float:left;width:12.30769em;*width:12.00em;}.yui-t1 #yui-main .yui-b{margin-left:13.30769em;*margin-left:13.05em;}.yui-t2 .yui-b{float:left;width:13.8461em;*width:13.50em;}.yui-t2 #yui-main .yui-b{margin-left:14.8461em;*margin-left:14.55em;}.yui-t3 .yui-b{float:left;width:23.0769em;*width:22.50em;}.yui-t3 #yui-main .yui-b{margin-left:24.0769em;*margin-left:23.62em;}.yui-t4 .yui-b{float:right;width:13.8456em;*width:13.50em;}.yui-t4 #yui-main .yui-b{margin-right:14.8456em;*margin-right:14.55em;}.yui-t5 .yui-b{float:right;width:18.4615em;*width:18.00em;}.yui-t5 #yui-main .yui-b{margin-right:19.4615em;*margin-right:19.125em;}.yui-t6 .yui-b{float:right;width:23.0769em;*width:22.50em;}.yui-t6 #yui-main .yui-b{margin-right:24.0769em;*margin-right:23.62em;}.yui-t7 #yui-main .yui-b{display:block;margin:0 0 1em 0;}#yui-main .yui-b{float:none;width:auto;}.yui-gb .yui-u,.yui-g .yui-gb .yui-u,.yui-gb .yui-g,.yui-gb .yui-gb,.yui-gb .yui-gc,.yui-gb .yui-gd,.yui-gb .yui-ge,.yui-gb .yui-gf,.yui-gc .yui-u,.yui-gc .yui-g,.yui-gd .yui-u{float:left;}.yui-g .yui-u,.yui-g .yui-g,.yui-g .yui-gb,.yui-g .yui-gc,.yui-g .yui-gd,.yui-g .yui-ge,.yui-g .yui-gf,.yui-gc .yui-u,.yui-gd .yui-g,.yui-g .yui-gc .yui-u,.yui-ge .yui-u,.yui-ge .yui-g,.yui-gf .yui-g,.yui-gf .yui-u{float:right;}.yui-g div.first,.yui-gb div.first,.yui-gc div.first,.yui-gd div.first,.yui-ge div.first,.yui-gf div.first,.yui-g .yui-gc div.first,.yui-g .yui-ge div.first,.yui-gc div.first div.first{float:left;}.yui-g .yui-u,.yui-g .yui-g,.yui-g .yui-gb,.yui-g .yui-gc,.yui-g .yui-gd,.yui-g .yui-ge,.yui-g .yui-gf{width:49.1%;}.yui-gb .yui-u,.yui-g .yui-gb .yui-u,.yui-gb .yui-g,.yui-gb .yui-gb,.yui-gb .yui-gc,.yui-gb .yui-gd,.yui-gb .yui-ge,.yui-gb .yui-gf,.yui-gc .yui-u,.yui-gc .yui-g,.yui-gd .yui-u{width:32%;margin-left:1.99%;}.yui-gb .yui-u{*margin-left:1.9%;*width:31.9%;}.yui-gc div.first,.yui-gd .yui-u{width:66%;}.yui-gd div.first{width:32%;}.yui-ge div.first,.yui-gf .yui-u{width:74.2%;}.yui-ge .yui-u,.yui-gf div.first{width:24%;}.yui-g .yui-gb div.first,.yui-gb div.first,.yui-gc div.first,.yui-gd div.first{margin-left:0;}.yui-g .yui-g .yui-u,.yui-gb .yui-g .yui-u,.yui-gc .yui-g .yui-u,.yui-gd .yui-g .yui-u,.yui-ge .yui-g .yui-u,.yui-gf .yui-g .yui-u{width:49%;*width:48.1%;*margin-left:0;}.yui-g .yui-g .yui-u{width:48.1%;}.yui-g .yui-gb div.first,.yui-gb .yui-gb div.first{*margin-right:0;*width:32%;_width:31.7%;}.yui-g .yui-gc div.first,.yui-gd .yui-g{width:66%;}.yui-gb .yui-g div.first{*margin-right:4%;_margin-right:1.3%;}.yui-gb .yui-gc div.first,.yui-gb .yui-gd div.first{*margin-right:0;}.yui-gb .yui-gb .yui-u,.yui-gb .yui-gc .yui-u{*margin-left:1.8%;_margin-left:4%;}.yui-g .yui-gb .yui-u{_margin-left:1.0%;}.yui-gb .yui-gd .yui-u{*width:66%;_width:61.2%;}.yui-gb .yui-gd div.first{*width:31%;_width:29.5%;}.yui-g .yui-gc .yui-u,.yui-gb .yui-gc .yui-u{width:32%;_float:right;margin-right:0;_margin-left:0;}.yui-gb .yui-gc div.first{width:66%;*float:left;*margin-left:0;}.yui-gb .yui-ge .yui-u,.yui-gb .yui-gf .yui-u{margin:0;}.yui-gb .yui-gb .yui-u{_margin-left:.7%;}.yui-gb .yui-g div.first,.yui-gb .yui-gb div.first{*margin-left:0;}.yui-gc .yui-g .yui-u,.yui-gd .yui-g .yui-u{*width:48.1%;*margin-left:0;}.yui-gb .yui-gd div.first{width:32%;}.yui-g .yui-gd div.first{_width:29.9%;}.yui-ge .yui-g{width:24%;}.yui-gf .yui-g{width:74.2%;}.yui-gb .yui-ge div.yui-u,.yui-gb .yui-gf div.yui-u{float:right;}.yui-gb .yui-ge div.first,.yui-gb .yui-gf div.first{float:left;}.yui-gb .yui-ge .yui-u,.yui-gb .yui-gf div.first{*width:24%;_width:20%;}.yui-gb .yui-ge div.first,.yui-gb .yui-gf .yui-u{*width:73.5%;_width:65.5%;}.yui-ge div.first .yui-gd .yui-u{width:65%;}.yui-ge div.first .yui-gd div.first{width:32%;}#hd:after,#bd:after,#ft:after,.yui-g:after,.yui-gb:after,.yui-gc:after,.yui-gd:after,.yui-ge:after,.yui-gf:after{content:".";display:block;height:0;clear:both;visibility:hidden;}#hd,#bd,#ft,.yui-g,.yui-gb,.yui-gc,.yui-gd,.yui-ge,.yui-gf{zoom:1;}
+    /* Merge to wp-cli.org stylesheet */
 
-/* Satis stylesheet (heavily inspired by Pirum) */
-html { overflow-y: scroll; }
-em { font-style: italic }
-strong { font-weight: bold }
-small { font-size: 80% }
-h1, h2, h3 { font-family:Georgia,Times New Roman,serif; letter-spacing: -0.03em; }
-h1 { font-size: 35px; margin-top: 20px; margin-bottom: 30px }
-h2 { font-size: 30px; margin-bottom: 20px; margin-top: 15px }
-h3 { font-size: 26px; margin-bottom: 10px; margin-top: 20px }
-pre { background-color: #000; color: #fff; margin: 5px 0; overflow: auto; padding: 10px; font-family: monospace }
-#ft { margin-top: 10px }
-ul { margin-top: 5px }
-li strong { color: #666 }
-p { margin-bottom: 10px }
-table { width: 100% }
-table th { width: 20% }
-table td, table th { padding: 4px; border: 1px solid #ccc }
-th { background-color: #eee }
-input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
-    </style>
+hr {
+	margin-bottom: 1em;
+}
+table.horizontal th {
+	border-bottom: none;
+}
+
+/* Packaging index */
+.package {
+	border-bottom: 1px dashed #b5e853;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+.package th {
+	width: 150px;
+}    </style>
 </head>
 <body>
 
-    <div id="doc" class="yui-t7">
-        <div id="hd">
-            <h1>WP-CLI Composer Repository</h1>
-                    </div>
-        <div id="bd">
-            <div class="yui-g">
-                Adding the repository to <em>composer.json</em>:
-                <pre><code>{
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://wp-cli.org/package-index/"
-        }
-    ]
-}</code></pre>
+    <header>
+    <div class="container">
+        <h1><a href="/">WP-CLI</a></h1>
+        <h2>A command line interface for WordPress</h2>
+
+        <section id="downloads">
+        <a href="/commands/" class="btn btn-cmd">Commands</a>
+        <a href="/config/" class="btn btn-config">Configuration</a>
+        <a href="/package-index/" class="btn btn-packages active">Packages</a>
+        <a href="/blog/" class="btn btn-blog">Blog</a>
+        <a href="https://github.com/wp-cli/wp-cli/wiki" class="btn btn-github">Wiki</a>
+        <a href="https://github.com/wp-cli/wp-cli" class="btn btn-source">Github</a>
+        <a href="https://twitter.com/wpcli" class="btn btn-twitter">Twitter</a>
+        </section>
+    </div>
+    </header>
+
+    <div class="container">
+            <section id="main_content">
+
+                <h1>WP-CLI Composer Repository</h1>
+                
+                <p id="add-repo">Adding your package to the index is dead simple:</p>
+
+                <ol>
+                    <li>Go to the <a class="external" target="'_blank" href="//github.com/wp-cli/package-index/blob/master/repositories.txt">repositories.txt</a> file and press the "Edit" button.</li>
+                    <li>Add your package's repository URL to the file.</li>
+                    <li>Write a short summary for the change and click "Propose File Change".</li>
+                </ol>
+                <p>The Github UI will take care of forking and opening a pull request for you.</p>
+
+                <hr />
 
                 Filter by package name:
-                <input type="text" id="search" autocomplete="off" autofocus />
+                <input type="text" id="search" class="search" autocomplete="off" autofocus />
 
                                     <h3 id="danielbachhuber/wp-cli-stat-command">danielbachhuber/wp-cli-stat-command</h3>
                                             <p>Explore data about your WordPress site.</p>
-                                        <table>
+                                        <table class="horizontal package">
                                                     <tr>
                                 <th>Homepage</th>
                                 <td><a href="https://github.com/danielbachhuber/wp-cli-stat-command">https://github.com/danielbachhuber/wp-cli-stat-command</a></td>
@@ -76,15 +85,12 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             <td>
                                 <a href="https://api.github.com/repos/danielbachhuber/wp-cli-stat-command/zipball/1f15735772f024d4688ca678b6a896b34f7a6f7f" title="1f15735772f024d4688ca678b6a896b34f7a6f7f">dev-master</a>                            </td>
                         </tr>
-                        <tr>
-                            <th>Required by</th>
-                            <td>
-                                                                                            </td>
-                        </tr>
+                        
+                                                                                            
                     </table>
                                     <h3 id="humanmade/wp-remote-cli">humanmade/wp-remote-cli</h3>
                                             <p>Manage your WordPress sites using WP Remote and WP-CLI.</p>
-                                        <table>
+                                        <table class="horizontal package">
                                                                             <tr>
                                 <th>License</th>
                                 <td>MIT</td>
@@ -99,15 +105,12 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             <td>
                                 <a href="https://api.github.com/repos/humanmade/wp-remote-cli/zipball/139f55d477b06cf4893f0198210d6abadbccaa87" title="139f55d477b06cf4893f0198210d6abadbccaa87">dev-master</a>, <a href="https://api.github.com/repos/humanmade/wp-remote-cli/zipball/137cf5bc98860fc8336e339d273b9adc4057ce51" title="137cf5bc98860fc8336e339d273b9adc4057ce51">dev-endpoint-fixes</a>                            </td>
                         </tr>
-                        <tr>
-                            <th>Required by</th>
-                            <td>
-                                                                                            </td>
-                        </tr>
+                        
+                                                                                            
                     </table>
                                     <h3 id="oxford-themes/wp-cli-git-command">oxford-themes/wp-cli-git-command</h3>
                                             <p>WordPress Git helpers, like pre-commit hooks for automatic MySQL database dumps.</p>
-                                        <table>
+                                        <table class="horizontal package">
                                                     <tr>
                                 <th>Homepage</th>
                                 <td><a href="https://github.com/oxford-themes/wp-cli-git-command">https://github.com/oxford-themes/wp-cli-git-command</a></td>
@@ -126,15 +129,12 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             <td>
                                 <a href="https://api.github.com/repos/oxford-themes/wp-cli-git-command/zipball/1c1cb43781494304c838593eb530bf60bab3af98" title="1c1cb43781494304c838593eb530bf60bab3af98">dev-master</a>, <a href="https://api.github.com/repos/oxford-themes/wp-cli-git-command/zipball/8bba74621676b4ae2ef141d55d761c8f9f3036de" title="8bba74621676b4ae2ef141d55d761c8f9f3036de">v1.0.1</a>, <a href="https://api.github.com/repos/oxford-themes/wp-cli-git-command/zipball/be597a7d38666db13910ed5b1a4f9a05287e5eae" title="be597a7d38666db13910ed5b1a4f9a05287e5eae">v1.0.0</a>                            </td>
                         </tr>
-                        <tr>
-                            <th>Required by</th>
-                            <td>
-                                                                                            </td>
-                        </tr>
+                        
+                                                                                            
                     </table>
                                     <h3 id="pixline/wp-cli-theme-test-command">pixline/wp-cli-theme-test-command</h3>
                                             <p>Install and configure WordPress theme unit tests</p>
-                                        <table>
+                                        <table class="horizontal package">
                                                     <tr>
                                 <th>Homepage</th>
                                 <td><a href="https://github.com/pixline/wp-cli-theme-test-command">https://github.com/pixline/wp-cli-theme-test-command</a></td>
@@ -153,15 +153,12 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             <td>
                                 <a href="https://api.github.com/repos/pixline/wp-cli-theme-test-command/zipball/3c58ff495d1a05a8a4a5f8d8685a4734d39fcae3" title="3c58ff495d1a05a8a4a5f8d8685a4734d39fcae3">dev-master</a>                            </td>
                         </tr>
-                        <tr>
-                            <th>Required by</th>
-                            <td>
-                                                                                            </td>
-                        </tr>
+                        
+                                                                                            
                     </table>
                                     <h3 id="pods-framework/pods-wp-cli">pods-framework/pods-wp-cli</h3>
                                             <p>WordPress Pods WP-CLI commands</p>
-                                        <table>
+                                        <table class="horizontal package">
                                                     <tr>
                                 <th>Homepage</th>
                                 <td><a href="https://github.com/pods-framework/pods-wp-cli">https://github.com/pods-framework/pods-wp-cli</a></td>
@@ -180,15 +177,12 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             <td>
                                 <a href="https://api.github.com/repos/pods-framework/pods-wp-cli/zipball/04d7114c92c565256b174115bee66dd8ce64fede" title="04d7114c92c565256b174115bee66dd8ce64fede">dev-master</a>                            </td>
                         </tr>
-                        <tr>
-                            <th>Required by</th>
-                            <td>
-                                                                                            </td>
-                        </tr>
+                        
+                                                                                            
                     </table>
                                     <h3 id="srtfisher/wp-composer">srtfisher/wp-composer</h3>
                                             <p>WP-CLI wrapper for Composer</p>
-                                        <table>
+                                        <table class="horizontal package">
                                                     <tr>
                                 <th>Homepage</th>
                                 <td><a href="http://wordpress.org/plugins/composer">http://wordpress.org/plugins/composer</a></td>
@@ -207,15 +201,12 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             <td>
                                 <a href="https://api.github.com/repos/srtfisher/wp-composer/zipball/bcb1e78d21e5a4649297a0c12e2b24961fe87efa" title="bcb1e78d21e5a4649297a0c12e2b24961fe87efa">dev-master</a>, <a href="https://api.github.com/repos/srtfisher/wp-composer/zipball/5f1462f9cb1944c691506b5cc72d66e2fd5213a2" title="5f1462f9cb1944c691506b5cc72d66e2fd5213a2">0.1.2</a>, <a href="https://api.github.com/repos/srtfisher/wp-composer/zipball/470dfc117d78044c77bb3b3eace5ee0f5019a80f" title="470dfc117d78044c77bb3b3eace5ee0f5019a80f">0.1.1</a>, <a href="https://api.github.com/repos/srtfisher/wp-composer/zipball/a3f9ddf1b8c28a9208f203490e75f816e1e000fe" title="a3f9ddf1b8c28a9208f203490e75f816e1e000fe">0.1</a>                            </td>
                         </tr>
-                        <tr>
-                            <th>Required by</th>
-                            <td>
-                                                                                            </td>
-                        </tr>
+                        
+                                                                                            
                     </table>
                                     <h3 id="wp-cli/server-command">wp-cli/server-command</h3>
                                             <p>Start a development server for WordPress</p>
-                                        <table>
+                                        <table class="horizontal package">
                                                     <tr>
                                 <th>Homepage</th>
                                 <td><a href="https://github.com/wp-cli/server-command">https://github.com/wp-cli/server-command</a></td>
@@ -229,18 +220,18 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             <td>
                                 <a href="https://api.github.com/repos/wp-cli/server-command/zipball/e7ca161706c43ece9b82ab7b7d37fa73be6b199f" title="e7ca161706c43ece9b82ab7b7d37fa73be6b199f">dev-master</a>                            </td>
                         </tr>
-                        <tr>
-                            <th>Required by</th>
-                            <td>
-                                                                                            </td>
-                        </tr>
+                        
+                                                                                            
                     </table>
-                            </div>
-        </div>
-        <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2013-10-03T13:00:35-0400</small></p>
-        </div>
+                        </section>
     </div>
+
+    <footer>
+        <p>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2013-10-14T00:31:08+0300</p>
+
+        <p>Initial code by <a href="https://github.com/andreascreten">Andreas Creten</a>. Project maintained by <a href="https://github.com/scribu">Cristi Burc&#259;</a>.</p>
+    </footer>
+
 
     <script>
     /*! jQuery v2.0.0 | (c) 2005, 2013 jQuery Foundation, Inc. | jquery.org/license
@@ -265,6 +256,17 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
             });
         }).focus();
     });
+    </script>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-962663-21");
+            pageTracker._trackPageview();
+        } catch(err) {}
     </script>
 </body>
 </html>
