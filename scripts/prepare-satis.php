@@ -27,6 +27,7 @@ file_put_contents( JSON_PATH, json_encode( array(
 	"require-all" => true,
 	"output-dir" => "web",
 	"repositories" => read_repos(),
+	"twig-template" => "views/index.html.twig"
 ) ) );
 
 printf( "Generated %s file.\n", JSON_PATH );

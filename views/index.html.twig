@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="icon" type="image/x-icon" href="//github.com/favicon.ico" />
+    <title>Composer Repository | WP-CLI</title>
+    <link rel="stylesheet" type="text/css" href="http://www.wp-cli.org/assets/css/stylesheet.css" media="screen" />
+    <style type="text/css">
+    {% include 'styles.css' %}
+    </style>
+</head>
+<body>
+
+    <header>
+    <div class="container">
+        <h1><a href="/">WP-CLI</a></h1>
+        <h2>A command line interface for WordPress</h2>
+
+        <section id="downloads">
+        <a href="/commands/" class="btn btn-cmd">Commands</a>
+        <a href="/config/" class="btn btn-config">Configuration</a>
+        <a href="/package-index/" class="btn btn-packages active">Packages</a>
+        <a href="/blog/" class="btn btn-blog">Blog</a>
+        <a href="https://github.com/wp-cli/wp-cli/wiki" class="btn btn-github">Wiki</a>
+        <a href="https://github.com/wp-cli/wp-cli" class="btn btn-source">Github</a>
+        <a href="https://twitter.com/wpcli" class="btn btn-twitter">Twitter</a>
+        </section>
+    </div>
+    </header>
+
+    <div class="container">
+            <section id="main_content">
+
+                <h1>{{ name }} Composer Repository</h1>
+                {% if description %}
+                    <p>{{ description }}</p>
+                {% endif %}
+
+                <p id="add-repo">Adding your package to the index is dead simple:</p>
+
+                <ol>
+                    <li>Go to the <a class="external" target="'_blank" href="//github.com/wp-cli/package-index/blob/master/repositories.txt">repositories.txt</a> file and press the "Edit" button.</li>
+                    <li>Add your package's repository URL to the file.</li>
+                    <li>Write a short summary for the change and click "Propose File Change".</li>
+                </ol>
+                <p>The Github UI will take care of forking and opening a pull request for you.</p>
+
+                <hr />
+
+                Filter by package name:
+                <input type="text" id="search" class="search" autocomplete="off" autofocus />
+
+                {% for name, package in packages %}
+                    <h3 id="{{ package.highest.name }}">{{ package.highest.name }}</h3>
+                    {% if package.highest.description %}
+                        <p>{{ package.highest.description }}</p>
+                    {% endif %}
+                    <table class="horizontal package">
+                        {% if package.highest.homepage %}
+                            <tr>
+                                <th>Homepage</th>
+                                <td><a href="{{ package.highest.homepage }}">{{ package.highest.homepage }}</a></td>
+                            </tr>
+                        {% endif %}
+                        {% if package.highest.license %}
+                            <tr>
+                                <th>License</th>
+                                <td>{{ package.highest.license|join(', ') }}</td>
+                            </tr>
+                        {% endif %}
+                        {% if package.highest.authors %}
+                            <tr>
+                                <th>Authors</th>
+                                <td>
+                                    {% for author in package.highest.authors %}
+                                        {%- if author.homepage -%}
+                                            <a href="{{ author.homepage }}">{{ author.name }}</a>
+                                        {%- else -%}
+                                            {{ author.name }}
+                                        {%- endif -%}
+                                        {%- if not loop.last -%}, {% endif -%}
+                                    {% endfor %}
+                                </td>
+                            </tr>
+                        {% endif %}
+                        <tr>
+                            <th>Releases</th>
+                            <td>
+                                {% for version in package.versions %}
+                                    {%- if version.distType -%}
+                                        <a href="{{ version.distUrl }}" title="{{ version.distReference }}">{{ version.prettyVersion }}</a>
+                                    {%- else -%}
+                                        <a href="{{ version.sourceUrl }}" title="{{ version.sourceReference }}">{{ version.prettyVersion }}</a>
+                                    {%- endif -%}
+                                    {%- if not loop.last -%}, {% endif -%}
+                                {% endfor %}
+                            </td>
+                        </tr>
+                        
+                                {% set package_dependencies = attribute(dependencies, name) %}
+                                {% if package_dependencies|length %}
+                                <tr>
+                                <th>Required by</th>
+                                <td>
+                                    <ul>
+                                        {% for dependency in package_dependencies %}
+                                            <li><a href="#{{ dependency }}">{{ dependency }}</a></li>
+                                        {% endfor %}
+                                    </ul>
+                                    </td>
+                        </tr>
+                                {% endif %}
+                            
+                    </table>
+                {% endfor %}
+        </section>
+    </div>
+
+    <footer>
+        <p>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> {{ constant('Composer\\Satis\\Satis::VERSION') }} - Last updated:  {{ "now"|date(constant('\DateTime::ISO8601')) }}</p>
+
+        <p>Initial code by <a href="https://github.com/andreascreten">Andreas Creten</a>. Project maintained by <a href="https://github.com/scribu">Cristi Burc&#259;</a>.</p>
+    </footer>
+
+
+    <script>
+    {% include 'jquery-2.0.0.js' %}
+    $(function(){
+        var packages = $('h3').each(function(){
+            var desc = $(this).next('p'),
+                info = desc.length ? desc.next('table') : $(this).next('table');
+            $(this).data('desc', desc);
+            $(this).data('info', info);
+        });
+        $('input#search').keyup(function(){
+            var needle = $(this).val().toLowerCase(), show;
+            packages.each(function(){
+                show = $(this).text().toLowerCase().indexOf(needle) != -1;
+                $(this).toggle(show);
+                $(this).data('desc').toggle(show);
+                $(this).data('info').toggle(show);
+            });
+        }).focus();
+    });
+    </script>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-962663-21");
+            pageTracker._trackPageview();
+        } catch(err) {}
+    </script>
+</body>
+</html>
