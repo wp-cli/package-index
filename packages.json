@@ -58,15 +58,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/humanmade/wp-remote-cli.git",
-                    "reference": "139f55d477b06cf4893f0198210d6abadbccaa87"
+                    "reference": "fc0c72f910dabd9456a5eb77356eac9d5885b835"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/139f55d477b06cf4893f0198210d6abadbccaa87",
-                    "reference": "139f55d477b06cf4893f0198210d6abadbccaa87",
+                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/fc0c72f910dabd9456a5eb77356eac9d5885b835",
+                    "reference": "fc0c72f910dabd9456a5eb77356eac9d5885b835",
                     "shasum": ""
                 },
-                "time": "2013-10-03 16:48:51",
+                "time": "2013-11-13 20:02:37",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -130,6 +130,88 @@
                 "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
                 "support": {
                     "source": "https://github.com/humanmade/wp-remote-cli/tree/endpoint-fixes",
+                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
+                }
+            },
+            "dev-fourth-level-commands": {
+                "name": "humanmade/wp-remote-cli",
+                "version": "dev-fourth-level-commands",
+                "version_normalized": "dev-fourth-level-commands",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/wp-remote-cli.git",
+                    "reference": "1ffb5234066a6fa1d5ff802e5e03590f7000d91a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/1ffb5234066a6fa1d5ff802e5e03590f7000d91a",
+                    "reference": "1ffb5234066a6fa1d5ff802e5e03590f7000d91a",
+                    "shasum": ""
+                },
+                "time": "2013-10-30 01:49:59",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-remote-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Humanmade",
+                        "email": "hello@hmn.md"
+                    },
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@hmn.md"
+                    }
+                ],
+                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
+                "support": {
+                    "source": "https://github.com/humanmade/wp-remote-cli/tree/fourth-level-commands",
+                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
+                }
+            },
+            "dev-post-command": {
+                "name": "humanmade/wp-remote-cli",
+                "version": "dev-post-command",
+                "version_normalized": "dev-post-command",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/wp-remote-cli.git",
+                    "reference": "901a1ae4a9bc59001a66cf7c973decae817a2f02"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/901a1ae4a9bc59001a66cf7c973decae817a2f02",
+                    "reference": "901a1ae4a9bc59001a66cf7c973decae817a2f02",
+                    "shasum": ""
+                },
+                "time": "2013-11-15 02:05:02",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-remote-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Humanmade",
+                        "email": "hello@hmn.md"
+                    },
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@hmn.md"
+                    }
+                ],
+                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
+                "support": {
+                    "source": "https://github.com/humanmade/wp-remote-cli/tree/post-command",
                     "issues": "https://github.com/humanmade/wp-remote-cli/issues"
                 }
             }
@@ -284,6 +366,54 @@
             }
         },
         "pixline/wp-cli-theme-test-command": {
+            "v0.5.0": {
+                "name": "pixline/wp-cli-theme-test-command",
+                "version": "v0.5.0",
+                "version_normalized": "0.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixline/wp-cli-theme-test-command.git",
+                    "reference": "668a35e6dd66a44e49584a10acc9983414ae97bf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-theme-test-command/zipball/668a35e6dd66a44e49584a10acc9983414ae97bf",
+                    "reference": "668a35e6dd66a44e49584a10acc9983414ae97bf",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0",
+                    "wp-cli/wp-cli": ">=0.11"
+                },
+                "time": "2013-11-14 02:22:19",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-theme-test-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Paolo Tresso",
+                        "email": "plugins@swergroup.com",
+                        "homepage": "http://swergroup.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Install and configure WordPress theme unit tests",
+                "homepage": "https://github.com/pixline/wp-cli-theme-test-command",
+                "keywords": [
+                    "theme-test",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/pixline/wp-cli-theme-test-command/issues",
+                    "source": "https://github.com/pixline/wp-cli-theme-test-command"
+                }
+            },
             "dev-master": {
                 "name": "pixline/wp-cli-theme-test-command",
                 "version": "dev-master",
@@ -291,19 +421,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pixline/wp-cli-theme-test-command.git",
-                    "reference": "3c58ff495d1a05a8a4a5f8d8685a4734d39fcae3"
+                    "reference": "668a35e6dd66a44e49584a10acc9983414ae97bf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pixline/wp-cli-theme-test-command/zipball/3c58ff495d1a05a8a4a5f8d8685a4734d39fcae3",
-                    "reference": "3c58ff495d1a05a8a4a5f8d8685a4734d39fcae3",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-theme-test-command/zipball/668a35e6dd66a44e49584a10acc9983414ae97bf",
+                    "reference": "668a35e6dd66a44e49584a10acc9983414ae97bf",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0",
                     "wp-cli/wp-cli": ">=0.11"
                 },
-                "time": "2013-08-08 15:43:00",
+                "time": "2013-11-14 02:22:19",
                 "type": "command",
                 "autoload": {
                     "files": [
@@ -581,18 +711,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "e7ca161706c43ece9b82ab7b7d37fa73be6b199f"
+                    "reference": "28fb3f50acb78d2bbf22312c28fb774663e74a52"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/e7ca161706c43ece9b82ab7b7d37fa73be6b199f",
-                    "reference": "e7ca161706c43ece9b82ab7b7d37fa73be6b199f",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/28fb3f50acb78d2bbf22312c28fb774663e74a52",
+                    "reference": "28fb3f50acb78d2bbf22312c28fb774663e74a52",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2013-08-19 12:59:28",
+                "time": "2013-11-13 15:15:29",
                 "type": "library",
                 "autoload": {
                     "files": [
