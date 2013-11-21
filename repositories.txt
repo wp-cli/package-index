@@ -5,3 +5,4 @@ https://github.com/pixline/wp-cli-theme-test-command
 https://github.com/srtfisher/wp-composer
 https://github.com/oxford-themes/wp-cli-git-command
 https://github.com/pods-framework/pods-wp-cli
+https://github.com/x-team/wp-cli-ssh
