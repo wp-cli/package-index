@@ -761,72 +761,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/x-team/wp-cli-ssh.git",
-                    "reference": "9e8bbfb56af06de1eb78e0f59b6c802087f27a0b"
+                    "reference": "2bbb8fd78b9e0f7e04ce5e8dde096c0ad8ff791a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/9e8bbfb56af06de1eb78e0f59b6c802087f27a0b",
-                    "reference": "9e8bbfb56af06de1eb78e0f59b6c802087f27a0b",
+                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/2bbb8fd78b9e0f7e04ce5e8dde096c0ad8ff791a",
+                    "reference": "2bbb8fd78b9e0f7e04ce5e8dde096c0ad8ff791a",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2013-11-21 00:08:18",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "wp-cli-ssh.php"
-                    ]
-                },
-                "license": [
-                    "GPLv2"
-                ],
-                "authors": [
-                    {
-                        "name": "Jonathan Bardo",
-                        "email": "jonathan.bardo@x-team.com",
-                        "homepage": "http://www.jonathanbardo.com/",
-                        "role": "Developer"
-                    },
-                    {
-                        "name": "Weston Ruter",
-                        "email": "weston@x-team.com",
-                        "homepage": "http://weston.ruter.net",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Invoke WP-CLI on another server via SSH from local machine",
-                "homepage": "https://github.com/x-team/wp-cli-ssh",
-                "keywords": [
-                    "remote",
-                    "ssh",
-                    "wp-cli"
-                ],
-                "support": {
-                    "issues": "https://github.com/x-team/wp-cli-ssh/issues",
-                    "source": "https://github.com/x-team/wp-cli-ssh"
-                }
-            },
-            "dev-p-cli-github": {
-                "name": "x-team/wp-cli-ssh",
-                "version": "dev-p-cli-github",
-                "version_normalized": "dev-p-cli-github",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/x-team/wp-cli-ssh.git",
-                    "reference": "9e8bbfb56af06de1eb78e0f59b6c802087f27a0b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/9e8bbfb56af06de1eb78e0f59b6c802087f27a0b",
-                    "reference": "9e8bbfb56af06de1eb78e0f59b6c802087f27a0b",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2013-11-21 00:08:18",
+                "time": "2013-11-22 21:29:18",
                 "type": "library",
                 "autoload": {
                     "files": [
