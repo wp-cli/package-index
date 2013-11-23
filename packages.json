@@ -748,18 +748,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/x-team/wp-cli-ssh.git",
-                    "reference": "9e8bbfb56af06de1eb78e0f59b6c802087f27a0b"
+                    "reference": "8fae395a2e2133c577d45b96ce1efd9eedb44f11"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/9e8bbfb56af06de1eb78e0f59b6c802087f27a0b",
-                    "reference": "9e8bbfb56af06de1eb78e0f59b6c802087f27a0b",
+                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/8fae395a2e2133c577d45b96ce1efd9eedb44f11",
+                    "reference": "8fae395a2e2133c577d45b96ce1efd9eedb44f11",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2013-11-21 00:08:18",
+                "time": "2013-11-23 07:51:23",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -802,18 +802,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/x-team/wp-cli-ssh.git",
-                    "reference": "2bbb8fd78b9e0f7e04ce5e8dde096c0ad8ff791a"
+                    "reference": "a1ecba534b67b39212951e2839289607c2512109"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/2bbb8fd78b9e0f7e04ce5e8dde096c0ad8ff791a",
-                    "reference": "2bbb8fd78b9e0f7e04ce5e8dde096c0ad8ff791a",
+                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/a1ecba534b67b39212951e2839289607c2512109",
+                    "reference": "a1ecba534b67b39212951e2839289607c2512109",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2013-11-22 21:29:18",
+                "time": "2013-11-23 07:45:31",
                 "type": "library",
                 "autoload": {
                     "files": [
