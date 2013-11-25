@@ -901,18 +901,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/x-team/wp-cli-ssh.git",
-                    "reference": "687a0db511e50c549b6b69b8446d531be60b66ca"
+                    "reference": "96bd0c1db8790e6d0454103d6c796ad5571990f4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/687a0db511e50c549b6b69b8446d531be60b66ca",
-                    "reference": "687a0db511e50c549b6b69b8446d531be60b66ca",
+                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/96bd0c1db8790e6d0454103d6c796ad5571990f4",
+                    "reference": "96bd0c1db8790e6d0454103d6c796ad5571990f4",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2013-11-25 15:18:23",
+                "time": "2013-11-25 15:44:03",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -926,7 +926,7 @@
                     {
                         "name": "Jonathan Bardo",
                         "email": "jonathan.bardo@x-team.com",
-                        "homepage": "http://www.jonathanbardo.com/",
+                        "homepage": "https://github.com/jonathanbardo",
                         "role": "Developer"
                     },
                     {
