@@ -223,8 +223,14 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:oxford-themes/wp-cli-git-command.git",
-                    "reference": "a9154a12dc54a51038e1ae2893e7504fc5fc0195"
+                    "url": "https://github.com/mattes/wp-cli-git-command.git",
+                    "reference": "be597a7d38666db13910ed5b1a4f9a05287e5eae"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mattes/wp-cli-git-command/zipball/be597a7d38666db13910ed5b1a4f9a05287e5eae",
+                    "reference": "be597a7d38666db13910ed5b1a4f9a05287e5eae",
+                    "shasum": ""
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.11"
@@ -266,8 +272,14 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:oxford-themes/wp-cli-git-command.git",
-                    "reference": "781d68a2e48059cc079047bfb5d5626e32bddef6"
+                    "url": "https://github.com/mattes/wp-cli-git-command.git",
+                    "reference": "8bba74621676b4ae2ef141d55d761c8f9f3036de"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mattes/wp-cli-git-command/zipball/8bba74621676b4ae2ef141d55d761c8f9f3036de",
+                    "reference": "8bba74621676b4ae2ef141d55d761c8f9f3036de",
+                    "shasum": ""
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.11"
@@ -309,8 +321,14 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:oxford-themes/wp-cli-git-command.git",
-                    "reference": "60ee9834febe660e53b9d76387bac467901645ce"
+                    "url": "https://github.com/mattes/wp-cli-git-command.git",
+                    "reference": "95ec07df6e687b80bd0ac7b0da12c8f0529486cf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mattes/wp-cli-git-command/zipball/95ec07df6e687b80bd0ac7b0da12c8f0529486cf",
+                    "reference": "95ec07df6e687b80bd0ac7b0da12c8f0529486cf",
+                    "shasum": ""
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.11"
@@ -352,8 +370,14 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:oxford-themes/wp-cli-git-command.git",
+                    "url": "https://github.com/mattes/wp-cli-git-command.git",
                     "reference": "cc9ed647ec2513ed57fa776237326f6e4e8fab92"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mattes/wp-cli-git-command/zipball/cc9ed647ec2513ed57fa776237326f6e4e8fab92",
+                    "reference": "cc9ed647ec2513ed57fa776237326f6e4e8fab92",
+                    "shasum": ""
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.11"
@@ -387,6 +411,56 @@
                 "support": {
                     "issues": "https://github.com/mattes/wp-cli-git-command/issues",
                     "source": "https://github.com/mattes/wp-cli-git-command"
+                }
+            }
+        },
+        "mattes/wp-cli-quick-install-command": {
+            "dev-master": {
+                "name": "mattes/wp-cli-quick-install-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mattes/wp-cli-quick-install-command.git",
+                    "reference": "7e71ab4dd1d85bf947f11a9e6eef8fdac6fd030c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mattes/wp-cli-quick-install-command/zipball/7e71ab4dd1d85bf947f11a9e6eef8fdac6fd030c",
+                    "reference": "7e71ab4dd1d85bf947f11a9e6eef8fdac6fd030c",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.11"
+                },
+                "time": "2013-11-25 12:31:44",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-quick-install-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Matthias Kadenbach",
+                        "email": "matthias.kadenbach@gmail.com",
+                        "homepage": "http://matthiaskadenbach.de"
+                    }
+                ],
+                "description": "Install WordPress with one command.",
+                "homepage": "https://github.com/mattes/wp-cli-quick-install-command",
+                "keywords": [
+                    "install",
+                    "quick",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/mattes/wp-cli-quick-install-command/issues",
+                    "source": "https://github.com/mattes/wp-cli-quick-install-command"
                 }
             }
         },
