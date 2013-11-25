@@ -847,18 +847,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/x-team/wp-cli-ssh.git",
-                    "reference": "8fae395a2e2133c577d45b96ce1efd9eedb44f11"
+                    "reference": "0b1b5fc1a621790cad97d961de93f9e631e89b14"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/8fae395a2e2133c577d45b96ce1efd9eedb44f11",
-                    "reference": "8fae395a2e2133c577d45b96ce1efd9eedb44f11",
+                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/0b1b5fc1a621790cad97d961de93f9e631e89b14",
+                    "reference": "0b1b5fc1a621790cad97d961de93f9e631e89b14",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2013-11-23 07:51:23",
+                "time": "2013-11-25 21:01:58",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -872,7 +872,7 @@
                     {
                         "name": "Jonathan Bardo",
                         "email": "jonathan.bardo@x-team.com",
-                        "homepage": "http://www.jonathanbardo.com/",
+                        "homepage": "https://github.com/jonathanbardo",
                         "role": "Developer"
                     },
                     {
@@ -901,18 +901,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/x-team/wp-cli-ssh.git",
-                    "reference": "96bd0c1db8790e6d0454103d6c796ad5571990f4"
+                    "reference": "3b83534bfec53d32547000083706077b880f46cb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/96bd0c1db8790e6d0454103d6c796ad5571990f4",
-                    "reference": "96bd0c1db8790e6d0454103d6c796ad5571990f4",
+                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/3b83534bfec53d32547000083706077b880f46cb",
+                    "reference": "3b83534bfec53d32547000083706077b880f46cb",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2013-11-25 15:44:03",
+                "time": "2013-11-25 21:00:33",
                 "type": "library",
                 "autoload": {
                     "files": [
