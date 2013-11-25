@@ -223,14 +223,8 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/oxford-themes/wp-cli-git-command.git",
-                    "reference": "be597a7d38666db13910ed5b1a4f9a05287e5eae"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/oxford-themes/wp-cli-git-command/zipball/be597a7d38666db13910ed5b1a4f9a05287e5eae",
-                    "reference": "be597a7d38666db13910ed5b1a4f9a05287e5eae",
-                    "shasum": ""
+                    "url": "git@github.com:oxford-themes/wp-cli-git-command.git",
+                    "reference": "a9154a12dc54a51038e1ae2893e7504fc5fc0195"
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.11"
@@ -272,14 +266,8 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/oxford-themes/wp-cli-git-command.git",
-                    "reference": "8bba74621676b4ae2ef141d55d761c8f9f3036de"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/oxford-themes/wp-cli-git-command/zipball/8bba74621676b4ae2ef141d55d761c8f9f3036de",
-                    "reference": "8bba74621676b4ae2ef141d55d761c8f9f3036de",
-                    "shasum": ""
+                    "url": "git@github.com:oxford-themes/wp-cli-git-command.git",
+                    "reference": "781d68a2e48059cc079047bfb5d5626e32bddef6"
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.11"
@@ -321,14 +309,8 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/oxford-themes/wp-cli-git-command.git",
+                    "url": "git@github.com:oxford-themes/wp-cli-git-command.git",
                     "reference": "1c1cb43781494304c838593eb530bf60bab3af98"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/oxford-themes/wp-cli-git-command/zipball/1c1cb43781494304c838593eb530bf60bab3af98",
-                    "reference": "1c1cb43781494304c838593eb530bf60bab3af98",
-                    "shasum": ""
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.11"
