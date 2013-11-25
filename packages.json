@@ -310,12 +310,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:oxford-themes/wp-cli-git-command.git",
-                    "reference": "1c1cb43781494304c838593eb530bf60bab3af98"
+                    "reference": "da4cff37e6160eeb21c95668b364c698787aa1d5"
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.11"
                 },
-                "time": "2013-08-19 09:58:34",
+                "time": "2013-11-25 10:58:08",
                 "type": "command",
                 "autoload": {
                     "files": [
