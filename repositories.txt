@@ -6,3 +6,4 @@ https://github.com/srtfisher/wp-composer
 https://github.com/oxford-themes/wp-cli-git-command
 https://github.com/pods-framework/pods-wp-cli
 https://github.com/x-team/wp-cli-ssh
+https://github.com/mattes/wp-cli-quick-install-command
