@@ -422,18 +422,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mattes/wp-cli-quick-install-command.git",
-                    "reference": "7e71ab4dd1d85bf947f11a9e6eef8fdac6fd030c"
+                    "reference": "dc273d5ddc05c26cccb43c4c856ce082507fb449"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mattes/wp-cli-quick-install-command/zipball/7e71ab4dd1d85bf947f11a9e6eef8fdac6fd030c",
-                    "reference": "7e71ab4dd1d85bf947f11a9e6eef8fdac6fd030c",
+                    "url": "https://api.github.com/repos/mattes/wp-cli-quick-install-command/zipball/dc273d5ddc05c26cccb43c4c856ce082507fb449",
+                    "reference": "dc273d5ddc05c26cccb43c4c856ce082507fb449",
                     "shasum": ""
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.11"
                 },
-                "time": "2013-11-25 12:31:44",
+                "time": "2013-11-26 13:40:18",
                 "type": "command",
                 "autoload": {
                     "files": [
