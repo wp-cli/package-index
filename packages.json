@@ -464,6 +464,136 @@
                 }
             }
         },
+        "pixline/wp-cli-devtools": {
+            "0.2.2": {
+                "name": "pixline/wp-cli-devtools",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixline/wp-cli-php-devtools.git",
+                    "reference": "ee53b9c14b81e4fc4d47d68220ada3f03cc05696"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-php-devtools/zipball/ee53b9c14b81e4fc4d47d68220ada3f03cc05696",
+                    "reference": "ee53b9c14b81e4fc4d47d68220ada3f03cc05696",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "phploc/phploc": "2.0.*",
+                    "phpmd/phpmd": "1.5.*",
+                    "phpunit/php-invoker": ">=1.1.0",
+                    "phpunit/phpcov": "2.0.*@dev",
+                    "phpunit/phpunit": "3.7.*",
+                    "pixline/php_codesniffer_wp_standard": "dev-master",
+                    "psy/psysh": "dev-master",
+                    "sebastian/phpcpd": "2.0.*",
+                    "sebastian/phpdcd": "1.0.*@dev",
+                    "wp-cli/wp-cli": ">=0.12"
+                },
+                "time": "2013-11-28 15:28:40",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "default.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Paolo Tresso",
+                        "email": "plugins@swergroup.com",
+                        "homepage": "http://swergroup.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Wrapper around common development utilities",
+                "homepage": "https://github.com/pixline/wp-cli-devtools",
+                "keywords": [
+                    "development",
+                    "phpcov",
+                    "phpcpd",
+                    "phpdcd",
+                    "phploc",
+                    "phpmd",
+                    "phpunit",
+                    "phpunit",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/pixline/wp-cli-devtools/issues",
+                    "source": "https://github.com/pixline/wp-cli-devtools"
+                }
+            },
+            "dev-master": {
+                "name": "pixline/wp-cli-devtools",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixline/wp-cli-php-devtools.git",
+                    "reference": "615ca6b3c91dbe8ef1b2bbc4ee1ed4ecb059df0e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-php-devtools/zipball/615ca6b3c91dbe8ef1b2bbc4ee1ed4ecb059df0e",
+                    "reference": "615ca6b3c91dbe8ef1b2bbc4ee1ed4ecb059df0e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "phploc/phploc": "2.0.*",
+                    "phpmd/phpmd": "1.5.*",
+                    "phpunit/php-invoker": ">=1.1.0",
+                    "phpunit/phpcov": "2.0.*@dev",
+                    "phpunit/phpunit": "3.7.*",
+                    "pixline/php_codesniffer_wp_standard": "dev-master",
+                    "psy/psysh": "dev-master",
+                    "sebastian/phpcpd": "2.0.*",
+                    "sebastian/phpdcd": "1.0.*@dev",
+                    "wp-cli/wp-cli": ">=0.12"
+                },
+                "time": "2013-11-28 15:46:54",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "default.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Paolo Tresso",
+                        "email": "plugins@swergroup.com",
+                        "homepage": "http://swergroup.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Wrapper around common development utilities",
+                "homepage": "https://github.com/pixline/wp-cli-devtools",
+                "keywords": [
+                    "development",
+                    "phpcov",
+                    "phpcpd",
+                    "phpdcd",
+                    "phploc",
+                    "phpmd",
+                    "phpunit",
+                    "phpunit",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/pixline/wp-cli-devtools/issues",
+                    "source": "https://github.com/pixline/wp-cli-devtools"
+                }
+            }
+        },
         "pixline/wp-cli-theme-test-command": {
             "v0.5.0": {
                 "name": "pixline/wp-cli-theme-test-command",
