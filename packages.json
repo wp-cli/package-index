@@ -599,12 +599,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pixline/wp-cli-php-devtools.git",
-                    "reference": "64da9f52e5305114b80e0484159e69319074bdec"
+                    "reference": "e26bf050973888cef79ea97e7b7f5815e4d8fc0e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pixline/wp-cli-php-devtools/zipball/64da9f52e5305114b80e0484159e69319074bdec",
-                    "reference": "64da9f52e5305114b80e0484159e69319074bdec",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-php-devtools/zipball/e26bf050973888cef79ea97e7b7f5815e4d8fc0e",
+                    "reference": "e26bf050973888cef79ea97e7b7f5815e4d8fc0e",
                     "shasum": ""
                 },
                 "require": {
@@ -619,7 +619,7 @@
                     "sebastian/phpdcd": "1.0.*@dev",
                     "wp-cli/wp-cli": ">=0.12"
                 },
-                "time": "2013-11-29 19:26:35",
+                "time": "2013-11-29 19:30:36",
                 "type": "command",
                 "autoload": {
                     "files": [
@@ -662,12 +662,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pixline/wp-cli-php-devtools.git",
-                    "reference": "a66f2ad16477ce7a28a8b847fe3e9afb321955e1"
+                    "reference": "4558e04955ffafd14f75e5793d3e1371833b9df5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pixline/wp-cli-php-devtools/zipball/a66f2ad16477ce7a28a8b847fe3e9afb321955e1",
-                    "reference": "a66f2ad16477ce7a28a8b847fe3e9afb321955e1",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-php-devtools/zipball/4558e04955ffafd14f75e5793d3e1371833b9df5",
+                    "reference": "4558e04955ffafd14f75e5793d3e1371833b9df5",
                     "shasum": ""
                 },
                 "require": {
@@ -682,7 +682,70 @@
                     "sebastian/phpdcd": "1.0.*@dev",
                     "wp-cli/wp-cli": ">=0.12"
                 },
-                "time": "2013-11-29 19:14:43",
+                "time": "2013-11-29 19:42:30",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "default.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Paolo Tresso",
+                        "email": "plugins@swergroup.com",
+                        "homepage": "http://swergroup.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Wrapper around common development utilities",
+                "homepage": "https://github.com/pixline/wp-cli-php-devtools",
+                "keywords": [
+                    "development",
+                    "phpcpd",
+                    "phpcs",
+                    "phpdcd",
+                    "phploc",
+                    "phpmd",
+                    "phpreport",
+                    "phpunit",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/pixline/wp-cli-devtools/issues",
+                    "source": "https://github.com/pixline/wp-cli-devtools"
+                }
+            },
+            "dev-dev-invoke": {
+                "name": "pixline/wp-cli-php-devtools",
+                "version": "dev-dev-invoke",
+                "version_normalized": "dev-dev-invoke",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixline/wp-cli-php-devtools.git",
+                    "reference": "64da9f52e5305114b80e0484159e69319074bdec"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-php-devtools/zipball/64da9f52e5305114b80e0484159e69319074bdec",
+                    "reference": "64da9f52e5305114b80e0484159e69319074bdec",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "phploc/phploc": "2.0.*",
+                    "phpmd/phpmd": "1.5.*",
+                    "phpunit/php-invoker": ">=1.1.0",
+                    "phpunit/phpcov": "2.0.*@dev",
+                    "phpunit/phpunit": "3.7.*",
+                    "pixline/php_codesniffer_wp_standard": "dev-master",
+                    "sebastian/phpcpd": "2.0.*",
+                    "sebastian/phpdcd": "1.0.*@dev",
+                    "wp-cli/wp-cli": ">=0.12"
+                },
+                "time": "2013-11-29 19:26:35",
                 "type": "command",
                 "autoload": {
                     "files": [
