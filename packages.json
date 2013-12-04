@@ -1291,18 +1291,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/x-team/wp-cli-ssh.git",
-                    "reference": "87b94d0094040dbc05ad612adaf36fa8d490ae41"
+                    "reference": "a5fa932119942d89273a5b1231c9bcef1fa1ba0b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/87b94d0094040dbc05ad612adaf36fa8d490ae41",
-                    "reference": "87b94d0094040dbc05ad612adaf36fa8d490ae41",
+                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/a5fa932119942d89273a5b1231c9bcef1fa1ba0b",
+                    "reference": "a5fa932119942d89273a5b1231c9bcef1fa1ba0b",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2013-11-26 18:38:45",
+                "time": "2013-12-04 04:01:09",
                 "type": "library",
                 "autoload": {
                     "files": [
