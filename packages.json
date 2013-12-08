@@ -814,148 +814,22 @@
                     "issues": "https://github.com/pixline/wp-cli-devtools/issues",
                     "source": "https://github.com/pixline/wp-cli-devtools"
                 }
-            },
-            "dev-dev-025": {
-                "name": "pixline/wp-cli-php-devtools",
-                "version": "dev-dev-025",
-                "version_normalized": "dev-dev-025",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pixline/wp-cli-php-devtools.git",
-                    "reference": "64a24542337515ae6d413e16c60bb9b5f3dfee82"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pixline/wp-cli-php-devtools/zipball/64a24542337515ae6d413e16c60bb9b5f3dfee82",
-                    "reference": "64a24542337515ae6d413e16c60bb9b5f3dfee82",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4",
-                    "phploc/phploc": "2.0.*",
-                    "phpmd/phpmd": "1.5.*",
-                    "phpunit/php-invoker": ">=1.1.0",
-                    "phpunit/phpcov": "2.0.*@dev",
-                    "phpunit/phpunit": "3.7.*",
-                    "pixline/php_codesniffer_wp_standard": "dev-master",
-                    "sebastian/phpcpd": "2.0.*",
-                    "sebastian/phpdcd": "1.0.*@dev",
-                    "wp-cli/wp-cli": ">=0.12"
-                },
-                "time": "2013-12-02 17:29:48",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "default.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Paolo Tresso",
-                        "email": "plugins@swergroup.com",
-                        "homepage": "http://swergroup.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Wrapper around common development utilities",
-                "homepage": "https://github.com/pixline/wp-cli-php-devtools",
-                "keywords": [
-                    "development",
-                    "phpcpd",
-                    "phpcs",
-                    "phpdcd",
-                    "phploc",
-                    "phpmd",
-                    "phpreport",
-                    "phpunit",
-                    "wp-cli"
-                ],
-                "support": {
-                    "issues": "https://github.com/pixline/wp-cli-devtools/issues",
-                    "source": "https://github.com/pixline/wp-cli-devtools"
-                }
-            },
-            "dev-dev-invoke": {
-                "name": "pixline/wp-cli-php-devtools",
-                "version": "dev-dev-invoke",
-                "version_normalized": "dev-dev-invoke",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pixline/wp-cli-php-devtools.git",
-                    "reference": "64da9f52e5305114b80e0484159e69319074bdec"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pixline/wp-cli-php-devtools/zipball/64da9f52e5305114b80e0484159e69319074bdec",
-                    "reference": "64da9f52e5305114b80e0484159e69319074bdec",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4",
-                    "phploc/phploc": "2.0.*",
-                    "phpmd/phpmd": "1.5.*",
-                    "phpunit/php-invoker": ">=1.1.0",
-                    "phpunit/phpcov": "2.0.*@dev",
-                    "phpunit/phpunit": "3.7.*",
-                    "pixline/php_codesniffer_wp_standard": "dev-master",
-                    "sebastian/phpcpd": "2.0.*",
-                    "sebastian/phpdcd": "1.0.*@dev",
-                    "wp-cli/wp-cli": ">=0.12"
-                },
-                "time": "2013-11-29 19:26:35",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "default.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Paolo Tresso",
-                        "email": "plugins@swergroup.com",
-                        "homepage": "http://swergroup.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Wrapper around common development utilities",
-                "homepage": "https://github.com/pixline/wp-cli-php-devtools",
-                "keywords": [
-                    "development",
-                    "phpcpd",
-                    "phpcs",
-                    "phpdcd",
-                    "phploc",
-                    "phpmd",
-                    "phpreport",
-                    "phpunit",
-                    "wp-cli"
-                ],
-                "support": {
-                    "issues": "https://github.com/pixline/wp-cli-devtools/issues",
-                    "source": "https://github.com/pixline/wp-cli-devtools"
-                }
             }
         },
         "pixline/wp-cli-proxy": {
-            "dev-master": {
+            "0.1.3": {
                 "name": "pixline/wp-cli-proxy",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.1.3",
+                "version_normalized": "0.1.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pixline/wp-cli-proxy.git",
-                    "reference": "de0892a940e7423a0ed13d784661f4a87b6ed2cb"
+                    "reference": "b7cdb4527f90130b59bdf846af4617cbdcdcef41"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pixline/wp-cli-proxy/zipball/de0892a940e7423a0ed13d784661f4a87b6ed2cb",
-                    "reference": "de0892a940e7423a0ed13d784661f4a87b6ed2cb",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-proxy/zipball/b7cdb4527f90130b59bdf846af4617cbdcdcef41",
+                    "reference": "b7cdb4527f90130b59bdf846af4617cbdcdcef41",
                     "shasum": ""
                 },
                 "require": {
@@ -967,7 +841,60 @@
                     "wp-cli/server-command": "dev-master",
                     "x-team/wp-cli-ssh": "dev-master"
                 },
-                "time": "2013-12-07 20:36:09",
+                "time": "2013-12-08 00:34:33",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "proxy-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Paolo Tresso",
+                        "email": "plugins@swergroup.com"
+                    }
+                ],
+                "description": "wp-cli debug proxy setup (mitmproxy.org)",
+                "homepage": "https://github.com/pixline/wp-cli-proxy",
+                "keywords": [
+                    "development",
+                    "mitmproxy",
+                    "proxy",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/pixline/wp-cli-devtools/issues",
+                    "source": "https://github.com/pixline/wp-cli-devtools"
+                }
+            },
+            "dev-master": {
+                "name": "pixline/wp-cli-proxy",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixline/wp-cli-proxy.git",
+                    "reference": "b7cdb4527f90130b59bdf846af4617cbdcdcef41"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-proxy/zipball/b7cdb4527f90130b59bdf846af4617cbdcdcef41",
+                    "reference": "b7cdb4527f90130b59bdf846af4617cbdcdcef41",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "dev-master"
+                },
+                "suggest": {
+                    "pixline/wp-cli-php-devtools": "dev-master",
+                    "pixline/wp-cli-theme-test-command": "dev-master",
+                    "wp-cli/server-command": "dev-master",
+                    "x-team/wp-cli-ssh": "dev-master"
+                },
+                "time": "2013-12-08 00:34:33",
                 "type": "command",
                 "autoload": {
                     "files": [
