@@ -863,12 +863,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pixline/wp-cli-php-devtools.git",
-                    "reference": "885b8f0faa5b22693e77b340828c788abcc21a34"
+                    "reference": "c812d23f1703d8ac55777733b6c160c7eb47d7a0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pixline/wp-cli-php-devtools/zipball/885b8f0faa5b22693e77b340828c788abcc21a34",
-                    "reference": "885b8f0faa5b22693e77b340828c788abcc21a34",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-php-devtools/zipball/c812d23f1703d8ac55777733b6c160c7eb47d7a0",
+                    "reference": "c812d23f1703d8ac55777733b6c160c7eb47d7a0",
                     "shasum": ""
                 },
                 "require": {
@@ -887,7 +887,7 @@
                 "suggest": {
                     "pixline/wp-cli-proxy": "dev-master"
                 },
-                "time": "2013-12-14 17:09:05",
+                "time": "2013-12-14 17:14:36",
                 "type": "command",
                 "autoload": {
                     "files": [
