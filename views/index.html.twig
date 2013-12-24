@@ -37,19 +37,14 @@
                     <p>{{ description }}</p>
                 {% endif %}
 
-                <p id="add-repo">Adding your package to the index is dead simple:</p>
-
-                <ol>
-                    <li>Go to the <a class="external" target="'_blank" href="//github.com/wp-cli/package-index/blob/master/repositories.txt">repositories.txt</a> file and press the "Edit" button.</li>
-                    <li>Add your package's repository URL to the file.</li>
-                    <li>Write a short summary for the change and click "Propose File Change".</li>
-                </ol>
-                <p>The Github UI will take care of forking and opening a pull request for you.</p>
+                <p>See the <a href="https://github.com/wp-cli/wp-cli/wiki/Community-Packages">Community Packages</a> page for information about using and creating packages.</p>
 
                 <hr />
 
-                Filter by package name:
-                <input type="text" id="search" class="search" autocomplete="off" autofocus />
+                <p>
+                    Filter by package name:
+                    <input type="text" id="search" class="search" autocomplete="off" autofocus />
+                </p>
 
                 {% for name, package in packages %}
                     <h3 id="{{ package.highest.name }}">{{ package.highest.name }}</h3>

@@ -5,4 +5,4 @@ This repository contains the source code for what you see at <http://wp-cli.org/
 
 ### Adding your package to the index
 
-Read instructions on [wp-cli.org](http://wp-cli.org/package-index/#add-repo).
+See <https://github.com/wp-cli/wp-cli/wiki/Community-Packages#setting-up-the-package-index>.
