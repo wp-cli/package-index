@@ -92,15 +92,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/humanmade/wp-remote-cli.git",
-                    "reference": "bc51a98c5146ac88c1a882cffd6b770353cbef59"
+                    "reference": "4305ca16cc24dc3dd473adb2c893c26576357ac3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/bc51a98c5146ac88c1a882cffd6b770353cbef59",
-                    "reference": "bc51a98c5146ac88c1a882cffd6b770353cbef59",
+                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/4305ca16cc24dc3dd473adb2c893c26576357ac3",
+                    "reference": "4305ca16cc24dc3dd473adb2c893c26576357ac3",
                     "shasum": ""
                 },
-                "time": "2013-11-16 02:11:23",
+                "time": "2014-01-09 02:56:03",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -246,47 +246,6 @@
                 "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
                 "support": {
                     "source": "https://github.com/humanmade/wp-remote-cli/tree/fourth-level-commands",
-                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
-                }
-            },
-            "dev-webhooks": {
-                "name": "humanmade/wp-remote-cli",
-                "version": "dev-webhooks",
-                "version_normalized": "dev-webhooks",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/humanmade/wp-remote-cli.git",
-                    "reference": "24ed8d445f66b0faffda88dfca89a1ef9f4a39cd"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/24ed8d445f66b0faffda88dfca89a1ef9f4a39cd",
-                    "reference": "24ed8d445f66b0faffda88dfca89a1ef9f4a39cd",
-                    "shasum": ""
-                },
-                "time": "2013-12-10 01:19:16",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "wp-remote-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Humanmade",
-                        "email": "hello@hmn.md"
-                    },
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@hmn.md"
-                    }
-                ],
-                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
-                "support": {
-                    "source": "https://github.com/humanmade/wp-remote-cli/tree/webhooks",
                     "issues": "https://github.com/humanmade/wp-remote-cli/issues"
                 }
             }
