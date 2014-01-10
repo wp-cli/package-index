@@ -503,9 +503,9 @@
                 }
             }
         },
-        "pixline/wp-cli-devtools": {
+        "pixline/wp-cli-php-devtools": {
             "0.2.2": {
-                "name": "pixline/wp-cli-devtools",
+                "name": "pixline/wp-cli-php-devtools",
                 "version": "0.2.2",
                 "version_normalized": "0.2.2.0",
                 "source": {
@@ -567,9 +567,7 @@
                     "issues": "https://github.com/pixline/wp-cli-devtools/issues",
                     "source": "https://github.com/pixline/wp-cli-devtools"
                 }
-            }
-        },
-        "pixline/wp-cli-php-devtools": {
+            },
             "0.2.3": {
                 "name": "pixline/wp-cli-php-devtools",
                 "version": "0.2.3",
