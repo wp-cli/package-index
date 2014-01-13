@@ -47,19 +47,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-cli-stat-command.git",
-                    "reference": "1f15735772f024d4688ca678b6a896b34f7a6f7f"
+                    "reference": "eb44c95126e1c65852f7305b00c3471f385d638a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-cli-stat-command/zipball/1f15735772f024d4688ca678b6a896b34f7a6f7f",
-                    "reference": "1f15735772f024d4688ca678b6a896b34f7a6f7f",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-cli-stat-command/zipball/eb44c95126e1c65852f7305b00c3471f385d638a",
+                    "reference": "eb44c95126e1c65852f7305b00c3471f385d638a",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.3.0",
-                    "wp-cli/wp-cli": "dev-master"
+                    "php": ">=5.3.0"
                 },
-                "time": "2013-07-18 21:47:09",
+                "time": "2014-01-13 22:02:54",
                 "type": "command",
                 "autoload": {
                     "files": [
