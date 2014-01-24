@@ -1,5 +1,103 @@
 {
     "packages": {
+        "boonebgorges/wp-cli-buddypress": {
+            "1.0.0": {
+                "name": "boonebgorges/wp-cli-buddypress",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/boonebgorges/wp-cli-buddypress.git",
+                    "reference": "8fe6199ca311da38a1ddf57c42dbce3b58c5eb15"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-buddypress/zipball/8fe6199ca311da38a1ddf57c42dbce3b58c5eb15",
+                    "reference": "8fe6199ca311da38a1ddf57c42dbce3b58c5eb15",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "time": "2014-01-24 20:14:19",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-bp.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Boone B Gorges",
+                        "email": "boone@gorg.es",
+                        "homepage": "http://boone.gorg.es/"
+                    }
+                ],
+                "description": "WP-CLI commands for BuddyPress",
+                "homepage": "https://github.com/boonebgorges/wp-cli-buddypress",
+                "keywords": [
+                    "bp",
+                    "buddypress",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/boonebgorges/wp-cli-buddypress/issues",
+                    "source": "https://github.com/boonebgorges/wp-cli-buddypress"
+                }
+            },
+            "dev-master": {
+                "name": "boonebgorges/wp-cli-buddypress",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/boonebgorges/wp-cli-buddypress.git",
+                    "reference": "25efed0767ff41dae34fff380f0363975ee8e717"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-buddypress/zipball/25efed0767ff41dae34fff380f0363975ee8e717",
+                    "reference": "25efed0767ff41dae34fff380f0363975ee8e717",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "time": "2014-01-24 21:02:17",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-bp.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Boone B Gorges",
+                        "email": "boone@gorg.es",
+                        "homepage": "http://boone.gorg.es/"
+                    }
+                ],
+                "description": "WP-CLI commands for BuddyPress",
+                "homepage": "https://github.com/boonebgorges/wp-cli-buddypress",
+                "keywords": [
+                    "bp",
+                    "buddypress",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/boonebgorges/wp-cli-buddypress/issues",
+                    "source": "https://github.com/boonebgorges/wp-cli-buddypress"
+                }
+            }
+        },
         "danielbachhuber/wp-cli-reset-post-date-command": {
             "dev-master": {
                 "name": "danielbachhuber/wp-cli-reset-post-date-command",
