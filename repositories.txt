@@ -10,3 +10,4 @@ https://github.com/pods-framework/pods-wp-cli
 https://github.com/x-team/wp-cli-ssh
 https://github.com/mattes/wp-cli-quick-install-command
 https://github.com/pixline/wp-cli-php-devtools
+https://github.com/boonebgorges/wp-cli-buddypress
