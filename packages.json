@@ -56,18 +56,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/boonebgorges/wp-cli-buddypress.git",
-                    "reference": "15f6c2c45f5e72ca603f605e0b8ba2e4ea7509a9"
+                    "reference": "d1b390fc4bfefe54fe8d1eb9bfadcead6c313366"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-buddypress/zipball/15f6c2c45f5e72ca603f605e0b8ba2e4ea7509a9",
-                    "reference": "15f6c2c45f5e72ca603f605e0b8ba2e4ea7509a9",
+                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-buddypress/zipball/d1b390fc4bfefe54fe8d1eb9bfadcead6c313366",
+                    "reference": "d1b390fc4bfefe54fe8d1eb9bfadcead6c313366",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3"
                 },
-                "time": "2014-01-24 21:57:13",
+                "time": "2014-01-24 22:12:19",
                 "type": "command",
                 "autoload": {
                     "files": [
