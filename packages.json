@@ -1572,18 +1572,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/x-team/wp-cli-ssh.git",
-                    "reference": "427f9c4f35de3bd01b8cef70e1a0eed96f309bb8"
+                    "reference": "eda60daef8b34bc461bc7efbadab0e2a3bcf3eb9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/427f9c4f35de3bd01b8cef70e1a0eed96f309bb8",
-                    "reference": "427f9c4f35de3bd01b8cef70e1a0eed96f309bb8",
+                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/eda60daef8b34bc461bc7efbadab0e2a3bcf3eb9",
+                    "reference": "eda60daef8b34bc461bc7efbadab0e2a3bcf3eb9",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2014-01-14 06:19:23",
+                "time": "2014-02-05 06:34:33",
                 "type": "library",
                 "autoload": {
                     "files": [
