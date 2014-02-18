@@ -12,3 +12,4 @@ https://github.com/mattes/wp-cli-quick-install-command
 https://github.com/pixline/wp-cli-php-devtools
 https://github.com/boonebgorges/wp-cli-buddypress
 https://github.com/c10b10/wp-cli-deploy
+https://github.com/wp-cli/wp-super-cache-cli
