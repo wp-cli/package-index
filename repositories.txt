@@ -12,4 +12,5 @@ https://github.com/pixline/wp-cli-theme-test-command
 https://github.com/pods-framework/pods-wp-cli
 https://github.com/srtfisher/wp-composer
 https://github.com/wp-cli/server-command
+https://github.com/wp-cli/wp-super-cache-cli
 https://github.com/x-team/wp-cli-ssh
