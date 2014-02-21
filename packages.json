@@ -336,6 +336,57 @@
                 }
             }
         },
+        "dereckson/wp-cli-polylang": {
+            "dev-master": {
+                "name": "dereckson/wp-cli-polylang",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/dereckson/wp-cli-polylang.git",
+                    "reference": "df071b34b8c729a5eb4d3ccccc88061724b0b661"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/dereckson/wp-cli-polylang/zipball/df071b34b8c729a5eb4d3ccccc88061724b0b661",
+                    "reference": "df071b34b8c729a5eb4d3ccccc88061724b0b661",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-02-21 10:59:18",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "PolylangHelperFunctions.php",
+                        "Polylang_Command.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Sébastien Santoro aka Dereckson",
+                        "email": "dereckson@espace-win.org",
+                        "homepage": "http://www.dereckson.be",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Add a `wp polylang` command to support the Polylang plug-in",
+                "homepage": "https://github.com/dereckson/wp-cli-polylang",
+                "keywords": [
+                    "i18n",
+                    "polylang",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/dereckson/wp-cli-polylang/tree/master",
+                    "issues": "https://github.com/dereckson/wp-cli-polylang/issues"
+                }
+            }
+        },
         "humanmade/wp-remote-cli": {
             "dev-master": {
                 "name": "humanmade/wp-remote-cli",
@@ -1615,6 +1666,85 @@
                 "support": {
                     "source": "https://github.com/wp-cli/server-command/tree/master",
                     "issues": "https://github.com/wp-cli/server-command/issues"
+                }
+            }
+        },
+        "wp-cli/wp-super-cache-cli": {
+            "dev-master": {
+                "name": "wp-cli/wp-super-cache-cli",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/wp-super-cache-cli.git",
+                    "reference": "d79b6fed5965bb46293243ab0f899f703423083e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/wp-super-cache-cli/zipball/d79b6fed5965bb46293243ab0f899f703423083e",
+                    "reference": "d79b6fed5965bb46293243ab0f899f703423083e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-02-21 12:04:34",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-super-cache-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "WP-CLI Team",
+                        "homepage": "http://github.com/wp-cli",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Add a `wp super-cache` command to support the WP Super Cache plug-in",
+                "homepage": "https://github.com/wp-cli/wp-super-cache-cli",
+                "keywords": [
+                    "cache",
+                    "super-cache",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/wp-cli/wp-super-cache-cli/tree/master"
+                }
+            },
+            "dev-composer": {
+                "name": "wp-cli/wp-super-cache-cli",
+                "version": "dev-composer",
+                "version_normalized": "dev-composer",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/wp-super-cache-cli.git",
+                    "reference": "39d82b3e401b447c80a0f0db63df4e66585f4d17"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/wp-super-cache-cli/zipball/39d82b3e401b447c80a0f0db63df4e66585f4d17",
+                    "reference": "39d82b3e401b447c80a0f0db63df4e66585f4d17",
+                    "shasum": ""
+                },
+                "time": "2014-02-18 10:14:06",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL2"
+                ],
+                "description": "A CLI interface for the WP Super Cache plugin",
+                "homepage": "https://github.com/wp-cli/wp-super-cache-cli",
+                "support": {
+                    "source": "https://github.com/wp-cli/wp-super-cache-cli/tree/composer"
                 }
             }
         },
