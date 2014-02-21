@@ -2,6 +2,7 @@ https://github.com/boonebgorges/wp-cli-buddypress
 https://github.com/c10b10/wp-cli-deploy
 https://github.com/danielbachhuber/wp-cli-reset-post-date-command
 https://github.com/danielbachhuber/wp-cli-stat-command
+https://github.com/dereckson/wp-cli-polylang
 https://github.com/humanmade/wp-remote-cli
 https://github.com/mattes/wp-cli-git-command
 https://github.com/mattes/wp-cli-quick-install-command
