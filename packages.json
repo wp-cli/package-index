@@ -195,26 +195,26 @@
             }
         },
         "c10b10/wp-cli-deploy": {
-            "dev-master": {
+            "v1.0.0": {
                 "name": "c10b10/wp-cli-deploy",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/c10b10/wp-cli-deploy.git",
-                    "reference": "4bba28c26a30bef73964587a388ee5f6d17c291d"
+                    "reference": "5e2226b3b5797923fbcf5ccadccaa168328f992e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/4bba28c26a30bef73964587a388ee5f6d17c291d",
-                    "reference": "4bba28c26a30bef73964587a388ee5f6d17c291d",
+                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/5e2226b3b5797923fbcf5ccadccaa168328f992e",
+                    "reference": "5e2226b3b5797923fbcf5ccadccaa168328f992e",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4",
                     "wp-cli/wp-cli": ">=0.14"
                 },
-                "time": "2014-02-28 12:55:04",
+                "time": "2014-02-28 13:11:25",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -243,7 +243,59 @@
                     "wp-cli"
                 ],
                 "support": {
-                    "source": "https://github.com/c10b10/wp-cli-deploy/tree/master",
+                    "source": "https://github.com/c10b10/wp-cli-deploy/tree/v1.0.0",
+                    "issues": "https://github.com/c10b10/wp-cli-deploy/issues"
+                }
+            },
+            "dev-master": {
+                "name": "c10b10/wp-cli-deploy",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/c10b10/wp-cli-deploy.git",
+                    "reference": "5e2226b3b5797923fbcf5ccadccaa168328f992e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/5e2226b3b5797923fbcf5ccadccaa168328f992e",
+                    "reference": "5e2226b3b5797923fbcf5ccadccaa168328f992e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": ">=0.14"
+                },
+                "time": "2014-02-28 13:11:25",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "deploy.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Alex Ciobica",
+                        "email": "alex.ciobica@gmail.com",
+                        "homepage": "http://ciobi.ca"
+                    }
+                ],
+                "description": "Deploys the local WordPress database or the uploads directory to a remote server using ssh.",
+                "homepage": "https://github.com/c10b10/wp-cli-deploy",
+                "keywords": [
+                    "deploy",
+                    "dump",
+                    "git",
+                    "mysql",
+                    "uploads",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/c10b10/wp-cli-deploy/tree/v1.0.0",
                     "issues": "https://github.com/c10b10/wp-cli-deploy/issues"
                 }
             }
