@@ -254,19 +254,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/c10b10/wp-cli-deploy.git",
-                    "reference": "5e2226b3b5797923fbcf5ccadccaa168328f992e"
+                    "reference": "22e2b85fe6a1263c437539a6d5db49ce4034b1e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/5e2226b3b5797923fbcf5ccadccaa168328f992e",
-                    "reference": "5e2226b3b5797923fbcf5ccadccaa168328f992e",
+                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/22e2b85fe6a1263c437539a6d5db49ce4034b1e9",
+                    "reference": "22e2b85fe6a1263c437539a6d5db49ce4034b1e9",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4",
                     "wp-cli/wp-cli": ">=0.14"
                 },
-                "time": "2014-02-28 13:11:25",
+                "time": "2014-02-28 13:47:15",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -295,7 +295,7 @@
                     "wp-cli"
                 ],
                 "support": {
-                    "source": "https://github.com/c10b10/wp-cli-deploy/tree/v1.0.0",
+                    "source": "https://github.com/c10b10/wp-cli-deploy/tree/master",
                     "issues": "https://github.com/c10b10/wp-cli-deploy/issues"
                 }
             }
