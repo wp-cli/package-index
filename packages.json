@@ -1729,18 +1729,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/wp-super-cache-cli.git",
-                    "reference": "d79b6fed5965bb46293243ab0f899f703423083e"
+                    "reference": "e177a507478278223043be9d3568304e5a3c301b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/wp-super-cache-cli/zipball/d79b6fed5965bb46293243ab0f899f703423083e",
-                    "reference": "d79b6fed5965bb46293243ab0f899f703423083e",
+                    "url": "https://api.github.com/repos/wp-cli/wp-super-cache-cli/zipball/e177a507478278223043be9d3568304e5a3c301b",
+                    "reference": "e177a507478278223043be9d3568304e5a3c301b",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2014-02-21 12:04:34",
+                "time": "2014-03-03 01:34:50",
                 "type": "command",
                 "autoload": {
                     "files": [
