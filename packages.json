@@ -803,30 +803,24 @@
                 }
             }
         },
-        "mattes/wp-cli-quick-install-command": {
+        "mattes/wp-cli-quick-command": {
             "dev-master": {
-                "name": "mattes/wp-cli-quick-install-command",
+                "name": "mattes/wp-cli-quick-command",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/mattes/wp-cli-quick-install-command.git",
-                    "reference": "5f8aee4f7e705bf9e171f257a446ca87694bdade"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/mattes/wp-cli-quick-install-command/zipball/5f8aee4f7e705bf9e171f257a446ca87694bdade",
-                    "reference": "5f8aee4f7e705bf9e171f257a446ca87694bdade",
-                    "shasum": ""
+                    "url": "git@github.com:mattes/wp-cli-quick-install-command.git",
+                    "reference": "ce05eecf6b898f3ebb4dddba37548bdaaad8c882"
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.11"
                 },
-                "time": "2013-11-27 21:42:14",
+                "time": "2014-03-04 21:30:34",
                 "type": "command",
                 "autoload": {
                     "files": [
-                        "wp-cli-quick-install-command.php"
+                        "wp-cli-quick-command.php"
                     ]
                 },
                 "license": [
@@ -840,7 +834,7 @@
                     }
                 ],
                 "description": "Install WordPress with one command.",
-                "homepage": "https://github.com/mattes/wp-cli-quick-install-command",
+                "homepage": "https://github.com/mattes/wp-cli-quick-command",
                 "keywords": [
                     "install",
                     "quick",
@@ -848,8 +842,8 @@
                     "wp-cli"
                 ],
                 "support": {
-                    "issues": "https://github.com/mattes/wp-cli-quick-install-command/issues",
-                    "source": "https://github.com/mattes/wp-cli-quick-install-command"
+                    "issues": "https://github.com/mattes/wp-cli-quick-command/issues",
+                    "source": "https://github.com/mattes/wp-cli-quick-command"
                 }
             }
         },
