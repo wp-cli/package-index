@@ -6,7 +6,6 @@ https://github.com/danielbachhuber/wp-cli-stat-command
 https://github.com/dereckson/wp-cli-polylang
 https://github.com/humanmade/wp-remote-cli
 https://github.com/mattes/wp-cli-git-command
-https://github.com/mattes/wp-cli-quick-install-command
 https://github.com/pixline/wp-cli-php-devtools
 https://github.com/pixline/wp-cli-proxy
 https://github.com/pixline/wp-cli-theme-test-command
@@ -15,3 +14,4 @@ https://github.com/srtfisher/wp-composer
 https://github.com/wp-cli/server-command
 https://github.com/wp-cli/wp-super-cache-cli
 https://github.com/x-team/wp-cli-ssh
+https://github.com/mattes/wp-cli-quick-command
