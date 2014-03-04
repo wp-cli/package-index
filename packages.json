@@ -810,8 +810,14 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:mattes/wp-cli-quick-install-command.git",
+                    "url": "https://github.com/mattes/wp-cli-quick-command.git",
                     "reference": "82c57f07b7ade4a2ddb01688a88c99682ed5e88a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mattes/wp-cli-quick-command/zipball/82c57f07b7ade4a2ddb01688a88c99682ed5e88a",
+                    "reference": "82c57f07b7ade4a2ddb01688a88c99682ed5e88a",
+                    "shasum": ""
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.11"
