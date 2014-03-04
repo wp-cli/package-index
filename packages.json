@@ -1499,6 +1499,56 @@
                 }
             }
         },
+        "pulsestorm/wp-static-html-output-plugin": {
+            "dev-master": {
+                "name": "pulsestorm/wp-static-html-output-plugin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/astorm/wp-static-html-output-plugin.git",
+                    "reference": "511f8158d58f9dfe7a12297d7a2c1135f31e8d3a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/511f8158d58f9dfe7a12297d7a2c1135f31e8d3a",
+                    "reference": "511f8158d58f9dfe7a12297d7a2c1135f31e8d3a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "time": "2014-03-04 00:14:51",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Alan Storm",
+                        "homepage": "http://alanstorm.com"
+                    }
+                ],
+                "description": "Unofficial WP-CLI wrapper for the WP Static HTML Output Plugin ",
+                "homepage": "https://github.com/astorm/wp-static-html-output-plugin",
+                "keywords": [
+                    "",
+                    "html",
+                    "static",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/astorm/wp-static-html-output-plugin/issues",
+                    "source": "https://github.com/astorm/wp-static-html-output-plugin"
+                }
+            }
+        },
         "srtfisher/wp-composer": {
             "0.1": {
                 "name": "srtfisher/wp-composer",
