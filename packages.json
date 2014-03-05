@@ -811,18 +811,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mattes/wp-cli-quick-command.git",
-                    "reference": "82c57f07b7ade4a2ddb01688a88c99682ed5e88a"
+                    "reference": "f07447f9024b8a239b5c943724d7c5d5ebc12628"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mattes/wp-cli-quick-command/zipball/82c57f07b7ade4a2ddb01688a88c99682ed5e88a",
-                    "reference": "82c57f07b7ade4a2ddb01688a88c99682ed5e88a",
+                    "url": "https://api.github.com/repos/mattes/wp-cli-quick-command/zipball/f07447f9024b8a239b5c943724d7c5d5ebc12628",
+                    "reference": "f07447f9024b8a239b5c943724d7c5d5ebc12628",
                     "shasum": ""
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.11"
                 },
-                "time": "2014-03-04 21:36:37",
+                "time": "2014-03-05 13:08:20",
                 "type": "command",
                 "autoload": {
                     "files": [
