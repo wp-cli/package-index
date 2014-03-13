@@ -1376,12 +1376,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pixline/wp-cli-php-devtools.git",
-                    "reference": "4bcb1c726c4548a745f1c63970a69b2934c15776"
+                    "reference": "6e17a12b4c4b158b404ec32b449bd6d62c4c98e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pixline/wp-cli-php-devtools/zipball/4bcb1c726c4548a745f1c63970a69b2934c15776",
-                    "reference": "4bcb1c726c4548a745f1c63970a69b2934c15776",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-php-devtools/zipball/6e17a12b4c4b158b404ec32b449bd6d62c4c98e9",
+                    "reference": "6e17a12b4c4b158b404ec32b449bd6d62c4c98e9",
                     "shasum": ""
                 },
                 "require": {
@@ -1390,7 +1390,7 @@
                     "phpmd/phpmd": "1.5.*",
                     "phpunit/php-invoker": ">=1.1.0",
                     "phpunit/phpcov": "2.0.*",
-                    "phpunit/phpunit": "4.0.*",
+                    "phpunit/phpunit": ">=4.0.7",
                     "sebastian/phpcpd": "2.0.*",
                     "sebastian/phpdcd": "1.0.*@dev",
                     "squizlabs/php_codesniffer": ">=1.5.1",
@@ -1400,7 +1400,7 @@
                 "suggest": {
                     "pixline/wp-cli-proxy": "dev-master"
                 },
-                "time": "2014-03-13 15:19:52",
+                "time": "2014-03-13 15:31:23",
                 "type": "command",
                 "autoload": {
                     "files": [
