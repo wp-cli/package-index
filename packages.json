@@ -1748,6 +1748,164 @@
                 }
             }
         },
+        "sinebridge/wp-cli-about": {
+            "v1.0.0": {
+                "name": "sinebridge/wp-cli-about",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sinebridge/wp-cli-about.git",
+                    "reference": "433e34adc84cb3816ecf40f1102e34fd20d024f5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sinebridge/wp-cli-about/zipball/433e34adc84cb3816ecf40f1102e34fd20d024f5",
+                    "reference": "433e34adc84cb3816ecf40f1102e34fd20d024f5",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.12"
+                },
+                "time": "2014-03-15 15:37:28",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "about.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Sinebridge",
+                        "email": "support@sinebridge.com",
+                        "homepage": "http://sinebridge.com"
+                    },
+                    {
+                        "name": "Mark Wallace",
+                        "email": "markofsine@sinebridge.com",
+                        "homepage": "http://sinebridge.com"
+                    }
+                ],
+                "description": "Returns information about the wordpress installation and environment",
+                "homepage": "https://github.com/sinebridge/wp-cli-about",
+                "keywords": [
+                    "about",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/sinebridge/wp-cli-about/tree/v1.0.0",
+                    "issues": "https://github.com/sinebridge/wp-cli-about/issues"
+                }
+            },
+            "dev-master": {
+                "name": "sinebridge/wp-cli-about",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sinebridge/wp-cli-about.git",
+                    "reference": "433e34adc84cb3816ecf40f1102e34fd20d024f5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sinebridge/wp-cli-about/zipball/433e34adc84cb3816ecf40f1102e34fd20d024f5",
+                    "reference": "433e34adc84cb3816ecf40f1102e34fd20d024f5",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.12"
+                },
+                "time": "2014-03-15 15:37:28",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "about.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Sinebridge",
+                        "email": "support@sinebridge.com",
+                        "homepage": "http://sinebridge.com"
+                    },
+                    {
+                        "name": "Mark Wallace",
+                        "email": "markofsine@sinebridge.com",
+                        "homepage": "http://sinebridge.com"
+                    }
+                ],
+                "description": "Returns information about the wordpress installation and environment",
+                "homepage": "https://github.com/sinebridge/wp-cli-about",
+                "keywords": [
+                    "about",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/sinebridge/wp-cli-about/tree/v1.0.0",
+                    "issues": "https://github.com/sinebridge/wp-cli-about/issues"
+                }
+            },
+            "dev-develop": {
+                "name": "sinebridge/wp-cli-about",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sinebridge/wp-cli-about.git",
+                    "reference": "35f2b879829a44b65bcb2331b46db72648f06784"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sinebridge/wp-cli-about/zipball/35f2b879829a44b65bcb2331b46db72648f06784",
+                    "reference": "35f2b879829a44b65bcb2331b46db72648f06784",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.12"
+                },
+                "time": "2014-03-15 15:06:36",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "about.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Sinebridge",
+                        "email": "support@sinebridge.com",
+                        "homepage": "http://sinebridge.com"
+                    },
+                    {
+                        "name": "Mark Wallace",
+                        "email": "markofsine@sinebridge.com",
+                        "homepage": "http://sinebridge.com"
+                    }
+                ],
+                "description": "Returns information about the wordpress installation and environment",
+                "homepage": "https://github.com/sinebridge/wp-cli-about",
+                "keywords": [
+                    "about",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/sinebridge/wp-cli-about/tree/develop",
+                    "issues": "https://github.com/sinebridge/wp-cli-about/issues"
+                }
+            }
+        },
         "srtfisher/wp-composer": {
             "0.1": {
                 "name": "srtfisher/wp-composer",
