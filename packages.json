@@ -1860,18 +1860,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/sinebridge/wp-cli-about.git",
-                    "reference": "35f2b879829a44b65bcb2331b46db72648f06784"
+                    "reference": "3830b91d5244d108645a6ce6ccda0b41dffe472b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/sinebridge/wp-cli-about/zipball/35f2b879829a44b65bcb2331b46db72648f06784",
-                    "reference": "35f2b879829a44b65bcb2331b46db72648f06784",
+                    "url": "https://api.github.com/repos/sinebridge/wp-cli-about/zipball/3830b91d5244d108645a6ce6ccda0b41dffe472b",
+                    "reference": "3830b91d5244d108645a6ce6ccda0b41dffe472b",
                     "shasum": ""
                 },
                 "require": {
                     "wp-cli/wp-cli": ">=0.12"
                 },
-                "time": "2014-03-15 15:06:36",
+                "time": "2014-03-17 11:43:06",
                 "type": "command",
                 "autoload": {
                     "files": [
