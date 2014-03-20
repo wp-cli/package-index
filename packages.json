@@ -1,38 +1,5 @@
 {
     "packages": {
-        " wp-cli /wp-super-cache-cli": {
-            "dev-composer": {
-                "name": " wp-cli /wp-super-cache-cli",
-                "version": "dev-composer",
-                "version_normalized": "dev-composer",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/wp-super-cache-cli.git",
-                    "reference": "39d82b3e401b447c80a0f0db63df4e66585f4d17"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/wp-super-cache-cli/zipball/39d82b3e401b447c80a0f0db63df4e66585f4d17",
-                    "reference": "39d82b3e401b447c80a0f0db63df4e66585f4d17",
-                    "shasum": ""
-                },
-                "time": "2014-02-18 10:14:06",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL2"
-                ],
-                "description": "A CLI interface for the WP Super Cache plugin",
-                "homepage": "https://github.com/wp-cli/wp-super-cache-cli",
-                "support": {
-                    "source": "https://github.com/wp-cli/wp-super-cache-cli/tree/composer"
-                }
-            }
-        },
         "boonebgorges/wp-cli-buddypress": {
             "1.0.0": {
                 "name": "boonebgorges/wp-cli-buddypress",
@@ -2258,6 +2225,37 @@
                 ],
                 "support": {
                     "source": "https://github.com/wp-cli/wp-super-cache-cli/tree/master"
+                }
+            },
+            "dev-composer": {
+                "name": "wp-cli/wp-super-cache-cli",
+                "version": "dev-composer",
+                "version_normalized": "dev-composer",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/wp-super-cache-cli.git",
+                    "reference": "39d82b3e401b447c80a0f0db63df4e66585f4d17"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/wp-super-cache-cli/zipball/39d82b3e401b447c80a0f0db63df4e66585f4d17",
+                    "reference": "39d82b3e401b447c80a0f0db63df4e66585f4d17",
+                    "shasum": ""
+                },
+                "time": "2014-02-18 10:14:06",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL2"
+                ],
+                "description": "A CLI interface for the WP Super Cache plugin",
+                "homepage": "https://github.com/wp-cli/wp-super-cache-cli",
+                "support": {
+                    "source": "https://github.com/wp-cli/wp-super-cache-cli/tree/composer"
                 }
             }
         },
