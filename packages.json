@@ -533,18 +533,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/stianlik/wp-cli-mig.git",
-                    "reference": "c5f953f6e12dca7e1aac3c7eeafacb6457213251"
+                    "reference": "dc5363b8657aef90f404aaa325ab003fa6a2bbf5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/stianlik/wp-cli-mig/zipball/c5f953f6e12dca7e1aac3c7eeafacb6457213251",
-                    "reference": "c5f953f6e12dca7e1aac3c7eeafacb6457213251",
+                    "url": "https://api.github.com/repos/stianlik/wp-cli-mig/zipball/dc5363b8657aef90f404aaa325ab003fa6a2bbf5",
+                    "reference": "dc5363b8657aef90f404aaa325ab003fa6a2bbf5",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2014-02-18 11:56:42",
+                "time": "2014-03-31 12:10:32",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -565,7 +565,7 @@
                 ],
                 "description": "General migration command for WP-CLI",
                 "support": {
-                    "source": "https://github.com/stianlik/wp-cli-mig/tree/v0.0.1",
+                    "source": "https://github.com/stianlik/wp-cli-mig/tree/master",
                     "issues": "https://github.com/stianlik/wp-cli-mig/issues"
                 }
             }
