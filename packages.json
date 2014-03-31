@@ -526,6 +526,49 @@
                     "issues": "https://github.com/stianlik/wp-cli-mig/issues"
                 }
             },
+            "v0.0.2": {
+                "name": "foogile/wp-cli-mig",
+                "version": "v0.0.2",
+                "version_normalized": "0.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/stianlik/wp-cli-mig.git",
+                    "reference": "dc5363b8657aef90f404aaa325ab003fa6a2bbf5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/stianlik/wp-cli-mig/zipball/dc5363b8657aef90f404aaa325ab003fa6a2bbf5",
+                    "reference": "dc5363b8657aef90f404aaa325ab003fa6a2bbf5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-03-31 12:10:32",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Foogile\\WpCli\\Migrate\\": "src/"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "WTFPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Stian Liknes",
+                        "email": "stianlik@gmail.com"
+                    }
+                ],
+                "description": "General migration command for WP-CLI",
+                "support": {
+                    "source": "https://github.com/stianlik/wp-cli-mig/tree/master",
+                    "issues": "https://github.com/stianlik/wp-cli-mig/issues"
+                }
+            },
             "dev-master": {
                 "name": "foogile/wp-cli-mig",
                 "version": "dev-master",
