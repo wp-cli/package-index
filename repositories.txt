@@ -1,6 +1,7 @@
 https://github.com/astorm/wp-static-html-output-plugin
 https://github.com/boonebgorges/wp-cli-buddypress
 https://github.com/c10b10/wp-cli-deploy
+https://github.com/danielbachhuber/dictator
 https://github.com/danielbachhuber/wp-cli-reset-post-date-command
 https://github.com/danielbachhuber/wp-cli-stat-command
 https://github.com/dereckson/wp-cli-polylang
