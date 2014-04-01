@@ -339,6 +339,45 @@
                     "source": "https://github.com/danielbachhuber/dictator/tree/master",
                     "issues": "https://github.com/danielbachhuber/dictator/issues"
                 }
+            },
+            "dev-fix-26": {
+                "name": "danielbachhuber/dictator",
+                "version": "dev-fix-26",
+                "version_normalized": "dev-fix-26",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/dictator.git",
+                    "reference": "aa0f8ddb147febf64f0b51e49ea81557d2e5c33c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/aa0f8ddb147febf64f0b51e49ea81557d2e5c33c",
+                    "reference": "aa0f8ddb147febf64f0b51e49ea81557d2e5c33c",
+                    "shasum": ""
+                },
+                "time": "2014-04-01 17:31:11",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "dictator.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "d@danielbachhuber.com",
+                        "homepage": "http://danielbachhuber.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "The Dictator controls the state of WordPress",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/dictator/tree/fix-26",
+                    "issues": "https://github.com/danielbachhuber/dictator/issues"
+                }
             }
         },
         "danielbachhuber/wp-cli-reset-post-date-command": {
