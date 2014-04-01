@@ -300,6 +300,47 @@
                 }
             }
         },
+        "danielbachhuber/dictator": {
+            "dev-master": {
+                "name": "danielbachhuber/dictator",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/dictator.git",
+                    "reference": "876de6660b2314c328e31b0961de5dc20f217cd2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/876de6660b2314c328e31b0961de5dc20f217cd2",
+                    "reference": "876de6660b2314c328e31b0961de5dc20f217cd2",
+                    "shasum": ""
+                },
+                "time": "2014-04-01 00:46:57",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "dictator.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "d@danielbachhuber.com",
+                        "homepage": "http://danielbachhuber.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "The Dictator controls the state of WordPress",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/dictator/tree/master",
+                    "issues": "https://github.com/danielbachhuber/dictator/issues"
+                }
+            }
+        },
         "danielbachhuber/wp-cli-reset-post-date-command": {
             "dev-master": {
                 "name": "danielbachhuber/wp-cli-reset-post-date-command",
