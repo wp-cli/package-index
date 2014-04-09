@@ -347,15 +347,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/dictator.git",
-                    "reference": "bf76fca4f8d6223dfe1207ea8b9b6dfbb0f50c22"
+                    "reference": "7fda8dc0d0e0e49dc755cc4643c7d9bcd9702c1f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/bf76fca4f8d6223dfe1207ea8b9b6dfbb0f50c22",
-                    "reference": "bf76fca4f8d6223dfe1207ea8b9b6dfbb0f50c22",
+                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/7fda8dc0d0e0e49dc755cc4643c7d9bcd9702c1f",
+                    "reference": "7fda8dc0d0e0e49dc755cc4643c7d9bcd9702c1f",
                     "shasum": ""
                 },
-                "time": "2014-04-08 16:16:20",
+                "time": "2014-04-09 23:40:20",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -386,15 +386,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/dictator.git",
-                    "reference": "b328ecaca60b0625b39f4b5fcf285bb20701617c"
+                    "reference": "28c130c8022158bbdf5b0d6a2ed3f95d50d88a03"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/b328ecaca60b0625b39f4b5fcf285bb20701617c",
-                    "reference": "b328ecaca60b0625b39f4b5fcf285bb20701617c",
+                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/28c130c8022158bbdf5b0d6a2ed3f95d50d88a03",
+                    "reference": "28c130c8022158bbdf5b0d6a2ed3f95d50d88a03",
                     "shasum": ""
                 },
-                "time": "2014-04-09 23:27:14",
+                "time": "2014-04-09 23:35:07",
                 "type": "library",
                 "autoload": {
                     "files": [
