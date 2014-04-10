@@ -386,15 +386,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/dictator.git",
-                    "reference": "28c130c8022158bbdf5b0d6a2ed3f95d50d88a03"
+                    "reference": "a061b1c67283613884c4d4ef83ebeefc0f42f64c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/28c130c8022158bbdf5b0d6a2ed3f95d50d88a03",
-                    "reference": "28c130c8022158bbdf5b0d6a2ed3f95d50d88a03",
+                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/a061b1c67283613884c4d4ef83ebeefc0f42f64c",
+                    "reference": "a061b1c67283613884c4d4ef83ebeefc0f42f64c",
                     "shasum": ""
                 },
-                "time": "2014-04-09 23:35:07",
+                "time": "2014-04-10 00:06:25",
                 "type": "library",
                 "autoload": {
                     "files": [
