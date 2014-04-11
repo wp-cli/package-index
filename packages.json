@@ -254,19 +254,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/c10b10/wp-cli-deploy.git",
-                    "reference": "da0fa79931d8d4ae783a5615291348f63f2f4ce6"
+                    "reference": "72b13931dcb64997eccdac21b2d8e34d6f559e91"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/da0fa79931d8d4ae783a5615291348f63f2f4ce6",
-                    "reference": "da0fa79931d8d4ae783a5615291348f63f2f4ce6",
+                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/72b13931dcb64997eccdac21b2d8e34d6f559e91",
+                    "reference": "72b13931dcb64997eccdac21b2d8e34d6f559e91",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4",
                     "wp-cli/wp-cli": ">=0.14"
                 },
-                "time": "2014-03-25 14:04:19",
+                "time": "2014-04-11 08:56:55",
                 "type": "library",
                 "autoload": {
                     "files": [
