@@ -19,3 +19,4 @@ https://github.com/x-team/wp-cli-ssh
 https://github.com/mattes/wp-cli-quick-command
 https://github.com/stianlik/wp-cli-mig
 https://github.com/sinebridge/wp-cli-about
+https://github.com/viewone/wp-cli-environment
