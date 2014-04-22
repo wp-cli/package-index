@@ -2346,6 +2346,57 @@
                 }
             }
         },
+        "viewone/wp-cli-environment": {
+            "dev-master": {
+                "name": "viewone/wp-cli-environment",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/viewone/wp-cli-environment.git",
+                    "reference": "16f76e7f6ccd70a232708e63321bc3b5539c86ca"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/16f76e7f6ccd70a232708e63321bc3b5539c86ca",
+                    "reference": "16f76e7f6ccd70a232708e63321bc3b5539c86ca",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "czproject/phpdepend": "~1.0",
+                    "fabpot/php-cs-fixer": "~0.4",
+                    "instaclick/php-code-sniffer": "~1.4",
+                    "phploc/phploc": "~2.0",
+                    "phpmd/phpmd": "~1.5",
+                    "phpspec/phpspec": "~2.0",
+                    "sebastian/phpcpd": "~2.0"
+                },
+                "time": "2014-04-21 23:47:32",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "ViewOne": "src/"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Piotr Kierzniewski",
+                        "email": "p.kierzniewski@viewone.pl"
+                    }
+                ],
+                "description": "Environment package for wp-cli",
+                "support": {
+                    "source": "https://github.com/viewone/wp-cli-environment/tree/master",
+                    "issues": "https://github.com/viewone/wp-cli-environment/issues"
+                }
+            }
+        },
         "wp-cli/server-command": {
             "dev-master": {
                 "name": "wp-cli/server-command",
