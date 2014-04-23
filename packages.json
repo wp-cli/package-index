@@ -460,6 +460,47 @@
                 }
             }
         },
+        "danielbachhuber/wp-cli-pre-cache-command": {
+            "dev-master": {
+                "name": "danielbachhuber/wp-cli-pre-cache-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/wp-cli-pre-cache-command.git",
+                    "reference": "89a8490a076373d7d7fd05f05b5425e2b79baf69"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-cli-pre-cache-command/zipball/89a8490a076373d7d7fd05f05b5425e2b79baf69",
+                    "reference": "89a8490a076373d7d7fd05f05b5425e2b79baf69",
+                    "shasum": ""
+                },
+                "time": "2014-04-23 23:27:14",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co",
+                        "homepage": "http://handbuilt.co",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Proactively download and cache core, theme, and plugin files for later installation.",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/wp-cli-pre-cache-command/tree/master",
+                    "issues": "https://github.com/danielbachhuber/wp-cli-pre-cache-command/issues"
+                }
+            }
+        },
         "danielbachhuber/wp-cli-reset-post-date-command": {
             "dev-master": {
                 "name": "danielbachhuber/wp-cli-reset-post-date-command",
