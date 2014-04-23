@@ -2354,12 +2354,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/viewone/wp-cli-environment.git",
-                    "reference": "eaf5d05d89cbdd3ca42e48eecd0755d7ebacedc7"
+                    "reference": "c73a547848ff2144601f02cfa00247825020969d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/eaf5d05d89cbdd3ca42e48eecd0755d7ebacedc7",
-                    "reference": "eaf5d05d89cbdd3ca42e48eecd0755d7ebacedc7",
+                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/c73a547848ff2144601f02cfa00247825020969d",
+                    "reference": "c73a547848ff2144601f02cfa00247825020969d",
                     "shasum": ""
                 },
                 "require-dev": {
@@ -2371,7 +2371,7 @@
                     "phpspec/phpspec": "~2.0",
                     "sebastian/phpcpd": "~2.0"
                 },
-                "time": "2014-04-22 21:17:35",
+                "time": "2014-04-23 00:00:08",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
