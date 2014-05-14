@@ -2042,6 +2042,43 @@
                 }
             }
         },
+        "sebastiaandegeus/wp-cli-salt-command": {
+            "dev-master": {
+                "name": "sebastiaandegeus/wp-cli-salt-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastiaandegeus/wp-cli-salts-command.git",
+                    "reference": "85ae20f7237d3c61ee7121d01ab6ac039549a4e8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sebastiaandegeus/wp-cli-salts-command/zipball/85ae20f7237d3c61ee7121d01ab6ac039549a4e8",
+                    "reference": "85ae20f7237d3c61ee7121d01ab6ac039549a4e8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2014-05-14 17:40:35",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "salt-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Manage salts for your WordPress installation",
+                "homepage": "https://github.com/sebastiaandegeus/wp-cli-salt-command",
+                "support": {
+                    "source": "https://github.com/sebastiaandegeus/wp-cli-salts-command/tree/master",
+                    "issues": "https://github.com/sebastiaandegeus/wp-cli-salts-command/issues"
+                }
+            }
+        },
         "sinebridge/wp-cli-about": {
             "v1.0.0": {
                 "name": "sinebridge/wp-cli-about",
