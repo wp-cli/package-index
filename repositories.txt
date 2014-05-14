@@ -22,3 +22,4 @@ https://github.com/stianlik/wp-cli-mig
 https://github.com/sinebridge/wp-cli-about
 https://github.com/viewone/wp-cli-environment
 https://github.com/deliciousbrains/wp-cli-wp-migrate-db-pro
+https://github.com/sebastiaandegeus/wp-cli-salts-command
