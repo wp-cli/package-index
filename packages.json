@@ -2573,31 +2573,32 @@
                     "issues": "https://github.com/viewone/wp-cli-environment/issues"
                 }
             },
-            "dev-release/0.1.0": {
+            "dev-develop": {
                 "name": "viewone/wp-cli-environment",
-                "version": "dev-release/0.1.0",
-                "version_normalized": "dev-release/0.1.0",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/viewone/wp-cli-environment.git",
-                    "reference": "53b022e5cee2418112e297a8022881c703da66bd"
+                    "reference": "bf8db9dfa07ec303fab327067d5cd4267e09ef20"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/53b022e5cee2418112e297a8022881c703da66bd",
-                    "reference": "53b022e5cee2418112e297a8022881c703da66bd",
+                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/bf8db9dfa07ec303fab327067d5cd4267e09ef20",
+                    "reference": "bf8db9dfa07ec303fab327067d5cd4267e09ef20",
                     "shasum": ""
                 },
                 "require-dev": {
                     "czproject/phpdepend": "~1.0",
                     "fabpot/php-cs-fixer": "~0.4",
                     "instaclick/php-code-sniffer": "~1.4",
+                    "mustache/mustache": "~2.4",
                     "phploc/phploc": "~2.0",
                     "phpmd/phpmd": "~1.5",
                     "phpspec/phpspec": "~2.0",
                     "sebastian/phpcpd": "~2.0"
                 },
-                "time": "2014-04-24 21:53:35",
+                "time": "2014-05-15 21:59:38",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -2618,7 +2619,7 @@
                 ],
                 "description": "Environment package for wp-cli",
                 "support": {
-                    "source": "https://github.com/viewone/wp-cli-environment/tree/master",
+                    "source": "https://github.com/viewone/wp-cli-environment/tree/develop",
                     "issues": "https://github.com/viewone/wp-cli-environment/issues"
                 }
             }
