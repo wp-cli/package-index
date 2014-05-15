@@ -2524,31 +2524,32 @@
                     "issues": "https://github.com/viewone/wp-cli-environment/issues"
                 }
             },
-            "dev-master": {
+            "0.2.0": {
                 "name": "viewone/wp-cli-environment",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/viewone/wp-cli-environment.git",
-                    "reference": "53b022e5cee2418112e297a8022881c703da66bd"
+                    "reference": "372c5464af372f29f09ab5523ad5e36af1b61a80"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/53b022e5cee2418112e297a8022881c703da66bd",
-                    "reference": "53b022e5cee2418112e297a8022881c703da66bd",
+                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/372c5464af372f29f09ab5523ad5e36af1b61a80",
+                    "reference": "372c5464af372f29f09ab5523ad5e36af1b61a80",
                     "shasum": ""
                 },
                 "require-dev": {
                     "czproject/phpdepend": "~1.0",
                     "fabpot/php-cs-fixer": "~0.4",
                     "instaclick/php-code-sniffer": "~1.4",
+                    "mustache/mustache": "~2.4",
                     "phploc/phploc": "~2.0",
                     "phpmd/phpmd": "~1.5",
                     "phpspec/phpspec": "~2.0",
                     "sebastian/phpcpd": "~2.0"
                 },
-                "time": "2014-04-24 21:53:35",
+                "time": "2014-05-15 22:41:46",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -2569,23 +2570,23 @@
                 ],
                 "description": "Environment package for wp-cli",
                 "support": {
-                    "source": "https://github.com/viewone/wp-cli-environment/tree/master",
+                    "source": "https://github.com/viewone/wp-cli-environment/tree/0.2.0",
                     "issues": "https://github.com/viewone/wp-cli-environment/issues"
                 }
             },
-            "dev-develop": {
+            "dev-master": {
                 "name": "viewone/wp-cli-environment",
-                "version": "dev-develop",
-                "version_normalized": "dev-develop",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/viewone/wp-cli-environment.git",
-                    "reference": "bf8db9dfa07ec303fab327067d5cd4267e09ef20"
+                    "reference": "372c5464af372f29f09ab5523ad5e36af1b61a80"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/bf8db9dfa07ec303fab327067d5cd4267e09ef20",
-                    "reference": "bf8db9dfa07ec303fab327067d5cd4267e09ef20",
+                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/372c5464af372f29f09ab5523ad5e36af1b61a80",
+                    "reference": "372c5464af372f29f09ab5523ad5e36af1b61a80",
                     "shasum": ""
                 },
                 "require-dev": {
@@ -2598,7 +2599,57 @@
                     "phpspec/phpspec": "~2.0",
                     "sebastian/phpcpd": "~2.0"
                 },
-                "time": "2014-05-15 21:59:38",
+                "time": "2014-05-15 22:41:46",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "ViewOne": "src/"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Piotr Kierzniewski",
+                        "email": "p.kierzniewski@viewone.pl"
+                    }
+                ],
+                "description": "Environment package for wp-cli",
+                "support": {
+                    "source": "https://github.com/viewone/wp-cli-environment/tree/0.2.0",
+                    "issues": "https://github.com/viewone/wp-cli-environment/issues"
+                }
+            },
+            "dev-develop": {
+                "name": "viewone/wp-cli-environment",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/viewone/wp-cli-environment.git",
+                    "reference": "f67fb435b4e1f2b41e602f7bad3dd16149cc68a3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/f67fb435b4e1f2b41e602f7bad3dd16149cc68a3",
+                    "reference": "f67fb435b4e1f2b41e602f7bad3dd16149cc68a3",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "czproject/phpdepend": "~1.0",
+                    "fabpot/php-cs-fixer": "~0.4",
+                    "instaclick/php-code-sniffer": "~1.4",
+                    "mustache/mustache": "~2.4",
+                    "phploc/phploc": "~2.0",
+                    "phpmd/phpmd": "~1.5",
+                    "phpspec/phpspec": "~2.0",
+                    "sebastian/phpcpd": "~2.0"
+                },
+                "time": "2014-05-15 22:41:27",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
