@@ -2050,18 +2050,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/sebastiaandegeus/wp-cli-salts-command.git",
-                    "reference": "039272206b9c90f5d9bc22b97d0a7669dfa8594e"
+                    "reference": "204f6dec5cfb8d34fc23ebeb13b2ef671c5e2ea2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/sebastiaandegeus/wp-cli-salts-command/zipball/039272206b9c90f5d9bc22b97d0a7669dfa8594e",
-                    "reference": "039272206b9c90f5d9bc22b97d0a7669dfa8594e",
+                    "url": "https://api.github.com/repos/sebastiaandegeus/wp-cli-salts-command/zipball/204f6dec5cfb8d34fc23ebeb13b2ef671c5e2ea2",
+                    "reference": "204f6dec5cfb8d34fc23ebeb13b2ef671c5e2ea2",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2014-05-14 19:21:39",
+                "time": "2014-05-19 16:33:15",
                 "type": "library",
                 "autoload": {
                     "files": [
