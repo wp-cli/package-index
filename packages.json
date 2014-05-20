@@ -1895,19 +1895,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pixline/wp-cli-theme-test-command.git",
-                    "reference": "64b24cd38964ab525797cd165e643f44a8de21ed"
+                    "reference": "23364b1af3295a8c42c3339cd43e958e8b6e05db"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pixline/wp-cli-theme-test-command/zipball/64b24cd38964ab525797cd165e643f44a8de21ed",
-                    "reference": "64b24cd38964ab525797cd165e643f44a8de21ed",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-theme-test-command/zipball/23364b1af3295a8c42c3339cd43e958e8b6e05db",
+                    "reference": "23364b1af3295a8c42c3339cd43e958e8b6e05db",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.3.0",
-                    "wp-cli/wp-cli": ">=0.11"
+                    "php": ">=5.3.0"
                 },
-                "time": "2013-11-16 20:21:30",
+                "time": "2014-05-20 22:08:04",
                 "type": "command",
                 "autoload": {
                     "files": [
