@@ -1031,6 +1031,104 @@
             }
         },
         "mattes/wp-cli-git-command": {
+            "v1.0.0": {
+                "name": "mattes/wp-cli-git-command",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mattes/wp-cli-git-command.git",
+                    "reference": "be597a7d38666db13910ed5b1a4f9a05287e5eae"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mattes/wp-cli-git-command/zipball/be597a7d38666db13910ed5b1a4f9a05287e5eae",
+                    "reference": "be597a7d38666db13910ed5b1a4f9a05287e5eae",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.11"
+                },
+                "time": "2013-08-17 14:06:48",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-git-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Matthias Kadenbach",
+                        "email": "matthias.kadenbach@gmail.com",
+                        "homepage": "http://oxford-themes.com"
+                    }
+                ],
+                "description": "WordPress Git helpers, like pre-commit hooks for automatic MySQL database dumps.",
+                "homepage": "https://github.com/oxford-themes/wp-cli-git-command",
+                "keywords": [
+                    "dump",
+                    "git",
+                    "mysql",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/oxford-themes/wp-cli-git-command/issues",
+                    "source": "https://github.com/oxford-themes/wp-cli-git-command"
+                }
+            },
+            "v1.0.1": {
+                "name": "mattes/wp-cli-git-command",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mattes/wp-cli-git-command.git",
+                    "reference": "8bba74621676b4ae2ef141d55d761c8f9f3036de"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mattes/wp-cli-git-command/zipball/8bba74621676b4ae2ef141d55d761c8f9f3036de",
+                    "reference": "8bba74621676b4ae2ef141d55d761c8f9f3036de",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.11"
+                },
+                "time": "2013-08-17 14:41:08",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-git-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Matthias Kadenbach",
+                        "email": "matthias.kadenbach@gmail.com",
+                        "homepage": "http://oxford-themes.com"
+                    }
+                ],
+                "description": "WordPress Git helpers, like pre-commit hooks for automatic MySQL database dumps.",
+                "homepage": "https://github.com/oxford-themes/wp-cli-git-command",
+                "keywords": [
+                    "dump",
+                    "git",
+                    "mysql",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/oxford-themes/wp-cli-git-command/issues",
+                    "source": "https://github.com/oxford-themes/wp-cli-git-command"
+                }
+            },
             "v1.0.2": {
                 "name": "mattes/wp-cli-git-command",
                 "version": "v1.0.2",
@@ -1178,106 +1276,6 @@
                 "support": {
                     "issues": "https://github.com/mattes/wp-cli-quick-command/issues",
                     "source": "https://github.com/mattes/wp-cli-quick-command"
-                }
-            }
-        },
-        "oxford-themes/wp-cli-git-command": {
-            "v1.0.0": {
-                "name": "oxford-themes/wp-cli-git-command",
-                "version": "v1.0.0",
-                "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mattes/wp-cli-git-command.git",
-                    "reference": "be597a7d38666db13910ed5b1a4f9a05287e5eae"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/mattes/wp-cli-git-command/zipball/be597a7d38666db13910ed5b1a4f9a05287e5eae",
-                    "reference": "be597a7d38666db13910ed5b1a4f9a05287e5eae",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": ">=0.11"
-                },
-                "time": "2013-08-17 14:06:48",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "wp-cli-git-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Matthias Kadenbach",
-                        "email": "matthias.kadenbach@gmail.com",
-                        "homepage": "http://oxford-themes.com"
-                    }
-                ],
-                "description": "WordPress Git helpers, like pre-commit hooks for automatic MySQL database dumps.",
-                "homepage": "https://github.com/oxford-themes/wp-cli-git-command",
-                "keywords": [
-                    "dump",
-                    "git",
-                    "mysql",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "issues": "https://github.com/oxford-themes/wp-cli-git-command/issues",
-                    "source": "https://github.com/oxford-themes/wp-cli-git-command"
-                }
-            },
-            "v1.0.1": {
-                "name": "oxford-themes/wp-cli-git-command",
-                "version": "v1.0.1",
-                "version_normalized": "1.0.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mattes/wp-cli-git-command.git",
-                    "reference": "8bba74621676b4ae2ef141d55d761c8f9f3036de"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/mattes/wp-cli-git-command/zipball/8bba74621676b4ae2ef141d55d761c8f9f3036de",
-                    "reference": "8bba74621676b4ae2ef141d55d761c8f9f3036de",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": ">=0.11"
-                },
-                "time": "2013-08-17 14:41:08",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "wp-cli-git-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Matthias Kadenbach",
-                        "email": "matthias.kadenbach@gmail.com",
-                        "homepage": "http://oxford-themes.com"
-                    }
-                ],
-                "description": "WordPress Git helpers, like pre-commit hooks for automatic MySQL database dumps.",
-                "homepage": "https://github.com/oxford-themes/wp-cli-git-command",
-                "keywords": [
-                    "dump",
-                    "git",
-                    "mysql",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "issues": "https://github.com/oxford-themes/wp-cli-git-command/issues",
-                    "source": "https://github.com/oxford-themes/wp-cli-git-command"
                 }
             }
         },
