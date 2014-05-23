@@ -1,3 +1,4 @@
+https://github.com/GeekPress/wp-rocket-cli
 https://github.com/astorm/wp-static-html-output-plugin
 https://github.com/boonebgorges/wp-cli-buddypress
 https://github.com/c10b10/wp-cli-deploy
