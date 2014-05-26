@@ -1,4 +1,3 @@
-https://github.com/GeekPress/wp-rocket-cli
 https://github.com/astorm/wp-static-html-output-plugin
 https://github.com/boonebgorges/wp-cli-buddypress
 https://github.com/c10b10/wp-cli-deploy
@@ -8,6 +7,7 @@ https://github.com/danielbachhuber/wp-cli-pre-cache-command
 https://github.com/danielbachhuber/wp-cli-reset-post-date-command
 https://github.com/danielbachhuber/wp-cli-stat-command
 https://github.com/dereckson/wp-cli-polylang
+https://github.com/GeekPress/wp-rocket-cli
 https://github.com/humanmade/wp-remote-cli
 https://github.com/mattes/wp-cli-git-command
 https://github.com/pixline/wp-cli-php-devtools
