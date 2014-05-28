@@ -589,56 +589,6 @@
                 }
             }
         },
-        "deliciousbrains/wp-cli-wp-migrate-db-pro": {
-            "dev-master": {
-                "name": "deliciousbrains/wp-cli-wp-migrate-db-pro",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/deliciousbrains/wp-cli-wp-migrate-db-pro.git",
-                    "reference": "4525c169e121ca9e434a1b0e1f8fc388d154a4e2"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/deliciousbrains/wp-cli-wp-migrate-db-pro/zipball/4525c169e121ca9e434a1b0e1f8fc388d154a4e2",
-                    "reference": "4525c169e121ca9e434a1b0e1f8fc388d154a4e2",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3"
-                },
-                "time": "2014-04-23 01:36:19",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "wp-cli-wpmdb.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Delicious Brains",
-                        "email": "nom@deliciousbrains.com",
-                        "homepage": "http://deliciousbrains.com"
-                    }
-                ],
-                "description": "WP-CLI commands for WP Migrate DB Pro",
-                "homepage": "https://github.com/deliciousbrains/wp-cli-wp-migrate-db-pro",
-                "keywords": [
-                    "database",
-                    "wp-cli",
-                    "wp-migrate-db-pro",
-                    "wpmdb"
-                ],
-                "support": {
-                    "issues": "https://github.com/deliciousbrains/wp-cli-wp-migrate-db-pro/issues",
-                    "source": "https://github.com/deliciousbrains/wp-cli-wp-migrate-db-pro"
-                }
-            }
-        },
         "dereckson/wp-cli-polylang": {
             "dev-master": {
                 "name": "dereckson/wp-cli-polylang",
