@@ -2717,18 +2717,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/GeekPress/wp-rocket-cli.git",
-                    "reference": "e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c"
+                    "reference": "cd99eae7cbb135debf7fa403c9ffd89bfc7ba519"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/GeekPress/wp-rocket-cli/zipball/e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c",
-                    "reference": "e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c",
+                    "url": "https://api.github.com/repos/GeekPress/wp-rocket-cli/zipball/cd99eae7cbb135debf7fa403c9ffd89bfc7ba519",
+                    "reference": "cd99eae7cbb135debf7fa403c9ffd89bfc7ba519",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2014-05-23 18:29:43",
+                "time": "2014-05-29 08:36:37",
                 "type": "command",
                 "autoload": {
                     "files": [
@@ -2740,22 +2740,22 @@
                 ],
                 "authors": [
                     {
-                        "name": "Jonathan Buttigieg (WP Rocket Team)",
+                        "name": "WP Rocket Team",
                         "homepage": "http://wp-rocket.me",
                         "email": "jonathan@wp-rocket.me",
                         "role": "Developer"
                     }
                 ],
                 "description": "Add a `wp rocket` command to support the WP Rocket plugin",
-                "homepage": "https://github.com/GeekPress/WP-Rocket-CLI",
+                "homepage": "https://github.com/GeekPress/wp-rocket-cli",
                 "keywords": [
                     "cache",
                     "rocket",
                     "wp-cli"
                 ],
                 "support": {
-                    "source": "https://github.com/GeekPress/wp-rocket-cli/tree/1.0",
-                    "issues": "https://github.com/GeekPress/wp-rocket-cli/issues"
+                    "issues": "https://github.com/GeekPress/wp-rocket-cli/issues",
+                    "source": "https://github.com/GeekPress/wp-rocket-cli"
                 }
             }
         },
