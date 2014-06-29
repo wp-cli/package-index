@@ -1,30 +1,15 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="robots" content="noindex,nofollow" />
-    <link rel="icon" type="image/x-icon" href="//github.com/favicon.ico" />
-    <title>Package Index | WP CLI</title>
+    <meta name="robots" content="noindex,nofollow">
+
     <link rel="stylesheet" type="text/css" href="http://wp-cli.org/assets/css/stylesheet.css" media="screen" />
-    <style type="text/css">
-    /* Merge to wp-cli.org stylesheet */
+    <link rel="stylesheet" type="text/css" href="http://wp-cli.org/assets/css/fa.css" media="screen" />
 
-hr {
-	margin-bottom: 1em;
-}
-table.horizontal th {
-	border-bottom: none;
-}
-
-/* Packaging index */
-.package {
-	border-bottom: 1px dashed #b5e853;
-	padding-bottom: 1em;
-	margin-bottom: 1em;
-}
-.package th {
-	width: 150px;
-}    </style>
+    <link rel="icon" type="image/x-icon" href="http://wp-cli.org/assets/img/favicon.ico" />
+    <link rel="shortcut icon" href="http://wp-cli.org/assets/img/favicon.ico" />
+    <title>Package Index | WP CLI</title>
 </head>
 <body>
 
@@ -33,15 +18,21 @@ table.horizontal th {
         <h1><a href="/">WP-CLI</a></h1>
         <h2>A command line interface for WordPress</h2>
 
-        <section id="downloads">
-        <a href="/commands/" class="btn btn-cmd">Commands</a>
-        <a href="/config/" class="btn btn-config">Configuration</a>
-        <a href="/package-index/" class="btn btn-packages active">Packages</a>
-        <a href="/blog/" class="btn btn-blog">Blog</a>
-        <a href="https://github.com/wp-cli/wp-cli/wiki" class="btn btn-github">Wiki</a>
-        <a href="https://github.com/wp-cli/wp-cli" class="btn btn-source">Github</a>
-        <a href="https://twitter.com/wpcli" class="btn btn-twitter">Twitter</a>
-        </section>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="/commands/">Commands</a></li>
+                <li><a href="/config/">Configuration</a></li>
+                <li class="active"><a href="/package-index/">Packages</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="https://github.com/wp-cli/wp-cli/wiki">Wiki</a></li>
+                <li class="align-right">
+                    <a href="https://github.com/wp-cli/wp-cli" class="btn-source rounded" target="_blank"><i class="icon-github-circled"></i></a>
+                </li>
+                <li class="align-right">
+                    <a href="https://twitter.com/wpcli" class="btn-twitter rounded" target="_blank"><i class="icon-twitter"></i></a>
+                </li>
+            </ul>
+        </nav>
     </div>
     </header>
 
@@ -56,7 +47,7 @@ table.horizontal th {
 
                 <p>
                     Filter by package name:
-                    <input type="text" id="search" class="search" autocomplete="off" autofocus />
+                    <input type="text" id="search" class="search form-control" autocomplete="off" autofocus />
                 </p>
 
                                     <h3 id="boonebgorges/wp-cli-buddypress">boonebgorges/wp-cli-buddypress</h3>
@@ -627,7 +618,7 @@ table.horizontal th {
     <footer>
         <p>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2014-05-29T06:16:39-0400</p>
 
-        <p>Initial code by <a href="https://github.com/andreascreten">Andreas Creten</a>. Project maintained by <a href="https://github.com/scribu">Cristi Burc&#259;</a>.</p>
+        <p>Project maintained by <a href="https://github.com/danielbachhuber">Daniel Bachhuber</a>. Initial code by <a href="https://github.com/andreascreten">Andreas Creten</a> and <a href="https://github.com/scribu">Cristi Burc&#259;</a>.</p>
     </footer>
 
 
