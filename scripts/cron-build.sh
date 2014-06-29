@@ -18,7 +18,7 @@ CURRENT_REV=$(git rev-parse HEAD)
 
 php ./scripts/prepare-satis.php
 
-$HOME/satis/bin/satis build
+$HOME/satis/bin/satis build -vv
 
 cd web/
 
