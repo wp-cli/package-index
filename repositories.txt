@@ -24,3 +24,4 @@ https://github.com/sinebridge/wp-cli-about
 https://github.com/viewone/wp-cli-environment
 https://github.com/sebastiaandegeus/wp-cli-salts-command
 https://github.com/szepeviktor/wp-cli-database-prefix-command
+https://github.com/miya0001/wp-cli-plugins-api
