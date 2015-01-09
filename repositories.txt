@@ -25,3 +25,4 @@ https://github.com/viewone/wp-cli-environment
 https://github.com/sebastiaandegeus/wp-cli-salts-command
 https://github.com/szepeviktor/wp-cli-database-prefix-command
 https://github.com/miya0001/wp-plugins-api
+https://github.com/tillkruss/wp-cli-kraken
