@@ -31,3 +31,4 @@ https://github.com/dpiquet/wp-maintenance-mode-cli
 https://github.com/pierre-dargham/wp-cli-multisite-clone-duplicator
 https://github.com/frozzare/wp-cli-lint
 https://github.com/mattclegg/wp-cli_check-content
+https://gitlab.com/2autunni/vscan/
