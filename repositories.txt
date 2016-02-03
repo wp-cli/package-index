@@ -27,7 +27,6 @@ https://github.com/sebastiaandegeus/wp-cli-salts-command
 https://github.com/szepeviktor/wp-cli-database-prefix-command
 https://github.com/miya0001/wp-plugins-api
 https://github.com/tillkruss/wp-cli-kraken
-https://github.com/dpiquet/wp-maintenance-mode-cli
 https://github.com/pierre-dargham/wp-cli-multisite-clone-duplicator
 https://github.com/frozzare/wp-cli-lint
 https://github.com/mattclegg/wp-cli_check-content
