@@ -10,6 +10,7 @@ cd $(dirname $0)/..
 # update the gh-pages branch
 cd web/
 git pull
+git rm -r include
 cd -
 
 # update the master branch
@@ -27,6 +28,7 @@ cd web/
 
 if git ls-files -m | grep 'packages.json'
 then
+	git add include
 	git commit -am "build: $CURRENT_REV"
 	git push origin gh-pages
 fi
