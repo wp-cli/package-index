@@ -741,6 +741,43 @@
                 }
             }
         },
+        "danielbachhuber/wp-hook-command": {
+            "dev-master": {
+                "name": "danielbachhuber/wp-hook-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/wp-hook-command.git",
+                    "reference": "5105815a4b1f7273091d9de1eb64c7785589c382"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-hook-command/zipball/5105815a4b1f7273091d9de1eb64c7785589c382",
+                    "reference": "5105815a4b1f7273091d9de1eb64c7785589c382",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-02-04 14:05:44",
+                "type": "library",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "List callbacks registered to a given action or filter",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/wp-hook-command/tree/master",
+                    "issues": "https://github.com/danielbachhuber/wp-hook-command/issues"
+                }
+            }
+        },
         "danielbachhuber/wp-rest-cli": {
             "dev-master": {
                 "name": "danielbachhuber/wp-rest-cli",
@@ -749,18 +786,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
-                    "reference": "3d0c7486198239497af7d49d7abd7975f480d559"
+                    "reference": "fc8e09651c1846ef71f3bf78ef11760ea0c2125b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/3d0c7486198239497af7d49d7abd7975f480d559",
-                    "reference": "3d0c7486198239497af7d49d7abd7975f480d559",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/fc8e09651c1846ef71f3bf78ef11760ea0c2125b",
+                    "reference": "fc8e09651c1846ef71f3bf78ef11760ea0c2125b",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-02-03 22:50:30",
+                "time": "2016-02-04 14:47:53",
                 "type": "library",
                 "autoload": {
                     "files": [
