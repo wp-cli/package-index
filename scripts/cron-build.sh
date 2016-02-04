@@ -10,6 +10,7 @@ cd $(dirname $0)/..
 # update the gh-pages branch
 cd web/
 git pull
+git checkout -f
 git rm -r include
 cd -
 
