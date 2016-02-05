@@ -826,18 +826,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
-                    "reference": "fc8e09651c1846ef71f3bf78ef11760ea0c2125b"
+                    "reference": "80e299cbb6ab21edfbfaf4c06d5bc65485e33769"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/fc8e09651c1846ef71f3bf78ef11760ea0c2125b",
-                    "reference": "fc8e09651c1846ef71f3bf78ef11760ea0c2125b",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/80e299cbb6ab21edfbfaf4c06d5bc65485e33769",
+                    "reference": "80e299cbb6ab21edfbfaf4c06d5bc65485e33769",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-02-04 14:47:53",
+                "time": "2016-02-05 13:53:44",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -856,46 +856,6 @@
                 "description": "Unlock the potential of the WP REST API at the command line",
                 "support": {
                     "source": "https://github.com/danielbachhuber/wp-rest-cli/tree/master",
-                    "issues": "https://github.com/danielbachhuber/wp-rest-cli/issues"
-                }
-            },
-            "dev-list-ids": {
-                "name": "danielbachhuber/wp-rest-cli",
-                "version": "dev-list-ids",
-                "version_normalized": "dev-list-ids",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
-                    "reference": "bc10f9c9756704edac3efd7b36e189639994f9d6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/bc10f9c9756704edac3efd7b36e189639994f9d6",
-                    "reference": "bc10f9c9756704edac3efd7b36e189639994f9d6",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-02-05 13:43:51",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "wp-rest-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co"
-                    }
-                ],
-                "description": "Unlock the potential of the WP REST API at the command line",
-                "support": {
-                    "source": "https://github.com/danielbachhuber/wp-rest-cli/tree/list-ids",
                     "issues": "https://github.com/danielbachhuber/wp-rest-cli/issues"
                 }
             }
