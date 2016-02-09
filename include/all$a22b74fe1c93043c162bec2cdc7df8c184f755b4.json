@@ -826,18 +826,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
-                    "reference": "439396fcaa9a06a239bd1052cc1b33beb8902023"
+                    "reference": "9205960554c8a8be490d52e8722966738da2d20a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/439396fcaa9a06a239bd1052cc1b33beb8902023",
-                    "reference": "439396fcaa9a06a239bd1052cc1b33beb8902023",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/9205960554c8a8be490d52e8722966738da2d20a",
+                    "reference": "9205960554c8a8be490d52e8722966738da2d20a",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-02-09 23:35:23",
+                "time": "2016-02-09 23:46:29",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -859,46 +859,6 @@
                     "issues": "https://github.com/danielbachhuber/wp-rest-cli/issues"
                 }
             },
-            "dev-26-fix-default-context": {
-                "name": "danielbachhuber/wp-rest-cli",
-                "version": "dev-26-fix-default-context",
-                "version_normalized": "dev-26-fix-default-context",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
-                    "reference": "dbc8f1aca8109e06ed1470eb67bdaf30183d0481"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/dbc8f1aca8109e06ed1470eb67bdaf30183d0481",
-                    "reference": "dbc8f1aca8109e06ed1470eb67bdaf30183d0481",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-02-09 23:35:56",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "wp-rest-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co"
-                    }
-                ],
-                "description": "Unlock the potential of the WP REST API at the command line",
-                "support": {
-                    "source": "https://github.com/danielbachhuber/wp-rest-cli/tree/26-fix-default-context",
-                    "issues": "https://github.com/danielbachhuber/wp-rest-cli/issues"
-                }
-            },
             "dev-api-blueprint": {
                 "name": "danielbachhuber/wp-rest-cli",
                 "version": "dev-api-blueprint",
@@ -906,18 +866,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
-                    "reference": "f8b5ae29220679fc77c2ecae97b681386b109e44"
+                    "reference": "7605abae222146e0fa64f940f31a1a555e56a9ec"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/f8b5ae29220679fc77c2ecae97b681386b109e44",
-                    "reference": "f8b5ae29220679fc77c2ecae97b681386b109e44",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/7605abae222146e0fa64f940f31a1a555e56a9ec",
+                    "reference": "7605abae222146e0fa64f940f31a1a555e56a9ec",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-02-08 19:07:33",
+                "time": "2016-02-09 23:46:52",
                 "type": "library",
                 "autoload": {
                     "files": [
