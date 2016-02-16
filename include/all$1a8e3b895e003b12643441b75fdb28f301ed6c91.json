@@ -778,6 +778,42 @@
                 }
             }
         },
+        "danielbachhuber/wp-reset-password-command": {
+            "dev-master": {
+                "name": "danielbachhuber/wp-reset-password-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/wp-reset-password-command.git",
+                    "reference": "423483b0c38d11098c98ca12632239b93f329a5c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-reset-password-command/zipball/423483b0c38d11098c98ca12632239b93f329a5c",
+                    "reference": "423483b0c38d11098c98ca12632239b93f329a5c",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-02-16 14:12:19",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Reset password for one or more WordPress users.",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/wp-reset-password-command/tree/master",
+                    "issues": "https://github.com/danielbachhuber/wp-reset-password-command/issues"
+                }
+            }
+        },
         "danielbachhuber/wp-rest-cli": {
             "v0.1.0": {
                 "name": "danielbachhuber/wp-rest-cli",
