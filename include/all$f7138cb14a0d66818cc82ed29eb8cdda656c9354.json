@@ -3292,6 +3292,42 @@
                 }
             }
         },
+        "wp-cli/wp-scaffold-package-command": {
+            "dev-master": {
+                "name": "wp-cli/wp-scaffold-package-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "ed1eb4b703111bfccd10c7163e6420b5aba40c90"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/ed1eb4b703111bfccd10c7163e6420b5aba40c90",
+                    "reference": "ed1eb4b703111bfccd10c7163e6420b5aba40c90",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-02-16 14:10:21",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Scaffold WP-CLI packages",
+                "support": {
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/master",
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues"
+                }
+            }
+        },
         "wp-cli/wp-super-cache-cli": {
             "dev-master": {
                 "name": "wp-cli/wp-super-cache-cli",
