@@ -1,5 +1,37 @@
 {
     "packages": {
+        "": {
+            "dev-master": {
+                "name": "",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/alleyinteractive/wp-doc-command.git",
+                    "reference": "97dc0ded2bed88aeaa386f98e76d6dfdaeab65f1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/alleyinteractive/wp-doc-command/zipball/97dc0ded2bed88aeaa386f98e76d6dfdaeab65f1",
+                    "reference": "97dc0ded2bed88aeaa386f98e76d6dfdaeab65f1",
+                    "shasum": ""
+                },
+                "time": "2016-02-20 15:34:52",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/alleyinteractive/wp-doc-command/tree/master",
+                    "issues": "https://github.com/alleyinteractive/wp-doc-command/issues"
+                }
+            }
+        },
         "adrigen/wp-cli-piwik": {
             "dev-master": {
                 "name": "adrigen/wp-cli-piwik",
