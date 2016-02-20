@@ -1,37 +1,5 @@
 {
     "packages": {
-        "": {
-            "dev-master": {
-                "name": "",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/alleyinteractive/wp-doc-command.git",
-                    "reference": "97dc0ded2bed88aeaa386f98e76d6dfdaeab65f1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/alleyinteractive/wp-doc-command/zipball/97dc0ded2bed88aeaa386f98e76d6dfdaeab65f1",
-                    "reference": "97dc0ded2bed88aeaa386f98e76d6dfdaeab65f1",
-                    "shasum": ""
-                },
-                "time": "2016-02-20 15:34:52",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/alleyinteractive/wp-doc-command/tree/master",
-                    "issues": "https://github.com/alleyinteractive/wp-doc-command/issues"
-                }
-            }
-        },
         "adrigen/wp-cli-piwik": {
             "dev-master": {
                 "name": "adrigen/wp-cli-piwik",
@@ -78,6 +46,39 @@
                 "support": {
                     "issues": "https://github.com/adrigen/wp-cli-piwik/issues",
                     "source": "https://github.com/adrigen/wp-cli-piwik/"
+                }
+            }
+        },
+        "alleyinteractive/wp-doc-command": {
+            "dev-master": {
+                "name": "alleyinteractive/wp-doc-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/alleyinteractive/wp-doc-command.git",
+                    "reference": "b5caf5781af9a9cdb9c8be9beb669bb3d0160a34"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/alleyinteractive/wp-doc-command/zipball/b5caf5781af9a9cdb9c8be9beb669bb3d0160a34",
+                    "reference": "b5caf5781af9a9cdb9c8be9beb669bb3d0160a34",
+                    "shasum": ""
+                },
+                "time": "2016-02-20 15:43:23",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "View PHPDoc of any class, method, property, or function.",
+                "support": {
+                    "source": "https://github.com/alleyinteractive/wp-doc-command/tree/master",
+                    "issues": "https://github.com/alleyinteractive/wp-doc-command/issues"
                 }
             }
         },
@@ -883,7 +884,7 @@
                 ],
                 "description": "Unlock the potential of the WP REST API at the command line",
                 "support": {
-                    "source": "https://github.com/danielbachhuber/wp-rest-cli/tree/master",
+                    "source": "https://github.com/danielbachhuber/wp-rest-cli/tree/v0.1.0",
                     "issues": "https://github.com/danielbachhuber/wp-rest-cli/issues"
                 }
             },
