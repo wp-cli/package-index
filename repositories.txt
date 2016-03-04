@@ -8,6 +8,7 @@ https://github.com/danielbachhuber/wp-cli-media-sideload-command
 https://github.com/danielbachhuber/wp-cli-pre-cache-command
 https://github.com/danielbachhuber/wp-cli-reset-post-date-command
 https://github.com/danielbachhuber/wp-cli-stat-command
+https://github.com/danielbachhuber/wp-find-unused-themes-command
 https://github.com/danielbachhuber/wp-hook-command
 https://github.com/danielbachhuber/wp-reset-password-command
 https://github.com/danielbachhuber/wp-rest-cli
