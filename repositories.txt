@@ -3,6 +3,7 @@ https://github.com/astorm/wp-static-html-output-plugin
 https://github.com/alleyinteractive/wp-doc-command
 https://github.com/boonebgorges/wp-cli-buddypress
 https://github.com/c10b10/wp-cli-deploy
+https://github.com/danielbachhuber/wp-db-ack-command
 https://github.com/danielbachhuber/dictator
 https://github.com/danielbachhuber/wp-cli-media-sideload-command
 https://github.com/danielbachhuber/wp-cli-pre-cache-command
