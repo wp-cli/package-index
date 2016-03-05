@@ -774,6 +774,39 @@
                 }
             }
         },
+        "danielbachhuber/wp-db-ack-command": {
+            "dev-master": {
+                "name": "danielbachhuber/wp-db-ack-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/wp-db-ack-command.git",
+                    "reference": "696d6c56c3c16d11add4ca69bf379581d348079f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-db-ack-command/zipball/696d6c56c3c16d11add4ca69bf379581d348079f",
+                    "reference": "696d6c56c3c16d11add4ca69bf379581d348079f",
+                    "shasum": ""
+                },
+                "time": "2016-03-05 00:44:34",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Search through the database.",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/wp-db-ack-command/tree/master",
+                    "issues": "https://github.com/danielbachhuber/wp-db-ack-command/issues"
+                }
+            }
+        },
         "danielbachhuber/wp-find-unused-themes-command": {
             "dev-master": {
                 "name": "danielbachhuber/wp-find-unused-themes-command",
