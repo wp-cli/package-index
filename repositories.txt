@@ -33,7 +33,7 @@ https://github.com/stianlik/wp-cli-mig
 https://github.com/szepeviktor/wp-cli-database-prefix-command
 https://github.com/tillkruss/wp-cli-kraken
 https://github.com/viewone/wp-cli-environment
-https://github.com/wp-cli/scaffold-package-command
+https://github.com/wp-cli/scaffold-package
 https://github.com/wp-cli/server-command
 https://github.com/wp-cli/wp-super-cache-cli
 https://github.com/x-team/wp-cli-ssh
