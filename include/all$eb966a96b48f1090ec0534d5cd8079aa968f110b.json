@@ -3578,18 +3578,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package.git",
-                    "reference": "d9c12754043c86d2810f3ead4c621e898b26dc51"
+                    "reference": "e9c982124eb6ba4ce42dd0fe0d7e52b4ff674739"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package/zipball/d9c12754043c86d2810f3ead4c621e898b26dc51",
-                    "reference": "d9c12754043c86d2810f3ead4c621e898b26dc51",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package/zipball/e9c982124eb6ba4ce42dd0fe0d7e52b4ff674739",
+                    "reference": "e9c982124eb6ba4ce42dd0fe0d7e52b4ff674739",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-03-08 01:57:10",
+                "time": "2016-03-08 23:03:05",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3602,40 +3602,6 @@
                 "description": "Scaffold WP-CLI packages",
                 "support": {
                     "source": "https://github.com/wp-cli/scaffold-package/tree/master",
-                    "issues": "https://github.com/wp-cli/scaffold-package/issues"
-                }
-            },
-            "dev-scaffold-package-dir-default": {
-                "name": "wp-cli/wp-scaffold-package-command",
-                "version": "dev-scaffold-package-dir-default",
-                "version_normalized": "dev-scaffold-package-dir-default",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package.git",
-                    "reference": "66a93e8f60b019a088c7032a7f211f4027ea3736"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package/zipball/66a93e8f60b019a088c7032a7f211f4027ea3736",
-                    "reference": "66a93e8f60b019a088c7032a7f211f4027ea3736",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-03-08 22:56:57",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Scaffold WP-CLI packages",
-                "support": {
-                    "source": "https://github.com/wp-cli/scaffold-package/tree/scaffold-package-dir-default",
                     "issues": "https://github.com/wp-cli/scaffold-package/issues"
                 }
             }
