@@ -3430,9 +3430,9 @@
                 }
             }
         },
-        "wp-cli/wp-scaffold-package-command": {
+        "wp-cli/scaffold-package-command": {
             "dev-master": {
-                "name": "wp-cli/wp-scaffold-package-command",
+                "name": "wp-cli/scaffold-package-command",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "source": {
