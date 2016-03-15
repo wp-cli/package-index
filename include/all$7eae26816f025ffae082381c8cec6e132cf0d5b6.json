@@ -922,15 +922,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-db-ack-command.git",
-                    "reference": "21cb22b2ea9285efce1c4fe56f00a83eee18f977"
+                    "reference": "636505748dc2162c0ea47eea08ed37bfa7357713"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-db-ack-command/zipball/21cb22b2ea9285efce1c4fe56f00a83eee18f977",
-                    "reference": "21cb22b2ea9285efce1c4fe56f00a83eee18f977",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-db-ack-command/zipball/636505748dc2162c0ea47eea08ed37bfa7357713",
+                    "reference": "636505748dc2162c0ea47eea08ed37bfa7357713",
                     "shasum": ""
                 },
-                "time": "2016-03-14 22:45:19",
+                "time": "2016-03-15 04:00:37",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -943,37 +943,6 @@
                 "description": "Search through the database.",
                 "support": {
                     "source": "https://github.com/danielbachhuber/wp-db-ack-command/tree/master",
-                    "issues": "https://github.com/danielbachhuber/wp-db-ack-command/issues"
-                }
-            },
-            "dev-4-basic-usage": {
-                "name": "danielbachhuber/wp-db-ack-command",
-                "version": "dev-4-basic-usage",
-                "version_normalized": "dev-4-basic-usage",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/danielbachhuber/wp-db-ack-command.git",
-                    "reference": "1c73d29103bf8cb1ba76d820d2427cba49079f39"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-db-ack-command/zipball/1c73d29103bf8cb1ba76d820d2427cba49079f39",
-                    "reference": "1c73d29103bf8cb1ba76d820d2427cba49079f39",
-                    "shasum": ""
-                },
-                "time": "2016-03-15 03:01:05",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Search through the database.",
-                "support": {
-                    "source": "https://github.com/danielbachhuber/wp-db-ack-command/tree/4-basic-usage",
                     "issues": "https://github.com/danielbachhuber/wp-db-ack-command/issues"
                 }
             }
@@ -3596,6 +3565,40 @@
                 "description": "Scaffold WP-CLI commands with functional tests",
                 "support": {
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master",
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues"
+                }
+            },
+            "dev-4-no-word-wrap": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-4-no-word-wrap",
+                "version_normalized": "dev-4-no-word-wrap",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "20137be05c00563785c646a6035bb20eb332002b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/20137be05c00563785c646a6035bb20eb332002b",
+                    "reference": "20137be05c00563785c646a6035bb20eb332002b",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-03-15 04:01:34",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "support": {
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/4-no-word-wrap",
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues"
                 }
             }
