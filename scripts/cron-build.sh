@@ -11,7 +11,7 @@ cd $(dirname $0)/..
 cd web/
 git pull
 git checkout -f
-git rm -f include
+git rm -rf include
 cd -
 
 # update the master branch
