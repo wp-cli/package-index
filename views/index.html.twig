@@ -52,8 +52,18 @@
                 {% if description %}
                     <p>{{ description }}</p>
                 {% endif %}
-
-                <p>See the <a href="https://github.com/wp-cli/wp-cli/wiki/Community-Packages">Community Packages</a> page for information about using and creating packages.</p>
+                
+                <p>WP-CLI packages are community-maintained commands you can install with <code>wp package install</code> (<a href="http://wp-cli.org/commands/package/install">doc</a>)</a>.</p>
+                
+                <p>There are a few advantages to distributing custom commands as packages, instead of bundling them in plugins:
+                    <ul>
+                        <li>Available on all WordPress installs, as opposed to just where the plugin is activated.</li>
+                        <li>Can run early, before WordPress is loaded.</li>
+                        <li>Better visibility, by being listed in this package index.</li>
+                    </ul>
+                </p>
+                
+                <p>See the <a href="http://wp-cli.org/docs/commands-cookbook">commands cookbook</a> for learning how to write your own command. For a non-exhaustive list of commands available in plugins, please see the <a href="http://wp-cli.org/docs/tools/">tools page</a>.</p>
 
                 <hr />
 
