@@ -922,15 +922,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-db-ack-command.git",
-                    "reference": "696d6c56c3c16d11add4ca69bf379581d348079f"
+                    "reference": "21cb22b2ea9285efce1c4fe56f00a83eee18f977"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-db-ack-command/zipball/696d6c56c3c16d11add4ca69bf379581d348079f",
-                    "reference": "696d6c56c3c16d11add4ca69bf379581d348079f",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-db-ack-command/zipball/21cb22b2ea9285efce1c4fe56f00a83eee18f977",
+                    "reference": "21cb22b2ea9285efce1c4fe56f00a83eee18f977",
                     "shasum": ""
                 },
-                "time": "2016-03-05 00:44:34",
+                "time": "2016-03-14 22:45:19",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -945,6 +945,37 @@
                     "source": "https://github.com/danielbachhuber/wp-db-ack-command/tree/master",
                     "issues": "https://github.com/danielbachhuber/wp-db-ack-command/issues"
                 }
+            },
+            "dev-4-basic-usage": {
+                "name": "danielbachhuber/wp-db-ack-command",
+                "version": "dev-4-basic-usage",
+                "version_normalized": "dev-4-basic-usage",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/wp-db-ack-command.git",
+                    "reference": "1c73d29103bf8cb1ba76d820d2427cba49079f39"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-db-ack-command/zipball/1c73d29103bf8cb1ba76d820d2427cba49079f39",
+                    "reference": "1c73d29103bf8cb1ba76d820d2427cba49079f39",
+                    "shasum": ""
+                },
+                "time": "2016-03-15 03:01:05",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Search through the database.",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/wp-db-ack-command/tree/4-basic-usage",
+                    "issues": "https://github.com/danielbachhuber/wp-db-ack-command/issues"
+                }
             }
         },
         "danielbachhuber/wp-find-unused-themes-command": {
@@ -955,18 +986,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-find-unused-themes-command.git",
-                    "reference": "75391ac820f53f8202e0aa1156dd30f79c824edb"
+                    "reference": "90acf2cd697baaf2e46bdb6b04f79aa4e601208e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-find-unused-themes-command/zipball/75391ac820f53f8202e0aa1156dd30f79c824edb",
-                    "reference": "75391ac820f53f8202e0aa1156dd30f79c824edb",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-find-unused-themes-command/zipball/90acf2cd697baaf2e46bdb6b04f79aa4e601208e",
+                    "reference": "90acf2cd697baaf2e46bdb6b04f79aa4e601208e",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-03-03 22:19:14",
+                "time": "2016-03-09 00:55:01",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -1104,18 +1135,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
-                    "reference": "9205960554c8a8be490d52e8722966738da2d20a"
+                    "reference": "e114509ea89c0029c072288c9e9084daa100b052"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/9205960554c8a8be490d52e8722966738da2d20a",
-                    "reference": "9205960554c8a8be490d52e8722966738da2d20a",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/e114509ea89c0029c072288c9e9084daa100b052",
+                    "reference": "e114509ea89c0029c072288c9e9084daa100b052",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-02-09 23:46:29",
+                "time": "2016-03-13 17:11:04",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3541,18 +3572,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "921e454d8cc51077e259738b36da9ad2f61eb888"
+                    "reference": "f5def60049a837c9c2c6b6bb475014b6e6cf3518"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/921e454d8cc51077e259738b36da9ad2f61eb888",
-                    "reference": "921e454d8cc51077e259738b36da9ad2f61eb888",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/f5def60049a837c9c2c6b6bb475014b6e6cf3518",
+                    "reference": "f5def60049a837c9c2c6b6bb475014b6e6cf3518",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-03-09 00:36:06",
+                "time": "2016-03-15 00:00:03",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3565,6 +3596,40 @@
                 "description": "Scaffold WP-CLI commands with functional tests",
                 "support": {
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master",
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues"
+                }
+            },
+            "dev-4-readme-tests": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-4-readme-tests",
+                "version_normalized": "dev-4-readme-tests",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "37ff5d803284c7b14afba84724e56d7d4b48aae6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/37ff5d803284c7b14afba84724e56d7d4b48aae6",
+                    "reference": "37ff5d803284c7b14afba84724e56d7d4b48aae6",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-03-15 03:23:43",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "support": {
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/4-readme-tests",
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues"
                 }
             }
@@ -3614,18 +3679,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/wp-super-cache-cli.git",
-                    "reference": "d834091adf64ab7028b1f61350c200e8dbcdf71f"
+                    "reference": "2fdbf1607a451c56cfbfb332b355d715701dd5d4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/wp-super-cache-cli/zipball/d834091adf64ab7028b1f61350c200e8dbcdf71f",
-                    "reference": "d834091adf64ab7028b1f61350c200e8dbcdf71f",
+                    "url": "https://api.github.com/repos/wp-cli/wp-super-cache-cli/zipball/2fdbf1607a451c56cfbfb332b355d715701dd5d4",
+                    "reference": "2fdbf1607a451c56cfbfb332b355d715701dd5d4",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2015-08-18 23:05:06",
+                "time": "2016-03-11 01:34:28",
                 "type": "command",
                 "autoload": {
                     "files": [
