@@ -1715,6 +1715,53 @@
                 }
             }
         },
+        "ivankruchkoff/wp-hammer": {
+            "dev-master": {
+                "name": "ivankruchkoff/wp-hammer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/10up/wp-hammer.git",
+                    "reference": "acb3dabeadf4411882189460ef841362d25ebd08"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/10up/wp-hammer/zipball/acb3dabeadf4411882189460ef841362d25ebd08",
+                    "reference": "acb3dabeadf4411882189460ef841362d25ebd08",
+                    "shasum": ""
+                },
+                "require": {
+                    "heidilabs/markov-php": "dev-master",
+                    "joshtronic/php-loremipsum": "dev-master",
+                    "roderik/pwgen-php": "dev-master"
+                },
+                "time": "2016-03-15 18:08:30",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI\\Hammer\\": "includes/"
+                    },
+                    "files": [
+                        "wp-hammer.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Kruchkoff",
+                        "email": "ivan@kruchkoff.com"
+                    }
+                ],
+                "description": "WP CLI Hammer Command to remove personally identifiable information and extra content for dev/test/stage purposes",
+                "support": {
+                    "source": "https://github.com/10up/wp-hammer/tree/master",
+                    "issues": "https://github.com/10up/wp-hammer/issues"
+                }
+            }
+        },
         "mattes/wp-cli-git-command": {
             "v1.0.0": {
                 "name": "mattes/wp-cli-git-command",
