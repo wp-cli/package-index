@@ -3572,18 +3572,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "f5def60049a837c9c2c6b6bb475014b6e6cf3518"
+                    "reference": "eef41f5a3bd898e2ef8384a7b33267e34f915fa2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/f5def60049a837c9c2c6b6bb475014b6e6cf3518",
-                    "reference": "f5def60049a837c9c2c6b6bb475014b6e6cf3518",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/eef41f5a3bd898e2ef8384a7b33267e34f915fa2",
+                    "reference": "eef41f5a3bd898e2ef8384a7b33267e34f915fa2",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-03-15 00:00:03",
+                "time": "2016-03-15 03:37:17",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3596,40 +3596,6 @@
                 "description": "Scaffold WP-CLI commands with functional tests",
                 "support": {
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master",
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues"
-                }
-            },
-            "dev-4-readme-tests": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-4-readme-tests",
-                "version_normalized": "dev-4-readme-tests",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "37ff5d803284c7b14afba84724e56d7d4b48aae6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/37ff5d803284c7b14afba84724e56d7d4b48aae6",
-                    "reference": "37ff5d803284c7b14afba84724e56d7d4b48aae6",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-03-15 03:23:43",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "support": {
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/4-readme-tests",
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues"
                 }
             }
