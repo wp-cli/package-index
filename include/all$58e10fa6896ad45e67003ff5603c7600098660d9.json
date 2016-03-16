@@ -1723,12 +1723,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/wp-hammer.git",
-                    "reference": "acb3dabeadf4411882189460ef841362d25ebd08"
+                    "reference": "9d034ff04b4c89d31fa98d6f446aaccd41679b2b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/wp-hammer/zipball/acb3dabeadf4411882189460ef841362d25ebd08",
-                    "reference": "acb3dabeadf4411882189460ef841362d25ebd08",
+                    "url": "https://api.github.com/repos/10up/wp-hammer/zipball/9d034ff04b4c89d31fa98d6f446aaccd41679b2b",
+                    "reference": "9d034ff04b4c89d31fa98d6f446aaccd41679b2b",
                     "shasum": ""
                 },
                 "require": {
@@ -1736,7 +1736,7 @@
                     "joshtronic/php-loremipsum": "dev-master",
                     "roderik/pwgen-php": "dev-master"
                 },
-                "time": "2016-03-15 18:08:30",
+                "time": "2016-03-16 00:28:55",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -1747,7 +1747,7 @@
                     ]
                 },
                 "license": [
-                    "GPL-2.0+"
+                    "MIT"
                 ],
                 "authors": [
                     {
