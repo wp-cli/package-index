@@ -1723,12 +1723,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/wp-hammer.git",
-                    "reference": "9d034ff04b4c89d31fa98d6f446aaccd41679b2b"
+                    "reference": "cc105912553d3945cf7bca277bbc167485d9edb5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/wp-hammer/zipball/9d034ff04b4c89d31fa98d6f446aaccd41679b2b",
-                    "reference": "9d034ff04b4c89d31fa98d6f446aaccd41679b2b",
+                    "url": "https://api.github.com/repos/10up/wp-hammer/zipball/cc105912553d3945cf7bca277bbc167485d9edb5",
+                    "reference": "cc105912553d3945cf7bca277bbc167485d9edb5",
                     "shasum": ""
                 },
                 "require": {
@@ -1736,7 +1736,7 @@
                     "joshtronic/php-loremipsum": "dev-master",
                     "roderik/pwgen-php": "dev-master"
                 },
-                "time": "2016-03-16 00:28:55",
+                "time": "2016-03-16 21:03:56",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -1752,7 +1752,8 @@
                 "authors": [
                     {
                         "name": "Ivan Kruchkoff",
-                        "email": "ivan@kruchkoff.com"
+                        "email": "ivan@kruchkoff.com",
+                        "homepage": "https://github.com/ivankruchkoff"
                     }
                 ],
                 "description": "WP CLI Hammer Command to remove personally identifiable information and extra content for dev/test/stage purposes",
