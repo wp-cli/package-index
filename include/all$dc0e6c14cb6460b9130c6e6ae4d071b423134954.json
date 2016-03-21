@@ -3615,6 +3615,40 @@
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master",
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues"
                 }
+            },
+            "dev-4-basic-behat-structure": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-4-basic-behat-structure",
+                "version_normalized": "dev-4-basic-behat-structure",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "7399867f17eb190762dbb7517350e193609914eb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/7399867f17eb190762dbb7517350e193609914eb",
+                    "reference": "7399867f17eb190762dbb7517350e193609914eb",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-03-21 15:44:01",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "support": {
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/4-basic-behat-structure",
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues"
+                }
             }
         },
         "wp-cli/server-command": {
