@@ -921,12 +921,12 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/danielbachhuber/wp-db-ack-command.git",
+                    "url": "https://github.com/runcommand/db-ack.git",
                     "reference": "636505748dc2162c0ea47eea08ed37bfa7357713"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-db-ack-command/zipball/636505748dc2162c0ea47eea08ed37bfa7357713",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/636505748dc2162c0ea47eea08ed37bfa7357713",
                     "reference": "636505748dc2162c0ea47eea08ed37bfa7357713",
                     "shasum": ""
                 },
