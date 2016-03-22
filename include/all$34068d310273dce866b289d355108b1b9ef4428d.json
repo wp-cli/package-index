@@ -921,12 +921,12 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/danielbachhuber/wp-hook-command.git",
+                    "url": "https://github.com/runcommand/hook.git",
                     "reference": "5105815a4b1f7273091d9de1eb64c7785589c382"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-hook-command/zipball/5105815a4b1f7273091d9de1eb64c7785589c382",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/5105815a4b1f7273091d9de1eb64c7785589c382",
                     "reference": "5105815a4b1f7273091d9de1eb64c7785589c382",
                     "shasum": ""
                 },
@@ -958,12 +958,12 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/danielbachhuber/wp-reset-password-command.git",
+                    "url": "https://github.com/runcommand/reset-passwords.git",
                     "reference": "6debabb05c61d6d0259c6c15ed83cf494801a332"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-reset-password-command/zipball/6debabb05c61d6d0259c6c15ed83cf494801a332",
+                    "url": "https://api.github.com/repos/runcommand/reset-passwords/zipball/6debabb05c61d6d0259c6c15ed83cf494801a332",
                     "reference": "6debabb05c61d6d0259c6c15ed83cf494801a332",
                     "shasum": ""
                 },
