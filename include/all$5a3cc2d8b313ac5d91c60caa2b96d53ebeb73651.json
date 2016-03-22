@@ -2793,18 +2793,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "2ee40098ccab27db1fd3a4836a36eb1836fed8df"
+                    "reference": "faee98201fbeb8297aa9389777d12b9aa18e4ae3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/2ee40098ccab27db1fd3a4836a36eb1836fed8df",
-                    "reference": "2ee40098ccab27db1fd3a4836a36eb1836fed8df",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/faee98201fbeb8297aa9389777d12b9aa18e4ae3",
+                    "reference": "faee98201fbeb8297aa9389777d12b9aa18e4ae3",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-03-22 18:59:48",
+                "time": "2016-03-22 20:28:20",
                 "type": "library",
                 "license": [
                     "MIT"
