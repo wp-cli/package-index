@@ -914,43 +914,6 @@
                 }
             }
         },
-        "danielbachhuber/wp-hook-command": {
-            "dev-master": {
-                "name": "danielbachhuber/wp-hook-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/hook.git",
-                    "reference": "5105815a4b1f7273091d9de1eb64c7785589c382"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/5105815a4b1f7273091d9de1eb64c7785589c382",
-                    "reference": "5105815a4b1f7273091d9de1eb64c7785589c382",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-02-04 14:05:44",
-                "type": "library",
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co"
-                    }
-                ],
-                "description": "List callbacks registered to a given action or filter",
-                "support": {
-                    "source": "https://github.com/danielbachhuber/wp-hook-command/tree/master",
-                    "issues": "https://github.com/danielbachhuber/wp-hook-command/issues"
-                }
-            }
-        },
         "danielbachhuber/wp-rest-cli": {
             "v0.1.0": {
                 "name": "danielbachhuber/wp-rest-cli",
@@ -2819,6 +2782,43 @@
                 "support": {
                     "source": "https://github.com/runcommand/find-unused-themes/tree/master",
                     "issues": "https://github.com/runcommand/find-unused-themes/issues"
+                }
+            }
+        },
+        "runcommand/hook": {
+            "dev-master": {
+                "name": "runcommand/hook",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/hook.git",
+                    "reference": "2ee40098ccab27db1fd3a4836a36eb1836fed8df"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/2ee40098ccab27db1fd3a4836a36eb1836fed8df",
+                    "reference": "2ee40098ccab27db1fd3a4836a36eb1836fed8df",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-03-22 18:59:48",
+                "type": "library",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "List callbacks registered to a given action or filter.",
+                "support": {
+                    "source": "https://github.com/runcommand/hook/tree/master",
+                    "issues": "https://github.com/runcommand/hook/issues"
                 }
             }
         },
