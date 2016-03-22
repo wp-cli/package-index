@@ -10,10 +10,6 @@ https://github.com/danielbachhuber/wp-cli-media-sideload-command
 https://github.com/danielbachhuber/wp-cli-pre-cache-command
 https://github.com/danielbachhuber/wp-cli-reset-post-date-command
 https://github.com/danielbachhuber/wp-cli-stat-command
-https://github.com/danielbachhuber/wp-db-ack-command
-https://github.com/danielbachhuber/wp-find-unused-themes-command
-https://github.com/danielbachhuber/wp-hook-command
-https://github.com/danielbachhuber/wp-reset-password-command
 https://github.com/danielbachhuber/wp-rest-cli
 https://github.com/dereckson/wp-cli-polylang
 https://github.com/frozzare/wp-cli-lint
@@ -27,6 +23,10 @@ https://github.com/pixline/wp-cli-php-devtools
 https://github.com/pixline/wp-cli-proxy
 https://github.com/pixline/wp-cli-theme-test-command
 https://github.com/pods-framework/pods-wp-cli
+https://github.com/runcommand/db-ack
+https://github.com/runcommand/find-unused-themes
+https://github.com/runcommand/hook
+https://github.com/runcommand/reset-passwords
 https://github.com/sebastiaandegeus/wp-cli-salts-command
 https://github.com/sinebridge/wp-cli-about
 https://github.com/srtfisher/wp-composer
