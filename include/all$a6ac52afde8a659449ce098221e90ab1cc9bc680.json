@@ -945,6 +945,37 @@
                     "source": "https://github.com/danielbachhuber/wp-db-ack-command/tree/master",
                     "issues": "https://github.com/danielbachhuber/wp-db-ack-command/issues"
                 }
+            },
+            "dev-rename-package": {
+                "name": "danielbachhuber/wp-db-ack-command",
+                "version": "dev-rename-package",
+                "version_normalized": "dev-rename-package",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/db-ack.git",
+                    "reference": "ef31305eb39143107ee8873bb4d8828cbb33ea05"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/ef31305eb39143107ee8873bb4d8828cbb33ea05",
+                    "reference": "ef31305eb39143107ee8873bb4d8828cbb33ea05",
+                    "shasum": ""
+                },
+                "time": "2016-03-22 17:32:43",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Search through the database.",
+                "support": {
+                    "source": "https://github.com/runcommand/db-ack/tree/rename-package",
+                    "issues": "https://github.com/runcommand/db-ack/issues"
+                }
             }
         },
         "danielbachhuber/wp-find-unused-themes-command": {
