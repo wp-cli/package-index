@@ -951,42 +951,6 @@
                 }
             }
         },
-        "danielbachhuber/wp-reset-password-command": {
-            "dev-master": {
-                "name": "danielbachhuber/wp-reset-password-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/reset-passwords.git",
-                    "reference": "6debabb05c61d6d0259c6c15ed83cf494801a332"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/reset-passwords/zipball/6debabb05c61d6d0259c6c15ed83cf494801a332",
-                    "reference": "6debabb05c61d6d0259c6c15ed83cf494801a332",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-02-16 14:49:34",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Reset password for one or more WordPress users.",
-                "support": {
-                    "source": "https://github.com/danielbachhuber/wp-reset-password-command/tree/master",
-                    "issues": "https://github.com/danielbachhuber/wp-reset-password-command/issues"
-                }
-            }
-        },
         "danielbachhuber/wp-rest-cli": {
             "v0.1.0": {
                 "name": "danielbachhuber/wp-rest-cli",
@@ -2855,6 +2819,42 @@
                 "support": {
                     "source": "https://github.com/runcommand/find-unused-themes/tree/master",
                     "issues": "https://github.com/runcommand/find-unused-themes/issues"
+                }
+            }
+        },
+        "runcommand/reset-passwords": {
+            "dev-master": {
+                "name": "runcommand/reset-passwords",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/reset-passwords.git",
+                    "reference": "16ae15f9331445b42d887dbf5328bb567560ed5c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/reset-passwords/zipball/16ae15f9331445b42d887dbf5328bb567560ed5c",
+                    "reference": "16ae15f9331445b42d887dbf5328bb567560ed5c",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-03-22 18:46:42",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Reset passwords for one or more WordPress users.",
+                "support": {
+                    "source": "https://github.com/runcommand/reset-passwords/tree/master",
+                    "issues": "https://github.com/runcommand/reset-passwords/issues"
                 }
             }
         },
