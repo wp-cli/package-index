@@ -15,6 +15,7 @@ https://github.com/danielbachhuber/wp-cli-stat-command
 https://github.com/danielbachhuber/wp-rest-cli
 https://github.com/dereckson/wp-cli-polylang
 https://github.com/frozzare/wp-cli-lint
+https://github.com/frozzare/wp-cli-media-restore
 https://github.com/GeekPress/wp-rocket-cli
 https://github.com/humanmade/wp-remote-cli
 https://github.com/mattclegg/wp-cli_check-content
