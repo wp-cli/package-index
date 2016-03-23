@@ -1,0 +1,134 @@
+{
+    "packages": {
+        "adrigen/wp-cli-piwik": {
+            "dev-master": {
+                "name": "adrigen/wp-cli-piwik",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/adrigen/wp-cli-piwik.git",
+                    "reference": "8204cc0a229ca1bd7fdfb21f94c57b84c4b8d5e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/adrigen/wp-cli-piwik/zipball/8204cc0a229ca1bd7fdfb21f94c57b84c4b8d5e2",
+                    "reference": "8204cc0a229ca1bd7fdfb21f94c57b84c4b8d5e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2015-08-11 10:21:10",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Adrian Garner",
+                        "homepage": "http://adrian.com.au",
+                        "email": "support@adrian.com.au",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Add a `wp piwik` command to support the WP-Piwik plugin",
+                "keywords": [
+                    "piwik",
+                    "wp-cli",
+                    "wp-piwik"
+                ],
+                "support": {
+                    "issues": "https://github.com/adrigen/wp-cli-piwik/issues",
+                    "source": "https://github.com/adrigen/wp-cli-piwik/"
+                }
+            }
+        },
+        "alleyinteractive/wp-doc-command": {
+            "dev-master": {
+                "name": "alleyinteractive/wp-doc-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/alleyinteractive/wp-doc-command.git",
+                    "reference": "b5caf5781af9a9cdb9c8be9beb669bb3d0160a34"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/alleyinteractive/wp-doc-command/zipball/b5caf5781af9a9cdb9c8be9beb669bb3d0160a34",
+                    "reference": "b5caf5781af9a9cdb9c8be9beb669bb3d0160a34",
+                    "shasum": ""
+                },
+                "time": "2016-02-20 15:43:23",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "View PHPDoc of any class, method, property, or function.",
+                "support": {
+                    "source": "https://github.com/alleyinteractive/wp-doc-command/tree/master",
+                    "issues": "https://github.com/alleyinteractive/wp-doc-command/issues"
+                }
+            }
+        },
+        "ivankruchkoff/wp-hammer": {
+            "dev-master": {
+                "name": "ivankruchkoff/wp-hammer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/10up/wp-hammer.git",
+                    "reference": "cc105912553d3945cf7bca277bbc167485d9edb5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/10up/wp-hammer/zipball/cc105912553d3945cf7bca277bbc167485d9edb5",
+                    "reference": "cc105912553d3945cf7bca277bbc167485d9edb5",
+                    "shasum": ""
+                },
+                "require": {
+                    "heidilabs/markov-php": "dev-master",
+                    "joshtronic/php-loremipsum": "dev-master",
+                    "roderik/pwgen-php": "dev-master"
+                },
+                "time": "2016-03-16 21:03:56",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI\\Hammer\\": "includes/"
+                    },
+                    "files": [
+                        "wp-hammer.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Kruchkoff",
+                        "email": "ivan@kruchkoff.com",
+                        "homepage": "https://github.com/ivankruchkoff"
+                    }
+                ],
+                "description": "WP CLI Hammer Command to remove personally identifiable information and extra content for dev/test/stage purposes",
+                "support": {
+                    "source": "https://github.com/10up/wp-hammer/tree/master",
+                    "issues": "https://github.com/10up/wp-hammer/issues"
+                }
+            }
+        }
+    }
+}
