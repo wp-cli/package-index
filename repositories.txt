@@ -1,4 +1,5 @@
 https://github.com/10up/wp-hammer
+https://github.com/aaemnnosttv/wp-cli-http-command
 https://github.com/adrigen/wp-cli-piwik
 https://github.com/alleyinteractive/wp-doc-command
 https://github.com/astorm/wp-static-html-output-plugin
