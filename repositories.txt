@@ -8,7 +8,6 @@ https://github.com/boonebgorges/wp-cli-buddypress
 https://github.com/boonebgorges/wp-cli-git-helper
 https://github.com/c10b10/wp-cli-deploy
 https://github.com/danielbachhuber/dictator
-https://github.com/danielbachhuber/wp-cli-media-sideload-command
 https://github.com/danielbachhuber/wp-cli-pre-cache-command
 https://github.com/danielbachhuber/wp-cli-reset-post-date-command
 https://github.com/danielbachhuber/wp-cli-stat-command
@@ -29,6 +28,7 @@ https://github.com/pods-framework/pods-wp-cli
 https://github.com/runcommand/db-ack
 https://github.com/runcommand/find-unused-themes
 https://github.com/runcommand/hook
+https://github.com/runcommand/media-sideload
 https://github.com/runcommand/reset-passwords
 https://github.com/sebastiaandegeus/wp-cli-salts-command
 https://github.com/sinebridge/wp-cli-about
