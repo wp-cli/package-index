@@ -3076,6 +3076,37 @@
                     "source": "https://github.com/runcommand/db-ack/tree/master",
                     "issues": "https://github.com/runcommand/db-ack/issues"
                 }
+            },
+            "dev-regen-readme": {
+                "name": "runcommand/db-ack",
+                "version": "dev-regen-readme",
+                "version_normalized": "dev-regen-readme",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/db-ack.git",
+                    "reference": "f442c3c66dbea0121d8265bb892b890d95fae773"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/f442c3c66dbea0121d8265bb892b890d95fae773",
+                    "reference": "f442c3c66dbea0121d8265bb892b890d95fae773",
+                    "shasum": ""
+                },
+                "time": "2016-03-24 22:45:15",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Search through the database.",
+                "support": {
+                    "source": "https://github.com/runcommand/db-ack/tree/regen-readme",
+                    "issues": "https://github.com/runcommand/db-ack/issues"
+                }
             }
         },
         "runcommand/find-unused-themes": {
@@ -3110,6 +3141,40 @@
                 "description": "Find unused themes on a multisite network.",
                 "support": {
                     "source": "https://github.com/runcommand/find-unused-themes/tree/master",
+                    "issues": "https://github.com/runcommand/find-unused-themes/issues"
+                }
+            },
+            "dev-regen-readme": {
+                "name": "runcommand/find-unused-themes",
+                "version": "dev-regen-readme",
+                "version_normalized": "dev-regen-readme",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/find-unused-themes.git",
+                    "reference": "fc9c0206aed0368fcb7ab22e109e2bab7fa8acff"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/fc9c0206aed0368fcb7ab22e109e2bab7fa8acff",
+                    "reference": "fc9c0206aed0368fcb7ab22e109e2bab7fa8acff",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-03-24 22:45:49",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Find unused themes on a multisite network.",
+                "support": {
+                    "source": "https://github.com/runcommand/find-unused-themes/tree/regen-readme",
                     "issues": "https://github.com/runcommand/find-unused-themes/issues"
                 }
             }
@@ -3228,6 +3293,40 @@
                 "description": "Reset passwords for one or more WordPress users.",
                 "support": {
                     "source": "https://github.com/runcommand/reset-passwords/tree/master",
+                    "issues": "https://github.com/runcommand/reset-passwords/issues"
+                }
+            },
+            "dev-regen-readme": {
+                "name": "runcommand/reset-passwords",
+                "version": "dev-regen-readme",
+                "version_normalized": "dev-regen-readme",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/reset-passwords.git",
+                    "reference": "0f5317d29c60fb8d2487b180007c321996ed92f5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/reset-passwords/zipball/0f5317d29c60fb8d2487b180007c321996ed92f5",
+                    "reference": "0f5317d29c60fb8d2487b180007c321996ed92f5",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-03-24 22:47:44",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Reset passwords for one or more WordPress users.",
+                "support": {
+                    "source": "https://github.com/runcommand/reset-passwords/tree/regen-readme",
                     "issues": "https://github.com/runcommand/reset-passwords/issues"
                 }
             }
