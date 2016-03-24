@@ -3122,18 +3122,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "ed63868894e8bd44eb2d6f887c441f195b2f43b7"
+                    "reference": "56a2b799097af646c0f8b5aa816e7f6c7d10a42a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/ed63868894e8bd44eb2d6f887c441f195b2f43b7",
-                    "reference": "ed63868894e8bd44eb2d6f887c441f195b2f43b7",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/56a2b799097af646c0f8b5aa816e7f6c7d10a42a",
+                    "reference": "56a2b799097af646c0f8b5aa816e7f6c7d10a42a",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-03-24 18:55:32",
+                "time": "2016-03-24 19:33:54",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3152,46 +3152,6 @@
                 "description": "List callbacks registered to a given action or filter.",
                 "support": {
                     "source": "https://github.com/runcommand/hook/tree/master",
-                    "issues": "https://github.com/runcommand/hook/issues"
-                }
-            },
-            "dev-regenerate-readme-full-desc": {
-                "name": "runcommand/hook",
-                "version": "dev-regenerate-readme-full-desc",
-                "version_normalized": "dev-regenerate-readme-full-desc",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/hook.git",
-                    "reference": "3a3d9265406f79453be78a12252487e9f4c4ab52"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/3a3d9265406f79453be78a12252487e9f4c4ab52",
-                    "reference": "3a3d9265406f79453be78a12252487e9f4c4ab52",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-03-24 19:21:45",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co"
-                    }
-                ],
-                "description": "List callbacks registered to a given action or filter.",
-                "support": {
-                    "source": "https://github.com/runcommand/hook/tree/regenerate-readme-full-desc",
                     "issues": "https://github.com/runcommand/hook/issues"
                 }
             }
