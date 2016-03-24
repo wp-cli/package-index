@@ -3154,6 +3154,46 @@
                     "source": "https://github.com/runcommand/hook/tree/master",
                     "issues": "https://github.com/runcommand/hook/issues"
                 }
+            },
+            "dev-regenerate-readme-full-desc": {
+                "name": "runcommand/hook",
+                "version": "dev-regenerate-readme-full-desc",
+                "version_normalized": "dev-regenerate-readme-full-desc",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/hook.git",
+                    "reference": "3a3d9265406f79453be78a12252487e9f4c4ab52"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/3a3d9265406f79453be78a12252487e9f4c4ab52",
+                    "reference": "3a3d9265406f79453be78a12252487e9f4c4ab52",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-03-24 19:21:45",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "List callbacks registered to a given action or filter.",
+                "support": {
+                    "source": "https://github.com/runcommand/hook/tree/regenerate-readme-full-desc",
+                    "issues": "https://github.com/runcommand/hook/issues"
+                }
             }
         },
         "runcommand/reset-passwords": {
@@ -3923,18 +3963,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "074e2916e45f02e5efff4052b78d5e06b34130f3"
+                    "reference": "7dc321c864893e5d2afda17471cd2a664a2968b5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/074e2916e45f02e5efff4052b78d5e06b34130f3",
-                    "reference": "074e2916e45f02e5efff4052b78d5e06b34130f3",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/7dc321c864893e5d2afda17471cd2a664a2968b5",
+                    "reference": "7dc321c864893e5d2afda17471cd2a664a2968b5",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-03-23 13:22:56",
+                "time": "2016-03-24 19:28:45",
                 "type": "library",
                 "autoload": {
                     "files": [
