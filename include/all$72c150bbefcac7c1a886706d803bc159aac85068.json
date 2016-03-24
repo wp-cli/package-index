@@ -3154,6 +3154,46 @@
                     "source": "https://github.com/runcommand/hook/tree/master",
                     "issues": "https://github.com/runcommand/hook/issues"
                 }
+            },
+            "dev-include-example-readme": {
+                "name": "runcommand/hook",
+                "version": "dev-include-example-readme",
+                "version_normalized": "dev-include-example-readme",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/hook.git",
+                    "reference": "93e9bbcca175c96a65567cd47ee08c753aac0274"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/93e9bbcca175c96a65567cd47ee08c753aac0274",
+                    "reference": "93e9bbcca175c96a65567cd47ee08c753aac0274",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-03-24 19:42:24",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "List callbacks registered to a given action or filter.",
+                "support": {
+                    "source": "https://github.com/runcommand/hook/tree/include-example-readme",
+                    "issues": "https://github.com/runcommand/hook/issues"
+                }
             }
         },
         "runcommand/reset-passwords": {
