@@ -3122,53 +3122,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "faee98201fbeb8297aa9389777d12b9aa18e4ae3"
+                    "reference": "ed63868894e8bd44eb2d6f887c441f195b2f43b7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/faee98201fbeb8297aa9389777d12b9aa18e4ae3",
-                    "reference": "faee98201fbeb8297aa9389777d12b9aa18e4ae3",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/ed63868894e8bd44eb2d6f887c441f195b2f43b7",
+                    "reference": "ed63868894e8bd44eb2d6f887c441f195b2f43b7",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-03-22 20:28:20",
-                "type": "library",
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co"
-                    }
-                ],
-                "description": "List callbacks registered to a given action or filter.",
-                "support": {
-                    "source": "https://github.com/runcommand/hook/tree/master",
-                    "issues": "https://github.com/runcommand/hook/issues"
-                }
-            },
-            "dev-3-autoload-command": {
-                "name": "runcommand/hook",
-                "version": "dev-3-autoload-command",
-                "version_normalized": "dev-3-autoload-command",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/hook.git",
-                    "reference": "565c510f808daf031e568dd911ee89e4656193cd"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/565c510f808daf031e568dd911ee89e4656193cd",
-                    "reference": "565c510f808daf031e568dd911ee89e4656193cd",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-03-24 18:49:55",
+                "time": "2016-03-24 18:55:32",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3186,7 +3151,7 @@
                 ],
                 "description": "List callbacks registered to a given action or filter.",
                 "support": {
-                    "source": "https://github.com/runcommand/hook/tree/3-autoload-command",
+                    "source": "https://github.com/runcommand/hook/tree/master",
                     "issues": "https://github.com/runcommand/hook/issues"
                 }
             }
