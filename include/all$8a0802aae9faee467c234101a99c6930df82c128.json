@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/MU-Migration.git",
-                    "reference": "22a647e0dc9603f14af27aade185c66f07a7231a"
+                    "reference": "3d0ebd0aafdfde1e3d68d0b75b76afa772c064db"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/22a647e0dc9603f14af27aade185c66f07a7231a",
-                    "reference": "22a647e0dc9603f14af27aade185c66f07a7231a",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/3d0ebd0aafdfde1e3d68d0b75b76afa772c064db",
+                    "reference": "3d0ebd0aafdfde1e3d68d0b75b76afa772c064db",
                     "shasum": ""
                 },
                 "require": {
                     "alchemy/zippy": "^0.3.5"
                 },
-                "time": "2016-03-25 16:47:26",
+                "time": "2016-03-25 17:17:22",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -48,18 +48,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/MU-Migration.git",
-                    "reference": "83204bb0ec3e103dae151755b79c20c219bb1358"
+                    "reference": "f6fc128d9d717711592f72a015dce1c32b85ace0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/83204bb0ec3e103dae151755b79c20c219bb1358",
-                    "reference": "83204bb0ec3e103dae151755b79c20c219bb1358",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/f6fc128d9d717711592f72a015dce1c32b85ace0",
+                    "reference": "f6fc128d9d717711592f72a015dce1c32b85ace0",
                     "shasum": ""
                 },
                 "require": {
                     "alchemy/zippy": "^0.3.5"
                 },
-                "time": "2016-03-25 16:47:14",
+                "time": "2016-03-25 17:16:31",
                 "type": "library",
                 "autoload": {
                     "files": [
