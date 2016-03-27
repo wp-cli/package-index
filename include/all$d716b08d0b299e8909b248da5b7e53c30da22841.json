@@ -3228,18 +3228,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "56a2b799097af646c0f8b5aa816e7f6c7d10a42a"
+                    "reference": "c6a0fa6354140054c0b0416d0f64879bae052926"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/56a2b799097af646c0f8b5aa816e7f6c7d10a42a",
-                    "reference": "56a2b799097af646c0f8b5aa816e7f6c7d10a42a",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/c6a0fa6354140054c0b0416d0f64879bae052926",
+                    "reference": "c6a0fa6354140054c0b0416d0f64879bae052926",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-03-24 19:33:54",
+                "time": "2016-03-27 11:40:48",
                 "type": "library",
                 "autoload": {
                     "files": [
