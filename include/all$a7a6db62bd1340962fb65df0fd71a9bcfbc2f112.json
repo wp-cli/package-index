@@ -180,12 +180,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
-                    "reference": "ad3670ed3db58cfe3ddbbd6aff6e8b3f79d94f08"
+                    "reference": "41268f1973443720918502be2d622f8a668a205f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/ad3670ed3db58cfe3ddbbd6aff6e8b3f79d94f08",
-                    "reference": "ad3670ed3db58cfe3ddbbd6aff6e8b3f79d94f08",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/41268f1973443720918502be2d622f8a668a205f",
+                    "reference": "41268f1973443720918502be2d622f8a668a205f",
                     "shasum": ""
                 },
                 "require": {
@@ -195,7 +195,7 @@
                     "phpunit/phpunit": "^5.2",
                     "wp-cli/wp-cli": "^0.22.0"
                 },
-                "time": "2016-03-23 02:54:55",
+                "time": "2016-04-01 21:23:40",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -222,8 +222,8 @@
                 "description": "Dotenv commands for WP-CLI",
                 "homepage": "https://github.com/aaemnnosttv/wp-cli-dotenv-command",
                 "support": {
-                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master",
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master"
                 }
             },
             "dev-develop": {
