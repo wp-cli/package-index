@@ -1318,18 +1318,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
-                    "reference": "974e15ef87bca41f944800f67db81dceee7cc0bc"
+                    "reference": "4b4e20fb2289a755edee173b1b761afce78badcd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/974e15ef87bca41f944800f67db81dceee7cc0bc",
-                    "reference": "974e15ef87bca41f944800f67db81dceee7cc0bc",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/4b4e20fb2289a755edee173b1b761afce78badcd",
+                    "reference": "4b4e20fb2289a755edee173b1b761afce78badcd",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-04 15:13:13",
+                "time": "2016-04-04 15:27:31",
                 "type": "library",
                 "autoload": {
                     "files": [
