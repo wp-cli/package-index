@@ -3137,15 +3137,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "f0d0198c84e36590d5069204b40900a7f50579f8"
+                    "reference": "2492dabb4754eb86b100d537ced8d821ed896af0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/f0d0198c84e36590d5069204b40900a7f50579f8",
-                    "reference": "f0d0198c84e36590d5069204b40900a7f50579f8",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/2492dabb4754eb86b100d537ced8d821ed896af0",
+                    "reference": "2492dabb4754eb86b100d537ced8d821ed896af0",
                     "shasum": ""
                 },
-                "time": "2016-04-06 12:41:39",
+                "time": "2016-04-06 13:36:09",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3161,22 +3161,22 @@
                     "issues": "https://github.com/runcommand/db-ack/issues"
                 }
             },
-            "dev-1-colorize-match": {
+            "dev-rm-unnecessary-yml": {
                 "name": "runcommand/db-ack",
-                "version": "dev-1-colorize-match",
-                "version_normalized": "dev-1-colorize-match",
+                "version": "dev-rm-unnecessary-yml",
+                "version_normalized": "dev-rm-unnecessary-yml",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "7c22e650d6761bc6e334840b7b58630cdd9617fd"
+                    "reference": "28fdefb0f081cd30804929066bf8d6eda9846169"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/7c22e650d6761bc6e334840b7b58630cdd9617fd",
-                    "reference": "7c22e650d6761bc6e334840b7b58630cdd9617fd",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/28fdefb0f081cd30804929066bf8d6eda9846169",
+                    "reference": "28fdefb0f081cd30804929066bf8d6eda9846169",
                     "shasum": ""
                 },
-                "time": "2016-04-06 13:24:06",
+                "time": "2016-04-06 13:36:55",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3188,7 +3188,7 @@
                 ],
                 "description": "Search through the database.",
                 "support": {
-                    "source": "https://github.com/runcommand/db-ack/tree/1-colorize-match",
+                    "source": "https://github.com/runcommand/db-ack/tree/rm-unnecessary-yml",
                     "issues": "https://github.com/runcommand/db-ack/issues"
                 }
             }
