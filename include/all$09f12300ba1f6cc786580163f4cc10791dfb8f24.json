@@ -3136,15 +3136,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "bac3a8266f873e545d95d961d933b8a58dd93d78"
+                    "reference": "f0d0198c84e36590d5069204b40900a7f50579f8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/bac3a8266f873e545d95d961d933b8a58dd93d78",
-                    "reference": "bac3a8266f873e545d95d961d933b8a58dd93d78",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/f0d0198c84e36590d5069204b40900a7f50579f8",
+                    "reference": "f0d0198c84e36590d5069204b40900a7f50579f8",
                     "shasum": ""
                 },
-                "time": "2016-03-22 17:53:04",
+                "time": "2016-04-06 12:41:39",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3157,37 +3157,6 @@
                 "description": "Search through the database.",
                 "support": {
                     "source": "https://github.com/runcommand/db-ack/tree/master",
-                    "issues": "https://github.com/runcommand/db-ack/issues"
-                }
-            },
-            "dev-2-table-flags": {
-                "name": "runcommand/db-ack",
-                "version": "dev-2-table-flags",
-                "version_normalized": "dev-2-table-flags",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "6cd31db18e01897d2f9b7308b5506309a5345cbd"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/6cd31db18e01897d2f9b7308b5506309a5345cbd",
-                    "reference": "6cd31db18e01897d2f9b7308b5506309a5345cbd",
-                    "shasum": ""
-                },
-                "time": "2016-04-06 12:04:17",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Search through the database.",
-                "support": {
-                    "source": "https://github.com/runcommand/db-ack/tree/2-table-flags",
                     "issues": "https://github.com/runcommand/db-ack/issues"
                 }
             }
