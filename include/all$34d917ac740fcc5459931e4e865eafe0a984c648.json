@@ -374,15 +374,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/alleyinteractive/wp-doc-command.git",
-                    "reference": "b5caf5781af9a9cdb9c8be9beb669bb3d0160a34"
+                    "reference": "6b35967e04f3da83a1253e0c13dfd4b97e8da125"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/alleyinteractive/wp-doc-command/zipball/b5caf5781af9a9cdb9c8be9beb669bb3d0160a34",
-                    "reference": "b5caf5781af9a9cdb9c8be9beb669bb3d0160a34",
+                    "url": "https://api.github.com/repos/alleyinteractive/wp-doc-command/zipball/6b35967e04f3da83a1253e0c13dfd4b97e8da125",
+                    "reference": "6b35967e04f3da83a1253e0c13dfd4b97e8da125",
                     "shasum": ""
                 },
-                "time": "2016-02-20 15:43:23",
+                "time": "2016-04-06 13:05:32",
                 "type": "library",
                 "autoload": {
                     "files": [
