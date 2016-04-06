@@ -3137,15 +3137,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "2492dabb4754eb86b100d537ced8d821ed896af0"
+                    "reference": "6538cd7917ebc9d6080dc21ae7922f1a7070e5b0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/2492dabb4754eb86b100d537ced8d821ed896af0",
-                    "reference": "2492dabb4754eb86b100d537ced8d821ed896af0",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/6538cd7917ebc9d6080dc21ae7922f1a7070e5b0",
+                    "reference": "6538cd7917ebc9d6080dc21ae7922f1a7070e5b0",
                     "shasum": ""
                 },
-                "time": "2016-04-06 13:36:09",
+                "time": "2016-04-06 13:40:58",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3158,37 +3158,6 @@
                 "description": "Search through the database.",
                 "support": {
                     "source": "https://github.com/runcommand/db-ack/tree/master",
-                    "issues": "https://github.com/runcommand/db-ack/issues"
-                }
-            },
-            "dev-rm-unnecessary-yml": {
-                "name": "runcommand/db-ack",
-                "version": "dev-rm-unnecessary-yml",
-                "version_normalized": "dev-rm-unnecessary-yml",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "28fdefb0f081cd30804929066bf8d6eda9846169"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/28fdefb0f081cd30804929066bf8d6eda9846169",
-                    "reference": "28fdefb0f081cd30804929066bf8d6eda9846169",
-                    "shasum": ""
-                },
-                "time": "2016-04-06 13:36:55",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Search through the database.",
-                "support": {
-                    "source": "https://github.com/runcommand/db-ack/tree/rm-unnecessary-yml",
                     "issues": "https://github.com/runcommand/db-ack/issues"
                 }
             }
