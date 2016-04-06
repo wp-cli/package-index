@@ -374,15 +374,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/alleyinteractive/wp-doc-command.git",
-                    "reference": "6b35967e04f3da83a1253e0c13dfd4b97e8da125"
+                    "reference": "9911afc6196673ccf1aca79e11f7ece7bd1c8151"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/alleyinteractive/wp-doc-command/zipball/6b35967e04f3da83a1253e0c13dfd4b97e8da125",
-                    "reference": "6b35967e04f3da83a1253e0c13dfd4b97e8da125",
+                    "url": "https://api.github.com/repos/alleyinteractive/wp-doc-command/zipball/9911afc6196673ccf1aca79e11f7ece7bd1c8151",
+                    "reference": "9911afc6196673ccf1aca79e11f7ece7bd1c8151",
                     "shasum": ""
                 },
-                "time": "2016-04-06 13:05:32",
+                "time": "2016-04-06 13:28:01",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -393,9 +393,10 @@
                     "MIT"
                 ],
                 "description": "View PHPDoc of any class, method, property, or function.",
+                "homepage": "https://github.com/alleyinteractive/wp-doc-command",
                 "support": {
-                    "source": "https://github.com/alleyinteractive/wp-doc-command/tree/master",
-                    "issues": "https://github.com/alleyinteractive/wp-doc-command/issues"
+                    "issues": "https://github.com/alleyinteractive/wp-doc-command",
+                    "source": "https://github.com/alleyinteractive/wp-doc-command/tree/master"
                 }
             }
         },
@@ -3157,6 +3158,37 @@
                 "description": "Search through the database.",
                 "support": {
                     "source": "https://github.com/runcommand/db-ack/tree/master",
+                    "issues": "https://github.com/runcommand/db-ack/issues"
+                }
+            },
+            "dev-1-colorize-match": {
+                "name": "runcommand/db-ack",
+                "version": "dev-1-colorize-match",
+                "version_normalized": "dev-1-colorize-match",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/db-ack.git",
+                    "reference": "7c22e650d6761bc6e334840b7b58630cdd9617fd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/7c22e650d6761bc6e334840b7b58630cdd9617fd",
+                    "reference": "7c22e650d6761bc6e334840b7b58630cdd9617fd",
+                    "shasum": ""
+                },
+                "time": "2016-04-06 13:24:06",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Search through the database.",
+                "support": {
+                    "source": "https://github.com/runcommand/db-ack/tree/1-colorize-match",
                     "issues": "https://github.com/runcommand/db-ack/issues"
                 }
             }
