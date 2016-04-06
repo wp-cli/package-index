@@ -3120,22 +3120,22 @@
                     "issues": "https://github.com/runcommand/db-ack/issues"
                 }
             },
-            "dev-regen-readme": {
+            "dev-2-table-flags": {
                 "name": "runcommand/db-ack",
-                "version": "dev-regen-readme",
-                "version_normalized": "dev-regen-readme",
+                "version": "dev-2-table-flags",
+                "version_normalized": "dev-2-table-flags",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "f442c3c66dbea0121d8265bb892b890d95fae773"
+                    "reference": "6cd31db18e01897d2f9b7308b5506309a5345cbd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/f442c3c66dbea0121d8265bb892b890d95fae773",
-                    "reference": "f442c3c66dbea0121d8265bb892b890d95fae773",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/6cd31db18e01897d2f9b7308b5506309a5345cbd",
+                    "reference": "6cd31db18e01897d2f9b7308b5506309a5345cbd",
                     "shasum": ""
                 },
-                "time": "2016-03-24 22:45:15",
+                "time": "2016-04-06 12:04:17",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3147,7 +3147,7 @@
                 ],
                 "description": "Search through the database.",
                 "support": {
-                    "source": "https://github.com/runcommand/db-ack/tree/regen-readme",
+                    "source": "https://github.com/runcommand/db-ack/tree/2-table-flags",
                     "issues": "https://github.com/runcommand/db-ack/issues"
                 }
             }
