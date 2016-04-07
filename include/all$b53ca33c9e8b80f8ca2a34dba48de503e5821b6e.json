@@ -2416,18 +2416,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/miya0001/wp-cli-vhosts.git",
-                    "reference": "0aadeb79aaad7a488c1dddcff79500d04046dcc8"
+                    "reference": "440be964b5fbedb0e17182762cfad1f0ebff7fbb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/miya0001/wp-cli-vhosts/zipball/0aadeb79aaad7a488c1dddcff79500d04046dcc8",
-                    "reference": "0aadeb79aaad7a488c1dddcff79500d04046dcc8",
+                    "url": "https://api.github.com/repos/miya0001/wp-cli-vhosts/zipball/440be964b5fbedb0e17182762cfad1f0ebff7fbb",
+                    "reference": "440be964b5fbedb0e17182762cfad1f0ebff7fbb",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-04-07 08:11:11",
+                "time": "2016-04-07 19:27:08",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -2457,18 +2457,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/miya0001/wp-cli-vhosts.git",
-                    "reference": "0aadeb79aaad7a488c1dddcff79500d04046dcc8"
+                    "reference": "440be964b5fbedb0e17182762cfad1f0ebff7fbb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/miya0001/wp-cli-vhosts/zipball/0aadeb79aaad7a488c1dddcff79500d04046dcc8",
-                    "reference": "0aadeb79aaad7a488c1dddcff79500d04046dcc8",
+                    "url": "https://api.github.com/repos/miya0001/wp-cli-vhosts/zipball/440be964b5fbedb0e17182762cfad1f0ebff7fbb",
+                    "reference": "440be964b5fbedb0e17182762cfad1f0ebff7fbb",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-04-07 08:11:11",
+                "time": "2016-04-07 19:27:08",
                 "type": "library",
                 "autoload": {
                     "files": [
