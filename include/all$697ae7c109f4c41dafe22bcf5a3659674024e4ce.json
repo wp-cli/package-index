@@ -2368,6 +2368,47 @@
             }
         },
         "miya0001/wp-cli-vhosts": {
+            "1.0.0": {
+                "name": "miya0001/wp-cli-vhosts",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/miya0001/wp-cli-vhosts.git",
+                    "reference": "0aadeb79aaad7a488c1dddcff79500d04046dcc8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/miya0001/wp-cli-vhosts/zipball/0aadeb79aaad7a488c1dddcff79500d04046dcc8",
+                    "reference": "0aadeb79aaad7a488c1dddcff79500d04046dcc8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-04-07 08:11:11",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "https://github.com/miya0001"
+                    }
+                ],
+                "description": "Manage multiple WordPress sites in the server.",
+                "homepage": "https://github.com/miya0001/wp-cli-vhosts",
+                "support": {
+                    "source": "https://github.com/miya0001/wp-cli-vhosts/tree/master",
+                    "issues": "https://github.com/miya0001/wp-cli-vhosts/issues"
+                }
+            },
             "dev-master": {
                 "name": "miya0001/wp-cli-vhosts",
                 "version": "dev-master",
