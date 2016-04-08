@@ -3313,15 +3313,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "6538cd7917ebc9d6080dc21ae7922f1a7070e5b0"
+                    "reference": "2313b3b31c729f7bb26ade193ebdf28eeca17376"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/6538cd7917ebc9d6080dc21ae7922f1a7070e5b0",
-                    "reference": "6538cd7917ebc9d6080dc21ae7922f1a7070e5b0",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/2313b3b31c729f7bb26ade193ebdf28eeca17376",
+                    "reference": "2313b3b31c729f7bb26ade193ebdf28eeca17376",
                     "shasum": ""
                 },
-                "time": "2016-04-06 13:40:58",
+                "time": "2016-04-08 21:43:11",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3330,6 +3330,14 @@
                 },
                 "license": [
                     "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co",
+                        "homepage": "http://runcommand.io",
+                        "role": "Developer"
+                    }
                 ],
                 "description": "Search through the database.",
                 "support": {
@@ -3346,18 +3354,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/find-unused-themes.git",
-                    "reference": "fe2dd622156c430edfd2313266c327603e2e0b30"
+                    "reference": "f7d592e16d53e63a1676d9c709b0bea71cbebe4d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/fe2dd622156c430edfd2313266c327603e2e0b30",
-                    "reference": "fe2dd622156c430edfd2313266c327603e2e0b30",
+                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/f7d592e16d53e63a1676d9c709b0bea71cbebe4d",
+                    "reference": "f7d592e16d53e63a1676d9c709b0bea71cbebe4d",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-03-22 18:28:31",
+                "time": "2016-04-08 21:44:43",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3366,6 +3374,14 @@
                 },
                 "license": [
                     "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co",
+                        "homepage": "http://runcommand.io",
+                        "role": "Developer"
+                    }
                 ],
                 "description": "Find unused themes on a multisite network.",
                 "support": {
@@ -3416,18 +3432,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "c6a0fa6354140054c0b0416d0f64879bae052926"
+                    "reference": "289ee4f5e4fe2c1e755f09bed7f58fcac9a4881c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/c6a0fa6354140054c0b0416d0f64879bae052926",
-                    "reference": "c6a0fa6354140054c0b0416d0f64879bae052926",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/289ee4f5e4fe2c1e755f09bed7f58fcac9a4881c",
+                    "reference": "289ee4f5e4fe2c1e755f09bed7f58fcac9a4881c",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-03-27 11:40:48",
+                "time": "2016-04-08 21:43:34",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3440,7 +3456,9 @@
                 "authors": [
                     {
                         "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co"
+                        "email": "daniel@handbuilt.co",
+                        "homepage": "http://runcommand.io",
+                        "role": "Developer"
                     }
                 ],
                 "description": "List callbacks registered to a given action or filter.",
@@ -3539,15 +3557,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/precache.git",
-                    "reference": "0488ac42fd3ed2ed26187af42f37973738baf4ca"
+                    "reference": "ad5a8b5043dba6e1948e996ef6380ec00efc36a5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/0488ac42fd3ed2ed26187af42f37973738baf4ca",
-                    "reference": "0488ac42fd3ed2ed26187af42f37973738baf4ca",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/ad5a8b5043dba6e1948e996ef6380ec00efc36a5",
+                    "reference": "ad5a8b5043dba6e1948e996ef6380ec00efc36a5",
                     "shasum": ""
                 },
-                "time": "2016-04-08 21:25:42",
+                "time": "2016-04-08 21:42:50",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3561,7 +3579,7 @@
                     {
                         "name": "Daniel Bachhuber",
                         "email": "daniel@handbuilt.co",
-                        "homepage": "http://handbuilt.co",
+                        "homepage": "http://runcommand.io",
                         "role": "Developer"
                     }
                 ],
@@ -3581,18 +3599,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/reset-passwords.git",
-                    "reference": "16ae15f9331445b42d887dbf5328bb567560ed5c"
+                    "reference": "384ec514966a2a62201ad6ac474c1880bdb5b875"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/reset-passwords/zipball/16ae15f9331445b42d887dbf5328bb567560ed5c",
-                    "reference": "16ae15f9331445b42d887dbf5328bb567560ed5c",
+                    "url": "https://api.github.com/repos/runcommand/reset-passwords/zipball/384ec514966a2a62201ad6ac474c1880bdb5b875",
+                    "reference": "384ec514966a2a62201ad6ac474c1880bdb5b875",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-03-22 18:46:42",
+                "time": "2016-04-08 21:45:13",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3601,6 +3619,14 @@
                 },
                 "license": [
                     "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co",
+                        "homepage": "http://runcommand.io",
+                        "role": "Developer"
+                    }
                 ],
                 "description": "Reset passwords for one or more WordPress users.",
                 "support": {
