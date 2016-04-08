@@ -987,18 +987,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/dictator.git",
-                    "reference": "01740fb7de4ad896716dff92d8ed01415327cd65"
+                    "reference": "22fa7b907c98b9e6c1356d86595dae5b3821510e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/01740fb7de4ad896716dff92d8ed01415327cd65",
-                    "reference": "01740fb7de4ad896716dff92d8ed01415327cd65",
+                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/22fa7b907c98b9e6c1356d86595dae5b3821510e",
+                    "reference": "22fa7b907c98b9e6c1356d86595dae5b3821510e",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2015-03-15 22:12:48",
+                "time": "2016-04-08 21:18:56",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -1017,6 +1017,7 @@
                     }
                 ],
                 "description": "The Dictator controls the state of WordPress",
+                "homepage": "https://github.com/danielbachhuber/dictator",
                 "support": {
                     "source": "https://github.com/danielbachhuber/dictator/tree/master",
                     "issues": "https://github.com/danielbachhuber/dictator/issues"
