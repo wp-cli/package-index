@@ -2501,12 +2501,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/miya0001/wp-cli-vhosts.git",
-                    "reference": "4a85eaca8eb4bb6f7ae66b2b9ce7da0679b05d89"
+                    "reference": "bb20735383a198688f15e0c394265144dca06432"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/miya0001/wp-cli-vhosts/zipball/4a85eaca8eb4bb6f7ae66b2b9ce7da0679b05d89",
-                    "reference": "4a85eaca8eb4bb6f7ae66b2b9ce7da0679b05d89",
+                    "url": "https://api.github.com/repos/miya0001/wp-cli-vhosts/zipball/bb20735383a198688f15e0c394265144dca06432",
+                    "reference": "bb20735383a198688f15e0c394265144dca06432",
                     "shasum": ""
                 },
                 "require": {
@@ -2515,7 +2515,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-08 07:30:29",
+                "time": "2016-04-08 18:23:34",
                 "type": "library",
                 "autoload": {
                     "files": [
