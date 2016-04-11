@@ -1272,6 +1272,46 @@
                     "issues": "https://github.com/danielbachhuber/wp-rest-cli/issues"
                 }
             },
+            "dev-cleanup-whitespace": {
+                "name": "danielbachhuber/wp-rest-cli",
+                "version": "dev-cleanup-whitespace",
+                "version_normalized": "dev-cleanup-whitespace",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
+                    "reference": "bd78fc49c556fc8cece0adfb023d1fd1b1628f37"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/bd78fc49c556fc8cece0adfb023d1fd1b1628f37",
+                    "reference": "bd78fc49c556fc8cece0adfb023d1fd1b1628f37",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-04-11 13:41:57",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-rest-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "Unlock the potential of the WP REST API at the command line",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/wp-rest-cli/tree/cleanup-whitespace",
+                    "issues": "https://github.com/danielbachhuber/wp-rest-cli/issues"
+                }
+            },
             "dev-deregister-core-crud": {
                 "name": "danielbachhuber/wp-rest-cli",
                 "version": "dev-deregister-core-crud",
