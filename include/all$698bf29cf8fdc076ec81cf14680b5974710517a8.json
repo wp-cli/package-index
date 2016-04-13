@@ -1199,18 +1199,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
-                    "reference": "cc9df3d0c1b0260b232a97e21a27b5c10d5fde70"
+                    "reference": "2417c10407f1614786b23970a2c5bfe9d3eaad8e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/cc9df3d0c1b0260b232a97e21a27b5c10d5fde70",
-                    "reference": "cc9df3d0c1b0260b232a97e21a27b5c10d5fde70",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/2417c10407f1614786b23970a2c5bfe9d3eaad8e",
+                    "reference": "2417c10407f1614786b23970a2c5bfe9d3eaad8e",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-12 23:44:29",
+                "time": "2016-04-13 10:56:53",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -1229,46 +1229,6 @@
                 "description": "Unlock the potential of the WP REST API at the command line",
                 "support": {
                     "source": "https://github.com/danielbachhuber/wp-rest-cli/tree/master",
-                    "issues": "https://github.com/danielbachhuber/wp-rest-cli/issues"
-                }
-            },
-            "dev-42-slow-queries": {
-                "name": "danielbachhuber/wp-rest-cli",
-                "version": "dev-42-slow-queries",
-                "version_normalized": "dev-42-slow-queries",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
-                    "reference": "c31af7b377fae1f12500c556022950762109ad3a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/c31af7b377fae1f12500c556022950762109ad3a",
-                    "reference": "c31af7b377fae1f12500c556022950762109ad3a",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-04-13 00:32:44",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "wp-rest-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co"
-                    }
-                ],
-                "description": "Unlock the potential of the WP REST API at the command line",
-                "support": {
-                    "source": "https://github.com/danielbachhuber/wp-rest-cli/tree/42-slow-queries",
                     "issues": "https://github.com/danielbachhuber/wp-rest-cli/issues"
                 }
             },
