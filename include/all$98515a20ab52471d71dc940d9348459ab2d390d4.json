@@ -1199,18 +1199,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
-                    "reference": "044816d484875c03be827a5ab28878ae59a8a054"
+                    "reference": "2952694cadde6ccaa93a2a2f98d660768caaf025"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/044816d484875c03be827a5ab28878ae59a8a054",
-                    "reference": "044816d484875c03be827a5ab28878ae59a8a054",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/2952694cadde6ccaa93a2a2f98d660768caaf025",
+                    "reference": "2952694cadde6ccaa93a2a2f98d660768caaf025",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-13 12:29:50",
+                "time": "2016-04-13 14:09:00",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -1239,18 +1239,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
-                    "reference": "00a9966736b05a2b2a3c67395e67284c818488c6"
+                    "reference": "4648116789f1611ebebf0824b97c3d98ef921c60"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/00a9966736b05a2b2a3c67395e67284c818488c6",
-                    "reference": "00a9966736b05a2b2a3c67395e67284c818488c6",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/4648116789f1611ebebf0824b97c3d98ef921c60",
+                    "reference": "4648116789f1611ebebf0824b97c3d98ef921c60",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-13 13:33:31",
+                "time": "2016-04-13 13:53:03",
                 "type": "library",
                 "autoload": {
                     "files": [
