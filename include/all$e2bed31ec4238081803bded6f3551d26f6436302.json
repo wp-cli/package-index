@@ -1364,6 +1364,55 @@
                 }
             }
         },
+        "ernilambar/database-command": {
+            "dev-master": {
+                "name": "ernilambar/database-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ernilambar/database-command.git",
+                    "reference": "1a84c2be4c48ac488ff5e57bf0772efd70d23948"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/1a84c2be4c48ac488ff5e57bf0772efd70d23948",
+                    "reference": "1a84c2be4c48ac488ff5e57bf0772efd70d23948",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "time": "2016-04-15 04:48:40",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "database-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nilambar Sharma",
+                        "email": "nilambar@outlook.com",
+                        "homepage": "http://nilambar.net",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Database tool to reset WordPress",
+                "homepage": "https://github.com/ernilambar/database-command",
+                "keywords": [
+                    "database",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/ernilambar/database-command/tree/master",
+                    "issues": "https://github.com/ernilambar/database-command/issues"
+                }
+            }
+        },
         "foogile/wp-cli-mig": {
             "v0.0.0": {
                 "name": "foogile/wp-cli-mig",
