@@ -14,6 +14,7 @@ https://github.com/danielbachhuber/wp-cli-reset-post-date-command
 https://github.com/danielbachhuber/wp-cli-stat-command
 https://github.com/danielbachhuber/wp-rest-cli
 https://github.com/dereckson/wp-cli-polylang
+https://github.com/ernilambar/database-command
 https://github.com/frozzare/wp-cli-lint
 https://github.com/frozzare/wp-cli-media-restore
 https://github.com/GeekPress/wp-rocket-cli
