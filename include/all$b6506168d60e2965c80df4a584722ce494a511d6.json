@@ -3613,18 +3613,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "eeb58bc440e17b2934b826346e2e6241b56831b9"
+                    "reference": "1812b59bbf598b35ecebd28e60f1b55bd2c62434"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/eeb58bc440e17b2934b826346e2e6241b56831b9",
-                    "reference": "eeb58bc440e17b2934b826346e2e6241b56831b9",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/1812b59bbf598b35ecebd28e60f1b55bd2c62434",
+                    "reference": "1812b59bbf598b35ecebd28e60f1b55bd2c62434",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-19 20:59:47",
+                "time": "2016-04-19 23:35:30",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3634,7 +3634,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Debug WP_Query on any page",
+                "description": "Find the query causing your performance issues.",
                 "support": {
                     "source": "https://github.com/runcommand/query-debug/tree/master",
                     "issues": "https://github.com/runcommand/query-debug/issues"
