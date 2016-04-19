@@ -3645,6 +3645,42 @@
                 }
             }
         },
+        "runcommand/query-debug": {
+            "dev-master": {
+                "name": "runcommand/query-debug",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/query-debug.git",
+                    "reference": "eeb58bc440e17b2934b826346e2e6241b56831b9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/eeb58bc440e17b2934b826346e2e6241b56831b9",
+                    "reference": "eeb58bc440e17b2934b826346e2e6241b56831b9",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-04-19 20:59:47",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Debug WP_Query on any page",
+                "support": {
+                    "source": "https://github.com/runcommand/query-debug/tree/master",
+                    "issues": "https://github.com/runcommand/query-debug/issues"
+                }
+            }
+        },
         "runcommand/reset-passwords": {
             "dev-master": {
                 "name": "runcommand/reset-passwords",
