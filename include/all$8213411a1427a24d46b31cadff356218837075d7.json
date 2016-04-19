@@ -3613,18 +3613,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "1812b59bbf598b35ecebd28e60f1b55bd2c62434"
+                    "reference": "1491fd401df36d0e4401b6e257dba102d8e75278"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/1812b59bbf598b35ecebd28e60f1b55bd2c62434",
-                    "reference": "1812b59bbf598b35ecebd28e60f1b55bd2c62434",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/1491fd401df36d0e4401b6e257dba102d8e75278",
+                    "reference": "1491fd401df36d0e4401b6e257dba102d8e75278",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-19 23:35:30",
+                "time": "2016-04-19 23:46:09",
                 "type": "library",
                 "autoload": {
                     "files": [
