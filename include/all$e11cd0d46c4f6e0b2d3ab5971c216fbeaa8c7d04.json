@@ -3603,6 +3603,46 @@
                     "source": "https://github.com/runcommand/precache/tree/master",
                     "issues": "https://github.com/runcommand/precache/issues"
                 }
+            },
+            "dev-test-file-dir": {
+                "name": "runcommand/precache",
+                "version": "dev-test-file-dir",
+                "version_normalized": "dev-test-file-dir",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/precache.git",
+                    "reference": "72841a183739e44319ca4d729531785ab75456fb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/72841a183739e44319ca4d729531785ab75456fb",
+                    "reference": "72841a183739e44319ca4d729531785ab75456fb",
+                    "shasum": ""
+                },
+                "time": "2016-04-20 16:14:56",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co",
+                        "homepage": "http://runcommand.io",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Proactively download and cache core, theme, and plugin files for later installation.",
+                "homepage": "https://github.com/runcommand/precache",
+                "support": {
+                    "source": "https://github.com/runcommand/precache/tree/test-file-dir",
+                    "issues": "https://github.com/runcommand/precache/issues"
+                }
             }
         },
         "runcommand/query-debug": {
