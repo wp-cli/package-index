@@ -3537,15 +3537,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/precache.git",
-                    "reference": "48fd3f8d32103ca8ce76ae08e6b2d5cc5e2b103d"
+                    "reference": "76443cbee415450fb0f8a01aa5895b29fec6faf2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/48fd3f8d32103ca8ce76ae08e6b2d5cc5e2b103d",
-                    "reference": "48fd3f8d32103ca8ce76ae08e6b2d5cc5e2b103d",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/76443cbee415450fb0f8a01aa5895b29fec6faf2",
+                    "reference": "76443cbee415450fb0f8a01aa5895b29fec6faf2",
                     "shasum": ""
                 },
-                "time": "2016-04-20 16:23:16",
+                "time": "2016-04-20 17:06:35",
                 "type": "library",
                 "autoload": {
                     "files": [
