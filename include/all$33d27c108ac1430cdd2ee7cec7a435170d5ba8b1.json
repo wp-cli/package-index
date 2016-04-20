@@ -3571,15 +3571,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/precache.git",
-                    "reference": "eaf5a0958755ba9454c92fa90767d64490b241f5"
+                    "reference": "e112794642667788f3c2492b4c7082cf70dadd05"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/eaf5a0958755ba9454c92fa90767d64490b241f5",
-                    "reference": "eaf5a0958755ba9454c92fa90767d64490b241f5",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/e112794642667788f3c2492b4c7082cf70dadd05",
+                    "reference": "e112794642667788f3c2492b4c7082cf70dadd05",
                     "shasum": ""
                 },
-                "time": "2016-04-20 15:54:11",
+                "time": "2016-04-20 16:08:02",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3613,18 +3613,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "89e2f1cf5a7b60021e1f36beed9595d634fae514"
+                    "reference": "a7e79bbcca6eb9deab5ecbe7dc1ceaa96129c2bb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/89e2f1cf5a7b60021e1f36beed9595d634fae514",
-                    "reference": "89e2f1cf5a7b60021e1f36beed9595d634fae514",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/a7e79bbcca6eb9deab5ecbe7dc1ceaa96129c2bb",
+                    "reference": "a7e79bbcca6eb9deab5ecbe7dc1ceaa96129c2bb",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-19 23:51:00",
+                "time": "2016-04-20 16:03:14",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3640,25 +3640,25 @@
                     "issues": "https://github.com/runcommand/query-debug/issues"
                 }
             },
-            "dev-reliable-backtrace": {
+            "dev-basic-tess": {
                 "name": "runcommand/query-debug",
-                "version": "dev-reliable-backtrace",
-                "version_normalized": "dev-reliable-backtrace",
+                "version": "dev-basic-tess",
+                "version_normalized": "dev-basic-tess",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "06112243fd03b5f08cb7360fa1c1ab3510d780ce"
+                    "reference": "f692668163ef838eb88b45faa871284e9d09c2b7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/06112243fd03b5f08cb7360fa1c1ab3510d780ce",
-                    "reference": "06112243fd03b5f08cb7360fa1c1ab3510d780ce",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/f692668163ef838eb88b45faa871284e9d09c2b7",
+                    "reference": "f692668163ef838eb88b45faa871284e9d09c2b7",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-20 15:52:39",
+                "time": "2016-04-20 16:07:36",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3670,7 +3670,7 @@
                 ],
                 "description": "Find the query causing your performance issues.",
                 "support": {
-                    "source": "https://github.com/runcommand/query-debug/tree/reliable-backtrace",
+                    "source": "https://github.com/runcommand/query-debug/tree/basic-tess",
                     "issues": "https://github.com/runcommand/query-debug/issues"
                 }
             }
