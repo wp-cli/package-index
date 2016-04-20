@@ -3571,15 +3571,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/precache.git",
-                    "reference": "e112794642667788f3c2492b4c7082cf70dadd05"
+                    "reference": "48fd3f8d32103ca8ce76ae08e6b2d5cc5e2b103d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/e112794642667788f3c2492b4c7082cf70dadd05",
-                    "reference": "e112794642667788f3c2492b4c7082cf70dadd05",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/48fd3f8d32103ca8ce76ae08e6b2d5cc5e2b103d",
+                    "reference": "48fd3f8d32103ca8ce76ae08e6b2d5cc5e2b103d",
                     "shasum": ""
                 },
-                "time": "2016-04-20 16:08:02",
+                "time": "2016-04-20 16:23:16",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3603,46 +3603,6 @@
                     "source": "https://github.com/runcommand/precache/tree/master",
                     "issues": "https://github.com/runcommand/precache/issues"
                 }
-            },
-            "dev-test-file-dir": {
-                "name": "runcommand/precache",
-                "version": "dev-test-file-dir",
-                "version_normalized": "dev-test-file-dir",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/precache.git",
-                    "reference": "72841a183739e44319ca4d729531785ab75456fb"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/72841a183739e44319ca4d729531785ab75456fb",
-                    "reference": "72841a183739e44319ca4d729531785ab75456fb",
-                    "shasum": ""
-                },
-                "time": "2016-04-20 16:14:56",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co",
-                        "homepage": "http://runcommand.io",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Proactively download and cache core, theme, and plugin files for later installation.",
-                "homepage": "https://github.com/runcommand/precache",
-                "support": {
-                    "source": "https://github.com/runcommand/precache/tree/test-file-dir",
-                    "issues": "https://github.com/runcommand/precache/issues"
-                }
             }
         },
         "runcommand/query-debug": {
@@ -3653,18 +3613,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "a7e79bbcca6eb9deab5ecbe7dc1ceaa96129c2bb"
+                    "reference": "bea3a4d772c18cbc5632cd946be2e6debd27cb76"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/a7e79bbcca6eb9deab5ecbe7dc1ceaa96129c2bb",
-                    "reference": "a7e79bbcca6eb9deab5ecbe7dc1ceaa96129c2bb",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/bea3a4d772c18cbc5632cd946be2e6debd27cb76",
+                    "reference": "bea3a4d772c18cbc5632cd946be2e6debd27cb76",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-20 16:03:14",
+                "time": "2016-04-20 16:22:52",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3677,40 +3637,6 @@
                 "description": "Find the query causing your performance issues.",
                 "support": {
                     "source": "https://github.com/runcommand/query-debug/tree/master",
-                    "issues": "https://github.com/runcommand/query-debug/issues"
-                }
-            },
-            "dev-basic-tess": {
-                "name": "runcommand/query-debug",
-                "version": "dev-basic-tess",
-                "version_normalized": "dev-basic-tess",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "f692668163ef838eb88b45faa871284e9d09c2b7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/f692668163ef838eb88b45faa871284e9d09c2b7",
-                    "reference": "f692668163ef838eb88b45faa871284e9d09c2b7",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-04-20 16:07:36",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Find the query causing your performance issues.",
-                "support": {
-                    "source": "https://github.com/runcommand/query-debug/tree/basic-tess",
                     "issues": "https://github.com/runcommand/query-debug/issues"
                 }
             }
