@@ -3571,15 +3571,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/precache.git",
-                    "reference": "ad5a8b5043dba6e1948e996ef6380ec00efc36a5"
+                    "reference": "eaf5a0958755ba9454c92fa90767d64490b241f5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/ad5a8b5043dba6e1948e996ef6380ec00efc36a5",
-                    "reference": "ad5a8b5043dba6e1948e996ef6380ec00efc36a5",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/eaf5a0958755ba9454c92fa90767d64490b241f5",
+                    "reference": "eaf5a0958755ba9454c92fa90767d64490b241f5",
                     "shasum": ""
                 },
-                "time": "2016-04-08 21:42:50",
+                "time": "2016-04-20 15:54:11",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3601,46 +3601,6 @@
                 "homepage": "https://github.com/runcommand/precache",
                 "support": {
                     "source": "https://github.com/runcommand/precache/tree/master",
-                    "issues": "https://github.com/runcommand/precache/issues"
-                }
-            },
-            "dev-basic-tests": {
-                "name": "runcommand/precache",
-                "version": "dev-basic-tests",
-                "version_normalized": "dev-basic-tests",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/precache.git",
-                    "reference": "4da1a939a363e2ae4d5fcc756e0927c3c6a90871"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/4da1a939a363e2ae4d5fcc756e0927c3c6a90871",
-                    "reference": "4da1a939a363e2ae4d5fcc756e0927c3c6a90871",
-                    "shasum": ""
-                },
-                "time": "2016-04-20 15:38:12",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co",
-                        "homepage": "http://runcommand.io",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Proactively download and cache core, theme, and plugin files for later installation.",
-                "homepage": "https://github.com/runcommand/precache",
-                "support": {
-                    "source": "https://github.com/runcommand/precache/tree/basic-tests",
                     "issues": "https://github.com/runcommand/precache/issues"
                 }
             }
@@ -3677,6 +3637,40 @@
                 "description": "Find the query causing your performance issues.",
                 "support": {
                     "source": "https://github.com/runcommand/query-debug/tree/master",
+                    "issues": "https://github.com/runcommand/query-debug/issues"
+                }
+            },
+            "dev-reliable-backtrace": {
+                "name": "runcommand/query-debug",
+                "version": "dev-reliable-backtrace",
+                "version_normalized": "dev-reliable-backtrace",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/query-debug.git",
+                    "reference": "06112243fd03b5f08cb7360fa1c1ab3510d780ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/06112243fd03b5f08cb7360fa1c1ab3510d780ce",
+                    "reference": "06112243fd03b5f08cb7360fa1c1ab3510d780ce",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-04-20 15:52:39",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Find the query causing your performance issues.",
+                "support": {
+                    "source": "https://github.com/runcommand/query-debug/tree/reliable-backtrace",
                     "issues": "https://github.com/runcommand/query-debug/issues"
                 }
             }
