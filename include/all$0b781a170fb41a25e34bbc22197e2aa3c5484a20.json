@@ -4504,18 +4504,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xwp/wp-cli-ssh.git",
-                    "reference": "5e12338ca07f0a1830f19259897b97a69ab292c4"
+                    "reference": "6ec0c3dfdbca53675d7004fc6c2baddcf13be121"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xwp/wp-cli-ssh/zipball/5e12338ca07f0a1830f19259897b97a69ab292c4",
-                    "reference": "5e12338ca07f0a1830f19259897b97a69ab292c4",
+                    "url": "https://api.github.com/repos/xwp/wp-cli-ssh/zipball/6ec0c3dfdbca53675d7004fc6c2baddcf13be121",
+                    "reference": "6ec0c3dfdbca53675d7004fc6c2baddcf13be121",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2015-07-29 16:06:25",
+                "time": "2016-04-24 19:31:17",
                 "type": "library",
                 "autoload": {
                     "files": [
