@@ -3579,18 +3579,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "bea3a4d772c18cbc5632cd946be2e6debd27cb76"
+                    "reference": "48c8ca92cd32ed7141e8779aad05d362eda20939"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/bea3a4d772c18cbc5632cd946be2e6debd27cb76",
-                    "reference": "bea3a4d772c18cbc5632cd946be2e6debd27cb76",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/48c8ca92cd32ed7141e8779aad05d362eda20939",
+                    "reference": "48c8ca92cd32ed7141e8779aad05d362eda20939",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-20 16:22:52",
+                "time": "2016-04-26 16:52:52",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3606,25 +3606,25 @@
                     "issues": "https://github.com/runcommand/query-debug/issues"
                 }
             },
-            "dev-precise-name": {
+            "dev-rendered-template": {
                 "name": "runcommand/query-debug",
-                "version": "dev-precise-name",
-                "version_normalized": "dev-precise-name",
+                "version": "dev-rendered-template",
+                "version_normalized": "dev-rendered-template",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "6afa26dda58d5eaf0be8cea8791353a1c8b49ecc"
+                    "reference": "e7b41d2c5a19e82875d72d0257098feaeab4b44c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/6afa26dda58d5eaf0be8cea8791353a1c8b49ecc",
-                    "reference": "6afa26dda58d5eaf0be8cea8791353a1c8b49ecc",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/e7b41d2c5a19e82875d72d0257098feaeab4b44c",
+                    "reference": "e7b41d2c5a19e82875d72d0257098feaeab4b44c",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-26 16:24:18",
+                "time": "2016-04-26 16:54:13",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3636,7 +3636,7 @@
                 ],
                 "description": "Find the query causing your performance issues.",
                 "support": {
-                    "source": "https://github.com/runcommand/query-debug/tree/precise-name",
+                    "source": "https://github.com/runcommand/query-debug/tree/rendered-template",
                     "issues": "https://github.com/runcommand/query-debug/issues"
                 }
             }
