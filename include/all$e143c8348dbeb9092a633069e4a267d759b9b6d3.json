@@ -1959,6 +1959,53 @@
                 }
             }
         },
+        "itspriddle/wp-cli-tgmpa-plugin": {
+            "dev-master": {
+                "name": "itspriddle/wp-cli-tgmpa-plugin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/itspriddle/wp-cli-tgmpa-plugin.git",
+                    "reference": "c8e2250834f909329ab7ca19fbc65738a2c9f2f6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/itspriddle/wp-cli-tgmpa-plugin/zipball/c8e2250834f909329ab7ca19fbc65738a2c9f2f6",
+                    "reference": "c8e2250834f909329ab7ca19fbc65738a2c9f2f6",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-04-23 21:10:02",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joshua Priddle",
+                        "email": "jpriddle@me.com",
+                        "homepage": "https://github.com/itspriddle"
+                    }
+                ],
+                "description": "Manage TGMPA plugins with WP-CLI",
+                "homepage": "https://github.com/itspriddle/wp-cli-tgmpa-plugin",
+                "support": {
+                    "source": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/tree/master",
+                    "issues": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/issues"
+                }
+            }
+        },
         "ivankruchkoff/wp-hammer": {
             "dev-master": {
                 "name": "ivankruchkoff/wp-hammer",
