@@ -3773,19 +3773,19 @@
                     "issues": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/issues"
                 }
             },
-            "dev-master": {
+            "v0.1.1": {
                 "name": "itspriddle/wp-cli-tgmpa-plugin",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v0.1.1",
+                "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/itspriddle/wp-cli-tgmpa-plugin.git",
-                    "reference": "23f5c4be94ffb34f7a08c8acde8445236e9a250e"
+                    "reference": "29f8f2041fa53bbd406412486d82a871ddd602f8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/itspriddle/wp-cli-tgmpa-plugin/zipball/23f5c4be94ffb34f7a08c8acde8445236e9a250e",
-                    "reference": "23f5c4be94ffb34f7a08c8acde8445236e9a250e",
+                    "url": "https://api.github.com/repos/itspriddle/wp-cli-tgmpa-plugin/zipball/29f8f2041fa53bbd406412486d82a871ddd602f8",
+                    "reference": "29f8f2041fa53bbd406412486d82a871ddd602f8",
                     "shasum": ""
                 },
                 "require": {
@@ -3794,7 +3794,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-29 03:49:41",
+                "time": "2016-04-29 03:59:21",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -3814,7 +3814,52 @@
                 "description": "Manage TGMPA plugins with WP-CLI",
                 "homepage": "https://github.com/itspriddle/wp-cli-tgmpa-plugin",
                 "support": {
-                    "source": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/tree/master",
+                    "source": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/tree/v0.1.1",
+                    "issues": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/issues"
+                }
+            },
+            "dev-master": {
+                "name": "itspriddle/wp-cli-tgmpa-plugin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/itspriddle/wp-cli-tgmpa-plugin.git",
+                    "reference": "29f8f2041fa53bbd406412486d82a871ddd602f8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/itspriddle/wp-cli-tgmpa-plugin/zipball/29f8f2041fa53bbd406412486d82a871ddd602f8",
+                    "reference": "29f8f2041fa53bbd406412486d82a871ddd602f8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-04-29 03:59:21",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joshua Priddle",
+                        "email": "jpriddle@me.com",
+                        "homepage": "https://github.com/itspriddle"
+                    }
+                ],
+                "description": "Manage TGMPA plugins with WP-CLI",
+                "homepage": "https://github.com/itspriddle/wp-cli-tgmpa-plugin",
+                "support": {
+                    "source": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/tree/v0.1.1",
                     "issues": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/issues"
                 }
             }
