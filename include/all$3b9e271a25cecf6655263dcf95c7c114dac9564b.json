@@ -4505,19 +4505,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pantheon-systems/wp_launch_check.git",
-                    "reference": "1c2616fdf839bd0eb8598b7dc30c3ae771849c9a"
+                    "reference": "8cc580fedecad9cbc616c8e9fe7adabf3922b070"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/1c2616fdf839bd0eb8598b7dc30c3ae771849c9a",
-                    "reference": "1c2616fdf839bd0eb8598b7dc30c3ae771849c9a",
+                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/8cc580fedecad9cbc616c8e9fe7adabf3922b070",
+                    "reference": "8cc580fedecad9cbc616c8e9fe7adabf3922b070",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "symfony/finder": "~2.3"
                 },
-                "time": "2016-04-29 18:40:34",
+                "time": "2016-04-29 18:42:52",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -4575,19 +4575,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pantheon-systems/wp_launch_check.git",
-                    "reference": "b67a32f6ae70f39c684389eaa06901bac74d0e9a"
+                    "reference": "beb3eda3fd0bd0eafe21968e890710d7965adafb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/b67a32f6ae70f39c684389eaa06901bac74d0e9a",
-                    "reference": "b67a32f6ae70f39c684389eaa06901bac74d0e9a",
+                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/beb3eda3fd0bd0eafe21968e890710d7965adafb",
+                    "reference": "beb3eda3fd0bd0eafe21968e890710d7965adafb",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "symfony/finder": "~2.3"
                 },
-                "time": "2016-04-28 23:33:20",
+                "time": "2016-04-29 18:46:39",
                 "type": "library",
                 "autoload": {
                     "files": [
