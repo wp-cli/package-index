@@ -4622,33 +4622,6 @@
                     "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
                 }
             },
-            "dev-develop": {
-                "name": "pantheon-systems/wp_launch_check",
-                "version": "dev-develop",
-                "version_normalized": "dev-develop",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pantheon-systems/wp_launch_check.git",
-                    "reference": "1e7eb282607583a1d5350075190cd110bd26cbbb"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/1e7eb282607583a1d5350075190cd110bd26cbbb",
-                    "reference": "1e7eb282607583a1d5350075190cd110bd26cbbb",
-                    "shasum": ""
-                },
-                "require": {
-                    "symfony/filesystem": "~2.3",
-                    "symfony/finder": "~2.3",
-                    "wp-cli/php-cli-tools": "0.10.3"
-                },
-                "time": "2015-08-17 21:35:05",
-                "type": "library",
-                "support": {
-                    "source": "https://github.com/pantheon-systems/wp_launch_check/tree/develop",
-                    "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
-                }
-            },
             "dev-feature-better-cron": {
                 "name": "pantheon-systems/wp_launch_check",
                 "version": "dev-feature-better-cron",
