@@ -4505,19 +4505,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pantheon-systems/wp_launch_check.git",
-                    "reference": "db171fecd78cd8409f20b72d37106aa180af1672"
+                    "reference": "1c2616fdf839bd0eb8598b7dc30c3ae771849c9a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/db171fecd78cd8409f20b72d37106aa180af1672",
-                    "reference": "db171fecd78cd8409f20b72d37106aa180af1672",
+                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/1c2616fdf839bd0eb8598b7dc30c3ae771849c9a",
+                    "reference": "1c2616fdf839bd0eb8598b7dc30c3ae771849c9a",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "symfony/finder": "~2.3"
                 },
-                "time": "2016-04-29 18:13:52",
+                "time": "2016-04-29 18:40:34",
                 "type": "library",
                 "autoload": {
                     "files": [
