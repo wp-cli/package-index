@@ -4874,18 +4874,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/petenelson/wp-cli-size.git",
-                    "reference": "3d3f72963d934a638fbeabd4b03594dd7fb7982d"
+                    "reference": "ef680df7f8d4a60986c8e2ec96bff90151babbdb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/petenelson/wp-cli-size/zipball/3d3f72963d934a638fbeabd4b03594dd7fb7982d",
-                    "reference": "3d3f72963d934a638fbeabd4b03594dd7fb7982d",
+                    "url": "https://api.github.com/repos/petenelson/wp-cli-size/zipball/ef680df7f8d4a60986c8e2ec96bff90151babbdb",
+                    "reference": "ef680df7f8d4a60986c8e2ec96bff90151babbdb",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-01 03:08:49",
+                "time": "2016-05-01 21:11:13",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -4902,6 +4902,7 @@
                     }
                 ],
                 "description": "Database and table sizes command for WP-CLI",
+                "homepage": "https://github.com/petenelson/wp-cli-size",
                 "support": {
                     "source": "https://github.com/petenelson/wp-cli-size/tree/master",
                     "issues": "https://github.com/petenelson/wp-cli-size/issues"
