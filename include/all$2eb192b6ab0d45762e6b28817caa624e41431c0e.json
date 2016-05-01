@@ -3041,12 +3041,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/eriktorsner/wp-bootstrap.git",
-                    "reference": "a77d2940a5cb7c91ad8b738196348b8aa503d73a"
+                    "reference": "1033447a32b5dd334acfae3904033ffdf73f7a3c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/eriktorsner/wp-bootstrap/zipball/a77d2940a5cb7c91ad8b738196348b8aa503d73a",
-                    "reference": "a77d2940a5cb7c91ad8b738196348b8aa503d73a",
+                    "url": "https://api.github.com/repos/eriktorsner/wp-bootstrap/zipball/1033447a32b5dd334acfae3904033ffdf73f7a3c",
+                    "reference": "1033447a32b5dd334acfae3904033ffdf73f7a3c",
                     "shasum": ""
                 },
                 "require": {
@@ -3058,7 +3058,7 @@
                 "require-dev": {
                     "10up/wp_mock": "dev-master"
                 },
-                "time": "2016-05-01 01:45:14",
+                "time": "2016-05-01 18:39:59",
                 "bin": [
                     "bin/wpbootstrap"
                 ],
