@@ -175,19 +175,19 @@
                     "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
                 }
             },
-            "dev-master": {
+            "v0.2": {
                 "name": "aaemnnosttv/wp-cli-dotenv-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v0.2",
+                "version_normalized": "0.2.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
-                    "reference": "41268f1973443720918502be2d622f8a668a205f"
+                    "reference": "11ccbfe878d7508529319531888354220e7c5e2a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/41268f1973443720918502be2d622f8a668a205f",
-                    "reference": "41268f1973443720918502be2d622f8a668a205f",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/11ccbfe878d7508529319531888354220e7c5e2a",
+                    "reference": "11ccbfe878d7508529319531888354220e7c5e2a",
                     "shasum": ""
                 },
                 "require": {
@@ -197,7 +197,7 @@
                     "phpunit/phpunit": "^5.2",
                     "wp-cli/wp-cli": "^0.22.0"
                 },
-                "time": "2016-04-01 21:23:40",
+                "time": "2016-05-02 02:22:12",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -225,7 +225,60 @@
                 "homepage": "https://github.com/aaemnnosttv/wp-cli-dotenv-command",
                 "support": {
                     "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master"
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v0.2"
+                }
+            },
+            "dev-master": {
+                "name": "aaemnnosttv/wp-cli-dotenv-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
+                    "reference": "11ccbfe878d7508529319531888354220e7c5e2a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/11ccbfe878d7508529319531888354220e7c5e2a",
+                    "reference": "11ccbfe878d7508529319531888354220e7c5e2a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5 | ^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.2",
+                    "wp-cli/wp-cli": "^0.22.0"
+                },
+                "time": "2016-05-02 02:22:12",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI_Dotenv_Command\\": "src/"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Evan Mattson",
+                        "email": "me@aaemnnost.tv"
+                    }
+                ],
+                "description": "Dotenv commands for WP-CLI",
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-dotenv-command",
+                "support": {
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v0.2"
                 }
             },
             "dev-develop": {
