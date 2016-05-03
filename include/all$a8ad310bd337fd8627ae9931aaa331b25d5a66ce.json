@@ -5984,18 +5984,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "1fd392154dc56744c2b6286474ad7cf785826734"
+                    "reference": "3b1b80b8bb795414349fc25f95eea758663dacf7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/1fd392154dc56744c2b6286474ad7cf785826734",
-                    "reference": "1fd392154dc56744c2b6286474ad7cf785826734",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/3b1b80b8bb795414349fc25f95eea758663dacf7",
+                    "reference": "3b1b80b8bb795414349fc25f95eea758663dacf7",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-30 00:02:09",
+                "time": "2016-05-03 12:41:17",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -6042,40 +6042,6 @@
                 "description": "Find the query causing your performance issues.",
                 "support": {
                     "source": "https://github.com/runcommand/query-debug/tree/default-summary",
-                    "issues": "https://github.com/runcommand/query-debug/issues"
-                }
-            },
-            "dev-rendered-template": {
-                "name": "runcommand/query-debug",
-                "version": "dev-rendered-template",
-                "version_normalized": "dev-rendered-template",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "e7b41d2c5a19e82875d72d0257098feaeab4b44c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/e7b41d2c5a19e82875d72d0257098feaeab4b44c",
-                    "reference": "e7b41d2c5a19e82875d72d0257098feaeab4b44c",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-04-26 16:54:13",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Find the query causing your performance issues.",
-                "support": {
-                    "source": "https://github.com/runcommand/query-debug/tree/rendered-template",
                     "issues": "https://github.com/runcommand/query-debug/issues"
                 }
             }
