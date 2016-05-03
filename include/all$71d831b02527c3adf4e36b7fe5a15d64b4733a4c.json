@@ -5979,12 +5979,12 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/runcommand/reset-passwords.git",
+                    "url": "https://github.com/runcommand/reset-password.git",
                     "reference": "eb385f869263cb1c683392efa6b96f2b1dc2dec3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/reset-passwords/zipball/eb385f869263cb1c683392efa6b96f2b1dc2dec3",
+                    "url": "https://api.github.com/repos/runcommand/reset-password/zipball/eb385f869263cb1c683392efa6b96f2b1dc2dec3",
                     "reference": "eb385f869263cb1c683392efa6b96f2b1dc2dec3",
                     "shasum": ""
                 },
@@ -6013,6 +6013,48 @@
                 "support": {
                     "source": "https://github.com/runcommand/reset-passwords/tree/master",
                     "issues": "https://github.com/runcommand/reset-passwords/issues"
+                }
+            },
+            "dev-rename-user-reset-password": {
+                "name": "runcommand/reset-passwords",
+                "version": "dev-rename-user-reset-password",
+                "version_normalized": "dev-rename-user-reset-password",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/reset-password.git",
+                    "reference": "50a9d51330a07816edba29ebc89278715eea1b82"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/reset-password/zipball/50a9d51330a07816edba29ebc89278715eea1b82",
+                    "reference": "50a9d51330a07816edba29ebc89278715eea1b82",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-03 23:48:30",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co",
+                        "homepage": "http://runcommand.io",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Reset passwords for one or more WordPress users.",
+                "support": {
+                    "source": "https://github.com/runcommand/reset-password/tree/rename-user-reset-password",
+                    "issues": "https://github.com/runcommand/reset-password/issues"
                 }
             }
         },
