@@ -5817,18 +5817,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "289ee4f5e4fe2c1e755f09bed7f58fcac9a4881c"
+                    "reference": "05e944533bb3cfedb3aa8b89abe638086a8a3180"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/289ee4f5e4fe2c1e755f09bed7f58fcac9a4881c",
-                    "reference": "289ee4f5e4fe2c1e755f09bed7f58fcac9a4881c",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/05e944533bb3cfedb3aa8b89abe638086a8a3180",
+                    "reference": "05e944533bb3cfedb3aa8b89abe638086a8a3180",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-08 21:43:34",
+                "time": "2016-05-03 15:13:10",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -5849,48 +5849,6 @@
                 "description": "List callbacks registered to a given action or filter.",
                 "support": {
                     "source": "https://github.com/runcommand/hook/tree/master",
-                    "issues": "https://github.com/runcommand/hook/issues"
-                }
-            },
-            "dev-include-example-readme": {
-                "name": "runcommand/hook",
-                "version": "dev-include-example-readme",
-                "version_normalized": "dev-include-example-readme",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/hook.git",
-                    "reference": "1d4ee9e71ec77061b50b8d076fbb4e7516981f4a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/1d4ee9e71ec77061b50b8d076fbb4e7516981f4a",
-                    "reference": "1d4ee9e71ec77061b50b8d076fbb4e7516981f4a",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-05-03 15:07:35",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co",
-                        "homepage": "http://runcommand.io",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "List callbacks registered to a given action or filter.",
-                "support": {
-                    "source": "https://github.com/runcommand/hook/tree/include-example-readme",
                     "issues": "https://github.com/runcommand/hook/issues"
                 }
             }
