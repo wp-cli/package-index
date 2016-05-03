@@ -5861,54 +5861,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/media-sideload.git",
-                    "reference": "f166146d103671a94020c503c07e83ec5d6e347e"
+                    "reference": "b6e48c3baf8ee00e78c43622de2b2b42a0225547"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/media-sideload/zipball/f166146d103671a94020c503c07e83ec5d6e347e",
-                    "reference": "f166146d103671a94020c503c07e83ec5d6e347e",
+                    "url": "https://api.github.com/repos/runcommand/media-sideload/zipball/b6e48c3baf8ee00e78c43622de2b2b42a0225547",
+                    "reference": "b6e48c3baf8ee00e78c43622de2b2b42a0225547",
                     "shasum": ""
                 },
-                "time": "2016-03-24 23:08:40",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co",
-                        "homepage": "http://runcommand.io",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Sideload remote images and other media into WordPress",
-                "support": {
-                    "source": "https://github.com/runcommand/media-sideload/tree/master",
-                    "issues": "https://github.com/runcommand/media-sideload/issues"
-                }
-            },
-            "dev-6-better-docs": {
-                "name": "runcommand/media-sideload",
-                "version": "dev-6-better-docs",
-                "version_normalized": "dev-6-better-docs",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/media-sideload.git",
-                    "reference": "30295a4ac66f734b6c7d4f8aa85d712783a4a51a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/media-sideload/zipball/30295a4ac66f734b6c7d4f8aa85d712783a4a51a",
-                    "reference": "30295a4ac66f734b6c7d4f8aa85d712783a4a51a",
-                    "shasum": ""
-                },
-                "time": "2016-05-03 23:28:55",
+                "time": "2016-05-03 23:33:43",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -5928,7 +5889,7 @@
                 ],
                 "description": "Sideload embedded images, and update post content references.",
                 "support": {
-                    "source": "https://github.com/runcommand/media-sideload/tree/6-better-docs",
+                    "source": "https://github.com/runcommand/media-sideload/tree/master",
                     "issues": "https://github.com/runcommand/media-sideload/issues"
                 }
             }
