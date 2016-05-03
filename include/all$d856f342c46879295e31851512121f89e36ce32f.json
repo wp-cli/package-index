@@ -5732,15 +5732,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "2313b3b31c729f7bb26ade193ebdf28eeca17376"
+                    "reference": "12856a509580ea8b0dbf0e70539a841b5e9eaecf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/2313b3b31c729f7bb26ade193ebdf28eeca17376",
-                    "reference": "2313b3b31c729f7bb26ade193ebdf28eeca17376",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/12856a509580ea8b0dbf0e70539a841b5e9eaecf",
+                    "reference": "12856a509580ea8b0dbf0e70539a841b5e9eaecf",
                     "shasum": ""
                 },
-                "time": "2016-04-08 21:43:11",
+                "time": "2016-05-03 14:45:18",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -5758,7 +5758,7 @@
                         "role": "Developer"
                     }
                 ],
-                "description": "Search through the database.",
+                "description": "Find a specific string in the database.",
                 "support": {
                     "source": "https://github.com/runcommand/db-ack/tree/master",
                     "issues": "https://github.com/runcommand/db-ack/issues"
