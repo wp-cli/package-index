@@ -5859,18 +5859,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "93e9bbcca175c96a65567cd47ee08c753aac0274"
+                    "reference": "1d4ee9e71ec77061b50b8d076fbb4e7516981f4a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/93e9bbcca175c96a65567cd47ee08c753aac0274",
-                    "reference": "93e9bbcca175c96a65567cd47ee08c753aac0274",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/1d4ee9e71ec77061b50b8d076fbb4e7516981f4a",
+                    "reference": "1d4ee9e71ec77061b50b8d076fbb4e7516981f4a",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-03-24 19:42:24",
+                "time": "2016-05-03 15:07:35",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -5883,7 +5883,9 @@
                 "authors": [
                     {
                         "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co"
+                        "email": "daniel@handbuilt.co",
+                        "homepage": "http://runcommand.io",
+                        "role": "Developer"
                     }
                 ],
                 "description": "List callbacks registered to a given action or filter.",
@@ -5984,18 +5986,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "3b1b80b8bb795414349fc25f95eea758663dacf7"
+                    "reference": "a085554ba805fc8a33d1ae1ddaf7a5253aa85812"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/3b1b80b8bb795414349fc25f95eea758663dacf7",
-                    "reference": "3b1b80b8bb795414349fc25f95eea758663dacf7",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/a085554ba805fc8a33d1ae1ddaf7a5253aa85812",
+                    "reference": "a085554ba805fc8a33d1ae1ddaf7a5253aa85812",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-03 12:41:17",
+                "time": "2016-05-03 15:07:11",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -6008,40 +6010,6 @@
                 "description": "Find the query causing your performance issues.",
                 "support": {
                     "source": "https://github.com/runcommand/query-debug/tree/master",
-                    "issues": "https://github.com/runcommand/query-debug/issues"
-                }
-            },
-            "dev-default-summary": {
-                "name": "runcommand/query-debug",
-                "version": "dev-default-summary",
-                "version_normalized": "dev-default-summary",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "d22f36e327c19284436b9feeb5c40585d11da017"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/d22f36e327c19284436b9feeb5c40585d11da017",
-                    "reference": "d22f36e327c19284436b9feeb5c40585d11da017",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-05-03 12:39:35",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Find the query causing your performance issues.",
-                "support": {
-                    "source": "https://github.com/runcommand/query-debug/tree/default-summary",
                     "issues": "https://github.com/runcommand/query-debug/issues"
                 }
             }
