@@ -6131,18 +6131,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/reset-password.git",
-                    "reference": "50a9d51330a07816edba29ebc89278715eea1b82"
+                    "reference": "6b9a0a6795654c2c9461088f2333b01460339426"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/reset-password/zipball/50a9d51330a07816edba29ebc89278715eea1b82",
-                    "reference": "50a9d51330a07816edba29ebc89278715eea1b82",
+                    "url": "https://api.github.com/repos/runcommand/reset-password/zipball/6b9a0a6795654c2c9461088f2333b01460339426",
+                    "reference": "6b9a0a6795654c2c9461088f2333b01460339426",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-03 23:48:30",
+                "time": "2016-05-04 18:32:14",
                 "type": "library",
                 "autoload": {
                     "files": [
