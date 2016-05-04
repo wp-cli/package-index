@@ -4621,6 +4621,41 @@
                     "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
                 }
             },
+            "dev-7-excessive-jobs": {
+                "name": "pantheon-systems/wp_launch_check",
+                "version": "dev-7-excessive-jobs",
+                "version_normalized": "dev-7-excessive-jobs",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pantheon-systems/wp_launch_check.git",
+                    "reference": "c00a39bb9a70f34984916419f2b0785657e6f9b6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/c00a39bb9a70f34984916419f2b0785657e6f9b6",
+                    "reference": "c00a39bb9a70f34984916419f2b0785657e6f9b6",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "symfony/finder": "~2.3"
+                },
+                "time": "2016-05-04 12:27:43",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "php/commands/launchcheck.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Check against a WordPress for performance and security",
+                "support": {
+                    "source": "https://github.com/pantheon-systems/wp_launch_check/tree/7-excessive-jobs",
+                    "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
+                }
+            },
             "dev-date-format-cron": {
                 "name": "pantheon-systems/wp_launch_check",
                 "version": "dev-date-format-cron",
