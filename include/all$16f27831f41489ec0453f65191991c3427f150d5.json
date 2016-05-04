@@ -1252,18 +1252,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
-                    "reference": "d0efbdc5bc6326eafd0a784c068cf366e8d7fbac"
+                    "reference": "16546e4889b0d170006ab60377d159045a928935"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/d0efbdc5bc6326eafd0a784c068cf366e8d7fbac",
-                    "reference": "d0efbdc5bc6326eafd0a784c068cf366e8d7fbac",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/16546e4889b0d170006ab60377d159045a928935",
+                    "reference": "16546e4889b0d170006ab60377d159045a928935",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-03 16:01:13",
+                "time": "2016-05-04 18:42:33",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -1322,46 +1322,6 @@
                 "description": "Unlock the potential of the WP REST API at the command line",
                 "support": {
                     "source": "https://github.com/danielbachhuber/wp-rest-cli/tree/api-blueprint",
-                    "issues": "https://github.com/danielbachhuber/wp-rest-cli/issues"
-                }
-            },
-            "dev-conditional-rest-request": {
-                "name": "danielbachhuber/wp-rest-cli",
-                "version": "dev-conditional-rest-request",
-                "version_normalized": "dev-conditional-rest-request",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/danielbachhuber/wp-rest-cli.git",
-                    "reference": "0ad741aa653d781d6026d6bb59bf4a0abfe18436"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-rest-cli/zipball/0ad741aa653d781d6026d6bb59bf4a0abfe18436",
-                    "reference": "0ad741aa653d781d6026d6bb59bf4a0abfe18436",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-05-04 18:29:19",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "wp-rest-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co"
-                    }
-                ],
-                "description": "Unlock the potential of the WP REST API at the command line",
-                "support": {
-                    "source": "https://github.com/danielbachhuber/wp-rest-cli/tree/conditional-rest-request",
                     "issues": "https://github.com/danielbachhuber/wp-rest-cli/issues"
                 }
             }
@@ -6019,18 +5979,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "a085554ba805fc8a33d1ae1ddaf7a5253aa85812"
+                    "reference": "65c71920a4652ff07840f3431ff430d888bd3857"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/a085554ba805fc8a33d1ae1ddaf7a5253aa85812",
-                    "reference": "a085554ba805fc8a33d1ae1ddaf7a5253aa85812",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/65c71920a4652ff07840f3431ff430d888bd3857",
+                    "reference": "65c71920a4652ff07840f3431ff430d888bd3857",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-03 15:07:11",
+                "time": "2016-05-04 18:42:09",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -6045,62 +6005,28 @@
                     "source": "https://github.com/runcommand/query-debug/tree/master",
                     "issues": "https://github.com/runcommand/query-debug/issues"
                 }
-            },
-            "dev-debug-main-query": {
-                "name": "runcommand/query-debug",
-                "version": "dev-debug-main-query",
-                "version_normalized": "dev-debug-main-query",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "89696a18dee3d835ea57641da95b1c8faca20776"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/89696a18dee3d835ea57641da95b1c8faca20776",
-                    "reference": "89696a18dee3d835ea57641da95b1c8faca20776",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-05-04 18:28:54",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Find the query causing your performance issues.",
-                "support": {
-                    "source": "https://github.com/runcommand/query-debug/tree/debug-main-query",
-                    "issues": "https://github.com/runcommand/query-debug/issues"
-                }
             }
         },
-        "runcommand/reset-passwords": {
+        "runcommand/reset-password": {
             "dev-master": {
-                "name": "runcommand/reset-passwords",
+                "name": "runcommand/reset-password",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/reset-password.git",
-                    "reference": "eb385f869263cb1c683392efa6b96f2b1dc2dec3"
+                    "reference": "dcc6ae067007f39a15af52860e7db5aaefc01feb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/reset-password/zipball/eb385f869263cb1c683392efa6b96f2b1dc2dec3",
-                    "reference": "eb385f869263cb1c683392efa6b96f2b1dc2dec3",
+                    "url": "https://api.github.com/repos/runcommand/reset-password/zipball/dcc6ae067007f39a15af52860e7db5aaefc01feb",
+                    "reference": "dcc6ae067007f39a15af52860e7db5aaefc01feb",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-20 16:44:16",
+                "time": "2016-05-04 18:41:09",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -6120,49 +6046,7 @@
                 ],
                 "description": "Reset passwords for one or more WordPress users.",
                 "support": {
-                    "source": "https://github.com/runcommand/reset-passwords/tree/master",
-                    "issues": "https://github.com/runcommand/reset-passwords/issues"
-                }
-            },
-            "dev-rename-user-reset-password": {
-                "name": "runcommand/reset-passwords",
-                "version": "dev-rename-user-reset-password",
-                "version_normalized": "dev-rename-user-reset-password",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/reset-password.git",
-                    "reference": "6b9a0a6795654c2c9461088f2333b01460339426"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/reset-password/zipball/6b9a0a6795654c2c9461088f2333b01460339426",
-                    "reference": "6b9a0a6795654c2c9461088f2333b01460339426",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-05-04 18:32:14",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co",
-                        "homepage": "http://runcommand.io",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Reset passwords for one or more WordPress users.",
-                "support": {
-                    "source": "https://github.com/runcommand/reset-password/tree/rename-user-reset-password",
+                    "source": "https://github.com/runcommand/reset-password/tree/master",
                     "issues": "https://github.com/runcommand/reset-password/issues"
                 }
             }
