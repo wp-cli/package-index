@@ -6622,6 +6622,47 @@
                     "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
                 }
             },
+            "1.2.0": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "d5dc37c1d4dc5f918b79b295eedc7ffc8f446c46"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/d5dc37c1d4dc5f918b79b295eedc7ffc8f446c46",
+                    "reference": "d5dc37c1d4dc5f918b79b295eedc7ffc8f446c46",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-02 11:33:39",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.1.2",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
             "dev-master": {
                 "name": "vccw/wp-cli-scaffold-movefile",
                 "version": "dev-master",
