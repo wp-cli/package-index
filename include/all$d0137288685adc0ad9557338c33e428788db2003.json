@@ -4558,19 +4558,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pantheon-systems/wp_launch_check.git",
-                    "reference": "5b2d1bdc4fa682074b00c211fc79703f0e6a541a"
+                    "reference": "6e8f348e2ad14f4666c0ec9d70c290b9ef22ab22"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/5b2d1bdc4fa682074b00c211fc79703f0e6a541a",
-                    "reference": "5b2d1bdc4fa682074b00c211fc79703f0e6a541a",
+                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/6e8f348e2ad14f4666c0ec9d70c290b9ef22ab22",
+                    "reference": "6e8f348e2ad14f4666c0ec9d70c290b9ef22ab22",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "symfony/finder": "~2.3"
                 },
-                "time": "2016-05-05 15:36:49",
+                "time": "2016-05-05 19:27:32",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -4618,41 +4618,6 @@
                 "description": "Check against a WordPress for performance and security",
                 "support": {
                     "source": "https://github.com/pantheon-systems/wp_launch_check/tree/15-session-check",
-                    "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
-                }
-            },
-            "dev-17-env-db": {
-                "name": "pantheon-systems/wp_launch_check",
-                "version": "dev-17-env-db",
-                "version_normalized": "dev-17-env-db",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pantheon-systems/wp_launch_check.git",
-                    "reference": "a4983aca2727bb2f44adc699ee163f0290282538"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/a4983aca2727bb2f44adc699ee163f0290282538",
-                    "reference": "a4983aca2727bb2f44adc699ee163f0290282538",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "symfony/finder": "~2.3"
-                },
-                "time": "2016-05-05 18:27:56",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "php/commands/launchcheck.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Check against a WordPress for performance and security",
-                "support": {
-                    "source": "https://github.com/pantheon-systems/wp_launch_check/tree/17-env-db",
                     "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
                 }
             },
