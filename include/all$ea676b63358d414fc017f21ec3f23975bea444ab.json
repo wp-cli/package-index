@@ -4621,6 +4621,76 @@
                     "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
                 }
             },
+            "dev-55-installation-instructions": {
+                "name": "pantheon-systems/wp_launch_check",
+                "version": "dev-55-installation-instructions",
+                "version_normalized": "dev-55-installation-instructions",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pantheon-systems/wp_launch_check.git",
+                    "reference": "de35b0d1730bf7152c14fd503a283977407687f7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/de35b0d1730bf7152c14fd503a283977407687f7",
+                    "reference": "de35b0d1730bf7152c14fd503a283977407687f7",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "symfony/finder": "~2.3"
+                },
+                "time": "2016-05-05 20:09:31",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "php/commands/launchcheck.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Check against a WordPress for performance and security",
+                "support": {
+                    "source": "https://github.com/pantheon-systems/wp_launch_check/tree/55-installation-instructions",
+                    "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
+                }
+            },
+            "dev-convert-spaces": {
+                "name": "pantheon-systems/wp_launch_check",
+                "version": "dev-convert-spaces",
+                "version_normalized": "dev-convert-spaces",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pantheon-systems/wp_launch_check.git",
+                    "reference": "4ca43ab577c92cd8b27395440e38399fe6d8ec65"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/4ca43ab577c92cd8b27395440e38399fe6d8ec65",
+                    "reference": "4ca43ab577c92cd8b27395440e38399fe6d8ec65",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "symfony/finder": "~2.3"
+                },
+                "time": "2016-05-05 20:06:23",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "php/commands/launchcheck.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Check against a WordPress for performance and security",
+                "support": {
+                    "source": "https://github.com/pantheon-systems/wp_launch_check/tree/convert-spaces",
+                    "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
+                }
+            },
             "dev-date-format-cron": {
                 "name": "pantheon-systems/wp_launch_check",
                 "version": "dev-date-format-cron",
@@ -6954,18 +7024,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "b2d255f0bcadf600d16e8cff835ed817e3a32792"
+                    "reference": "0c6296fc19e71293ea18ed6534e16008687c43e2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/b2d255f0bcadf600d16e8cff835ed817e3a32792",
-                    "reference": "b2d255f0bcadf600d16e8cff835ed817e3a32792",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/0c6296fc19e71293ea18ed6534e16008687c43e2",
+                    "reference": "0c6296fc19e71293ea18ed6534e16008687c43e2",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-01 19:08:27",
+                "time": "2016-05-05 20:08:30",
                 "type": "library",
                 "autoload": {
                     "files": [
