@@ -3210,12 +3210,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ernilambar/database-command.git",
-                    "reference": "749be12e990b2588c77c2ec3b1ef851cd4ea0dc4"
+                    "reference": "6e943faf76437f550a84b3f6600bf73e73f684bf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/749be12e990b2588c77c2ec3b1ef851cd4ea0dc4",
-                    "reference": "749be12e990b2588c77c2ec3b1ef851cd4ea0dc4",
+                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/6e943faf76437f550a84b3f6600bf73e73f684bf",
+                    "reference": "6e943faf76437f550a84b3f6600bf73e73f684bf",
                     "shasum": ""
                 },
                 "require": {
@@ -3224,7 +3224,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-06 07:09:34",
+                "time": "2016-05-06 15:57:56",
                 "type": "command",
                 "autoload": {
                     "files": [
@@ -3242,14 +3242,14 @@
                         "role": "Developer"
                     }
                 ],
-                "description": "Database tool to reset WordPress",
+                "description": "Tool to reset WordPress database. This reset WP database but retains given administrator user account.",
                 "homepage": "https://github.com/ernilambar/database-command",
                 "keywords": [
                     "database",
                     "wp-cli"
                 ],
                 "support": {
-                    "source": "https://github.com/ernilambar/database-command/tree/testing",
+                    "source": "https://github.com/ernilambar/database-command/tree/develop",
                     "issues": "https://github.com/ernilambar/database-command/issues"
                 }
             },
