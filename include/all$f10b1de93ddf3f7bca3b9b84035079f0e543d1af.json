@@ -3252,6 +3252,56 @@
                     "source": "https://github.com/ernilambar/database-command/tree/testing",
                     "issues": "https://github.com/ernilambar/database-command/issues"
                 }
+            },
+            "dev-develop": {
+                "name": "ernilambar/database-command",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ernilambar/database-command.git",
+                    "reference": "31d8cbe3e5b9c6e0fcd0e234b34b5b28e7ac68e8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/31d8cbe3e5b9c6e0fcd0e234b34b5b28e7ac68e8",
+                    "reference": "31d8cbe3e5b9c6e0fcd0e234b34b5b28e7ac68e8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-06 15:39:19",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nilambar Sharma",
+                        "email": "nilambar@outlook.com",
+                        "homepage": "http://nilambar.net",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Tool to reset WordPress database. This reset WP database but retains given administrator user account.",
+                "homepage": "https://github.com/ernilambar/database-command",
+                "keywords": [
+                    "database",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/ernilambar/database-command/tree/develop",
+                    "issues": "https://github.com/ernilambar/database-command/issues"
+                }
             }
         },
         "foogile/wp-cli-mig": {
