@@ -3203,12 +3203,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ernilambar/database-command.git",
-                    "reference": "ef46ed75fb14a95b33f663cc3062a96dd701b484"
+                    "reference": "43b4e046ae08f6357ab9772d4c7b43e7df6d4c2b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/ef46ed75fb14a95b33f663cc3062a96dd701b484",
-                    "reference": "ef46ed75fb14a95b33f663cc3062a96dd701b484",
+                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/43b4e046ae08f6357ab9772d4c7b43e7df6d4c2b",
+                    "reference": "43b4e046ae08f6357ab9772d4c7b43e7df6d4c2b",
                     "shasum": ""
                 },
                 "require": {
@@ -3217,7 +3217,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-16 01:47:55",
+                "time": "2016-05-06 05:38:18",
                 "type": "command",
                 "autoload": {
                     "files": [
@@ -3242,7 +3242,7 @@
                     "wp-cli"
                 ],
                 "support": {
-                    "source": "https://github.com/ernilambar/database-command/tree/master",
+                    "source": "https://github.com/ernilambar/database-command/tree/testing",
                     "issues": "https://github.com/ernilambar/database-command/issues"
                 }
             }
