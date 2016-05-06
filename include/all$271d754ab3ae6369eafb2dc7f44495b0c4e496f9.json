@@ -3195,56 +3195,6 @@
                     "source": "https://github.com/ernilambar/database-command/tree/testing",
                     "issues": "https://github.com/ernilambar/database-command/issues"
                 }
-            },
-            "dev-testing": {
-                "name": "ernilambar/database-command",
-                "version": "dev-testing",
-                "version_normalized": "dev-testing",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ernilambar/database-command.git",
-                    "reference": "749be12e990b2588c77c2ec3b1ef851cd4ea0dc4"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/749be12e990b2588c77c2ec3b1ef851cd4ea0dc4",
-                    "reference": "749be12e990b2588c77c2ec3b1ef851cd4ea0dc4",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-05-06 07:09:34",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Nilambar Sharma",
-                        "email": "nilambar@outlook.com",
-                        "homepage": "http://nilambar.net",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Database tool to reset WordPress",
-                "homepage": "https://github.com/ernilambar/database-command",
-                "keywords": [
-                    "database",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/ernilambar/database-command/tree/testing",
-                    "issues": "https://github.com/ernilambar/database-command/issues"
-                }
             }
         },
         "foogile/wp-cli-mig": {
