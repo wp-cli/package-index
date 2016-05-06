@@ -3087,19 +3087,19 @@
                     "source": "https://github.com/eriktorsner/wp-bootstrap/tree/0.4.0"
                 }
             },
-            "dev-master": {
+            "0.5.0": {
                 "name": "eriktorsner/wp-bootstrap",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.5.0",
+                "version_normalized": "0.5.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/eriktorsner/wp-bootstrap.git",
-                    "reference": "1033447a32b5dd334acfae3904033ffdf73f7a3c"
+                    "reference": "d3dd2c7eb98fb9b050af7cec3fa2ffbe3885feaa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/eriktorsner/wp-bootstrap/zipball/1033447a32b5dd334acfae3904033ffdf73f7a3c",
-                    "reference": "1033447a32b5dd334acfae3904033ffdf73f7a3c",
+                    "url": "https://api.github.com/repos/eriktorsner/wp-bootstrap/zipball/d3dd2c7eb98fb9b050af7cec3fa2ffbe3885feaa",
+                    "reference": "d3dd2c7eb98fb9b050af7cec3fa2ffbe3885feaa",
                     "shasum": ""
                 },
                 "require": {
@@ -3111,7 +3111,7 @@
                 "require-dev": {
                     "10up/wp_mock": "dev-master"
                 },
-                "time": "2016-05-01 18:39:59",
+                "time": "2016-05-06 14:37:17",
                 "bin": [
                     "bin/wpbootstrap"
                 ],
@@ -3141,7 +3141,64 @@
                 ],
                 "support": {
                     "issues": "https://github.com/eriktorsner/wp-bootstrap/issues",
-                    "source": "https://github.com/eriktorsner/wp-bootstrap/tree/master"
+                    "source": "https://github.com/eriktorsner/wp-bootstrap/tree/0.5.0"
+                }
+            },
+            "dev-master": {
+                "name": "eriktorsner/wp-bootstrap",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eriktorsner/wp-bootstrap.git",
+                    "reference": "d3dd2c7eb98fb9b050af7cec3fa2ffbe3885feaa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eriktorsner/wp-bootstrap/zipball/d3dd2c7eb98fb9b050af7cec3fa2ffbe3885feaa",
+                    "reference": "d3dd2c7eb98fb9b050af7cec3fa2ffbe3885feaa",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.9",
+                    "pimple/pimple": "~3.0",
+                    "symfony/yaml": "^2.8",
+                    "vlucas/phpdotenv": "^2.2"
+                },
+                "require-dev": {
+                    "10up/wp_mock": "dev-master"
+                },
+                "time": "2016-05-06 14:37:17",
+                "bin": [
+                    "bin/wpbootstrap"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Wpbootstrap\\": "src"
+                    },
+                    "files": [
+                        "wpcli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Erik Torsner",
+                        "email": "erik@torgesta.com",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Utils for bootstrapping a WordPress installation",
+                "homepage": "https://github.com/eriktorsner/wp-bootstrap/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/eriktorsner/wp-bootstrap/issues",
+                    "source": "https://github.com/eriktorsner/wp-bootstrap/tree/0.5.0"
                 }
             }
         },
