@@ -3310,12 +3310,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ernilambar/database-command.git",
-                    "reference": "6e943faf76437f550a84b3f6600bf73e73f684bf"
+                    "reference": "bbef6c79fae962a0f3b2e8da777f5ef3a0924bc7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/6e943faf76437f550a84b3f6600bf73e73f684bf",
-                    "reference": "6e943faf76437f550a84b3f6600bf73e73f684bf",
+                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/bbef6c79fae962a0f3b2e8da777f5ef3a0924bc7",
+                    "reference": "bbef6c79fae962a0f3b2e8da777f5ef3a0924bc7",
                     "shasum": ""
                 },
                 "require": {
@@ -3324,7 +3324,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-06 15:57:56",
+                "time": "2016-05-07 02:01:57",
                 "type": "command",
                 "autoload": {
                     "files": [
