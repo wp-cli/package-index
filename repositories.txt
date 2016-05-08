@@ -24,6 +24,7 @@ https://github.com/itspriddle/wp-cli-tgmpa-plugin
 https://github.com/mattclegg/wp-cli_check-content
 https://github.com/mattes/wp-cli-git-command
 https://github.com/mattes/wp-cli-quick-command
+https://github.com/michaloo/wp-cli-environmentalize
 https://github.com/miya0001/wp-cli-vhosts
 https://github.com/miya0001/wp-plugins-api
 https://github.com/pantheon-systems/wp_launch_check
