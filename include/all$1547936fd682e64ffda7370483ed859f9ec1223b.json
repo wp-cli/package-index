@@ -4380,18 +4380,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/michaloo/wp-cli-environmentalize.git",
-                    "reference": "e4c5c7e2a16b972f10e4f6288aa8a1c5b2a8fb10"
+                    "reference": "4609922320e7d794d9129cfbe5c23f2bd4acd084"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/michaloo/wp-cli-environmentalize/zipball/e4c5c7e2a16b972f10e4f6288aa8a1c5b2a8fb10",
-                    "reference": "e4c5c7e2a16b972f10e4f6288aa8a1c5b2a8fb10",
+                    "url": "https://api.github.com/repos/michaloo/wp-cli-environmentalize/zipball/4609922320e7d794d9129cfbe5c23f2bd4acd084",
+                    "reference": "4609922320e7d794d9129cfbe5c23f2bd4acd084",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-05-08 15:40:51",
+                "time": "2016-05-08 16:15:26",
                 "type": "library",
                 "autoload": {
                     "files": [
