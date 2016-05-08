@@ -4380,18 +4380,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/michaloo/wp-cli-environmentalize.git",
-                    "reference": "b1aa57a4fa640ab23647976d526be77977981b37"
+                    "reference": "bdbdf304bd0850de551bb1f2aa5d023bc6c06290"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/michaloo/wp-cli-environmentalize/zipball/b1aa57a4fa640ab23647976d526be77977981b37",
-                    "reference": "b1aa57a4fa640ab23647976d526be77977981b37",
+                    "url": "https://api.github.com/repos/michaloo/wp-cli-environmentalize/zipball/bdbdf304bd0850de551bb1f2aa5d023bc6c06290",
+                    "reference": "bdbdf304bd0850de551bb1f2aa5d023bc6c06290",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-05-08 14:22:08",
+                "time": "2016-05-08 15:11:24",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -4401,8 +4401,14 @@
                 "license": [
                     "MIT"
                 ],
+                "authors": [
+                    {
+                        "name": "Michał Rączka",
+                        "email": "me@michaloo.net"
+                    }
+                ],
                 "description": "Makes wp-config to load settings from ENV variables.",
-                "homepage": "https://github.com/michaloo/wp-cli-envrionmentalize",
+                "homepage": "https://github.com/michaloo/wp-cli-environmentalize",
                 "support": {
                     "source": "https://github.com/michaloo/wp-cli-environmentalize/tree/master",
                     "issues": "https://github.com/michaloo/wp-cli-environmentalize/issues"
