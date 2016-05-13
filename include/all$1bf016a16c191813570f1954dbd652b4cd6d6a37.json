@@ -6779,6 +6779,49 @@
                 }
             }
         },
+        "timhysniu/wp-dbdelta": {
+            "dev-master": {
+                "name": "timhysniu/wp-dbdelta",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/timhysniu/wp-dbdelta.git",
+                    "reference": "c3e6f1de7a008cea4804ad793f079233d00b6088"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/timhysniu/wp-dbdelta/zipball/c3e6f1de7a008cea4804ad793f079233d00b6088",
+                    "reference": "c3e6f1de7a008cea4804ad793f079233d00b6088",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-13 02:17:04",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Tim Hysniu",
+                        "email": "tim@hysniu.com"
+                    }
+                ],
+                "description": "Database change management for WP-CLI",
+                "homepage": "https://github.com/timhysniu/wp-dbdelta",
+                "support": {
+                    "source": "https://github.com/timhysniu/wp-dbdelta/tree/master",
+                    "issues": "https://github.com/timhysniu/wp-dbdelta/issues"
+                }
+            }
+        },
         "vccw/wp-cli-scaffold-movefile": {
             "1.1.2": {
                 "name": "vccw/wp-cli-scaffold-movefile",
