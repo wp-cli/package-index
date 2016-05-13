@@ -5915,56 +5915,6 @@
                 }
             }
         },
-        "pulsestorm/wp-static-html-output-plugin": {
-            "dev-master": {
-                "name": "pulsestorm/wp-static-html-output-plugin",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/astorm/wp-static-html-output-plugin.git",
-                    "reference": "511f8158d58f9dfe7a12297d7a2c1135f31e8d3a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/511f8158d58f9dfe7a12297d7a2c1135f31e8d3a",
-                    "reference": "511f8158d58f9dfe7a12297d7a2c1135f31e8d3a",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3"
-                },
-                "time": "2014-03-04 00:14:51",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Alan Storm",
-                        "homepage": "http://alanstorm.com"
-                    }
-                ],
-                "description": "Unofficial WP-CLI wrapper for the WP Static HTML Output Plugin ",
-                "homepage": "https://github.com/astorm/wp-static-html-output-plugin",
-                "keywords": [
-                    "",
-                    "html",
-                    "static",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "issues": "https://github.com/astorm/wp-static-html-output-plugin/issues",
-                    "source": "https://github.com/astorm/wp-static-html-output-plugin"
-                }
-            }
-        },
         "runcommand/db-ack": {
             "dev-master": {
                 "name": "runcommand/db-ack",
@@ -7300,55 +7250,6 @@
                 "support": {
                     "source": "https://github.com/wp-cli/server-command/tree/master",
                     "issues": "https://github.com/wp-cli/server-command/issues"
-                }
-            }
-        },
-        "wp-cli/wp-super-cache-cli": {
-            "dev-master": {
-                "name": "wp-cli/wp-super-cache-cli",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/wp-super-cache-cli.git",
-                    "reference": "2fdbf1607a451c56cfbfb332b355d715701dd5d4"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/wp-super-cache-cli/zipball/2fdbf1607a451c56cfbfb332b355d715701dd5d4",
-                    "reference": "2fdbf1607a451c56cfbfb332b355d715701dd5d4",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0"
-                },
-                "time": "2016-03-11 01:34:28",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "wp-super-cache-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "WP-CLI Team",
-                        "homepage": "http://github.com/wp-cli",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Add a `wp super-cache` command to support the WP Super Cache plug-in",
-                "homepage": "https://github.com/wp-cli/wp-super-cache-cli",
-                "keywords": [
-                    "cache",
-                    "super-cache",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/wp-cli/wp-super-cache-cli/tree/master",
-                    "issues": "https://github.com/wp-cli/wp-super-cache-cli/issues"
                 }
             }
         },
