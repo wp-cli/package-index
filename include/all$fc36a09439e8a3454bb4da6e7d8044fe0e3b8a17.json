@@ -335,18 +335,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-http-command.git",
-                    "reference": "964f03af147fafc6d6811d1a98e4d66c9dd8138f"
+                    "reference": "07cb6c7da67b2b9d7be5f6c0c3eee2b26668bdf8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-http-command/zipball/964f03af147fafc6d6811d1a98e4d66c9dd8138f",
-                    "reference": "964f03af147fafc6d6811d1a98e4d66c9dd8138f",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-http-command/zipball/07cb6c7da67b2b9d7be5f6c0c3eee2b26668bdf8",
+                    "reference": "07cb6c7da67b2b9d7be5f6c0c3eee2b26668bdf8",
                     "shasum": ""
                 },
                 "require": {
                     "php": "^5.5 | ^7.0"
                 },
-                "time": "2016-03-23 02:36:12",
+                "time": "2016-05-15 17:43:54",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -363,7 +363,7 @@
                         "homepage": "https://aaemnnost.tv"
                     }
                 ],
-                "description": "WP-CLI Command for using the WordPress HTTP API",
+                "description": "WP-CLI command for using the WordPress HTTP API",
                 "support": {
                     "source": "https://github.com/aaemnnosttv/wp-cli-http-command/tree/master",
                     "issues": "https://github.com/aaemnnosttv/wp-cli-http-command/issues"
