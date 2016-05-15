@@ -378,18 +378,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "899136418bd807affef1f559771f4267b44c7308"
+                    "reference": "3a7d35c82683a6af5691994b038729b95dcfa347"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/899136418bd807affef1f559771f4267b44c7308",
-                    "reference": "899136418bd807affef1f559771f4267b44c7308",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/3a7d35c82683a6af5691994b038729b95dcfa347",
+                    "reference": "3a7d35c82683a6af5691994b038729b95dcfa347",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-15 05:25:20",
+                "time": "2016-05-15 15:49:10",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -399,10 +399,18 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Command for Laravel Valet for stupid easy fast WordPress development environments",
+                "authors": [
+                    {
+                        "name": "Evan Mattson",
+                        "email": "me@aaemnnost.tv",
+                        "homepage": "https://aaemnnost.tv"
+                    }
+                ],
+                "description": "WP-CLI command for managing WordPress development environments using Laravel Valet.",
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-valet-command",
                 "support": {
-                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/master",
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/master"
                 }
             }
         },
