@@ -6096,6 +6096,45 @@
                     "source": "https://github.com/runcommand/db-ack/tree/master",
                     "issues": "https://github.com/runcommand/db-ack/issues"
                 }
+            },
+            "dev-3-trim-40-characters": {
+                "name": "runcommand/db-ack",
+                "version": "dev-3-trim-40-characters",
+                "version_normalized": "dev-3-trim-40-characters",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/db-ack.git",
+                    "reference": "f772a2225039fca58d9845989ad6a34fa45400bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/f772a2225039fca58d9845989ad6a34fa45400bd",
+                    "reference": "f772a2225039fca58d9845989ad6a34fa45400bd",
+                    "shasum": ""
+                },
+                "time": "2016-05-16 12:17:10",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co",
+                        "homepage": "http://runcommand.io",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Find a specific string in the database.",
+                "support": {
+                    "source": "https://github.com/runcommand/db-ack/tree/3-trim-40-characters",
+                    "issues": "https://github.com/runcommand/db-ack/issues"
+                }
             }
         },
         "runcommand/find-unused-themes": {
