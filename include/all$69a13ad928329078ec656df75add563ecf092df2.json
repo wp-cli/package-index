@@ -6065,15 +6065,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "12856a509580ea8b0dbf0e70539a841b5e9eaecf"
+                    "reference": "9053ed33ecb69022d335a4e4923ab34bc86bd7d3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/12856a509580ea8b0dbf0e70539a841b5e9eaecf",
-                    "reference": "12856a509580ea8b0dbf0e70539a841b5e9eaecf",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/9053ed33ecb69022d335a4e4923ab34bc86bd7d3",
+                    "reference": "9053ed33ecb69022d335a4e4923ab34bc86bd7d3",
                     "shasum": ""
                 },
-                "time": "2016-05-03 14:45:18",
+                "time": "2016-05-16 12:26:36",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -6094,45 +6094,6 @@
                 "description": "Find a specific string in the database.",
                 "support": {
                     "source": "https://github.com/runcommand/db-ack/tree/master",
-                    "issues": "https://github.com/runcommand/db-ack/issues"
-                }
-            },
-            "dev-3-trim-40-characters": {
-                "name": "runcommand/db-ack",
-                "version": "dev-3-trim-40-characters",
-                "version_normalized": "dev-3-trim-40-characters",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "f772a2225039fca58d9845989ad6a34fa45400bd"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/f772a2225039fca58d9845989ad6a34fa45400bd",
-                    "reference": "f772a2225039fca58d9845989ad6a34fa45400bd",
-                    "shasum": ""
-                },
-                "time": "2016-05-16 12:17:10",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co",
-                        "homepage": "http://runcommand.io",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Find a specific string in the database.",
-                "support": {
-                    "source": "https://github.com/runcommand/db-ack/tree/3-trim-40-characters",
                     "issues": "https://github.com/runcommand/db-ack/issues"
                 }
             }
