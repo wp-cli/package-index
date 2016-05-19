@@ -6844,18 +6844,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/timhysniu/wp-dbdelta.git",
-                    "reference": "c3e6f1de7a008cea4804ad793f079233d00b6088"
+                    "reference": "1396110ea78da163e5fe12975512a265b8c296b5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/timhysniu/wp-dbdelta/zipball/c3e6f1de7a008cea4804ad793f079233d00b6088",
-                    "reference": "c3e6f1de7a008cea4804ad793f079233d00b6088",
+                    "url": "https://api.github.com/repos/timhysniu/wp-dbdelta/zipball/1396110ea78da163e5fe12975512a265b8c296b5",
+                    "reference": "1396110ea78da163e5fe12975512a265b8c296b5",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-13 02:17:04",
+                "time": "2016-05-19 00:10:40",
                 "type": "library",
                 "autoload": {
                     "files": [
