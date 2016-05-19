@@ -325,6 +325,60 @@
                     "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/develop",
                     "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
                 }
+            },
+            "dev-tests/behat": {
+                "name": "aaemnnosttv/wp-cli-dotenv-command",
+                "version": "dev-tests/behat",
+                "version_normalized": "dev-tests/behat",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
+                    "reference": "c20d0bd99c2a67413e7c4580be541e24e60a7b59"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/c20d0bd99c2a67413e7c4580be541e24e60a7b59",
+                    "reference": "c20d0bd99c2a67413e7c4580be541e24e60a7b59",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5 | ^7.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "phpunit/phpunit": "^5.2",
+                    "wp-cli/wp-cli": "^0.22.0"
+                },
+                "time": "2016-05-19 04:04:17",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI_Dotenv_Command\\": "src/"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Evan Mattson",
+                        "email": "me@aaemnnost.tv"
+                    }
+                ],
+                "description": "Dotenv commands for WP-CLI",
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-dotenv-command",
+                "support": {
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/tests/behat"
+                }
             }
         },
         "aaemnnosttv/wp-cli-http-command": {
@@ -378,12 +432,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "56683741f318c741ea635651df13eae6e77b244b"
+                    "reference": "3e7b8d647cf1ae5ac856c28aac69890c4e0b027c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/56683741f318c741ea635651df13eae6e77b244b",
-                    "reference": "56683741f318c741ea635651df13eae6e77b244b",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/3e7b8d647cf1ae5ac856c28aac69890c4e0b027c",
+                    "reference": "3e7b8d647cf1ae5ac856c28aac69890c4e0b027c",
                     "shasum": ""
                 },
                 "require": {
@@ -393,7 +447,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-19 03:56:19",
+                "time": "2016-05-19 04:06:55",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
