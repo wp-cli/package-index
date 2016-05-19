@@ -378,12 +378,67 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "279c008e42f4b70792123bb622f26036c1d10031"
+                    "reference": "56683741f318c741ea635651df13eae6e77b244b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/279c008e42f4b70792123bb622f26036c1d10031",
-                    "reference": "279c008e42f4b70792123bb622f26036c1d10031",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/56683741f318c741ea635651df13eae6e77b244b",
+                    "reference": "56683741f318c741ea635651df13eae6e77b244b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5|^7.0",
+                    "symfony/process": "~2.7|~3.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-19 03:56:19",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI_Valet\\": "src"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Evan Mattson",
+                        "email": "me@aaemnnost.tv",
+                        "homepage": "https://aaemnnost.tv"
+                    }
+                ],
+                "description": "WP-CLI command for managing WordPress development environments using Laravel Valet.",
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-valet-command",
+                "keywords": [
+                    "laravel",
+                    "valet",
+                    "wordpress",
+                    "zonda"
+                ],
+                "support": {
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/master"
+                }
+            },
+            "dev-add-symfony-process": {
+                "name": "aaemnnosttv/wp-cli-valet-command",
+                "version": "dev-add-symfony-process",
+                "version_normalized": "dev-add-symfony-process",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
+                    "reference": "8ec11e5c4da2fb6c6883f441cbd94389e19f4794"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/8ec11e5c4da2fb6c6883f441cbd94389e19f4794",
+                    "reference": "8ec11e5c4da2fb6c6883f441cbd94389e19f4794",
                     "shasum": ""
                 },
                 "require": {
@@ -392,7 +447,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-18 14:22:35",
+                "time": "2016-05-19 03:47:00",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -419,7 +474,7 @@
                 ],
                 "support": {
                     "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/master"
+                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/add-symfony-process"
                 }
             }
         },
