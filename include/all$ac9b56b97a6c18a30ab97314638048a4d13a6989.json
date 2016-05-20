@@ -5364,6 +5364,47 @@
                     "source": "https://github.com/petenelson/wp-cli-size/tree/master",
                     "issues": "https://github.com/petenelson/wp-cli-size/issues"
                 }
+            },
+            "dev-feature/better-multisite": {
+                "name": "petenelson/wp-cli-size",
+                "version": "dev-feature/better-multisite",
+                "version_normalized": "dev-feature/better-multisite",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/petenelson/wp-cli-size.git",
+                    "reference": "ef680df7f8d4a60986c8e2ec96bff90151babbdb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/petenelson/wp-cli-size/zipball/ef680df7f8d4a60986c8e2ec96bff90151babbdb",
+                    "reference": "ef680df7f8d4a60986c8e2ec96bff90151babbdb",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-01 21:11:13",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pete Nelson",
+                        "email": "pete@petenelson.com"
+                    }
+                ],
+                "description": "Database and table sizes command for WP-CLI",
+                "homepage": "https://github.com/petenelson/wp-cli-size",
+                "support": {
+                    "source": "https://github.com/petenelson/wp-cli-size/tree/master",
+                    "issues": "https://github.com/petenelson/wp-cli-size/issues"
+                }
             }
         },
         "pixline/wp-cli-php-devtools": {
