@@ -36,6 +36,7 @@ https://github.com/pixline/wp-cli-proxy
 https://github.com/pixline/wp-cli-theme-test-command
 https://github.com/pods-framework/pods-wp-cli
 https://github.com/runcommand/db-ack
+https://github.com/runcommand/doctor
 https://github.com/runcommand/find-unused-themes
 https://github.com/runcommand/hook
 https://github.com/runcommand/media-sideload
