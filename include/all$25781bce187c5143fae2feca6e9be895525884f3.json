@@ -6298,6 +6298,40 @@
                     "source": "https://github.com/runcommand/doctor/tree/master",
                     "issues": "https://github.com/runcommand/doctor/issues"
                 }
+            },
+            "dev-mvp-check": {
+                "name": "runcommand/doctor",
+                "version": "dev-mvp-check",
+                "version_normalized": "dev-mvp-check",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/doctor.git",
+                    "reference": "f8d6791901ef1aef96f0de91dac14b6f6850797e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/f8d6791901ef1aef96f0de91dac14b6f6850797e",
+                    "reference": "f8d6791901ef1aef96f0de91dac14b6f6850797e",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-21 13:35:15",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Run a series of checks against WordPress to diagnose issues.",
+                "support": {
+                    "source": "https://github.com/runcommand/doctor/tree/mvp-check",
+                    "issues": "https://github.com/runcommand/doctor/issues"
+                }
             }
         },
         "runcommand/find-unused-themes": {
