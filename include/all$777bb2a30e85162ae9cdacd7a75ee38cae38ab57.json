@@ -3466,19 +3466,19 @@
                     "issues": "https://github.com/ernilambar/database-command/issues"
                 }
             },
-            "dev-master": {
+            "v0.1.1": {
                 "name": "ernilambar/database-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v0.1.1",
+                "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ernilambar/database-command.git",
-                    "reference": "5579c11da8b212cf105d8142b2d45518a79a6c65"
+                    "reference": "254669f6e403e8f1743d4c4370670c4175281060"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/5579c11da8b212cf105d8142b2d45518a79a6c65",
-                    "reference": "5579c11da8b212cf105d8142b2d45518a79a6c65",
+                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/254669f6e403e8f1743d4c4370670c4175281060",
+                    "reference": "254669f6e403e8f1743d4c4370670c4175281060",
                     "shasum": ""
                 },
                 "require": {
@@ -3487,7 +3487,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-07 02:28:04",
+                "time": "2016-05-23 11:22:30",
                 "type": "command",
                 "autoload": {
                     "files": [
@@ -3512,7 +3512,57 @@
                     "wp-cli"
                 ],
                 "support": {
-                    "source": "https://github.com/ernilambar/database-command/tree/develop",
+                    "source": "https://github.com/ernilambar/database-command/tree/v0.1.1",
+                    "issues": "https://github.com/ernilambar/database-command/issues"
+                }
+            },
+            "dev-master": {
+                "name": "ernilambar/database-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ernilambar/database-command.git",
+                    "reference": "254669f6e403e8f1743d4c4370670c4175281060"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/254669f6e403e8f1743d4c4370670c4175281060",
+                    "reference": "254669f6e403e8f1743d4c4370670c4175281060",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-23 11:22:30",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nilambar Sharma",
+                        "email": "nilambar@outlook.com",
+                        "homepage": "http://nilambar.net",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Tool to reset WordPress database. This reset WP database but retains given administrator user account.",
+                "homepage": "https://github.com/ernilambar/database-command",
+                "keywords": [
+                    "database",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/ernilambar/database-command/tree/v0.1.1",
                     "issues": "https://github.com/ernilambar/database-command/issues"
                 }
             },
@@ -3523,12 +3573,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ernilambar/database-command.git",
-                    "reference": "585c07a35d5ae7390713980de8608ec322869e60"
+                    "reference": "254669f6e403e8f1743d4c4370670c4175281060"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/585c07a35d5ae7390713980de8608ec322869e60",
-                    "reference": "585c07a35d5ae7390713980de8608ec322869e60",
+                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/254669f6e403e8f1743d4c4370670c4175281060",
+                    "reference": "254669f6e403e8f1743d4c4370670c4175281060",
                     "shasum": ""
                 },
                 "require": {
@@ -3537,7 +3587,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-23 11:17:05",
+                "time": "2016-05-23 11:22:30",
                 "type": "command",
                 "autoload": {
                     "files": [
@@ -3562,7 +3612,7 @@
                     "wp-cli"
                 ],
                 "support": {
-                    "source": "https://github.com/ernilambar/database-command/tree/develop",
+                    "source": "https://github.com/ernilambar/database-command/tree/v0.1.1",
                     "issues": "https://github.com/ernilambar/database-command/issues"
                 }
             }
