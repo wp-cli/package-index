@@ -6322,18 +6322,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/doctor.git",
-                    "reference": "d9877c2ad59f2d68fb77388e7517f4ce9587ad7f"
+                    "reference": "f97a6604c83833061f22d46279a81ceaa781a0b9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/d9877c2ad59f2d68fb77388e7517f4ce9587ad7f",
-                    "reference": "d9877c2ad59f2d68fb77388e7517f4ce9587ad7f",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/f97a6604c83833061f22d46279a81ceaa781a0b9",
+                    "reference": "f97a6604c83833061f22d46279a81ceaa781a0b9",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-23 15:31:56",
+                "time": "2016-05-23 17:57:44",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -6346,40 +6346,6 @@
                 "description": "Run a series of checks against WordPress to diagnose issues.",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master",
-                    "issues": "https://github.com/runcommand/doctor/issues"
-                }
-            },
-            "dev-hook-system": {
-                "name": "runcommand/doctor",
-                "version": "dev-hook-system",
-                "version_normalized": "dev-hook-system",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/doctor.git",
-                    "reference": "973e6a7d9a94e89dcb10040cf754fba1a36efe21"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/973e6a7d9a94e89dcb10040cf754fba1a36efe21",
-                    "reference": "973e6a7d9a94e89dcb10040cf754fba1a36efe21",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-05-23 15:38:11",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/hook-system",
                     "issues": "https://github.com/runcommand/doctor/issues"
                 }
             }
