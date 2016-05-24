@@ -6322,18 +6322,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/dist-archive.git",
-                    "reference": "03cba746813d33cea2ca781c5327bc4be5e50757"
+                    "reference": "267ee99c076cf4e3bf563afdddcd53a685b0abb7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/03cba746813d33cea2ca781c5327bc4be5e50757",
-                    "reference": "03cba746813d33cea2ca781c5327bc4be5e50757",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/267ee99c076cf4e3bf563afdddcd53a685b0abb7",
+                    "reference": "267ee99c076cf4e3bf563afdddcd53a685b0abb7",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-24 22:45:05",
+                "time": "2016-05-24 22:54:45",
                 "type": "library",
                 "autoload": {
                     "files": [
