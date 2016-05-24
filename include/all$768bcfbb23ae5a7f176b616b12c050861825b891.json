@@ -6314,6 +6314,42 @@
                 }
             }
         },
+        "runcommand/dist-archive": {
+            "dev-master": {
+                "name": "runcommand/dist-archive",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/dist-archive.git",
+                    "reference": "3b0fb6eee11dc3403373ab8a2580e78391b0204e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/3b0fb6eee11dc3403373ab8a2580e78391b0204e",
+                    "reference": "3b0fb6eee11dc3403373ab8a2580e78391b0204e",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-24 22:03:55",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Create a distribution archive based on a project's .distignore",
+                "support": {
+                    "source": "https://github.com/runcommand/dist-archive/tree/master",
+                    "issues": "https://github.com/runcommand/dist-archive/issues"
+                }
+            }
+        },
         "runcommand/doctor": {
             "dev-master": {
                 "name": "runcommand/doctor",
