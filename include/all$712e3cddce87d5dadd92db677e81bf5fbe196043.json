@@ -666,6 +666,43 @@
                 }
             }
         },
+        "billerickson/wp-cli-plugin-install-missing": {
+            "dev-master": {
+                "name": "billerickson/wp-cli-plugin-install-missing",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/billerickson/wp-cli-plugin-install-missing.git",
+                    "reference": "f2a01e2fd29d9525c2f4671869e997fd06e67621"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/billerickson/wp-cli-plugin-install-missing/zipball/f2a01e2fd29d9525c2f4671869e997fd06e67621",
+                    "reference": "f2a01e2fd29d9525c2f4671869e997fd06e67621",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-05-31 18:23:40",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-cli-plugin-install-missing.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Install any plugins that are active but missing.",
+                "homepage": "https://github.com/billerickson/wp-cli-plugin-install-missing",
+                "support": {
+                    "source": "https://github.com/billerickson/wp-cli-plugin-install-missing/tree/master",
+                    "issues": "https://github.com/billerickson/wp-cli-plugin-install-missing/issues"
+                }
+            }
+        },
         "boonebgorges/wp-cli-buddypress": {
             "1.0.0": {
                 "name": "boonebgorges/wp-cli-buddypress",
