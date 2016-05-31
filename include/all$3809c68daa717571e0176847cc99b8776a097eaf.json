@@ -674,18 +674,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/billerickson/wp-cli-plugin-install-missing.git",
-                    "reference": "f2a01e2fd29d9525c2f4671869e997fd06e67621"
+                    "reference": "ae6f1f94dab228a67f2bd8ed4fd9ac06e200b219"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/billerickson/wp-cli-plugin-install-missing/zipball/f2a01e2fd29d9525c2f4671869e997fd06e67621",
-                    "reference": "f2a01e2fd29d9525c2f4671869e997fd06e67621",
+                    "url": "https://api.github.com/repos/billerickson/wp-cli-plugin-install-missing/zipball/ae6f1f94dab228a67f2bd8ed4fd9ac06e200b219",
+                    "reference": "ae6f1f94dab228a67f2bd8ed4fd9ac06e200b219",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-05-31 18:23:40",
+                "time": "2016-05-31 18:37:19",
                 "type": "library",
                 "autoload": {
                     "files": [
