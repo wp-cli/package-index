@@ -22,6 +22,7 @@ https://github.com/frozzare/wp-cli-lint
 https://github.com/frozzare/wp-cli-media-restore
 https://github.com/GeekPress/wp-rocket-cli
 https://github.com/humanmade/wp-remote-cli
+https://github.com/iandunn/wp-cli-rename-db-prefix
 https://github.com/itspriddle/wp-cli-tgmpa-plugin
 https://github.com/JayWood/jw-wpcli-random-posts
 https://github.com/mattclegg/wp-cli_check-content
