@@ -6402,6 +6402,191 @@
                 }
             }
         },
+        "redkiwi-nl/localconfig": {
+            "0.1": {
+                "name": "redkiwi-nl/localconfig",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Redkiwi-NL/local-config.git",
+                    "reference": "bba678ec96d64d64be8adecc0f5568c109368f4f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Redkiwi-NL/local-config/zipball/bba678ec96d64d64be8adecc0f5568c109368f4f",
+                    "reference": "bba678ec96d64d64be8adecc0f5568c109368f4f",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "php": ">=5.6"
+                },
+                "time": "2016-06-07 14:27:04",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-0": {
+                        "JKetelaar": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/Redkiwi-NL/local-config/tree/0.1",
+                    "issues": "https://github.com/Redkiwi-NL/local-config/issues"
+                }
+            },
+            "0.2.1": {
+                "name": "redkiwi-nl/localconfig",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Redkiwi-NL/local-config.git",
+                    "reference": "724d518b2efe4d98a656773db89cccaf059f47d2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Redkiwi-NL/local-config/zipball/724d518b2efe4d98a656773db89cccaf059f47d2",
+                    "reference": "724d518b2efe4d98a656773db89cccaf059f47d2",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "php": ">=5.6"
+                },
+                "time": "2016-06-07 14:31:35",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-0": {
+                        "JKetelaar": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/Redkiwi-NL/local-config/tree/0.2.1",
+                    "issues": "https://github.com/Redkiwi-NL/local-config/issues"
+                }
+            },
+            "0.2.2": {
+                "name": "redkiwi-nl/localconfig",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Redkiwi-NL/local-config.git",
+                    "reference": "d13e239379e1f8c034ee685842174d7a44fda7eb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Redkiwi-NL/local-config/zipball/d13e239379e1f8c034ee685842174d7a44fda7eb",
+                    "reference": "d13e239379e1f8c034ee685842174d7a44fda7eb",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "php": ">=5.6"
+                },
+                "time": "2016-06-07 16:11:08",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-0": {
+                        "JKetelaar": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/Redkiwi-NL/local-config/tree/0.2.2",
+                    "issues": "https://github.com/Redkiwi-NL/local-config/issues"
+                }
+            },
+            "0.3": {
+                "name": "redkiwi-nl/localconfig",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Redkiwi-NL/local-config.git",
+                    "reference": "ab6ffd8ebb3d0ad5e497f962a3dcfd14c8a5e49e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Redkiwi-NL/local-config/zipball/ab6ffd8ebb3d0ad5e497f962a3dcfd14c8a5e49e",
+                    "reference": "ab6ffd8ebb3d0ad5e497f962a3dcfd14c8a5e49e",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "php": ">=5.6"
+                },
+                "time": "2016-06-07 18:14:45",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-0": {
+                        "JKetelaar": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/Redkiwi-NL/local-config/tree/0.3",
+                    "issues": "https://github.com/Redkiwi-NL/local-config/issues"
+                }
+            },
+            "dev-master": {
+                "name": "redkiwi-nl/localconfig",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Redkiwi-NL/local-config.git",
+                    "reference": "ab6ffd8ebb3d0ad5e497f962a3dcfd14c8a5e49e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Redkiwi-NL/local-config/zipball/ab6ffd8ebb3d0ad5e497f962a3dcfd14c8a5e49e",
+                    "reference": "ab6ffd8ebb3d0ad5e497f962a3dcfd14c8a5e49e",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "php": ">=5.6"
+                },
+                "time": "2016-06-07 18:14:45",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-0": {
+                        "JKetelaar": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/Redkiwi-NL/local-config/tree/0.3",
+                    "issues": "https://github.com/Redkiwi-NL/local-config/issues"
+                }
+            }
+        },
         "runcommand/db-ack": {
             "dev-master": {
                 "name": "runcommand/db-ack",
