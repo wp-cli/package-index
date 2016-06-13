@@ -912,18 +912,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/boonebgorges/wp-cli-buddypress.git",
-                    "reference": "d430dc9ee9e442305a600d27232b4ee0758b50c7"
+                    "reference": "446ebebb4c87be1cae9b835447cc7c18a471fd67"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-buddypress/zipball/d430dc9ee9e442305a600d27232b4ee0758b50c7",
-                    "reference": "d430dc9ee9e442305a600d27232b4ee0758b50c7",
+                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-buddypress/zipball/446ebebb4c87be1cae9b835447cc7c18a471fd67",
+                    "reference": "446ebebb4c87be1cae9b835447cc7c18a471fd67",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3"
                 },
-                "time": "2015-07-10 13:20:10",
+                "time": "2016-06-13 16:27:49",
                 "type": "command",
                 "autoload": {
                     "files": [
@@ -960,18 +960,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/boonebgorges/wp-cli-buddypress.git",
-                    "reference": "997f4efe6632ee0f8e027890a5f77ee47d2bf11d"
+                    "reference": "602cdb2d66240c0e6ef276c31ddadf358b505eab"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-buddypress/zipball/997f4efe6632ee0f8e027890a5f77ee47d2bf11d",
-                    "reference": "997f4efe6632ee0f8e027890a5f77ee47d2bf11d",
+                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-buddypress/zipball/602cdb2d66240c0e6ef276c31ddadf358b505eab",
+                    "reference": "602cdb2d66240c0e6ef276c31ddadf358b505eab",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3"
                 },
-                "time": "2014-08-25 19:07:40",
+                "time": "2016-06-13 16:24:36",
                 "type": "command",
                 "autoload": {
                     "files": [
