@@ -6785,6 +6785,40 @@
                     "source": "https://github.com/runcommand/dist-archive/tree/master",
                     "issues": "https://github.com/runcommand/dist-archive/issues"
                 }
+            },
+            "dev-test-debug": {
+                "name": "runcommand/dist-archive",
+                "version": "dev-test-debug",
+                "version_normalized": "dev-test-debug",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/dist-archive.git",
+                    "reference": "02f5c5d0789ba716c46917713c519ac6a03a4d6a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/02f5c5d0789ba716c46917713c519ac6a03a4d6a",
+                    "reference": "02f5c5d0789ba716c46917713c519ac6a03a4d6a",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-06-14 23:40:08",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Create a distribution archive based on a project's .distignore",
+                "support": {
+                    "source": "https://github.com/runcommand/dist-archive/tree/test-debug",
+                    "issues": "https://github.com/runcommand/dist-archive/issues"
+                }
             }
         },
         "runcommand/doctor": {
