@@ -29,6 +29,7 @@ https://github.com/mattclegg/wp-cli_check-content
 https://github.com/mattes/wp-cli-git-command
 https://github.com/mattes/wp-cli-quick-command
 https://github.com/michaloo/wp-cli-environmentalize
+https://github.com/mikedance/wp-cli-favorite-plugins
 https://github.com/miya0001/wp-cli-vhosts
 https://github.com/miya0001/wp-plugins-api
 https://github.com/ocean90/wp-cli-user-flush-cache
