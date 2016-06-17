@@ -4830,6 +4830,48 @@
                 }
             }
         },
+        "mikedance/wp-cli-favorite-plugins": {
+            "dev-master": {
+                "name": "mikedance/wp-cli-favorite-plugins",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikedance/wp-cli-favorite-plugins.git",
+                    "reference": "b8245c7a1abf259d300e598d0c420981e09eb7f7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mikedance/wp-cli-favorite-plugins/zipball/b8245c7a1abf259d300e598d0c420981e09eb7f7",
+                    "reference": "b8245c7a1abf259d300e598d0c420981e09eb7f7",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-06-17 21:16:31",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Dance"
+                    }
+                ],
+                "description": "WP-CLI command to grab favorited plugins from any wordpress.org account.",
+                "homepage": "https://github.com/mikedance/wp-cli-favorite-plugins",
+                "support": {
+                    "source": "https://github.com/mikedance/wp-cli-favorite-plugins/tree/master",
+                    "issues": "https://github.com/mikedance/wp-cli-favorite-plugins/issues"
+                }
+            }
+        },
         "miya0001/wp-cli-plugins-api": {
             "1.0": {
                 "name": "miya0001/wp-cli-plugins-api",
