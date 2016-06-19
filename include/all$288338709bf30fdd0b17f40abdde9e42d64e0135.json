@@ -6835,18 +6835,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/dist-archive.git",
-                    "reference": "ce62de9a5c0de0a9e927a69e5f6d28089cea7028"
+                    "reference": "1e018d61820c16929617c2a29d94765170b382e7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/ce62de9a5c0de0a9e927a69e5f6d28089cea7028",
-                    "reference": "ce62de9a5c0de0a9e927a69e5f6d28089cea7028",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/1e018d61820c16929617c2a29d94765170b382e7",
+                    "reference": "1e018d61820c16929617c2a29d94765170b382e7",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-06-14 23:30:30",
+                "time": "2016-06-19 12:07:45",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -6856,7 +6856,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Create a distribution archive based on a project's .distignore",
+                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
                 "support": {
                     "source": "https://github.com/runcommand/dist-archive/tree/master",
                     "issues": "https://github.com/runcommand/dist-archive/issues"
