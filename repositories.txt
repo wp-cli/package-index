@@ -55,6 +55,7 @@ https://github.com/stianlik/wp-cli-mig
 https://github.com/szepeviktor/wp-cli-database-prefix-command
 https://github.com/tillkruss/wp-cli-kraken
 https://github.com/timhysniu/wp-dbdelta
+https://github.com/timhysniu/wp-cli-template
 https://github.com/vccw-team/wp-cli-scaffold-movefile
 https://github.com/viewone/wp-cli-environment
 https://github.com/wp-cli/scaffold-package
