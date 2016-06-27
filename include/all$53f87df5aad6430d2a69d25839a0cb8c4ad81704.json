@@ -648,18 +648,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/adrigen/wp-cli-piwik.git",
-                    "reference": "8204cc0a229ca1bd7fdfb21f94c57b84c4b8d5e2"
+                    "reference": "5ca1ad3843be53456b5b903c6d76e14e4e8b9569"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/adrigen/wp-cli-piwik/zipball/8204cc0a229ca1bd7fdfb21f94c57b84c4b8d5e2",
-                    "reference": "8204cc0a229ca1bd7fdfb21f94c57b84c4b8d5e2",
+                    "url": "https://api.github.com/repos/adrigen/wp-cli-piwik/zipball/5ca1ad3843be53456b5b903c6d76e14e4e8b9569",
+                    "reference": "5ca1ad3843be53456b5b903c6d76e14e4e8b9569",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2015-08-11 10:21:10",
+                "time": "2016-06-27 10:32:37",
                 "type": "command",
                 "autoload": {
                     "files": [
@@ -678,6 +678,7 @@
                     }
                 ],
                 "description": "Add a `wp piwik` command to support the WP-Piwik plugin",
+                "homepage": "https://github.com/adrigen/wp-cli-piwik",
                 "keywords": [
                     "piwik",
                     "wp-cli",
