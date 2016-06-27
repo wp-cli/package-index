@@ -6958,18 +6958,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/find-unused-themes.git",
-                    "reference": "dffdc3c4a44830eb95efe3db26f16d717bdc7d6f"
+                    "reference": "58dc3a1b70b3d23d825e7ec8dac84b1fc1d7cfc6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/dffdc3c4a44830eb95efe3db26f16d717bdc7d6f",
-                    "reference": "dffdc3c4a44830eb95efe3db26f16d717bdc7d6f",
+                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/58dc3a1b70b3d23d825e7ec8dac84b1fc1d7cfc6",
+                    "reference": "58dc3a1b70b3d23d825e7ec8dac84b1fc1d7cfc6",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-20 16:44:32",
+                "time": "2016-06-27 13:17:47",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -6982,12 +6982,12 @@
                 "authors": [
                     {
                         "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co",
-                        "homepage": "http://runcommand.io",
-                        "role": "Developer"
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
                     }
                 ],
                 "description": "Find unused themes on a multisite network.",
+                "homepage": "https://runcommand.io/wp/find-unused-themes/",
                 "support": {
                     "source": "https://github.com/runcommand/find-unused-themes/tree/master",
                     "issues": "https://github.com/runcommand/find-unused-themes/issues"
@@ -7002,18 +7002,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "05e944533bb3cfedb3aa8b89abe638086a8a3180"
+                    "reference": "b51e971b2cd8b6e65ab5a5336989685f47fa4009"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/05e944533bb3cfedb3aa8b89abe638086a8a3180",
-                    "reference": "05e944533bb3cfedb3aa8b89abe638086a8a3180",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/b51e971b2cd8b6e65ab5a5336989685f47fa4009",
+                    "reference": "b51e971b2cd8b6e65ab5a5336989685f47fa4009",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-03 15:13:10",
+                "time": "2016-06-27 13:14:12",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7026,12 +7026,12 @@
                 "authors": [
                     {
                         "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co",
-                        "homepage": "http://runcommand.io",
-                        "role": "Developer"
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
                     }
                 ],
                 "description": "List callbacks registered to a given action or filter.",
+                "homepage": "https://runcommand.io/wp/hook/",
                 "support": {
                     "source": "https://github.com/runcommand/hook/tree/master",
                     "issues": "https://github.com/runcommand/hook/issues"
@@ -7046,15 +7046,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/media-sideload.git",
-                    "reference": "b6e48c3baf8ee00e78c43622de2b2b42a0225547"
+                    "reference": "ba9c71af2b2efcf4593401bfda89a3fe3c298218"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/media-sideload/zipball/b6e48c3baf8ee00e78c43622de2b2b42a0225547",
-                    "reference": "b6e48c3baf8ee00e78c43622de2b2b42a0225547",
+                    "url": "https://api.github.com/repos/runcommand/media-sideload/zipball/ba9c71af2b2efcf4593401bfda89a3fe3c298218",
+                    "reference": "ba9c71af2b2efcf4593401bfda89a3fe3c298218",
                     "shasum": ""
                 },
-                "time": "2016-05-03 23:33:43",
+                "time": "2016-06-27 13:13:44",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7067,12 +7067,12 @@
                 "authors": [
                     {
                         "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co",
-                        "homepage": "http://runcommand.io",
-                        "role": "Developer"
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
                     }
                 ],
                 "description": "Sideload embedded images, and update post content references.",
+                "homepage": "https://runcommand.io/wp/media-sideload/",
                 "support": {
                     "source": "https://github.com/runcommand/media-sideload/tree/master",
                     "issues": "https://github.com/runcommand/media-sideload/issues"
@@ -7087,15 +7087,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/precache.git",
-                    "reference": "76443cbee415450fb0f8a01aa5895b29fec6faf2"
+                    "reference": "0f407a241e565c00020b4aafe2dcf9e4318406f7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/76443cbee415450fb0f8a01aa5895b29fec6faf2",
-                    "reference": "76443cbee415450fb0f8a01aa5895b29fec6faf2",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/0f407a241e565c00020b4aafe2dcf9e4318406f7",
+                    "reference": "0f407a241e565c00020b4aafe2dcf9e4318406f7",
                     "shasum": ""
                 },
-                "time": "2016-04-20 17:06:35",
+                "time": "2016-06-27 13:16:22",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7108,13 +7108,12 @@
                 "authors": [
                     {
                         "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co",
-                        "homepage": "http://runcommand.io",
-                        "role": "Developer"
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
                     }
                 ],
                 "description": "Proactively download and cache core, theme, and plugin files for later installation.",
-                "homepage": "https://github.com/runcommand/precache",
+                "homepage": "https://runcommand.io/wp/precache/",
                 "support": {
                     "source": "https://github.com/runcommand/precache/tree/master",
                     "issues": "https://github.com/runcommand/precache/issues"
@@ -7173,18 +7172,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/reset-password.git",
-                    "reference": "dcc6ae067007f39a15af52860e7db5aaefc01feb"
+                    "reference": "bc1aa07ddaf4a67869e7824107bff70435bf9362"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/reset-password/zipball/dcc6ae067007f39a15af52860e7db5aaefc01feb",
-                    "reference": "dcc6ae067007f39a15af52860e7db5aaefc01feb",
+                    "url": "https://api.github.com/repos/runcommand/reset-password/zipball/bc1aa07ddaf4a67869e7824107bff70435bf9362",
+                    "reference": "bc1aa07ddaf4a67869e7824107bff70435bf9362",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-04 18:41:09",
+                "time": "2016-06-27 13:12:33",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7197,12 +7196,12 @@
                 "authors": [
                     {
                         "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co",
-                        "homepage": "http://runcommand.io",
-                        "role": "Developer"
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
                     }
                 ],
                 "description": "Reset passwords for one or more WordPress users.",
+                "homepage": "https://runcommand.io/wp/reset-password/",
                 "support": {
                     "source": "https://github.com/runcommand/reset-password/tree/master",
                     "issues": "https://github.com/runcommand/reset-password/issues"
