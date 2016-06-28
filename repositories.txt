@@ -62,3 +62,4 @@ https://github.com/wp-cli/scaffold-package
 https://github.com/wp-cli/server-command
 https://github.com/wp-cli/wp-super-cache-cli
 https://github.com/x-team/wp-cli-ssh
+https://github.com/Nikschavan/revslider-search-replace
