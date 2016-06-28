@@ -32,6 +32,7 @@ https://github.com/michaloo/wp-cli-environmentalize
 https://github.com/mikedance/wp-cli-favorite-plugins
 https://github.com/miya0001/wp-cli-vhosts
 https://github.com/miya0001/wp-plugins-api
+https://github.com/Nikschavan/revslider-search-replace
 https://github.com/ocean90/wp-cli-user-flush-cache
 https://github.com/pantheon-systems/wp_launch_check
 https://github.com/petenelson/wp-cli-size
@@ -54,12 +55,11 @@ https://github.com/srtfisher/wp-composer
 https://github.com/stianlik/wp-cli-mig
 https://github.com/szepeviktor/wp-cli-database-prefix-command
 https://github.com/tillkruss/wp-cli-kraken
-https://github.com/timhysniu/wp-dbdelta
 https://github.com/timhysniu/wp-cli-template
+https://github.com/timhysniu/wp-dbdelta
 https://github.com/vccw-team/wp-cli-scaffold-movefile
 https://github.com/viewone/wp-cli-environment
 https://github.com/wp-cli/scaffold-package
 https://github.com/wp-cli/server-command
 https://github.com/wp-cli/wp-super-cache-cli
 https://github.com/x-team/wp-cli-ssh
-https://github.com/Nikschavan/revslider-search-replace
