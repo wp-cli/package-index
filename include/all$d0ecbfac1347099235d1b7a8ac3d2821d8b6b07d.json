@@ -1642,18 +1642,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/dereckson/wp-cli-polylang.git",
-                    "reference": "a87a8f3f1c391e5d89b3f8c56ffc606bf22ed83f"
+                    "reference": "04b9d586690594112bea9b60e83b1972f8d0dc66"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/dereckson/wp-cli-polylang/zipball/a87a8f3f1c391e5d89b3f8c56ffc606bf22ed83f",
-                    "reference": "a87a8f3f1c391e5d89b3f8c56ffc606bf22ed83f",
+                    "url": "https://api.github.com/repos/dereckson/wp-cli-polylang/zipball/04b9d586690594112bea9b60e83b1972f8d0dc66",
+                    "reference": "04b9d586690594112bea9b60e83b1972f8d0dc66",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2016-06-29 21:58:23",
+                "time": "2016-06-29 22:12:31",
                 "type": "command",
                 "autoload": {
                     "files": [
