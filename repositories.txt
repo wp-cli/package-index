@@ -33,7 +33,7 @@ https://github.com/mikedance/wp-cli-favorite-plugins
 https://github.com/miya0001/wp-cli-vhosts
 https://github.com/miya0001/wp-plugins-api
 https://github.com/Nikschavan/revslider-search-replace
-https://github.com/ocean90/wp-cli-user-flush-cache
+https://github.com/ocean90/wp-cli-flush-cache
 https://github.com/pantheon-systems/wp_launch_check
 https://github.com/petenelson/wp-cli-size
 https://github.com/pixline/wp-cli-php-devtools
