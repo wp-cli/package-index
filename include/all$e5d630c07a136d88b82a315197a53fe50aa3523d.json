@@ -6798,15 +6798,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "5130d195cfb917efabe19acae2d3d84c6ef75668"
+                    "reference": "c677bd0c09475a38890032e6d194090b079df33e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/5130d195cfb917efabe19acae2d3d84c6ef75668",
-                    "reference": "5130d195cfb917efabe19acae2d3d84c6ef75668",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/c677bd0c09475a38890032e6d194090b079df33e",
+                    "reference": "c677bd0c09475a38890032e6d194090b079df33e",
                     "shasum": ""
                 },
-                "time": "2016-06-27 13:08:40",
+                "time": "2016-07-03 13:31:46",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -6839,18 +6839,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/dist-archive.git",
-                    "reference": "bc3f2a2af8478d92a573564fb0665044eef8e22b"
+                    "reference": "3c9dfb679f428dd0d136a7f2efc81133208bfdf2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/bc3f2a2af8478d92a573564fb0665044eef8e22b",
-                    "reference": "bc3f2a2af8478d92a573564fb0665044eef8e22b",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/3c9dfb679f428dd0d136a7f2efc81133208bfdf2",
+                    "reference": "3c9dfb679f428dd0d136a7f2efc81133208bfdf2",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-06-27 13:07:00",
+                "time": "2016-07-03 13:36:11",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -6917,18 +6917,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/doctor.git",
-                    "reference": "61e0ffdd676420a95a679a9e92e7d3116dbf9290"
+                    "reference": "26e35decf64bd090d566e6f417583ebe99786c35"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/61e0ffdd676420a95a679a9e92e7d3116dbf9290",
-                    "reference": "61e0ffdd676420a95a679a9e92e7d3116dbf9290",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/26e35decf64bd090d566e6f417583ebe99786c35",
+                    "reference": "26e35decf64bd090d566e6f417583ebe99786c35",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-06-27 13:07:57",
+                "time": "2016-07-03 13:36:41",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7005,18 +7005,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "b51e971b2cd8b6e65ab5a5336989685f47fa4009"
+                    "reference": "571e2cbef8a51c34a9c5aee1c10b803d9deec26e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/b51e971b2cd8b6e65ab5a5336989685f47fa4009",
-                    "reference": "b51e971b2cd8b6e65ab5a5336989685f47fa4009",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/571e2cbef8a51c34a9c5aee1c10b803d9deec26e",
+                    "reference": "571e2cbef8a51c34a9c5aee1c10b803d9deec26e",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-06-27 13:14:12",
+                "time": "2016-07-03 13:37:04",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -8268,6 +8268,48 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
+                }
+            },
+            "dev-6-contributing": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-6-contributing",
+                "version_normalized": "dev-6-contributing",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "deed655691aab3d6fe75f812c13880499fa5e732"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/deed655691aab3d6fe75f812c13880499fa5e732",
+                    "reference": "deed655691aab3d6fe75f812c13880499fa5e732",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-07-03 13:33:51",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/6-contributing"
                 }
             }
         },
