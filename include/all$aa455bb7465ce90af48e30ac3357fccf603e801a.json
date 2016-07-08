@@ -5214,6 +5214,40 @@
                 }
             }
         },
+        "ocean90/wp-cli-flush-cache": {
+            "dev-master": {
+                "name": "ocean90/wp-cli-flush-cache",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ocean90/wp-cli-flush-cache.git",
+                    "reference": "f5bbaa457b63063d045556aa6d40f08daaee2ae0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ocean90/wp-cli-flush-cache/zipball/f5bbaa457b63063d045556aa6d40f08daaee2ae0",
+                    "reference": "f5bbaa457b63063d045556aa6d40f08daaee2ae0",
+                    "shasum": ""
+                },
+                "time": "2016-07-08 10:34:11",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-cli-flush-cache.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "description": "Clear the cache of a user or a site.",
+                "homepage": "https://github.com/ocean90/wp-cli-flush-cache",
+                "support": {
+                    "source": "https://github.com/ocean90/wp-cli-flush-cache/tree/master",
+                    "issues": "https://github.com/ocean90/wp-cli-flush-cache/issues"
+                }
+            }
+        },
         "pantheon-systems/wp_launch_check": {
             "v0.6.0": {
                 "name": "pantheon-systems/wp_launch_check",
