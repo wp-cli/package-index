@@ -8187,18 +8187,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "2ba4c99642a44284f6c43eb9bbea1cfd05de5cab"
+                    "reference": "b5d14175a786838a4f66a97b29c199ab860fc5c3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/2ba4c99642a44284f6c43eb9bbea1cfd05de5cab",
-                    "reference": "2ba4c99642a44284f6c43eb9bbea1cfd05de5cab",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/b5d14175a786838a4f66a97b29c199ab860fc5c3",
+                    "reference": "b5d14175a786838a4f66a97b29c199ab860fc5c3",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-07-08 12:39:02",
+                "time": "2016-07-10 13:30:54",
                 "type": "library",
                 "autoload": {
                     "files": [
