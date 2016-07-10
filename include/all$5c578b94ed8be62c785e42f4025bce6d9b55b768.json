@@ -8219,6 +8219,46 @@
                     "source": "https://github.com/wp-cli/restful/tree/master",
                     "issues": "https://github.com/wp-cli/restful/issues"
                 }
+            },
+            "dev-56-diff-prototype": {
+                "name": "wp-cli/restful",
+                "version": "dev-56-diff-prototype",
+                "version_normalized": "dev-56-diff-prototype",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/restful.git",
+                    "reference": "3f4fc9b08c964c2ba257e076dc4baf703c683d71"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/3f4fc9b08c964c2ba257e076dc4baf703c683d71",
+                    "reference": "3f4fc9b08c964c2ba257e076dc4baf703c683d71",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-07-10 14:27:15",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-rest-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "Unlock the potential of the WP REST API at the command line",
+                "support": {
+                    "source": "https://github.com/wp-cli/restful/tree/56-diff-prototype",
+                    "issues": "https://github.com/wp-cli/restful/issues"
+                }
             }
         },
         "wp-cli/scaffold-package-command": {
