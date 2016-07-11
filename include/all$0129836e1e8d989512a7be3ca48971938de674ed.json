@@ -8269,18 +8269,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "ed135b064acb7e7b842e08a170543495eac44141"
+                    "reference": "6baabfa3ef897158e7055270bf28cf0ff0d4a6cb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/ed135b064acb7e7b842e08a170543495eac44141",
-                    "reference": "ed135b064acb7e7b842e08a170543495eac44141",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/6baabfa3ef897158e7055270bf28cf0ff0d4a6cb",
+                    "reference": "6baabfa3ef897158e7055270bf28cf0ff0d4a6cb",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-07-08 13:37:06",
+                "time": "2016-07-11 14:36:26",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -8302,48 +8302,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
-                }
-            },
-            "dev-mention-dynamic-readme": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-mention-dynamic-readme",
-                "version_normalized": "dev-mention-dynamic-readme",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "0a58a0567caf0c8f3399422bcb5989ae625ef5bf"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/0a58a0567caf0c8f3399422bcb5989ae625ef5bf",
-                    "reference": "0a58a0567caf0c8f3399422bcb5989ae625ef5bf",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-07-08 13:37:55",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/mention-dynamic-readme"
                 }
             }
         },
