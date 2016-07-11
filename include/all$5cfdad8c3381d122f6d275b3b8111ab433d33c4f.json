@@ -8303,6 +8303,48 @@
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
                 }
+            },
+            "dev-support-wp-cli-require": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-support-wp-cli-require",
+                "version_normalized": "dev-support-wp-cli-require",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "e2d9da155d0e38533d1a6e91322aa588634ce2c9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/e2d9da155d0e38533d1a6e91322aa588634ce2c9",
+                    "reference": "e2d9da155d0e38533d1a6e91322aa588634ce2c9",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-07-11 14:45:28",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/support-wp-cli-require"
+                }
             }
         },
         "wp-cli/server-command": {
