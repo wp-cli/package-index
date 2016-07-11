@@ -8259,6 +8259,46 @@
                     "source": "https://github.com/wp-cli/restful/tree/56-diff-prototype",
                     "issues": "https://github.com/wp-cli/restful/issues"
                 }
+            },
+            "dev-headers-envelope-formt": {
+                "name": "wp-cli/restful",
+                "version": "dev-headers-envelope-formt",
+                "version_normalized": "dev-headers-envelope-formt",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/restful.git",
+                    "reference": "fe1be22e9412aae7cc8d22abd66eb0f1dcc89315"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/fe1be22e9412aae7cc8d22abd66eb0f1dcc89315",
+                    "reference": "fe1be22e9412aae7cc8d22abd66eb0f1dcc89315",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-07-11 13:08:51",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-rest-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "Unlock the potential of the WP REST API at the command line",
+                "support": {
+                    "source": "https://github.com/wp-cli/restful/tree/headers-envelope-formt",
+                    "issues": "https://github.com/wp-cli/restful/issues"
+                }
             }
         },
         "wp-cli/scaffold-package-command": {
