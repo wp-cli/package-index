@@ -5577,6 +5577,41 @@
                     "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
                 }
             },
+            "dev-travis-readme": {
+                "name": "pantheon-systems/wp_launch_check",
+                "version": "dev-travis-readme",
+                "version_normalized": "dev-travis-readme",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pantheon-systems/wp_launch_check.git",
+                    "reference": "737fd1d2390490cf216a424c0601c0bfb456d801"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/737fd1d2390490cf216a424c0601c0bfb456d801",
+                    "reference": "737fd1d2390490cf216a424c0601c0bfb456d801",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "symfony/finder": "~2.3"
+                },
+                "time": "2016-07-12 19:50:30",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "php/commands/launchcheck.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Check against a WordPress for performance and security",
+                "support": {
+                    "source": "https://github.com/pantheon-systems/wp_launch_check/tree/travis-readme",
+                    "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
+                }
+            },
             "dev-xwp-feature-cleanup": {
                 "name": "pantheon-systems/wp_launch_check",
                 "version": "dev-xwp-feature-cleanup",
