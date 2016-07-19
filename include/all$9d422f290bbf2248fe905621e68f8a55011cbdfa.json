@@ -8340,6 +8340,48 @@
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/default-license"
                 }
+            },
+            "dev-dynamic-readme-partials": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-dynamic-readme-partials",
+                "version_normalized": "dev-dynamic-readme-partials",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "ce51e2402fe0a63c0cefbe16793cac33cfcd0a70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/ce51e2402fe0a63c0cefbe16793cac33cfcd0a70",
+                    "reference": "ce51e2402fe0a63c0cefbe16793cac33cfcd0a70",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-07-19 12:45:47",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/dynamic-readme-partials"
+                }
             }
         },
         "wp-cli/server-command": {
