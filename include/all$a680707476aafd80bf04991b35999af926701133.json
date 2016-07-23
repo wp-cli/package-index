@@ -288,12 +288,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
-                    "reference": "1a83625676a75dcaee1e036e00a0e635ca5ffeb9"
+                    "reference": "4e5972ecb552882114265c2dbb124c0640af668a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/1a83625676a75dcaee1e036e00a0e635ca5ffeb9",
-                    "reference": "1a83625676a75dcaee1e036e00a0e635ca5ffeb9",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/4e5972ecb552882114265c2dbb124c0640af668a",
+                    "reference": "4e5972ecb552882114265c2dbb124c0640af668a",
                     "shasum": ""
                 },
                 "require": {
@@ -302,9 +302,10 @@
                 },
                 "require-dev": {
                     "phpunit/phpunit": "^5.2",
+                    "satooshi/php-coveralls": "^1.0",
                     "wp-cli/wp-cli": "^0.22.0"
                 },
-                "time": "2016-07-23 12:11:42",
+                "time": "2016-07-23 19:48:14",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
