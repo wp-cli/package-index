@@ -288,12 +288,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
-                    "reference": "cde44930f770a6745493e3a5f5bf320563972878"
+                    "reference": "1a83625676a75dcaee1e036e00a0e635ca5ffeb9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/cde44930f770a6745493e3a5f5bf320563972878",
-                    "reference": "cde44930f770a6745493e3a5f5bf320563972878",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/1a83625676a75dcaee1e036e00a0e635ca5ffeb9",
+                    "reference": "1a83625676a75dcaee1e036e00a0e635ca5ffeb9",
                     "shasum": ""
                 },
                 "require": {
@@ -304,7 +304,7 @@
                     "phpunit/phpunit": "^5.2",
                     "wp-cli/wp-cli": "^0.22.0"
                 },
-                "time": "2016-06-09 21:12:12",
+                "time": "2016-07-23 12:11:42",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -315,9 +315,6 @@
                     ]
                 },
                 "autoload-dev": {
-                    "files": [
-                        "src/functions.php"
-                    ],
                     "classmap": [
                         "tests/Fixtures.php"
                     ]
