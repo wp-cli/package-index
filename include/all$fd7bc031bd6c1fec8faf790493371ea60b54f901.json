@@ -7110,6 +7110,46 @@
                 }
             }
         },
+        "runcommand/profile": {
+            "dev-master": {
+                "name": "runcommand/profile",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/profile.git",
+                    "reference": "8e8d79fff1660ab5d57d3c6a8e9b3af45659f383"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/8e8d79fff1660ab5d57d3c6a8e9b3af45659f383",
+                    "reference": "8e8d79fff1660ab5d57d3c6a8e9b3af45659f383",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "~0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-07-25 15:58:11",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Profile the performance of a WordPress request.",
+                "homepage": "https://runcommand.io/wp/profile/",
+                "support": {
+                    "source": "https://github.com/runcommand/profile/tree/master",
+                    "issues": "https://github.com/runcommand/profile/issues"
+                }
+            }
+        },
         "runcommand/query-debug": {
             "dev-master": {
                 "name": "runcommand/query-debug",
