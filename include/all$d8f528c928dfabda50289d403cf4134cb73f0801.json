@@ -4237,15 +4237,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/iandunn/wp-cli-plugin-active-on-sites.git",
-                    "reference": "a938a842a5373026449fa8a8fce23fac403c89a3"
+                    "reference": "f8d37572d1dd1ce752520c7dc16479e8f1ce7830"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/iandunn/wp-cli-plugin-active-on-sites/zipball/a938a842a5373026449fa8a8fce23fac403c89a3",
-                    "reference": "a938a842a5373026449fa8a8fce23fac403c89a3",
+                    "url": "https://api.github.com/repos/iandunn/wp-cli-plugin-active-on-sites/zipball/f8d37572d1dd1ce752520c7dc16479e8f1ce7830",
+                    "reference": "f8d37572d1dd1ce752520c7dc16479e8f1ce7830",
                     "shasum": ""
                 },
-                "time": "2016-07-29 06:39:36",
+                "time": "2016-07-29 14:03:10",
                 "type": "library",
                 "autoload": {
                     "files": [
