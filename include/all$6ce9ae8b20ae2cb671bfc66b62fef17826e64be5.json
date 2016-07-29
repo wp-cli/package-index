@@ -4229,6 +4229,47 @@
                 }
             }
         },
+        "iandunn/wp-cli-plugin-active-on-sites": {
+            "dev-master": {
+                "name": "iandunn/wp-cli-plugin-active-on-sites",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/iandunn/wp-cli-plugin-active-on-sites.git",
+                    "reference": "a938a842a5373026449fa8a8fce23fac403c89a3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/iandunn/wp-cli-plugin-active-on-sites/zipball/a938a842a5373026449fa8a8fce23fac403c89a3",
+                    "reference": "a938a842a5373026449fa8a8fce23fac403c89a3",
+                    "shasum": ""
+                },
+                "time": "2016-07-29 06:39:36",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-cli-plugin-active-on-sites.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Ian Dunn",
+                        "email": "ian@iandunn.name",
+                        "homepage": "https://iandunn.name"
+                    }
+                ],
+                "description": "A WP-CLI command to list all sites in a Multisite network that have activated a given plugin",
+                "homepage": "https://github.com/iandunn/wp-cli-plugin-active-on-sites",
+                "support": {
+                    "source": "https://github.com/iandunn/wp-cli-plugin-active-on-sites/tree/master",
+                    "issues": "https://github.com/iandunn/wp-cli-plugin-active-on-sites/issues"
+                }
+            }
+        },
         "iandunn/wp-cli-rename-db-prefix": {
             "dev-master": {
                 "name": "iandunn/wp-cli-rename-db-prefix",
