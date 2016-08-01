@@ -989,6 +989,164 @@
                 }
             }
         },
+        "c10b10/wp-cli-deploy": {
+            "v1.0.0": {
+                "name": "c10b10/wp-cli-deploy",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/c10b10/wp-cli-deploy.git",
+                    "reference": "5e2226b3b5797923fbcf5ccadccaa168328f992e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/5e2226b3b5797923fbcf5ccadccaa168328f992e",
+                    "reference": "5e2226b3b5797923fbcf5ccadccaa168328f992e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": ">=0.14"
+                },
+                "time": "2014-02-28 13:11:25",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "deploy.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Alex Ciobica",
+                        "email": "alex.ciobica@gmail.com",
+                        "homepage": "http://ciobi.ca"
+                    }
+                ],
+                "description": "Deploys the local WordPress database or the uploads directory to a remote server using ssh.",
+                "homepage": "https://github.com/c10b10/wp-cli-deploy",
+                "keywords": [
+                    "deploy",
+                    "dump",
+                    "git",
+                    "mysql",
+                    "uploads",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/c10b10/wp-cli-deploy/tree/v1.0.0",
+                    "issues": "https://github.com/c10b10/wp-cli-deploy/issues"
+                }
+            },
+            "dev-master": {
+                "name": "c10b10/wp-cli-deploy",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/c10b10/wp-cli-deploy.git",
+                    "reference": "8b180cd0ff5fbae311bdd9ae860dcc2a74e354c9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/8b180cd0ff5fbae311bdd9ae860dcc2a74e354c9",
+                    "reference": "8b180cd0ff5fbae311bdd9ae860dcc2a74e354c9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": ">=0.14"
+                },
+                "time": "2016-04-01 14:19:34",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "deploy.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Alex Ciobica",
+                        "email": "alex.ciobica@gmail.com",
+                        "homepage": "http://ciobi.ca"
+                    }
+                ],
+                "description": "Deploys the local WordPress database or the uploads directory to a remote server using ssh.",
+                "homepage": "https://github.com/c10b10/wp-cli-deploy",
+                "keywords": [
+                    "deploy",
+                    "dump",
+                    "git",
+                    "mysql",
+                    "uploads",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/c10b10/wp-cli-deploy/tree/master",
+                    "issues": "https://github.com/c10b10/wp-cli-deploy/issues"
+                }
+            },
+            "dev-dev": {
+                "name": "c10b10/wp-cli-deploy",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/c10b10/wp-cli-deploy.git",
+                    "reference": "4fbf2347b58da714630e1cdd3e497373409d4a8c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/4fbf2347b58da714630e1cdd3e497373409d4a8c",
+                    "reference": "4fbf2347b58da714630e1cdd3e497373409d4a8c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": ">=0.14"
+                },
+                "time": "2014-07-29 10:20:39",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "deploy.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Alex Ciobica",
+                        "email": "alex.ciobica@gmail.com",
+                        "homepage": "http://ciobi.ca"
+                    }
+                ],
+                "description": "Deploys the local WordPress database or the uploads directory to a remote server using ssh.",
+                "homepage": "https://github.com/c10b10/wp-cli-deploy",
+                "keywords": [
+                    "deploy",
+                    "dump",
+                    "git",
+                    "mysql",
+                    "uploads",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/c10b10/wp-cli-deploy/tree/dev",
+                    "issues": "https://github.com/c10b10/wp-cli-deploy/issues"
+                }
+            }
+        },
         "danielbachhuber/dictator": {
             "v0.1": {
                 "name": "danielbachhuber/dictator",
@@ -1197,6 +1355,57 @@
                 "support": {
                     "source": "https://github.com/danielbachhuber/wp-cli-stat-command/tree/master",
                     "issues": "https://github.com/danielbachhuber/wp-cli-stat-command/issues"
+                }
+            }
+        },
+        "dereckson/wp-cli-polylang": {
+            "dev-master": {
+                "name": "dereckson/wp-cli-polylang",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/dereckson/wp-cli-polylang.git",
+                    "reference": "04b9d586690594112bea9b60e83b1972f8d0dc66"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/dereckson/wp-cli-polylang/zipball/04b9d586690594112bea9b60e83b1972f8d0dc66",
+                    "reference": "04b9d586690594112bea9b60e83b1972f8d0dc66",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2016-06-29 22:12:31",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "PolylangHelperFunctions.php",
+                        "Polylang_Command.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Sébastien Santoro aka Dereckson",
+                        "email": "dereckson@espace-win.org",
+                        "homepage": "http://www.dereckson.be",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Add a `wp polylang` command to support the Polylang plug-in",
+                "homepage": "https://github.com/dereckson/wp-cli-polylang",
+                "keywords": [
+                    "i18n",
+                    "polylang",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/dereckson/wp-cli-polylang/tree/master",
+                    "issues": "https://github.com/dereckson/wp-cli-polylang/issues"
                 }
             }
         },
@@ -3456,6 +3665,54 @@
                 "support": {
                     "source": "https://github.com/stianlik/wp-cli-mig/tree/master",
                     "issues": "https://github.com/stianlik/wp-cli-mig/issues"
+                }
+            }
+        },
+        "frozzare/wp-cli-lint": {
+            "dev-master": {
+                "name": "frozzare/wp-cli-lint",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/frozzare/wp-cli-lint.git",
+                    "reference": "56e961cceaddd267a5d7e79da601f921b6548e46"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/frozzare/wp-cli-lint/zipball/56e961cceaddd267a5d7e79da601f921b6548e46",
+                    "reference": "56e961cceaddd267a5d7e79da601f921b6548e46",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-04-08 21:35:26",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "src/class-lint-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fredrik Forsmo",
+                        "email": "fredrik.forsmo@gmail.com",
+                        "homepage": "https://github.com/frozzare"
+                    }
+                ],
+                "description": "WP-CLI command for linting your code",
+                "homepage": "https://github.com/frozzare/wp-cli-lint",
+                "keywords": [
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/frozzare/wp-cli-lint/tree/master",
+                    "issues": "https://github.com/frozzare/wp-cli-lint/issues"
                 }
             }
         },
@@ -6150,6 +6407,56 @@
                 }
             }
         },
+        "pulsestorm/wp-static-html-output-plugin": {
+            "dev-master": {
+                "name": "pulsestorm/wp-static-html-output-plugin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/astorm/wp-static-html-output-plugin.git",
+                    "reference": "511f8158d58f9dfe7a12297d7a2c1135f31e8d3a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/511f8158d58f9dfe7a12297d7a2c1135f31e8d3a",
+                    "reference": "511f8158d58f9dfe7a12297d7a2c1135f31e8d3a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "time": "2014-03-04 00:14:51",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Alan Storm",
+                        "homepage": "http://alanstorm.com"
+                    }
+                ],
+                "description": "Unofficial WP-CLI wrapper for the WP Static HTML Output Plugin ",
+                "homepage": "https://github.com/astorm/wp-static-html-output-plugin",
+                "keywords": [
+                    "",
+                    "html",
+                    "static",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/astorm/wp-static-html-output-plugin/issues",
+                    "source": "https://github.com/astorm/wp-static-html-output-plugin"
+                }
+            }
+        },
         "redkiwi-nl/localconfig": {
             "0.1": {
                 "name": "redkiwi-nl/localconfig",
@@ -7875,6 +8182,128 @@
                 "support": {
                     "source": "https://github.com/viewone/wp-cli-environment/tree/develop",
                     "issues": "https://github.com/viewone/wp-cli-environment/issues"
+                }
+            }
+        },
+        "wp-cli/restful": {
+            "v0.1.0": {
+                "name": "wp-cli/restful",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/restful.git",
+                    "reference": "fc8e09651c1846ef71f3bf78ef11760ea0c2125b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/fc8e09651c1846ef71f3bf78ef11760ea0c2125b",
+                    "reference": "fc8e09651c1846ef71f3bf78ef11760ea0c2125b",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-02-04 14:47:53",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-rest-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "Unlock the potential of the WP REST API at the command line",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/wp-rest-cli/tree/v0.1.0",
+                    "issues": "https://github.com/danielbachhuber/wp-rest-cli/issues"
+                }
+            },
+            "v0.2.0": {
+                "name": "wp-cli/restful",
+                "version": "v0.2.0",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/restful.git",
+                    "reference": "ca563c273071ec86ea6a28d8a359f89ac0307d5e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/ca563c273071ec86ea6a28d8a359f89ac0307d5e",
+                    "reference": "ca563c273071ec86ea6a28d8a359f89ac0307d5e",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-07-19 14:56:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-rest-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "Unlock the potential of the WP REST API at the command line.",
+                "support": {
+                    "source": "https://github.com/wp-cli/restful/tree/master",
+                    "issues": "https://github.com/wp-cli/restful/issues"
+                }
+            },
+            "dev-master": {
+                "name": "wp-cli/restful",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/restful.git",
+                    "reference": "ca563c273071ec86ea6a28d8a359f89ac0307d5e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/ca563c273071ec86ea6a28d8a359f89ac0307d5e",
+                    "reference": "ca563c273071ec86ea6a28d8a359f89ac0307d5e",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-07-19 14:56:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-rest-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "Unlock the potential of the WP REST API at the command line.",
+                "support": {
+                    "source": "https://github.com/wp-cli/restful/tree/master",
+                    "issues": "https://github.com/wp-cli/restful/issues"
                 }
             }
         },
