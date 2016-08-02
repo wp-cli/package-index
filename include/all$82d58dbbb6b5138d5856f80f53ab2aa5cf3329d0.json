@@ -7007,6 +7007,45 @@
                     "source": "https://github.com/runcommand/media-sideload/tree/master",
                     "issues": "https://github.com/runcommand/media-sideload/issues"
                 }
+            },
+            "dev-readme-img": {
+                "name": "runcommand/media-sideload",
+                "version": "dev-readme-img",
+                "version_normalized": "dev-readme-img",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/media-sideload.git",
+                    "reference": "d2bfd6dad9c557974220fa2b3396580796cef8f8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/media-sideload/zipball/d2bfd6dad9c557974220fa2b3396580796cef8f8",
+                    "reference": "d2bfd6dad9c557974220fa2b3396580796cef8f8",
+                    "shasum": ""
+                },
+                "time": "2016-08-02 21:17:55",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Sideload embedded images, and update post content references.",
+                "homepage": "https://runcommand.io/wp/media-sideload/",
+                "support": {
+                    "source": "https://github.com/runcommand/media-sideload/tree/readme-img",
+                    "issues": "https://github.com/runcommand/media-sideload/issues"
+                }
             }
         },
         "runcommand/precache": {
