@@ -7809,12 +7809,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/trepmal/blog-extractor.git",
-                    "reference": "92e9e5d66780293250203e7d893e34a0fdbc1c1d"
+                    "reference": "5ca0828332943065ae8577d82ac3198d771e5be1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/trepmal/blog-extractor/zipball/92e9e5d66780293250203e7d893e34a0fdbc1c1d",
-                    "reference": "92e9e5d66780293250203e7d893e34a0fdbc1c1d",
+                    "url": "https://api.github.com/repos/trepmal/blog-extractor/zipball/5ca0828332943065ae8577d82ac3198d771e5be1",
+                    "reference": "5ca0828332943065ae8577d82ac3198d771e5be1",
                     "shasum": ""
                 },
                 "require": {
@@ -7823,7 +7823,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-11 03:39:11",
+                "time": "2016-08-11 15:41:38",
                 "type": "library",
                 "autoload": {
                     "files": [
