@@ -7801,6 +7801,84 @@
                 }
             }
         },
+        "trepmal/blog-extractor": {
+            "dev-master": {
+                "name": "trepmal/blog-extractor",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/trepmal/blog-extractor.git",
+                    "reference": "92e9e5d66780293250203e7d893e34a0fdbc1c1d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/trepmal/blog-extractor/zipball/92e9e5d66780293250203e7d893e34a0fdbc1c1d",
+                    "reference": "92e9e5d66780293250203e7d893e34a0fdbc1c1d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-08-11 03:39:11",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "blog-extractor-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Extract a single blog from a multisite",
+                "homepage": "https://github.com/trepmal/blog-extractor",
+                "support": {
+                    "source": "https://github.com/trepmal/blog-extractor/tree/master",
+                    "issues": "https://github.com/trepmal/blog-extractor/issues"
+                }
+            },
+            "dev-restructure": {
+                "name": "trepmal/blog-extractor",
+                "version": "dev-restructure",
+                "version_normalized": "dev-restructure",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/trepmal/blog-extractor.git",
+                    "reference": "c3cfa8657aadf3b38f7bd63fa9da891106584318"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/trepmal/blog-extractor/zipball/c3cfa8657aadf3b38f7bd63fa9da891106584318",
+                    "reference": "c3cfa8657aadf3b38f7bd63fa9da891106584318",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-08-10 22:30:08",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "blog-extractor-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Extract a single blog from a multisite",
+                "homepage": "https://github.com/trepmal/blog-extractor",
+                "support": {
+                    "source": "https://github.com/trepmal/blog-extractor/tree/restructure",
+                    "issues": "https://github.com/trepmal/blog-extractor/issues"
+                }
+            }
+        },
         "vccw/wp-cli-scaffold-movefile": {
             "1.1.2": {
                 "name": "vccw/wp-cli-scaffold-movefile",
