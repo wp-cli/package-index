@@ -300,12 +300,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
-                    "reference": "2861c04c7852e88205e599240b6dce2c3817f9c8"
+                    "reference": "db0432667c2e1657dcb2c779a7e78d553e34675b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/2861c04c7852e88205e599240b6dce2c3817f9c8",
-                    "reference": "2861c04c7852e88205e599240b6dce2c3817f9c8",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/db0432667c2e1657dcb2c779a7e78d553e34675b",
+                    "reference": "db0432667c2e1657dcb2c779a7e78d553e34675b",
                     "shasum": ""
                 },
                 "require": {
@@ -318,7 +318,7 @@
                     "satooshi/php-coveralls": "^1.0",
                     "wp-cli/wp-cli": "^0.22.0"
                 },
-                "time": "2016-08-06 12:30:03",
+                "time": "2016-08-15 07:09:44",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -338,7 +338,7 @@
                         "vendor/bin/phpunit --colors=always"
                     ],
                     "run-behat": [
-                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi"
+                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
                     ]
                 },
                 "license": [
