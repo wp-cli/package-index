@@ -1038,18 +1038,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/boonebgorges/wp-cli-git-helper.git",
-                    "reference": "157cc04ab0b3f064ccc393766238710598eed255"
+                    "reference": "85a9909ed1802e85bd2479f5b9291d252bedc499"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-git-helper/zipball/157cc04ab0b3f064ccc393766238710598eed255",
-                    "reference": "157cc04ab0b3f064ccc393766238710598eed255",
+                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-git-helper/zipball/85a9909ed1802e85bd2479f5b9291d252bedc499",
+                    "reference": "85a9909ed1802e85bd2479f5b9291d252bedc499",
                     "shasum": ""
                 },
                 "require": {
+                    "kbjr/git.php": "dev-master",
                     "php": ">=5.3"
                 },
-                "time": "2016-03-07 04:17:53",
+                "time": "2016-08-15 21:28:40",
                 "type": "command",
                 "autoload": {
                     "files": [
