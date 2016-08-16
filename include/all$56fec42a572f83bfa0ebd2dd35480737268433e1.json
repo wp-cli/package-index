@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/MU-Migration.git",
-                    "reference": "9295b7b8416e35307f5a67edf04617c36bf41df7"
+                    "reference": "9448b4992a96a003bc4d2157c32099236fd667a5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/9295b7b8416e35307f5a67edf04617c36bf41df7",
-                    "reference": "9295b7b8416e35307f5a67edf04617c36bf41df7",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/9448b4992a96a003bc4d2157c32099236fd667a5",
+                    "reference": "9448b4992a96a003bc4d2157c32099236fd667a5",
                     "shasum": ""
                 },
                 "require": {
                     "alchemy/zippy": "^0.3.5"
                 },
-                "time": "2016-04-23 23:05:49",
+                "time": "2016-08-16 13:31:52",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -4393,12 +4393,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/wp-hammer.git",
-                    "reference": "dad3c993900c31f4f4e3d55c15879e89f9475c3a"
+                    "reference": "3551502fb6d972477e7a8a69303d20f2dbd6cfbb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/wp-hammer/zipball/dad3c993900c31f4f4e3d55c15879e89f9475c3a",
-                    "reference": "dad3c993900c31f4f4e3d55c15879e89f9475c3a",
+                    "url": "https://api.github.com/repos/10up/wp-hammer/zipball/3551502fb6d972477e7a8a69303d20f2dbd6cfbb",
+                    "reference": "3551502fb6d972477e7a8a69303d20f2dbd6cfbb",
                     "shasum": ""
                 },
                 "require": {
@@ -4406,7 +4406,7 @@
                     "joshtronic/php-loremipsum": "dev-master",
                     "roderik/pwgen-php": "dev-master"
                 },
-                "time": "2016-04-10 20:43:23",
+                "time": "2016-08-16 13:32:22",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
