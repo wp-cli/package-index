@@ -5164,18 +5164,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Nikschavan/revslider-search-replace.git",
-                    "reference": "7e1a00cdd992f11453b466c2ed796a11d5f1674f"
+                    "reference": "3e7ed24d9a0bcb354d4f55dc5e08891e34ecf74b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Nikschavan/revslider-search-replace/zipball/7e1a00cdd992f11453b466c2ed796a11d5f1674f",
-                    "reference": "7e1a00cdd992f11453b466c2ed796a11d5f1674f",
+                    "url": "https://api.github.com/repos/Nikschavan/revslider-search-replace/zipball/3e7ed24d9a0bcb354d4f55dc5e08891e34ecf74b",
+                    "reference": "3e7ed24d9a0bcb354d4f55dc5e08891e34ecf74b",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-08-11 05:02:32",
+                "time": "2016-08-17 09:49:41",
                 "type": "library",
                 "autoload": {
                     "files": [
