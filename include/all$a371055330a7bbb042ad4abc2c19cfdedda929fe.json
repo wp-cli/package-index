@@ -6924,7 +6924,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/runcommand/doctor.git",
+                    "url": "git@github.com:runcommand/doctor.git",
                     "reference": "26e35decf64bd090d566e6f417583ebe99786c35"
                 },
                 "dist": {
@@ -7138,7 +7138,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/runcommand/profile.git",
+                    "url": "git@github.com:runcommand/profile.git",
                     "reference": "b96a67b12d66f3ab45b316f558d2e359f605ae90"
                 },
                 "dist": {
