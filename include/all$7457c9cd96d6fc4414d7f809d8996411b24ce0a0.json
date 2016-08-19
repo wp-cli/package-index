@@ -7868,6 +7868,54 @@
             }
         },
         "trendwerk/faker": {
+            "0.1.0": {
+                "name": "trendwerk/faker",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/trendwerk/faker.git",
+                    "reference": "3edaf53c8655543b0217cd87d508d762e9839cba"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/3edaf53c8655543b0217cd87d508d762e9839cba",
+                    "reference": "3edaf53c8655543b0217cd87d508d762e9839cba",
+                    "shasum": ""
+                },
+                "require": {
+                    "nelmio/alice": "^2.2"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-08-12 14:50:32",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "init.php"
+                    ],
+                    "psr-4": {
+                        "Trendwerk\\Faker\\": "src/"
+                    }
+                },
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Harold Angenent",
+                        "email": "harold@trendwerk.nl",
+                        "homepage": "https://github.com/haroldangenent"
+                    }
+                ],
+                "description": "Fake post data with WP-CLI.",
+                "homepage": "https://github.com/trendwerk/faker",
+                "support": {
+                    "source": "https://github.com/trendwerk/faker/tree/master",
+                    "issues": "https://github.com/trendwerk/faker/issues"
+                }
+            },
             "dev-master": {
                 "name": "trendwerk/faker",
                 "version": "dev-master",
@@ -7875,21 +7923,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/trendwerk/faker.git",
-                    "reference": "54451bd9eb1677ad8e485b984bd936fdabcfe6b7"
+                    "reference": "3edaf53c8655543b0217cd87d508d762e9839cba"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/54451bd9eb1677ad8e485b984bd936fdabcfe6b7",
-                    "reference": "54451bd9eb1677ad8e485b984bd936fdabcfe6b7",
+                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/3edaf53c8655543b0217cd87d508d762e9839cba",
+                    "reference": "3edaf53c8655543b0217cd87d508d762e9839cba",
                     "shasum": ""
                 },
                 "require": {
-                    "nelmio/alice": "*"
+                    "nelmio/alice": "^2.2"
                 },
                 "require-dev": {
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2016-08-19 14:34:13",
+                "time": "2016-08-12 14:50:32",
                 "type": "library",
                 "autoload": {
                     "files": [
