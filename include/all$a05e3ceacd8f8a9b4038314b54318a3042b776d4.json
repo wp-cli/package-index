@@ -465,6 +465,57 @@
                     "source": "https://github.com/aaemnnosttv/wp-cli-http-command/tree/master",
                     "issues": "https://github.com/aaemnnosttv/wp-cli-http-command/issues"
                 }
+            },
+            "dev-develop": {
+                "name": "aaemnnosttv/wp-cli-http-command",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-http-command.git",
+                    "reference": "7182223667bb9f25ac58d3d06edcb4dd7ee8df56"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-http-command/zipball/7182223667bb9f25ac58d3d06edcb4dd7ee8df56",
+                    "reference": "7182223667bb9f25ac58d3d06edcb4dd7ee8df56",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5 | ^7.0"
+                },
+                "require-dev": {
+                    "behat/behat": "2.5.*",
+                    "johnpbloch/wordpress": "^4.6",
+                    "wp-cli/wp-cli": "^0.24.1"
+                },
+                "time": "2016-08-20 11:12:04",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "WP_HTTP_Command\\": "src"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "scripts": {
+                    "run-behat": [
+                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Evan Mattson",
+                        "email": "me@aaemnnost.tv",
+                        "homepage": "https://aaemnnost.tv"
+                    }
+                ],
+                "description": "WP-CLI command for using the WordPress HTTP API",
+                "support": {
+                    "source": "https://github.com/aaemnnosttv/wp-cli-http-command/tree/develop",
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-http-command/issues"
+                }
             }
         },
         "aaemnnosttv/wp-cli-valet-command": {
