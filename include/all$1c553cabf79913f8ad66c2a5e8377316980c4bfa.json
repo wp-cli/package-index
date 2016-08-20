@@ -473,12 +473,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-http-command.git",
-                    "reference": "e1f886c66e0afaf0dc03be7aa99dd1f33087d454"
+                    "reference": "930886dd9ba6199d358728c64660a7852970790a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-http-command/zipball/e1f886c66e0afaf0dc03be7aa99dd1f33087d454",
-                    "reference": "e1f886c66e0afaf0dc03be7aa99dd1f33087d454",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-http-command/zipball/930886dd9ba6199d358728c64660a7852970790a",
+                    "reference": "930886dd9ba6199d358728c64660a7852970790a",
                     "shasum": ""
                 },
                 "require": {
@@ -489,7 +489,7 @@
                     "johnpbloch/wordpress": "^4.6",
                     "wp-cli/wp-cli": "^0.24.1"
                 },
-                "time": "2016-08-20 11:27:01",
+                "time": "2016-08-20 20:15:11",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
