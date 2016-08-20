@@ -473,12 +473,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-http-command.git",
-                    "reference": "7182223667bb9f25ac58d3d06edcb4dd7ee8df56"
+                    "reference": "e1f886c66e0afaf0dc03be7aa99dd1f33087d454"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-http-command/zipball/7182223667bb9f25ac58d3d06edcb4dd7ee8df56",
-                    "reference": "7182223667bb9f25ac58d3d06edcb4dd7ee8df56",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-http-command/zipball/e1f886c66e0afaf0dc03be7aa99dd1f33087d454",
+                    "reference": "e1f886c66e0afaf0dc03be7aa99dd1f33087d454",
                     "shasum": ""
                 },
                 "require": {
@@ -489,7 +489,7 @@
                     "johnpbloch/wordpress": "^4.6",
                     "wp-cli/wp-cli": "^0.24.1"
                 },
-                "time": "2016-08-20 11:12:04",
+                "time": "2016-08-20 11:27:01",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -504,6 +504,9 @@
                         "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
                     ]
                 },
+                "license": [
+                    "MIT"
+                ],
                 "authors": [
                     {
                         "name": "Evan Mattson",
