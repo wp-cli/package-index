@@ -679,6 +679,43 @@
                 }
             }
         },
+        "alessandrotesoro/wp-cli-helpscout-docs-parser": {
+            "dev-master": {
+                "name": "alessandrotesoro/wp-cli-helpscout-docs-parser",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser.git",
+                    "reference": "4f2f3e5339127aad6a02272c18804f284679c927"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/alessandrotesoro/wp-cli-helpscout-docs-parser/zipball/4f2f3e5339127aad6a02272c18804f284679c927",
+                    "reference": "4f2f3e5339127aad6a02272c18804f284679c927",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-08-21 10:17:19",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-cli-helpscout-docs-parser.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "WP-CLI Plugin: extract helpscout docs articles and categories to build an offline documentation.",
+                "homepage": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser",
+                "support": {
+                    "source": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser/tree/master",
+                    "issues": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser/issues"
+                }
+            }
+        },
         "alleyinteractive/wp-doc-command": {
             "dev-master": {
                 "name": "alleyinteractive/wp-doc-command",
