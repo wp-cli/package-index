@@ -7175,6 +7175,48 @@
                     "source": "https://github.com/runcommand/hook/tree/master",
                     "issues": "https://github.com/runcommand/hook/issues"
                 }
+            },
+            "dev-priority-order": {
+                "name": "runcommand/hook",
+                "version": "dev-priority-order",
+                "version_normalized": "dev-priority-order",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/hook.git",
+                    "reference": "e46b294e2a3478d577ff16a835491f76acfcae67"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/e46b294e2a3478d577ff16a835491f76acfcae67",
+                    "reference": "e46b294e2a3478d577ff16a835491f76acfcae67",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-08-22 17:29:53",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "List callbacks registered to a given action or filter.",
+                "homepage": "https://runcommand.io/wp/hook/",
+                "support": {
+                    "source": "https://github.com/runcommand/hook/tree/priority-order",
+                    "issues": "https://github.com/runcommand/hook/issues"
+                }
             }
         },
         "runcommand/media-sideload": {
