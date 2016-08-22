@@ -716,6 +716,43 @@
                 }
             }
         },
+        "alessandrotesoro/wp-usergen-cli": {
+            "dev-master": {
+                "name": "alessandrotesoro/wp-usergen-cli",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/alessandrotesoro/wp-usergen-cli.git",
+                    "reference": "0dce7c1ce236fccd23c31b76e580135207b732a0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/alessandrotesoro/wp-usergen-cli/zipball/0dce7c1ce236fccd23c31b76e580135207b732a0",
+                    "reference": "0dce7c1ce236fccd23c31b76e580135207b732a0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-08-22 10:38:33",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-usergen-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Simple command to generate random users for testing purposes.",
+                "homepage": "https://github.com/alessandrotesoro/wp-usergen-cli",
+                "support": {
+                    "source": "https://github.com/alessandrotesoro/wp-usergen-cli/tree/master",
+                    "issues": "https://github.com/alessandrotesoro/wp-usergen-cli/issues"
+                }
+            }
+        },
         "alleyinteractive/wp-doc-command": {
             "dev-master": {
                 "name": "alleyinteractive/wp-doc-command",
