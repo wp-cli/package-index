@@ -7141,18 +7141,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "8fb374e4a03a897fff2e2388ab86f2655fff8b0f"
+                    "reference": "ed2f0652d10ff2eaef61aaaa4679d753cada4073"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/8fb374e4a03a897fff2e2388ab86f2655fff8b0f",
-                    "reference": "8fb374e4a03a897fff2e2388ab86f2655fff8b0f",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/ed2f0652d10ff2eaef61aaaa4679d753cada4073",
+                    "reference": "ed2f0652d10ff2eaef61aaaa4679d753cada4073",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-22 17:36:14",
+                "time": "2016-08-23 13:11:11",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7173,48 +7173,6 @@
                 "homepage": "https://runcommand.io/wp/hook/",
                 "support": {
                     "source": "https://github.com/runcommand/hook/tree/master",
-                    "issues": "https://github.com/runcommand/hook/issues"
-                }
-            },
-            "dev-abstract-class": {
-                "name": "runcommand/hook",
-                "version": "dev-abstract-class",
-                "version_normalized": "dev-abstract-class",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/hook.git",
-                    "reference": "ace041b9851a30ec201a8955c2610407991e113e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/ace041b9851a30ec201a8955c2610407991e113e",
-                    "reference": "ace041b9851a30ec201a8955c2610407991e113e",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-23 12:09:48",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "List callbacks registered to a given action or filter.",
-                "homepage": "https://runcommand.io/wp/hook/",
-                "support": {
-                    "source": "https://github.com/runcommand/hook/tree/abstract-class",
                     "issues": "https://github.com/runcommand/hook/issues"
                 }
             }
