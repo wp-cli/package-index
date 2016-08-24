@@ -7267,12 +7267,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "b96a67b12d66f3ab45b316f558d2e359f605ae90"
+                    "reference": "8d93154ef898144445e7cdfb5014630784b9a2c5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/b96a67b12d66f3ab45b316f558d2e359f605ae90",
-                    "reference": "b96a67b12d66f3ab45b316f558d2e359f605ae90",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/8d93154ef898144445e7cdfb5014630784b9a2c5",
+                    "reference": "8d93154ef898144445e7cdfb5014630784b9a2c5",
                     "shasum": ""
                 },
                 "require": {
@@ -7281,7 +7281,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-07-25 18:16:32",
+                "time": "2016-08-24 19:08:21",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7295,44 +7295,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master",
-                    "issues": "https://github.com/runcommand/profile/issues"
-                }
-            },
-            "dev-use-circle": {
-                "name": "runcommand/profile",
-                "version": "dev-use-circle",
-                "version_normalized": "dev-use-circle",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "e830c5e08f7df8858de96f39214c1ac754fb55f0"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/e830c5e08f7df8858de96f39214c1ac754fb55f0",
-                    "reference": "e830c5e08f7df8858de96f39214c1ac754fb55f0",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-24 18:57:09",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Profile the performance of a WordPress request.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/use-circle",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             }
@@ -8709,18 +8671,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "38722b3bafe91b4e872376a60b17d1018fd99c24"
+                    "reference": "40c210420a94b6552d42ff4075406053889b8de4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/38722b3bafe91b4e872376a60b17d1018fd99c24",
-                    "reference": "38722b3bafe91b4e872376a60b17d1018fd99c24",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/40c210420a94b6552d42ff4075406053889b8de4",
+                    "reference": "40c210420a94b6552d42ff4075406053889b8de4",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-07-19 13:38:51",
+                "time": "2016-08-24 19:09:35",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -8744,25 +8706,25 @@
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
                 }
             },
-            "dev-run-behat-strict": {
+            "dev-circle-status": {
                 "name": "wp-cli/scaffold-package-command",
-                "version": "dev-run-behat-strict",
-                "version_normalized": "dev-run-behat-strict",
+                "version": "dev-circle-status",
+                "version_normalized": "dev-circle-status",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "0b66d77b94bcd65d73734147ab6ae40d6b4bede2"
+                    "reference": "b776d37065b4ad24a86d75a0f62be9521c751d5a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/0b66d77b94bcd65d73734147ab6ae40d6b4bede2",
-                    "reference": "0b66d77b94bcd65d73734147ab6ae40d6b4bede2",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/b776d37065b4ad24a86d75a0f62be9521c751d5a",
+                    "reference": "b776d37065b4ad24a86d75a0f62be9521c751d5a",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-24 18:57:32",
+                "time": "2016-08-24 19:10:33",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -8783,7 +8745,7 @@
                 "homepage": "https://github.com/wp-cli/scaffold-package-command",
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/run-behat-strict"
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/circle-status"
                 }
             }
         },
