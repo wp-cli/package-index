@@ -7297,6 +7297,44 @@
                     "source": "https://github.com/runcommand/profile/tree/master",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
+            },
+            "dev-use-circle": {
+                "name": "runcommand/profile",
+                "version": "dev-use-circle",
+                "version_normalized": "dev-use-circle",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/profile.git",
+                    "reference": "e830c5e08f7df8858de96f39214c1ac754fb55f0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/e830c5e08f7df8858de96f39214c1ac754fb55f0",
+                    "reference": "e830c5e08f7df8858de96f39214c1ac754fb55f0",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "~0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-08-24 18:57:09",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Profile the performance of a WordPress request.",
+                "homepage": "https://runcommand.io/wp/profile/",
+                "support": {
+                    "source": "https://github.com/runcommand/profile/tree/use-circle",
+                    "issues": "https://github.com/runcommand/profile/issues"
+                }
             }
         },
         "runcommand/query-debug": {
@@ -8704,6 +8742,48 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
+                }
+            },
+            "dev-run-behat-strict": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-run-behat-strict",
+                "version_normalized": "dev-run-behat-strict",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "0b66d77b94bcd65d73734147ab6ae40d6b4bede2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/0b66d77b94bcd65d73734147ab6ae40d6b4bede2",
+                    "reference": "0b66d77b94bcd65d73734147ab6ae40d6b4bede2",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-08-24 18:57:32",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/run-behat-strict"
                 }
             }
         },
