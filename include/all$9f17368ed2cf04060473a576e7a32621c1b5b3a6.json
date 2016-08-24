@@ -7345,12 +7345,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "13ef6c6c72ed4243ec0931377d89a5df4599fe6a"
+                    "reference": "f7d76cc3e025326ec222ee97140edc202649055c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/13ef6c6c72ed4243ec0931377d89a5df4599fe6a",
-                    "reference": "13ef6c6c72ed4243ec0931377d89a5df4599fe6a",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/f7d76cc3e025326ec222ee97140edc202649055c",
+                    "reference": "f7d76cc3e025326ec222ee97140edc202649055c",
                     "shasum": ""
                 },
                 "require": {
@@ -7359,7 +7359,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-24 20:35:01",
+                "time": "2016-08-24 22:17:30",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7373,44 +7373,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master",
-                    "issues": "https://github.com/runcommand/profile/issues"
-                }
-            },
-            "dev-drop-memory-usage": {
-                "name": "runcommand/profile",
-                "version": "dev-drop-memory-usage",
-                "version_normalized": "dev-drop-memory-usage",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "688db2e24861f9f8da28ecd6468661a66cd88e57"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/688db2e24861f9f8da28ecd6468661a66cd88e57",
-                    "reference": "688db2e24861f9f8da28ecd6468661a66cd88e57",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-24 22:09:00",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Profile the performance of a WordPress request.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/drop-memory-usage",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             }
