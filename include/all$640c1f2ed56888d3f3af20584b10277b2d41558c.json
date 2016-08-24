@@ -7345,12 +7345,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "707a83160f1db98db1c5cd89a239ab88bb9c6cfa"
+                    "reference": "68adce84eef232a03f236841fc5fcdd1472fc419"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/707a83160f1db98db1c5cd89a239ab88bb9c6cfa",
-                    "reference": "707a83160f1db98db1c5cd89a239ab88bb9c6cfa",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/68adce84eef232a03f236841fc5fcdd1472fc419",
+                    "reference": "68adce84eef232a03f236841fc5fcdd1472fc419",
                     "shasum": ""
                 },
                 "require": {
@@ -7359,45 +7359,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-24 19:30:09",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Profile the performance of a WordPress request.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/master",
-                    "issues": "https://github.com/runcommand/profile/issues"
-                }
-            },
-            "dev-change-license": {
-                "name": "runcommand/profile",
-                "version": "dev-change-license",
-                "version_normalized": "dev-change-license",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "b562c537b74cdee7d4f9c6bef61e83683a5fab55"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/b562c537b74cdee7d4f9c6bef61e83683a5fab55",
-                    "reference": "b562c537b74cdee7d4f9c6bef61e83683a5fab55",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-24 19:29:12",
+                "time": "2016-08-24 20:16:27",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7410,7 +7372,7 @@
                 "description": "Profile the performance of a WordPress request.",
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
-                    "source": "https://github.com/runcommand/profile/tree/change-license",
+                    "source": "https://github.com/runcommand/profile/tree/master",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             }
