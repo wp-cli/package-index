@@ -7403,12 +7403,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "8fbcff519cee207e5ec9058d88bfc8c1addc2e39"
+                    "reference": "989307468736a8b4fce7afac7e010a7bb4587345"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/8fbcff519cee207e5ec9058d88bfc8c1addc2e39",
-                    "reference": "8fbcff519cee207e5ec9058d88bfc8c1addc2e39",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/989307468736a8b4fce7afac7e010a7bb4587345",
+                    "reference": "989307468736a8b4fce7afac7e010a7bb4587345",
                     "shasum": ""
                 },
                 "require": {
@@ -7417,7 +7417,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-25 14:24:33",
+                "time": "2016-08-26 13:17:34",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7431,6 +7431,44 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master",
+                    "issues": "https://github.com/runcommand/profile/issues"
+                }
+            },
+            "dev-namespace-class": {
+                "name": "runcommand/profile",
+                "version": "dev-namespace-class",
+                "version_normalized": "dev-namespace-class",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/profile.git",
+                    "reference": "a5552151ba19735c45530d728a468abca8a683c4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/a5552151ba19735c45530d728a468abca8a683c4",
+                    "reference": "a5552151ba19735c45530d728a468abca8a683c4",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "~0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-08-26 13:13:19",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Profile the performance of a WordPress request.",
+                "homepage": "https://runcommand.io/wp/profile/",
+                "support": {
+                    "source": "https://github.com/runcommand/profile/tree/namespace-class",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             }
@@ -8235,12 +8273,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/trendwerk/faker.git",
-                    "reference": "7495b5a7389c6ff0156498a60d02a673265c2bab"
+                    "reference": "3e66331952e284648db5a1204bde3a03b4e69c64"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/7495b5a7389c6ff0156498a60d02a673265c2bab",
-                    "reference": "7495b5a7389c6ff0156498a60d02a673265c2bab",
+                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/3e66331952e284648db5a1204bde3a03b4e69c64",
+                    "reference": "3e66331952e284648db5a1204bde3a03b4e69c64",
                     "shasum": ""
                 },
                 "require": {
@@ -8250,7 +8288,7 @@
                     "behat/behat": "~2.5",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2016-08-26 13:01:02",
+                "time": "2016-08-26 13:18:58",
                 "type": "library",
                 "autoload": {
                     "files": [
