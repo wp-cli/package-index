@@ -7403,12 +7403,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "2536ff615f004fe28412108aa9cad3676182f190"
+                    "reference": "8962e33eaba604004ecead91cb56dc92ea4f9dbc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/2536ff615f004fe28412108aa9cad3676182f190",
-                    "reference": "2536ff615f004fe28412108aa9cad3676182f190",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/8962e33eaba604004ecead91cb56dc92ea4f9dbc",
+                    "reference": "8962e33eaba604004ecead91cb56dc92ea4f9dbc",
                     "shasum": ""
                 },
                 "require": {
@@ -7417,7 +7417,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-26 16:59:53",
+                "time": "2016-08-26 20:04:05",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7431,44 +7431,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master",
-                    "issues": "https://github.com/runcommand/profile/issues"
-                }
-            },
-            "dev-collapse-execution-time": {
-                "name": "runcommand/profile",
-                "version": "dev-collapse-execution-time",
-                "version_normalized": "dev-collapse-execution-time",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "8399c7e693eba11ad06082f34b31ff7be1ef93b2"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/8399c7e693eba11ad06082f34b31ff7be1ef93b2",
-                    "reference": "8399c7e693eba11ad06082f34b31ff7be1ef93b2",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-26 20:00:32",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Profile the performance of a WordPress request.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/collapse-execution-time",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             }
