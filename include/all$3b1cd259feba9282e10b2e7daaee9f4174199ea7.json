@@ -7403,12 +7403,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "1e26b49181d122f0b18aab0099ab863c91a807da"
+                    "reference": "68d3dc4c020360d620657e715227362b555bd1c4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/1e26b49181d122f0b18aab0099ab863c91a807da",
-                    "reference": "1e26b49181d122f0b18aab0099ab863c91a807da",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/68d3dc4c020360d620657e715227362b555bd1c4",
+                    "reference": "68d3dc4c020360d620657e715227362b555bd1c4",
                     "shasum": ""
                 },
                 "require": {
@@ -7417,7 +7417,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-26 16:07:07",
+                "time": "2016-08-26 16:21:48",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7507,44 +7507,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/fix-cache-hit-miss",
-                    "issues": "https://github.com/runcommand/profile/issues"
-                }
-            },
-            "dev-hook-count": {
-                "name": "runcommand/profile",
-                "version": "dev-hook-count",
-                "version_normalized": "dev-hook-count",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "091e94b53e71837f5ff3191b7853d8eec4062aa7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/091e94b53e71837f5ff3191b7853d8eec4062aa7",
-                    "reference": "091e94b53e71837f5ff3191b7853d8eec4062aa7",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-26 16:06:49",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Profile the performance of a WordPress request.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/hook-count",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             }
