@@ -7403,12 +7403,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "54cc54beb49280a169ae4524f6d3bbf0a393684b"
+                    "reference": "5e84ef90221d316ffbb03d4e5bef11c399d06b7c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/54cc54beb49280a169ae4524f6d3bbf0a393684b",
-                    "reference": "54cc54beb49280a169ae4524f6d3bbf0a393684b",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/5e84ef90221d316ffbb03d4e5bef11c399d06b7c",
+                    "reference": "5e84ef90221d316ffbb03d4e5bef11c399d06b7c",
                     "shasum": ""
                 },
                 "require": {
@@ -7417,7 +7417,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-26 14:51:28",
+                "time": "2016-08-26 15:11:33",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7431,44 +7431,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master",
-                    "issues": "https://github.com/runcommand/profile/issues"
-                }
-            },
-            "dev-fix-hook-time": {
-                "name": "runcommand/profile",
-                "version": "dev-fix-hook-time",
-                "version_normalized": "dev-fix-hook-time",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "6beb5a6873d774dbf1ab85e9f3930e4c774d2f80"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/6beb5a6873d774dbf1ab85e9f3930e4c774d2f80",
-                    "reference": "6beb5a6873d774dbf1ab85e9f3930e4c774d2f80",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-26 15:08:51",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Profile the performance of a WordPress request.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/fix-hook-time",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             }
