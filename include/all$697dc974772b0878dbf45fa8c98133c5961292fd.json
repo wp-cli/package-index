@@ -7434,6 +7434,82 @@
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             },
+            "dev-convert-scope-logger": {
+                "name": "runcommand/profile",
+                "version": "dev-convert-scope-logger",
+                "version_normalized": "dev-convert-scope-logger",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/profile.git",
+                    "reference": "8b3db404220433206532c309f5794c098e4207ea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/8b3db404220433206532c309f5794c098e4207ea",
+                    "reference": "8b3db404220433206532c309f5794c098e4207ea",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "~0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-08-26 16:20:19",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Profile the performance of a WordPress request.",
+                "homepage": "https://runcommand.io/wp/profile/",
+                "support": {
+                    "source": "https://github.com/runcommand/profile/tree/convert-scope-logger",
+                    "issues": "https://github.com/runcommand/profile/issues"
+                }
+            },
+            "dev-fix-cache-hit-miss": {
+                "name": "runcommand/profile",
+                "version": "dev-fix-cache-hit-miss",
+                "version_normalized": "dev-fix-cache-hit-miss",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/profile.git",
+                    "reference": "6de9d33afc0b3448109df78b6d7bb6883fbf5bcf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/6de9d33afc0b3448109df78b6d7bb6883fbf5bcf",
+                    "reference": "6de9d33afc0b3448109df78b6d7bb6883fbf5bcf",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "~0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-08-26 16:20:40",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Profile the performance of a WordPress request.",
+                "homepage": "https://runcommand.io/wp/profile/",
+                "support": {
+                    "source": "https://github.com/runcommand/profile/tree/fix-cache-hit-miss",
+                    "issues": "https://github.com/runcommand/profile/issues"
+                }
+            },
             "dev-hook-count": {
                 "name": "runcommand/profile",
                 "version": "dev-hook-count",
