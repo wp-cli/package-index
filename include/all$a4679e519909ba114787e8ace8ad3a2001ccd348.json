@@ -529,12 +529,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
-                    "reference": "e210635da46d08864771d10ed630f7ce7faa17b2"
+                    "reference": "fe56454601808d70c4b5f6b0082d2e09fa6350cd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/e210635da46d08864771d10ed630f7ce7faa17b2",
-                    "reference": "e210635da46d08864771d10ed630f7ce7faa17b2",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/fe56454601808d70c4b5f6b0082d2e09fa6350cd",
+                    "reference": "fe56454601808d70c4b5f6b0082d2e09fa6350cd",
                     "shasum": ""
                 },
                 "require": {
@@ -546,7 +546,7 @@
                     "johnpbloch/wordpress": "^4.6",
                     "wp-cli/wp-cli": "^0.24.0"
                 },
-                "time": "2016-08-27 13:30:45",
+                "time": "2016-08-27 17:14:39",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -571,7 +571,7 @@
                         "homepage": "https://aaemnnost.tv"
                     }
                 ],
-                "description": "Login to WordPress with secure passwordless links.",
+                "description": "Login to WordPress with secure passwordless magic links.",
                 "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command",
                 "support": {
                     "source": "https://github.com/aaemnnosttv/wp-cli-login-command/tree/master",
@@ -587,12 +587,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "2ea6c570f2371aa6252c524b6a1da2783c69ab1d"
+                    "reference": "59e4919a82ef0a2500f0b9ae880a9de69a27ab62"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/2ea6c570f2371aa6252c524b6a1da2783c69ab1d",
-                    "reference": "2ea6c570f2371aa6252c524b6a1da2783c69ab1d",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/59e4919a82ef0a2500f0b9ae880a9de69a27ab62",
+                    "reference": "59e4919a82ef0a2500f0b9ae880a9de69a27ab62",
                     "shasum": ""
                 },
                 "require": {
@@ -602,7 +602,7 @@
                 "require-dev": {
                     "wp-cli/wp-cli": "^0.24.1"
                 },
-                "time": "2016-08-11 09:34:42",
+                "time": "2016-08-27 17:12:18",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -622,7 +622,7 @@
                         "homepage": "https://aaemnnost.tv"
                     }
                 ],
-                "description": "WP-CLI command for managing WordPress development environments using Laravel Valet.",
+                "description": "Harness the power of Laravel Valet for creating fully functional WordPress installs in seconds.",
                 "homepage": "https://github.com/aaemnnosttv/wp-cli-valet-command",
                 "keywords": [
                     "laravel",
