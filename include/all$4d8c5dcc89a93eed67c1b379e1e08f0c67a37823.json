@@ -7460,12 +7460,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "96b3d1d812fce3af5376785aa9201b7630f44dd1"
+                    "reference": "459fc8b3296f01a64793fa37c86136246bf46092"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/96b3d1d812fce3af5376785aa9201b7630f44dd1",
-                    "reference": "96b3d1d812fce3af5376785aa9201b7630f44dd1",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/459fc8b3296f01a64793fa37c86136246bf46092",
+                    "reference": "459fc8b3296f01a64793fa37c86136246bf46092",
                     "shasum": ""
                 },
                 "require": {
@@ -7474,7 +7474,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-26 22:26:32",
+                "time": "2016-08-28 21:56:57",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7488,44 +7488,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master",
-                    "issues": "https://github.com/runcommand/profile/issues"
-                }
-            },
-            "dev-rename-scope-stage": {
-                "name": "runcommand/profile",
-                "version": "dev-rename-scope-stage",
-                "version_normalized": "dev-rename-scope-stage",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "42c17b03be9e41b2e3ca5f4cf8bc1d8b48ab05ea"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/42c17b03be9e41b2e3ca5f4cf8bc1d8b48ab05ea",
-                    "reference": "42c17b03be9e41b2e3ca5f4cf8bc1d8b48ab05ea",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-27 14:05:35",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Profile the performance of a WordPress request.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/rename-scope-stage",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             }
