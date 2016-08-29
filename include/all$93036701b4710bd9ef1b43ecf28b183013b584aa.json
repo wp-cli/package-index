@@ -7169,18 +7169,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/dist-archive.git",
-                    "reference": "a337d6a7a27da28d9d65c3f47426357ea587b850"
+                    "reference": "499ae932db940244b46276b409858d0a4af31f1f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/a337d6a7a27da28d9d65c3f47426357ea587b850",
-                    "reference": "a337d6a7a27da28d9d65c3f47426357ea587b850",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/499ae932db940244b46276b409858d0a4af31f1f",
+                    "reference": "499ae932db940244b46276b409858d0a4af31f1f",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-29 17:39:28",
+                "time": "2016-08-29 18:23:02",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7201,48 +7201,6 @@
                 "homepage": "https://runcommand.io/wp/dist-archive/",
                 "support": {
                     "source": "https://github.com/runcommand/dist-archive/tree/master",
-                    "issues": "https://github.com/runcommand/dist-archive/issues"
-                }
-            },
-            "dev-arbitrary-path": {
-                "name": "runcommand/dist-archive",
-                "version": "dev-arbitrary-path",
-                "version_normalized": "dev-arbitrary-path",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/dist-archive.git",
-                    "reference": "719c20fff656acbda4c0f36094029dd6bc65e273"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/719c20fff656acbda4c0f36094029dd6bc65e273",
-                    "reference": "719c20fff656acbda4c0f36094029dd6bc65e273",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-29 18:10:36",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
-                "homepage": "https://runcommand.io/wp/dist-archive/",
-                "support": {
-                    "source": "https://github.com/runcommand/dist-archive/tree/arbitrary-path",
                     "issues": "https://github.com/runcommand/dist-archive/issues"
                 }
             }
@@ -7507,12 +7465,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "a1a16f4699d308e9316995a253b1425288f3f2bd"
+                    "reference": "fbd77023078e5511017e739c2d29a1754e34ba58"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/a1a16f4699d308e9316995a253b1425288f3f2bd",
-                    "reference": "a1a16f4699d308e9316995a253b1425288f3f2bd",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/fbd77023078e5511017e739c2d29a1754e34ba58",
+                    "reference": "fbd77023078e5511017e739c2d29a1754e34ba58",
                     "shasum": ""
                 },
                 "require": {
@@ -7521,7 +7479,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-29 16:02:56",
+                "time": "2016-08-29 18:27:26",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7535,44 +7493,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master",
-                    "issues": "https://github.com/runcommand/profile/issues"
-                }
-            },
-            "dev-save-hours": {
-                "name": "runcommand/profile",
-                "version": "dev-save-hours",
-                "version_normalized": "dev-save-hours",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "a2757c67b1f893707cd65e7f70762db2e5555ee7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/a2757c67b1f893707cd65e7f70762db2e5555ee7",
-                    "reference": "a2757c67b1f893707cd65e7f70762db2e5555ee7",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-29 18:15:34",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/save-hours",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             }
@@ -8998,18 +8918,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "5d72d358091efa9dd1d3441c922531ca592e51d2"
+                    "reference": "14ef972984edc2e5451be624f79be390bd39a85c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/5d72d358091efa9dd1d3441c922531ca592e51d2",
-                    "reference": "5d72d358091efa9dd1d3441c922531ca592e51d2",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/14ef972984edc2e5451be624f79be390bd39a85c",
+                    "reference": "14ef972984edc2e5451be624f79be390bd39a85c",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-24 19:25:15",
+                "time": "2016-08-29 18:26:56",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -9031,48 +8951,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
-                }
-            },
-            "dev-change-php-version": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-change-php-version",
-                "version_normalized": "dev-change-php-version",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "ff834a26a413ecb77a5f3c4c2c8f5e4539cbef93"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/ff834a26a413ecb77a5f3c4c2c8f5e4539cbef93",
-                    "reference": "ff834a26a413ecb77a5f3c4c2c8f5e4539cbef93",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-29 18:13:36",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/change-php-version"
                 }
             }
         },
