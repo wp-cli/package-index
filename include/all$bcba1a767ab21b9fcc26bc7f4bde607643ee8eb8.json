@@ -7454,6 +7454,44 @@
             }
         },
         "runcommand/profile": {
+            "v0.1.0": {
+                "name": "runcommand/profile",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/profile.git",
+                    "reference": "a1a16f4699d308e9316995a253b1425288f3f2bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/a1a16f4699d308e9316995a253b1425288f3f2bd",
+                    "reference": "a1a16f4699d308e9316995a253b1425288f3f2bd",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "~0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-08-29 16:02:56",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Quickly identify what's slow with WordPress.",
+                "homepage": "https://runcommand.io/wp/profile/",
+                "support": {
+                    "source": "https://github.com/runcommand/profile/tree/master",
+                    "issues": "https://github.com/runcommand/profile/issues"
+                }
+            },
             "dev-master": {
                 "name": "runcommand/profile",
                 "version": "dev-master",
