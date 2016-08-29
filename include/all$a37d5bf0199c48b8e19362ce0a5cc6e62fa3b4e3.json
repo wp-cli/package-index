@@ -7461,12 +7461,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "459fc8b3296f01a64793fa37c86136246bf46092"
+                    "reference": "53a662eb3622413dfb8c898b11fac16d15b59f13"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/459fc8b3296f01a64793fa37c86136246bf46092",
-                    "reference": "459fc8b3296f01a64793fa37c86136246bf46092",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/53a662eb3622413dfb8c898b11fac16d15b59f13",
+                    "reference": "53a662eb3622413dfb8c898b11fac16d15b59f13",
                     "shasum": ""
                 },
                 "require": {
@@ -7475,7 +7475,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-28 21:56:57",
+                "time": "2016-08-29 13:55:36",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7485,7 +7485,7 @@
                 "license": [
                     "GPL-2.0"
                 ],
-                "description": "Profile the performance of a WordPress request.",
+                "description": "Quickly identify what's slow with WordPress.",
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master",
