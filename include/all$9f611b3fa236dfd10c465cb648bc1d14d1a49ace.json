@@ -529,12 +529,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
-                    "reference": "ca6a88591c0e23b6a46cf49deaee4672fe54ea50"
+                    "reference": "34b24fbd35cf237dfb84663690dafdf8743de7f7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/ca6a88591c0e23b6a46cf49deaee4672fe54ea50",
-                    "reference": "ca6a88591c0e23b6a46cf49deaee4672fe54ea50",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/34b24fbd35cf237dfb84663690dafdf8743de7f7",
+                    "reference": "34b24fbd35cf237dfb84663690dafdf8743de7f7",
                     "shasum": ""
                 },
                 "require": {
@@ -547,7 +547,7 @@
                     "johnpbloch/wordpress": "^4.6",
                     "wp-cli/wp-cli": "^0.24.0"
                 },
-                "time": "2016-08-29 13:44:47",
+                "time": "2016-08-29 14:16:55",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -7461,12 +7461,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "53a662eb3622413dfb8c898b11fac16d15b59f13"
+                    "reference": "fe1d229b70f6e8b48a4b9b908d12af7e8a9b9435"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/53a662eb3622413dfb8c898b11fac16d15b59f13",
-                    "reference": "53a662eb3622413dfb8c898b11fac16d15b59f13",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/fe1d229b70f6e8b48a4b9b908d12af7e8a9b9435",
+                    "reference": "fe1d229b70f6e8b48a4b9b908d12af7e8a9b9435",
                     "shasum": ""
                 },
                 "require": {
@@ -7475,7 +7475,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-29 13:55:36",
+                "time": "2016-08-29 14:24:04",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7489,44 +7489,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master",
-                    "issues": "https://github.com/runcommand/profile/issues"
-                }
-            },
-            "dev-40-more-detail": {
-                "name": "runcommand/profile",
-                "version": "dev-40-more-detail",
-                "version_normalized": "dev-40-more-detail",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "f34f47f4db4608eac399ebbae5a77a833e97bded"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/f34f47f4db4608eac399ebbae5a77a833e97bded",
-                    "reference": "f34f47f4db4608eac399ebbae5a77a833e97bded",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-29 14:20:58",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/40-more-detail",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             }
