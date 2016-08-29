@@ -7204,25 +7204,25 @@
                     "issues": "https://github.com/runcommand/dist-archive/issues"
                 }
             },
-            "dev-test-debug": {
+            "dev-arbitrary-path": {
                 "name": "runcommand/dist-archive",
-                "version": "dev-test-debug",
-                "version_normalized": "dev-test-debug",
+                "version": "dev-arbitrary-path",
+                "version_normalized": "dev-arbitrary-path",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/dist-archive.git",
-                    "reference": "02f5c5d0789ba716c46917713c519ac6a03a4d6a"
+                    "reference": "719c20fff656acbda4c0f36094029dd6bc65e273"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/02f5c5d0789ba716c46917713c519ac6a03a4d6a",
-                    "reference": "02f5c5d0789ba716c46917713c519ac6a03a4d6a",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/719c20fff656acbda4c0f36094029dd6bc65e273",
+                    "reference": "719c20fff656acbda4c0f36094029dd6bc65e273",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-06-14 23:40:08",
+                "time": "2016-08-29 18:10:36",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7232,9 +7232,17 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Create a distribution archive based on a project's .distignore",
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
+                "homepage": "https://runcommand.io/wp/dist-archive/",
                 "support": {
-                    "source": "https://github.com/runcommand/dist-archive/tree/test-debug",
+                    "source": "https://github.com/runcommand/dist-archive/tree/arbitrary-path",
                     "issues": "https://github.com/runcommand/dist-archive/issues"
                 }
             }
