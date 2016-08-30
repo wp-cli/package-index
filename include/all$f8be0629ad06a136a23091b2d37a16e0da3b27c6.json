@@ -7530,12 +7530,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "dd0f772a6b6e048b543475a0466643bc036fee63"
+                    "reference": "39524919eb677b4583e8a881d0075951c8c77fc5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/dd0f772a6b6e048b543475a0466643bc036fee63",
-                    "reference": "dd0f772a6b6e048b543475a0466643bc036fee63",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/39524919eb677b4583e8a881d0075951c8c77fc5",
+                    "reference": "39524919eb677b4583e8a881d0075951c8c77fc5",
                     "shasum": ""
                 },
                 "require": {
@@ -7544,7 +7544,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-30 14:00:21",
+                "time": "2016-08-30 14:11:14",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -8983,18 +8983,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "b4de6d3c7c548d3255a223f80d104ddb237ea15c"
+                    "reference": "3725e769890b9a68f8dd88caa2d978d45690f033"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/b4de6d3c7c548d3255a223f80d104ddb237ea15c",
-                    "reference": "b4de6d3c7c548d3255a223f80d104ddb237ea15c",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/3725e769890b9a68f8dd88caa2d978d45690f033",
+                    "reference": "3725e769890b9a68f8dd88caa2d978d45690f033",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-30 14:00:39",
+                "time": "2016-08-30 14:03:08",
                 "type": "library",
                 "autoload": {
                     "files": [
