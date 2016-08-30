@@ -7312,6 +7312,48 @@
                     "source": "https://github.com/runcommand/doctor/tree/master",
                     "issues": "https://github.com/runcommand/doctor/issues"
                 }
+            },
+            "dev-switch-circle": {
+                "name": "runcommand/doctor",
+                "version": "dev-switch-circle",
+                "version_normalized": "dev-switch-circle",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/doctor.git",
+                    "reference": "c2ea88a49a42d5318f8c1ec227a92308a044aa02"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/c2ea88a49a42d5318f8c1ec227a92308a044aa02",
+                    "reference": "c2ea88a49a42d5318f8c1ec227a92308a044aa02",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-08-30 20:28:23",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Run a series of checks against WordPress to diagnose issues.",
+                "homepage": "https://runcommand.io/wp/doctor/",
+                "support": {
+                    "source": "https://github.com/runcommand/doctor/tree/switch-circle",
+                    "issues": "https://github.com/runcommand/doctor/issues"
+                }
             }
         },
         "runcommand/find-unused-themes": {
