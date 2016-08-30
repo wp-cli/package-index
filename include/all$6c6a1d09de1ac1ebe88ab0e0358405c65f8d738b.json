@@ -7278,18 +7278,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "26e35decf64bd090d566e6f417583ebe99786c35"
+                    "reference": "98a81d304649339ac704339dfc38ec7e936a1cb1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/26e35decf64bd090d566e6f417583ebe99786c35",
-                    "reference": "26e35decf64bd090d566e6f417583ebe99786c35",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/98a81d304649339ac704339dfc38ec7e936a1cb1",
+                    "reference": "98a81d304649339ac704339dfc38ec7e936a1cb1",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-07-03 13:36:41",
+                "time": "2016-08-30 20:42:28",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7310,48 +7310,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master",
-                    "issues": "https://github.com/runcommand/doctor/issues"
-                }
-            },
-            "dev-switch-circle": {
-                "name": "runcommand/doctor",
-                "version": "dev-switch-circle",
-                "version_normalized": "dev-switch-circle",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "cda21cd1a7361a273002a383168954adc6b0a780"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/cda21cd1a7361a273002a383168954adc6b0a780",
-                    "reference": "cda21cd1a7361a273002a383168954adc6b0a780",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-30 20:39:04",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/switch-circle",
                     "issues": "https://github.com/runcommand/doctor/issues"
                 }
             }
