@@ -7530,12 +7530,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "2de9bdbe12b3cb42bda0d164e50cfdb9dbdeb79f"
+                    "reference": "453563e56a7b0f57000364a23c2f8ed106d239e5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/2de9bdbe12b3cb42bda0d164e50cfdb9dbdeb79f",
-                    "reference": "2de9bdbe12b3cb42bda0d164e50cfdb9dbdeb79f",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/453563e56a7b0f57000364a23c2f8ed106d239e5",
+                    "reference": "453563e56a7b0f57000364a23c2f8ed106d239e5",
                     "shasum": ""
                 },
                 "require": {
@@ -7544,7 +7544,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-30 12:28:49",
+                "time": "2016-08-30 12:32:07",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7558,44 +7558,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master",
-                    "issues": "https://github.com/runcommand/profile/issues"
-                }
-            },
-            "dev-25-rm-standard-test": {
-                "name": "runcommand/profile",
-                "version": "dev-25-rm-standard-test",
-                "version_normalized": "dev-25-rm-standard-test",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "3c8216563e14e296b6b2ad96317c2d2ebea81d3b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/3c8216563e14e296b6b2ad96317c2d2ebea81d3b",
-                    "reference": "3c8216563e14e296b6b2ad96317c2d2ebea81d3b",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-30 12:30:18",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/25-rm-standard-test",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             }
