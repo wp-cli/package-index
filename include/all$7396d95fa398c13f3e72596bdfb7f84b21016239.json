@@ -7320,18 +7320,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "c2ea88a49a42d5318f8c1ec227a92308a044aa02"
+                    "reference": "cda21cd1a7361a273002a383168954adc6b0a780"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/c2ea88a49a42d5318f8c1ec227a92308a044aa02",
-                    "reference": "c2ea88a49a42d5318f8c1ec227a92308a044aa02",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/cda21cd1a7361a273002a383168954adc6b0a780",
+                    "reference": "cda21cd1a7361a273002a383168954adc6b0a780",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-30 20:28:23",
+                "time": "2016-08-30 20:39:04",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7600,6 +7600,44 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master",
+                    "issues": "https://github.com/runcommand/profile/issues"
+                }
+            },
+            "dev-new-php-version": {
+                "name": "runcommand/profile",
+                "version": "dev-new-php-version",
+                "version_normalized": "dev-new-php-version",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/profile.git",
+                    "reference": "6692e9d3beb390511aba346c27c6a92d4edb99f7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/6692e9d3beb390511aba346c27c6a92d4edb99f7",
+                    "reference": "6692e9d3beb390511aba346c27c6a92d4edb99f7",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "~0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-08-30 20:34:27",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Quickly identify what's slow with WordPress.",
+                "homepage": "https://runcommand.io/wp/profile/",
+                "support": {
+                    "source": "https://github.com/runcommand/profile/tree/new-php-version",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             }
