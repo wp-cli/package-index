@@ -7530,12 +7530,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "453563e56a7b0f57000364a23c2f8ed106d239e5"
+                    "reference": "47045bf49a73ba5af6e0334df68ac2f53b897525"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/453563e56a7b0f57000364a23c2f8ed106d239e5",
-                    "reference": "453563e56a7b0f57000364a23c2f8ed106d239e5",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/47045bf49a73ba5af6e0334df68ac2f53b897525",
+                    "reference": "47045bf49a73ba5af6e0334df68ac2f53b897525",
                     "shasum": ""
                 },
                 "require": {
@@ -7544,7 +7544,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-30 12:32:07",
+                "time": "2016-08-30 13:45:51",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7558,44 +7558,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master",
-                    "issues": "https://github.com/runcommand/profile/issues"
-                }
-            },
-            "dev-more-distignore": {
-                "name": "runcommand/profile",
-                "version": "dev-more-distignore",
-                "version_normalized": "dev-more-distignore",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "0152a89f14b97c474cd7e1a77ea4ec0ba61bf7a9"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/0152a89f14b97c474cd7e1a77ea4ec0ba61bf7a9",
-                    "reference": "0152a89f14b97c474cd7e1a77ea4ec0ba61bf7a9",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-30 13:10:13",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/more-distignore",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             }
@@ -9056,6 +9018,48 @@
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
                 }
             },
+            "dev-custom-sections": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-custom-sections",
+                "version_normalized": "dev-custom-sections",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "939bcbda8c5e2a04c60df06dfab6f072f1e03f56"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/939bcbda8c5e2a04c60df06dfab6f072f1e03f56",
+                    "reference": "939bcbda8c5e2a04c60df06dfab6f072f1e03f56",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-08-30 13:41:17",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/custom-sections"
+                }
+            },
             "dev-distignore": {
                 "name": "wp-cli/scaffold-package-command",
                 "version": "dev-distignore",
@@ -9063,18 +9067,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "ef901981d292429c968040e8f2f75cc0788aef27"
+                    "reference": "19665c842c6cf045e8a67cf9b9e81d17dded60e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/ef901981d292429c968040e8f2f75cc0788aef27",
-                    "reference": "ef901981d292429c968040e8f2f75cc0788aef27",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/19665c842c6cf045e8a67cf9b9e81d17dded60e9",
+                    "reference": "19665c842c6cf045e8a67cf9b9e81d17dded60e9",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-30 13:13:15",
+                "time": "2016-08-30 13:44:27",
                 "type": "library",
                 "autoload": {
                     "files": [
