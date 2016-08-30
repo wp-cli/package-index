@@ -7234,18 +7234,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/dist-archive.git",
-                    "reference": "6c4551386c143dfbc5637311b6728c6be60d8346"
+                    "reference": "d0749631383c11da68cb8bdebb9bb058552f0bc7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/6c4551386c143dfbc5637311b6728c6be60d8346",
-                    "reference": "6c4551386c143dfbc5637311b6728c6be60d8346",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/d0749631383c11da68cb8bdebb9bb058552f0bc7",
+                    "reference": "d0749631383c11da68cb8bdebb9bb058552f0bc7",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-30 12:47:29",
+                "time": "2016-08-30 14:48:01",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7530,12 +7530,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "a6c63941469e68ee7ed3a13cd18631cd37ca5f84"
+                    "reference": "9a512f7f81bd4f7c157275639886c2c5a75ad0bd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/a6c63941469e68ee7ed3a13cd18631cd37ca5f84",
-                    "reference": "a6c63941469e68ee7ed3a13cd18631cd37ca5f84",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/9a512f7f81bd4f7c157275639886c2c5a75ad0bd",
+                    "reference": "9a512f7f81bd4f7c157275639886c2c5a75ad0bd",
                     "shasum": ""
                 },
                 "require": {
@@ -7544,7 +7544,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-30 14:35:04",
+                "time": "2016-08-30 14:46:29",
                 "type": "library",
                 "autoload": {
                     "files": [
