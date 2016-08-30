@@ -7530,12 +7530,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "8018079eafa6f44774dc7ca46f72e40f2c1410e1"
+                    "reference": "2de9bdbe12b3cb42bda0d164e50cfdb9dbdeb79f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/8018079eafa6f44774dc7ca46f72e40f2c1410e1",
-                    "reference": "8018079eafa6f44774dc7ca46f72e40f2c1410e1",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/2de9bdbe12b3cb42bda0d164e50cfdb9dbdeb79f",
+                    "reference": "2de9bdbe12b3cb42bda0d164e50cfdb9dbdeb79f",
                     "shasum": ""
                 },
                 "require": {
@@ -7544,7 +7544,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-29 23:02:37",
+                "time": "2016-08-30 12:28:49",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7561,19 +7561,19 @@
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             },
-            "dev-51-fix-error-notice": {
+            "dev-25-rm-standard-test": {
                 "name": "runcommand/profile",
-                "version": "dev-51-fix-error-notice",
-                "version_normalized": "dev-51-fix-error-notice",
+                "version": "dev-25-rm-standard-test",
+                "version_normalized": "dev-25-rm-standard-test",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "e94903dc2d0ef77d7104fa14166377927f87ab59"
+                    "reference": "3c8216563e14e296b6b2ad96317c2d2ebea81d3b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/e94903dc2d0ef77d7104fa14166377927f87ab59",
-                    "reference": "e94903dc2d0ef77d7104fa14166377927f87ab59",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/3c8216563e14e296b6b2ad96317c2d2ebea81d3b",
+                    "reference": "3c8216563e14e296b6b2ad96317c2d2ebea81d3b",
                     "shasum": ""
                 },
                 "require": {
@@ -7582,7 +7582,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-30 12:15:13",
+                "time": "2016-08-30 12:30:18",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7595,7 +7595,7 @@
                 "description": "Quickly identify what's slow with WordPress.",
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
-                    "source": "https://github.com/runcommand/profile/tree/51-fix-error-notice",
+                    "source": "https://github.com/runcommand/profile/tree/25-rm-standard-test",
                     "issues": "https://github.com/runcommand/profile/issues"
                 }
             }
@@ -9021,18 +9021,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "0cad72906a7139e36806e899fb9240b564c00a5f"
+                    "reference": "e401448e79e246c4c4423a98077aa6bf2b8349cc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/0cad72906a7139e36806e899fb9240b564c00a5f",
-                    "reference": "0cad72906a7139e36806e899fb9240b564c00a5f",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/e401448e79e246c4c4423a98077aa6bf2b8349cc",
+                    "reference": "e401448e79e246c4c4423a98077aa6bf2b8349cc",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-29 22:28:36",
+                "time": "2016-08-30 12:29:53",
                 "type": "library",
                 "autoload": {
                     "files": [
