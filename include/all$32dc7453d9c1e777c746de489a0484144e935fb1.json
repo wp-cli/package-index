@@ -7306,6 +7306,48 @@
                     "source": "https://github.com/runcommand/doctor/tree/master",
                     "issues": "https://github.com/runcommand/doctor/issues"
                 }
+            },
+            "dev-check-all": {
+                "name": "runcommand/doctor",
+                "version": "dev-check-all",
+                "version_normalized": "dev-check-all",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/doctor.git",
+                    "reference": "57806be054784198b6ea6ae6b04f331a3e7a13f6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/57806be054784198b6ea6ae6b04f331a3e7a13f6",
+                    "reference": "57806be054784198b6ea6ae6b04f331a3e7a13f6",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-08-31 12:09:14",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Run a series of checks against WordPress to diagnose issues.",
+                "homepage": "https://runcommand.io/wp/doctor/",
+                "support": {
+                    "source": "https://github.com/runcommand/doctor/tree/check-all",
+                    "issues": "https://github.com/runcommand/doctor/issues"
+                }
             }
         },
         "runcommand/find-unused-themes": {
