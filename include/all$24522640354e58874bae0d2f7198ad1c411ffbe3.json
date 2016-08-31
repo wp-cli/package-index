@@ -7314,18 +7314,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "8e5c4f402c2bcc1e15a10cd77d96cdf8b36cf6ed"
+                    "reference": "c95f5b1e23e89af0acec763626a4362e274be24d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/8e5c4f402c2bcc1e15a10cd77d96cdf8b36cf6ed",
-                    "reference": "8e5c4f402c2bcc1e15a10cd77d96cdf8b36cf6ed",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/c95f5b1e23e89af0acec763626a4362e274be24d",
+                    "reference": "c95f5b1e23e89af0acec763626a4362e274be24d",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-31 13:19:17",
+                "time": "2016-08-31 13:36:32",
                 "type": "library",
                 "autoload": {
                     "files": [
