@@ -7272,18 +7272,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "465ac0f1e69ef73dfb7babd4c29fe43453dc4b44"
+                    "reference": "8ae8cf897c8582d2f1b870dc02b15f1301ffc25d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/465ac0f1e69ef73dfb7babd4c29fe43453dc4b44",
-                    "reference": "465ac0f1e69ef73dfb7babd4c29fe43453dc4b44",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/8ae8cf897c8582d2f1b870dc02b15f1301ffc25d",
+                    "reference": "8ae8cf897c8582d2f1b870dc02b15f1301ffc25d",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-31 13:44:09",
+                "time": "2016-08-31 22:44:36",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7304,48 +7304,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master",
-                    "issues": "https://github.com/runcommand/doctor/issues"
-                }
-            },
-            "dev-check-theme-update": {
-                "name": "runcommand/doctor",
-                "version": "dev-check-theme-update",
-                "version_normalized": "dev-check-theme-update",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "71b8eb12fbaba37c83e9d6c70f70e98298f7c8c3"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/71b8eb12fbaba37c83e9d6c70f70e98298f7c8c3",
-                    "reference": "71b8eb12fbaba37c83e9d6c70f70e98298f7c8c3",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-31 22:34:11",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/check-theme-update",
                     "issues": "https://github.com/runcommand/doctor/issues"
                 }
             }
