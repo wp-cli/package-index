@@ -7272,18 +7272,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "4c074d57e8988d37054bb99f82c059ebb381a94a"
+                    "reference": "df1c91cfe83ad5fab4daba7967861bcb5a7ae3bc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/4c074d57e8988d37054bb99f82c059ebb381a94a",
-                    "reference": "4c074d57e8988d37054bb99f82c059ebb381a94a",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/df1c91cfe83ad5fab4daba7967861bcb5a7ae3bc",
+                    "reference": "df1c91cfe83ad5fab4daba7967861bcb5a7ae3bc",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-31 12:16:20",
+                "time": "2016-08-31 12:33:50",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7304,90 +7304,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master",
-                    "issues": "https://github.com/runcommand/doctor/issues"
-                }
-            },
-            "dev-avoid-notices": {
-                "name": "runcommand/doctor",
-                "version": "dev-avoid-notices",
-                "version_normalized": "dev-avoid-notices",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "92eb2e2b913ab203e51daecfa63b628689aa0560"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/92eb2e2b913ab203e51daecfa63b628689aa0560",
-                    "reference": "92eb2e2b913ab203e51daecfa63b628689aa0560",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-31 12:29:11",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/avoid-notices",
-                    "issues": "https://github.com/runcommand/doctor/issues"
-                }
-            },
-            "dev-check-plugin-update": {
-                "name": "runcommand/doctor",
-                "version": "dev-check-plugin-update",
-                "version_normalized": "dev-check-plugin-update",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "b426bd439510a957ccb1b2ce4b20f0b447333f01"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/b426bd439510a957ccb1b2ce4b20f0b447333f01",
-                    "reference": "b426bd439510a957ccb1b2ce4b20f0b447333f01",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-31 12:26:33",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/check-plugin-update",
                     "issues": "https://github.com/runcommand/doctor/issues"
                 }
             }
