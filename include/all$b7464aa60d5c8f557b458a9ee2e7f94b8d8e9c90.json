@@ -7306,6 +7306,48 @@
                     "source": "https://github.com/runcommand/doctor/tree/master",
                     "issues": "https://github.com/runcommand/doctor/issues"
                 }
+            },
+            "dev-3-autoload-options": {
+                "name": "runcommand/doctor",
+                "version": "dev-3-autoload-options",
+                "version_normalized": "dev-3-autoload-options",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/doctor.git",
+                    "reference": "8e5c4f402c2bcc1e15a10cd77d96cdf8b36cf6ed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/8e5c4f402c2bcc1e15a10cd77d96cdf8b36cf6ed",
+                    "reference": "8e5c4f402c2bcc1e15a10cd77d96cdf8b36cf6ed",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-08-31 13:19:17",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Run a series of checks against WordPress to diagnose issues.",
+                "homepage": "https://runcommand.io/wp/doctor/",
+                "support": {
+                    "source": "https://github.com/runcommand/doctor/tree/3-autoload-options",
+                    "issues": "https://github.com/runcommand/doctor/issues"
+                }
             }
         },
         "runcommand/find-unused-themes": {
