@@ -8496,6 +8496,46 @@
                 }
             }
         },
+        "trepmal/wp-revisions-cli": {
+            "dev-master": {
+                "name": "trepmal/wp-revisions-cli",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/trepmal/wp-revisions-cli.git",
+                    "reference": "8238fed4bbc27ecf46b307a3cee358847abfdff6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/trepmal/wp-revisions-cli/zipball/8238fed4bbc27ecf46b307a3cee358847abfdff6",
+                    "reference": "8238fed4bbc27ecf46b307a3cee358847abfdff6",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-04 02:09:42",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "revisions-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Manage revisions",
+                "homepage": "https://github.com/trepmal/wp-revisions-cli",
+                "support": {
+                    "source": "https://github.com/trepmal/wp-revisions-cli/tree/master",
+                    "issues": "https://github.com/trepmal/wp-revisions-cli/issues"
+                }
+            }
+        },
         "vccw/wp-cli-scaffold-movefile": {
             "1.1.2": {
                 "name": "vccw/wp-cli-scaffold-movefile",
