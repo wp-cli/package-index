@@ -7233,18 +7233,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/dist-archive.git",
-                    "reference": "d0749631383c11da68cb8bdebb9bb058552f0bc7"
+                    "reference": "b59bf7275e5bdd989e8a4b5ef410b174bb9b2df1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/d0749631383c11da68cb8bdebb9bb058552f0bc7",
-                    "reference": "d0749631383c11da68cb8bdebb9bb058552f0bc7",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/b59bf7275e5bdd989e8a4b5ef410b174bb9b2df1",
+                    "reference": "b59bf7275e5bdd989e8a4b5ef410b174bb9b2df1",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-30 14:48:01",
+                "time": "2016-09-07 14:22:52",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7265,48 +7265,6 @@
                 "homepage": "https://runcommand.io/wp/dist-archive/",
                 "support": {
                     "source": "https://github.com/runcommand/dist-archive/tree/master",
-                    "issues": "https://github.com/runcommand/dist-archive/issues"
-                }
-            },
-            "dev-1-targz": {
-                "name": "runcommand/dist-archive",
-                "version": "dev-1-targz",
-                "version_normalized": "dev-1-targz",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/dist-archive.git",
-                    "reference": "ba0b0431a9b7535b3f9d42407c1b449a5f46f96f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/ba0b0431a9b7535b3f9d42407c1b449a5f46f96f",
-                    "reference": "ba0b0431a9b7535b3f9d42407c1b449a5f46f96f",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-07 14:19:17",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
-                "homepage": "https://runcommand.io/wp/dist-archive/",
-                "support": {
-                    "source": "https://github.com/runcommand/dist-archive/tree/1-targz",
                     "issues": "https://github.com/runcommand/dist-archive/issues"
                 }
             }
