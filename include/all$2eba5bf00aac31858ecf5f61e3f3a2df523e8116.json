@@ -7267,6 +7267,48 @@
                     "source": "https://github.com/runcommand/dist-archive/tree/master",
                     "issues": "https://github.com/runcommand/dist-archive/issues"
                 }
+            },
+            "dev-update-contributing": {
+                "name": "runcommand/dist-archive",
+                "version": "dev-update-contributing",
+                "version_normalized": "dev-update-contributing",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/dist-archive.git",
+                    "reference": "05213bed8d01363930c4191027ebc6f49639dce5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/05213bed8d01363930c4191027ebc6f49639dce5",
+                    "reference": "05213bed8d01363930c4191027ebc6f49639dce5",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-07 23:15:38",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
+                "homepage": "https://runcommand.io/wp/dist-archive/",
+                "support": {
+                    "source": "https://github.com/runcommand/dist-archive/tree/update-contributing",
+                    "issues": "https://github.com/runcommand/dist-archive/issues"
+                }
             }
         },
         "runcommand/doctor": {
