@@ -1713,6 +1713,55 @@
                 }
             }
         },
+        "danielbachhuber/wp-cli-stat-command": {
+            "dev-master": {
+                "name": "danielbachhuber/wp-cli-stat-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/wp-cli-stat-command.git",
+                    "reference": "eb44c95126e1c65852f7305b00c3471f385d638a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-cli-stat-command/zipball/eb44c95126e1c65852f7305b00c3471f385d638a",
+                    "reference": "eb44c95126e1c65852f7305b00c3471f385d638a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-01-13 22:02:54",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-stat-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "d@danielbachhuber.com",
+                        "homepage": "http://danielbachhuber.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Explore data about your WordPress site.",
+                "homepage": "https://github.com/danielbachhuber/wp-cli-stat-command",
+                "keywords": [
+                    "analytics",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/danielbachhuber/wp-cli-stat-command/tree/master",
+                    "issues": "https://github.com/danielbachhuber/wp-cli-stat-command/issues"
+                }
+            }
+        },
         "dereckson/wp-cli-polylang": {
             "dev-master": {
                 "name": "dereckson/wp-cli-polylang",
@@ -3587,6 +3636,63 @@
                     "issues": "https://github.com/eriktorsner/wp-bootstrap/issues",
                     "source": "https://github.com/eriktorsner/wp-bootstrap/tree/master"
                 }
+            },
+            "dev-master": {
+                "name": "eriktorsner/wp-bootstrap",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eriktorsner/wp-bootstrap.git",
+                    "reference": "be409037db11912b84c4b089172577c998cc77a5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eriktorsner/wp-bootstrap/zipball/be409037db11912b84c4b089172577c998cc77a5",
+                    "reference": "be409037db11912b84c4b089172577c998cc77a5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.9",
+                    "pimple/pimple": "~3.0",
+                    "symfony/yaml": "^2.8",
+                    "vlucas/phpdotenv": "^2.2"
+                },
+                "require-dev": {
+                    "10up/wp_mock": "dev-master"
+                },
+                "time": "2016-05-28 16:20:32",
+                "bin": [
+                    "bin/wpbootstrap"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Wpbootstrap\\": "src"
+                    },
+                    "files": [
+                        "wpcli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Erik Torsner",
+                        "email": "erik@torgesta.com",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Utils for bootstrapping a WordPress installation",
+                "homepage": "https://github.com/eriktorsner/wp-bootstrap/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/eriktorsner/wp-bootstrap/issues",
+                    "source": "https://github.com/eriktorsner/wp-bootstrap/tree/master"
+                }
             }
         },
         "ernilambar/database-command": {
@@ -4205,6 +4311,172 @@
                 "support": {
                     "issues": "https://github.com/GeekPress/wp-rocket-cli/issues",
                     "source": "https://github.com/GeekPress/wp-rocket-cli"
+                }
+            }
+        },
+        "humanmade/wp-remote-cli": {
+            "dev-master": {
+                "name": "humanmade/wp-remote-cli",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/wp-remote-cli.git",
+                    "reference": "4305ca16cc24dc3dd473adb2c893c26576357ac3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/4305ca16cc24dc3dd473adb2c893c26576357ac3",
+                    "reference": "4305ca16cc24dc3dd473adb2c893c26576357ac3",
+                    "shasum": ""
+                },
+                "time": "2014-01-09 02:56:03",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-remote-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Humanmade",
+                        "email": "hello@hmn.md"
+                    },
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@hmn.md"
+                    }
+                ],
+                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
+                "support": {
+                    "source": "https://github.com/humanmade/wp-remote-cli/tree/master",
+                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
+                }
+            },
+            "dev-deploy": {
+                "name": "humanmade/wp-remote-cli",
+                "version": "dev-deploy",
+                "version_normalized": "dev-deploy",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/wp-remote-cli.git",
+                    "reference": "f1690c6fe510a48b3106b2c833f6c6f49a5c7064"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/f1690c6fe510a48b3106b2c833f6c6f49a5c7064",
+                    "reference": "f1690c6fe510a48b3106b2c833f6c6f49a5c7064",
+                    "shasum": ""
+                },
+                "time": "2013-11-23 00:56:39",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-remote-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Humanmade",
+                        "email": "hello@hmn.md"
+                    },
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@hmn.md"
+                    }
+                ],
+                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
+                "support": {
+                    "source": "https://github.com/humanmade/wp-remote-cli/tree/deploy",
+                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
+                }
+            },
+            "dev-endpoint-fixes": {
+                "name": "humanmade/wp-remote-cli",
+                "version": "dev-endpoint-fixes",
+                "version_normalized": "dev-endpoint-fixes",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/wp-remote-cli.git",
+                    "reference": "137cf5bc98860fc8336e339d273b9adc4057ce51"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/137cf5bc98860fc8336e339d273b9adc4057ce51",
+                    "reference": "137cf5bc98860fc8336e339d273b9adc4057ce51",
+                    "shasum": ""
+                },
+                "time": "2013-10-03 16:47:27",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-remote-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Humanmade",
+                        "email": "hello@hmn.md"
+                    },
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@hmn.md"
+                    }
+                ],
+                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
+                "support": {
+                    "source": "https://github.com/humanmade/wp-remote-cli/tree/endpoint-fixes",
+                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
+                }
+            },
+            "dev-fourth-level-commands": {
+                "name": "humanmade/wp-remote-cli",
+                "version": "dev-fourth-level-commands",
+                "version_normalized": "dev-fourth-level-commands",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/wp-remote-cli.git",
+                    "reference": "1ffb5234066a6fa1d5ff802e5e03590f7000d91a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/1ffb5234066a6fa1d5ff802e5e03590f7000d91a",
+                    "reference": "1ffb5234066a6fa1d5ff802e5e03590f7000d91a",
+                    "shasum": ""
+                },
+                "time": "2013-10-30 01:49:59",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-remote-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Humanmade",
+                        "email": "hello@hmn.md"
+                    },
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@hmn.md"
+                    }
+                ],
+                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
+                "support": {
+                    "source": "https://github.com/humanmade/wp-remote-cli/tree/fourth-level-commands",
+                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
                 }
             }
         },
@@ -4855,6 +5127,47 @@
             }
         },
         "miya0001/wp-cli-plugins-api": {
+            "1.0": {
+                "name": "miya0001/wp-cli-plugins-api",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/miya0001/wp-plugins-api.git",
+                    "reference": "5549c1521de89d1e9834ed8e60ce1af42a9a79da"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/miya0001/wp-plugins-api/zipball/5549c1521de89d1e9834ed8e60ce1af42a9a79da",
+                    "reference": "5549c1521de89d1e9834ed8e60ce1af42a9a79da",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2014-12-02 10:04:11",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "https://github.com/miya0001"
+                    }
+                ],
+                "description": "WP-CLI command for Plugins API",
+                "homepage": "http://github.com/miya0001/wp-cli-plugins-api",
+                "support": {
+                    "source": "https://github.com/miya0001/wp-plugins-api/tree/1.0",
+                    "issues": "https://github.com/miya0001/wp-plugins-api/issues"
+                }
+            },
             "dev-master": {
                 "name": "miya0001/wp-cli-plugins-api",
                 "version": "dev-master",
@@ -6570,6 +6883,56 @@
                 }
             }
         },
+        "pulsestorm/wp-static-html-output-plugin": {
+            "dev-master": {
+                "name": "pulsestorm/wp-static-html-output-plugin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/astorm/wp-static-html-output-plugin.git",
+                    "reference": "511f8158d58f9dfe7a12297d7a2c1135f31e8d3a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/511f8158d58f9dfe7a12297d7a2c1135f31e8d3a",
+                    "reference": "511f8158d58f9dfe7a12297d7a2c1135f31e8d3a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "time": "2014-03-04 00:14:51",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Alan Storm",
+                        "homepage": "http://alanstorm.com"
+                    }
+                ],
+                "description": "Unofficial WP-CLI wrapper for the WP Static HTML Output Plugin ",
+                "homepage": "https://github.com/astorm/wp-static-html-output-plugin",
+                "keywords": [
+                    "",
+                    "html",
+                    "static",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/astorm/wp-static-html-output-plugin/issues",
+                    "source": "https://github.com/astorm/wp-static-html-output-plugin"
+                }
+            }
+        },
         "redkiwi-nl/localconfig": {
             "0.1": {
                 "name": "redkiwi-nl/localconfig",
@@ -7328,6 +7691,43 @@
                 }
             }
         },
+        "sebastiaandegeus/wp-cli-salts-command": {
+            "dev-master": {
+                "name": "sebastiaandegeus/wp-cli-salts-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastiaandegeus/wp-cli-salts-command.git",
+                    "reference": "8d38ed5d936ee2b7099fc6966bef0a6127dd45df"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sebastiaandegeus/wp-cli-salts-command/zipball/8d38ed5d936ee2b7099fc6966bef0a6127dd45df",
+                    "reference": "8d38ed5d936ee2b7099fc6966bef0a6127dd45df",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2014-07-17 14:21:22",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "salt-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Manage salts for your WordPress installation",
+                "homepage": "https://github.com/sebastiaandegeus/wp-cli-salts-command",
+                "support": {
+                    "source": "https://github.com/sebastiaandegeus/wp-cli-salts-command/tree/master",
+                    "issues": "https://github.com/sebastiaandegeus/wp-cli-salts-command/issues"
+                }
+            }
+        },
         "sinebridge/wp-cli-about": {
             "v1.0.0": {
                 "name": "sinebridge/wp-cli-about",
@@ -7945,6 +8345,103 @@
                 "homepage": "https://github.com/trendwerk/faker",
                 "support": {
                     "source": "https://github.com/trendwerk/faker/tree/master",
+                    "issues": "https://github.com/trendwerk/faker/issues"
+                }
+            },
+            "dev-master": {
+                "name": "trendwerk/faker",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/trendwerk/faker.git",
+                    "reference": "3edaf53c8655543b0217cd87d508d762e9839cba"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/3edaf53c8655543b0217cd87d508d762e9839cba",
+                    "reference": "3edaf53c8655543b0217cd87d508d762e9839cba",
+                    "shasum": ""
+                },
+                "require": {
+                    "nelmio/alice": "^2.2"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-08-12 14:50:32",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "init.php"
+                    ],
+                    "psr-4": {
+                        "Trendwerk\\Faker\\": "src/"
+                    }
+                },
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Harold Angenent",
+                        "email": "harold@trendwerk.nl",
+                        "homepage": "https://github.com/haroldangenent"
+                    }
+                ],
+                "description": "Fake post data with WP-CLI.",
+                "homepage": "https://github.com/trendwerk/faker",
+                "support": {
+                    "source": "https://github.com/trendwerk/faker/tree/master",
+                    "issues": "https://github.com/trendwerk/faker/issues"
+                }
+            },
+            "dev-tests": {
+                "name": "trendwerk/faker",
+                "version": "dev-tests",
+                "version_normalized": "dev-tests",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/trendwerk/faker.git",
+                    "reference": "3e66331952e284648db5a1204bde3a03b4e69c64"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/3e66331952e284648db5a1204bde3a03b4e69c64",
+                    "reference": "3e66331952e284648db5a1204bde3a03b4e69c64",
+                    "shasum": ""
+                },
+                "require": {
+                    "nelmio/alice": "^2.2"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-08-26 13:18:58",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "init.php"
+                    ],
+                    "psr-4": {
+                        "Trendwerk\\Faker\\": "src/"
+                    }
+                },
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Harold Angenent",
+                        "email": "harold@trendwerk.nl",
+                        "homepage": "https://github.com/haroldangenent"
+                    }
+                ],
+                "description": "Fake post data with WP-CLI.",
+                "homepage": "https://github.com/trendwerk/faker",
+                "support": {
+                    "source": "https://github.com/trendwerk/faker/tree/tests",
                     "issues": "https://github.com/trendwerk/faker/issues"
                 }
             }
