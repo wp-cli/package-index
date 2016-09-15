@@ -7360,18 +7360,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/find-unused-themes.git",
-                    "reference": "58dc3a1b70b3d23d825e7ec8dac84b1fc1d7cfc6"
+                    "reference": "1c58609bad653952435b29b2e79e1179fcabfb2b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/58dc3a1b70b3d23d825e7ec8dac84b1fc1d7cfc6",
-                    "reference": "58dc3a1b70b3d23d825e7ec8dac84b1fc1d7cfc6",
+                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/1c58609bad653952435b29b2e79e1179fcabfb2b",
+                    "reference": "1c58609bad653952435b29b2e79e1179fcabfb2b",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-06-27 13:17:47",
+                "time": "2016-09-15 14:25:09",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7391,49 +7391,7 @@
                 "description": "Find unused themes on a multisite network.",
                 "homepage": "https://runcommand.io/wp/find-unused-themes/",
                 "support": {
-                    "source": "https://github.com/runcommand/find-unused-themes/tree/master",
-                    "issues": "https://github.com/runcommand/find-unused-themes/issues"
-                }
-            },
-            "dev-update-support-policy": {
-                "name": "runcommand/find-unused-themes",
-                "version": "dev-update-support-policy",
-                "version_normalized": "dev-update-support-policy",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/find-unused-themes.git",
-                    "reference": "9574ebaefc52cf92f1f972cc7365d1af4f9e6c8e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/9574ebaefc52cf92f1f972cc7365d1af4f9e6c8e",
-                    "reference": "9574ebaefc52cf92f1f972cc7365d1af4f9e6c8e",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-15 14:17:34",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Find unused themes on a multisite network.",
-                "homepage": "https://runcommand.io/wp/find-unused-themes/",
-                "support": {
-                    "source": "https://github.com/runcommand/find-unused-themes/tree/update-support-policy"
+                    "source": "https://github.com/runcommand/find-unused-themes/tree/master"
                 }
             }
         },
@@ -7528,15 +7486,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/precache.git",
-                    "reference": "0f407a241e565c00020b4aafe2dcf9e4318406f7"
+                    "reference": "59a17930db4b4d90b4f04690d38714a9f5f8cbd1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/0f407a241e565c00020b4aafe2dcf9e4318406f7",
-                    "reference": "0f407a241e565c00020b4aafe2dcf9e4318406f7",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/59a17930db4b4d90b4f04690d38714a9f5f8cbd1",
+                    "reference": "59a17930db4b4d90b4f04690d38714a9f5f8cbd1",
                     "shasum": ""
                 },
-                "time": "2016-06-27 13:16:22",
+                "time": "2016-09-15 14:21:06",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7556,47 +7514,7 @@
                 "description": "Proactively download and cache core, theme, and plugin files for later installation.",
                 "homepage": "https://runcommand.io/wp/precache/",
                 "support": {
-                    "source": "https://github.com/runcommand/precache/tree/master",
-                    "issues": "https://github.com/runcommand/precache/issues"
-                }
-            },
-            "dev-update-support-policy": {
-                "name": "runcommand/precache",
-                "version": "dev-update-support-policy",
-                "version_normalized": "dev-update-support-policy",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/precache.git",
-                    "reference": "9cd4d7efd7100846aa726df9ff479a507d2233d7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/9cd4d7efd7100846aa726df9ff479a507d2233d7",
-                    "reference": "9cd4d7efd7100846aa726df9ff479a507d2233d7",
-                    "shasum": ""
-                },
-                "time": "2016-09-15 14:09:25",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Proactively download and cache core, theme, and plugin files for later installation.",
-                "homepage": "https://runcommand.io/wp/precache/",
-                "support": {
-                    "source": "https://github.com/runcommand/precache/tree/update-support-policy",
-                    "issues": "https://github.com/runcommand/precache/issues"
+                    "source": "https://github.com/runcommand/precache/tree/master"
                 }
             }
         },
@@ -7686,18 +7604,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "e05b2bd407c924d12273dd2cf120c593aad783b8"
+                    "reference": "103042bc01c5bcade3940efa3758eeb2674cccf2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/e05b2bd407c924d12273dd2cf120c593aad783b8",
-                    "reference": "e05b2bd407c924d12273dd2cf120c593aad783b8",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/103042bc01c5bcade3940efa3758eeb2674cccf2",
+                    "reference": "103042bc01c5bcade3940efa3758eeb2674cccf2",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-06-27 13:10:11",
+                "time": "2016-09-15 14:30:31",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7717,8 +7635,7 @@
                 "description": "Find the query causing your performance issues.",
                 "homepage": "https://runcommand.io/wp/query-debug/",
                 "support": {
-                    "source": "https://github.com/runcommand/query-debug/tree/master",
-                    "issues": "https://github.com/runcommand/query-debug/issues"
+                    "source": "https://github.com/runcommand/query-debug/tree/master"
                 }
             }
         },
@@ -7730,18 +7647,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/reset-password.git",
-                    "reference": "bc1aa07ddaf4a67869e7824107bff70435bf9362"
+                    "reference": "7acbb848c495138486fe930a397c0b905a5ba3e1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/reset-password/zipball/bc1aa07ddaf4a67869e7824107bff70435bf9362",
-                    "reference": "bc1aa07ddaf4a67869e7824107bff70435bf9362",
+                    "url": "https://api.github.com/repos/runcommand/reset-password/zipball/7acbb848c495138486fe930a397c0b905a5ba3e1",
+                    "reference": "7acbb848c495138486fe930a397c0b905a5ba3e1",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-06-27 13:12:33",
+                "time": "2016-09-15 14:29:51",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7761,49 +7678,7 @@
                 "description": "Reset passwords for one or more WordPress users.",
                 "homepage": "https://runcommand.io/wp/reset-password/",
                 "support": {
-                    "source": "https://github.com/runcommand/reset-password/tree/master",
-                    "issues": "https://github.com/runcommand/reset-password/issues"
-                }
-            },
-            "dev-update-support-policy": {
-                "name": "runcommand/reset-password",
-                "version": "dev-update-support-policy",
-                "version_normalized": "dev-update-support-policy",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/reset-password.git",
-                    "reference": "bc0981fb39638bb236ab2cfb457911bf0c647322"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/reset-password/zipball/bc0981fb39638bb236ab2cfb457911bf0c647322",
-                    "reference": "bc0981fb39638bb236ab2cfb457911bf0c647322",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-15 14:20:02",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Reset passwords for one or more WordPress users.",
-                "homepage": "https://runcommand.io/wp/reset-password/",
-                "support": {
-                    "source": "https://github.com/runcommand/reset-password/tree/update-support-policy"
+                    "source": "https://github.com/runcommand/reset-password/tree/master"
                 }
             }
         },
