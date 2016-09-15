@@ -7223,6 +7223,44 @@
                     "source": "https://github.com/runcommand/db-ack/tree/master",
                     "issues": "https://github.com/runcommand/db-ack/issues"
                 }
+            },
+            "dev-update-support-policy": {
+                "name": "runcommand/db-ack",
+                "version": "dev-update-support-policy",
+                "version_normalized": "dev-update-support-policy",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/db-ack.git",
+                    "reference": "ff0ab5ecde4ce4b3ae50316cd8c8df49b04c4077"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/ff0ab5ecde4ce4b3ae50316cd8c8df49b04c4077",
+                    "reference": "ff0ab5ecde4ce4b3ae50316cd8c8df49b04c4077",
+                    "shasum": ""
+                },
+                "time": "2016-09-15 14:06:58",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Find a specific string in the database.",
+                "homepage": "https://runcommand.io/wp/db-ack/",
+                "support": {
+                    "source": "https://github.com/runcommand/db-ack/tree/update-support-policy"
+                }
             }
         },
         "runcommand/dist-archive": {
@@ -7447,18 +7485,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "ed2f0652d10ff2eaef61aaaa4679d753cada4073"
+                    "reference": "e40d0d19c49dedf97e5fec83e3241d341425aa23"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/ed2f0652d10ff2eaef61aaaa4679d753cada4073",
-                    "reference": "ed2f0652d10ff2eaef61aaaa4679d753cada4073",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/e40d0d19c49dedf97e5fec83e3241d341425aa23",
+                    "reference": "e40d0d19c49dedf97e5fec83e3241d341425aa23",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-23 13:11:11",
+                "time": "2016-09-15 14:10:44",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7478,8 +7516,7 @@
                 "description": "List callbacks registered to a given action or filter.",
                 "homepage": "https://runcommand.io/wp/hook/",
                 "support": {
-                    "source": "https://github.com/runcommand/hook/tree/master",
-                    "issues": "https://github.com/runcommand/hook/issues"
+                    "source": "https://github.com/runcommand/hook/tree/master"
                 }
             }
         },
@@ -7491,15 +7528,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/media-sideload.git",
-                    "reference": "c2b68002657c84b5480d84119e812dee28a3ecf9"
+                    "reference": "6b36eae83e3c7782833240e5756b0efd25d7f8b6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/media-sideload/zipball/c2b68002657c84b5480d84119e812dee28a3ecf9",
-                    "reference": "c2b68002657c84b5480d84119e812dee28a3ecf9",
+                    "url": "https://api.github.com/repos/runcommand/media-sideload/zipball/6b36eae83e3c7782833240e5756b0efd25d7f8b6",
+                    "reference": "6b36eae83e3c7782833240e5756b0efd25d7f8b6",
                     "shasum": ""
                 },
-                "time": "2016-08-02 22:31:39",
+                "time": "2016-09-15 14:10:56",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7519,8 +7556,7 @@
                 "description": "Sideload embedded images, and update post content references.",
                 "homepage": "https://runcommand.io/wp/media-sideload/",
                 "support": {
-                    "source": "https://github.com/runcommand/media-sideload/tree/master",
-                    "issues": "https://github.com/runcommand/media-sideload/issues"
+                    "source": "https://github.com/runcommand/media-sideload/tree/master"
                 }
             }
         },
@@ -7561,6 +7597,45 @@
                 "homepage": "https://runcommand.io/wp/precache/",
                 "support": {
                     "source": "https://github.com/runcommand/precache/tree/master",
+                    "issues": "https://github.com/runcommand/precache/issues"
+                }
+            },
+            "dev-update-support-policy": {
+                "name": "runcommand/precache",
+                "version": "dev-update-support-policy",
+                "version_normalized": "dev-update-support-policy",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/precache.git",
+                    "reference": "9cd4d7efd7100846aa726df9ff479a507d2233d7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/9cd4d7efd7100846aa726df9ff479a507d2233d7",
+                    "reference": "9cd4d7efd7100846aa726df9ff479a507d2233d7",
+                    "shasum": ""
+                },
+                "time": "2016-09-15 14:09:25",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Proactively download and cache core, theme, and plugin files for later installation.",
+                "homepage": "https://runcommand.io/wp/precache/",
+                "support": {
+                    "source": "https://github.com/runcommand/precache/tree/update-support-policy",
                     "issues": "https://github.com/runcommand/precache/issues"
                 }
             }
