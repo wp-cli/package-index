@@ -30,6 +30,7 @@ https://github.com/iandunn/wp-cli-rename-db-prefix
 https://github.com/iandunn/wp-cli-plugin-active-on-sites
 https://github.com/itspriddle/wp-cli-tgmpa-plugin
 https://github.com/JayWood/jw-wpcli-random-posts
+https://github.com/markri/wp-sec
 https://github.com/mattclegg/wp-cli_check-content
 https://github.com/mattes/wp-cli-git-command
 https://github.com/mattes/wp-cli-quick-command
@@ -73,4 +74,3 @@ https://github.com/wp-cli/scaffold-package
 https://github.com/wp-cli/server-command
 https://github.com/wp-cli/wp-super-cache-cli
 https://github.com/x-team/wp-cli-ssh
-https://github.com/markri/wp-sec
