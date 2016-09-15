@@ -813,6 +813,68 @@
                     "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
                     "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/master"
                 }
+            },
+            "dev-develop": {
+                "name": "aaemnnosttv/wp-cli-valet-command",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
+                    "reference": "f91dcd05cc3c6345e1a383e057b71fa0736d3173"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/f91dcd05cc3c6345e1a383e057b71fa0736d3173",
+                    "reference": "f91dcd05cc3c6345e1a383e057b71fa0736d3173",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/container": "~5.1",
+                    "php": "^5.5|^7.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "johnpbloch/wordpress": "^4.6",
+                    "wp-cli/wp-cli": "^0.24.1"
+                },
+                "time": "2016-09-15 15:56:03",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI_Valet\\": "src"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "scripts": {
+                    "run-behat": [
+                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Evan Mattson",
+                        "email": "me@aaemnnost.tv",
+                        "homepage": "https://aaemnnost.tv"
+                    }
+                ],
+                "description": "Harness the power of Laravel Valet for creating fully functional WordPress installs in seconds.",
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-valet-command",
+                "keywords": [
+                    "laravel",
+                    "valet",
+                    "wordpress",
+                    "zonda"
+                ],
+                "support": {
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/develop"
+                }
             }
         },
         "adrigen/wp-cli-piwik": {
