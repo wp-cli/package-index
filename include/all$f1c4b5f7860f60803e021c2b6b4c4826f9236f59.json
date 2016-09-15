@@ -7360,18 +7360,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "4b9cb88b38f2c58d2187e6d3ff90f0fe911657ae"
+                    "reference": "7df77f1529ac0fcb289dde0931eb1e49e2a8b31e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/4b9cb88b38f2c58d2187e6d3ff90f0fe911657ae",
-                    "reference": "4b9cb88b38f2c58d2187e6d3ff90f0fe911657ae",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/7df77f1529ac0fcb289dde0931eb1e49e2a8b31e",
+                    "reference": "7df77f1529ac0fcb289dde0931eb1e49e2a8b31e",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-15 13:17:45",
+                "time": "2016-09-15 13:41:39",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7391,8 +7391,7 @@
                 "description": "Run a series of checks against WordPress to diagnose issues.",
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/check-plugin-deactivated",
-                    "issues": "https://github.com/runcommand/doctor/issues"
+                    "source": "https://github.com/runcommand/doctor/tree/check-plugin-deactivated"
                 }
             }
         },
