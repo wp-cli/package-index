@@ -7309,6 +7309,47 @@
                     "source": "https://github.com/runcommand/dist-archive/tree/master",
                     "issues": "https://github.com/runcommand/dist-archive/issues"
                 }
+            },
+            "dev-update-readme-support": {
+                "name": "runcommand/dist-archive",
+                "version": "dev-update-readme-support",
+                "version_normalized": "dev-update-readme-support",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/dist-archive.git",
+                    "reference": "812e26454c3471cae28581b73d594738959d08b7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/812e26454c3471cae28581b73d594738959d08b7",
+                    "reference": "812e26454c3471cae28581b73d594738959d08b7",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-15 13:58:16",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
+                "homepage": "https://runcommand.io/wp/dist-archive/",
+                "support": {
+                    "source": "https://github.com/runcommand/dist-archive/tree/update-readme-support"
+                }
             }
         },
         "runcommand/doctor": {
@@ -7319,18 +7360,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "40e64dcd0a827313d6c1dd3dd4fe0c8593768da8"
+                    "reference": "6027e91e9211b94f1a878fa0eb173adf0e259a72"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/40e64dcd0a827313d6c1dd3dd4fe0c8593768da8",
-                    "reference": "40e64dcd0a827313d6c1dd3dd4fe0c8593768da8",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/6027e91e9211b94f1a878fa0eb173adf0e259a72",
+                    "reference": "6027e91e9211b94f1a878fa0eb173adf0e259a72",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-15 13:41:22",
+                "time": "2016-09-15 13:59:16",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7351,47 +7392,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
-                }
-            },
-            "dev-check-plugin-deactivated": {
-                "name": "runcommand/doctor",
-                "version": "dev-check-plugin-deactivated",
-                "version_normalized": "dev-check-plugin-deactivated",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "7df77f1529ac0fcb289dde0931eb1e49e2a8b31e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/7df77f1529ac0fcb289dde0931eb1e49e2a8b31e",
-                    "reference": "7df77f1529ac0fcb289dde0931eb1e49e2a8b31e",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-15 13:41:39",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/check-plugin-deactivated"
                 }
             }
         },
