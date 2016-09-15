@@ -821,12 +821,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "7144677a4b62ed90743fa77ce6f1759a7d27d8d3"
+                    "reference": "82b3fae372fbadabadc4d51408460e8e03305d4f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/7144677a4b62ed90743fa77ce6f1759a7d27d8d3",
-                    "reference": "7144677a4b62ed90743fa77ce6f1759a7d27d8d3",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/82b3fae372fbadabadc4d51408460e8e03305d4f",
+                    "reference": "82b3fae372fbadabadc4d51408460e8e03305d4f",
                     "shasum": ""
                 },
                 "require": {
@@ -838,7 +838,7 @@
                     "johnpbloch/wordpress": "^4.6",
                     "wp-cli/wp-cli": "^0.24.1"
                 },
-                "time": "2016-09-15 22:19:25",
+                "time": "2016-09-15 22:29:48",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
