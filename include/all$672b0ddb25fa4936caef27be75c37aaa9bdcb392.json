@@ -7192,15 +7192,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "c677bd0c09475a38890032e6d194090b079df33e"
+                    "reference": "19e180655a63f8824f7204c424c5823f57fafde9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/c677bd0c09475a38890032e6d194090b079df33e",
-                    "reference": "c677bd0c09475a38890032e6d194090b079df33e",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/19e180655a63f8824f7204c424c5823f57fafde9",
+                    "reference": "19e180655a63f8824f7204c424c5823f57fafde9",
                     "shasum": ""
                 },
-                "time": "2016-07-03 13:31:46",
+                "time": "2016-09-15 14:14:22",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7220,46 +7220,7 @@
                 "description": "Find a specific string in the database.",
                 "homepage": "https://runcommand.io/wp/db-ack/",
                 "support": {
-                    "source": "https://github.com/runcommand/db-ack/tree/master",
-                    "issues": "https://github.com/runcommand/db-ack/issues"
-                }
-            },
-            "dev-update-support-policy": {
-                "name": "runcommand/db-ack",
-                "version": "dev-update-support-policy",
-                "version_normalized": "dev-update-support-policy",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "ff0ab5ecde4ce4b3ae50316cd8c8df49b04c4077"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/ff0ab5ecde4ce4b3ae50316cd8c8df49b04c4077",
-                    "reference": "ff0ab5ecde4ce4b3ae50316cd8c8df49b04c4077",
-                    "shasum": ""
-                },
-                "time": "2016-09-15 14:06:58",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Find a specific string in the database.",
-                "homepage": "https://runcommand.io/wp/db-ack/",
-                "support": {
-                    "source": "https://github.com/runcommand/db-ack/tree/update-support-policy"
+                    "source": "https://github.com/runcommand/db-ack/tree/master"
                 }
             }
         },
@@ -7313,18 +7274,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/dist-archive.git",
-                    "reference": "a969a91315d6277ccf9c090c8bc92f817435ec2e"
+                    "reference": "6d59c8c23f46b636ea2cb896f3ba35f52c44476f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/a969a91315d6277ccf9c090c8bc92f817435ec2e",
-                    "reference": "a969a91315d6277ccf9c090c8bc92f817435ec2e",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/6d59c8c23f46b636ea2cb896f3ba35f52c44476f",
+                    "reference": "6d59c8c23f46b636ea2cb896f3ba35f52c44476f",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-07 23:40:07",
+                "time": "2016-09-15 14:14:34",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7344,49 +7305,7 @@
                 "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
                 "homepage": "https://runcommand.io/wp/dist-archive/",
                 "support": {
-                    "source": "https://github.com/runcommand/dist-archive/tree/master",
-                    "issues": "https://github.com/runcommand/dist-archive/issues"
-                }
-            },
-            "dev-update-readme-support": {
-                "name": "runcommand/dist-archive",
-                "version": "dev-update-readme-support",
-                "version_normalized": "dev-update-readme-support",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/dist-archive.git",
-                    "reference": "812e26454c3471cae28581b73d594738959d08b7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/812e26454c3471cae28581b73d594738959d08b7",
-                    "reference": "812e26454c3471cae28581b73d594738959d08b7",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-15 13:58:16",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
-                "homepage": "https://runcommand.io/wp/dist-archive/",
-                "support": {
-                    "source": "https://github.com/runcommand/dist-archive/tree/update-readme-support"
+                    "source": "https://github.com/runcommand/dist-archive/tree/master"
                 }
             }
         },
@@ -7474,6 +7393,47 @@
                 "support": {
                     "source": "https://github.com/runcommand/find-unused-themes/tree/master",
                     "issues": "https://github.com/runcommand/find-unused-themes/issues"
+                }
+            },
+            "dev-update-support-policy": {
+                "name": "runcommand/find-unused-themes",
+                "version": "dev-update-support-policy",
+                "version_normalized": "dev-update-support-policy",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/find-unused-themes.git",
+                    "reference": "9574ebaefc52cf92f1f972cc7365d1af4f9e6c8e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/9574ebaefc52cf92f1f972cc7365d1af4f9e6c8e",
+                    "reference": "9574ebaefc52cf92f1f972cc7365d1af4f9e6c8e",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-15 14:17:34",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Find unused themes on a multisite network.",
+                "homepage": "https://runcommand.io/wp/find-unused-themes/",
+                "support": {
+                    "source": "https://github.com/runcommand/find-unused-themes/tree/update-support-policy"
                 }
             }
         },
@@ -7803,6 +7763,47 @@
                 "support": {
                     "source": "https://github.com/runcommand/reset-password/tree/master",
                     "issues": "https://github.com/runcommand/reset-password/issues"
+                }
+            },
+            "dev-update-support-policy": {
+                "name": "runcommand/reset-password",
+                "version": "dev-update-support-policy",
+                "version_normalized": "dev-update-support-policy",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/reset-password.git",
+                    "reference": "bc0981fb39638bb236ab2cfb457911bf0c647322"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/reset-password/zipball/bc0981fb39638bb236ab2cfb457911bf0c647322",
+                    "reference": "bc0981fb39638bb236ab2cfb457911bf0c647322",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-15 14:20:02",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Reset passwords for one or more WordPress users.",
+                "homepage": "https://runcommand.io/wp/reset-password/",
+                "support": {
+                    "source": "https://github.com/runcommand/reset-password/tree/update-support-policy"
                 }
             }
         },
@@ -9254,6 +9255,48 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/render-mustache"
+                }
+            },
+            "dev-show-powered-by": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-show-powered-by",
+                "version_normalized": "dev-show-powered-by",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "7740f589c0e055b01a5a835d370f30c63cf921f6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/7740f589c0e055b01a5a835d370f30c63cf921f6",
+                    "reference": "7740f589c0e055b01a5a835d370f30c63cf921f6",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-15 14:17:56",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/show-powered-by"
                 }
             }
         },
