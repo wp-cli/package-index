@@ -821,12 +821,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "2d6adaa5edfbfbfa85fe231ac56e9125a605d5c4"
+                    "reference": "0129bec9d5b460bfcccd23b852384f23325e98a2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/2d6adaa5edfbfbfa85fe231ac56e9125a605d5c4",
-                    "reference": "2d6adaa5edfbfbfa85fe231ac56e9125a605d5c4",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/0129bec9d5b460bfcccd23b852384f23325e98a2",
+                    "reference": "0129bec9d5b460bfcccd23b852384f23325e98a2",
                     "shasum": ""
                 },
                 "require": {
@@ -839,13 +839,18 @@
                     "johnpbloch/wordpress": "^4.6",
                     "wp-cli/wp-cli": "^0.24.1"
                 },
-                "time": "2016-09-18 10:41:00",
+                "time": "2016-09-18 20:46:03",
                 "type": "library",
                 "extra": {
                     "commands": [
                         "valet new",
                         "valet destroy"
-                    ]
+                    ],
+                    "readme": {
+                        "installing": {
+                            "pre": "PREREQUISITES.md"
+                        }
+                    }
                 },
                 "autoload": {
                     "psr-4": {
@@ -870,7 +875,7 @@
                         "homepage": "https://aaemnnost.tv"
                     }
                 ],
-                "description": "Harness the power of Laravel Valet for creating fully functional WordPress installs in seconds.",
+                "description": "White-glove services for turn-key installs in seconds.",
                 "homepage": "https://github.com/aaemnnosttv/wp-cli-valet-command",
                 "keywords": [
                     "laravel",
