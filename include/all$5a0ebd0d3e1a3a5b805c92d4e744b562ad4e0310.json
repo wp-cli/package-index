@@ -767,12 +767,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "066ce3f7e08fc23145cf749639da1747f0e7d67a"
+                    "reference": "b6afab36bf2715dcc3fd54d6a543af3da68f6832"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/066ce3f7e08fc23145cf749639da1747f0e7d67a",
-                    "reference": "066ce3f7e08fc23145cf749639da1747f0e7d67a",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/b6afab36bf2715dcc3fd54d6a543af3da68f6832",
+                    "reference": "b6afab36bf2715dcc3fd54d6a543af3da68f6832",
                     "shasum": ""
                 },
                 "require": {
@@ -785,7 +785,7 @@
                     "johnpbloch/wordpress": "^4.6",
                     "wp-cli/wp-cli": "^0.24.1"
                 },
-                "time": "2016-09-20 11:49:26",
+                "time": "2016-09-20 14:55:22",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -793,6 +793,10 @@
                         "valet destroy"
                     ],
                     "readme": {
+                        "shields": [
+                            "[![Travis Build](https://img.shields.io/travis/aaemnnosttv/wp-cli-valet-command/master.svg)](https://travis-ci.org/aaemnnosttv/wp-cli-valet-command)",
+                            "[![Packagist](https://img.shields.io/packagist/v/aaemnnosttv/wp-cli-valet-command.svg)](https://packagist.org/packages/aaemnnosttv/wp-cli-valet-command)"
+                        ],
                         "installing": {
                             "pre": "PREREQUISITES.md"
                         }
