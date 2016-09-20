@@ -821,12 +821,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "ebd05bdb3b90960a840c916fda37e3701f7a3f1e"
+                    "reference": "7513eda0262713189b8db72fe71664d9f3e183fa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/ebd05bdb3b90960a840c916fda37e3701f7a3f1e",
-                    "reference": "ebd05bdb3b90960a840c916fda37e3701f7a3f1e",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/7513eda0262713189b8db72fe71664d9f3e183fa",
+                    "reference": "7513eda0262713189b8db72fe71664d9f3e183fa",
                     "shasum": ""
                 },
                 "require": {
@@ -839,7 +839,7 @@
                     "johnpbloch/wordpress": "^4.6",
                     "wp-cli/wp-cli": "^0.24.1"
                 },
-                "time": "2016-09-19 15:05:07",
+                "time": "2016-09-20 09:49:08",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -861,6 +861,9 @@
                     ]
                 },
                 "scripts": {
+                    "update-readme": [
+                        "wp scaffold package-readme . --force"
+                    ],
                     "run-behat": [
                         "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
                     ]
