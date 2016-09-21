@@ -5103,12 +5103,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/markri/wp-sec.git",
-                    "reference": "5564349cf0b2b6301b412842df9003b990e7057a"
+                    "reference": "d1876ce45f4a3e8a737b5a7a02d57221224f97dc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/5564349cf0b2b6301b412842df9003b990e7057a",
-                    "reference": "5564349cf0b2b6301b412842df9003b990e7057a",
+                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/d1876ce45f4a3e8a737b5a7a02d57221224f97dc",
+                    "reference": "d1876ce45f4a3e8a737b5a7a02d57221224f97dc",
                     "shasum": ""
                 },
                 "require": {
@@ -5117,7 +5117,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-16 15:10:30",
+                "time": "2016-09-21 15:30:11",
                 "type": "library",
                 "autoload": {
                     "files": [
