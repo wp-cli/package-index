@@ -9484,6 +9484,55 @@
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
                 }
             },
+            "dev-copy-processrun": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-copy-processrun",
+                "version_normalized": "dev-copy-processrun",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "6a25804ddbf9f61de925e4e56358981389bae3b3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/6a25804ddbf9f61de925e4e56358981389bae3b3",
+                    "reference": "6a25804ddbf9f61de925e4e56358981389bae3b3",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-23 12:17:24",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/copy-processrun"
+                }
+            },
             "dev-render-mustache": {
                 "name": "wp-cli/scaffold-package-command",
                 "version": "dev-render-mustache",
