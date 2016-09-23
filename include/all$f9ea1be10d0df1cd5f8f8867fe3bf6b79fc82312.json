@@ -7790,18 +7790,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "0c13940176af1722f74017ab1aed261458ba33e1"
+                    "reference": "e426866407f93100977dfd84251d1ca447e8d2cf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/0c13940176af1722f74017ab1aed261458ba33e1",
-                    "reference": "0c13940176af1722f74017ab1aed261458ba33e1",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/e426866407f93100977dfd84251d1ca447e8d2cf",
+                    "reference": "e426866407f93100977dfd84251d1ca447e8d2cf",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-23 13:25:50",
+                "time": "2016-09-23 14:08:31",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -7838,6 +7838,63 @@
                 "homepage": "https://runcommand.io/wp/hook/",
                 "support": {
                     "source": "https://github.com/runcommand/hook/tree/master"
+                }
+            },
+            "dev-test-invalid-hook": {
+                "name": "runcommand/hook",
+                "version": "dev-test-invalid-hook",
+                "version_normalized": "dev-test-invalid-hook",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/hook.git",
+                    "reference": "b7f753f5bba47fc6fefe0bbfbd6aa1a667c4b2af"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/b7f753f5bba47fc6fefe0bbfbd6aa1a667c4b2af",
+                    "reference": "b7f753f5bba47fc6fefe0bbfbd6aa1a667c4b2af",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-23 14:08:13",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "hook"
+                    ],
+                    "readme": {
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "List callbacks registered to a given action or filter.",
+                "homepage": "https://runcommand.io/wp/hook/",
+                "support": {
+                    "source": "https://github.com/runcommand/hook/tree/test-invalid-hook"
                 }
             }
         },
