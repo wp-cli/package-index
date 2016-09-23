@@ -7967,12 +7967,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "d00b18cee351aa0cbf56b64d7438cb7d778e67ae"
+                    "reference": "d0ff80adc57fbfe5c240f50ab7343a91a7bd0a23"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/d00b18cee351aa0cbf56b64d7438cb7d778e67ae",
-                    "reference": "d00b18cee351aa0cbf56b64d7438cb7d778e67ae",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/d0ff80adc57fbfe5c240f50ab7343a91a7bd0a23",
+                    "reference": "d0ff80adc57fbfe5c240f50ab7343a91a7bd0a23",
                     "shasum": ""
                 },
                 "require": {
@@ -7981,7 +7981,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-23 13:26:39",
+                "time": "2016-09-23 13:42:15",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7995,43 +7995,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master"
-                }
-            },
-            "dev-fix-profile-early-hooks": {
-                "name": "runcommand/profile",
-                "version": "dev-fix-profile-early-hooks",
-                "version_normalized": "dev-fix-profile-early-hooks",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "b991373784ed46dba7edb479f0f41461bef21d11"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/b991373784ed46dba7edb479f0f41461bef21d11",
-                    "reference": "b991373784ed46dba7edb479f0f41461bef21d11",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-23 13:33:30",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/fix-profile-early-hooks"
                 }
             }
         },
@@ -9494,18 +9457,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "3e89f6346e63808c0dd5dd63bcda44bd60b4eeaf"
+                    "reference": "2a17585e9c69b211a93284ecb6b9bb4e8875422e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/3e89f6346e63808c0dd5dd63bcda44bd60b4eeaf",
-                    "reference": "3e89f6346e63808c0dd5dd63bcda44bd60b4eeaf",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/2a17585e9c69b211a93284ecb6b9bb4e8875422e",
+                    "reference": "2a17585e9c69b211a93284ecb6b9bb4e8875422e",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-21 12:12:22",
+                "time": "2016-09-23 13:50:46",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -9625,48 +9588,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/render-mustache"
-                }
-            },
-            "dev-show-powered-by": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-show-powered-by",
-                "version_normalized": "dev-show-powered-by",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "7740f589c0e055b01a5a835d370f30c63cf921f6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/7740f589c0e055b01a5a835d370f30c63cf921f6",
-                    "reference": "7740f589c0e055b01a5a835d370f30c63cf921f6",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-15 14:17:56",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/show-powered-by"
                 }
             }
         },
