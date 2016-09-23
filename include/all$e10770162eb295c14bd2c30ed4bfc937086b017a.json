@@ -7790,18 +7790,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "a8a004f1ae51207ce7b706ac1cc10b4ca3bd77a6"
+                    "reference": "0c13940176af1722f74017ab1aed261458ba33e1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/a8a004f1ae51207ce7b706ac1cc10b4ca3bd77a6",
-                    "reference": "a8a004f1ae51207ce7b706ac1cc10b4ca3bd77a6",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/0c13940176af1722f74017ab1aed261458ba33e1",
+                    "reference": "0c13940176af1722f74017ab1aed261458ba33e1",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-23 13:08:24",
+                "time": "2016-09-23 13:25:50",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -7838,63 +7838,6 @@
                 "homepage": "https://runcommand.io/wp/hook/",
                 "support": {
                     "source": "https://github.com/runcommand/hook/tree/master"
-                }
-            },
-            "dev-do-not-reverse-priority": {
-                "name": "runcommand/hook",
-                "version": "dev-do-not-reverse-priority",
-                "version_normalized": "dev-do-not-reverse-priority",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/hook.git",
-                    "reference": "19958c27c625b5c3b86df26a1f22032dcaa714a6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/19958c27c625b5c3b86df26a1f22032dcaa714a6",
-                    "reference": "19958c27c625b5c3b86df26a1f22032dcaa714a6",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-23 13:09:29",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "hook"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "List callbacks registered to a given action or filter.",
-                "homepage": "https://runcommand.io/wp/hook/",
-                "support": {
-                    "source": "https://github.com/runcommand/hook/tree/do-not-reverse-priority"
                 }
             }
         },
@@ -8024,12 +7967,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "99f05943d03b7c6a67e8788d805751ea6f38e15d"
+                    "reference": "d00b18cee351aa0cbf56b64d7438cb7d778e67ae"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/99f05943d03b7c6a67e8788d805751ea6f38e15d",
-                    "reference": "99f05943d03b7c6a67e8788d805751ea6f38e15d",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/d00b18cee351aa0cbf56b64d7438cb7d778e67ae",
+                    "reference": "d00b18cee351aa0cbf56b64d7438cb7d778e67ae",
                     "shasum": ""
                 },
                 "require": {
@@ -8038,7 +7981,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-09 01:34:21",
+                "time": "2016-09-23 13:26:39",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -8051,8 +7994,7 @@
                 "description": "Quickly identify what's slow with WordPress.",
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
-                    "source": "https://github.com/runcommand/profile/tree/master",
-                    "issues": "https://github.com/runcommand/profile/issues"
+                    "source": "https://github.com/runcommand/profile/tree/master"
                 }
             }
         },
