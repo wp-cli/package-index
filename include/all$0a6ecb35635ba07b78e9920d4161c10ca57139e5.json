@@ -7790,18 +7790,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "e426866407f93100977dfd84251d1ca447e8d2cf"
+                    "reference": "c03d010b8abe999aefc38fac5543ef6f732d4dd0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/e426866407f93100977dfd84251d1ca447e8d2cf",
-                    "reference": "e426866407f93100977dfd84251d1ca447e8d2cf",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/c03d010b8abe999aefc38fac5543ef6f732d4dd0",
+                    "reference": "c03d010b8abe999aefc38fac5543ef6f732d4dd0",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-23 14:08:31",
+                "time": "2016-09-23 14:17:24",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -7838,63 +7838,6 @@
                 "homepage": "https://runcommand.io/wp/hook/",
                 "support": {
                     "source": "https://github.com/runcommand/hook/tree/master"
-                }
-            },
-            "dev-test-invalid-hook": {
-                "name": "runcommand/hook",
-                "version": "dev-test-invalid-hook",
-                "version_normalized": "dev-test-invalid-hook",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/hook.git",
-                    "reference": "b7f753f5bba47fc6fefe0bbfbd6aa1a667c4b2af"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/b7f753f5bba47fc6fefe0bbfbd6aa1a667c4b2af",
-                    "reference": "b7f753f5bba47fc6fefe0bbfbd6aa1a667c4b2af",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-23 14:08:13",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "hook"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "List callbacks registered to a given action or filter.",
-                "homepage": "https://runcommand.io/wp/hook/",
-                "support": {
-                    "source": "https://github.com/runcommand/hook/tree/test-invalid-hook"
                 }
             }
         },
@@ -9603,6 +9546,55 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/copy-processrun"
+                }
+            },
+            "dev-rename-extras-powered-by": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-rename-extras-powered-by",
+                "version_normalized": "dev-rename-extras-powered-by",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "7303e487c5ca1bfc10f9f2d8ca4bc6c94a095a5f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/7303e487c5ca1bfc10f9f2d8ca4bc6c94a095a5f",
+                    "reference": "7303e487c5ca1bfc10f9f2d8ca4bc6c94a095a5f",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-23 14:13:51",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/rename-extras-powered-by"
                 }
             },
             "dev-render-mustache": {
