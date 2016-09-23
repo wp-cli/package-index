@@ -7823,6 +7823,63 @@
                 "support": {
                     "source": "https://github.com/runcommand/hook/tree/master"
                 }
+            },
+            "dev-update-framework-scaffolding": {
+                "name": "runcommand/hook",
+                "version": "dev-update-framework-scaffolding",
+                "version_normalized": "dev-update-framework-scaffolding",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/hook.git",
+                    "reference": "7f994483b78e19a89488f12810fb84c53be2ae33"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/7f994483b78e19a89488f12810fb84c53be2ae33",
+                    "reference": "7f994483b78e19a89488f12810fb84c53be2ae33",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-23 12:28:02",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "hook"
+                    ],
+                    "readme": {
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "List callbacks registered to a given action or filter.",
+                "homepage": "https://runcommand.io/wp/hook/",
+                "support": {
+                    "source": "https://github.com/runcommand/hook/tree/update-framework-scaffolding"
+                }
             }
         },
         "runcommand/media-sideload": {
@@ -9491,18 +9548,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "6a25804ddbf9f61de925e4e56358981389bae3b3"
+                    "reference": "9dff66f08e5ae5f624b9beb7441f153dee0b271c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/6a25804ddbf9f61de925e4e56358981389bae3b3",
-                    "reference": "6a25804ddbf9f61de925e4e56358981389bae3b3",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/9dff66f08e5ae5f624b9beb7441f153dee0b271c",
+                    "reference": "9dff66f08e5ae5f624b9beb7441f153dee0b271c",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-23 12:17:24",
+                "time": "2016-09-23 12:27:19",
                 "type": "library",
                 "extra": {
                     "commands": [
