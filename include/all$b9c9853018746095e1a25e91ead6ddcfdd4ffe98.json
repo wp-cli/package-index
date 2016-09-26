@@ -7887,21 +7887,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/manifest.git",
-                    "reference": "5a433a5a214c64001aba8004c788c02098fb5abf"
+                    "reference": "b3f31291c14620efd451c3677106971b655735f0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/5a433a5a214c64001aba8004c788c02098fb5abf",
-                    "reference": "5a433a5a214c64001aba8004c788c02098fb5abf",
+                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/b3f31291c14620efd451c3677106971b655735f0",
+                    "reference": "b3f31291c14620efd451c3677106971b655735f0",
                     "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "^0.23.0"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-26 20:18:19",
+                "time": "2016-09-26 20:43:06",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7914,8 +7911,7 @@
                 "description": "See what's going on inside of WordPress.",
                 "homepage": "https://runcommand.io/wp/manifest/",
                 "support": {
-                    "source": "https://github.com/runcommand/manifest/tree/master",
-                    "issues": "https://github.com/runcommand/manifest/issues"
+                    "source": "https://github.com/runcommand/manifest/tree/master"
                 }
             }
         },
@@ -8011,6 +8007,56 @@
                 "homepage": "https://runcommand.io/wp/media-sizes/",
                 "support": {
                     "source": "https://github.com/runcommand/media-sizes/tree/master"
+                }
+            },
+            "dev-danielbachhuber-patch-1": {
+                "name": "runcommand/media-sizes",
+                "version": "dev-danielbachhuber-patch-1",
+                "version_normalized": "dev-danielbachhuber-patch-1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/media-sizes.git",
+                    "reference": "689920a977c6992ed84db681c25dacba583d7829"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/689920a977c6992ed84db681c25dacba583d7829",
+                    "reference": "689920a977c6992ed84db681c25dacba583d7829",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-26 20:43:59",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "media sizes"
+                    ],
+                    "readme": {
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "List media sizes registered with WordPress.",
+                "homepage": "https://runcommand.io/wp/media-sizes/",
+                "support": {
+                    "source": "https://github.com/runcommand/media-sizes/tree/danielbachhuber-patch-1"
                 }
             }
         },
