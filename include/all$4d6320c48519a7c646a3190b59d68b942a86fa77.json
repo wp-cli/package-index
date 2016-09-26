@@ -7887,18 +7887,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/manifest.git",
-                    "reference": "02c0fe6a23b344053fd70a7360ab90c689585a5e"
+                    "reference": "4cace349c8d77424d9ab92c0280e2b67e76b5dc0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/02c0fe6a23b344053fd70a7360ab90c689585a5e",
-                    "reference": "02c0fe6a23b344053fd70a7360ab90c689585a5e",
+                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/4cace349c8d77424d9ab92c0280e2b67e76b5dc0",
+                    "reference": "4cace349c8d77424d9ab92c0280e2b67e76b5dc0",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-26 21:05:28",
+                "time": "2016-09-26 21:33:41",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -7978,56 +7978,6 @@
                 "homepage": "https://runcommand.io/wp/manifest/",
                 "support": {
                     "source": "https://github.com/runcommand/manifest/tree/active-plugins"
-                }
-            },
-            "dev-uploads-database-size": {
-                "name": "runcommand/manifest",
-                "version": "dev-uploads-database-size",
-                "version_normalized": "dev-uploads-database-size",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/manifest.git",
-                    "reference": "615870f13aafa02293778c6b41949e8e939aa9ea"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/615870f13aafa02293778c6b41949e8e939aa9ea",
-                    "reference": "615870f13aafa02293778c6b41949e8e939aa9ea",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-26 21:29:45",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "manifest"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "See what's going on inside of WordPress.",
-                "homepage": "https://runcommand.io/wp/manifest/",
-                "support": {
-                    "source": "https://github.com/runcommand/manifest/tree/uploads-database-size"
                 }
             }
         },
