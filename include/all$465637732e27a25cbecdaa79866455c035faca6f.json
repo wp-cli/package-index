@@ -7775,6 +7775,47 @@
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
                 }
+            },
+            "dev-test-available-checks": {
+                "name": "runcommand/doctor",
+                "version": "dev-test-available-checks",
+                "version_normalized": "dev-test-available-checks",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/doctor.git",
+                    "reference": "404c4e6dbb0699126b8fd6c4384b9f0bf64d561e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/404c4e6dbb0699126b8fd6c4384b9f0bf64d561e",
+                    "reference": "404c4e6dbb0699126b8fd6c4384b9f0bf64d561e",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-26 23:38:16",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Run a series of checks against WordPress to diagnose issues.",
+                "homepage": "https://runcommand.io/wp/doctor/",
+                "support": {
+                    "source": "https://github.com/runcommand/doctor/tree/test-available-checks"
+                }
             }
         },
         "runcommand/find-unused-themes": {
