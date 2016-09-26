@@ -7929,6 +7929,56 @@
                 "support": {
                     "source": "https://github.com/runcommand/manifest/tree/master"
                 }
+            },
+            "dev-active-plugins": {
+                "name": "runcommand/manifest",
+                "version": "dev-active-plugins",
+                "version_normalized": "dev-active-plugins",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/manifest.git",
+                    "reference": "5f4f61b17f118cc2361a1f5268153361b6054eab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/5f4f61b17f118cc2361a1f5268153361b6054eab",
+                    "reference": "5f4f61b17f118cc2361a1f5268153361b6054eab",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-26 21:14:51",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "manifest"
+                    ],
+                    "readme": {
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "See what's going on inside of WordPress.",
+                "homepage": "https://runcommand.io/wp/manifest/",
+                "support": {
+                    "source": "https://github.com/runcommand/manifest/tree/active-plugins"
+                }
             }
         },
         "runcommand/media-sideload": {
