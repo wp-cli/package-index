@@ -7879,6 +7879,46 @@
                 }
             }
         },
+        "runcommand/manifest": {
+            "dev-master": {
+                "name": "runcommand/manifest",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/manifest.git",
+                    "reference": "5a433a5a214c64001aba8004c788c02098fb5abf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/5a433a5a214c64001aba8004c788c02098fb5abf",
+                    "reference": "5a433a5a214c64001aba8004c788c02098fb5abf",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "^0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-26 20:18:19",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "See what's going on inside of WordPress.",
+                "homepage": "https://runcommand.io/wp/manifest/",
+                "support": {
+                    "source": "https://github.com/runcommand/manifest/tree/master",
+                    "issues": "https://github.com/runcommand/manifest/issues"
+                }
+            }
+        },
         "runcommand/media-sideload": {
             "dev-master": {
                 "name": "runcommand/media-sideload",
