@@ -7919,6 +7919,61 @@
                 }
             }
         },
+        "runcommand/media-sizes": {
+            "dev-master": {
+                "name": "runcommand/media-sizes",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/media-sizes.git",
+                    "reference": "def46553701aaea953091775fa3b0fcd4b313a81"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/def46553701aaea953091775fa3b0fcd4b313a81",
+                    "reference": "def46553701aaea953091775fa3b0fcd4b313a81",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "^0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-26 12:11:32",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "media sizes"
+                    ],
+                    "readme": {
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "List media sizes registered with WordPress.",
+                "homepage": "https://runcommand.io/wp/media-sizes/",
+                "support": {
+                    "source": "https://github.com/runcommand/media-sizes/tree/master"
+                }
+            }
+        },
         "runcommand/precache": {
             "dev-master": {
                 "name": "runcommand/precache",
