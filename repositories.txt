@@ -53,6 +53,7 @@ https://github.com/runcommand/dist-archive
 https://github.com/runcommand/doctor
 https://github.com/runcommand/find-unused-themes
 https://github.com/runcommand/hook
+https://github.com/runcommand/manifest
 https://github.com/runcommand/media-sideload
 https://github.com/runcommand/media-sizes
 https://github.com/runcommand/profile
