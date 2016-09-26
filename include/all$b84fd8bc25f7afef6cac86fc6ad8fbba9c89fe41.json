@@ -7927,12 +7927,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/media-sizes.git",
-                    "reference": "def46553701aaea953091775fa3b0fcd4b313a81"
+                    "reference": "68398ea08ebddd515f3c70a4e818ebfcad42e2c9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/def46553701aaea953091775fa3b0fcd4b313a81",
-                    "reference": "def46553701aaea953091775fa3b0fcd4b313a81",
+                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/68398ea08ebddd515f3c70a4e818ebfcad42e2c9",
+                    "reference": "68398ea08ebddd515f3c70a4e818ebfcad42e2c9",
                     "shasum": ""
                 },
                 "require": {
@@ -7941,7 +7941,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-26 12:11:32",
+                "time": "2016-09-26 12:45:08",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -7971,59 +7971,6 @@
                 "homepage": "https://runcommand.io/wp/media-sizes/",
                 "support": {
                     "source": "https://github.com/runcommand/media-sizes/tree/master"
-                }
-            },
-            "dev-first-pass": {
-                "name": "runcommand/media-sizes",
-                "version": "dev-first-pass",
-                "version_normalized": "dev-first-pass",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/media-sizes.git",
-                    "reference": "920f7b21ff24f1b664de3743dff1b592292f432e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/920f7b21ff24f1b664de3743dff1b592292f432e",
-                    "reference": "920f7b21ff24f1b664de3743dff1b592292f432e",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "^0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-26 12:38:21",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "media sizes"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "List media sizes registered with WordPress.",
-                "homepage": "https://runcommand.io/wp/media-sizes/",
-                "support": {
-                    "source": "https://github.com/runcommand/media-sizes/tree/first-pass"
                 }
             }
         },
