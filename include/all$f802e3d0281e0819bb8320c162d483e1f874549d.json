@@ -7887,19 +7887,35 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/manifest.git",
-                    "reference": "b3f31291c14620efd451c3677106971b655735f0"
+                    "reference": "02c0fe6a23b344053fd70a7360ab90c689585a5e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/b3f31291c14620efd451c3677106971b655735f0",
-                    "reference": "b3f31291c14620efd451c3677106971b655735f0",
+                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/02c0fe6a23b344053fd70a7360ab90c689585a5e",
+                    "reference": "02c0fe6a23b344053fd70a7360ab90c689585a5e",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-26 20:43:06",
+                "time": "2016-09-26 21:05:28",
                 "type": "library",
+                "extra": {
+                    "commands": [
+                        "manifest"
+                    ],
+                    "readme": {
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
                 "autoload": {
                     "files": [
                         "command.php"
@@ -7963,21 +7979,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/media-sizes.git",
-                    "reference": "68398ea08ebddd515f3c70a4e818ebfcad42e2c9"
+                    "reference": "30a090c057c05e580dad402d94356a5638a28a4a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/68398ea08ebddd515f3c70a4e818ebfcad42e2c9",
-                    "reference": "68398ea08ebddd515f3c70a4e818ebfcad42e2c9",
+                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/30a090c057c05e580dad402d94356a5638a28a4a",
+                    "reference": "30a090c057c05e580dad402d94356a5638a28a4a",
                     "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "^0.23.0"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-26 12:45:08",
+                "time": "2016-09-26 21:05:16",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -8007,56 +8020,6 @@
                 "homepage": "https://runcommand.io/wp/media-sizes/",
                 "support": {
                     "source": "https://github.com/runcommand/media-sizes/tree/master"
-                }
-            },
-            "dev-danielbachhuber-patch-1": {
-                "name": "runcommand/media-sizes",
-                "version": "dev-danielbachhuber-patch-1",
-                "version_normalized": "dev-danielbachhuber-patch-1",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/media-sizes.git",
-                    "reference": "689920a977c6992ed84db681c25dacba583d7829"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/689920a977c6992ed84db681c25dacba583d7829",
-                    "reference": "689920a977c6992ed84db681c25dacba583d7829",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-26 20:43:59",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "media sizes"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "List media sizes registered with WordPress.",
-                "homepage": "https://runcommand.io/wp/media-sizes/",
-                "support": {
-                    "source": "https://github.com/runcommand/media-sizes/tree/danielbachhuber-patch-1"
                 }
             }
         },
