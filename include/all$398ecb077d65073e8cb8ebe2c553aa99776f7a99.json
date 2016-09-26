@@ -7742,18 +7742,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "6027e91e9211b94f1a878fa0eb173adf0e259a72"
+                    "reference": "bc670f3e69a2d122e798a1f000b4ade1ab51edc0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/6027e91e9211b94f1a878fa0eb173adf0e259a72",
-                    "reference": "6027e91e9211b94f1a878fa0eb173adf0e259a72",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/bc670f3e69a2d122e798a1f000b4ade1ab51edc0",
+                    "reference": "bc670f3e69a2d122e798a1f000b4ade1ab51edc0",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-15 13:59:16",
+                "time": "2016-09-26 23:43:06",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7774,47 +7774,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
-                }
-            },
-            "dev-test-available-checks": {
-                "name": "runcommand/doctor",
-                "version": "dev-test-available-checks",
-                "version_normalized": "dev-test-available-checks",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "404c4e6dbb0699126b8fd6c4384b9f0bf64d561e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/404c4e6dbb0699126b8fd6c4384b9f0bf64d561e",
-                    "reference": "404c4e6dbb0699126b8fd6c4384b9f0bf64d561e",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-26 23:38:16",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/test-available-checks"
                 }
             }
         },
