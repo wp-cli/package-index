@@ -7775,6 +7775,47 @@
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
                 }
+            },
+            "dev-7-falsy-constant": {
+                "name": "runcommand/doctor",
+                "version": "dev-7-falsy-constant",
+                "version_normalized": "dev-7-falsy-constant",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/doctor.git",
+                    "reference": "0c10de15149dc4170434c2ce80bca3c9982450d5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/0c10de15149dc4170434c2ce80bca3c9982450d5",
+                    "reference": "0c10de15149dc4170434c2ce80bca3c9982450d5",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-27 16:49:44",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Run a series of checks against WordPress to diagnose issues.",
+                "homepage": "https://runcommand.io/wp/doctor/",
+                "support": {
+                    "source": "https://github.com/runcommand/doctor/tree/7-falsy-constant"
+                }
             }
         },
         "runcommand/find-unused-themes": {
