@@ -7742,18 +7742,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "bc670f3e69a2d122e798a1f000b4ade1ab51edc0"
+                    "reference": "81ca698e265d8d0f58d77192c74d3ccb6acb02b9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/bc670f3e69a2d122e798a1f000b4ade1ab51edc0",
-                    "reference": "bc670f3e69a2d122e798a1f000b4ade1ab51edc0",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/81ca698e265d8d0f58d77192c74d3ccb6acb02b9",
+                    "reference": "81ca698e265d8d0f58d77192c74d3ccb6acb02b9",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-26 23:43:06",
+                "time": "2016-09-27 00:05:59",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7774,47 +7774,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
-                }
-            },
-            "dev-5-config": {
-                "name": "runcommand/doctor",
-                "version": "dev-5-config",
-                "version_normalized": "dev-5-config",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "8427b34b5aea5d322ddd04d59834f2c6e02fbb92"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/8427b34b5aea5d322ddd04d59834f2c6e02fbb92",
-                    "reference": "8427b34b5aea5d322ddd04d59834f2c6e02fbb92",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-26 23:59:40",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/5-config"
                 }
             }
         },
