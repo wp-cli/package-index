@@ -7742,18 +7742,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "2a84b1c929fb2d9cd9422edb0607dd998440ae4d"
+                    "reference": "b5e42629008a0457c13958f9c77e2a5fcc762118"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/2a84b1c929fb2d9cd9422edb0607dd998440ae4d",
-                    "reference": "2a84b1c929fb2d9cd9422edb0607dd998440ae4d",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/b5e42629008a0457c13958f9c77e2a5fcc762118",
+                    "reference": "b5e42629008a0457c13958f9c77e2a5fcc762118",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-27 13:45:15",
+                "time": "2016-09-27 16:33:38",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7774,47 +7774,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
-                }
-            },
-            "dev-7-constant-definition": {
-                "name": "runcommand/doctor",
-                "version": "dev-7-constant-definition",
-                "version_normalized": "dev-7-constant-definition",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "e45724bbab726c8ae5e5cf7e62292ed2b2fed143"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/e45724bbab726c8ae5e5cf7e62292ed2b2fed143",
-                    "reference": "e45724bbab726c8ae5e5cf7e62292ed2b2fed143",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-27 15:50:22",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/7-constant-definition"
                 }
             }
         },
@@ -8237,12 +8196,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "db517e0320d86be12265df23368654188037a240"
+                    "reference": "b5ea0a7057b7e495e214fc265a7861fb406523d1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/db517e0320d86be12265df23368654188037a240",
-                    "reference": "db517e0320d86be12265df23368654188037a240",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/b5ea0a7057b7e495e214fc265a7861fb406523d1",
+                    "reference": "b5ea0a7057b7e495e214fc265a7861fb406523d1",
                     "shasum": ""
                 },
                 "require": {
@@ -8251,7 +8210,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-27 15:50:54",
+                "time": "2016-09-27 16:33:25",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -8265,43 +8224,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master"
-                }
-            },
-            "dev-bump-0-3-0": {
-                "name": "runcommand/profile",
-                "version": "dev-bump-0-3-0",
-                "version_normalized": "dev-bump-0-3-0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "1427f3436dcb29fb519c738dac05c34d5373791a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/1427f3436dcb29fb519c738dac05c34d5373791a",
-                    "reference": "1427f3436dcb29fb519c738dac05c34d5373791a",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-27 15:51:31",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/bump-0-3-0"
                 }
             }
         },
