@@ -8225,6 +8225,43 @@
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/v0.2.0"
                 }
+            },
+            "dev-test-trunk": {
+                "name": "runcommand/profile",
+                "version": "dev-test-trunk",
+                "version_normalized": "dev-test-trunk",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/profile.git",
+                    "reference": "7f2e0b83ecc0b2e259ba43541913d9b0def69c84"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/7f2e0b83ecc0b2e259ba43541913d9b0def69c84",
+                    "reference": "7f2e0b83ecc0b2e259ba43541913d9b0def69c84",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "~0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-27 12:59:11",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Quickly identify what's slow with WordPress.",
+                "homepage": "https://runcommand.io/wp/profile/",
+                "support": {
+                    "source": "https://github.com/runcommand/profile/tree/test-trunk"
+                }
             }
         },
         "runcommand/query-debug": {
@@ -9025,12 +9062,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/trendwerk/faker.git",
-                    "reference": "e2a1fde285946c683565e1dcf923a083bf8bcad9"
+                    "reference": "0acdbfe2de049dc0bc1d4f66986763f5f670653c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/e2a1fde285946c683565e1dcf923a083bf8bcad9",
-                    "reference": "e2a1fde285946c683565e1dcf923a083bf8bcad9",
+                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/0acdbfe2de049dc0bc1d4f66986763f5f670653c",
+                    "reference": "0acdbfe2de049dc0bc1d4f66986763f5f670653c",
                     "shasum": ""
                 },
                 "require": {
@@ -9040,7 +9077,7 @@
                     "behat/behat": "~2.5",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2016-09-27 12:50:12",
+                "time": "2016-09-27 12:59:24",
                 "type": "library",
                 "autoload": {
                     "files": [
