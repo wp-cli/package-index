@@ -7775,6 +7775,47 @@
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
                 }
+            },
+            "dev-5-options": {
+                "name": "runcommand/doctor",
+                "version": "dev-5-options",
+                "version_normalized": "dev-5-options",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/doctor.git",
+                    "reference": "cc6138dd6e372b3f3ba877cdf20d17035ceffc16"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/cc6138dd6e372b3f3ba877cdf20d17035ceffc16",
+                    "reference": "cc6138dd6e372b3f3ba877cdf20d17035ceffc16",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-27 13:32:32",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Run a series of checks against WordPress to diagnose issues.",
+                "homepage": "https://runcommand.io/wp/doctor/",
+                "support": {
+                    "source": "https://github.com/runcommand/doctor/tree/5-options"
+                }
             }
         },
         "runcommand/find-unused-themes": {
@@ -9805,6 +9846,55 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/render-mustache"
+                }
+            },
+            "dev-test-trunk-latest": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-test-trunk-latest",
+                "version_normalized": "dev-test-trunk-latest",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "ccbacb7225d207b088e4035000409834c8421086"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/ccbacb7225d207b088e4035000409834c8421086",
+                    "reference": "ccbacb7225d207b088e4035000409834c8421086",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-27 13:33:55",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/test-trunk-latest"
                 }
             }
         },
