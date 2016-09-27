@@ -7742,18 +7742,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "aac3adb91b8bba7d2a817bd85d51a0ded4a03e6b"
+                    "reference": "3d7cebfadee3f26754a101d4a2ff3663a06558b6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/aac3adb91b8bba7d2a817bd85d51a0ded4a03e6b",
-                    "reference": "aac3adb91b8bba7d2a817bd85d51a0ded4a03e6b",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/3d7cebfadee3f26754a101d4a2ff3663a06558b6",
+                    "reference": "3d7cebfadee3f26754a101d4a2ff3663a06558b6",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-27 17:13:05",
+                "time": "2016-09-27 17:42:45",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7774,47 +7774,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
-                }
-            },
-            "dev-error-invalid-check-class": {
-                "name": "runcommand/doctor",
-                "version": "dev-error-invalid-check-class",
-                "version_normalized": "dev-error-invalid-check-class",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "2a2b7a4198e384dc9408005d74088e266dc09508"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/2a2b7a4198e384dc9408005d74088e266dc09508",
-                    "reference": "2a2b7a4198e384dc9408005d74088e266dc09508",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-27 17:33:06",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/error-invalid-check-class"
                 }
             }
         },
