@@ -7742,18 +7742,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "3d7cebfadee3f26754a101d4a2ff3663a06558b6"
+                    "reference": "9d0f56a079b0feb592fd61bbfdcde13937a9429e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/3d7cebfadee3f26754a101d4a2ff3663a06558b6",
-                    "reference": "3d7cebfadee3f26754a101d4a2ff3663a06558b6",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/9d0f56a079b0feb592fd61bbfdcde13937a9429e",
+                    "reference": "9d0f56a079b0feb592fd61bbfdcde13937a9429e",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-27 17:42:45",
+                "time": "2016-09-27 20:32:12",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7774,47 +7774,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
-                }
-            },
-            "dev-7-check-cron": {
-                "name": "runcommand/doctor",
-                "version": "dev-7-check-cron",
-                "version_normalized": "dev-7-check-cron",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "5634b204be7ef3f1b842dfae28dbf2c2b918f483"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/5634b204be7ef3f1b842dfae28dbf2c2b918f483",
-                    "reference": "5634b204be7ef3f1b842dfae28dbf2c2b918f483",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-27 18:13:29",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/7-check-cron"
                 }
             }
         },
