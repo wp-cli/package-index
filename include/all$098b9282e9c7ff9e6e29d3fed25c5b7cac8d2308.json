@@ -7617,12 +7617,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/assign-featured-images.git",
-                    "reference": "927299256e825eff37505c44c78bb963e332124a"
+                    "reference": "979346c0b13b103ed2ea2182a8b261fccf7dc91d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/assign-featured-images/zipball/927299256e825eff37505c44c78bb963e332124a",
-                    "reference": "927299256e825eff37505c44c78bb963e332124a",
+                    "url": "https://api.github.com/repos/runcommand/assign-featured-images/zipball/979346c0b13b103ed2ea2182a8b261fccf7dc91d",
+                    "reference": "979346c0b13b103ed2ea2182a8b261fccf7dc91d",
                     "shasum": ""
                 },
                 "require": {
@@ -7631,7 +7631,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-28 17:09:30",
+                "time": "2016-09-28 17:25:47",
                 "type": "library",
                 "extra": {
                     "commands": [
