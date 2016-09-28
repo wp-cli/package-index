@@ -9699,18 +9699,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "6da81184750b407afbbbf06c93dd02e295e58a2f"
+                    "reference": "caa3082533675fef8b2939aa077e082d70770703"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/6da81184750b407afbbbf06c93dd02e295e58a2f",
-                    "reference": "6da81184750b407afbbbf06c93dd02e295e58a2f",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/caa3082533675fef8b2939aa077e082d70770703",
+                    "reference": "caa3082533675fef8b2939aa077e082d70770703",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-27 22:31:19",
+                "time": "2016-09-28 13:45:47",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -9739,55 +9739,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
-                }
-            },
-            "dev-error-invalid-command": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-error-invalid-command",
-                "version_normalized": "dev-error-invalid-command",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "4fbca14f2990a40bd3b2a831da4e7ed1a8a3c382"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/4fbca14f2990a40bd3b2a831da4e7ed1a8a3c382",
-                    "reference": "4fbca14f2990a40bd3b2a831da4e7ed1a8a3c382",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-28 13:32:01",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/error-invalid-command"
                 }
             },
             "dev-render-mustache": {
