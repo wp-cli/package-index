@@ -7742,18 +7742,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "6d2307d878e1b4f0a68299fcf38bffeaff10a343"
+                    "reference": "c4fd9a4ecb4a0e7bce835db8474e4958b87effd0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/6d2307d878e1b4f0a68299fcf38bffeaff10a343",
-                    "reference": "6d2307d878e1b4f0a68299fcf38bffeaff10a343",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/c4fd9a4ecb4a0e7bce835db8474e4958b87effd0",
+                    "reference": "c4fd9a4ecb4a0e7bce835db8474e4958b87effd0",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-28 13:10:25",
+                "time": "2016-09-28 13:38:32",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7776,47 +7776,6 @@
                     "source": "https://github.com/runcommand/doctor/tree/master"
                 }
             },
-            "dev-plugin-active-count-explicit": {
-                "name": "runcommand/doctor",
-                "version": "dev-plugin-active-count-explicit",
-                "version_normalized": "dev-plugin-active-count-explicit",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "f5d37271bd7faa2d256baa0dd99f1984ac533901"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/f5d37271bd7faa2d256baa0dd99f1984ac533901",
-                    "reference": "f5d37271bd7faa2d256baa0dd99f1984ac533901",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-28 13:14:26",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/plugin-active-count-explicit"
-                }
-            },
             "dev-regenerate-readme": {
                 "name": "runcommand/doctor",
                 "version": "dev-regenerate-readme",
@@ -7824,18 +7783,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "adcee95907f4585070db4b553fa6d92518cf610a"
+                    "reference": "86b5c8c6db4b52395636812686dda76ffae58196"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/adcee95907f4585070db4b553fa6d92518cf610a",
-                    "reference": "adcee95907f4585070db4b553fa6d92518cf610a",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/86b5c8c6db4b52395636812686dda76ffae58196",
+                    "reference": "86b5c8c6db4b52395636812686dda76ffae58196",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-28 13:21:12",
+                "time": "2016-09-28 13:38:50",
                 "type": "library",
                 "extra": {
                     "readme": {
@@ -9780,6 +9739,55 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
+                }
+            },
+            "dev-error-invalid-command": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-error-invalid-command",
+                "version_normalized": "dev-error-invalid-command",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "4fbca14f2990a40bd3b2a831da4e7ed1a8a3c382"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/4fbca14f2990a40bd3b2a831da4e7ed1a8a3c382",
+                    "reference": "4fbca14f2990a40bd3b2a831da4e7ed1a8a3c382",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-28 13:32:01",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/error-invalid-command"
                 }
             },
             "dev-render-mustache": {
