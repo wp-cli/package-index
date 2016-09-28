@@ -7775,6 +7775,47 @@
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
                 }
+            },
+            "dev-plugin-active-count-explicit": {
+                "name": "runcommand/doctor",
+                "version": "dev-plugin-active-count-explicit",
+                "version_normalized": "dev-plugin-active-count-explicit",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/doctor.git",
+                    "reference": "f5d37271bd7faa2d256baa0dd99f1984ac533901"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/f5d37271bd7faa2d256baa0dd99f1984ac533901",
+                    "reference": "f5d37271bd7faa2d256baa0dd99f1984ac533901",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-28 13:14:26",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Run a series of checks against WordPress to diagnose issues.",
+                "homepage": "https://runcommand.io/wp/doctor/",
+                "support": {
+                    "source": "https://github.com/runcommand/doctor/tree/plugin-active-count-explicit"
+                }
             }
         },
         "runcommand/find-unused-themes": {
