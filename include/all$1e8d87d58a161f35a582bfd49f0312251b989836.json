@@ -7617,12 +7617,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/assign-featured-images.git",
-                    "reference": "979346c0b13b103ed2ea2182a8b261fccf7dc91d"
+                    "reference": "71e75952c0ffc4312c607d82e0da31c3311f3732"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/assign-featured-images/zipball/979346c0b13b103ed2ea2182a8b261fccf7dc91d",
-                    "reference": "979346c0b13b103ed2ea2182a8b261fccf7dc91d",
+                    "url": "https://api.github.com/repos/runcommand/assign-featured-images/zipball/71e75952c0ffc4312c607d82e0da31c3311f3732",
+                    "reference": "71e75952c0ffc4312c607d82e0da31c3311f3732",
                     "shasum": ""
                 },
                 "require": {
@@ -7631,7 +7631,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-28 17:25:47",
+                "time": "2016-09-28 17:54:06",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -9761,6 +9761,55 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
+                }
+            },
+            "dev-dont-validate-strict": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-dont-validate-strict",
+                "version_normalized": "dev-dont-validate-strict",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "929f2a6f9eda75108a4f983b5f2e84eedea3d40e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/929f2a6f9eda75108a4f983b5f2e84eedea3d40e",
+                    "reference": "929f2a6f9eda75108a4f983b5f2e84eedea3d40e",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-28 17:55:43",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/dont-validate-strict"
                 }
             },
             "dev-render-mustache": {
