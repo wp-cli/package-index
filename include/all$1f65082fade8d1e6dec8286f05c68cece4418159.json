@@ -7742,59 +7742,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "c4fd9a4ecb4a0e7bce835db8474e4958b87effd0"
+                    "reference": "ecfd710e404e888b5d53bedba363a8d45a22f8e0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/c4fd9a4ecb4a0e7bce835db8474e4958b87effd0",
-                    "reference": "c4fd9a4ecb4a0e7bce835db8474e4958b87effd0",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/ecfd710e404e888b5d53bedba363a8d45a22f8e0",
+                    "reference": "ecfd710e404e888b5d53bedba363a8d45a22f8e0",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-28 13:38:32",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/master"
-                }
-            },
-            "dev-regenerate-readme": {
-                "name": "runcommand/doctor",
-                "version": "dev-regenerate-readme",
-                "version_normalized": "dev-regenerate-readme",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "86b5c8c6db4b52395636812686dda76ffae58196"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/86b5c8c6db4b52395636812686dda76ffae58196",
-                    "reference": "86b5c8c6db4b52395636812686dda76ffae58196",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-28 13:38:50",
+                "time": "2016-09-28 15:37:15",
                 "type": "library",
                 "extra": {
                     "readme": {
@@ -7834,7 +7793,7 @@
                 "description": "Run a series of checks against WordPress to diagnose issues.",
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/regenerate-readme"
+                    "source": "https://github.com/runcommand/doctor/tree/master"
                 }
             }
         },
