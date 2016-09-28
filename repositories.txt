@@ -48,6 +48,7 @@ https://github.com/pixline/wp-cli-theme-test-command
 https://github.com/pods-framework/pods-wp-cli
 https://github.com/pressbooks/pb-cli
 https://github.com/Redkiwi-NL/local-config
+https://github.com/runcommand/assign-featured-images
 https://github.com/runcommand/db-ack
 https://github.com/runcommand/dist-archive
 https://github.com/runcommand/doctor
