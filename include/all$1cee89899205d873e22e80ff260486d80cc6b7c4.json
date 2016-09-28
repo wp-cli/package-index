@@ -7742,18 +7742,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "9d0f56a079b0feb592fd61bbfdcde13937a9429e"
+                    "reference": "62e18ffd99f2ff455b1b111416c0075bdab00937"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/9d0f56a079b0feb592fd61bbfdcde13937a9429e",
-                    "reference": "9d0f56a079b0feb592fd61bbfdcde13937a9429e",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/62e18ffd99f2ff455b1b111416c0075bdab00937",
+                    "reference": "62e18ffd99f2ff455b1b111416c0075bdab00937",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-27 20:32:12",
+                "time": "2016-09-28 12:57:40",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7776,25 +7776,25 @@
                     "source": "https://github.com/runcommand/doctor/tree/master"
                 }
             },
-            "dev-7-check-active-plugin-count": {
+            "dev-spotlight-mode": {
                 "name": "runcommand/doctor",
-                "version": "dev-7-check-active-plugin-count",
-                "version_normalized": "dev-7-check-active-plugin-count",
+                "version": "dev-spotlight-mode",
+                "version_normalized": "dev-spotlight-mode",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "94f100012b6f27a940f639a8af36df3674628d45"
+                    "reference": "801155485a87d2164bdb054b4772fe6fda0a1d20"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/94f100012b6f27a940f639a8af36df3674628d45",
-                    "reference": "94f100012b6f27a940f639a8af36df3674628d45",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/801155485a87d2164bdb054b4772fe6fda0a1d20",
+                    "reference": "801155485a87d2164bdb054b4772fe6fda0a1d20",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-28 12:39:47",
+                "time": "2016-09-28 12:56:42",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7814,7 +7814,7 @@
                 "description": "Run a series of checks against WordPress to diagnose issues.",
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/7-check-active-plugin-count"
+                    "source": "https://github.com/runcommand/doctor/tree/spotlight-mode"
                 }
             }
         },
