@@ -1740,6 +1740,44 @@
                 }
             }
         },
+        "brightoak/envoyer": {
+            "dev-master": {
+                "name": "brightoak/envoyer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/brightoak/wp-cli-envoyer.git",
+                    "reference": "57dcef827b029adf7e63c9b9a46a8f1bc1232b0e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/brightoak/wp-cli-envoyer/zipball/57dcef827b029adf7e63c9b9a46a8f1bc1232b0e",
+                    "reference": "57dcef827b029adf7e63c9b9a46a8f1bc1232b0e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": "^0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-29 15:43:07",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "description": "A command to invoke a deployment via envoyer using the DEPLOY_URL environment variable",
+                "homepage": "https://github.com/brightoak/envoyer",
+                "support": {
+                    "source": "https://github.com/brightoak/wp-cli-envoyer/tree/master",
+                    "issues": "https://github.com/brightoak/wp-cli-envoyer/issues"
+                }
+            }
+        },
         "c10b10/wp-cli-deploy": {
             "v1.0.0": {
                 "name": "c10b10/wp-cli-deploy",
