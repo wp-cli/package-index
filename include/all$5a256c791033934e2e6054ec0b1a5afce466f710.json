@@ -4744,6 +4744,50 @@
                     "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
                 }
             },
+            "0.1.1": {
+                "name": "getshifter/wp-cli-shifter",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "63fdf633e21abf25100bba7ee0bcb62a5dca70e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/63fdf633e21abf25100bba7ee0bcb62a5dca70e6",
+                    "reference": "63fdf633e21abf25100bba7ee0bcb62a5dca70e6",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-30 05:38:47",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/master",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
             "dev-master": {
                 "name": "getshifter/wp-cli-shifter",
                 "version": "dev-master",
@@ -4795,12 +4839,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/getshifter/wp-cli-shifter.git",
-                    "reference": "d837549f9aeb888794a116d50132100e36b2a01e"
+                    "reference": "63fdf633e21abf25100bba7ee0bcb62a5dca70e6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/d837549f9aeb888794a116d50132100e36b2a01e",
-                    "reference": "d837549f9aeb888794a116d50132100e36b2a01e",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/63fdf633e21abf25100bba7ee0bcb62a5dca70e6",
+                    "reference": "63fdf633e21abf25100bba7ee0bcb62a5dca70e6",
                     "shasum": ""
                 },
                 "require": {
@@ -4809,7 +4853,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-14 17:24:47",
+                "time": "2016-09-30 05:38:47",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -4822,13 +4866,13 @@
                 "authors": [
                     {
                         "name": "Shifter Team",
-                        "homepage": "https://github.com/getshifter"
+                        "homepage": "https://getshifter.io/"
                     }
                 ],
                 "description": "WP-CLI commands for the Shifter",
                 "homepage": "https://github.com/getshifter/wp-cli-shifter",
                 "support": {
-                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/0.1.0",
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/master",
                     "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
                 }
             }
