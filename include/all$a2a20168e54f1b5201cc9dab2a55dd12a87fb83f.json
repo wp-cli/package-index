@@ -7924,18 +7924,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "73968f71aee2e00f75d03925cca39563b7c0dc8c"
+                    "reference": "d774036350e65fbdb4ed6ddc34eb2469d9148e12"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/73968f71aee2e00f75d03925cca39563b7c0dc8c",
-                    "reference": "73968f71aee2e00f75d03925cca39563b7c0dc8c",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/d774036350e65fbdb4ed6ddc34eb2469d9148e12",
+                    "reference": "d774036350e65fbdb4ed6ddc34eb2469d9148e12",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-04 19:59:44",
+                "time": "2016-10-04 20:17:40",
                 "type": "library",
                 "extra": {
                     "readme": {
@@ -7976,67 +7976,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
-                }
-            },
-            "dev-inherit-config": {
-                "name": "runcommand/doctor",
-                "version": "dev-inherit-config",
-                "version_normalized": "dev-inherit-config",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "1a3b11915068216fb56f98671733e3ed008a5d1d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/1a3b11915068216fb56f98671733e3ed008a5d1d",
-                    "reference": "1a3b11915068216fb56f98671733e3ed008a5d1d",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-04 20:10:19",
-                "type": "library",
-                "extra": {
-                    "readme": {
-                        "shields": [
-                            "[![CircleCI](https://circleci.com/gh/runcommand/doctor.svg?style=svg&circle-token=383527fb616ce6acb8e7da293c0dfac1cc2a9a10)](https://circleci.com/gh/runcommand/doctor)"
-                        ],
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        },
-                        "show_powered_by": false
-                    },
-                    "commands": [
-                        "doctor check",
-                        "doctor list"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/inherit-config"
                 }
             }
         },
