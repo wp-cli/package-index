@@ -7924,18 +7924,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "d76a04e364db1944dc0987fd2c2e8abcdfbf68d8"
+                    "reference": "9d78b06c1a806814fc184599b4c1188c68e2a1a6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/d76a04e364db1944dc0987fd2c2e8abcdfbf68d8",
-                    "reference": "d76a04e364db1944dc0987fd2c2e8abcdfbf68d8",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/9d78b06c1a806814fc184599b4c1188c68e2a1a6",
+                    "reference": "9d78b06c1a806814fc184599b4c1188c68e2a1a6",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-04 13:09:28",
+                "time": "2016-10-04 13:44:31",
                 "type": "library",
                 "extra": {
                     "readme": {
@@ -7976,67 +7976,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
-                }
-            },
-            "dev-check-reg-abstraction": {
-                "name": "runcommand/doctor",
-                "version": "dev-check-reg-abstraction",
-                "version_normalized": "dev-check-reg-abstraction",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "c598ddc4c4ab1cf23ac63c2b108d34716f102d05"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/c598ddc4c4ab1cf23ac63c2b108d34716f102d05",
-                    "reference": "c598ddc4c4ab1cf23ac63c2b108d34716f102d05",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-04 13:09:16",
-                "type": "library",
-                "extra": {
-                    "readme": {
-                        "shields": [
-                            "[![CircleCI](https://circleci.com/gh/runcommand/doctor.svg?style=svg&circle-token=383527fb616ce6acb8e7da293c0dfac1cc2a9a10)](https://circleci.com/gh/runcommand/doctor)"
-                        ],
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        },
-                        "show_powered_by": false
-                    },
-                    "commands": [
-                        "doctor check",
-                        "doctor list"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/check-reg-abstraction"
                 }
             }
         },
@@ -8459,12 +8398,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "7faeb754b2eb672d3bfc8711254d6cc61a287935"
+                    "reference": "036fef95ad6d07fb2634ff688f14b3ba822e6889"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/7faeb754b2eb672d3bfc8711254d6cc61a287935",
-                    "reference": "7faeb754b2eb672d3bfc8711254d6cc61a287935",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/036fef95ad6d07fb2634ff688f14b3ba822e6889",
+                    "reference": "036fef95ad6d07fb2634ff688f14b3ba822e6889",
                     "shasum": ""
                 },
                 "require": {
@@ -8473,7 +8412,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-04 13:17:56",
+                "time": "2016-10-04 13:44:19",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -8515,19 +8454,19 @@
                     "source": "https://github.com/runcommand/profile/tree/master"
                 }
             },
-            "dev-fix-installing-purchase-link": {
+            "dev-23-split-stage-hook": {
                 "name": "runcommand/profile",
-                "version": "dev-fix-installing-purchase-link",
-                "version_normalized": "dev-fix-installing-purchase-link",
+                "version": "dev-23-split-stage-hook",
+                "version_normalized": "dev-23-split-stage-hook",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "233346cbe2b601cd9e0a0139290aa341a3cc29cf"
+                    "reference": "767d9cb38c497d9c8c3e6492fbf14d306c29e940"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/233346cbe2b601cd9e0a0139290aa341a3cc29cf",
-                    "reference": "233346cbe2b601cd9e0a0139290aa341a3cc29cf",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/767d9cb38c497d9c8c3e6492fbf14d306c29e940",
+                    "reference": "767d9cb38c497d9c8c3e6492fbf14d306c29e940",
                     "shasum": ""
                 },
                 "require": {
@@ -8536,11 +8475,12 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-04 13:23:01",
+                "time": "2016-10-04 13:49:18",
                 "type": "library",
                 "extra": {
                     "commands": [
-                        "profile"
+                        "profile stage",
+                        "profile hook"
                     ],
                     "readme": {
                         "shields": [
@@ -8575,7 +8515,7 @@
                 "description": "Quickly identify what's slow with WordPress.",
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
-                    "source": "https://github.com/runcommand/profile/tree/fix-installing-purchase-link"
+                    "source": "https://github.com/runcommand/profile/tree/23-split-stage-hook"
                 }
             }
         },
