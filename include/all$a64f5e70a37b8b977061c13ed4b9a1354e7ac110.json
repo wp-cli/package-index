@@ -7977,6 +7977,67 @@
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
                 }
+            },
+            "dev-run-tests-trunk": {
+                "name": "runcommand/doctor",
+                "version": "dev-run-tests-trunk",
+                "version_normalized": "dev-run-tests-trunk",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/doctor.git",
+                    "reference": "e411b68f8ec5bd594883c5b3c9a03c43747fc25f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/e411b68f8ec5bd594883c5b3c9a03c43747fc25f",
+                    "reference": "e411b68f8ec5bd594883c5b3c9a03c43747fc25f",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-04 21:44:35",
+                "type": "library",
+                "extra": {
+                    "readme": {
+                        "shields": [
+                            "[![CircleCI](https://circleci.com/gh/runcommand/doctor.svg?style=svg&circle-token=383527fb616ce6acb8e7da293c0dfac1cc2a9a10)](https://circleci.com/gh/runcommand/doctor)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
+                        },
+                        "show_powered_by": false
+                    },
+                    "commands": [
+                        "doctor check",
+                        "doctor list"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Run a series of checks against WordPress to diagnose issues.",
+                "homepage": "https://runcommand.io/wp/doctor/",
+                "support": {
+                    "source": "https://github.com/runcommand/doctor/tree/run-tests-trunk"
+                }
             }
         },
         "runcommand/find-unused-themes": {
