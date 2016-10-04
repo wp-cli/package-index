@@ -8459,12 +8459,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "036fef95ad6d07fb2634ff688f14b3ba822e6889"
+                    "reference": "cd2ebfe4a95da0bb23cb958d9ff67e0062154270"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/036fef95ad6d07fb2634ff688f14b3ba822e6889",
-                    "reference": "036fef95ad6d07fb2634ff688f14b3ba822e6889",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/cd2ebfe4a95da0bb23cb958d9ff67e0062154270",
+                    "reference": "cd2ebfe4a95da0bb23cb958d9ff67e0062154270",
                     "shasum": ""
                 },
                 "require": {
@@ -8473,70 +8473,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-04 13:44:19",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "profile"
-                    ],
-                    "readme": {
-                        "shields": [
-                            "[![Buy Now](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/buy-now-129.svg)](https://runcommand.memberful.com/checkout?plan=16079)",
-                            "[![CircleCI](https://circleci.com/gh/runcommand/profile/tree/master.svg?style=svg&circle-token=d916e588bf7c8ac469a3bd01930cf9eed886debe)](https://circleci.com/gh/runcommand/profile/tree/master)"
-                        ],
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "overview": {
-                            "post": "bin/readme/overview-body.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme/installing-body.md"
-                        },
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/master"
-                }
-            },
-            "dev-23-split-stage-hook": {
-                "name": "runcommand/profile",
-                "version": "dev-23-split-stage-hook",
-                "version_normalized": "dev-23-split-stage-hook",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "767d9cb38c497d9c8c3e6492fbf14d306c29e940"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/767d9cb38c497d9c8c3e6492fbf14d306c29e940",
-                    "reference": "767d9cb38c497d9c8c3e6492fbf14d306c29e940",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-04 13:49:18",
+                "time": "2016-10-04 14:06:40",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -8576,7 +8513,7 @@
                 "description": "Quickly identify what's slow with WordPress.",
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
-                    "source": "https://github.com/runcommand/profile/tree/23-split-stage-hook"
+                    "source": "https://github.com/runcommand/profile/tree/master"
                 }
             }
         },
