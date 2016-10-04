@@ -7924,18 +7924,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "8d36e25acc7fb38206a1320045a87654f1e8e990"
+                    "reference": "d76a04e364db1944dc0987fd2c2e8abcdfbf68d8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/8d36e25acc7fb38206a1320045a87654f1e8e990",
-                    "reference": "8d36e25acc7fb38206a1320045a87654f1e8e990",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/d76a04e364db1944dc0987fd2c2e8abcdfbf68d8",
+                    "reference": "d76a04e364db1944dc0987fd2c2e8abcdfbf68d8",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-30 22:17:21",
+                "time": "2016-10-04 13:09:28",
                 "type": "library",
                 "extra": {
                     "readme": {
@@ -7978,25 +7978,25 @@
                     "source": "https://github.com/runcommand/doctor/tree/master"
                 }
             },
-            "dev-6-check-eval": {
+            "dev-check-reg-abstraction": {
                 "name": "runcommand/doctor",
-                "version": "dev-6-check-eval",
-                "version_normalized": "dev-6-check-eval",
+                "version": "dev-check-reg-abstraction",
+                "version_normalized": "dev-check-reg-abstraction",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "bd24525f55a5fd8f0d8d89671c0b78281dec2d22"
+                    "reference": "c598ddc4c4ab1cf23ac63c2b108d34716f102d05"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/bd24525f55a5fd8f0d8d89671c0b78281dec2d22",
-                    "reference": "bd24525f55a5fd8f0d8d89671c0b78281dec2d22",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/c598ddc4c4ab1cf23ac63c2b108d34716f102d05",
+                    "reference": "c598ddc4c4ab1cf23ac63c2b108d34716f102d05",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-04 12:52:28",
+                "time": "2016-10-04 13:09:16",
                 "type": "library",
                 "extra": {
                     "readme": {
@@ -8036,68 +8036,7 @@
                 "description": "Run a series of checks against WordPress to diagnose issues.",
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/6-check-eval"
-                }
-            },
-            "dev-rm-todo": {
-                "name": "runcommand/doctor",
-                "version": "dev-rm-todo",
-                "version_normalized": "dev-rm-todo",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "719a430e6c76030ce48368023f036f42bb08f3fc"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/719a430e6c76030ce48368023f036f42bb08f3fc",
-                    "reference": "719a430e6c76030ce48368023f036f42bb08f3fc",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-04 12:55:33",
-                "type": "library",
-                "extra": {
-                    "readme": {
-                        "shields": [
-                            "[![CircleCI](https://circleci.com/gh/runcommand/doctor.svg?style=svg&circle-token=383527fb616ce6acb8e7da293c0dfac1cc2a9a10)](https://circleci.com/gh/runcommand/doctor)"
-                        ],
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        },
-                        "show_powered_by": false
-                    },
-                    "commands": [
-                        "doctor check",
-                        "doctor list"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/rm-todo"
+                    "source": "https://github.com/runcommand/doctor/tree/check-reg-abstraction"
                 }
             }
         },
