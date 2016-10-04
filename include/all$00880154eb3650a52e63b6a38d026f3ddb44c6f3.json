@@ -7977,67 +7977,6 @@
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
                 }
-            },
-            "dev-run-tests-trunk": {
-                "name": "runcommand/doctor",
-                "version": "dev-run-tests-trunk",
-                "version_normalized": "dev-run-tests-trunk",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "e411b68f8ec5bd594883c5b3c9a03c43747fc25f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/e411b68f8ec5bd594883c5b3c9a03c43747fc25f",
-                    "reference": "e411b68f8ec5bd594883c5b3c9a03c43747fc25f",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-04 21:44:35",
-                "type": "library",
-                "extra": {
-                    "readme": {
-                        "shields": [
-                            "[![CircleCI](https://circleci.com/gh/runcommand/doctor.svg?style=svg&circle-token=383527fb616ce6acb8e7da293c0dfac1cc2a9a10)](https://circleci.com/gh/runcommand/doctor)"
-                        ],
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        },
-                        "show_powered_by": false
-                    },
-                    "commands": [
-                        "doctor check",
-                        "doctor list"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Run a series of checks against WordPress to diagnose issues.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/run-tests-trunk"
-                }
             }
         },
         "runcommand/find-unused-themes": {
@@ -8459,12 +8398,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "e6d2cfcd4dab896e472e189662c2579983ad6ccb"
+                    "reference": "261be3b36a84bddcf33aa36e46f804b3a752b266"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/e6d2cfcd4dab896e472e189662c2579983ad6ccb",
-                    "reference": "e6d2cfcd4dab896e472e189662c2579983ad6ccb",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/261be3b36a84bddcf33aa36e46f804b3a752b266",
+                    "reference": "261be3b36a84bddcf33aa36e46f804b3a752b266",
                     "shasum": ""
                 },
                 "require": {
@@ -8473,72 +8412,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-04 21:24:11",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "profile stage",
-                        "profile hook",
-                        "profile eval"
-                    ],
-                    "readme": {
-                        "shields": [
-                            "[![Buy Now](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/buy-now-129.svg)](https://runcommand.memberful.com/checkout?plan=16079)",
-                            "[![CircleCI](https://circleci.com/gh/runcommand/profile/tree/master.svg?style=svg&circle-token=d916e588bf7c8ac469a3bd01930cf9eed886debe)](https://circleci.com/gh/runcommand/profile/tree/master)"
-                        ],
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "overview": {
-                            "post": "bin/readme/overview-body.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme/installing-body.md"
-                        },
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/master"
-                }
-            },
-            "dev-37-eval-file": {
-                "name": "runcommand/profile",
-                "version": "dev-37-eval-file",
-                "version_normalized": "dev-37-eval-file",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "6572e9666474f34431a99a6953e66da09a1b118c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/6572e9666474f34431a99a6953e66da09a1b118c",
-                    "reference": "6572e9666474f34431a99a6953e66da09a1b118c",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-04 21:38:12",
+                "time": "2016-10-04 21:51:49",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -8580,7 +8454,7 @@
                 "description": "Quickly identify what's slow with WordPress.",
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
-                    "source": "https://github.com/runcommand/profile/tree/37-eval-file"
+                    "source": "https://github.com/runcommand/profile/tree/master"
                 }
             }
         },
