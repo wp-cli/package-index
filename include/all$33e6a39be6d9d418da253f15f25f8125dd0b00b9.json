@@ -8542,6 +8542,63 @@
                 "support": {
                     "source": "https://github.com/runcommand/reset-password/tree/master"
                 }
+            },
+            "dev-update-test-suite": {
+                "name": "runcommand/reset-password",
+                "version": "dev-update-test-suite",
+                "version_normalized": "dev-update-test-suite",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/reset-password.git",
+                    "reference": "1d5ea9a52fbd9ebc7ef84677b8d02f04769ee476"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/reset-password/zipball/1d5ea9a52fbd9ebc7ef84677b8d02f04769ee476",
+                    "reference": "1d5ea9a52fbd9ebc7ef84677b8d02f04769ee476",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-05 22:10:15",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "user reset-password"
+                    ],
+                    "readme": {
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Reset passwords for one or more WordPress users.",
+                "homepage": "https://runcommand.io/wp/reset-password/",
+                "support": {
+                    "source": "https://github.com/runcommand/reset-password/tree/update-test-suite"
+                }
             }
         },
         "rxnlabs/wp-composer-dependencies": {
