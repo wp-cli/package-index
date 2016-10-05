@@ -10337,18 +10337,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "5277775f483d8426ffc0c5172b259e10f4857aba"
+                    "reference": "34ae4473eb58907654fb87342ce054b205abee72"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/5277775f483d8426ffc0c5172b259e10f4857aba",
-                    "reference": "5277775f483d8426ffc0c5172b259e10f4857aba",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/34ae4473eb58907654fb87342ce054b205abee72",
+                    "reference": "34ae4473eb58907654fb87342ce054b205abee72",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-05 13:20:01",
+                "time": "2016-10-05 23:14:12",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -10377,104 +10377,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
-                }
-            },
-            "dev-42-expand-docs": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-42-expand-docs",
-                "version_normalized": "dev-42-expand-docs",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "477b745676b9c30d9bb979de4733210cea7f2a9e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/477b745676b9c30d9bb979de4733210cea7f2a9e",
-                    "reference": "477b745676b9c30d9bb979de4733210cea7f2a9e",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-05 22:52:14",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/42-expand-docs"
-                }
-            },
-            "dev-53-test-travis": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-53-test-travis",
-                "version_normalized": "dev-53-test-travis",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "e7b03107d9d63728af026f1a3bd69360c8c24e74"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/e7b03107d9d63728af026f1a3bd69360c8c24e74",
-                    "reference": "e7b03107d9d63728af026f1a3bd69360c8c24e74",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-05 23:09:21",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/53-test-travis"
                 }
             },
             "dev-render-mustache": {
