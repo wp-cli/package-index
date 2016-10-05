@@ -64,6 +64,7 @@ https://github.com/runcommand/query-debug
 https://github.com/runcommand/reset-passwords
 https://github.com/sebastiaandegeus/wp-cli-salts-command
 https://github.com/sinebridge/wp-cli-about
+https://github.com/rxnlabs/wp-composer
 https://github.com/srtfisher/wp-composer
 https://github.com/stianlik/wp-cli-mig
 https://github.com/szepeviktor/wp-cli-database-prefix-command
