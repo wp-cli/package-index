@@ -1401,6 +1401,51 @@
                 }
             }
         },
+        "anhskohbo/wp-cli-themecheck": {
+            "dev-master": {
+                "name": "anhskohbo/wp-cli-themecheck",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/anhskohbo/wp-cli-themecheck.git",
+                    "reference": "52aafccbf72fccd0fde3ac407ef657ff1b6da725"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/anhskohbo/wp-cli-themecheck/zipball/52aafccbf72fccd0fde3ac407ef657ff1b6da725",
+                    "reference": "52aafccbf72fccd0fde3ac407ef657ff1b6da725",
+                    "shasum": ""
+                },
+                "require": {
+                    "symfony/finder": "^3.1"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-04 16:14:52",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nguyen Van Anh",
+                        "email": "anhskohbo@gmail.com"
+                    }
+                ],
+                "homepage": "https://github.com/anhskohbo/wp-cli-themecheck",
+                "support": {
+                    "source": "https://github.com/anhskohbo/wp-cli-themecheck/tree/master",
+                    "issues": "https://github.com/anhskohbo/wp-cli-themecheck/issues"
+                }
+            }
+        },
         "billerickson/wp-cli-plugin-install-missing": {
             "dev-master": {
                 "name": "billerickson/wp-cli-plugin-install-missing",
