@@ -8625,12 +8625,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/rxnlabs/wp-composer.git",
-                    "reference": "931f8947d60e772d3f7396d2454e3812acf46370"
+                    "reference": "f5bcda861b34bca436786f44daff3b479c548dac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/rxnlabs/wp-composer/zipball/931f8947d60e772d3f7396d2454e3812acf46370",
-                    "reference": "931f8947d60e772d3f7396d2454e3812acf46370",
+                    "url": "https://api.github.com/repos/rxnlabs/wp-composer/zipball/f5bcda861b34bca436786f44daff3b479c548dac",
+                    "reference": "f5bcda861b34bca436786f44daff3b479c548dac",
                     "shasum": ""
                 },
                 "archive": {
@@ -8642,7 +8642,9 @@
                         "phpunit.xml",
                         ".editorconfig",
                         "coverage",
-                        "docs/"
+                        "docs/",
+                        "docs/*",
+                        "couscous.yml"
                     ]
                 },
                 "require": {
@@ -8658,7 +8660,7 @@
                     "phpunit/phpunit": "4.8.26",
                     "whatthejeff/nyancat-phpunit-resultprinter": "^1.2"
                 },
-                "time": "2016-10-05 15:40:59",
+                "time": "2016-10-06 03:28:48",
                 "type": "library",
                 "autoload": {
                     "classmap": [
