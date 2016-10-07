@@ -8501,6 +8501,72 @@
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master"
                 }
+            },
+            "dev-assert-stage-hooks": {
+                "name": "runcommand/profile",
+                "version": "dev-assert-stage-hooks",
+                "version_normalized": "dev-assert-stage-hooks",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/profile.git",
+                    "reference": "bd11205e6c1290e57aa966c5b0166cbb722411be"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/bd11205e6c1290e57aa966c5b0166cbb722411be",
+                    "reference": "bd11205e6c1290e57aa966c5b0166cbb722411be",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "~0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-07 22:58:08",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "profile stage",
+                        "profile hook",
+                        "profile eval",
+                        "profile eval-file"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![Buy Now](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/buy-now-129.svg)](https://runcommand.memberful.com/checkout?plan=16079)",
+                            "[![CircleCI](https://circleci.com/gh/runcommand/profile/tree/master.svg?style=svg&circle-token=d916e588bf7c8ac469a3bd01930cf9eed886debe)](https://circleci.com/gh/runcommand/profile/tree/master)"
+                        ],
+                        "sections": [
+                            "Overview",
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "overview": {
+                            "post": "bin/readme/overview-body.md"
+                        },
+                        "installing": {
+                            "body": "bin/readme/installing-body.md"
+                        },
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Quickly identify what's slow with WordPress.",
+                "homepage": "https://runcommand.io/wp/profile/",
+                "support": {
+                    "source": "https://github.com/runcommand/profile/tree/assert-stage-hooks"
+                }
             }
         },
         "runcommand/query-debug": {
