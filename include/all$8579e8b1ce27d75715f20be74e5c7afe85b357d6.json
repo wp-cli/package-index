@@ -8075,18 +8075,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "9088b6f5f47dd77288e7ef2c7587eefe431f0afa"
+                    "reference": "e0c648733818e58bcf89251ef3b2d7803b7289cf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/9088b6f5f47dd77288e7ef2c7587eefe431f0afa",
-                    "reference": "9088b6f5f47dd77288e7ef2c7587eefe431f0afa",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/e0c648733818e58bcf89251ef3b2d7803b7289cf",
+                    "reference": "e0c648733818e58bcf89251ef3b2d7803b7289cf",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-07 21:34:48",
+                "time": "2016-10-07 22:28:28",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -8123,63 +8123,6 @@
                 "homepage": "https://runcommand.io/wp/hook/",
                 "support": {
                     "source": "https://github.com/runcommand/hook/tree/master"
-                }
-            },
-            "dev-sort-priority": {
-                "name": "runcommand/hook",
-                "version": "dev-sort-priority",
-                "version_normalized": "dev-sort-priority",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/hook.git",
-                    "reference": "e122c46099b7f1d8e4d818ecd49f78a032c1e9b4"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/e122c46099b7f1d8e4d818ecd49f78a032c1e9b4",
-                    "reference": "e122c46099b7f1d8e4d818ecd49f78a032c1e9b4",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-07 22:13:19",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "hook"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "List callbacks registered to a given action or filter.",
-                "homepage": "https://runcommand.io/wp/hook/",
-                "support": {
-                    "source": "https://github.com/runcommand/hook/tree/sort-priority"
                 }
             }
         },
@@ -8566,12 +8509,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "5a3cffcd79f8ba279c5aeb2226447c76b9257b8b"
+                    "reference": "5d4d6450ceb2d2967cc9a35d2381269592cef3f4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/5a3cffcd79f8ba279c5aeb2226447c76b9257b8b",
-                    "reference": "5a3cffcd79f8ba279c5aeb2226447c76b9257b8b",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/5d4d6450ceb2d2967cc9a35d2381269592cef3f4",
+                    "reference": "5d4d6450ceb2d2967cc9a35d2381269592cef3f4",
                     "shasum": ""
                 },
                 "require": {
@@ -8580,7 +8523,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-07 21:57:06",
+                "time": "2016-10-07 22:27:29",
                 "type": "library",
                 "extra": {
                     "commands": [
