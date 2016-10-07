@@ -8124,6 +8124,63 @@
                 "support": {
                     "source": "https://github.com/runcommand/hook/tree/master"
                 }
+            },
+            "dev-handle-mu-plugins": {
+                "name": "runcommand/hook",
+                "version": "dev-handle-mu-plugins",
+                "version_normalized": "dev-handle-mu-plugins",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/hook.git",
+                    "reference": "db417c4142bb6b69559bd42e63a968fa366388c3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/db417c4142bb6b69559bd42e63a968fa366388c3",
+                    "reference": "db417c4142bb6b69559bd42e63a968fa366388c3",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-07 21:23:33",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "hook"
+                    ],
+                    "readme": {
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "List callbacks registered to a given action or filter.",
+                "homepage": "https://runcommand.io/wp/hook/",
+                "support": {
+                    "source": "https://github.com/runcommand/hook/tree/handle-mu-plugins"
+                }
             }
         },
         "runcommand/manifest": {
