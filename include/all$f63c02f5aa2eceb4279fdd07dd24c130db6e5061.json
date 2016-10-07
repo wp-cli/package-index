@@ -8075,18 +8075,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "c03d010b8abe999aefc38fac5543ef6f732d4dd0"
+                    "reference": "9088b6f5f47dd77288e7ef2c7587eefe431f0afa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/c03d010b8abe999aefc38fac5543ef6f732d4dd0",
-                    "reference": "c03d010b8abe999aefc38fac5543ef6f732d4dd0",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/9088b6f5f47dd77288e7ef2c7587eefe431f0afa",
+                    "reference": "9088b6f5f47dd77288e7ef2c7587eefe431f0afa",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-23 14:17:24",
+                "time": "2016-10-07 21:34:48",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -8123,63 +8123,6 @@
                 "homepage": "https://runcommand.io/wp/hook/",
                 "support": {
                     "source": "https://github.com/runcommand/hook/tree/master"
-                }
-            },
-            "dev-handle-mu-plugins": {
-                "name": "runcommand/hook",
-                "version": "dev-handle-mu-plugins",
-                "version_normalized": "dev-handle-mu-plugins",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/hook.git",
-                    "reference": "db417c4142bb6b69559bd42e63a968fa366388c3"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/db417c4142bb6b69559bd42e63a968fa366388c3",
-                    "reference": "db417c4142bb6b69559bd42e63a968fa366388c3",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-07 21:23:33",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "hook"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "List callbacks registered to a given action or filter.",
-                "homepage": "https://runcommand.io/wp/hook/",
-                "support": {
-                    "source": "https://github.com/runcommand/hook/tree/handle-mu-plugins"
                 }
             }
         },
@@ -8500,12 +8443,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "b8f642aa4ea6a03e9b561f16e305777f27b3b21a"
+                    "reference": "644f8957596ebba6b0a8ad8598bcf9643e05bb98"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/b8f642aa4ea6a03e9b561f16e305777f27b3b21a",
-                    "reference": "b8f642aa4ea6a03e9b561f16e305777f27b3b21a",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/644f8957596ebba6b0a8ad8598bcf9643e05bb98",
+                    "reference": "644f8957596ebba6b0a8ad8598bcf9643e05bb98",
                     "shasum": ""
                 },
                 "require": {
@@ -8514,7 +8457,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-07 21:05:01",
+                "time": "2016-10-07 21:36:43",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -8557,72 +8500,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master"
-                }
-            },
-            "dev-45-callback-definition": {
-                "name": "runcommand/profile",
-                "version": "dev-45-callback-definition",
-                "version_normalized": "dev-45-callback-definition",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "99914b71b2d27f7d332cbe130879ae3b4ac44014"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/99914b71b2d27f7d332cbe130879ae3b4ac44014",
-                    "reference": "99914b71b2d27f7d332cbe130879ae3b4ac44014",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-07 21:20:08",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "profile stage",
-                        "profile hook",
-                        "profile eval",
-                        "profile eval-file"
-                    ],
-                    "readme": {
-                        "shields": [
-                            "[![Buy Now](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/buy-now-129.svg)](https://runcommand.memberful.com/checkout?plan=16079)",
-                            "[![CircleCI](https://circleci.com/gh/runcommand/profile/tree/master.svg?style=svg&circle-token=d916e588bf7c8ac469a3bd01930cf9eed886debe)](https://circleci.com/gh/runcommand/profile/tree/master)"
-                        ],
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "overview": {
-                            "post": "bin/readme/overview-body.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme/installing-body.md"
-                        },
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/45-callback-definition"
                 }
             }
         },
