@@ -8509,12 +8509,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "c399e862836dcb15f3247d6a29405a951f21d202"
+                    "reference": "5a3cffcd79f8ba279c5aeb2226447c76b9257b8b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/c399e862836dcb15f3247d6a29405a951f21d202",
-                    "reference": "c399e862836dcb15f3247d6a29405a951f21d202",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/5a3cffcd79f8ba279c5aeb2226447c76b9257b8b",
+                    "reference": "5a3cffcd79f8ba279c5aeb2226447c76b9257b8b",
                     "shasum": ""
                 },
                 "require": {
@@ -8523,7 +8523,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-07 21:45:13",
+                "time": "2016-10-07 21:57:06",
                 "type": "library",
                 "extra": {
                     "commands": [
