@@ -8443,12 +8443,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "c1f76a41e9260d892f5707aa6dbc7338c561284a"
+                    "reference": "bea808faa00b7b6f0fdcbc4717528d97b5b4c070"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/c1f76a41e9260d892f5707aa6dbc7338c561284a",
-                    "reference": "c1f76a41e9260d892f5707aa6dbc7338c561284a",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/bea808faa00b7b6f0fdcbc4717528d97b5b4c070",
+                    "reference": "bea808faa00b7b6f0fdcbc4717528d97b5b4c070",
                     "shasum": ""
                 },
                 "require": {
@@ -8457,7 +8457,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-07 22:50:35",
+                "time": "2016-10-07 23:04:50",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -8502,19 +8502,19 @@
                     "source": "https://github.com/runcommand/profile/tree/master"
                 }
             },
-            "dev-assert-stage-hooks": {
+            "dev-registered-commands": {
                 "name": "runcommand/profile",
-                "version": "dev-assert-stage-hooks",
-                "version_normalized": "dev-assert-stage-hooks",
+                "version": "dev-registered-commands",
+                "version_normalized": "dev-registered-commands",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "bd11205e6c1290e57aa966c5b0166cbb722411be"
+                    "reference": "b5946648b7c29f9798feb983c6b6d222a79fba03"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/bd11205e6c1290e57aa966c5b0166cbb722411be",
-                    "reference": "bd11205e6c1290e57aa966c5b0166cbb722411be",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/b5946648b7c29f9798feb983c6b6d222a79fba03",
+                    "reference": "b5946648b7c29f9798feb983c6b6d222a79fba03",
                     "shasum": ""
                 },
                 "require": {
@@ -8523,7 +8523,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-07 22:58:08",
+                "time": "2016-10-07 23:02:26",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -8565,7 +8565,7 @@
                 "description": "Quickly identify what's slow with WordPress.",
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
-                    "source": "https://github.com/runcommand/profile/tree/assert-stage-hooks"
+                    "source": "https://github.com/runcommand/profile/tree/registered-commands"
                 }
             }
         },
