@@ -8443,12 +8443,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "b317d5b118b73ce8dce30a791088d3a23ee6cd1a"
+                    "reference": "73be01fca18aaadc3bf05c155fe495e31d16a5d4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/b317d5b118b73ce8dce30a791088d3a23ee6cd1a",
-                    "reference": "b317d5b118b73ce8dce30a791088d3a23ee6cd1a",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/73be01fca18aaadc3bf05c155fe495e31d16a5d4",
+                    "reference": "73be01fca18aaadc3bf05c155fe495e31d16a5d4",
                     "shasum": ""
                 },
                 "require": {
@@ -8457,7 +8457,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-08 13:01:56",
+                "time": "2016-10-08 13:55:21",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -8502,19 +8502,19 @@
                     "source": "https://github.com/runcommand/profile/tree/master"
                 }
             },
-            "dev-abstract-profile-class": {
+            "dev-fix-abspath-relative": {
                 "name": "runcommand/profile",
-                "version": "dev-abstract-profile-class",
-                "version_normalized": "dev-abstract-profile-class",
+                "version": "dev-fix-abspath-relative",
+                "version_normalized": "dev-fix-abspath-relative",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "42561953682ca9152b0782698f6630ad88fb2ba6"
+                    "reference": "da5e2e1b25db92da8231b373ec4d720bd7197b84"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/42561953682ca9152b0782698f6630ad88fb2ba6",
-                    "reference": "42561953682ca9152b0782698f6630ad88fb2ba6",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/da5e2e1b25db92da8231b373ec4d720bd7197b84",
+                    "reference": "da5e2e1b25db92da8231b373ec4d720bd7197b84",
                     "shasum": ""
                 },
                 "require": {
@@ -8523,7 +8523,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-08 13:49:28",
+                "time": "2016-10-08 14:00:05",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -8565,7 +8565,7 @@
                 "description": "Quickly identify what's slow with WordPress.",
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
-                    "source": "https://github.com/runcommand/profile/tree/abstract-profile-class"
+                    "source": "https://github.com/runcommand/profile/tree/fix-abspath-relative"
                 }
             }
         },
