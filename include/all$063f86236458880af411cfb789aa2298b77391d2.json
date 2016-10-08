@@ -8443,12 +8443,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "73be01fca18aaadc3bf05c155fe495e31d16a5d4"
+                    "reference": "5deb2ef0c8f8ffe6fecce29785e8b9bafea914c1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/73be01fca18aaadc3bf05c155fe495e31d16a5d4",
-                    "reference": "73be01fca18aaadc3bf05c155fe495e31d16a5d4",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/5deb2ef0c8f8ffe6fecce29785e8b9bafea914c1",
+                    "reference": "5deb2ef0c8f8ffe6fecce29785e8b9bafea914c1",
                     "shasum": ""
                 },
                 "require": {
@@ -8457,7 +8457,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-08 13:55:21",
+                "time": "2016-10-08 14:08:14",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -8500,72 +8500,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master"
-                }
-            },
-            "dev-fix-abspath-relative": {
-                "name": "runcommand/profile",
-                "version": "dev-fix-abspath-relative",
-                "version_normalized": "dev-fix-abspath-relative",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "da5e2e1b25db92da8231b373ec4d720bd7197b84"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/da5e2e1b25db92da8231b373ec4d720bd7197b84",
-                    "reference": "da5e2e1b25db92da8231b373ec4d720bd7197b84",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-08 14:00:05",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "profile stage",
-                        "profile hook",
-                        "profile eval",
-                        "profile eval-file"
-                    ],
-                    "readme": {
-                        "shields": [
-                            "[![Buy Now](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/buy-now-129.svg)](https://runcommand.memberful.com/checkout?plan=16079)",
-                            "[![CircleCI](https://circleci.com/gh/runcommand/profile/tree/master.svg?style=svg&circle-token=d916e588bf7c8ac469a3bd01930cf9eed886debe)](https://circleci.com/gh/runcommand/profile/tree/master)"
-                        ],
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "overview": {
-                            "post": "bin/readme/overview-body.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme/installing-body.md"
-                        },
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/fix-abspath-relative"
                 }
             }
         },
