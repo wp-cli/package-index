@@ -7520,6 +7520,54 @@
                     "issues": "https://github.com/astorm/wp-static-html-output-plugin/issues",
                     "source": "https://github.com/astorm/wp-static-html-output-plugin"
                 }
+            },
+            "dev-alanstorm-dot-com": {
+                "name": "pulsestorm/wp-static-html-output-plugin",
+                "version": "dev-alanstorm-dot-com",
+                "version_normalized": "dev-alanstorm-dot-com",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/astorm/wp-static-html-output-plugin.git",
+                    "reference": "67fa4609e584374344422f609344f28e40f3abd0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/67fa4609e584374344422f609344f28e40f3abd0",
+                    "reference": "67fa4609e584374344422f609344f28e40f3abd0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "time": "2016-10-09 00:59:19",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Alan Storm",
+                        "homepage": "http://alanstorm.com"
+                    }
+                ],
+                "description": "Unofficial WP-CLI wrapper for the WP Static HTML Output Plugin ",
+                "homepage": "https://github.com/astorm/wp-static-html-output-plugin",
+                "keywords": [
+                    "",
+                    "html",
+                    "static",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/astorm/wp-static-html-output-plugin/issues",
+                    "source": "https://github.com/astorm/wp-static-html-output-plugin"
+                }
             }
         },
         "redkiwi-nl/localconfig": {
