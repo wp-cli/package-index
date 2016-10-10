@@ -1409,25 +1409,30 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/anhskohbo/wp-cli-themecheck.git",
-                    "reference": "52aafccbf72fccd0fde3ac407ef657ff1b6da725"
+                    "reference": "63200bc2f1ab9ed154453e5d835a2bb68a24b864"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/anhskohbo/wp-cli-themecheck/zipball/52aafccbf72fccd0fde3ac407ef657ff1b6da725",
-                    "reference": "52aafccbf72fccd0fde3ac407ef657ff1b6da725",
+                    "url": "https://api.github.com/repos/anhskohbo/wp-cli-themecheck/zipball/63200bc2f1ab9ed154453e5d835a2bb68a24b864",
+                    "reference": "63200bc2f1ab9ed154453e5d835a2bb68a24b864",
                     "shasum": ""
                 },
                 "require": {
-                    "symfony/finder": "^3.1"
+                    "symfony/finder": "~2.0|~3.0"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-04 16:14:52",
+                "time": "2016-10-10 08:07:56",
                 "type": "library",
                 "autoload": {
                     "files": [
                         "command.php"
+                    ]
+                },
+                "scripts": {
+                    "run-behat": [
+                        "./vendor/bin/behat --strict --ansi"
                     ]
                 },
                 "license": [
@@ -1439,6 +1444,7 @@
                         "email": "anhskohbo@gmail.com"
                     }
                 ],
+                "description": "Run Themecheck in WP_CLI",
                 "homepage": "https://github.com/anhskohbo/wp-cli-themecheck",
                 "support": {
                     "source": "https://github.com/anhskohbo/wp-cli-themecheck/tree/master",
