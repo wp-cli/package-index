@@ -5541,6 +5541,46 @@
                 }
             }
         },
+        "matt/wp-installer": {
+            "dev-master": {
+                "name": "matt/wp-installer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mattgrshaw/wp-installer.git",
+                    "reference": "90593008e6bdcb513bc32e4f3d303900c6804dc1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mattgrshaw/wp-installer/zipball/90593008e6bdcb513bc32e4f3d303900c6804dc1",
+                    "reference": "90593008e6bdcb513bc32e4f3d303900c6804dc1",
+                    "shasum": ""
+                },
+                "time": "2016-10-12 19:21:32",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "installer.php"
+                    ]
+                },
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Matt Shaw",
+                        "email": "matt@expandedfronts.com"
+                    }
+                ],
+                "description": "WP Installer CLI Command",
+                "homepage": "https://github.com/mattgrshaw/wp-installer",
+                "support": {
+                    "issues": "https://github.com/mattgrshaw/wp-installer",
+                    "source": "https://github.com/mattgrshaw/wp-installer/tree/master"
+                }
+            }
+        },
         "mattes/wp-cli-git-command": {
             "v1.0.0": {
                 "name": "mattes/wp-cli-git-command",
