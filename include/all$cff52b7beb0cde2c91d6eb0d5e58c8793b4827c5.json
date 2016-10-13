@@ -1489,6 +1489,43 @@
                 }
             }
         },
+        "binarygary/db-checkpoint": {
+            "dev-master": {
+                "name": "binarygary/db-checkpoint",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/binarygary/db-checkpoint.git",
+                    "reference": "bda6fc65c08f1a0f514976cc688208c73042cb04"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/bda6fc65c08f1a0f514976cc688208c73042cb04",
+                    "reference": "bda6fc65c08f1a0f514976cc688208c73042cb04",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-10-13 03:29:14",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "db-checkpoint.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Create quick db snapshots for development purposes.",
+                "homepage": "https://github.com/binarygary/db-checkpoint",
+                "support": {
+                    "source": "https://github.com/binarygary/db-checkpoint/tree/master",
+                    "issues": "https://github.com/binarygary/db-checkpoint/issues"
+                }
+            }
+        },
         "boonebgorges/wp-cli-buddypress": {
             "1.0.0": {
                 "name": "boonebgorges/wp-cli-buddypress",
