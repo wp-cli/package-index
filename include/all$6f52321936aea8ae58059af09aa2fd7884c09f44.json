@@ -5500,6 +5500,56 @@
                 }
             }
         },
+        "jaywood/jw-wpcli-random-posts": {
+            "dev-master": {
+                "name": "JayWood/jw-wpcli-random-posts",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
+                    "reference": "cd084926e10e0cb507c7fe92c3a723c4cec952ef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/cd084926e10e0cb507c7fe92c3a723c4cec952ef",
+                    "reference": "cd084926e10e0cb507c7fe92c3a723c4cec952ef",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-10-13 23:21:50",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "generate-posts.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Jay Wood",
+                        "email": "jjwood2004@gmail.com",
+                        "homepage": "http://plugish.com"
+                    }
+                ],
+                "description": "A robust random post generator for WP CLI which supports multisite, post types, post counts, taxonomies, terms, term counts and featured images.",
+                "homepage": "http://plugish.com",
+                "keywords": [
+                    "placeholder",
+                    "random posts",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/master",
+                    "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
+                }
+            }
+        },
         "markri/wp-sec": {
             "0.0.1": {
                 "name": "markri/wp-sec",
