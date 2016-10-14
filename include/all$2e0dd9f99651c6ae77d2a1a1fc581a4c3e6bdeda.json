@@ -5197,18 +5197,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/GeekPress/wp-rocket-cli.git",
-                    "reference": "0720db8a189540ca7d2c0cb7cab016375ea1c05f"
+                    "reference": "7fcd73fa1beff81e844abcc7a490be37fab8f04b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/GeekPress/wp-rocket-cli/zipball/0720db8a189540ca7d2c0cb7cab016375ea1c05f",
-                    "reference": "0720db8a189540ca7d2c0cb7cab016375ea1c05f",
+                    "url": "https://api.github.com/repos/GeekPress/wp-rocket-cli/zipball/7fcd73fa1beff81e844abcc7a490be37fab8f04b",
+                    "reference": "7fcd73fa1beff81e844abcc7a490be37fab8f04b",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2016-10-03 13:02:35",
+                "time": "2016-10-14 13:35:00",
                 "type": "command",
                 "autoload": {
                     "files": [
