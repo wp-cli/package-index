@@ -1490,25 +1490,25 @@
             }
         },
         "binarygary/db-checkpoint": {
-            "dev-master": {
+            "0.1.0": {
                 "name": "binarygary/db-checkpoint",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/binarygary/db-checkpoint.git",
-                    "reference": "2dc7a3fbb99f14a38f76c31703d976b9198638ef"
+                    "reference": "8af4829663f0619d7c1fc0082e7b6dbe6dfccd8a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/2dc7a3fbb99f14a38f76c31703d976b9198638ef",
-                    "reference": "2dc7a3fbb99f14a38f76c31703d976b9198638ef",
+                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/8af4829663f0619d7c1fc0082e7b6dbe6dfccd8a",
+                    "reference": "8af4829663f0619d7c1fc0082e7b6dbe6dfccd8a",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-10-13 19:49:34",
+                "time": "2016-10-14 00:50:16",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -1518,10 +1518,79 @@
                 "license": [
                     "MIT"
                 ],
+                "authors": [
+                    {
+                        "name": "Gary Kovar",
+                        "email": "plugins@binarygary.com",
+                        "homepage": "https://www.binarygary.com"
+                    }
+                ],
                 "description": "Create quick db snapshots for development purposes.",
                 "homepage": "https://github.com/binarygary/db-checkpoint",
+                "keywords": [
+                    "db snapshot",
+                    "deploy",
+                    "dump",
+                    "git",
+                    "mysql",
+                    "uploads",
+                    "wordpress",
+                    "wp-cli"
+                ],
                 "support": {
-                    "source": "https://github.com/binarygary/db-checkpoint/tree/master",
+                    "source": "https://github.com/binarygary/db-checkpoint/tree/0.1.0",
+                    "issues": "https://github.com/binarygary/db-checkpoint/issues"
+                }
+            },
+            "dev-master": {
+                "name": "binarygary/db-checkpoint",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/binarygary/db-checkpoint.git",
+                    "reference": "8af4829663f0619d7c1fc0082e7b6dbe6dfccd8a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/8af4829663f0619d7c1fc0082e7b6dbe6dfccd8a",
+                    "reference": "8af4829663f0619d7c1fc0082e7b6dbe6dfccd8a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-10-14 00:50:16",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "db-checkpoint.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Gary Kovar",
+                        "email": "plugins@binarygary.com",
+                        "homepage": "https://www.binarygary.com"
+                    }
+                ],
+                "description": "Create quick db snapshots for development purposes.",
+                "homepage": "https://github.com/binarygary/db-checkpoint",
+                "keywords": [
+                    "db snapshot",
+                    "deploy",
+                    "dump",
+                    "git",
+                    "mysql",
+                    "uploads",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/binarygary/db-checkpoint/tree/0.1.0",
                     "issues": "https://github.com/binarygary/db-checkpoint/issues"
                 }
             }
