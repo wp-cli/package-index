@@ -10937,12 +10937,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/welaika/wp-cli-db2utf8.git",
-                    "reference": "2c7cd19bcad50625ad3b9d46f9a9069b0ac36497"
+                    "reference": "d5133579bb495a62327d5d2318b4deb3bbba0be5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/welaika/wp-cli-db2utf8/zipball/2c7cd19bcad50625ad3b9d46f9a9069b0ac36497",
-                    "reference": "2c7cd19bcad50625ad3b9d46f9a9069b0ac36497",
+                    "url": "https://api.github.com/repos/welaika/wp-cli-db2utf8/zipball/d5133579bb495a62327d5d2318b4deb3bbba0be5",
+                    "reference": "d5133579bb495a62327d5d2318b4deb3bbba0be5",
                     "shasum": ""
                 },
                 "require": {
@@ -10951,7 +10951,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-15 17:23:45",
+                "time": "2016-10-15 17:35:37",
                 "type": "library",
                 "autoload": {
                     "files": [
