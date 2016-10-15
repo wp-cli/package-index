@@ -1601,18 +1601,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/binarygary/db-checkpoint.git",
-                    "reference": "e1b15674593a611615726c0272e0a5ce575cec64"
+                    "reference": "2f0e1f699e27e328ad5e8f2f2770cedc62ca7d7d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/e1b15674593a611615726c0272e0a5ce575cec64",
-                    "reference": "e1b15674593a611615726c0272e0a5ce575cec64",
+                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/2f0e1f699e27e328ad5e8f2f2770cedc62ca7d7d",
+                    "reference": "2f0e1f699e27e328ad5e8f2f2770cedc62ca7d7d",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-10-14 14:41:33",
+                "time": "2016-10-15 00:38:06",
                 "type": "library",
                 "autoload": {
                     "files": [
