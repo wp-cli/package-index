@@ -1601,18 +1601,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/binarygary/db-checkpoint.git",
-                    "reference": "6011d1181cb41580ac591c2b489b0872a5262a2d"
+                    "reference": "8bd0af1e95682a1cfc76bdbec591c10e9a208ac2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/6011d1181cb41580ac591c2b489b0872a5262a2d",
-                    "reference": "6011d1181cb41580ac591c2b489b0872a5262a2d",
+                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/8bd0af1e95682a1cfc76bdbec591c10e9a208ac2",
+                    "reference": "8bd0af1e95682a1cfc76bdbec591c10e9a208ac2",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-10-17 01:57:53",
+                "time": "2016-10-17 02:18:35",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -5809,15 +5809,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mattgrshaw/wp-installer.git",
-                    "reference": "cc24a8e11f707393149b883ef3767d7bf87b2996"
+                    "reference": "0419b1144f7932e9557de70525cef550c166b18c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mattgrshaw/wp-installer/zipball/cc24a8e11f707393149b883ef3767d7bf87b2996",
-                    "reference": "cc24a8e11f707393149b883ef3767d7bf87b2996",
+                    "url": "https://api.github.com/repos/mattgrshaw/wp-installer/zipball/0419b1144f7932e9557de70525cef550c166b18c",
+                    "reference": "0419b1144f7932e9557de70525cef550c166b18c",
                     "shasum": ""
                 },
-                "time": "2016-10-17 02:01:17",
+                "time": "2016-10-17 02:16:50",
                 "type": "library",
                 "autoload": {
                     "files": [
