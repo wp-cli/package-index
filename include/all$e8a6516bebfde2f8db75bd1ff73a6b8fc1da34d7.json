@@ -1705,18 +1705,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/binarygary/db-checkpoint.git",
-                    "reference": "73cddeba8ad2e82aa7a567ff31244dea536e5dad"
+                    "reference": "f0eb1dd4f1df4e21c2e0268116a4b7638d3d1588"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/73cddeba8ad2e82aa7a567ff31244dea536e5dad",
-                    "reference": "73cddeba8ad2e82aa7a567ff31244dea536e5dad",
+                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/f0eb1dd4f1df4e21c2e0268116a4b7638d3d1588",
+                    "reference": "f0eb1dd4f1df4e21c2e0268116a4b7638d3d1588",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-10-17 02:22:07",
+                "time": "2016-10-17 02:35:36",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -1746,7 +1746,7 @@
                     "wp-cli"
                 ],
                 "support": {
-                    "source": "https://github.com/binarygary/db-checkpoint/tree/0.2.0",
+                    "source": "https://github.com/binarygary/db-checkpoint/tree/master",
                     "issues": "https://github.com/binarygary/db-checkpoint/issues"
                 }
             }
