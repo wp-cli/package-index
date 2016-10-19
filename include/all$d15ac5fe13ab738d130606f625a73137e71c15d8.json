@@ -8641,18 +8641,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "63fde29e936bf6898052950de1bcc047bf6370ce"
+                    "reference": "7c6d6a23e3724faf0f323afa25a68fe64197da6c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/63fde29e936bf6898052950de1bcc047bf6370ce",
-                    "reference": "63fde29e936bf6898052950de1bcc047bf6370ce",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/7c6d6a23e3724faf0f323afa25a68fe64197da6c",
+                    "reference": "7c6d6a23e3724faf0f323afa25a68fe64197da6c",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-19 17:54:38",
+                "time": "2016-10-19 19:25:28",
                 "type": "library",
                 "extra": {
                     "readme": {
