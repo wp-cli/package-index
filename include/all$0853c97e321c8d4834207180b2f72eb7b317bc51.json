@@ -8626,6 +8626,74 @@
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
                 }
+            },
+            "dev-2-refine-readme": {
+                "name": "runcommand/doctor",
+                "version": "dev-2-refine-readme",
+                "version_normalized": "dev-2-refine-readme",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:runcommand/doctor.git",
+                    "reference": "7b456863e8a0f51e6b45d8e4807a1140b0607c58"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/7b456863e8a0f51e6b45d8e4807a1140b0607c58",
+                    "reference": "7b456863e8a0f51e6b45d8e4807a1140b0607c58",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-19 12:28:21",
+                "type": "library",
+                "extra": {
+                    "readme": {
+                        "shields": [
+                            "[![CircleCI](https://circleci.com/gh/runcommand/doctor.svg?style=svg&circle-token=383527fb616ce6acb8e7da293c0dfac1cc2a9a10)](https://circleci.com/gh/runcommand/doctor)"
+                        ],
+                        "sections": [
+                            "Overview",
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "overview": {
+                            "body": "bin/readme/overview-body.md"
+                        },
+                        "installing": {
+                            "body": "bin/readme/installing-body.md"
+                        },
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
+                        },
+                        "show_powered_by": false
+                    },
+                    "commands": [
+                        "doctor check",
+                        "doctor list"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Diagnose problems within WordPress by running a series of checks for symptoms.",
+                "homepage": "https://runcommand.io/wp/doctor/",
+                "support": {
+                    "source": "https://github.com/runcommand/doctor/tree/2-refine-readme"
+                }
             }
         },
         "runcommand/find-unused-themes": {
@@ -9047,12 +9115,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "66e875ce5afff391bf75b7a2165919af50b4506a"
+                    "reference": "57d5388985221b5bdf0f111680017f4db12021ce"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/66e875ce5afff391bf75b7a2165919af50b4506a",
-                    "reference": "66e875ce5afff391bf75b7a2165919af50b4506a",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/57d5388985221b5bdf0f111680017f4db12021ce",
+                    "reference": "57d5388985221b5bdf0f111680017f4db12021ce",
                     "shasum": ""
                 },
                 "require": {
@@ -9061,7 +9129,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-12 12:40:58",
+                "time": "2016-10-19 12:29:14",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -9106,19 +9174,19 @@
                     "source": "https://github.com/runcommand/profile/tree/master"
                 }
             },
-            "dev-50-profile-mu-plugins": {
+            "dev-clarify-fiels": {
                 "name": "runcommand/profile",
-                "version": "dev-50-profile-mu-plugins",
-                "version_normalized": "dev-50-profile-mu-plugins",
+                "version": "dev-clarify-fiels",
+                "version_normalized": "dev-clarify-fiels",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "8ef779f8cd939f2125ea426dc3b3a38084acca57"
+                    "reference": "75bb6f6c5023cc158f54c194541eb24f0a9a917a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/8ef779f8cd939f2125ea426dc3b3a38084acca57",
-                    "reference": "8ef779f8cd939f2125ea426dc3b3a38084acca57",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/75bb6f6c5023cc158f54c194541eb24f0a9a917a",
+                    "reference": "75bb6f6c5023cc158f54c194541eb24f0a9a917a",
                     "shasum": ""
                 },
                 "require": {
@@ -9127,7 +9195,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-19 11:56:53",
+                "time": "2016-10-19 12:27:31",
                 "type": "library",
                 "extra": {
                     "commands": [
@@ -9169,7 +9237,7 @@
                 "description": "Quickly identify what's slow with WordPress.",
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
-                    "source": "https://github.com/runcommand/profile/tree/50-profile-mu-plugins"
+                    "source": "https://github.com/runcommand/profile/tree/clarify-fiels"
                 }
             }
         },
