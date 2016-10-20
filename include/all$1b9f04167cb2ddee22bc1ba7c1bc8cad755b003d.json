@@ -6300,19 +6300,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikedance/wp-cli-favorite-plugins.git",
-                    "reference": "b8245c7a1abf259d300e598d0c420981e09eb7f7"
+                    "reference": "57d1963356be2084661ba663d338c0b537b609cd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mikedance/wp-cli-favorite-plugins/zipball/b8245c7a1abf259d300e598d0c420981e09eb7f7",
-                    "reference": "b8245c7a1abf259d300e598d0c420981e09eb7f7",
+                    "url": "https://api.github.com/repos/mikedance/wp-cli-favorite-plugins/zipball/57d1963356be2084661ba663d338c0b537b609cd",
+                    "reference": "57d1963356be2084661ba663d338c0b537b609cd",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-06-17 21:16:31",
-                "type": "library",
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-20 17:17:55",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "command.php"
