@@ -5117,19 +5117,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/stianlik/wp-cli-mig.git",
-                    "reference": "696fc59d144e829994754ed06035123d8b781427"
+                    "reference": "9da130c566cfeb2a11b7afa7a98d1d9ad00fb891"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/stianlik/wp-cli-mig/zipball/696fc59d144e829994754ed06035123d8b781427",
-                    "reference": "696fc59d144e829994754ed06035123d8b781427",
+                    "url": "https://api.github.com/repos/stianlik/wp-cli-mig/zipball/9da130c566cfeb2a11b7afa7a98d1d9ad00fb891",
+                    "reference": "9da130c566cfeb2a11b7afa7a98d1d9ad00fb891",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2016-04-11 12:27:16",
-                "type": "library",
+                "time": "2016-10-20 20:10:19",
+                "type": "wp-cli-package",
                 "autoload": {
                     "psr-0": {
                         "Foogile\\WpCli\\Migrate\\": "src/"
