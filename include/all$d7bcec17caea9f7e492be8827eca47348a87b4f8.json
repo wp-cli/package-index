@@ -9122,19 +9122,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/query-debug.git",
-                    "reference": "103042bc01c5bcade3940efa3758eeb2674cccf2"
+                    "reference": "0b12f07fab88f77c0655dcd98e29cbffd1828469"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/103042bc01c5bcade3940efa3758eeb2674cccf2",
-                    "reference": "103042bc01c5bcade3940efa3758eeb2674cccf2",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/0b12f07fab88f77c0655dcd98e29cbffd1828469",
+                    "reference": "0b12f07fab88f77c0655dcd98e29cbffd1828469",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-15 14:30:31",
-                "type": "library",
+                "time": "2016-10-20 13:41:02",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "command.php"
@@ -9222,19 +9222,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/user-reset-password.git",
-                    "reference": "b3f3cd27b6d63438ac66131050212e7b941d2aa3"
+                    "reference": "f7366bca11ad1906720929e8464da247534978bc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/user-reset-password/zipball/b3f3cd27b6d63438ac66131050212e7b941d2aa3",
-                    "reference": "b3f3cd27b6d63438ac66131050212e7b941d2aa3",
+                    "url": "https://api.github.com/repos/runcommand/user-reset-password/zipball/f7366bca11ad1906720929e8464da247534978bc",
+                    "reference": "f7366bca11ad1906720929e8464da247534978bc",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-05 22:36:25",
-                "type": "library",
+                "time": "2016-10-20 13:40:37",
+                "type": "wp-cli-package",
                 "extra": {
                     "commands": [
                         "user reset-password"
