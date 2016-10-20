@@ -5839,19 +5839,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
-                    "reference": "cd084926e10e0cb507c7fe92c3a723c4cec952ef"
+                    "reference": "78cce8a69a0d273668aaa1aa527f438dd720da8c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/cd084926e10e0cb507c7fe92c3a723c4cec952ef",
-                    "reference": "cd084926e10e0cb507c7fe92c3a723c4cec952ef",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/78cce8a69a0d273668aaa1aa527f438dd720da8c",
+                    "reference": "78cce8a69a0d273668aaa1aa527f438dd720da8c",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-10-13 23:21:50",
-                "type": "command",
+                "time": "2016-10-20 19:57:41",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "generate-posts.php"
@@ -6429,19 +6429,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/miya0001/wp-plugins-api.git",
-                    "reference": "bf65e2000838ed62f045399b54f260cd9b00f6fb"
+                    "reference": "995fe01095dd9186751cc34df7231fec0c588f40"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/miya0001/wp-plugins-api/zipball/bf65e2000838ed62f045399b54f260cd9b00f6fb",
-                    "reference": "bf65e2000838ed62f045399b54f260cd9b00f6fb",
+                    "url": "https://api.github.com/repos/miya0001/wp-plugins-api/zipball/995fe01095dd9186751cc34df7231fec0c588f40",
+                    "reference": "995fe01095dd9186751cc34df7231fec0c588f40",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2015-02-23 06:13:42",
-                "type": "library",
+                "time": "2016-10-20 19:59:22",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "cli.php"
@@ -6642,12 +6642,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/miya0001/wp-cli-vhosts.git",
-                    "reference": "ca71e270cfc7fd1f7e85147a705d20398d0d2d78"
+                    "reference": "e7aed4b9b2e06cb8b90957c4df07fedc8f93e91f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/miya0001/wp-cli-vhosts/zipball/ca71e270cfc7fd1f7e85147a705d20398d0d2d78",
-                    "reference": "ca71e270cfc7fd1f7e85147a705d20398d0d2d78",
+                    "url": "https://api.github.com/repos/miya0001/wp-cli-vhosts/zipball/e7aed4b9b2e06cb8b90957c4df07fedc8f93e91f",
+                    "reference": "e7aed4b9b2e06cb8b90957c4df07fedc8f93e91f",
                     "shasum": ""
                 },
                 "require": {
@@ -6656,8 +6656,8 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-14 14:08:06",
-                "type": "library",
+                "time": "2016-10-20 19:59:08",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "cli.php"
