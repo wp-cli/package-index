@@ -430,12 +430,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
-                    "reference": "e46dc0560e2eae0a627c9e8e9ab5b3f61d266b43"
+                    "reference": "f09b5df6a12d8a370432452141e12f945f9ecf5f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/e46dc0560e2eae0a627c9e8e9ab5b3f61d266b43",
-                    "reference": "e46dc0560e2eae0a627c9e8e9ab5b3f61d266b43",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/f09b5df6a12d8a370432452141e12f945f9ecf5f",
+                    "reference": "f09b5df6a12d8a370432452141e12f945f9ecf5f",
                     "shasum": ""
                 },
                 "require": {
@@ -448,8 +448,8 @@
                     "satooshi/php-coveralls": "^1.0",
                     "wp-cli/wp-cli": "^0.22.0"
                 },
-                "time": "2016-08-30 09:28:36",
-                "type": "library",
+                "time": "2016-10-20 18:53:33",
+                "type": "wp-cli-package",
                 "autoload": {
                     "psr-4": {
                         "WP_CLI_Dotenv\\": "src/"
@@ -485,7 +485,7 @@
                 "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
                 "support": {
                     "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v1.0.2"
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master"
                 }
             }
         },
@@ -497,19 +497,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-http-command.git",
-                    "reference": "07cb6c7da67b2b9d7be5f6c0c3eee2b26668bdf8"
+                    "reference": "ee6d74158447b8bc455a6fadee5773e6a7837b6e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-http-command/zipball/07cb6c7da67b2b9d7be5f6c0c3eee2b26668bdf8",
-                    "reference": "07cb6c7da67b2b9d7be5f6c0c3eee2b26668bdf8",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-http-command/zipball/ee6d74158447b8bc455a6fadee5773e6a7837b6e",
+                    "reference": "ee6d74158447b8bc455a6fadee5773e6a7837b6e",
                     "shasum": ""
                 },
                 "require": {
                     "php": "^5.5 | ^7.0"
                 },
-                "time": "2016-05-15 17:43:54",
-                "type": "library",
+                "time": "2016-10-20 18:54:09",
+                "type": "wp-cli-package",
                 "autoload": {
                     "psr-4": {
                         "WP_HTTP_Command\\": "src"
@@ -651,12 +651,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
-                    "reference": "bc27f290b0e560b26c39a913e1fac1dfaf0a773c"
+                    "reference": "f8cdf5b0fde9c7816255ac38bd61d3aad9ff9e61"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/bc27f290b0e560b26c39a913e1fac1dfaf0a773c",
-                    "reference": "bc27f290b0e560b26c39a913e1fac1dfaf0a773c",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/f8cdf5b0fde9c7816255ac38bd61d3aad9ff9e61",
+                    "reference": "f8cdf5b0fde9c7816255ac38bd61d3aad9ff9e61",
                     "shasum": ""
                 },
                 "require": {
@@ -669,8 +669,8 @@
                     "johnpbloch/wordpress": "^4.6",
                     "wp-cli/wp-cli": "^0.24.0"
                 },
-                "time": "2016-09-12 21:50:55",
-                "type": "library",
+                "time": "2016-10-20 18:54:36",
+                "type": "wp-cli-package",
                 "autoload": {
                     "psr-4": {
                         "WP_CLI_Login\\": "src/"
@@ -929,12 +929,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "3657713e58a15ebd478ca7f431fdc90c901a8824"
+                    "reference": "5637efca1c1efd8ccc52adc7c01bc4774b0b043b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/3657713e58a15ebd478ca7f431fdc90c901a8824",
-                    "reference": "3657713e58a15ebd478ca7f431fdc90c901a8824",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/5637efca1c1efd8ccc52adc7c01bc4774b0b043b",
+                    "reference": "5637efca1c1efd8ccc52adc7c01bc4774b0b043b",
                     "shasum": ""
                 },
                 "require": {
@@ -947,8 +947,8 @@
                     "johnpbloch/wordpress": "^4.6",
                     "wp-cli/wp-cli": "^0.24.1"
                 },
-                "time": "2016-10-02 18:41:10",
-                "type": "library",
+                "time": "2016-10-20 18:54:52",
+                "type": "wp-cli-package",
                 "extra": {
                     "commands": [
                         "valet new",
@@ -1000,7 +1000,7 @@
                 ],
                 "support": {
                     "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/v1.1.0"
+                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/master"
                 }
             },
             "dev-develop": {
