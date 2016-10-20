@@ -2377,19 +2377,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/dictator.git",
-                    "reference": "22fa7b907c98b9e6c1356d86595dae5b3821510e"
+                    "reference": "5151f24afc9ecad4ff7980ac340e293c2f7d72c7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/22fa7b907c98b9e6c1356d86595dae5b3821510e",
-                    "reference": "22fa7b907c98b9e6c1356d86595dae5b3821510e",
+                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/5151f24afc9ecad4ff7980ac340e293c2f7d72c7",
+                    "reference": "5151f24afc9ecad4ff7980ac340e293c2f7d72c7",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-04-08 21:18:56",
-                "type": "library",
+                "time": "2016-10-20 14:09:27",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "dictator.php"
@@ -2461,16 +2461,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-cli-reset-post-date-command.git",
-                    "reference": "47ae69033325ce8aa812913709ca314d6502183b"
+                    "reference": "b8fee099420a86e6fb1e1c0009655c4a136bb465"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-cli-reset-post-date-command/zipball/47ae69033325ce8aa812913709ca314d6502183b",
-                    "reference": "47ae69033325ce8aa812913709ca314d6502183b",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-cli-reset-post-date-command/zipball/b8fee099420a86e6fb1e1c0009655c4a136bb465",
+                    "reference": "b8fee099420a86e6fb1e1c0009655c4a136bb465",
                     "shasum": ""
                 },
-                "time": "2014-01-10 04:46:50",
-                "type": "library",
+                "time": "2016-10-20 14:08:38",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "wp-cli-reset-post-date-command.php"
@@ -2500,19 +2500,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/wp-cli-stat-command.git",
-                    "reference": "eb44c95126e1c65852f7305b00c3471f385d638a"
+                    "reference": "d308e5b9e21f7604cbf538366adc60bf623e0822"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-cli-stat-command/zipball/eb44c95126e1c65852f7305b00c3471f385d638a",
-                    "reference": "eb44c95126e1c65852f7305b00c3471f385d638a",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-cli-stat-command/zipball/d308e5b9e21f7604cbf538366adc60bf623e0822",
+                    "reference": "d308e5b9e21f7604cbf538366adc60bf623e0822",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2014-01-13 22:02:54",
-                "type": "command",
+                "time": "2016-10-20 14:08:17",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "wp-cli-stat-command.php"
@@ -9096,16 +9096,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/precache.git",
-                    "reference": "59a17930db4b4d90b4f04690d38714a9f5f8cbd1"
+                    "reference": "003bab02c798eaa0e89b35e527af6251896074a7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/59a17930db4b4d90b4f04690d38714a9f5f8cbd1",
-                    "reference": "59a17930db4b4d90b4f04690d38714a9f5f8cbd1",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/003bab02c798eaa0e89b35e527af6251896074a7",
+                    "reference": "003bab02c798eaa0e89b35e527af6251896074a7",
                     "shasum": ""
                 },
-                "time": "2016-09-15 14:21:06",
-                "type": "library",
+                "time": "2016-10-20 14:09:00",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "command.php"
@@ -11338,19 +11338,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "ca563c273071ec86ea6a28d8a359f89ac0307d5e"
+                    "reference": "30a979f0a496a55a3c9d2f0620d7cd34fb495fae"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/ca563c273071ec86ea6a28d8a359f89ac0307d5e",
-                    "reference": "ca563c273071ec86ea6a28d8a359f89ac0307d5e",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/30a979f0a496a55a3c9d2f0620d7cd34fb495fae",
+                    "reference": "30a979f0a496a55a3c9d2f0620d7cd34fb495fae",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-07-19 14:56:00",
-                "type": "library",
+                "time": "2016-10-20 14:07:54",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "wp-rest-cli.php"
