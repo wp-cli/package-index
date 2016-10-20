@@ -4416,6 +4416,63 @@
                     "source": "https://github.com/eriktorsner/wp-bootstrap/tree/master"
                 }
             },
+            "0.5.2": {
+                "name": "eriktorsner/wp-bootstrap",
+                "version": "0.5.2",
+                "version_normalized": "0.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eriktorsner/wp-bootstrap.git",
+                    "reference": "94a3e3b1054e80e2c9a72afbb2b0448ecc2dd7a2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eriktorsner/wp-bootstrap/zipball/94a3e3b1054e80e2c9a72afbb2b0448ecc2dd7a2",
+                    "reference": "94a3e3b1054e80e2c9a72afbb2b0448ecc2dd7a2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.9",
+                    "pimple/pimple": "~3.0",
+                    "symfony/yaml": "^2.8",
+                    "vlucas/phpdotenv": "^2.2"
+                },
+                "require-dev": {
+                    "10up/wp_mock": "dev-master"
+                },
+                "time": "2016-10-20 14:50:08",
+                "bin": [
+                    "bin/wpbootstrap"
+                ],
+                "type": "wp-cli-package",
+                "autoload": {
+                    "psr-4": {
+                        "Wpbootstrap\\": "src"
+                    },
+                    "files": [
+                        "wpcli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Erik Torsner",
+                        "email": "erik@torgesta.com",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Utils for bootstrapping a WordPress installation",
+                "homepage": "https://github.com/eriktorsner/wp-bootstrap/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/eriktorsner/wp-bootstrap/issues",
+                    "source": "https://github.com/eriktorsner/wp-bootstrap/tree/master"
+                }
+            },
             "dev-master": {
                 "name": "eriktorsner/wp-bootstrap",
                 "version": "dev-master",
@@ -8085,19 +8142,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/astorm/wp-static-html-output-plugin.git",
-                    "reference": "511f8158d58f9dfe7a12297d7a2c1135f31e8d3a"
+                    "reference": "91c19d998635ad5b148809e90c834fb763d21314"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/511f8158d58f9dfe7a12297d7a2c1135f31e8d3a",
-                    "reference": "511f8158d58f9dfe7a12297d7a2c1135f31e8d3a",
+                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/91c19d998635ad5b148809e90c834fb763d21314",
+                    "reference": "91c19d998635ad5b148809e90c834fb763d21314",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3"
                 },
-                "time": "2014-03-04 00:14:51",
-                "type": "command",
+                "time": "2016-10-20 14:56:57",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "cli.php"
