@@ -1951,19 +1951,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/boonebgorges/wp-cli-buddypress.git",
-                    "reference": "a3035e9b08023c8374807dc272251c968300c162"
+                    "reference": "a7d57ae0311ec0ada309a38c1723171bfb62b2fb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-buddypress/zipball/a3035e9b08023c8374807dc272251c968300c162",
-                    "reference": "a3035e9b08023c8374807dc272251c968300c162",
+                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-buddypress/zipball/a7d57ae0311ec0ada309a38c1723171bfb62b2fb",
+                    "reference": "a7d57ae0311ec0ada309a38c1723171bfb62b2fb",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3"
                 },
-                "time": "2016-07-20 20:13:16",
-                "type": "command",
+                "time": "2016-10-20 19:32:52",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "wp-cli-bp.php"
@@ -2093,20 +2093,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/boonebgorges/wp-cli-git-helper.git",
-                    "reference": "4e85c91b354fdeb2099d341511cfa759660afbb3"
+                    "reference": "d5115467e247e362519410d8dc817d06cd1a8c4f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-git-helper/zipball/4e85c91b354fdeb2099d341511cfa759660afbb3",
-                    "reference": "4e85c91b354fdeb2099d341511cfa759660afbb3",
+                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-git-helper/zipball/d5115467e247e362519410d8dc817d06cd1a8c4f",
+                    "reference": "d5115467e247e362519410d8dc817d06cd1a8c4f",
                     "shasum": ""
                 },
                 "require": {
                     "kbjr/git.php": "dev-master",
                     "php": ">=5.3"
                 },
-                "time": "2016-08-15 21:39:20",
-                "type": "command",
+                "time": "2016-10-20 19:33:05",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "wp-cli-git-helper.php"
