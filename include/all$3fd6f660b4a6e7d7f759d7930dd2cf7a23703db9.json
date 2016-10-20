@@ -7277,19 +7277,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/petenelson/wp-cli-size.git",
-                    "reference": "22f12f445032361382158b49796817f2c1a80966"
+                    "reference": "5a43de229c5fda8cdb5ceea52768cd67c6943302"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/petenelson/wp-cli-size/zipball/22f12f445032361382158b49796817f2c1a80966",
-                    "reference": "22f12f445032361382158b49796817f2c1a80966",
+                    "url": "https://api.github.com/repos/petenelson/wp-cli-size/zipball/5a43de229c5fda8cdb5ceea52768cd67c6943302",
+                    "reference": "5a43de229c5fda8cdb5ceea52768cd67c6943302",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-23 18:05:42",
-                "type": "library",
+                "time": "2016-10-20 21:07:22",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "command.php"
