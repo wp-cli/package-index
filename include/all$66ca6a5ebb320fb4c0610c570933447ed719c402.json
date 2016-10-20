@@ -1705,19 +1705,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/binarygary/db-checkpoint.git",
-                    "reference": "b154c8f1f08582d1b18e23aaaaabaa078e094273"
+                    "reference": "0ce2c78e1fe6e62efe80a5f20c3ae03ad3a46d0e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/b154c8f1f08582d1b18e23aaaaabaa078e094273",
-                    "reference": "b154c8f1f08582d1b18e23aaaaabaa078e094273",
+                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/0ce2c78e1fe6e62efe80a5f20c3ae03ad3a46d0e",
+                    "reference": "0ce2c78e1fe6e62efe80a5f20c3ae03ad3a46d0e",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-10-17 02:46:26",
-                "type": "library",
+                "time": "2016-10-20 14:20:40",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "db-checkpoint.php"
@@ -4780,12 +4780,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ernilambar/database-command.git",
-                    "reference": "254669f6e403e8f1743d4c4370670c4175281060"
+                    "reference": "6b0388c7ebe61f6e46df0cb368712a9d613a73ee"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/254669f6e403e8f1743d4c4370670c4175281060",
-                    "reference": "254669f6e403e8f1743d4c4370670c4175281060",
+                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/6b0388c7ebe61f6e46df0cb368712a9d613a73ee",
+                    "reference": "6b0388c7ebe61f6e46df0cb368712a9d613a73ee",
                     "shasum": ""
                 },
                 "require": {
@@ -4794,8 +4794,8 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-23 11:22:30",
-                "type": "command",
+                "time": "2016-10-20 14:24:25",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "command.php"
@@ -4819,7 +4819,7 @@
                     "wp-cli"
                 ],
                 "support": {
-                    "source": "https://github.com/ernilambar/database-command/tree/v0.1.1",
+                    "source": "https://github.com/ernilambar/database-command/tree/master",
                     "issues": "https://github.com/ernilambar/database-command/issues"
                 }
             },
@@ -7999,19 +7999,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pressbooks/pb-cli.git",
-                    "reference": "f12d55c7a90ef1a5895444356cfc5f3e2e27e935"
+                    "reference": "7e0d1fe992078bc70bfc26ed45f41407be1c964a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/f12d55c7a90ef1a5895444356cfc5f3e2e27e935",
-                    "reference": "f12d55c7a90ef1a5895444356cfc5f3e2e27e935",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/7e0d1fe992078bc70bfc26ed45f41407be1c964a",
+                    "reference": "7e0d1fe992078bc70bfc26ed45f41407be1c964a",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-30 22:16:16",
-                "type": "library",
+                "time": "2016-10-20 14:27:58",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "command.php"
@@ -8686,75 +8686,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "e0c648733818e58bcf89251ef3b2d7803b7289cf"
+                    "reference": "5c316f8469c15b4a20e8dcdc74da013782421c0f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/e0c648733818e58bcf89251ef3b2d7803b7289cf",
-                    "reference": "e0c648733818e58bcf89251ef3b2d7803b7289cf",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/5c316f8469c15b4a20e8dcdc74da013782421c0f",
+                    "reference": "5c316f8469c15b4a20e8dcdc74da013782421c0f",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-07 22:28:28",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "hook"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "List callbacks registered to a given action or filter.",
-                "homepage": "https://runcommand.io/wp/hook/",
-                "support": {
-                    "source": "https://github.com/runcommand/hook/tree/master"
-                }
-            },
-            "dev-danielbachhuber-patch-1": {
-                "name": "runcommand/hook",
-                "version": "dev-danielbachhuber-patch-1",
-                "version_normalized": "dev-danielbachhuber-patch-1",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/hook.git",
-                    "reference": "b1411d366f3d13d920b4b6dc83a280922492fe29"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/b1411d366f3d13d920b4b6dc83a280922492fe29",
-                    "reference": "b1411d366f3d13d920b4b6dc83a280922492fe29",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-20 13:44:35",
+                "time": "2016-10-20 14:30:43",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -8790,7 +8733,7 @@
                 "description": "List callbacks registered to a given action or filter.",
                 "homepage": "https://runcommand.io/wp/hook/",
                 "support": {
-                    "source": "https://github.com/runcommand/hook/tree/danielbachhuber-patch-1"
+                    "source": "https://github.com/runcommand/hook/tree/master"
                 }
             }
         },
@@ -8994,68 +8937,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/media-sizes.git",
-                    "reference": "30a090c057c05e580dad402d94356a5638a28a4a"
+                    "reference": "7a9df541cf77b11a67b82ae77af953f600f3d90a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/30a090c057c05e580dad402d94356a5638a28a4a",
-                    "reference": "30a090c057c05e580dad402d94356a5638a28a4a",
+                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/7a9df541cf77b11a67b82ae77af953f600f3d90a",
+                    "reference": "7a9df541cf77b11a67b82ae77af953f600f3d90a",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-26 21:05:16",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "media sizes"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "List media sizes registered with WordPress.",
-                "homepage": "https://runcommand.io/wp/media-sizes/",
-                "support": {
-                    "source": "https://github.com/runcommand/media-sizes/tree/master"
-                }
-            },
-            "dev-danielbachhuber-patch-1": {
-                "name": "runcommand/media-sizes",
-                "version": "dev-danielbachhuber-patch-1",
-                "version_normalized": "dev-danielbachhuber-patch-1",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/media-sizes.git",
-                    "reference": "2f7af91569111903a046bdbc052e9fb4aedf2cf4"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/2f7af91569111903a046bdbc052e9fb4aedf2cf4",
-                    "reference": "2f7af91569111903a046bdbc052e9fb4aedf2cf4",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-20 13:42:06",
+                "time": "2016-10-20 14:30:57",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -9084,7 +8977,7 @@
                 "description": "List media sizes registered with WordPress.",
                 "homepage": "https://runcommand.io/wp/media-sizes/",
                 "support": {
-                    "source": "https://github.com/runcommand/media-sizes/tree/danielbachhuber-patch-1"
+                    "source": "https://github.com/runcommand/media-sizes/tree/master"
                 }
             }
         },
@@ -9211,12 +9104,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "b24e47a86e3f12fc3c3e770096b4b5b8c548b548"
+                    "reference": "4afd95dee36dce993aa2090a8a21b411d276d1af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/b24e47a86e3f12fc3c3e770096b4b5b8c548b548",
-                    "reference": "b24e47a86e3f12fc3c3e770096b4b5b8c548b548",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/4afd95dee36dce993aa2090a8a21b411d276d1af",
+                    "reference": "4afd95dee36dce993aa2090a8a21b411d276d1af",
                     "shasum": ""
                 },
                 "require": {
@@ -9225,73 +9118,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-20 02:11:15",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "profile stage",
-                        "profile hook",
-                        "profile eval",
-                        "profile eval-file"
-                    ],
-                    "readme": {
-                        "shields": [
-                            "[![Buy Now](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/buy-now-129.svg)](https://runcommand.memberful.com/checkout?plan=16079)",
-                            "[![CircleCI](https://circleci.com/gh/runcommand/profile/tree/master.svg?style=svg&circle-token=d916e588bf7c8ac469a3bd01930cf9eed886debe)](https://circleci.com/gh/runcommand/profile/tree/master)"
-                        ],
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "overview": {
-                            "post": "bin/readme/overview-body.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme/installing-body.md"
-                        },
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/master"
-                }
-            },
-            "dev-danielbachhuber-patch-1": {
-                "name": "runcommand/profile",
-                "version": "dev-danielbachhuber-patch-1",
-                "version_normalized": "dev-danielbachhuber-patch-1",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "c9b462d912bdd7aa27382af75d962149a037d7b6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/c9b462d912bdd7aa27382af75d962149a037d7b6",
-                    "reference": "c9b462d912bdd7aa27382af75d962149a037d7b6",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-20 13:41:39",
+                "time": "2016-10-20 14:31:03",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -9333,7 +9160,7 @@
                 "description": "Quickly identify what's slow with WordPress.",
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
-                    "source": "https://github.com/runcommand/profile/tree/danielbachhuber-patch-1"
+                    "source": "https://github.com/runcommand/profile/tree/master"
                 }
             }
         },
@@ -9807,12 +9634,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/getshifter/wp-cli-shifter.git",
-                    "reference": "ff6ef0f9c69d0ee3838c0b4bef64f270e88e51b9"
+                    "reference": "48da6337355b399bc42720a0a5844853a86fcc94"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/ff6ef0f9c69d0ee3838c0b4bef64f270e88e51b9",
-                    "reference": "ff6ef0f9c69d0ee3838c0b4bef64f270e88e51b9",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/48da6337355b399bc42720a0a5844853a86fcc94",
+                    "reference": "48da6337355b399bc42720a0a5844853a86fcc94",
                     "shasum": ""
                 },
                 "require": {
@@ -9821,8 +9648,8 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-13 08:10:21",
-                "type": "library",
+                "time": "2016-10-20 14:27:58",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "cli.php"
@@ -10893,19 +10720,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "1d3109bac17ab2461e0c8dc39d177b7ce592b4f1"
+                    "reference": "04c178a8678e18b244d1f00392bda724b9951f21"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/1d3109bac17ab2461e0c8dc39d177b7ce592b4f1",
-                    "reference": "1d3109bac17ab2461e0c8dc39d177b7ce592b4f1",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/04c178a8678e18b244d1f00392bda724b9951f21",
+                    "reference": "04c178a8678e18b244d1f00392bda724b9951f21",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-14 05:01:18",
-                "type": "library",
+                "time": "2016-10-20 14:29:46",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "cli.php"
@@ -11429,19 +11256,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "95e15b92acf6098aa12386101d6265771daed13e"
+                    "reference": "b476aad3d6f697bc1f60d247e3bcdca8e0fdcad7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/95e15b92acf6098aa12386101d6265771daed13e",
-                    "reference": "95e15b92acf6098aa12386101d6265771daed13e",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/b476aad3d6f697bc1f60d247e3bcdca8e0fdcad7",
+                    "reference": "b476aad3d6f697bc1f60d247e3bcdca8e0fdcad7",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-19 13:15:21",
-                "type": "library",
+                "time": "2016-10-20 14:27:15",
+                "type": "wp-cli-package",
                 "extra": {
                     "commands": [
                         "scaffold package",
@@ -11469,104 +11296,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
-                }
-            },
-            "dev-2567-composer-type": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-2567-composer-type",
-                "version_normalized": "dev-2567-composer-type",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "2be1a70bc75397d0251c5e4746ae09eccb289f7e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/2be1a70bc75397d0251c5e4746ae09eccb289f7e",
-                    "reference": "2be1a70bc75397d0251c5e4746ae09eccb289f7e",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-20 13:20:58",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/2567-composer-type"
-                }
-            },
-            "dev-danielbachhuber-patch-1": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-danielbachhuber-patch-1",
-                "version_normalized": "dev-danielbachhuber-patch-1",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "8ce76d4fa26457d5fc2cd5574ee28e3b4a152aac"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/8ce76d4fa26457d5fc2cd5574ee28e3b4a152aac",
-                    "reference": "8ce76d4fa26457d5fc2cd5574ee28e3b4a152aac",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-20 13:28:14",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/danielbachhuber-patch-1"
                 }
             },
             "dev-render-mustache": {
