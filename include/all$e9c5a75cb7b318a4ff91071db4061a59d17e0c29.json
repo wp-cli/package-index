@@ -5300,54 +5300,6 @@
             }
         },
         "geekpress/wp-rocket-cli": {
-            "1.0": {
-                "name": "GeekPress/wp-rocket-cli",
-                "version": "1.0",
-                "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/GeekPress/wp-rocket-cli.git",
-                    "reference": "e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/GeekPress/wp-rocket-cli/zipball/e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c",
-                    "reference": "e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0"
-                },
-                "time": "2014-05-23 18:29:43",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "wp-rocket-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Jonathan Buttigieg (WP Rocket Team)",
-                        "homepage": "http://wp-rocket.me",
-                        "email": "jonathan@wp-rocket.me",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Add a `wp rocket` command to support the WP Rocket plugin",
-                "homepage": "https://github.com/GeekPress/WP-Rocket-CLI",
-                "keywords": [
-                    "cache",
-                    "rocket",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/GeekPress/wp-rocket-cli/tree/1.0",
-                    "issues": "https://github.com/GeekPress/wp-rocket-cli/issues"
-                }
-            },
             "dev-master": {
                 "name": "GeekPress/wp-rocket-cli",
                 "version": "dev-master",
@@ -5397,169 +5349,49 @@
                 }
             }
         },
-        "humanmade/wp-remote-cli": {
-            "dev-master": {
-                "name": "humanmade/wp-remote-cli",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+        "getshifter/wp-cli-shifter": {
+            "0.1.1": {
+                "name": "getshifter/wp-cli-shifter",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/humanmade/wp-remote-cli.git",
-                    "reference": "4305ca16cc24dc3dd473adb2c893c26576357ac3"
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "63fdf633e21abf25100bba7ee0bcb62a5dca70e6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/4305ca16cc24dc3dd473adb2c893c26576357ac3",
-                    "reference": "4305ca16cc24dc3dd473adb2c893c26576357ac3",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/63fdf633e21abf25100bba7ee0bcb62a5dca70e6",
+                    "reference": "63fdf633e21abf25100bba7ee0bcb62a5dca70e6",
                     "shasum": ""
                 },
-                "time": "2014-01-09 02:56:03",
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-30 05:38:47",
                 "type": "library",
                 "autoload": {
                     "files": [
-                        "wp-remote-cli.php"
+                        "cli.php"
                     ]
                 },
                 "license": [
-                    "MIT"
+                    "GPL-2.0"
                 ],
                 "authors": [
                     {
-                        "name": "Humanmade",
-                        "email": "hello@hmn.md"
-                    },
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@hmn.md"
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
                     }
                 ],
-                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
                 "support": {
-                    "source": "https://github.com/humanmade/wp-remote-cli/tree/master",
-                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
-                }
-            },
-            "dev-deploy": {
-                "name": "humanmade/wp-remote-cli",
-                "version": "dev-deploy",
-                "version_normalized": "dev-deploy",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/humanmade/wp-remote-cli.git",
-                    "reference": "f1690c6fe510a48b3106b2c833f6c6f49a5c7064"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/f1690c6fe510a48b3106b2c833f6c6f49a5c7064",
-                    "reference": "f1690c6fe510a48b3106b2c833f6c6f49a5c7064",
-                    "shasum": ""
-                },
-                "time": "2013-11-23 00:56:39",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "wp-remote-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Humanmade",
-                        "email": "hello@hmn.md"
-                    },
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@hmn.md"
-                    }
-                ],
-                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
-                "support": {
-                    "source": "https://github.com/humanmade/wp-remote-cli/tree/deploy",
-                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
-                }
-            },
-            "dev-endpoint-fixes": {
-                "name": "humanmade/wp-remote-cli",
-                "version": "dev-endpoint-fixes",
-                "version_normalized": "dev-endpoint-fixes",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/humanmade/wp-remote-cli.git",
-                    "reference": "137cf5bc98860fc8336e339d273b9adc4057ce51"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/137cf5bc98860fc8336e339d273b9adc4057ce51",
-                    "reference": "137cf5bc98860fc8336e339d273b9adc4057ce51",
-                    "shasum": ""
-                },
-                "time": "2013-10-03 16:47:27",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "wp-remote-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Humanmade",
-                        "email": "hello@hmn.md"
-                    },
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@hmn.md"
-                    }
-                ],
-                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
-                "support": {
-                    "source": "https://github.com/humanmade/wp-remote-cli/tree/endpoint-fixes",
-                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
-                }
-            },
-            "dev-fourth-level-commands": {
-                "name": "humanmade/wp-remote-cli",
-                "version": "dev-fourth-level-commands",
-                "version_normalized": "dev-fourth-level-commands",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/humanmade/wp-remote-cli.git",
-                    "reference": "1ffb5234066a6fa1d5ff802e5e03590f7000d91a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/1ffb5234066a6fa1d5ff802e5e03590f7000d91a",
-                    "reference": "1ffb5234066a6fa1d5ff802e5e03590f7000d91a",
-                    "shasum": ""
-                },
-                "time": "2013-10-30 01:49:59",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "wp-remote-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Humanmade",
-                        "email": "hello@hmn.md"
-                    },
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@hmn.md"
-                    }
-                ],
-                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
-                "support": {
-                    "source": "https://github.com/humanmade/wp-remote-cli/tree/fourth-level-commands",
-                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/master",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
                 }
             }
         },
@@ -8065,78 +7897,6 @@
                 }
             }
         },
-        "pressbooks/pb-cli": {
-            "dev-master": {
-                "name": "pressbooks/pb-cli",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pressbooks/pb-cli.git",
-                    "reference": "f12d55c7a90ef1a5895444356cfc5f3e2e27e935"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/f12d55c7a90ef1a5895444356cfc5f3e2e27e935",
-                    "reference": "f12d55c7a90ef1a5895444356cfc5f3e2e27e935",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-08-30 22:16:16",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL 2.0+"
-                ],
-                "description": "A suite of wp-cli commands for Pressbooks.",
-                "homepage": "https://github.com/pressbooks/pb-cli/",
-                "support": {
-                    "source": "https://github.com/pressbooks/pb-cli/tree/dev",
-                    "issues": "https://github.com/pressbooks/pb-cli/issues"
-                }
-            },
-            "dev-dev": {
-                "name": "pressbooks/pb-cli",
-                "version": "dev-dev",
-                "version_normalized": "dev-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pressbooks/pb-cli.git",
-                    "reference": "7e0d1fe992078bc70bfc26ed45f41407be1c964a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/7e0d1fe992078bc70bfc26ed45f41407be1c964a",
-                    "reference": "7e0d1fe992078bc70bfc26ed45f41407be1c964a",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-20 14:27:58",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL 2.0+"
-                ],
-                "description": "A suite of wp-cli commands for Pressbooks.",
-                "homepage": "https://github.com/pressbooks/pb-cli/",
-                "support": {
-                    "source": "https://github.com/pressbooks/pb-cli/tree/dev",
-                    "issues": "https://github.com/pressbooks/pb-cli/issues"
-                }
-            }
-        },
         "pulsestorm/wp-static-html-output-plugin": {
             "dev-master": {
                 "name": "pulsestorm/wp-static-html-output-plugin",
@@ -9598,142 +9358,10 @@
                     "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
                 }
             },
-            "0.1.1": {
-                "name": "shifter/cli",
-                "version": "0.1.1",
-                "version_normalized": "0.1.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
-                    "reference": "63fdf633e21abf25100bba7ee0bcb62a5dca70e6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/63fdf633e21abf25100bba7ee0bcb62a5dca70e6",
-                    "reference": "63fdf633e21abf25100bba7ee0bcb62a5dca70e6",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-30 05:38:47",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Shifter Team",
-                        "homepage": "https://getshifter.io/"
-                    }
-                ],
-                "description": "WP-CLI commands for the Shifter",
-                "homepage": "https://github.com/getshifter/wp-cli-shifter",
-                "support": {
-                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/master",
-                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
-                }
-            },
             "1.0.1": {
                 "name": "shifter/cli",
                 "version": "1.0.1",
                 "version_normalized": "1.0.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
-                    "reference": "b6f4ca27731d3d9fb5f55103d5867c426d37e46e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/b6f4ca27731d3d9fb5f55103d5867c426d37e46e",
-                    "reference": "b6f4ca27731d3d9fb5f55103d5867c426d37e46e",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-30 06:04:17",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Shifter Team",
-                        "homepage": "https://getshifter.io/"
-                    }
-                ],
-                "description": "WP-CLI commands for the Shifter",
-                "homepage": "https://github.com/getshifter/wp-cli-shifter",
-                "support": {
-                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/1.0.1",
-                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
-                }
-            },
-            "dev-master": {
-                "name": "shifter/cli",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
-                    "reference": "48da6337355b399bc42720a0a5844853a86fcc94"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/48da6337355b399bc42720a0a5844853a86fcc94",
-                    "reference": "48da6337355b399bc42720a0a5844853a86fcc94",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-20 14:27:58",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Shifter Team",
-                        "homepage": "https://getshifter.io/"
-                    }
-                ],
-                "description": "WP-CLI commands for the Shifter",
-                "homepage": "https://github.com/getshifter/wp-cli-shifter",
-                "support": {
-                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/master",
-                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
-                }
-            },
-            "dev-stable": {
-                "name": "shifter/cli",
-                "version": "dev-stable",
-                "version_normalized": "dev-stable",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/getshifter/wp-cli-shifter.git",
@@ -11434,6 +11062,56 @@
                 "support": {
                     "source": "https://github.com/wp-cli/server-command/tree/master",
                     "issues": "https://github.com/wp-cli/server-command/issues"
+                }
+            }
+        },
+        "wp-cli/wp-rocket-cli": {
+            "1.0": {
+                "name": "wp-cli/wp-rocket-cli",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/GeekPress/wp-rocket-cli.git",
+                    "reference": "e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/GeekPress/wp-rocket-cli/zipball/e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c",
+                    "reference": "e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-05-23 18:29:43",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-rocket-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jonathan Buttigieg (WP Rocket Team)",
+                        "homepage": "http://wp-rocket.me",
+                        "email": "jonathan@wp-rocket.me",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Add a `wp rocket` command to support the WP Rocket plugin",
+                "homepage": "https://github.com/GeekPress/WP-Rocket-CLI",
+                "keywords": [
+                    "cache",
+                    "rocket",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/GeekPress/wp-rocket-cli/tree/1.0",
+                    "issues": "https://github.com/GeekPress/wp-rocket-cli/issues"
                 }
             }
         },
