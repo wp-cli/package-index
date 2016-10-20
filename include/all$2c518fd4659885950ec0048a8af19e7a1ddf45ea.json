@@ -8745,19 +8745,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/manifest.git",
-                    "reference": "4cace349c8d77424d9ab92c0280e2b67e76b5dc0"
+                    "reference": "eb19aee8dde76af0a2ecbd9fe97f7ecbb81c58cd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/4cace349c8d77424d9ab92c0280e2b67e76b5dc0",
-                    "reference": "4cace349c8d77424d9ab92c0280e2b67e76b5dc0",
+                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/eb19aee8dde76af0a2ecbd9fe97f7ecbb81c58cd",
+                    "reference": "eb19aee8dde76af0a2ecbd9fe97f7ecbb81c58cd",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-26 21:33:41",
-                "type": "library",
+                "time": "2016-10-20 14:31:25",
+                "type": "wp-cli-package",
                 "extra": {
                     "commands": [
                         "manifest"
@@ -8836,56 +8836,6 @@
                 "homepage": "https://runcommand.io/wp/manifest/",
                 "support": {
                     "source": "https://github.com/runcommand/manifest/tree/active-plugins"
-                }
-            },
-            "dev-danielbachhuber-patch-1": {
-                "name": "runcommand/manifest",
-                "version": "dev-danielbachhuber-patch-1",
-                "version_normalized": "dev-danielbachhuber-patch-1",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/manifest.git",
-                    "reference": "78670df119a9bf19f672b52a284503da371360f7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/78670df119a9bf19f672b52a284503da371360f7",
-                    "reference": "78670df119a9bf19f672b52a284503da371360f7",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-20 13:44:00",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "manifest"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "See what's going on inside of WordPress.",
-                "homepage": "https://runcommand.io/wp/manifest/",
-                "support": {
-                    "source": "https://github.com/runcommand/manifest/tree/danielbachhuber-patch-1"
                 }
             }
         },
@@ -10169,16 +10119,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/tillkruss/wp-cli-kraken.git",
-                    "reference": "0158ca54e4a431f2d32948c203b9ae1dc87f7244"
+                    "reference": "637b47ae0c2c4c0d40ba981e306724b7af327236"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/tillkruss/wp-cli-kraken/zipball/0158ca54e4a431f2d32948c203b9ae1dc87f7244",
-                    "reference": "0158ca54e4a431f2d32948c203b9ae1dc87f7244",
+                    "url": "https://api.github.com/repos/tillkruss/wp-cli-kraken/zipball/637b47ae0c2c4c0d40ba981e306724b7af327236",
+                    "reference": "637b47ae0c2c4c0d40ba981e306724b7af327236",
                     "shasum": ""
                 },
-                "time": "2015-01-09 09:09:57",
-                "type": "library",
+                "time": "2016-10-20 14:39:14",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "command.php"
@@ -10209,19 +10159,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/timhysniu/wp-cli-template.git",
-                    "reference": "11344f96cedc322372c40a604621d829316173c5"
+                    "reference": "81e7373c6570d8a40636c8c019e261d76d22a305"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/timhysniu/wp-cli-template/zipball/11344f96cedc322372c40a604621d829316173c5",
-                    "reference": "11344f96cedc322372c40a604621d829316173c5",
+                    "url": "https://api.github.com/repos/timhysniu/wp-cli-template/zipball/81e7373c6570d8a40636c8c019e261d76d22a305",
+                    "reference": "81e7373c6570d8a40636c8c019e261d76d22a305",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-06-23 01:03:57",
-                "type": "library",
+                "time": "2016-10-20 14:35:55",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "command.php"
@@ -10252,19 +10202,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/timhysniu/wp-dbdelta.git",
-                    "reference": "16e6aaf474e5da0a7c6cde84fcbc50e120cfcfe3"
+                    "reference": "f601ba5b494ef61ef76f121cf4b1f43f788a5f54"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/timhysniu/wp-dbdelta/zipball/16e6aaf474e5da0a7c6cde84fcbc50e120cfcfe3",
-                    "reference": "16e6aaf474e5da0a7c6cde84fcbc50e120cfcfe3",
+                    "url": "https://api.github.com/repos/timhysniu/wp-dbdelta/zipball/f601ba5b494ef61ef76f121cf4b1f43f788a5f54",
+                    "reference": "f601ba5b494ef61ef76f121cf4b1f43f788a5f54",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-19 00:56:00",
-                "type": "library",
+                "time": "2016-10-20 14:36:20",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "command.php"
