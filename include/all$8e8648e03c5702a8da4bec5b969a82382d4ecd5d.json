@@ -9569,19 +9569,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/sebastiaandegeus/wp-cli-salts-command.git",
-                    "reference": "8d38ed5d936ee2b7099fc6966bef0a6127dd45df"
+                    "reference": "1ba4b95598774320aaa9cf2a2340e1dd5a9c091b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/sebastiaandegeus/wp-cli-salts-command/zipball/8d38ed5d936ee2b7099fc6966bef0a6127dd45df",
-                    "reference": "8d38ed5d936ee2b7099fc6966bef0a6127dd45df",
+                    "url": "https://api.github.com/repos/sebastiaandegeus/wp-cli-salts-command/zipball/1ba4b95598774320aaa9cf2a2340e1dd5a9c091b",
+                    "reference": "1ba4b95598774320aaa9cf2a2340e1dd5a9c091b",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2014-07-17 14:21:22",
-                "type": "library",
+                "time": "2016-10-21 08:24:49",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "salt-command.php"
