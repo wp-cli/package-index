@@ -5972,12 +5972,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/markri/wp-sec.git",
-                    "reference": "adae7185ac4d07006d718fdde77fd22174482e1c"
+                    "reference": "1ed422ce0f87684bad648af8dd5bdf2693257ad9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/adae7185ac4d07006d718fdde77fd22174482e1c",
-                    "reference": "adae7185ac4d07006d718fdde77fd22174482e1c",
+                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/1ed422ce0f87684bad648af8dd5bdf2693257ad9",
+                    "reference": "1ed422ce0f87684bad648af8dd5bdf2693257ad9",
                     "shasum": ""
                 },
                 "require": {
@@ -5986,8 +5986,8 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-25 15:28:31",
-                "type": "library",
+                "time": "2016-10-21 07:12:53",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "command.php"
@@ -5999,7 +5999,7 @@
                 "description": "Checks Wordpress installation for CVE security issues at wpvulndb.com",
                 "homepage": "https://github.com/markri/wp-sec",
                 "support": {
-                    "source": "https://github.com/markri/wp-sec/tree/0.0.1",
+                    "source": "https://github.com/markri/wp-sec/tree/master",
                     "issues": "https://github.com/markri/wp-sec/issues"
                 }
             }
