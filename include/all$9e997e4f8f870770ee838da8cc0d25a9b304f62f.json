@@ -6680,6 +6680,50 @@
                     "issues": "https://github.com/miya0001/wp-cli-vhosts/issues"
                 }
             },
+            "1.4.1": {
+                "name": "miya0001/wp-cli-vhosts",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/miya0001/wp-cli-vhosts.git",
+                    "reference": "e7aed4b9b2e06cb8b90957c4df07fedc8f93e91f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/miya0001/wp-cli-vhosts/zipball/e7aed4b9b2e06cb8b90957c4df07fedc8f93e91f",
+                    "reference": "e7aed4b9b2e06cb8b90957c4df07fedc8f93e91f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-20 19:59:08",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "https://github.com/miya0001"
+                    }
+                ],
+                "description": "Manage multiple WordPress sites in the server.",
+                "homepage": "https://github.com/miya0001/wp-cli-vhosts",
+                "support": {
+                    "source": "https://github.com/miya0001/wp-cli-vhosts/tree/master",
+                    "issues": "https://github.com/miya0001/wp-cli-vhosts/issues"
+                }
+            },
             "dev-master": {
                 "name": "miya0001/wp-cli-vhosts",
                 "version": "dev-master",
@@ -6731,12 +6775,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/miya0001/wp-cli-vhosts.git",
-                    "reference": "daa2746b4e5aab2d9982099b1172052e1ece038f"
+                    "reference": "e7aed4b9b2e06cb8b90957c4df07fedc8f93e91f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/miya0001/wp-cli-vhosts/zipball/daa2746b4e5aab2d9982099b1172052e1ece038f",
-                    "reference": "daa2746b4e5aab2d9982099b1172052e1ece038f",
+                    "url": "https://api.github.com/repos/miya0001/wp-cli-vhosts/zipball/e7aed4b9b2e06cb8b90957c4df07fedc8f93e91f",
+                    "reference": "e7aed4b9b2e06cb8b90957c4df07fedc8f93e91f",
                     "shasum": ""
                 },
                 "require": {
@@ -6745,8 +6789,8 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-05-14 10:38:27",
-                "type": "library",
+                "time": "2016-10-20 19:59:08",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "cli.php"
@@ -9731,6 +9775,50 @@
                     "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
                 }
             },
+            "1.0.2": {
+                "name": "shifter/cli",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "2fdf92bcc38e0d2c30a2ba8729c01d459b5dcd1a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/2fdf92bcc38e0d2c30a2ba8729c01d459b5dcd1a",
+                    "reference": "2fdf92bcc38e0d2c30a2ba8729c01d459b5dcd1a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-21 19:10:23",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/stable",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
             "dev-master": {
                 "name": "shifter/cli",
                 "version": "dev-master",
@@ -10814,6 +10902,47 @@
                 "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
                 "support": {
                     "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.2",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.4.3": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "1.4.3",
+                "version_normalized": "1.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "e30d5380588461ee97c5833e1fe267e4aac2b441"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/e30d5380588461ee97c5833e1fe267e4aac2b441",
+                    "reference": "e30d5380588461ee97c5833e1fe267e4aac2b441",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-21 19:13:32",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.3",
                     "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
                 }
             },
