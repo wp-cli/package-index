@@ -10178,19 +10178,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/szepeviktor/wp-cli-database-prefix-command.git",
-                    "reference": "66e2b6139501c2352ff939e742ae72c723d8e294"
+                    "reference": "337036bfad4a1b6f7151651ec9f933ac7dc074b1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/szepeviktor/wp-cli-database-prefix-command/zipball/66e2b6139501c2352ff939e742ae72c723d8e294",
-                    "reference": "66e2b6139501c2352ff939e742ae72c723d8e294",
+                    "url": "https://api.github.com/repos/szepeviktor/wp-cli-database-prefix-command/zipball/337036bfad4a1b6f7151651ec9f933ac7dc074b1",
+                    "reference": "337036bfad4a1b6f7151651ec9f933ac7dc074b1",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2014-08-03 18:43:01",
-                "type": "command",
+                "time": "2016-10-21 00:18:26",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "wp-cli-database-prefix-command.php"
