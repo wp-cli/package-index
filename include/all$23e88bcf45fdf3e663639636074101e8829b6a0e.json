@@ -6467,6 +6467,47 @@
                     "issues": "https://github.com/miya0001/wp-plugins-api/issues"
                 }
             },
+            "1.0.1": {
+                "name": "miya0001/wp-cli-plugins-api",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/miya0001/wp-plugins-api.git",
+                    "reference": "995fe01095dd9186751cc34df7231fec0c588f40"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/miya0001/wp-plugins-api/zipball/995fe01095dd9186751cc34df7231fec0c588f40",
+                    "reference": "995fe01095dd9186751cc34df7231fec0c588f40",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-20 19:59:22",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "https://github.com/miya0001"
+                    }
+                ],
+                "description": "WP-CLI command for Plugins API",
+                "homepage": "http://github.com/miya0001/wp-cli-plugins-api",
+                "support": {
+                    "source": "https://github.com/miya0001/wp-plugins-api/tree/master",
+                    "issues": "https://github.com/miya0001/wp-plugins-api/issues"
+                }
+            },
             "dev-master": {
                 "name": "miya0001/wp-cli-plugins-api",
                 "version": "dev-master",
