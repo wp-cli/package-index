@@ -5571,16 +5571,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/iandunn/wp-cli-plugin-active-on-sites.git",
-                    "reference": "f8d37572d1dd1ce752520c7dc16479e8f1ce7830"
+                    "reference": "620f8f3cd8d441959dda5ed3bf409bb6e26e704c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/iandunn/wp-cli-plugin-active-on-sites/zipball/f8d37572d1dd1ce752520c7dc16479e8f1ce7830",
-                    "reference": "f8d37572d1dd1ce752520c7dc16479e8f1ce7830",
+                    "url": "https://api.github.com/repos/iandunn/wp-cli-plugin-active-on-sites/zipball/620f8f3cd8d441959dda5ed3bf409bb6e26e704c",
+                    "reference": "620f8f3cd8d441959dda5ed3bf409bb6e26e704c",
                     "shasum": ""
                 },
-                "time": "2016-07-29 14:03:10",
-                "type": "library",
+                "time": "2016-10-21 14:11:58",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "wp-cli-plugin-active-on-sites.php"
@@ -5612,16 +5612,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/iandunn/wp-cli-rename-db-prefix.git",
-                    "reference": "c3b76c59c533c1a5cdb8428b6a5496deb8263b44"
+                    "reference": "8cffe0eddbda761e51c2a02c2eb8826c1ce29404"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/iandunn/wp-cli-rename-db-prefix/zipball/c3b76c59c533c1a5cdb8428b6a5496deb8263b44",
-                    "reference": "c3b76c59c533c1a5cdb8428b6a5496deb8263b44",
+                    "url": "https://api.github.com/repos/iandunn/wp-cli-rename-db-prefix/zipball/8cffe0eddbda761e51c2a02c2eb8826c1ce29404",
+                    "reference": "8cffe0eddbda761e51c2a02c2eb8826c1ce29404",
                     "shasum": ""
                 },
-                "time": "2016-07-19 19:18:45",
-                "type": "library",
+                "time": "2016-10-21 14:12:28",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "wp-cli-rename-db-prefix.php"
