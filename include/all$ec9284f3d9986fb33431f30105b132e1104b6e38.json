@@ -1338,19 +1338,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/alessandrotesoro/wp-usergen-cli.git",
-                    "reference": "0dce7c1ce236fccd23c31b76e580135207b732a0"
+                    "reference": "c985d31aa1ae835e476822ce42fb19a4d78a7828"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/alessandrotesoro/wp-usergen-cli/zipball/0dce7c1ce236fccd23c31b76e580135207b732a0",
-                    "reference": "0dce7c1ce236fccd23c31b76e580135207b732a0",
+                    "url": "https://api.github.com/repos/alessandrotesoro/wp-usergen-cli/zipball/c985d31aa1ae835e476822ce42fb19a4d78a7828",
+                    "reference": "c985d31aa1ae835e476822ce42fb19a4d78a7828",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-08-22 10:38:33",
-                "type": "library",
+                "time": "2016-10-23 16:40:28",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "wp-usergen-cli.php"
