@@ -1301,19 +1301,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser.git",
-                    "reference": "4f2f3e5339127aad6a02272c18804f284679c927"
+                    "reference": "9de321cc35227b98672efafb8746c049489f3c15"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/alessandrotesoro/wp-cli-helpscout-docs-parser/zipball/4f2f3e5339127aad6a02272c18804f284679c927",
-                    "reference": "4f2f3e5339127aad6a02272c18804f284679c927",
+                    "url": "https://api.github.com/repos/alessandrotesoro/wp-cli-helpscout-docs-parser/zipball/9de321cc35227b98672efafb8746c049489f3c15",
+                    "reference": "9de321cc35227b98672efafb8746c049489f3c15",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-08-21 10:17:19",
-                "type": "library",
+                "time": "2016-10-23 16:40:10",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "wp-cli-helpscout-docs-parser.php"
