@@ -8812,18 +8812,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "02232caaa13fab59d725f2abd920fe84851fb76f"
+                    "reference": "194b6de27621a89a1ec5b95d1fba2742d375811c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/02232caaa13fab59d725f2abd920fe84851fb76f",
-                    "reference": "02232caaa13fab59d725f2abd920fe84851fb76f",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/194b6de27621a89a1ec5b95d1fba2742d375811c",
+                    "reference": "194b6de27621a89a1ec5b95d1fba2742d375811c",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-24 12:59:16",
+                "time": "2016-10-24 13:16:24",
                 "type": "wp-cli-package",
                 "extra": {
                     "readme": {
@@ -8871,74 +8871,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
-                }
-            },
-            "dev-error-undefined-option": {
-                "name": "runcommand/doctor",
-                "version": "dev-error-undefined-option",
-                "version_normalized": "dev-error-undefined-option",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "2c78a194bd6fae41a0848382e99ba7c360f54215"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/2c78a194bd6fae41a0848382e99ba7c360f54215",
-                    "reference": "2c78a194bd6fae41a0848382e99ba7c360f54215",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-24 12:59:31",
-                "type": "wp-cli-package",
-                "extra": {
-                    "readme": {
-                        "shields": [
-                            "[![CircleCI](https://circleci.com/gh/runcommand/doctor.svg?style=svg&circle-token=383527fb616ce6acb8e7da293c0dfac1cc2a9a10)](https://circleci.com/gh/runcommand/doctor)"
-                        ],
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "overview": {
-                            "body": "bin/readme/overview-body.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme/installing-body.md"
-                        },
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        },
-                        "show_powered_by": false
-                    },
-                    "commands": [
-                        "doctor check",
-                        "doctor list"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Diagnose problems within WordPress by running a series of checks for symptoms.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/error-undefined-option"
                 }
             },
             "dev-skipped-checks": {
