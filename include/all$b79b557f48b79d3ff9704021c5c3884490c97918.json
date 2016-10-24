@@ -8812,18 +8812,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "9d117d930292969c4a4c5222a101d46885e96866"
+                    "reference": "ad87e677a8377515ad94034fe20444168d13a328"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/9d117d930292969c4a4c5222a101d46885e96866",
-                    "reference": "9d117d930292969c4a4c5222a101d46885e96866",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/ad87e677a8377515ad94034fe20444168d13a328",
+                    "reference": "ad87e677a8377515ad94034fe20444168d13a328",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-24 13:23:43",
+                "time": "2016-10-24 15:12:24",
                 "type": "wp-cli-package",
                 "extra": {
                     "readme": {
@@ -8871,142 +8871,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
-                }
-            },
-            "dev-default-status-message": {
-                "name": "runcommand/doctor",
-                "version": "dev-default-status-message",
-                "version_normalized": "dev-default-status-message",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "17f2caf293f1b1d51d5ca8c072ea0ba7467fc00b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/17f2caf293f1b1d51d5ca8c072ea0ba7467fc00b",
-                    "reference": "17f2caf293f1b1d51d5ca8c072ea0ba7467fc00b",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-24 13:24:42",
-                "type": "wp-cli-package",
-                "extra": {
-                    "readme": {
-                        "shields": [
-                            "[![CircleCI](https://circleci.com/gh/runcommand/doctor.svg?style=svg&circle-token=383527fb616ce6acb8e7da293c0dfac1cc2a9a10)](https://circleci.com/gh/runcommand/doctor)"
-                        ],
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "overview": {
-                            "body": "bin/readme/overview-body.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme/installing-body.md"
-                        },
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        },
-                        "show_powered_by": false
-                    },
-                    "commands": [
-                        "doctor check",
-                        "doctor list"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Diagnose problems within WordPress by running a series of checks for symptoms.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/default-status-message"
-                }
-            },
-            "dev-overview-tweaks": {
-                "name": "runcommand/doctor",
-                "version": "dev-overview-tweaks",
-                "version_normalized": "dev-overview-tweaks",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "f58cb990e0638d03b83934e6ac28044ac16a3674"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/f58cb990e0638d03b83934e6ac28044ac16a3674",
-                    "reference": "f58cb990e0638d03b83934e6ac28044ac16a3674",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-24 13:37:46",
-                "type": "wp-cli-package",
-                "extra": {
-                    "readme": {
-                        "shields": [
-                            "[![CircleCI](https://circleci.com/gh/runcommand/doctor.svg?style=svg&circle-token=383527fb616ce6acb8e7da293c0dfac1cc2a9a10)](https://circleci.com/gh/runcommand/doctor)"
-                        ],
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "overview": {
-                            "body": "bin/readme/overview-body.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme/installing-body.md"
-                        },
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        },
-                        "show_powered_by": false
-                    },
-                    "commands": [
-                        "doctor check",
-                        "doctor list"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Diagnose problems within WordPress by running a series of checks for symptoms.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/overview-tweaks"
                 }
             }
         },
