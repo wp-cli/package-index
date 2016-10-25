@@ -651,12 +651,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
-                    "reference": "f8cdf5b0fde9c7816255ac38bd61d3aad9ff9e61"
+                    "reference": "c10bed414ea594b00c3ba10cc78b0915cb476cc9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/f8cdf5b0fde9c7816255ac38bd61d3aad9ff9e61",
-                    "reference": "f8cdf5b0fde9c7816255ac38bd61d3aad9ff9e61",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/c10bed414ea594b00c3ba10cc78b0915cb476cc9",
+                    "reference": "c10bed414ea594b00c3ba10cc78b0915cb476cc9",
                     "shasum": ""
                 },
                 "require": {
@@ -669,8 +669,8 @@
                     "johnpbloch/wordpress": "^4.6",
                     "wp-cli/wp-cli": "^0.24.0"
                 },
-                "time": "2016-10-20 18:54:36",
-                "type": "wp-cli-package",
+                "time": "2016-10-25 21:11:14",
+                "type": "library",
                 "autoload": {
                     "psr-4": {
                         "WP_CLI_Login\\": "src/"
@@ -694,7 +694,7 @@
                         "homepage": "https://aaemnnost.tv"
                     }
                 ],
-                "description": "Login to WordPress with secure passwordless magic links.",
+                "description": "Log in to WordPress with secure passwordless magic links.",
                 "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command",
                 "support": {
                     "source": "https://github.com/aaemnnosttv/wp-cli-login-command/tree/master",
