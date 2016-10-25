@@ -6301,19 +6301,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/michaloo/wp-cli-environmentalize.git",
-                    "reference": "8319fd9a99b920cab6adaf3b62ebba641a34751e"
+                    "reference": "cb65ec3e9ddc5411c0238562d2fada6a0e0a5ee0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/michaloo/wp-cli-environmentalize/zipball/8319fd9a99b920cab6adaf3b62ebba641a34751e",
-                    "reference": "8319fd9a99b920cab6adaf3b62ebba641a34751e",
+                    "url": "https://api.github.com/repos/michaloo/wp-cli-environmentalize/zipball/cb65ec3e9ddc5411c0238562d2fada6a0e0a5ee0",
+                    "reference": "cb65ec3e9ddc5411c0238562d2fada6a0e0a5ee0",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-05-12 20:53:32",
-                "type": "library",
+                "time": "2016-10-25 20:47:05",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "command.php"
