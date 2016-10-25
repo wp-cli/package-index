@@ -8238,19 +8238,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pressbooks/pb-cli.git",
-                    "reference": "7e0d1fe992078bc70bfc26ed45f41407be1c964a"
+                    "reference": "d78645bb3ec9ddc8991ea131155c2c5b891fe092"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/7e0d1fe992078bc70bfc26ed45f41407be1c964a",
-                    "reference": "7e0d1fe992078bc70bfc26ed45f41407be1c964a",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/d78645bb3ec9ddc8991ea131155c2c5b891fe092",
+                    "reference": "d78645bb3ec9ddc8991ea131155c2c5b891fe092",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-20 14:27:58",
+                "time": "2016-10-25 13:51:01",
                 "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold book-theme"
+                    ]
+                },
                 "autoload": {
                     "files": [
                         "command.php"
