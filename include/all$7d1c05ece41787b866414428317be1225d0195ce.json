@@ -9298,12 +9298,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "0ca0cf77a0c49f82bcdd3bd1883475c2ee98cd2b"
+                    "reference": "55fa82627146be4641cc27181c40a4630466da8d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/0ca0cf77a0c49f82bcdd3bd1883475c2ee98cd2b",
-                    "reference": "0ca0cf77a0c49f82bcdd3bd1883475c2ee98cd2b",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/55fa82627146be4641cc27181c40a4630466da8d",
+                    "reference": "55fa82627146be4641cc27181c40a4630466da8d",
                     "shasum": ""
                 },
                 "require": {
@@ -9312,7 +9312,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-26 13:53:55",
+                "time": "2016-10-26 14:04:35",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -9355,72 +9355,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/runcommand/profile/tree/master"
-                }
-            },
-            "dev-15-profile-after": {
-                "name": "runcommand/profile",
-                "version": "dev-15-profile-after",
-                "version_normalized": "dev-15-profile-after",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "e74a9487d9fb730b2e2651a1a80b8be9aad91677"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/e74a9487d9fb730b2e2651a1a80b8be9aad91677",
-                    "reference": "e74a9487d9fb730b2e2651a1a80b8be9aad91677",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-26 13:54:43",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "profile stage",
-                        "profile hook",
-                        "profile eval",
-                        "profile eval-file"
-                    ],
-                    "readme": {
-                        "shields": [
-                            "[![Buy Now](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/buy-now-129.svg)](https://runcommand.memberful.com/checkout?plan=16079)",
-                            "[![CircleCI](https://circleci.com/gh/runcommand/profile/tree/master.svg?style=svg&circle-token=d916e588bf7c8ac469a3bd01930cf9eed886debe)](https://circleci.com/gh/runcommand/profile/tree/master)"
-                        ],
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "overview": {
-                            "post": "bin/readme/overview-body.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme/installing-body.md"
-                        },
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/15-profile-after"
                 }
             }
         },
