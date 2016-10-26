@@ -6012,16 +6012,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mattgrshaw/wp-installer.git",
-                    "reference": "0419b1144f7932e9557de70525cef550c166b18c"
+                    "reference": "d13db0033fa688e437594ab9e0dc432c92a873cb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mattgrshaw/wp-installer/zipball/0419b1144f7932e9557de70525cef550c166b18c",
-                    "reference": "0419b1144f7932e9557de70525cef550c166b18c",
+                    "url": "https://api.github.com/repos/mattgrshaw/wp-installer/zipball/d13db0033fa688e437594ab9e0dc432c92a873cb",
+                    "reference": "d13db0033fa688e437594ab9e0dc432c92a873cb",
                     "shasum": ""
                 },
-                "time": "2016-10-17 02:16:50",
-                "type": "library",
+                "time": "2016-10-26 02:38:35",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "installer.php"
