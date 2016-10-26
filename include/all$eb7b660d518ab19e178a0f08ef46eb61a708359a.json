@@ -9364,12 +9364,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "4aef3743084b7f08f6b9f82dc562e58a589c71f9"
+                    "reference": "873a94a2b6d422b61f079d3049d82877b1124de4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/4aef3743084b7f08f6b9f82dc562e58a589c71f9",
-                    "reference": "4aef3743084b7f08f6b9f82dc562e58a589c71f9",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/873a94a2b6d422b61f079d3049d82877b1124de4",
+                    "reference": "873a94a2b6d422b61f079d3049d82877b1124de4",
                     "shasum": ""
                 },
                 "require": {
@@ -9378,7 +9378,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-26 12:40:34",
+                "time": "2016-10-26 12:54:26",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
