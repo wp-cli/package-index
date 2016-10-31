@@ -8862,18 +8862,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "443c1cafe7a597e837b8c1e7c1bc2ac89ee1f57e"
+                    "reference": "92f8f236ce1e70ab3b7a097c32921d1541c6ded9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/443c1cafe7a597e837b8c1e7c1bc2ac89ee1f57e",
-                    "reference": "443c1cafe7a597e837b8c1e7c1bc2ac89ee1f57e",
+                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/92f8f236ce1e70ab3b7a097c32921d1541c6ded9",
+                    "reference": "92f8f236ce1e70ab3b7a097c32921d1541c6ded9",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-28 14:46:18",
+                "time": "2016-10-31 13:23:04",
                 "type": "wp-cli-package",
                 "extra": {
                     "readme": {
@@ -8921,74 +8921,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/runcommand/doctor/tree/master"
-                }
-            },
-            "dev-license-text": {
-                "name": "runcommand/doctor",
-                "version": "dev-license-text",
-                "version_normalized": "dev-license-text",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/doctor.git",
-                    "reference": "19ab75c18c729cc9e2313e5d1e3a0319a3fb1e3e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/doctor/zipball/19ab75c18c729cc9e2313e5d1e3a0319a3fb1e3e",
-                    "reference": "19ab75c18c729cc9e2313e5d1e3a0319a3fb1e3e",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-31 13:11:03",
-                "type": "wp-cli-package",
-                "extra": {
-                    "readme": {
-                        "shields": [
-                            "[![CircleCI](https://circleci.com/gh/runcommand/doctor.svg?style=svg&circle-token=383527fb616ce6acb8e7da293c0dfac1cc2a9a10)](https://circleci.com/gh/runcommand/doctor)"
-                        ],
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "overview": {
-                            "body": "bin/readme/overview-body.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme/installing-body.md"
-                        },
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        },
-                        "show_powered_by": false
-                    },
-                    "commands": [
-                        "doctor check",
-                        "doctor list"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Diagnose problems within WordPress by running a series of checks for symptoms.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/runcommand/doctor/tree/license-text"
                 }
             }
         },
@@ -9411,12 +9343,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:runcommand/profile.git",
-                    "reference": "55fa82627146be4641cc27181c40a4630466da8d"
+                    "reference": "57a85c72fe663a0c9e603b916c323cb610e54ed4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/55fa82627146be4641cc27181c40a4630466da8d",
-                    "reference": "55fa82627146be4641cc27181c40a4630466da8d",
+                    "url": "https://api.github.com/repos/runcommand/profile/zipball/57a85c72fe663a0c9e603b916c323cb610e54ed4",
+                    "reference": "57a85c72fe663a0c9e603b916c323cb610e54ed4",
                     "shasum": ""
                 },
                 "require": {
@@ -9425,73 +9357,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-26 14:04:35",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "profile stage",
-                        "profile hook",
-                        "profile eval",
-                        "profile eval-file"
-                    ],
-                    "readme": {
-                        "shields": [
-                            "[![Buy Now](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/buy-now-129.svg)](https://runcommand.memberful.com/checkout?plan=16079)",
-                            "[![CircleCI](https://circleci.com/gh/runcommand/profile/tree/master.svg?style=svg&circle-token=d916e588bf7c8ac469a3bd01930cf9eed886debe)](https://circleci.com/gh/runcommand/profile/tree/master)"
-                        ],
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "overview": {
-                            "post": "bin/readme/overview-body.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme/installing-body.md"
-                        },
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-premium.md"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/runcommand/profile/tree/master"
-                }
-            },
-            "dev-license": {
-                "name": "runcommand/profile",
-                "version": "dev-license",
-                "version_normalized": "dev-license",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:runcommand/profile.git",
-                    "reference": "fc92b83e3fd1f7a57869c4c01c8bff6f5f8a9e00"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/profile/zipball/fc92b83e3fd1f7a57869c4c01c8bff6f5f8a9e00",
-                    "reference": "fc92b83e3fd1f7a57869c4c01c8bff6f5f8a9e00",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-31 13:11:24",
+                "time": "2016-10-31 13:23:18",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -9533,7 +9399,7 @@
                 "description": "Quickly identify what's slow with WordPress.",
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
-                    "source": "https://github.com/runcommand/profile/tree/license"
+                    "source": "https://github.com/runcommand/profile/tree/master"
                 }
             },
             "dev-require-greater": {
