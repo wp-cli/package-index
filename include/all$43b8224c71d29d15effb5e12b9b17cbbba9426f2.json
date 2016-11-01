@@ -9135,18 +9135,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/manifest.git",
-                    "reference": "5b0b9f887308a3cb8e018f2c9778f71d243b7e5d"
+                    "reference": "0f323df98038754ce3422019fc571137b32a8211"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/5b0b9f887308a3cb8e018f2c9778f71d243b7e5d",
-                    "reference": "5b0b9f887308a3cb8e018f2c9778f71d243b7e5d",
+                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/0f323df98038754ce3422019fc571137b32a8211",
+                    "reference": "0f323df98038754ce3422019fc571137b32a8211",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-11-01 16:06:19",
+                "time": "2016-11-01 16:11:35",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
