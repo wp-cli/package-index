@@ -9270,6 +9270,67 @@
                 "support": {
                     "source": "https://github.com/runcommand/hook/tree/master"
                 }
+            },
+            "dev-add-open-badge": {
+                "name": "runcommand/hook",
+                "version": "dev-add-open-badge",
+                "version_normalized": "dev-add-open-badge",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/hook.git",
+                    "reference": "9911613befcd097392fafeff2bb574a332312962"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/9911613befcd097392fafeff2bb574a332312962",
+                    "reference": "9911613befcd097392fafeff2bb574a332312962",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-01 16:35:12",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "hook"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/hook.svg?branch=master)](https://travis-ci.org/runcommand/hook)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "List callbacks registered to a given action or filter.",
+                "homepage": "https://runcommand.io/wp/hook/",
+                "support": {
+                    "source": "https://github.com/runcommand/hook/tree/add-open-badge"
+                }
             }
         },
         "runcommand/manifest": {
@@ -9465,6 +9526,64 @@
                 "homepage": "https://runcommand.io/wp/media-sideload/",
                 "support": {
                     "source": "https://github.com/runcommand/media-sideload/tree/master"
+                }
+            },
+            "dev-add-open-badge": {
+                "name": "runcommand/media-sideload",
+                "version": "dev-add-open-badge",
+                "version_normalized": "dev-add-open-badge",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/media-sideload.git",
+                    "reference": "ad70961c3e71cf0c26612cde973f4699804add20"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/media-sideload/zipball/ad70961c3e71cf0c26612cde973f4699804add20",
+                    "reference": "ad70961c3e71cf0c26612cde973f4699804add20",
+                    "shasum": ""
+                },
+                "time": "2016-11-01 16:37:23",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "media sideload"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/media-sideload.svg?branch=master)](https://travis-ci.org/runcommand/media-sideload)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Sideload embedded images, and update post content references.",
+                "homepage": "https://runcommand.io/wp/media-sideload/",
+                "support": {
+                    "source": "https://github.com/runcommand/media-sideload/tree/add-open-badge"
                 }
             }
         },
