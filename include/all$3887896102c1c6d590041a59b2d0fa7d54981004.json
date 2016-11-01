@@ -9127,6 +9127,60 @@
                 "support": {
                     "source": "https://github.com/runcommand/manifest/tree/active-plugins"
                 }
+            },
+            "dev-add-open-badge": {
+                "name": "runcommand/manifest",
+                "version": "dev-add-open-badge",
+                "version_normalized": "dev-add-open-badge",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/manifest.git",
+                    "reference": "5b0b9f887308a3cb8e018f2c9778f71d243b7e5d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/5b0b9f887308a3cb8e018f2c9778f71d243b7e5d",
+                    "reference": "5b0b9f887308a3cb8e018f2c9778f71d243b7e5d",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-01 16:06:19",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "manifest"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/manifest.svg?branch=master)](https://travis-ci.org/runcommand/manifest)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "See what's going on inside of WordPress.",
+                "homepage": "https://runcommand.io/wp/manifest/",
+                "support": {
+                    "source": "https://github.com/runcommand/manifest/tree/add-open-badge"
+                }
             }
         },
         "runcommand/media-sideload": {
@@ -11692,18 +11746,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "f191c2d508406f140b4f69212e874aca3db94ea7"
+                    "reference": "916a62e017e63b75f736f9ce6a2c0e13c851b76f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/f191c2d508406f140b4f69212e874aca3db94ea7",
-                    "reference": "f191c2d508406f140b4f69212e874aca3db94ea7",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/916a62e017e63b75f736f9ce6a2c0e13c851b76f",
+                    "reference": "916a62e017e63b75f736f9ce6a2c0e13c851b76f",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-25 14:32:04",
+                "time": "2016-11-01 16:11:09",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -11774,55 +11828,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/render-mustache"
-                }
-            },
-            "dev-shield-no-newline": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-shield-no-newline",
-                "version_normalized": "dev-shield-no-newline",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "787ab4df61c948d68999382043054bdafcd8cbd2"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/787ab4df61c948d68999382043054bdafcd8cbd2",
-                    "reference": "787ab4df61c948d68999382043054bdafcd8cbd2",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-11-01 13:54:45",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/shield-no-newline"
                 }
             }
         },
