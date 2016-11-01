@@ -10155,6 +10155,67 @@
                 "support": {
                     "source": "https://github.com/runcommand/user-reset-password/tree/master"
                 }
+            },
+            "dev-add-open-badge": {
+                "name": "runcommand/user-reset-password",
+                "version": "dev-add-open-badge",
+                "version_normalized": "dev-add-open-badge",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/user-reset-password.git",
+                    "reference": "04eb1de7a32b824bb6447d3053adc0c27f57e5da"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/user-reset-password/zipball/04eb1de7a32b824bb6447d3053adc0c27f57e5da",
+                    "reference": "04eb1de7a32b824bb6447d3053adc0c27f57e5da",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-01 17:11:19",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "user reset-password"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/user-reset-password.svg?branch=master)](https://travis-ci.org/runcommand/user-reset-password)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Reset passwords for one or more WordPress users.",
+                "homepage": "https://runcommand.io/wp/user-reset-password/",
+                "support": {
+                    "source": "https://github.com/runcommand/user-reset-password/tree/add-open-badge"
+                }
             }
         },
         "rxnlabs/wp-composer-dependencies": {
