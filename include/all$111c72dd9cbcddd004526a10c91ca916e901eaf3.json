@@ -9637,6 +9637,60 @@
                 "support": {
                     "source": "https://github.com/runcommand/media-sizes/tree/master"
                 }
+            },
+            "dev-add-open-badge": {
+                "name": "runcommand/media-sizes",
+                "version": "dev-add-open-badge",
+                "version_normalized": "dev-add-open-badge",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/media-sizes.git",
+                    "reference": "4a0288e038d405634dcc9c3a220ee15870de38ae"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/4a0288e038d405634dcc9c3a220ee15870de38ae",
+                    "reference": "4a0288e038d405634dcc9c3a220ee15870de38ae",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-01 17:02:16",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "media sizes"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/media-sizes.svg?branch=master)](https://travis-ci.org/runcommand/media-sizes)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "List media sizes registered with WordPress.",
+                "homepage": "https://runcommand.io/wp/media-sizes/",
+                "support": {
+                    "source": "https://github.com/runcommand/media-sizes/tree/add-open-badge"
+                }
             }
         },
         "runcommand/precache": {
@@ -9676,6 +9730,66 @@
                 "homepage": "https://runcommand.io/wp/precache/",
                 "support": {
                     "source": "https://github.com/runcommand/precache/tree/master"
+                }
+            },
+            "dev-add-open-badge": {
+                "name": "runcommand/precache",
+                "version": "dev-add-open-badge",
+                "version_normalized": "dev-add-open-badge",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/precache.git",
+                    "reference": "a82e19adc0ba5da26cc01e5866124d6ee1b929d8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/a82e19adc0ba5da26cc01e5866124d6ee1b929d8",
+                    "reference": "a82e19adc0ba5da26cc01e5866124d6ee1b929d8",
+                    "shasum": ""
+                },
+                "time": "2016-11-01 17:06:47",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "precache core",
+                        "precache plugin",
+                        "precache theme"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/media-sizes.svg?branch=master)](https://travis-ci.org/runcommand/media-sizes)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Proactively download and cache core, theme, and plugin files for later installation.",
+                "homepage": "https://runcommand.io/wp/precache/",
+                "support": {
+                    "source": "https://github.com/runcommand/precache/tree/add-open-badge"
                 }
             }
         },
