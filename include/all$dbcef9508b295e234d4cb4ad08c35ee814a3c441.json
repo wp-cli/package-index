@@ -8674,12 +8674,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/assign-featured-images.git",
-                    "reference": "815e9e8d932411376d0b80a4ab6c65699a0c15f9"
+                    "reference": "1f7dfc09daa010691e52ea4c42adeca8577f1808"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/assign-featured-images/zipball/815e9e8d932411376d0b80a4ab6c65699a0c15f9",
-                    "reference": "815e9e8d932411376d0b80a4ab6c65699a0c15f9",
+                    "url": "https://api.github.com/repos/runcommand/assign-featured-images/zipball/1f7dfc09daa010691e52ea4c42adeca8577f1808",
+                    "reference": "1f7dfc09daa010691e52ea4c42adeca8577f1808",
                     "shasum": ""
                 },
                 "require": {
@@ -8688,69 +8688,8 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-20 13:50:28",
+                "time": "2016-11-01 18:24:42",
                 "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "assign-featured-images"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Assign featured images to posts that support thumbnails.",
-                "homepage": "https://runcommand.io/wp/assign-featured-images/",
-                "support": {
-                    "source": "https://github.com/runcommand/assign-featured-images/tree/master",
-                    "issues": "https://github.com/runcommand/assign-featured-images/issues"
-                }
-            },
-            "dev-add-open-badge": {
-                "name": "runcommand/assign-featured-images",
-                "version": "dev-add-open-badge",
-                "version_normalized": "dev-add-open-badge",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/assign-featured-images.git",
-                    "reference": "8e68856d6986ee8142de018a79bcf2bb21901b9d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/assign-featured-images/zipball/8e68856d6986ee8142de018a79bcf2bb21901b9d",
-                    "reference": "8e68856d6986ee8142de018a79bcf2bb21901b9d",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": ">=0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-11-01 16:25:26",
-                "type": "library",
                 "extra": {
                     "commands": [
                         "assign-featured-images"
@@ -8789,7 +8728,7 @@
                 "description": "Assign featured images to posts that support thumbnails.",
                 "homepage": "https://runcommand.io/wp/assign-featured-images/",
                 "support": {
-                    "source": "https://github.com/runcommand/assign-featured-images/tree/add-open-badge",
+                    "source": "https://github.com/runcommand/assign-featured-images/tree/master",
                     "issues": "https://github.com/runcommand/assign-featured-images/issues"
                 }
             }
@@ -8802,53 +8741,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "264b85ef81ea6c47b38e475755de6cccd5fdea25"
+                    "reference": "aff8ccc8aaf064482f90ff89200681abf3508e72"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/264b85ef81ea6c47b38e475755de6cccd5fdea25",
-                    "reference": "264b85ef81ea6c47b38e475755de6cccd5fdea25",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/aff8ccc8aaf064482f90ff89200681abf3508e72",
+                    "reference": "aff8ccc8aaf064482f90ff89200681abf3508e72",
                     "shasum": ""
                 },
-                "time": "2016-10-20 13:50:08",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Find a specific string in the database.",
-                "homepage": "https://runcommand.io/wp/db-ack/",
-                "support": {
-                    "source": "https://github.com/runcommand/db-ack/tree/master"
-                }
-            },
-            "dev-add-open-badge": {
-                "name": "runcommand/db-ack",
-                "version": "dev-add-open-badge",
-                "version_normalized": "dev-add-open-badge",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "27e5c35923969e8adfb88e14637ba39a2d0abce7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/27e5c35923969e8adfb88e14637ba39a2d0abce7",
-                    "reference": "27e5c35923969e8adfb88e14637ba39a2d0abce7",
-                    "shasum": ""
-                },
-                "time": "2016-11-01 16:21:35",
+                "time": "2016-11-01 18:24:48",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -8888,7 +8789,7 @@
                 "description": "Find a specific string in the database.",
                 "homepage": "https://runcommand.io/wp/db-ack/",
                 "support": {
-                    "source": "https://github.com/runcommand/db-ack/tree/add-open-badge"
+                    "source": "https://github.com/runcommand/db-ack/tree/master"
                 }
             }
         },
@@ -8942,59 +8843,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/dist-archive.git",
-                    "reference": "3df2ff1516da0f4ee4c1f19d948a516fb6d1a3ca"
+                    "reference": "892531ea8bba399264295baebbc23692fbd20c4a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/3df2ff1516da0f4ee4c1f19d948a516fb6d1a3ca",
-                    "reference": "3df2ff1516da0f4ee4c1f19d948a516fb6d1a3ca",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/892531ea8bba399264295baebbc23692fbd20c4a",
+                    "reference": "892531ea8bba399264295baebbc23692fbd20c4a",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-20 13:49:49",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
-                "homepage": "https://runcommand.io/wp/dist-archive/",
-                "support": {
-                    "source": "https://github.com/runcommand/dist-archive/tree/master"
-                }
-            },
-            "dev-add-open-badge": {
-                "name": "runcommand/dist-archive",
-                "version": "dev-add-open-badge",
-                "version_normalized": "dev-add-open-badge",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/dist-archive.git",
-                    "reference": "6d63b83ec2f23cbda06fd98275c5190a098db018"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/6d63b83ec2f23cbda06fd98275c5190a098db018",
-                    "reference": "6d63b83ec2f23cbda06fd98275c5190a098db018",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-11-01 16:27:30",
+                "time": "2016-11-01 18:24:32",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -9034,7 +8894,7 @@
                 "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
                 "homepage": "https://runcommand.io/wp/dist-archive/",
                 "support": {
-                    "source": "https://github.com/runcommand/dist-archive/tree/add-open-badge"
+                    "source": "https://github.com/runcommand/dist-archive/tree/master"
                 }
             }
         },
@@ -9117,59 +8977,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/find-unused-themes.git",
-                    "reference": "8ea7b451bb4cccef6a00ee6c86254ae8a5857e2e"
+                    "reference": "cecae9e2f16fb239bdfadd2ec62130e5e76fb991"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/8ea7b451bb4cccef6a00ee6c86254ae8a5857e2e",
-                    "reference": "8ea7b451bb4cccef6a00ee6c86254ae8a5857e2e",
+                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/cecae9e2f16fb239bdfadd2ec62130e5e76fb991",
+                    "reference": "cecae9e2f16fb239bdfadd2ec62130e5e76fb991",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-20 13:45:31",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Find unused themes on a multisite network.",
-                "homepage": "https://runcommand.io/wp/find-unused-themes/",
-                "support": {
-                    "source": "https://github.com/runcommand/find-unused-themes/tree/master"
-                }
-            },
-            "dev-add-open-badge": {
-                "name": "runcommand/find-unused-themes",
-                "version": "dev-add-open-badge",
-                "version_normalized": "dev-add-open-badge",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/find-unused-themes.git",
-                    "reference": "b89d12752a631c245b6eb5f01315c0228d691384"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/b89d12752a631c245b6eb5f01315c0228d691384",
-                    "reference": "b89d12752a631c245b6eb5f01315c0228d691384",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-11-01 16:30:25",
+                "time": "2016-11-01 18:24:25",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -9209,7 +9028,7 @@
                 "description": "Find unused themes on a multisite network.",
                 "homepage": "https://runcommand.io/wp/find-unused-themes/",
                 "support": {
-                    "source": "https://github.com/runcommand/find-unused-themes/tree/add-open-badge"
+                    "source": "https://github.com/runcommand/find-unused-themes/tree/master"
                 }
             }
         },
@@ -9221,75 +9040,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "5c316f8469c15b4a20e8dcdc74da013782421c0f"
+                    "reference": "1263610ac0028a5d4fd2fd042c511eccfb0d648c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/5c316f8469c15b4a20e8dcdc74da013782421c0f",
-                    "reference": "5c316f8469c15b4a20e8dcdc74da013782421c0f",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/1263610ac0028a5d4fd2fd042c511eccfb0d648c",
+                    "reference": "1263610ac0028a5d4fd2fd042c511eccfb0d648c",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-20 14:30:43",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "hook"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "List callbacks registered to a given action or filter.",
-                "homepage": "https://runcommand.io/wp/hook/",
-                "support": {
-                    "source": "https://github.com/runcommand/hook/tree/master"
-                }
-            },
-            "dev-add-open-badge": {
-                "name": "runcommand/hook",
-                "version": "dev-add-open-badge",
-                "version_normalized": "dev-add-open-badge",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/hook.git",
-                    "reference": "9911613befcd097392fafeff2bb574a332312962"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/9911613befcd097392fafeff2bb574a332312962",
-                    "reference": "9911613befcd097392fafeff2bb574a332312962",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-11-01 16:35:12",
+                "time": "2016-11-01 18:24:19",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -9329,7 +9091,7 @@
                 "description": "List callbacks registered to a given action or filter.",
                 "homepage": "https://runcommand.io/wp/hook/",
                 "support": {
-                    "source": "https://github.com/runcommand/hook/tree/add-open-badge"
+                    "source": "https://github.com/runcommand/hook/tree/master"
                 }
             }
         },
@@ -9341,24 +9103,28 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/manifest.git",
-                    "reference": "eb19aee8dde76af0a2ecbd9fe97f7ecbb81c58cd"
+                    "reference": "073a74795b68a0ccdc7d804da610ae035a86fcd1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/eb19aee8dde76af0a2ecbd9fe97f7ecbb81c58cd",
-                    "reference": "eb19aee8dde76af0a2ecbd9fe97f7ecbb81c58cd",
+                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/073a74795b68a0ccdc7d804da610ae035a86fcd1",
+                    "reference": "073a74795b68a0ccdc7d804da610ae035a86fcd1",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-20 14:31:25",
+                "time": "2016-11-01 18:25:08",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
                         "manifest"
                     ],
                     "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/manifest.svg?branch=master)](https://travis-ci.org/runcommand/manifest)"
+                        ],
                         "sections": [
                             "Using",
                             "Installing",
@@ -9433,60 +9199,6 @@
                 "support": {
                     "source": "https://github.com/runcommand/manifest/tree/active-plugins"
                 }
-            },
-            "dev-add-open-badge": {
-                "name": "runcommand/manifest",
-                "version": "dev-add-open-badge",
-                "version_normalized": "dev-add-open-badge",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/manifest.git",
-                    "reference": "0f323df98038754ce3422019fc571137b32a8211"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/0f323df98038754ce3422019fc571137b32a8211",
-                    "reference": "0f323df98038754ce3422019fc571137b32a8211",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-11-01 16:11:35",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "manifest"
-                    ],
-                    "readme": {
-                        "shields": [
-                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
-                            "[![Build Status](https://travis-ci.org/runcommand/manifest.svg?branch=master)](https://travis-ci.org/runcommand/manifest)"
-                        ],
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "See what's going on inside of WordPress.",
-                "homepage": "https://runcommand.io/wp/manifest/",
-                "support": {
-                    "source": "https://github.com/runcommand/manifest/tree/add-open-badge"
-                }
             }
         },
         "runcommand/media-sideload": {
@@ -9497,53 +9209,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/media-sideload.git",
-                    "reference": "bd69df73085ae74f49425d8ac2ab76d71976087c"
+                    "reference": "8db78cb999e801fe98806b506f84efa349325cf2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/media-sideload/zipball/bd69df73085ae74f49425d8ac2ab76d71976087c",
-                    "reference": "bd69df73085ae74f49425d8ac2ab76d71976087c",
+                    "url": "https://api.github.com/repos/runcommand/media-sideload/zipball/8db78cb999e801fe98806b506f84efa349325cf2",
+                    "reference": "8db78cb999e801fe98806b506f84efa349325cf2",
                     "shasum": ""
                 },
-                "time": "2016-10-20 13:42:34",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Sideload embedded images, and update post content references.",
-                "homepage": "https://runcommand.io/wp/media-sideload/",
-                "support": {
-                    "source": "https://github.com/runcommand/media-sideload/tree/master"
-                }
-            },
-            "dev-add-open-badge": {
-                "name": "runcommand/media-sideload",
-                "version": "dev-add-open-badge",
-                "version_normalized": "dev-add-open-badge",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/media-sideload.git",
-                    "reference": "ad70961c3e71cf0c26612cde973f4699804add20"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/media-sideload/zipball/ad70961c3e71cf0c26612cde973f4699804add20",
-                    "reference": "ad70961c3e71cf0c26612cde973f4699804add20",
-                    "shasum": ""
-                },
-                "time": "2016-11-01 16:37:23",
+                "time": "2016-11-01 18:24:12",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -9583,7 +9257,7 @@
                 "description": "Sideload embedded images, and update post content references.",
                 "homepage": "https://runcommand.io/wp/media-sideload/",
                 "support": {
-                    "source": "https://github.com/runcommand/media-sideload/tree/add-open-badge"
+                    "source": "https://github.com/runcommand/media-sideload/tree/master"
                 }
             }
         },
@@ -9595,68 +9269,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/media-sizes.git",
-                    "reference": "7a9df541cf77b11a67b82ae77af953f600f3d90a"
+                    "reference": "9ba79010a3273b63bf7b6765ed06112900ce1098"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/7a9df541cf77b11a67b82ae77af953f600f3d90a",
-                    "reference": "7a9df541cf77b11a67b82ae77af953f600f3d90a",
+                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/9ba79010a3273b63bf7b6765ed06112900ce1098",
+                    "reference": "9ba79010a3273b63bf7b6765ed06112900ce1098",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-20 14:30:57",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "media sizes"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "List media sizes registered with WordPress.",
-                "homepage": "https://runcommand.io/wp/media-sizes/",
-                "support": {
-                    "source": "https://github.com/runcommand/media-sizes/tree/master"
-                }
-            },
-            "dev-add-open-badge": {
-                "name": "runcommand/media-sizes",
-                "version": "dev-add-open-badge",
-                "version_normalized": "dev-add-open-badge",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/media-sizes.git",
-                    "reference": "4a0288e038d405634dcc9c3a220ee15870de38ae"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/media-sizes/zipball/4a0288e038d405634dcc9c3a220ee15870de38ae",
-                    "reference": "4a0288e038d405634dcc9c3a220ee15870de38ae",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-11-01 17:02:16",
+                "time": "2016-11-01 18:24:07",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -9689,7 +9313,7 @@
                 "description": "List media sizes registered with WordPress.",
                 "homepage": "https://runcommand.io/wp/media-sizes/",
                 "support": {
-                    "source": "https://github.com/runcommand/media-sizes/tree/add-open-badge"
+                    "source": "https://github.com/runcommand/media-sizes/tree/master"
                 }
             }
         },
@@ -9701,53 +9325,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/precache.git",
-                    "reference": "003bab02c798eaa0e89b35e527af6251896074a7"
+                    "reference": "517b32c483ff06d7c8901e8ef29d197626682e34"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/003bab02c798eaa0e89b35e527af6251896074a7",
-                    "reference": "003bab02c798eaa0e89b35e527af6251896074a7",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/517b32c483ff06d7c8901e8ef29d197626682e34",
+                    "reference": "517b32c483ff06d7c8901e8ef29d197626682e34",
                     "shasum": ""
                 },
-                "time": "2016-10-20 14:09:00",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Proactively download and cache core, theme, and plugin files for later installation.",
-                "homepage": "https://runcommand.io/wp/precache/",
-                "support": {
-                    "source": "https://github.com/runcommand/precache/tree/master"
-                }
-            },
-            "dev-add-open-badge": {
-                "name": "runcommand/precache",
-                "version": "dev-add-open-badge",
-                "version_normalized": "dev-add-open-badge",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/precache.git",
-                    "reference": "a82e19adc0ba5da26cc01e5866124d6ee1b929d8"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/a82e19adc0ba5da26cc01e5866124d6ee1b929d8",
-                    "reference": "a82e19adc0ba5da26cc01e5866124d6ee1b929d8",
-                    "shasum": ""
-                },
-                "time": "2016-11-01 17:06:47",
+                "time": "2016-11-01 18:23:48",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -9789,7 +9375,7 @@
                 "description": "Proactively download and cache core, theme, and plugin files for later installation.",
                 "homepage": "https://runcommand.io/wp/precache/",
                 "support": {
-                    "source": "https://github.com/runcommand/precache/tree/add-open-badge"
+                    "source": "https://github.com/runcommand/precache/tree/master"
                 }
             }
         },
@@ -10106,75 +9692,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/user-reset-password.git",
-                    "reference": "f7366bca11ad1906720929e8464da247534978bc"
+                    "reference": "56b243a2a0ebeed3902d59a79fb217629bc890cb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/user-reset-password/zipball/f7366bca11ad1906720929e8464da247534978bc",
-                    "reference": "f7366bca11ad1906720929e8464da247534978bc",
+                    "url": "https://api.github.com/repos/runcommand/user-reset-password/zipball/56b243a2a0ebeed3902d59a79fb217629bc890cb",
+                    "reference": "56b243a2a0ebeed3902d59a79fb217629bc890cb",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-20 13:40:37",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "user reset-password"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Reset passwords for one or more WordPress users.",
-                "homepage": "https://runcommand.io/wp/user-reset-password/",
-                "support": {
-                    "source": "https://github.com/runcommand/user-reset-password/tree/master"
-                }
-            },
-            "dev-add-open-badge": {
-                "name": "runcommand/user-reset-password",
-                "version": "dev-add-open-badge",
-                "version_normalized": "dev-add-open-badge",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/user-reset-password.git",
-                    "reference": "04eb1de7a32b824bb6447d3053adc0c27f57e5da"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/user-reset-password/zipball/04eb1de7a32b824bb6447d3053adc0c27f57e5da",
-                    "reference": "04eb1de7a32b824bb6447d3053adc0c27f57e5da",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-11-01 17:11:19",
+                "time": "2016-11-01 18:23:41",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -10214,7 +9743,7 @@
                 "description": "Reset passwords for one or more WordPress users.",
                 "homepage": "https://runcommand.io/wp/user-reset-password/",
                 "support": {
-                    "source": "https://github.com/runcommand/user-reset-password/tree/add-open-badge"
+                    "source": "https://github.com/runcommand/user-reset-password/tree/master"
                 }
             }
         },
