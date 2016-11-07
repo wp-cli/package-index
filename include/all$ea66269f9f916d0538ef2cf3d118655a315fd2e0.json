@@ -5919,53 +5919,6 @@
                     "source": "https://github.com/10up/wp-hammer/tree/master",
                     "issues": "https://github.com/10up/wp-hammer/issues"
                 }
-            },
-            "dev-allow_no_kept_users": {
-                "name": "ivankruchkoff/wp-hammer",
-                "version": "dev-allow_no_kept_users",
-                "version_normalized": "dev-allow_no_kept_users",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/10up/wp-hammer.git",
-                    "reference": "b85afa78f0c1a9ba3da09b82f466011d19e6a597"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/10up/wp-hammer/zipball/b85afa78f0c1a9ba3da09b82f466011d19e6a597",
-                    "reference": "b85afa78f0c1a9ba3da09b82f466011d19e6a597",
-                    "shasum": ""
-                },
-                "require": {
-                    "heidilabs/markov-php": "dev-master",
-                    "joshtronic/php-loremipsum": "dev-master",
-                    "roderik/pwgen-php": "dev-master"
-                },
-                "time": "2016-11-03 19:08:47",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "WP_CLI\\Hammer\\": "includes/"
-                    },
-                    "files": [
-                        "wp-hammer.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Ivan Kruchkoff",
-                        "email": "ivan@kruchkoff.com",
-                        "homepage": "https://github.com/ivankruchkoff"
-                    }
-                ],
-                "description": "WP CLI Hammer Command to remove personally identifiable information and extra content for dev/test/stage purposes",
-                "homepage": "https://github.com/10up/wp-hammer",
-                "support": {
-                    "source": "https://github.com/10up/wp-hammer/tree/allow_no_kept_users",
-                    "issues": "https://github.com/10up/wp-hammer/issues"
-                }
             }
         },
         "jaywood/jw-wpcli-random-posts": {
