@@ -6991,16 +6991,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ocean90/wp-cli-flush-cache.git",
-                    "reference": "56f370ccdd3a26230d2446e6a497e8c440871eaf"
+                    "reference": "640809fac52baf14f349de6496295279d4b33b70"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ocean90/wp-cli-flush-cache/zipball/56f370ccdd3a26230d2446e6a497e8c440871eaf",
-                    "reference": "56f370ccdd3a26230d2446e6a497e8c440871eaf",
+                    "url": "https://api.github.com/repos/ocean90/wp-cli-flush-cache/zipball/640809fac52baf14f349de6496295279d4b33b70",
+                    "reference": "640809fac52baf14f349de6496295279d4b33b70",
                     "shasum": ""
                 },
-                "time": "2016-09-24 16:45:43",
-                "type": "library",
+                "time": "2016-11-07 13:51:04",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "wp-cli-flush-cache.php"
