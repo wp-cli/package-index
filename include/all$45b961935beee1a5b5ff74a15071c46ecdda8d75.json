@@ -5880,12 +5880,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/wp-hammer.git",
-                    "reference": "1083bcb198e0ef34a7c4b11eb58df6c9b8b0cdb7"
+                    "reference": "f377696b44c1c8e350fe47480ff8f2b4e50af5f8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/wp-hammer/zipball/1083bcb198e0ef34a7c4b11eb58df6c9b8b0cdb7",
-                    "reference": "1083bcb198e0ef34a7c4b11eb58df6c9b8b0cdb7",
+                    "url": "https://api.github.com/repos/10up/wp-hammer/zipball/f377696b44c1c8e350fe47480ff8f2b4e50af5f8",
+                    "reference": "f377696b44c1c8e350fe47480ff8f2b4e50af5f8",
                     "shasum": ""
                 },
                 "require": {
@@ -5893,8 +5893,8 @@
                     "joshtronic/php-loremipsum": "dev-master",
                     "roderik/pwgen-php": "dev-master"
                 },
-                "time": "2016-10-27 18:17:25",
-                "type": "library",
+                "time": "2016-11-07 14:16:32",
+                "type": "wp-cli-package",
                 "autoload": {
                     "psr-4": {
                         "WP_CLI\\Hammer\\": "includes/"
