@@ -10596,12 +10596,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/trepmal/blog-extractor.git",
-                    "reference": "bf8d8061539996a9420d9ed2150d8efbaba47ee7"
+                    "reference": "97b238ca547d63a173273d4e6439577308e81129"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/trepmal/blog-extractor/zipball/bf8d8061539996a9420d9ed2150d8efbaba47ee7",
-                    "reference": "bf8d8061539996a9420d9ed2150d8efbaba47ee7",
+                    "url": "https://api.github.com/repos/trepmal/blog-extractor/zipball/97b238ca547d63a173273d4e6439577308e81129",
+                    "reference": "97b238ca547d63a173273d4e6439577308e81129",
                     "shasum": ""
                 },
                 "require": {
@@ -10610,8 +10610,8 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-08-11 16:02:38",
-                "type": "library",
+                "time": "2016-11-07 16:59:08",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "blog-extractor-cli.php"
@@ -10636,12 +10636,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/trepmal/wp-revisions-cli.git",
-                    "reference": "c6997c8fa48a5ccf9eb5ac76e6a4472de34f1905"
+                    "reference": "ed83129c18d4860f879633ec979502fb2dfcc6ef"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/trepmal/wp-revisions-cli/zipball/c6997c8fa48a5ccf9eb5ac76e6a4472de34f1905",
-                    "reference": "c6997c8fa48a5ccf9eb5ac76e6a4472de34f1905",
+                    "url": "https://api.github.com/repos/trepmal/wp-revisions-cli/zipball/ed83129c18d4860f879633ec979502fb2dfcc6ef",
+                    "reference": "ed83129c18d4860f879633ec979502fb2dfcc6ef",
                     "shasum": ""
                 },
                 "require": {
@@ -10650,8 +10650,8 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-09-05 20:29:45",
-                "type": "library",
+                "time": "2016-11-07 16:59:45",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "revisions-cli.php"
