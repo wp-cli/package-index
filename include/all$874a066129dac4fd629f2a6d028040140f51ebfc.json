@@ -8853,18 +8853,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/dist-archive.git",
-                    "reference": "892531ea8bba399264295baebbc23692fbd20c4a"
+                    "reference": "85454c7b036a2db3ae6006ee4f7a25aedd96ee0b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/892531ea8bba399264295baebbc23692fbd20c4a",
-                    "reference": "892531ea8bba399264295baebbc23692fbd20c4a",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/85454c7b036a2db3ae6006ee4f7a25aedd96ee0b",
+                    "reference": "85454c7b036a2db3ae6006ee4f7a25aedd96ee0b",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-11-01 18:24:32",
+                "time": "2016-11-09 20:10:36",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
