@@ -5972,6 +5972,110 @@
             }
         },
         "lucatume/wpcli-wpbrowser-tests": {
+            "1.0.0": {
+                "name": "lucatume/wpcli-wpbrowser-tests",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lucatume/wpcli-wpbrowser-tests.git",
+                    "reference": "26ba53fcc2bd7f636780c25a6397aca125492f5e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lucatume/wpcli-wpbrowser-tests/zipball/26ba53fcc2bd7f636780c25a6397aca125492f5e",
+                    "reference": "26ba53fcc2bd7f636780c25a6397aca125492f5e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "wp-cli/wp-cli": "~0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "mikey179/vfsstream": "1.6.*",
+                    "phpunit/phpunit": "4.8.*",
+                    "wp-cli/wp-cli": "^0.23"
+                },
+                "time": "2016-11-08 22:36:26",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-4": {
+                        "tad\\WPCLI\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Luca Tumedei",
+                        "email": "luca@theaveragedev.com",
+                        "homepage": "http://theaveragedev.com"
+                    }
+                ],
+                "description": "Scaffold wp-browser based tests for a plugin or theme",
+                "homepage": "https://github.com/lucatume/wpcli-wpbrowser-tests",
+                "support": {
+                    "source": "https://github.com/lucatume/wpcli-wpbrowser-tests/tree/master",
+                    "issues": "https://github.com/lucatume/wpcli-wpbrowser-tests/issues"
+                }
+            },
+            "1.0.1": {
+                "name": "lucatume/wpcli-wpbrowser-tests",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lucatume/wpcli-wpbrowser-tests.git",
+                    "reference": "699927d80cfe373281934f74b77da4cf1103fe5a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lucatume/wpcli-wpbrowser-tests/zipball/699927d80cfe373281934f74b77da4cf1103fe5a",
+                    "reference": "699927d80cfe373281934f74b77da4cf1103fe5a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "wp-cli/wp-cli": "^0.23"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "mikey179/vfsstream": "1.6.*",
+                    "phpunit/phpunit": "4.8.*",
+                    "wp-cli/wp-cli": "^0.23"
+                },
+                "time": "2016-11-10 08:49:30",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-4": {
+                        "tad\\WPCLI\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Luca Tumedei",
+                        "email": "luca@theaveragedev.com",
+                        "homepage": "http://theaveragedev.com"
+                    }
+                ],
+                "description": "Scaffold wp-browser based tests for a plugin or theme",
+                "homepage": "https://github.com/lucatume/wpcli-wpbrowser-tests",
+                "support": {
+                    "source": "https://github.com/lucatume/wpcli-wpbrowser-tests/tree/master",
+                    "issues": "https://github.com/lucatume/wpcli-wpbrowser-tests/issues"
+                }
+            },
             "dev-master": {
                 "name": "lucatume/wpcli-wpbrowser-tests",
                 "version": "dev-master",
@@ -6021,50 +6125,6 @@
                 "homepage": "https://github.com/lucatume/wpcli-wpbrowser-tests",
                 "support": {
                     "source": "https://github.com/lucatume/wpcli-wpbrowser-tests/tree/master",
-                    "issues": "https://github.com/lucatume/wpcli-wpbrowser-tests/issues"
-                }
-            },
-            "dev-theme-scaffold": {
-                "name": "lucatume/wpcli-wpbrowser-tests",
-                "version": "dev-theme-scaffold",
-                "version_normalized": "dev-theme-scaffold",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/lucatume/wpcli-wpbrowser-tests.git",
-                    "reference": "204c783c09fc7e096a9a28be80635d990444236f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/lucatume/wpcli-wpbrowser-tests/zipball/204c783c09fc7e096a9a28be80635d990444236f",
-                    "reference": "204c783c09fc7e096a9a28be80635d990444236f",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "~0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "mikey179/vfsstream": "1.6.*",
-                    "phpunit/phpunit": "4.8.*",
-                    "wp-cli/wp-cli": "^0.23"
-                },
-                "time": "2016-11-08 18:19:10",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ],
-                    "psr-4": {
-                        "tad\\WPCLI\\": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Scaffold wp-browser based tests for a plugin or theme",
-                "homepage": "https://github.com/lucatume/wpcli-wpbrowser-tests",
-                "support": {
-                    "source": "https://github.com/lucatume/wpcli-wpbrowser-tests/tree/theme-scaffold",
                     "issues": "https://github.com/lucatume/wpcli-wpbrowser-tests/issues"
                 }
             }
