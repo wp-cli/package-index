@@ -5979,16 +5979,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lucatume/wpcli-wpbrowser-tests.git",
-                    "reference": "35d26fa5f46461f1d7c3c79437f6e95f0eed12a6"
+                    "reference": "699927d80cfe373281934f74b77da4cf1103fe5a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lucatume/wpcli-wpbrowser-tests/zipball/35d26fa5f46461f1d7c3c79437f6e95f0eed12a6",
-                    "reference": "35d26fa5f46461f1d7c3c79437f6e95f0eed12a6",
+                    "url": "https://api.github.com/repos/lucatume/wpcli-wpbrowser-tests/zipball/699927d80cfe373281934f74b77da4cf1103fe5a",
+                    "reference": "699927d80cfe373281934f74b77da4cf1103fe5a",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.3"
+                    "php": ">=5.3",
+                    "wp-cli/wp-cli": "^0.23"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
@@ -5996,7 +5997,7 @@
                     "phpunit/phpunit": "4.8.*",
                     "wp-cli/wp-cli": "^0.23"
                 },
-                "time": "2016-11-10 08:35:09",
+                "time": "2016-11-10 08:49:30",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
