@@ -9749,12 +9749,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/rxnlabs/wp-composer.git",
-                    "reference": "361e37e28a5ec9c1f7949965ba6944e31b22fb6d"
+                    "reference": "f75a9e58b72aa7720c4de6a36c70bd298e643fb1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/rxnlabs/wp-composer/zipball/361e37e28a5ec9c1f7949965ba6944e31b22fb6d",
-                    "reference": "361e37e28a5ec9c1f7949965ba6944e31b22fb6d",
+                    "url": "https://api.github.com/repos/rxnlabs/wp-composer/zipball/f75a9e58b72aa7720c4de6a36c70bd298e643fb1",
+                    "reference": "f75a9e58b72aa7720c4de6a36c70bd298e643fb1",
                     "shasum": ""
                 },
                 "archive": {
@@ -9782,7 +9782,7 @@
                     "phpunit/phpunit": "4.8.26",
                     "whatthejeff/nyancat-phpunit-resultprinter": "^1.2"
                 },
-                "time": "2016-11-11 20:00:30",
+                "time": "2016-11-11 20:16:35",
                 "type": "wp-cli-package",
                 "autoload": {
                     "classmap": [
