@@ -6128,6 +6128,57 @@
                     "issues": "https://github.com/lucatume/wpcli-wpbrowser-tests/issues"
                 }
             },
+            "1.0.3": {
+                "name": "lucatume/wpcli-wpbrowser-tests",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lucatume/wpcli-wpbrowser-tests.git",
+                    "reference": "68851782346adbbdb681312cf7205eeb023c9062"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lucatume/wpcli-wpbrowser-tests/zipball/68851782346adbbdb681312cf7205eeb023c9062",
+                    "reference": "68851782346adbbdb681312cf7205eeb023c9062",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "mikey179/vfsstream": "1.6.*",
+                    "phpunit/phpunit": "4.8.*",
+                    "wp-cli/wp-cli": "^0.23"
+                },
+                "time": "2016-11-11 09:20:41",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-4": {
+                        "tad\\WPCLI\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Luca Tumedei",
+                        "email": "luca@theaveragedev.com",
+                        "homepage": "http://theaveragedev.com"
+                    }
+                ],
+                "description": "Scaffold wp-browser based tests for a plugin or theme",
+                "homepage": "https://github.com/lucatume/wpcli-wpbrowser-tests",
+                "support": {
+                    "source": "https://github.com/lucatume/wpcli-wpbrowser-tests/tree/master",
+                    "issues": "https://github.com/lucatume/wpcli-wpbrowser-tests/issues"
+                }
+            },
             "dev-master": {
                 "name": "lucatume/wpcli-wpbrowser-tests",
                 "version": "dev-master",
