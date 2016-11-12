@@ -8891,19 +8891,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Redkiwi-NL/local-config.git",
-                    "reference": "8a5a6ae2f78cd64571fd69628b462f63d997a55c"
+                    "reference": "930fce7528d1ae7bb5a54c1bf8ba052e044b3306"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Redkiwi-NL/local-config/zipball/8a5a6ae2f78cd64571fd69628b462f63d997a55c",
-                    "reference": "8a5a6ae2f78cd64571fd69628b462f63d997a55c",
+                    "url": "https://api.github.com/repos/Redkiwi-NL/local-config/zipball/930fce7528d1ae7bb5a54c1bf8ba052e044b3306",
+                    "reference": "930fce7528d1ae7bb5a54c1bf8ba052e044b3306",
                     "shasum": ""
                 },
                 "require-dev": {
                     "php": ">=5.6"
                 },
-                "time": "2016-06-08 10:48:24",
-                "type": "library",
+                "time": "2016-11-12 16:39:08",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "command.php"
@@ -8931,7 +8931,7 @@
                 ],
                 "description": "Creates a local config for any WordPress installation, based on a few questions you get asked.",
                 "support": {
-                    "source": "https://github.com/Redkiwi-NL/local-config/tree/0.3.1",
+                    "source": "https://github.com/Redkiwi-NL/local-config/tree/master",
                     "issues": "https://github.com/Redkiwi-NL/local-config/issues"
                 }
             }
