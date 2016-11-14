@@ -9292,6 +9292,67 @@
                 "support": {
                     "source": "https://github.com/runcommand/hook/tree/master"
                 }
+            },
+            "dev-wp-hook-error": {
+                "name": "runcommand/hook",
+                "version": "dev-wp-hook-error",
+                "version_normalized": "dev-wp-hook-error",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/hook.git",
+                    "reference": "6b7b064df6489e07a53844ebcd825bc73364eb15"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/6b7b064df6489e07a53844ebcd825bc73364eb15",
+                    "reference": "6b7b064df6489e07a53844ebcd825bc73364eb15",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-14 19:51:07",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "hook"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/hook.svg?branch=master)](https://travis-ci.org/runcommand/hook)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "List callbacks registered to a given action or filter.",
+                "homepage": "https://runcommand.io/wp/hook/",
+                "support": {
+                    "source": "https://github.com/runcommand/hook/tree/wp-hook-error"
+                }
             }
         },
         "runcommand/manifest": {
