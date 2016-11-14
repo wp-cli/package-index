@@ -11025,6 +11025,56 @@
                     "issues": "https://github.com/vccw-team/scaffold-vccw/issues"
                 }
             },
+            "1.0.1": {
+                "name": "vccw/scaffold-vccw",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/scaffold-vccw.git",
+                    "reference": "9ab141b75598052bc156ebb6ac33099daf3e66d2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/scaffold-vccw/zipball/9ab141b75598052bc156ebb6ac33099daf3e66d2",
+                    "reference": "9ab141b75598052bc156ebb6ac33099daf3e66d2",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "phpunit/phpunit": "^4.8",
+                    "wp-cli/wp-cli": ">=0.23.0"
+                },
+                "time": "2016-11-14 18:19:07",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "scripts": {
+                    "install-phpunit-env": [
+                        "bash bin/install-wp-tests.sh wordpress_test root '' localhost latest"
+                    ],
+                    "install-behat-env": [
+                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar bash bin/install-package-tests.sh"
+                    ],
+                    "setup": [
+                        "composer run install-phpunit-env && composer run install-behat-env"
+                    ],
+                    "test": [
+                        "phpunit && WP_CLI_BIN_DIR=/tmp/wp-cli-phar behat"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "https://github.com/vccw-team/scaffold-vccw",
+                "support": {
+                    "source": "https://github.com/vccw-team/scaffold-vccw/tree/master",
+                    "issues": "https://github.com/vccw-team/scaffold-vccw/issues"
+                }
+            },
             "dev-master": {
                 "name": "vccw/scaffold-vccw",
                 "version": "dev-master",
@@ -11082,22 +11132,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/vccw-team/scaffold-vccw.git",
-                    "reference": "a32809a9ec4d9399bb6f551fcf68c21c4fdb85ff"
+                    "reference": "77ac2ebe6f39a6e6c69d4a5b6b87ba4689744735"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/scaffold-vccw/zipball/a32809a9ec4d9399bb6f551fcf68c21c4fdb85ff",
-                    "reference": "a32809a9ec4d9399bb6f551fcf68c21c4fdb85ff",
+                    "url": "https://api.github.com/repos/vccw-team/scaffold-vccw/zipball/77ac2ebe6f39a6e6c69d4a5b6b87ba4689744735",
+                    "reference": "77ac2ebe6f39a6e6c69d4a5b6b87ba4689744735",
                     "shasum": ""
                 },
-                "require": {
+                "require-dev": {
+                    "behat/behat": "~2.5",
                     "phpunit/phpunit": "^4.8",
                     "wp-cli/wp-cli": ">=0.23.0"
                 },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-11-13 18:24:18",
+                "time": "2016-11-14 18:24:41",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
