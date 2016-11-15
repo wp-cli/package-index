@@ -1,7 +1,7 @@
 WP-CLI Package Index
 ====================
 
-The code and configuration in this repository builds the [Package Index](http://wp-cli.org/package-index).
+The code and configuration in this repository builds the [Package Index](http://wp-cli.org/package-index). It's rebuilt on a 10 minute cron.
 
 Want to submit your own package for consideration? First, [follow the instructions](http://wp-cli.org/docs/commands-cookbook/#add-to-the-package-index) on preparing your package for submission. 
 
