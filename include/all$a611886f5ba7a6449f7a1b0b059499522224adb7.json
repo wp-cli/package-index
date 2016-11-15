@@ -9333,6 +9333,67 @@
                 "support": {
                     "source": "https://github.com/runcommand/hook/tree/master"
                 }
+            },
+            "dev-catch-functions": {
+                "name": "runcommand/hook",
+                "version": "dev-catch-functions",
+                "version_normalized": "dev-catch-functions",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/hook.git",
+                    "reference": "90c4148c3bdd241e679280c9fa00a04494ab10a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/90c4148c3bdd241e679280c9fa00a04494ab10a8",
+                    "reference": "90c4148c3bdd241e679280c9fa00a04494ab10a8",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-15 18:00:14",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "hook"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/hook.svg?branch=master)](https://travis-ci.org/runcommand/hook)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "List callbacks registered to a given action or filter.",
+                "homepage": "https://runcommand.io/wp/hook/",
+                "support": {
+                    "source": "https://github.com/runcommand/hook/tree/catch-functions"
+                }
             }
         },
         "runcommand/manifest": {
