@@ -9280,18 +9280,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/hook.git",
-                    "reference": "f0feb15d7636a5c070d2060223dec35601c2f8c7"
+                    "reference": "7a7beae2013eeea243cc44524a7c5c21da11979e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/hook/zipball/f0feb15d7636a5c070d2060223dec35601c2f8c7",
-                    "reference": "f0feb15d7636a5c070d2060223dec35601c2f8c7",
+                    "url": "https://api.github.com/repos/runcommand/hook/zipball/7a7beae2013eeea243cc44524a7c5c21da11979e",
+                    "reference": "7a7beae2013eeea243cc44524a7c5c21da11979e",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-11-15 18:40:28",
+                "time": "2016-11-15 18:48:54",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
