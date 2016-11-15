@@ -11143,12 +11143,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/vccw-team/scaffold-vccw.git",
-                    "reference": "9ab141b75598052bc156ebb6ac33099daf3e66d2"
+                    "reference": "0e2c1fc2e9b1d727fbe4e08bf29e4a9e4b3c0e85"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/scaffold-vccw/zipball/9ab141b75598052bc156ebb6ac33099daf3e66d2",
-                    "reference": "9ab141b75598052bc156ebb6ac33099daf3e66d2",
+                    "url": "https://api.github.com/repos/vccw-team/scaffold-vccw/zipball/0e2c1fc2e9b1d727fbe4e08bf29e4a9e4b3c0e85",
+                    "reference": "0e2c1fc2e9b1d727fbe4e08bf29e4a9e4b3c0e85",
                     "shasum": ""
                 },
                 "require-dev": {
@@ -11156,7 +11156,7 @@
                     "phpunit/phpunit": "^4.8",
                     "wp-cli/wp-cli": ">=0.23.0"
                 },
-                "time": "2016-11-14 18:19:07",
+                "time": "2016-11-15 00:41:50",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
