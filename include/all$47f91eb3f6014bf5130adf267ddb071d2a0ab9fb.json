@@ -12189,18 +12189,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "d7e9a1b3cba8f6d75e735687b40c038317cfdec1"
+                    "reference": "bbc0ae5ffac62ab16dcf64a0a4bd8cdb630b71bc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/d7e9a1b3cba8f6d75e735687b40c038317cfdec1",
-                    "reference": "d7e9a1b3cba8f6d75e735687b40c038317cfdec1",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/bbc0ae5ffac62ab16dcf64a0a4bd8cdb630b71bc",
+                    "reference": "bbc0ae5ffac62ab16dcf64a0a4bd8cdb630b71bc",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-11-03 14:52:17",
+                "time": "2016-11-17 16:21:14",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
