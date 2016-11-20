@@ -1790,6 +1790,58 @@
                     "source": "https://github.com/binarygary/db-checkpoint/tree/master",
                     "issues": "https://github.com/binarygary/db-checkpoint/issues"
                 }
+            },
+            "dev-feature/add-functional-test": {
+                "name": "binarygary/db-checkpoint",
+                "version": "dev-feature/add-functional-test",
+                "version_normalized": "dev-feature/add-functional-test",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/binarygary/db-checkpoint.git",
+                    "reference": "8ba88f39fb74a0e9ade5cca73eee2fe7f44b1283"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/8ba88f39fb74a0e9ade5cca73eee2fe7f44b1283",
+                    "reference": "8ba88f39fb74a0e9ade5cca73eee2fe7f44b1283",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-11-20 00:56:27",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "db-checkpoint.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Gary Kovar",
+                        "email": "plugins@binarygary.com",
+                        "homepage": "https://www.binarygary.com"
+                    }
+                ],
+                "description": "Create quick db snapshots for development purposes.",
+                "homepage": "https://github.com/binarygary/db-checkpoint",
+                "keywords": [
+                    "db snapshot",
+                    "deploy",
+                    "dump",
+                    "git",
+                    "mysql",
+                    "uploads",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/binarygary/db-checkpoint/tree/feature/add-functional-test",
+                    "issues": "https://github.com/binarygary/db-checkpoint/issues"
+                }
             }
         },
         "boonebgorges/wp-cli-buddypress": {
