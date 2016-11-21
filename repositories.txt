@@ -22,6 +22,7 @@ https://github.com/danielbachhuber/wp-cli-reset-post-date-command
 https://github.com/danielbachhuber/wp-cli-stat-command
 https://github.com/danielbachhuber/wp-rest-cli
 https://github.com/dereckson/wp-cli-polylang
+https://github.com/diggy/polylang-cli
 https://github.com/eriktorsner/wp-bootstrap
 https://github.com/eriktorsner/wp-checksum
 https://github.com/ernilambar/database-command
