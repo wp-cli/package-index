@@ -10577,18 +10577,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/sommarnatt/wp-cli-oderland.git",
-                    "reference": "0e7e2cf7369006a8a2e90c5a9f7b9a01dc9ae76a"
+                    "reference": "059e81a4a3eef4cb562844db667cbb27981fa3f9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/sommarnatt/wp-cli-oderland/zipball/0e7e2cf7369006a8a2e90c5a9f7b9a01dc9ae76a",
-                    "reference": "0e7e2cf7369006a8a2e90c5a9f7b9a01dc9ae76a",
+                    "url": "https://api.github.com/repos/sommarnatt/wp-cli-oderland/zipball/059e81a4a3eef4cb562844db667cbb27981fa3f9",
+                    "reference": "059e81a4a3eef4cb562844db667cbb27981fa3f9",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.29"
                 },
-                "time": "2016-11-22 00:40:42",
+                "time": "2016-11-22 13:26:42",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
