@@ -10277,12 +10277,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/getshifter/wp-cli-shifter.git",
-                    "reference": "d74834f3a0aa6f768246268c1b08286ac5e06c4d"
+                    "reference": "71ac7cdae385e3bff67ffbb736a7b221e7efc598"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/d74834f3a0aa6f768246268c1b08286ac5e06c4d",
-                    "reference": "d74834f3a0aa6f768246268c1b08286ac5e06c4d",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/71ac7cdae385e3bff67ffbb736a7b221e7efc598",
+                    "reference": "71ac7cdae385e3bff67ffbb736a7b221e7efc598",
                     "shasum": ""
                 },
                 "require": {
@@ -10291,7 +10291,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-11-22 11:07:08",
+                "time": "2016-11-22 12:46:11",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -10566,6 +10566,50 @@
                 "support": {
                     "source": "https://github.com/sinebridge/wp-cli-about/tree/develop",
                     "issues": "https://github.com/sinebridge/wp-cli-about/issues"
+                }
+            }
+        },
+        "sommarnatt/wp-cli-oderland": {
+            "dev-master": {
+                "name": "sommarnatt/wp-cli-oderland",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sommarnatt/wp-cli-oderland.git",
+                    "reference": "0e7e2cf7369006a8a2e90c5a9f7b9a01dc9ae76a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sommarnatt/wp-cli-oderland/zipball/0e7e2cf7369006a8a2e90c5a9f7b9a01dc9ae76a",
+                    "reference": "0e7e2cf7369006a8a2e90c5a9f7b9a01dc9ae76a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.29"
+                },
+                "time": "2016-11-22 00:40:42",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wpclioderland.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Package Maintainer",
+                        "email": "david@oderland.se",
+                        "homepage": "https://www.oderland.se"
+                    }
+                ],
+                "description": "Manage Databases and Domains for Oderland Hosting Services",
+                "homepage": "https://github.com/sommarnatt/wp-cli-oderland",
+                "support": {
+                    "source": "https://github.com/sommarnatt/wp-cli-oderland/tree/master",
+                    "issues": "https://github.com/sommarnatt/wp-cli-oderland/issues"
                 }
             }
         },
