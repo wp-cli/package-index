@@ -131,18 +131,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/MU-Migration.git",
-                    "reference": "6df6446706db47aa38e54f627064ed602dc5fab1"
+                    "reference": "019592e6e91226b0c611370008685424910974bc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/6df6446706db47aa38e54f627064ed602dc5fab1",
-                    "reference": "6df6446706db47aa38e54f627064ed602dc5fab1",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/019592e6e91226b0c611370008685424910974bc",
+                    "reference": "019592e6e91226b0c611370008685424910974bc",
                     "shasum": ""
                 },
                 "require": {
                     "alchemy/zippy": "^0.3.5"
                 },
-                "time": "2016-11-24 01:19:59",
+                "time": "2016-11-24 01:33:01",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
