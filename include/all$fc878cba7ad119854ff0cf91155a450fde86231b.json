@@ -123,6 +123,47 @@
                     "issues": "https://github.com/10up/MU-Migration/issues",
                     "source": "https://github.com/10up/MU-Migration/tree/feature/support-blog-id-on-import"
                 }
+            },
+            "dev-fix/exporting-primary-site-multisite": {
+                "name": "10up/mu-migration",
+                "version": "dev-fix/exporting-primary-site-multisite",
+                "version_normalized": "dev-fix/exporting-primary-site-multisite",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/10up/MU-Migration.git",
+                    "reference": "6df6446706db47aa38e54f627064ed602dc5fab1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/6df6446706db47aa38e54f627064ed602dc5fab1",
+                    "reference": "6df6446706db47aa38e54f627064ed602dc5fab1",
+                    "shasum": ""
+                },
+                "require": {
+                    "alchemy/zippy": "^0.3.5"
+                },
+                "time": "2016-11-24 01:19:59",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "mu-migration.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nícholas André",
+                        "email": "nicholas@iotecnologia.com.br"
+                    }
+                ],
+                "description": "A set of WP-CLI commands to support the migration of single WordPress instances to multisite",
+                "homepage": "https://github.com/10up/MU-Migration",
+                "support": {
+                    "issues": "https://github.com/10up/MU-Migration/issues",
+                    "source": "https://github.com/10up/MU-Migration/tree/fix/exporting-primary-site-multisite"
+                }
             }
         },
         "aaemnnosttv/wp-cli-dotenv-command": {
