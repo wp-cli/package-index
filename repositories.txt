@@ -67,6 +67,7 @@ https://github.com/sebastiaandegeus/wp-cli-salts-command
 https://github.com/sinebridge/wp-cli-about
 https://github.com/rxnlabs/wp-composer
 https://github.com/sommarnatt/wp-cli-oderland
+https://github.com/spxis/wp-cli-rename-table-prefix
 https://github.com/srtfisher/wp-composer
 https://github.com/stianlik/wp-cli-mig
 https://github.com/szepeviktor/wp-cli-database-prefix-command
