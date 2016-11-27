@@ -12458,18 +12458,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "1f85567f4ce3342238a4c366107dcfc7a7dc529f"
+                    "reference": "79028a9f34d1b08b8f01d39d63886778bf4f9d74"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/1f85567f4ce3342238a4c366107dcfc7a7dc529f",
-                    "reference": "1f85567f4ce3342238a4c366107dcfc7a7dc529f",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/79028a9f34d1b08b8f01d39d63886778bf4f9d74",
+                    "reference": "79028a9f34d1b08b8f01d39d63886778bf4f9d74",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-11-27 01:02:24",
+                "time": "2016-11-27 02:23:43",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -12498,55 +12498,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
-                }
-            },
-            "dev-59-drop-composer": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-59-drop-composer",
-                "version_normalized": "dev-59-drop-composer",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "4a6a44f7418bc4b53f9ad2e29261bae9f47a9836"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/4a6a44f7418bc4b53f9ad2e29261bae9f47a9836",
-                    "reference": "4a6a44f7418bc4b53f9ad2e29261bae9f47a9836",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-11-27 01:09:30",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/59-drop-composer"
                 }
             },
             "dev-render-mustache": {
