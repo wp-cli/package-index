@@ -12458,18 +12458,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "65323c6bc165d8ef7fd63f175658d4d607c87c5b"
+                    "reference": "1f85567f4ce3342238a4c366107dcfc7a7dc529f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/65323c6bc165d8ef7fd63f175658d4d607c87c5b",
-                    "reference": "65323c6bc165d8ef7fd63f175658d4d607c87c5b",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/1f85567f4ce3342238a4c366107dcfc7a7dc529f",
+                    "reference": "1f85567f4ce3342238a4c366107dcfc7a7dc529f",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-11-18 12:18:01",
+                "time": "2016-11-27 01:02:24",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -12500,25 +12500,25 @@
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
                 }
             },
-            "dev-ignore-more-distignore": {
+            "dev-59-drop-composer": {
                 "name": "wp-cli/scaffold-package-command",
-                "version": "dev-ignore-more-distignore",
-                "version_normalized": "dev-ignore-more-distignore",
+                "version": "dev-59-drop-composer",
+                "version_normalized": "dev-59-drop-composer",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "f941094c6de5cc36cabe26f5708762eba6cd71ff"
+                    "reference": "4a6a44f7418bc4b53f9ad2e29261bae9f47a9836"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/f941094c6de5cc36cabe26f5708762eba6cd71ff",
-                    "reference": "f941094c6de5cc36cabe26f5708762eba6cd71ff",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/4a6a44f7418bc4b53f9ad2e29261bae9f47a9836",
+                    "reference": "4a6a44f7418bc4b53f9ad2e29261bae9f47a9836",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-11-24 01:08:40",
+                "time": "2016-11-27 01:09:30",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -12546,7 +12546,7 @@
                 "homepage": "https://github.com/wp-cli/scaffold-package-command",
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/ignore-more-distignore"
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/59-drop-composer"
                 }
             },
             "dev-render-mustache": {
