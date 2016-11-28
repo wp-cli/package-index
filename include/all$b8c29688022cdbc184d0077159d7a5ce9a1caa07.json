@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:10up/MU-Migration.git",
+                    "url": "https://github.com/10up/MU-Migration.git",
                     "reference": "68c935548be91eb64ebcc767a3ba344ad29f07c0"
                 },
                 "dist": {
@@ -38,7 +38,8 @@
                 "description": "A set of WP-CLI commands to support the migration of single WordPress instances to multisite",
                 "homepage": "https://github.com/10up/MU-Migration",
                 "support": {
-                    "issues": "https://github.com/10up/MU-Migration/issues"
+                    "issues": "https://github.com/10up/MU-Migration/issues",
+                    "source": "https://github.com/10up/MU-Migration/tree/master"
                 }
             },
             "dev-develop": {
@@ -47,7 +48,7 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:10up/MU-Migration.git",
+                    "url": "https://github.com/10up/MU-Migration.git",
                     "reference": "90b7cfaf50719299a05dfb8481df3a3d940973a2"
                 },
                 "dist": {
@@ -78,7 +79,8 @@
                 "description": "A set of WP-CLI commands to support the migration of single WordPress instances to multisite",
                 "homepage": "https://github.com/10up/MU-Migration",
                 "support": {
-                    "issues": "https://github.com/10up/MU-Migration/issues"
+                    "issues": "https://github.com/10up/MU-Migration/issues",
+                    "source": "https://github.com/10up/MU-Migration/tree/develop"
                 }
             },
             "dev-feature/support-blog-id-on-import": {
@@ -87,7 +89,7 @@
                 "version_normalized": "dev-feature/support-blog-id-on-import",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:10up/MU-Migration.git",
+                    "url": "https://github.com/10up/MU-Migration.git",
                     "reference": "a22c957cb0f6e62e4b5acbf85e105ba9d4718d22"
                 },
                 "dist": {
@@ -118,7 +120,8 @@
                 "description": "A set of WP-CLI commands to support the migration of single WordPress instances to multisite",
                 "homepage": "https://github.com/10up/MU-Migration",
                 "support": {
-                    "issues": "https://github.com/10up/MU-Migration/issues"
+                    "issues": "https://github.com/10up/MU-Migration/issues",
+                    "source": "https://github.com/10up/MU-Migration/tree/feature/support-blog-id-on-import"
                 }
             },
             "dev-fix/exporting-primary-site-multisite": {
@@ -127,7 +130,7 @@
                 "version_normalized": "dev-fix/exporting-primary-site-multisite",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:10up/MU-Migration.git",
+                    "url": "https://github.com/10up/MU-Migration.git",
                     "reference": "019592e6e91226b0c611370008685424910974bc"
                 },
                 "dist": {
@@ -158,7 +161,8 @@
                 "description": "A set of WP-CLI commands to support the migration of single WordPress instances to multisite",
                 "homepage": "https://github.com/10up/MU-Migration",
                 "support": {
-                    "issues": "https://github.com/10up/MU-Migration/issues"
+                    "issues": "https://github.com/10up/MU-Migration/issues",
+                    "source": "https://github.com/10up/MU-Migration/tree/fix/exporting-primary-site-multisite"
                 }
             }
         },
@@ -169,7 +173,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-dotenv-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
                     "reference": "640ab2c9388879eb0018e690e61ff87524613b51"
                 },
                 "dist": {
@@ -202,7 +206,11 @@
                     }
                 ],
                 "description": "Dotenv commands for WP-CLI",
-                "homepage": "https://github.com/aaemnnosttv/wp-cli-dotenv-command"
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-dotenv-command",
+                "support": {
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v0.1",
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
+                }
             },
             "v0.1-beta.1": {
                 "name": "aaemnnosttv/wp-cli-dotenv-command",
@@ -210,7 +218,7 @@
                 "version_normalized": "0.1.0.0-beta1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-dotenv-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
                     "reference": "ae35dc4db12c5b943296db4a98b544c6fb87f475"
                 },
                 "dist": {
@@ -243,7 +251,11 @@
                     }
                 ],
                 "description": "Dotenv commands for WP-CLI",
-                "homepage": "https://github.com/aaemnnosttv/wp-cli-dotenv-command"
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-dotenv-command",
+                "support": {
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v0.1-beta.1",
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
+                }
             },
             "v0.2": {
                 "name": "aaemnnosttv/wp-cli-dotenv-command",
@@ -251,7 +263,7 @@
                 "version_normalized": "0.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-dotenv-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
                     "reference": "11ccbfe878d7508529319531888354220e7c5e2a"
                 },
                 "dist": {
@@ -294,7 +306,8 @@
                 "description": "Dotenv commands for WP-CLI",
                 "homepage": "https://github.com/aaemnnosttv/wp-cli-dotenv-command",
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v0.2"
                 }
             },
             "v1.0.0": {
@@ -303,7 +316,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-dotenv-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
                     "reference": "0e7f82eeaaf0fe56e416fe67e0afa49a893cead7"
                 },
                 "dist": {
@@ -358,7 +371,8 @@
                 "description": "Dotenv commands for WP-CLI",
                 "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master"
                 }
             },
             "v1.0.1": {
@@ -367,7 +381,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-dotenv-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
                     "reference": "db0432667c2e1657dcb2c779a7e78d553e34675b"
                 },
                 "dist": {
@@ -422,7 +436,8 @@
                 "description": "Dotenv commands for WP-CLI",
                 "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master"
                 }
             },
             "v1.0.2": {
@@ -431,7 +446,7 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-dotenv-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
                     "reference": "e46dc0560e2eae0a627c9e8e9ab5b3f61d266b43"
                 },
                 "dist": {
@@ -486,7 +501,8 @@
                 "description": "Dotenv commands for WP-CLI",
                 "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v1.0.2"
                 }
             },
             "dev-master": {
@@ -495,7 +511,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-dotenv-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
                     "reference": "f09b5df6a12d8a370432452141e12f945f9ecf5f"
                 },
                 "dist": {
@@ -550,7 +566,8 @@
                 "description": "Dotenv commands for WP-CLI",
                 "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master"
                 }
             }
         },
@@ -561,7 +578,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-http-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-http-command.git",
                     "reference": "ee6d74158447b8bc455a6fadee5773e6a7837b6e"
                 },
                 "dist": {
@@ -590,7 +607,11 @@
                         "homepage": "https://aaemnnost.tv"
                     }
                 ],
-                "description": "WP-CLI command for using the WordPress HTTP API"
+                "description": "WP-CLI command for using the WordPress HTTP API",
+                "support": {
+                    "source": "https://github.com/aaemnnosttv/wp-cli-http-command/tree/master",
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-http-command/issues"
+                }
             },
             "dev-develop": {
                 "name": "aaemnnosttv/wp-cli-http-command",
@@ -598,7 +619,7 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-http-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-http-command.git",
                     "reference": "930886dd9ba6199d358728c64660a7852970790a"
                 },
                 "dist": {
@@ -640,7 +661,11 @@
                         "homepage": "https://aaemnnost.tv"
                     }
                 ],
-                "description": "WP-CLI command for using the WordPress HTTP API"
+                "description": "WP-CLI command for using the WordPress HTTP API",
+                "support": {
+                    "source": "https://github.com/aaemnnosttv/wp-cli-http-command/tree/develop",
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-http-command/issues"
+                }
             }
         },
         "aaemnnosttv/wp-cli-login-command": {
@@ -650,7 +675,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-login-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
                     "reference": "4b07a51aaf3841c23a41ddb1ba760b2544e98e49"
                 },
                 "dist": {
@@ -695,7 +720,11 @@
                     }
                 ],
                 "description": "Login to WordPress with secure passwordless magic links.",
-                "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command"
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command",
+                "support": {
+                    "source": "https://github.com/aaemnnosttv/wp-cli-login-command/tree/master",
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-login-command/issues"
+                }
             },
             "dev-master": {
                 "name": "aaemnnosttv/wp-cli-login-command",
@@ -703,7 +732,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-login-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
                     "reference": "c10bed414ea594b00c3ba10cc78b0915cb476cc9"
                 },
                 "dist": {
@@ -748,7 +777,11 @@
                     }
                 ],
                 "description": "Log in to WordPress with secure passwordless magic links.",
-                "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command"
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command",
+                "support": {
+                    "source": "https://github.com/aaemnnosttv/wp-cli-login-command/tree/master",
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-login-command/issues"
+                }
             },
             "dev-develop": {
                 "name": "aaemnnosttv/wp-cli-login-command",
@@ -756,7 +789,7 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-login-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
                     "reference": "e887281b93af9bca6bb1d343559de94dda28fc7c"
                 },
                 "dist": {
@@ -801,7 +834,11 @@
                     }
                 ],
                 "description": "Login to WordPress with secure passwordless magic links.",
-                "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command"
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command",
+                "support": {
+                    "source": "https://github.com/aaemnnosttv/wp-cli-login-command/tree/develop",
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-login-command/issues"
+                }
             }
         },
         "aaemnnosttv/wp-cli-valet-command": {
@@ -811,7 +848,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-valet-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
                     "reference": "b6afab36bf2715dcc3fd54d6a543af3da68f6832"
                 },
                 "dist": {
@@ -882,7 +919,8 @@
                     "zonda"
                 ],
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/master"
                 }
             },
             "v1.1.0": {
@@ -891,7 +929,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-valet-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
                     "reference": "3657713e58a15ebd478ca7f431fdc90c901a8824"
                 },
                 "dist": {
@@ -962,7 +1000,8 @@
                     "zonda"
                 ],
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/v1.1.0"
                 }
             },
             "dev-master": {
@@ -971,7 +1010,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-valet-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
                     "reference": "5637efca1c1efd8ccc52adc7c01bc4774b0b043b"
                 },
                 "dist": {
@@ -1042,7 +1081,8 @@
                     "zonda"
                 ],
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/master"
                 }
             },
             "dev-develop": {
@@ -1051,7 +1091,7 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-valet-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
                     "reference": "a0c9cc3b222abc94bcd727979053782e6448b501"
                 },
                 "dist": {
@@ -1118,7 +1158,8 @@
                     "zonda"
                 ],
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/develop"
                 }
             },
             "dev-project-support/themosis": {
@@ -1127,7 +1168,7 @@
                 "version_normalized": "dev-project-support/themosis",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-valet-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
                     "reference": "a9825e7af5d8a05a0465479047a3d7c50e2dfc48"
                 },
                 "dist": {
@@ -1198,7 +1239,8 @@
                     "zonda"
                 ],
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/project-support/themosis"
                 }
             },
             "dev-project-support/wordplate": {
@@ -1207,7 +1249,7 @@
                 "version_normalized": "dev-project-support/wordplate",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:aaemnnosttv/wp-cli-valet-command.git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
                     "reference": "f77ab8faf82070a5dbeff377b640457f39e5e8ad"
                 },
                 "dist": {
@@ -1278,7 +1320,8 @@
                     "zonda"
                 ],
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/project-support/wordplate"
                 }
             }
         },
@@ -1289,7 +1332,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:adrigen/wp-cli-piwik.git",
+                    "url": "https://github.com/adrigen/wp-cli-piwik.git",
                     "reference": "5ca1ad3843be53456b5b903c6d76e14e4e8b9569"
                 },
                 "dist": {
@@ -1339,7 +1382,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:alessandrotesoro/wp-cli-helpscout-docs-parser.git",
+                    "url": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser.git",
                     "reference": "9de321cc35227b98672efafb8746c049489f3c15"
                 },
                 "dist": {
@@ -1362,7 +1405,11 @@
                     "MIT"
                 ],
                 "description": "WP-CLI Plugin: extract helpscout docs articles and categories to build an offline documentation.",
-                "homepage": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser"
+                "homepage": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser",
+                "support": {
+                    "source": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser/tree/master",
+                    "issues": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser/issues"
+                }
             }
         },
         "alessandrotesoro/wp-usergen-cli": {
@@ -1372,7 +1419,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:alessandrotesoro/wp-usergen-cli.git",
+                    "url": "https://github.com/alessandrotesoro/wp-usergen-cli.git",
                     "reference": "c985d31aa1ae835e476822ce42fb19a4d78a7828"
                 },
                 "dist": {
@@ -1395,7 +1442,11 @@
                     "MIT"
                 ],
                 "description": "Simple command to generate random users for testing purposes.",
-                "homepage": "https://github.com/alessandrotesoro/wp-usergen-cli"
+                "homepage": "https://github.com/alessandrotesoro/wp-usergen-cli",
+                "support": {
+                    "source": "https://github.com/alessandrotesoro/wp-usergen-cli/tree/master",
+                    "issues": "https://github.com/alessandrotesoro/wp-usergen-cli/issues"
+                }
             }
         },
         "alleyinteractive/wp-doc-command": {
@@ -5962,7 +6013,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:10up/wp-hammer.git",
+                    "url": "https://github.com/10up/wp-hammer.git",
                     "reference": "f377696b44c1c8e350fe47480ff8f2b4e50af5f8"
                 },
                 "dist": {
@@ -5997,7 +6048,11 @@
                     }
                 ],
                 "description": "WP CLI Hammer Command to remove personally identifiable information and extra content for dev/test/stage purposes",
-                "homepage": "https://github.com/10up/wp-hammer"
+                "homepage": "https://github.com/10up/wp-hammer",
+                "support": {
+                    "source": "https://github.com/10up/wp-hammer/tree/master",
+                    "issues": "https://github.com/10up/wp-hammer/issues"
+                }
             }
         },
         "jaywood/jw-wpcli-random-posts": {
