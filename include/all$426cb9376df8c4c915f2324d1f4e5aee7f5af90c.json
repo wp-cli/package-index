@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/10up/MU-Migration.git",
+                    "url": "git@github.com:10up/MU-Migration.git",
                     "reference": "68c935548be91eb64ebcc767a3ba344ad29f07c0"
                 },
                 "dist": {
@@ -38,8 +38,7 @@
                 "description": "A set of WP-CLI commands to support the migration of single WordPress instances to multisite",
                 "homepage": "https://github.com/10up/MU-Migration",
                 "support": {
-                    "issues": "https://github.com/10up/MU-Migration/issues",
-                    "source": "https://github.com/10up/MU-Migration/tree/master"
+                    "issues": "https://github.com/10up/MU-Migration/issues"
                 }
             },
             "dev-develop": {
@@ -48,7 +47,7 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/10up/MU-Migration.git",
+                    "url": "git@github.com:10up/MU-Migration.git",
                     "reference": "90b7cfaf50719299a05dfb8481df3a3d940973a2"
                 },
                 "dist": {
@@ -79,8 +78,7 @@
                 "description": "A set of WP-CLI commands to support the migration of single WordPress instances to multisite",
                 "homepage": "https://github.com/10up/MU-Migration",
                 "support": {
-                    "issues": "https://github.com/10up/MU-Migration/issues",
-                    "source": "https://github.com/10up/MU-Migration/tree/develop"
+                    "issues": "https://github.com/10up/MU-Migration/issues"
                 }
             },
             "dev-feature/support-blog-id-on-import": {
@@ -89,7 +87,7 @@
                 "version_normalized": "dev-feature/support-blog-id-on-import",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/10up/MU-Migration.git",
+                    "url": "git@github.com:10up/MU-Migration.git",
                     "reference": "a22c957cb0f6e62e4b5acbf85e105ba9d4718d22"
                 },
                 "dist": {
@@ -120,8 +118,7 @@
                 "description": "A set of WP-CLI commands to support the migration of single WordPress instances to multisite",
                 "homepage": "https://github.com/10up/MU-Migration",
                 "support": {
-                    "issues": "https://github.com/10up/MU-Migration/issues",
-                    "source": "https://github.com/10up/MU-Migration/tree/feature/support-blog-id-on-import"
+                    "issues": "https://github.com/10up/MU-Migration/issues"
                 }
             },
             "dev-fix/exporting-primary-site-multisite": {
@@ -130,7 +127,7 @@
                 "version_normalized": "dev-fix/exporting-primary-site-multisite",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/10up/MU-Migration.git",
+                    "url": "git@github.com:10up/MU-Migration.git",
                     "reference": "019592e6e91226b0c611370008685424910974bc"
                 },
                 "dist": {
@@ -161,8 +158,7 @@
                 "description": "A set of WP-CLI commands to support the migration of single WordPress instances to multisite",
                 "homepage": "https://github.com/10up/MU-Migration",
                 "support": {
-                    "issues": "https://github.com/10up/MU-Migration/issues",
-                    "source": "https://github.com/10up/MU-Migration/tree/fix/exporting-primary-site-multisite"
+                    "issues": "https://github.com/10up/MU-Migration/issues"
                 }
             }
         },
@@ -173,7 +169,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-dotenv-command.git",
                     "reference": "640ab2c9388879eb0018e690e61ff87524613b51"
                 },
                 "dist": {
@@ -206,11 +202,7 @@
                     }
                 ],
                 "description": "Dotenv commands for WP-CLI",
-                "homepage": "https://github.com/aaemnnosttv/wp-cli-dotenv-command",
-                "support": {
-                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v0.1",
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
-                }
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-dotenv-command"
             },
             "v0.1-beta.1": {
                 "name": "aaemnnosttv/wp-cli-dotenv-command",
@@ -218,7 +210,7 @@
                 "version_normalized": "0.1.0.0-beta1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-dotenv-command.git",
                     "reference": "ae35dc4db12c5b943296db4a98b544c6fb87f475"
                 },
                 "dist": {
@@ -251,11 +243,7 @@
                     }
                 ],
                 "description": "Dotenv commands for WP-CLI",
-                "homepage": "https://github.com/aaemnnosttv/wp-cli-dotenv-command",
-                "support": {
-                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v0.1-beta.1",
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
-                }
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-dotenv-command"
             },
             "v0.2": {
                 "name": "aaemnnosttv/wp-cli-dotenv-command",
@@ -263,7 +251,7 @@
                 "version_normalized": "0.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-dotenv-command.git",
                     "reference": "11ccbfe878d7508529319531888354220e7c5e2a"
                 },
                 "dist": {
@@ -306,8 +294,7 @@
                 "description": "Dotenv commands for WP-CLI",
                 "homepage": "https://github.com/aaemnnosttv/wp-cli-dotenv-command",
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v0.2"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
                 }
             },
             "v1.0.0": {
@@ -316,7 +303,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-dotenv-command.git",
                     "reference": "0e7f82eeaaf0fe56e416fe67e0afa49a893cead7"
                 },
                 "dist": {
@@ -371,8 +358,7 @@
                 "description": "Dotenv commands for WP-CLI",
                 "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
                 }
             },
             "v1.0.1": {
@@ -381,7 +367,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-dotenv-command.git",
                     "reference": "db0432667c2e1657dcb2c779a7e78d553e34675b"
                 },
                 "dist": {
@@ -436,8 +422,7 @@
                 "description": "Dotenv commands for WP-CLI",
                 "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
                 }
             },
             "v1.0.2": {
@@ -446,7 +431,7 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-dotenv-command.git",
                     "reference": "e46dc0560e2eae0a627c9e8e9ab5b3f61d266b43"
                 },
                 "dist": {
@@ -501,8 +486,7 @@
                 "description": "Dotenv commands for WP-CLI",
                 "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v1.0.2"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
                 }
             },
             "dev-master": {
@@ -511,7 +495,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-dotenv-command.git",
                     "reference": "f09b5df6a12d8a370432452141e12f945f9ecf5f"
                 },
                 "dist": {
@@ -566,8 +550,7 @@
                 "description": "Dotenv commands for WP-CLI",
                 "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues"
                 }
             }
         },
@@ -578,7 +561,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-http-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-http-command.git",
                     "reference": "ee6d74158447b8bc455a6fadee5773e6a7837b6e"
                 },
                 "dist": {
@@ -607,11 +590,7 @@
                         "homepage": "https://aaemnnost.tv"
                     }
                 ],
-                "description": "WP-CLI command for using the WordPress HTTP API",
-                "support": {
-                    "source": "https://github.com/aaemnnosttv/wp-cli-http-command/tree/master",
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-http-command/issues"
-                }
+                "description": "WP-CLI command for using the WordPress HTTP API"
             },
             "dev-develop": {
                 "name": "aaemnnosttv/wp-cli-http-command",
@@ -619,7 +598,7 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-http-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-http-command.git",
                     "reference": "930886dd9ba6199d358728c64660a7852970790a"
                 },
                 "dist": {
@@ -661,11 +640,7 @@
                         "homepage": "https://aaemnnost.tv"
                     }
                 ],
-                "description": "WP-CLI command for using the WordPress HTTP API",
-                "support": {
-                    "source": "https://github.com/aaemnnosttv/wp-cli-http-command/tree/develop",
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-http-command/issues"
-                }
+                "description": "WP-CLI command for using the WordPress HTTP API"
             }
         },
         "aaemnnosttv/wp-cli-login-command": {
@@ -675,7 +650,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-login-command.git",
                     "reference": "4b07a51aaf3841c23a41ddb1ba760b2544e98e49"
                 },
                 "dist": {
@@ -720,11 +695,7 @@
                     }
                 ],
                 "description": "Login to WordPress with secure passwordless magic links.",
-                "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command",
-                "support": {
-                    "source": "https://github.com/aaemnnosttv/wp-cli-login-command/tree/master",
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-login-command/issues"
-                }
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command"
             },
             "dev-master": {
                 "name": "aaemnnosttv/wp-cli-login-command",
@@ -732,7 +703,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-login-command.git",
                     "reference": "c10bed414ea594b00c3ba10cc78b0915cb476cc9"
                 },
                 "dist": {
@@ -777,11 +748,7 @@
                     }
                 ],
                 "description": "Log in to WordPress with secure passwordless magic links.",
-                "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command",
-                "support": {
-                    "source": "https://github.com/aaemnnosttv/wp-cli-login-command/tree/master",
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-login-command/issues"
-                }
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command"
             },
             "dev-develop": {
                 "name": "aaemnnosttv/wp-cli-login-command",
@@ -789,7 +756,7 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-login-command.git",
                     "reference": "e887281b93af9bca6bb1d343559de94dda28fc7c"
                 },
                 "dist": {
@@ -834,11 +801,7 @@
                     }
                 ],
                 "description": "Login to WordPress with secure passwordless magic links.",
-                "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command",
-                "support": {
-                    "source": "https://github.com/aaemnnosttv/wp-cli-login-command/tree/develop",
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-login-command/issues"
-                }
+                "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command"
             }
         },
         "aaemnnosttv/wp-cli-valet-command": {
@@ -848,7 +811,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-valet-command.git",
                     "reference": "b6afab36bf2715dcc3fd54d6a543af3da68f6832"
                 },
                 "dist": {
@@ -919,8 +882,7 @@
                     "zonda"
                 ],
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/master"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues"
                 }
             },
             "v1.1.0": {
@@ -929,7 +891,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-valet-command.git",
                     "reference": "3657713e58a15ebd478ca7f431fdc90c901a8824"
                 },
                 "dist": {
@@ -1000,8 +962,7 @@
                     "zonda"
                 ],
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/v1.1.0"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues"
                 }
             },
             "dev-master": {
@@ -1010,7 +971,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-valet-command.git",
                     "reference": "5637efca1c1efd8ccc52adc7c01bc4774b0b043b"
                 },
                 "dist": {
@@ -1081,8 +1042,7 @@
                     "zonda"
                 ],
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/master"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues"
                 }
             },
             "dev-develop": {
@@ -1091,7 +1051,7 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-valet-command.git",
                     "reference": "a0c9cc3b222abc94bcd727979053782e6448b501"
                 },
                 "dist": {
@@ -1158,8 +1118,7 @@
                     "zonda"
                 ],
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/develop"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues"
                 }
             },
             "dev-project-support/themosis": {
@@ -1168,7 +1127,7 @@
                 "version_normalized": "dev-project-support/themosis",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-valet-command.git",
                     "reference": "a9825e7af5d8a05a0465479047a3d7c50e2dfc48"
                 },
                 "dist": {
@@ -1239,8 +1198,7 @@
                     "zonda"
                 ],
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/project-support/themosis"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues"
                 }
             },
             "dev-project-support/wordplate": {
@@ -1249,7 +1207,7 @@
                 "version_normalized": "dev-project-support/wordplate",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
+                    "url": "git@github.com:aaemnnosttv/wp-cli-valet-command.git",
                     "reference": "f77ab8faf82070a5dbeff377b640457f39e5e8ad"
                 },
                 "dist": {
@@ -1320,8 +1278,7 @@
                     "zonda"
                 ],
                 "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/project-support/wordplate"
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues"
                 }
             }
         },
@@ -1332,7 +1289,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/adrigen/wp-cli-piwik.git",
+                    "url": "git@github.com:adrigen/wp-cli-piwik.git",
                     "reference": "5ca1ad3843be53456b5b903c6d76e14e4e8b9569"
                 },
                 "dist": {
@@ -1382,7 +1339,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser.git",
+                    "url": "git@github.com:alessandrotesoro/wp-cli-helpscout-docs-parser.git",
                     "reference": "9de321cc35227b98672efafb8746c049489f3c15"
                 },
                 "dist": {
@@ -1405,11 +1362,7 @@
                     "MIT"
                 ],
                 "description": "WP-CLI Plugin: extract helpscout docs articles and categories to build an offline documentation.",
-                "homepage": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser",
-                "support": {
-                    "source": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser/tree/master",
-                    "issues": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser/issues"
-                }
+                "homepage": "https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser"
             }
         },
         "alessandrotesoro/wp-usergen-cli": {
@@ -1419,7 +1372,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/alessandrotesoro/wp-usergen-cli.git",
+                    "url": "git@github.com:alessandrotesoro/wp-usergen-cli.git",
                     "reference": "c985d31aa1ae835e476822ce42fb19a4d78a7828"
                 },
                 "dist": {
@@ -1442,11 +1395,7 @@
                     "MIT"
                 ],
                 "description": "Simple command to generate random users for testing purposes.",
-                "homepage": "https://github.com/alessandrotesoro/wp-usergen-cli",
-                "support": {
-                    "source": "https://github.com/alessandrotesoro/wp-usergen-cli/tree/master",
-                    "issues": "https://github.com/alessandrotesoro/wp-usergen-cli/issues"
-                }
+                "homepage": "https://github.com/alessandrotesoro/wp-usergen-cli"
             }
         },
         "alleyinteractive/wp-doc-command": {
@@ -1490,7 +1439,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:anhskohbo/wp-cli-themecheck.git",
+                    "url": "https://github.com/anhskohbo/wp-cli-themecheck.git",
                     "reference": "0fa69d4acef1339536f2ee682d202c13fad8e73e"
                 },
                 "dist": {
@@ -1527,7 +1476,11 @@
                     }
                 ],
                 "description": "Run Themecheck in WP_CLI",
-                "homepage": "https://github.com/anhskohbo/wp-cli-themecheck"
+                "homepage": "https://github.com/anhskohbo/wp-cli-themecheck",
+                "support": {
+                    "source": "https://github.com/anhskohbo/wp-cli-themecheck/tree/master",
+                    "issues": "https://github.com/anhskohbo/wp-cli-themecheck/issues"
+                }
             }
         },
         "billerickson/wp-cli-plugin-install-missing": {
@@ -5117,7 +5070,7 @@
                 "version_normalized": "0.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:stianlik/wp-cli-mig.git",
+                    "url": "https://github.com/stianlik/wp-cli-mig.git",
                     "reference": "baa3e64209844c50551f42955fa1bc6b81fe1afd"
                 },
                 "dist": {
@@ -5148,7 +5101,11 @@
                         "email": "stianlik@gmail.com"
                     }
                 ],
-                "description": "General migration command for WP-CLI"
+                "description": "General migration command for WP-CLI",
+                "support": {
+                    "source": "https://github.com/stianlik/wp-cli-mig/tree/v0.0.0",
+                    "issues": "https://github.com/stianlik/wp-cli-mig/issues"
+                }
             },
             "v0.0.1": {
                 "name": "foogile/wp-cli-mig",
@@ -5156,7 +5113,7 @@
                 "version_normalized": "0.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:stianlik/wp-cli-mig.git",
+                    "url": "https://github.com/stianlik/wp-cli-mig.git",
                     "reference": "c5f953f6e12dca7e1aac3c7eeafacb6457213251"
                 },
                 "dist": {
@@ -5187,7 +5144,11 @@
                         "email": "stianlik@gmail.com"
                     }
                 ],
-                "description": "General migration command for WP-CLI"
+                "description": "General migration command for WP-CLI",
+                "support": {
+                    "source": "https://github.com/stianlik/wp-cli-mig/tree/v0.0.1",
+                    "issues": "https://github.com/stianlik/wp-cli-mig/issues"
+                }
             },
             "v0.0.2": {
                 "name": "foogile/wp-cli-mig",
@@ -5195,7 +5156,7 @@
                 "version_normalized": "0.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:stianlik/wp-cli-mig.git",
+                    "url": "https://github.com/stianlik/wp-cli-mig.git",
                     "reference": "dc5363b8657aef90f404aaa325ab003fa6a2bbf5"
                 },
                 "dist": {
@@ -5226,7 +5187,11 @@
                         "email": "stianlik@gmail.com"
                     }
                 ],
-                "description": "General migration command for WP-CLI"
+                "description": "General migration command for WP-CLI",
+                "support": {
+                    "source": "https://github.com/stianlik/wp-cli-mig/tree/v0.0.2",
+                    "issues": "https://github.com/stianlik/wp-cli-mig/issues"
+                }
             },
             "dev-master": {
                 "name": "foogile/wp-cli-mig",
@@ -5234,7 +5199,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:stianlik/wp-cli-mig.git",
+                    "url": "https://github.com/stianlik/wp-cli-mig.git",
                     "reference": "9da130c566cfeb2a11b7afa7a98d1d9ad00fb891"
                 },
                 "dist": {
@@ -5266,7 +5231,11 @@
                     }
                 ],
                 "description": "General migration command for WP-CLI",
-                "homepage": "https://github.com/stianlik/wp-cli-mig/"
+                "homepage": "https://github.com/stianlik/wp-cli-mig/",
+                "support": {
+                    "source": "https://github.com/stianlik/wp-cli-mig/tree/master",
+                    "issues": "https://github.com/stianlik/wp-cli-mig/issues"
+                }
             }
         },
         "frozzare/wp-cli-lint": {
@@ -5993,7 +5962,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/10up/wp-hammer.git",
+                    "url": "git@github.com:10up/wp-hammer.git",
                     "reference": "f377696b44c1c8e350fe47480ff8f2b4e50af5f8"
                 },
                 "dist": {
@@ -6028,11 +5997,7 @@
                     }
                 ],
                 "description": "WP CLI Hammer Command to remove personally identifiable information and extra content for dev/test/stage purposes",
-                "homepage": "https://github.com/10up/wp-hammer",
-                "support": {
-                    "source": "https://github.com/10up/wp-hammer/tree/master",
-                    "issues": "https://github.com/10up/wp-hammer/issues"
-                }
+                "homepage": "https://github.com/10up/wp-hammer"
             }
         },
         "jaywood/jw-wpcli-random-posts": {
@@ -6430,7 +6395,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:mattgrshaw/wp-installer.git",
+                    "url": "https://github.com/mattgrshaw/wp-installer.git",
                     "reference": "d13db0033fa688e437594ab9e0dc432c92a873cb"
                 },
                 "dist": {
@@ -6458,7 +6423,8 @@
                 "description": "WP Installer CLI Command",
                 "homepage": "https://github.com/mattgrshaw/wp-installer",
                 "support": {
-                    "issues": "https://github.com/mattgrshaw/wp-installer"
+                    "issues": "https://github.com/mattgrshaw/wp-installer",
+                    "source": "https://github.com/mattgrshaw/wp-installer/tree/master"
                 }
             }
         },
@@ -9741,12 +9707,12 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:runcommand/reset-passwords.git",
+                    "url": "https://github.com/runcommand/user-reset-password.git",
                     "reference": "b3f3cd27b6d63438ac66131050212e7b941d2aa3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/reset-passwords/zipball/b3f3cd27b6d63438ac66131050212e7b941d2aa3",
+                    "url": "https://api.github.com/repos/runcommand/user-reset-password/zipball/b3f3cd27b6d63438ac66131050212e7b941d2aa3",
                     "reference": "b3f3cd27b6d63438ac66131050212e7b941d2aa3",
                     "shasum": ""
                 },
@@ -9787,7 +9753,10 @@
                     }
                 ],
                 "description": "Reset passwords for one or more WordPress users.",
-                "homepage": "https://runcommand.io/wp/user-reset-password/"
+                "homepage": "https://runcommand.io/wp/user-reset-password/",
+                "support": {
+                    "source": "https://github.com/runcommand/user-reset-password/tree/master"
+                }
             },
             "dev-master": {
                 "name": "runcommand/user-reset-password",
@@ -9795,12 +9764,12 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:runcommand/reset-passwords.git",
+                    "url": "https://github.com/runcommand/user-reset-password.git",
                     "reference": "56b243a2a0ebeed3902d59a79fb217629bc890cb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/reset-passwords/zipball/56b243a2a0ebeed3902d59a79fb217629bc890cb",
+                    "url": "https://api.github.com/repos/runcommand/user-reset-password/zipball/56b243a2a0ebeed3902d59a79fb217629bc890cb",
                     "reference": "56b243a2a0ebeed3902d59a79fb217629bc890cb",
                     "shasum": ""
                 },
@@ -9845,7 +9814,10 @@
                     }
                 ],
                 "description": "Reset passwords for one or more WordPress users.",
-                "homepage": "https://runcommand.io/wp/user-reset-password/"
+                "homepage": "https://runcommand.io/wp/user-reset-password/",
+                "support": {
+                    "source": "https://github.com/runcommand/user-reset-password/tree/master"
+                }
             }
         },
         "rxnlabs/wp-composer-dependencies": {
@@ -9855,7 +9827,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:rxnlabs/wp-composer.git",
+                    "url": "https://github.com/rxnlabs/wp-composer.git",
                     "reference": "29d633e5109dd4bec689af032e70cad3edfa0ff5"
                 },
                 "dist": {
@@ -9911,7 +9883,8 @@
                     "wordpress wp composer dependencies wp-cli"
                 ],
                 "support": {
-                    "issues": "https://github.com/rxnlabs/wp-composer/issues"
+                    "issues": "https://github.com/rxnlabs/wp-composer/issues",
+                    "source": "https://github.com/rxnlabs/wp-composer/tree/dev"
                 }
             },
             "dev-dev": {
@@ -9920,7 +9893,7 @@
                 "version_normalized": "dev-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:rxnlabs/wp-composer.git",
+                    "url": "https://github.com/rxnlabs/wp-composer.git",
                     "reference": "29d633e5109dd4bec689af032e70cad3edfa0ff5"
                 },
                 "dist": {
@@ -9976,7 +9949,8 @@
                     "wordpress wp composer dependencies wp-cli"
                 ],
                 "support": {
-                    "issues": "https://github.com/rxnlabs/wp-composer/issues"
+                    "issues": "https://github.com/rxnlabs/wp-composer/issues",
+                    "source": "https://github.com/rxnlabs/wp-composer/tree/dev"
                 }
             }
         },
@@ -9987,7 +9961,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:sebastiaandegeus/wp-cli-salts-command.git",
+                    "url": "https://github.com/sebastiaandegeus/wp-cli-salts-command.git",
                     "reference": "1ba4b95598774320aaa9cf2a2340e1dd5a9c091b"
                 },
                 "dist": {
@@ -10010,7 +9984,11 @@
                     "MIT"
                 ],
                 "description": "Manage salts for your WordPress installation",
-                "homepage": "https://github.com/sebastiaandegeus/wp-cli-salts-command"
+                "homepage": "https://github.com/sebastiaandegeus/wp-cli-salts-command",
+                "support": {
+                    "source": "https://github.com/sebastiaandegeus/wp-cli-salts-command/tree/master",
+                    "issues": "https://github.com/sebastiaandegeus/wp-cli-salts-command/issues"
+                }
             }
         },
         "shifter/cli": {
@@ -10462,7 +10440,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:sinebridge/wp-cli-about.git",
+                    "url": "https://github.com/sinebridge/wp-cli-about.git",
                     "reference": "433e34adc84cb3816ecf40f1102e34fd20d024f5"
                 },
                 "dist": {
@@ -10502,7 +10480,11 @@
                     "about",
                     "wordpress",
                     "wp-cli"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/sinebridge/wp-cli-about/tree/v1.0.0",
+                    "issues": "https://github.com/sinebridge/wp-cli-about/issues"
+                }
             },
             "v1.0.1": {
                 "name": "sinebridge/wp-cli-about",
@@ -10510,7 +10492,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:sinebridge/wp-cli-about.git",
+                    "url": "https://github.com/sinebridge/wp-cli-about.git",
                     "reference": "7e0cd739e0fc43ca9778da2a7696ab60118e34b0"
                 },
                 "dist": {
@@ -10550,7 +10532,11 @@
                     "about",
                     "wordpress",
                     "wp-cli"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/sinebridge/wp-cli-about/tree/v1.0.1",
+                    "issues": "https://github.com/sinebridge/wp-cli-about/issues"
+                }
             },
             "dev-master": {
                 "name": "sinebridge/wp-cli-about",
@@ -10558,7 +10544,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:sinebridge/wp-cli-about.git",
+                    "url": "https://github.com/sinebridge/wp-cli-about.git",
                     "reference": "7e0cd739e0fc43ca9778da2a7696ab60118e34b0"
                 },
                 "dist": {
@@ -10598,7 +10584,11 @@
                     "about",
                     "wordpress",
                     "wp-cli"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/sinebridge/wp-cli-about/tree/v1.0.1",
+                    "issues": "https://github.com/sinebridge/wp-cli-about/issues"
+                }
             },
             "dev-develop": {
                 "name": "sinebridge/wp-cli-about",
@@ -10606,7 +10596,7 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:sinebridge/wp-cli-about.git",
+                    "url": "https://github.com/sinebridge/wp-cli-about.git",
                     "reference": "0ed6a4e461d0afa4bd245f186061ccfe4f9417ae"
                 },
                 "dist": {
@@ -10646,7 +10636,11 @@
                     "about",
                     "wordpress",
                     "wp-cli"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/sinebridge/wp-cli-about/tree/develop",
+                    "issues": "https://github.com/sinebridge/wp-cli-about/issues"
+                }
             }
         },
         "sommarnatt/wp-cli-oderland": {
@@ -10656,7 +10650,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:sommarnatt/wp-cli-oderland.git",
+                    "url": "https://github.com/sommarnatt/wp-cli-oderland.git",
                     "reference": "059e81a4a3eef4cb562844db667cbb27981fa3f9"
                 },
                 "dist": {
@@ -10686,7 +10680,11 @@
                     }
                 ],
                 "description": "Manage Databases and Domains for Oderland Hosting Services",
-                "homepage": "https://github.com/sommarnatt/wp-cli-oderland"
+                "homepage": "https://github.com/sommarnatt/wp-cli-oderland",
+                "support": {
+                    "source": "https://github.com/sommarnatt/wp-cli-oderland/tree/master",
+                    "issues": "https://github.com/sommarnatt/wp-cli-oderland/issues"
+                }
             }
         },
         "srtfisher/wp-composer": {
@@ -10696,7 +10694,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:srtfisher/wp-composer.git",
+                    "url": "https://github.com/srtfisher/wp-composer.git",
                     "reference": "a3f9ddf1b8c28a9208f203490e75f816e1e000fe"
                 },
                 "dist": {
@@ -10728,7 +10726,11 @@
                     "composer",
                     "wordpress",
                     "wp-cli"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/srtfisher/wp-composer/tree/0.1",
+                    "issues": "https://github.com/srtfisher/wp-composer/issues"
+                }
             },
             "0.1.1": {
                 "name": "srtfisher/wp-composer",
@@ -10736,7 +10738,7 @@
                 "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:srtfisher/wp-composer.git",
+                    "url": "https://github.com/srtfisher/wp-composer.git",
                     "reference": "470dfc117d78044c77bb3b3eace5ee0f5019a80f"
                 },
                 "dist": {
@@ -10768,7 +10770,11 @@
                     "composer",
                     "wordpress",
                     "wp-cli"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/srtfisher/wp-composer/tree/0.1.1",
+                    "issues": "https://github.com/srtfisher/wp-composer/issues"
+                }
             },
             "0.1.2": {
                 "name": "srtfisher/wp-composer",
@@ -10776,7 +10782,7 @@
                 "version_normalized": "0.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:srtfisher/wp-composer.git",
+                    "url": "https://github.com/srtfisher/wp-composer.git",
                     "reference": "5f1462f9cb1944c691506b5cc72d66e2fd5213a2"
                 },
                 "dist": {
@@ -10809,7 +10815,11 @@
                     "composer",
                     "wordpress",
                     "wp-cli"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/srtfisher/wp-composer/tree/0.1.2",
+                    "issues": "https://github.com/srtfisher/wp-composer/issues"
+                }
             },
             "dev-master": {
                 "name": "srtfisher/wp-composer",
@@ -10817,7 +10827,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:srtfisher/wp-composer.git",
+                    "url": "https://github.com/srtfisher/wp-composer.git",
                     "reference": "bcb1e78d21e5a4649297a0c12e2b24961fe87efa"
                 },
                 "dist": {
@@ -10855,7 +10865,11 @@
                     "composer",
                     "wordpress",
                     "wp-cli"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/srtfisher/wp-composer/tree/master",
+                    "issues": "https://github.com/srtfisher/wp-composer/issues"
+                }
             }
         },
         "szepeviktor/wp-cli-database-prefix-command": {
@@ -10865,7 +10879,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:szepeviktor/wp-cli-database-prefix-command.git",
+                    "url": "https://github.com/szepeviktor/wp-cli-database-prefix-command.git",
                     "reference": "337036bfad4a1b6f7151651ec9f933ac7dc074b1"
                 },
                 "dist": {
@@ -10901,7 +10915,11 @@
                     "database",
                     "prefix",
                     "wp-cli"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/szepeviktor/wp-cli-database-prefix-command/tree/master",
+                    "issues": "https://github.com/szepeviktor/wp-cli-database-prefix-command/issues"
+                }
             }
         },
         "tillkruss/wp-cli-kraken": {
@@ -10911,7 +10929,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:tillkruss/wp-cli-kraken.git",
+                    "url": "https://github.com/tillkruss/wp-cli-kraken.git",
                     "reference": "637b47ae0c2c4c0d40ba981e306724b7af327236"
                 },
                 "dist": {
@@ -10937,7 +10955,11 @@
                     }
                 ],
                 "description": "WP-CLI command to optimize WordPress image attachments using the Kraken Image Optimizer.",
-                "homepage": "https://github.com/tillkruss/wp-cli-kraken"
+                "homepage": "https://github.com/tillkruss/wp-cli-kraken",
+                "support": {
+                    "source": "https://github.com/tillkruss/wp-cli-kraken/tree/master",
+                    "issues": "https://github.com/tillkruss/wp-cli-kraken/issues"
+                }
             }
         },
         "timhysniu/wp-cli-template": {
@@ -10947,7 +10969,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:timhysniu/wp-cli-template.git",
+                    "url": "https://github.com/timhysniu/wp-cli-template.git",
                     "reference": "81e7373c6570d8a40636c8c019e261d76d22a305"
                 },
                 "dist": {
@@ -10976,7 +10998,11 @@
                     }
                 ],
                 "description": "Find, list and update templates for WP-CLI",
-                "homepage": "https://github.com/timhysniu/wp-cli-template"
+                "homepage": "https://github.com/timhysniu/wp-cli-template",
+                "support": {
+                    "source": "https://github.com/timhysniu/wp-cli-template/tree/master",
+                    "issues": "https://github.com/timhysniu/wp-cli-template/issues"
+                }
             }
         },
         "timhysniu/wp-dbdelta": {
@@ -10986,7 +11012,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:timhysniu/wp-dbdelta.git",
+                    "url": "https://github.com/timhysniu/wp-dbdelta.git",
                     "reference": "f601ba5b494ef61ef76f121cf4b1f43f788a5f54"
                 },
                 "dist": {
@@ -11015,7 +11041,11 @@
                     }
                 ],
                 "description": "Database change management for WP-CLI",
-                "homepage": "https://github.com/timhysniu/wp-dbdelta"
+                "homepage": "https://github.com/timhysniu/wp-dbdelta",
+                "support": {
+                    "source": "https://github.com/timhysniu/wp-dbdelta/tree/master",
+                    "issues": "https://github.com/timhysniu/wp-dbdelta/issues"
+                }
             }
         },
         "trendwerk/faker": {
@@ -11025,7 +11055,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:trendwerk/faker.git",
+                    "url": "https://github.com/trendwerk/faker.git",
                     "reference": "3edaf53c8655543b0217cd87d508d762e9839cba"
                 },
                 "dist": {
@@ -11061,7 +11091,11 @@
                     }
                 ],
                 "description": "Fake post data with WP-CLI.",
-                "homepage": "https://github.com/trendwerk/faker"
+                "homepage": "https://github.com/trendwerk/faker",
+                "support": {
+                    "source": "https://github.com/trendwerk/faker/tree/master",
+                    "issues": "https://github.com/trendwerk/faker/issues"
+                }
             },
             "dev-master": {
                 "name": "trendwerk/faker",
@@ -11069,7 +11103,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:trendwerk/faker.git",
+                    "url": "https://github.com/trendwerk/faker.git",
                     "reference": "7cef92b08b982c8f271961bfb99d31792c209093"
                 },
                 "dist": {
@@ -11106,7 +11140,11 @@
                     }
                 ],
                 "description": "Fake post data with WP-CLI.",
-                "homepage": "https://github.com/trendwerk/faker"
+                "homepage": "https://github.com/trendwerk/faker",
+                "support": {
+                    "source": "https://github.com/trendwerk/faker/tree/master",
+                    "issues": "https://github.com/trendwerk/faker/issues"
+                }
             }
         },
         "trepmal/blog-extractor": {
@@ -11116,7 +11154,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:trepmal/blog-extractor.git",
+                    "url": "https://github.com/trepmal/blog-extractor.git",
                     "reference": "97b238ca547d63a173273d4e6439577308e81129"
                 },
                 "dist": {
@@ -11142,7 +11180,11 @@
                     "MIT"
                 ],
                 "description": "Extract a single blog from a multisite",
-                "homepage": "https://github.com/trepmal/blog-extractor"
+                "homepage": "https://github.com/trepmal/blog-extractor",
+                "support": {
+                    "source": "https://github.com/trepmal/blog-extractor/tree/master",
+                    "issues": "https://github.com/trepmal/blog-extractor/issues"
+                }
             }
         },
         "trepmal/wp-revisions-cli": {
@@ -11152,7 +11194,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:trepmal/wp-revisions-cli.git",
+                    "url": "https://github.com/trepmal/wp-revisions-cli.git",
                     "reference": "b5113237393c64e7c9553ece7a832a12f008027c"
                 },
                 "dist": {
@@ -11178,7 +11220,11 @@
                     "MIT"
                 ],
                 "description": "Manage revisions",
-                "homepage": "https://github.com/trepmal/wp-revisions-cli"
+                "homepage": "https://github.com/trepmal/wp-revisions-cli",
+                "support": {
+                    "source": "https://github.com/trepmal/wp-revisions-cli/tree/master",
+                    "issues": "https://github.com/trepmal/wp-revisions-cli/issues"
+                }
             }
         },
         "vccw/scaffold-vccw": {
@@ -11188,7 +11234,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/scaffold-vccw.git",
+                    "url": "https://github.com/vccw-team/scaffold-vccw.git",
                     "reference": "5d8ef81154af65585ad7d04df954cfdc23afaa4c"
                 },
                 "dist": {
@@ -11228,7 +11274,11 @@
                 "license": [
                     "MIT"
                 ],
-                "homepage": "https://github.com/vccw/scaffold-vccw"
+                "homepage": "https://github.com/vccw/scaffold-vccw",
+                "support": {
+                    "source": "https://github.com/vccw-team/scaffold-vccw/tree/1.0.0",
+                    "issues": "https://github.com/vccw-team/scaffold-vccw/issues"
+                }
             },
             "1.0.1": {
                 "name": "vccw/scaffold-vccw",
@@ -11236,7 +11286,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/scaffold-vccw.git",
+                    "url": "https://github.com/vccw-team/scaffold-vccw.git",
                     "reference": "9ab141b75598052bc156ebb6ac33099daf3e66d2"
                 },
                 "dist": {
@@ -11274,7 +11324,11 @@
                 "license": [
                     "MIT"
                 ],
-                "homepage": "https://github.com/vccw-team/scaffold-vccw"
+                "homepage": "https://github.com/vccw-team/scaffold-vccw",
+                "support": {
+                    "source": "https://github.com/vccw-team/scaffold-vccw/tree/master",
+                    "issues": "https://github.com/vccw-team/scaffold-vccw/issues"
+                }
             },
             "1.1.0": {
                 "name": "vccw/scaffold-vccw",
@@ -11282,7 +11336,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/scaffold-vccw.git",
+                    "url": "https://github.com/vccw-team/scaffold-vccw.git",
                     "reference": "a292f69902d4b0bce80b1388103a2075c356de0b"
                 },
                 "dist": {
@@ -11320,7 +11374,11 @@
                 "license": [
                     "MIT"
                 ],
-                "homepage": "https://github.com/vccw-team/scaffold-vccw"
+                "homepage": "https://github.com/vccw-team/scaffold-vccw",
+                "support": {
+                    "source": "https://github.com/vccw-team/scaffold-vccw/tree/1.1.0",
+                    "issues": "https://github.com/vccw-team/scaffold-vccw/issues"
+                }
             },
             "1.1.1": {
                 "name": "vccw/scaffold-vccw",
@@ -11328,7 +11386,7 @@
                 "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/scaffold-vccw.git",
+                    "url": "https://github.com/vccw-team/scaffold-vccw.git",
                     "reference": "b83b444f32e3ccb51f2a65d3ebef119f224a618c"
                 },
                 "dist": {
@@ -11366,7 +11424,11 @@
                 "license": [
                     "MIT"
                 ],
-                "homepage": "https://github.com/vccw-team/scaffold-vccw"
+                "homepage": "https://github.com/vccw-team/scaffold-vccw",
+                "support": {
+                    "source": "https://github.com/vccw-team/scaffold-vccw/tree/1.1.1",
+                    "issues": "https://github.com/vccw-team/scaffold-vccw/issues"
+                }
             },
             "dev-master": {
                 "name": "vccw/scaffold-vccw",
@@ -11374,7 +11436,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/scaffold-vccw.git",
+                    "url": "https://github.com/vccw-team/scaffold-vccw.git",
                     "reference": "60af5f4043a6b8efde5c7252f0538fa3f32cfcce"
                 },
                 "dist": {
@@ -11412,7 +11474,11 @@
                 "license": [
                     "MIT"
                 ],
-                "homepage": "https://github.com/vccw-team/scaffold-vccw"
+                "homepage": "https://github.com/vccw-team/scaffold-vccw",
+                "support": {
+                    "source": "https://github.com/vccw-team/scaffold-vccw/tree/master",
+                    "issues": "https://github.com/vccw-team/scaffold-vccw/issues"
+                }
             },
             "dev-stable": {
                 "name": "vccw/scaffold-vccw",
@@ -11420,7 +11486,7 @@
                 "version_normalized": "dev-stable",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/scaffold-vccw.git",
+                    "url": "https://github.com/vccw-team/scaffold-vccw.git",
                     "reference": "a292f69902d4b0bce80b1388103a2075c356de0b"
                 },
                 "dist": {
@@ -11458,7 +11524,11 @@
                 "license": [
                     "MIT"
                 ],
-                "homepage": "https://github.com/vccw-team/scaffold-vccw"
+                "homepage": "https://github.com/vccw-team/scaffold-vccw",
+                "support": {
+                    "source": "https://github.com/vccw-team/scaffold-vccw/tree/1.1.0",
+                    "issues": "https://github.com/vccw-team/scaffold-vccw/issues"
+                }
             }
         },
         "vccw/wp-cli-scaffold-movefile": {
@@ -11468,7 +11538,7 @@
                 "version_normalized": "1.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/wp-cli-scaffold-movefile.git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
                     "reference": "d5dc37c1d4dc5f918b79b295eedc7ffc8f446c46"
                 },
                 "dist": {
@@ -11497,7 +11567,11 @@
                     }
                 ],
                 "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile"
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.1.2",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
             },
             "1.2.0": {
                 "name": "vccw/wp-cli-scaffold-movefile",
@@ -11505,7 +11579,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/wp-cli-scaffold-movefile.git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
                     "reference": "0a77eb44ff41f8ed93b653c75667e2a27bda2dc2"
                 },
                 "dist": {
@@ -11534,7 +11608,11 @@
                     }
                 ],
                 "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile"
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/master",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
             },
             "1.3.0": {
                 "name": "vccw/wp-cli-scaffold-movefile",
@@ -11542,7 +11620,7 @@
                 "version_normalized": "1.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/wp-cli-scaffold-movefile.git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
                     "reference": "5d817aa785d1408b645ddb71e88aa567cb4263b7"
                 },
                 "dist": {
@@ -11571,7 +11649,11 @@
                     }
                 ],
                 "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile"
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.3.0",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
             },
             "1.4.0": {
                 "name": "vccw/wp-cli-scaffold-movefile",
@@ -11579,7 +11661,7 @@
                 "version_normalized": "1.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/wp-cli-scaffold-movefile.git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
                     "reference": "714661e56a3a58bbb4ca312d913e1ef978a56b12"
                 },
                 "dist": {
@@ -11608,7 +11690,11 @@
                     }
                 ],
                 "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile"
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.0",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
             },
             "1.4.1": {
                 "name": "vccw/wp-cli-scaffold-movefile",
@@ -11616,7 +11702,7 @@
                 "version_normalized": "1.4.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/wp-cli-scaffold-movefile.git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
                     "reference": "f94e18799512ab30e1c7323313d81d64bcb31984"
                 },
                 "dist": {
@@ -11645,7 +11731,11 @@
                     }
                 ],
                 "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile"
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.1",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
             },
             "1.4.2": {
                 "name": "vccw/wp-cli-scaffold-movefile",
@@ -11653,7 +11743,7 @@
                 "version_normalized": "1.4.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/wp-cli-scaffold-movefile.git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
                     "reference": "9f77df2d14ee82ade55b5ee0f83279ceff7911be"
                 },
                 "dist": {
@@ -11682,7 +11772,11 @@
                     }
                 ],
                 "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile"
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.2",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
             },
             "1.4.3": {
                 "name": "vccw/wp-cli-scaffold-movefile",
@@ -11690,7 +11784,7 @@
                 "version_normalized": "1.4.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/wp-cli-scaffold-movefile.git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
                     "reference": "e30d5380588461ee97c5833e1fe267e4aac2b441"
                 },
                 "dist": {
@@ -11719,7 +11813,11 @@
                     }
                 ],
                 "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile"
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.3",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
             },
             "1.4.4": {
                 "name": "vccw/wp-cli-scaffold-movefile",
@@ -11727,7 +11825,7 @@
                 "version_normalized": "1.4.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/wp-cli-scaffold-movefile.git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
                     "reference": "6ef17d1df715d1f58045025a09c096991d1614b4"
                 },
                 "dist": {
@@ -11756,7 +11854,11 @@
                     }
                 ],
                 "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile"
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.4",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
             },
             "dev-master": {
                 "name": "vccw/wp-cli-scaffold-movefile",
@@ -11764,7 +11866,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/wp-cli-scaffold-movefile.git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
                     "reference": "27e2dcdf7c1638bdf6533cdfc30aa65de7d2f62e"
                 },
                 "dist": {
@@ -11793,7 +11895,11 @@
                     }
                 ],
                 "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile"
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/master",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
             },
             "dev-stable": {
                 "name": "vccw/wp-cli-scaffold-movefile",
@@ -11801,7 +11907,7 @@
                 "version_normalized": "dev-stable",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/wp-cli-scaffold-movefile.git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
                     "reference": "6ef17d1df715d1f58045025a09c096991d1614b4"
                 },
                 "dist": {
@@ -11830,7 +11936,11 @@
                     }
                 ],
                 "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile"
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.4",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
             },
             "dev-v1-4-0": {
                 "name": "vccw/wp-cli-scaffold-movefile",
@@ -11838,7 +11948,7 @@
                 "version_normalized": "dev-v1-4-0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:vccw-team/wp-cli-scaffold-movefile.git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
                     "reference": "d4744aa4b1db7acedc5a51d01c6c88019dfe47cb"
                 },
                 "dist": {
@@ -11867,7 +11977,11 @@
                     }
                 ],
                 "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile"
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/v1-4-0",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
             }
         },
         "viewone/wp-cli-environment": {
@@ -11877,13 +11991,13 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:viewone/wp-cli-environment.git",
-                    "reference": "2aad5f8a7b08ea9bcacef8a934cc47682c709580"
+                    "url": "https://github.com/viewone/wp-cli-environment.git",
+                    "reference": "53b022e5cee2418112e297a8022881c703da66bd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/2aad5f8a7b08ea9bcacef8a934cc47682c709580",
-                    "reference": "2aad5f8a7b08ea9bcacef8a934cc47682c709580",
+                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/53b022e5cee2418112e297a8022881c703da66bd",
+                    "reference": "53b022e5cee2418112e297a8022881c703da66bd",
                     "shasum": ""
                 },
                 "require-dev": {
@@ -11914,7 +12028,11 @@
                         "email": "p.kierzniewski@viewone.pl"
                     }
                 ],
-                "description": "Environment package for wp-cli"
+                "description": "Environment package for wp-cli",
+                "support": {
+                    "source": "https://github.com/viewone/wp-cli-environment/tree/0.1.0",
+                    "issues": "https://github.com/viewone/wp-cli-environment/issues"
+                }
             },
             "0.2.0": {
                 "name": "viewone/wp-cli-environment",
@@ -11922,53 +12040,7 @@
                 "version_normalized": "0.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:viewone/wp-cli-environment.git",
-                    "reference": "e07c1bda852e92be4a9de0fbd09b9a89919d983d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/e07c1bda852e92be4a9de0fbd09b9a89919d983d",
-                    "reference": "e07c1bda852e92be4a9de0fbd09b9a89919d983d",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "czproject/phpdepend": "~1.0",
-                    "fabpot/php-cs-fixer": "~0.4",
-                    "instaclick/php-code-sniffer": "~1.4",
-                    "mustache/mustache": "~2.4",
-                    "phploc/phploc": "~2.0",
-                    "phpmd/phpmd": "~1.5",
-                    "phpspec/phpspec": "~2.0",
-                    "sebastian/phpcpd": "~2.0"
-                },
-                "time": "2014-05-15 22:41:46",
-                "type": "library",
-                "autoload": {
-                    "psr-0": {
-                        "ViewOne": "src/"
-                    },
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Piotr Kierzniewski",
-                        "email": "p.kierzniewski@viewone.pl"
-                    }
-                ],
-                "description": "Environment package for wp-cli"
-            },
-            "dev-master": {
-                "name": "viewone/wp-cli-environment",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:viewone/wp-cli-environment.git",
+                    "url": "https://github.com/viewone/wp-cli-environment.git",
                     "reference": "372c5464af372f29f09ab5523ad5e36af1b61a80"
                 },
                 "dist": {
@@ -12006,7 +12078,61 @@
                         "email": "p.kierzniewski@viewone.pl"
                     }
                 ],
-                "description": "Environment package for wp-cli"
+                "description": "Environment package for wp-cli",
+                "support": {
+                    "source": "https://github.com/viewone/wp-cli-environment/tree/0.2.0",
+                    "issues": "https://github.com/viewone/wp-cli-environment/issues"
+                }
+            },
+            "dev-master": {
+                "name": "viewone/wp-cli-environment",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/viewone/wp-cli-environment.git",
+                    "reference": "372c5464af372f29f09ab5523ad5e36af1b61a80"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/372c5464af372f29f09ab5523ad5e36af1b61a80",
+                    "reference": "372c5464af372f29f09ab5523ad5e36af1b61a80",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "czproject/phpdepend": "~1.0",
+                    "fabpot/php-cs-fixer": "~0.4",
+                    "instaclick/php-code-sniffer": "~1.4",
+                    "mustache/mustache": "~2.4",
+                    "phploc/phploc": "~2.0",
+                    "phpmd/phpmd": "~1.5",
+                    "phpspec/phpspec": "~2.0",
+                    "sebastian/phpcpd": "~2.0"
+                },
+                "time": "2014-05-15 22:41:46",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "ViewOne": "src/"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Piotr Kierzniewski",
+                        "email": "p.kierzniewski@viewone.pl"
+                    }
+                ],
+                "description": "Environment package for wp-cli",
+                "support": {
+                    "source": "https://github.com/viewone/wp-cli-environment/tree/0.2.0",
+                    "issues": "https://github.com/viewone/wp-cli-environment/issues"
+                }
             },
             "dev-develop": {
                 "name": "viewone/wp-cli-environment",
@@ -12014,7 +12140,7 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:viewone/wp-cli-environment.git",
+                    "url": "https://github.com/viewone/wp-cli-environment.git",
                     "reference": "0187d7fe9038edc7b03e1b513f3900a0436068fb"
                 },
                 "dist": {
@@ -12052,7 +12178,11 @@
                         "email": "p.kierzniewski@viewone.pl"
                     }
                 ],
-                "description": "Environment package for wp-cli"
+                "description": "Environment package for wp-cli",
+                "support": {
+                    "source": "https://github.com/viewone/wp-cli-environment/tree/develop",
+                    "issues": "https://github.com/viewone/wp-cli-environment/issues"
+                }
             }
         },
         "welaika/wp-cli-db2utf8": {
@@ -12062,7 +12192,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:welaika/wp-cli-db2utf8.git",
+                    "url": "https://github.com/welaika/wp-cli-db2utf8.git",
                     "reference": "9db5c446729b28d6a720e280970106bdfe8e665d"
                 },
                 "dist": {
@@ -12087,7 +12217,11 @@
                 "license": [
                     "MIT"
                 ],
-                "homepage": "https://github.com/welaika/wp-cli-db2utf8"
+                "homepage": "https://github.com/welaika/wp-cli-db2utf8",
+                "support": {
+                    "source": "https://github.com/welaika/wp-cli-db2utf8/tree/master",
+                    "issues": "https://github.com/welaika/wp-cli-db2utf8/issues"
+                }
             }
         },
         "wp-cli/restful": {
@@ -12219,12 +12353,12 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:wp-cli/scaffold-package.git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
                     "reference": "34ae4473eb58907654fb87342ce054b205abee72"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package/zipball/34ae4473eb58907654fb87342ce054b205abee72",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/34ae4473eb58907654fb87342ce054b205abee72",
                     "reference": "34ae4473eb58907654fb87342ce054b205abee72",
                     "shasum": ""
                 },
@@ -12258,7 +12392,8 @@
                 "description": "Scaffold WP-CLI commands with functional tests",
                 "homepage": "https://github.com/wp-cli/scaffold-package-command",
                 "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues"
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
                 }
             },
             "v0.2.0": {
@@ -12267,12 +12402,12 @@
                 "version_normalized": "0.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:wp-cli/scaffold-package.git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
                     "reference": "79028a9f34d1b08b8f01d39d63886778bf4f9d74"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package/zipball/79028a9f34d1b08b8f01d39d63886778bf4f9d74",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/79028a9f34d1b08b8f01d39d63886778bf4f9d74",
                     "reference": "79028a9f34d1b08b8f01d39d63886778bf4f9d74",
                     "shasum": ""
                 },
@@ -12306,7 +12441,8 @@
                 "description": "Scaffold WP-CLI commands with functional tests",
                 "homepage": "https://github.com/wp-cli/scaffold-package-command",
                 "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues"
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
                 }
             },
             "dev-master": {
@@ -12315,12 +12451,12 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:wp-cli/scaffold-package.git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
                     "reference": "79028a9f34d1b08b8f01d39d63886778bf4f9d74"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package/zipball/79028a9f34d1b08b8f01d39d63886778bf4f9d74",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/79028a9f34d1b08b8f01d39d63886778bf4f9d74",
                     "reference": "79028a9f34d1b08b8f01d39d63886778bf4f9d74",
                     "shasum": ""
                 },
@@ -12354,7 +12490,8 @@
                 "description": "Scaffold WP-CLI commands with functional tests",
                 "homepage": "https://github.com/wp-cli/scaffold-package-command",
                 "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues"
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
                 }
             },
             "dev-render-mustache": {
@@ -12363,12 +12500,12 @@
                 "version_normalized": "dev-render-mustache",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:wp-cli/scaffold-package.git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
                     "reference": "bfd80eb2d3cee5e62d04114a8d8775838e493285"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package/zipball/bfd80eb2d3cee5e62d04114a8d8775838e493285",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/bfd80eb2d3cee5e62d04114a8d8775838e493285",
                     "reference": "bfd80eb2d3cee5e62d04114a8d8775838e493285",
                     "shasum": ""
                 },
@@ -12395,7 +12532,8 @@
                 "description": "Scaffold WP-CLI commands with functional tests",
                 "homepage": "https://github.com/wp-cli/scaffold-package-command",
                 "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues"
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/render-mustache"
                 }
             }
         },
@@ -12406,7 +12544,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:wp-cli/server-command.git",
+                    "url": "https://github.com/wp-cli/server-command.git",
                     "reference": "9bf8dee2d34db0ecf11e05e79c390e68d4125a7c"
                 },
                 "dist": {
@@ -12418,7 +12556,7 @@
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2015-06-02 16:57:01",
+                "time": "2015-06-02 17:00:38",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -12429,7 +12567,11 @@
                     "MIT"
                 ],
                 "description": "Start a development server for WordPress",
-                "homepage": "https://github.com/wp-cli/server-command"
+                "homepage": "https://github.com/wp-cli/server-command",
+                "support": {
+                    "source": "https://github.com/wp-cli/server-command/tree/master",
+                    "issues": "https://github.com/wp-cli/server-command/issues"
+                }
             }
         },
         "wp-cli/wp-super-cache-cli": {
@@ -12439,7 +12581,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:wp-cli/wp-super-cache-cli.git",
+                    "url": "https://github.com/wp-cli/wp-super-cache-cli.git",
                     "reference": "e4ec9c9ce324f8e0ec4068999d669f577b017d6b"
                 },
                 "dist": {
@@ -12474,7 +12616,11 @@
                     "cache",
                     "super-cache",
                     "wp-cli"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/wp-cli/wp-super-cache-cli/tree/master",
+                    "issues": "https://github.com/wp-cli/wp-super-cache-cli/issues"
+                }
             }
         },
         "x-team/wp-cli-ssh": {
@@ -12484,12 +12630,12 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:x-team/wp-cli-ssh.git",
+                    "url": "https://github.com/xwp/wp-cli-ssh.git",
                     "reference": "c9f37daef41a82f9d1309befd4d4b2d1d17722e1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/c9f37daef41a82f9d1309befd4d4b2d1d17722e1",
+                    "url": "https://api.github.com/repos/xwp/wp-cli-ssh/zipball/c9f37daef41a82f9d1309befd4d4b2d1d17722e1",
                     "reference": "c9f37daef41a82f9d1309befd4d4b2d1d17722e1",
                     "shasum": ""
                 },
@@ -12539,12 +12685,12 @@
                 "version_normalized": "dev-command",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:x-team/wp-cli-ssh.git",
+                    "url": "https://github.com/xwp/wp-cli-ssh.git",
                     "reference": "3b83534bfec53d32547000083706077b880f46cb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/3b83534bfec53d32547000083706077b880f46cb",
+                    "url": "https://api.github.com/repos/xwp/wp-cli-ssh/zipball/3b83534bfec53d32547000083706077b880f46cb",
                     "reference": "3b83534bfec53d32547000083706077b880f46cb",
                     "shasum": ""
                 },
@@ -12593,12 +12739,12 @@
                 "version_normalized": "dev-issue-7",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:x-team/wp-cli-ssh.git",
+                    "url": "https://github.com/xwp/wp-cli-ssh.git",
                     "reference": "fa0a94337fe9c4065c9d353173a4121caa3581a8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/x-team/wp-cli-ssh/zipball/fa0a94337fe9c4065c9d353173a4121caa3581a8",
+                    "url": "https://api.github.com/repos/xwp/wp-cli-ssh/zipball/fa0a94337fe9c4065c9d353173a4121caa3581a8",
                     "reference": "fa0a94337fe9c4065c9d353173a4121caa3581a8",
                     "shasum": ""
                 },
