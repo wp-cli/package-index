@@ -2227,25 +2227,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/boonebgorges/wp-cli-git-helper.git",
-                    "reference": "d5115467e247e362519410d8dc817d06cd1a8c4f"
+                    "reference": "9d45521de1ea7d80faf66a34ebf197796fbdc06a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-git-helper/zipball/d5115467e247e362519410d8dc817d06cd1a8c4f",
-                    "reference": "d5115467e247e362519410d8dc817d06cd1a8c4f",
+                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-git-helper/zipball/9d45521de1ea7d80faf66a34ebf197796fbdc06a",
+                    "reference": "9d45521de1ea7d80faf66a34ebf197796fbdc06a",
                     "shasum": ""
                 },
                 "require": {
-                    "kbjr/git.php": "dev-master",
+                    "bit3/git-php": "dev-master",
                     "php": ">=5.3"
                 },
-                "time": "2016-10-20 19:33:05",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "wp-cli-git-helper.php"
-                    ]
-                },
+                "time": "2016-12-06 03:16:22",
+                "type": "command",
                 "license": [
                     "MIT"
                 ],
