@@ -2227,19 +2227,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/boonebgorges/wp-cli-git-helper.git",
-                    "reference": "9d45521de1ea7d80faf66a34ebf197796fbdc06a"
+                    "reference": "2da0897eec1f24153225c02044d7cf5622df3b05"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-git-helper/zipball/9d45521de1ea7d80faf66a34ebf197796fbdc06a",
-                    "reference": "9d45521de1ea7d80faf66a34ebf197796fbdc06a",
+                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-git-helper/zipball/2da0897eec1f24153225c02044d7cf5622df3b05",
+                    "reference": "2da0897eec1f24153225c02044d7cf5622df3b05",
                     "shasum": ""
                 },
                 "require": {
                     "bit3/git-php": "dev-master",
                     "php": ">=5.3"
                 },
-                "time": "2016-12-06 03:16:22",
+                "time": "2016-12-06 03:35:15",
                 "type": "command",
                 "license": [
                     "MIT"
