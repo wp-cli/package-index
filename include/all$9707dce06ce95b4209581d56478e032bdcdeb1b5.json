@@ -164,6 +164,47 @@
                     "issues": "https://github.com/10up/MU-Migration/issues",
                     "source": "https://github.com/10up/MU-Migration/tree/fix/exporting-primary-site-multisite"
                 }
+            },
+            "dev-fix/garbage-colector-wp-4.7": {
+                "name": "10up/mu-migration",
+                "version": "dev-fix/garbage-colector-wp-4.7",
+                "version_normalized": "dev-fix/garbage-colector-wp-4.7",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/10up/MU-Migration.git",
+                    "reference": "3dd2b3c064ce7a34d7254b2e82e2b4293536c294"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/3dd2b3c064ce7a34d7254b2e82e2b4293536c294",
+                    "reference": "3dd2b3c064ce7a34d7254b2e82e2b4293536c294",
+                    "shasum": ""
+                },
+                "require": {
+                    "alchemy/zippy": "^0.3.5"
+                },
+                "time": "2016-12-07 01:58:57",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "mu-migration.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nícholas André",
+                        "email": "nicholas@iotecnologia.com.br"
+                    }
+                ],
+                "description": "A set of WP-CLI commands to support the migration of single WordPress instances to multisite",
+                "homepage": "https://github.com/10up/MU-Migration",
+                "support": {
+                    "issues": "https://github.com/10up/MU-Migration/issues",
+                    "source": "https://github.com/10up/MU-Migration/tree/fix/garbage-colector-wp-4.7"
+                }
             }
         },
         "aaemnnosttv/wp-cli-dotenv-command": {
