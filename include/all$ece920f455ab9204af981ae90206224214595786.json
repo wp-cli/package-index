@@ -1330,43 +1330,6 @@
                 }
             }
         },
-        "alessandrotesoro/wp-usergen-cli": {
-            "dev-master": {
-                "name": "alessandrotesoro/wp-usergen-cli",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/alessandrotesoro/wp-usergen-cli.git",
-                    "reference": "c985d31aa1ae835e476822ce42fb19a4d78a7828"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/alessandrotesoro/wp-usergen-cli/zipball/c985d31aa1ae835e476822ce42fb19a4d78a7828",
-                    "reference": "c985d31aa1ae835e476822ce42fb19a4d78a7828",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2016-10-23 16:40:28",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "wp-usergen-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Simple command to generate random users for testing purposes.",
-                "homepage": "https://github.com/alessandrotesoro/wp-usergen-cli",
-                "support": {
-                    "source": "https://github.com/alessandrotesoro/wp-usergen-cli/tree/master",
-                    "issues": "https://github.com/alessandrotesoro/wp-usergen-cli/issues"
-                }
-            }
-        },
         "alleyinteractive/wp-doc-command": {
             "dev-master": {
                 "name": "alleyinteractive/wp-doc-command",
@@ -1449,43 +1412,6 @@
                 "support": {
                     "source": "https://github.com/anhskohbo/wp-cli-themecheck/tree/master",
                     "issues": "https://github.com/anhskohbo/wp-cli-themecheck/issues"
-                }
-            }
-        },
-        "billerickson/wp-cli-plugin-install-missing": {
-            "dev-master": {
-                "name": "billerickson/wp-cli-plugin-install-missing",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/billerickson/wp-cli-plugin-install-missing.git",
-                    "reference": "2be8cca255c321080fb53e129ae20aef4abbdd7b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/billerickson/wp-cli-plugin-install-missing/zipball/2be8cca255c321080fb53e129ae20aef4abbdd7b",
-                    "reference": "2be8cca255c321080fb53e129ae20aef4abbdd7b",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2016-10-20 14:17:11",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "wp-cli-plugin-install-missing.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Install any plugins that are active but missing.",
-                "homepage": "https://github.com/billerickson/wp-cli-plugin-install-missing",
-                "support": {
-                    "source": "https://github.com/billerickson/wp-cli-plugin-install-missing/tree/master",
-                    "issues": "https://github.com/billerickson/wp-cli-plugin-install-missing/issues"
                 }
             }
         },
