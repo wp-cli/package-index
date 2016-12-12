@@ -82,6 +82,47 @@
                     "issues": "https://github.com/10up/MU-Migration/issues",
                     "source": "https://github.com/10up/MU-Migration/tree/develop"
                 }
+            },
+            "dev-feature/add_transaction": {
+                "name": "10up/mu-migration",
+                "version": "dev-feature/add_transaction",
+                "version_normalized": "dev-feature/add_transaction",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/10up/MU-Migration.git",
+                    "reference": "95c2a3c6ce13c90374bc644d0f04b089d6a63dbf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/95c2a3c6ce13c90374bc644d0f04b089d6a63dbf",
+                    "reference": "95c2a3c6ce13c90374bc644d0f04b089d6a63dbf",
+                    "shasum": ""
+                },
+                "require": {
+                    "alchemy/zippy": "^0.3.5"
+                },
+                "time": "2016-12-12 20:11:03",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "mu-migration.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nícholas André",
+                        "email": "nicholas@iotecnologia.com.br"
+                    }
+                ],
+                "description": "A set of WP-CLI commands to support the migration of single WordPress instances to multisite",
+                "homepage": "https://github.com/10up/MU-Migration",
+                "support": {
+                    "issues": "https://github.com/10up/MU-Migration/issues",
+                    "source": "https://github.com/10up/MU-Migration/tree/feature/add_transaction"
+                }
             }
         },
         "aaemnnosttv/wp-cli-dotenv-command": {
