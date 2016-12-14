@@ -2255,23 +2255,26 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/boonebgorges/wp-cli-git-helper.git",
-                    "reference": "7fffc3c6f97449dde677e1716935502c7eb2cb07"
+                    "reference": "e7efc0c2fbbed6bd4cdbb22d43dbf0aed2428096"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-git-helper/zipball/7fffc3c6f97449dde677e1716935502c7eb2cb07",
-                    "reference": "7fffc3c6f97449dde677e1716935502c7eb2cb07",
+                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-git-helper/zipball/e7efc0c2fbbed6bd4cdbb22d43dbf0aed2428096",
+                    "reference": "e7efc0c2fbbed6bd4cdbb22d43dbf0aed2428096",
                     "shasum": ""
                 },
                 "require": {
                     "bit3/git-php": "dev-master",
                     "php": ">=5.3"
                 },
-                "time": "2016-12-06 15:53:39",
+                "time": "2016-12-14 02:18:13",
                 "type": "command",
                 "autoload": {
                     "classmap": [
                         "src/"
+                    ],
+                    "files": [
+                        "wp-cli-git-helper.php"
                     ]
                 },
                 "license": [
