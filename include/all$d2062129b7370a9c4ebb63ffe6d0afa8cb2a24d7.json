@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/MU-Migration.git",
-                    "reference": "0a4b6036f5d82122bd0a2d5b58604df845a3fde2"
+                    "reference": "5b4b51bc62ed2fea50fb0167e8af40e579f7931b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/0a4b6036f5d82122bd0a2d5b58604df845a3fde2",
-                    "reference": "0a4b6036f5d82122bd0a2d5b58604df845a3fde2",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/5b4b51bc62ed2fea50fb0167e8af40e579f7931b",
+                    "reference": "5b4b51bc62ed2fea50fb0167e8af40e579f7931b",
                     "shasum": ""
                 },
                 "require": {
                     "alchemy/zippy": "^0.3.5"
                 },
-                "time": "2016-12-08 01:48:16",
+                "time": "2016-12-14 13:55:58",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -81,47 +81,6 @@
                 "support": {
                     "issues": "https://github.com/10up/MU-Migration/issues",
                     "source": "https://github.com/10up/MU-Migration/tree/develop"
-                }
-            },
-            "dev-feature/add_transaction": {
-                "name": "10up/mu-migration",
-                "version": "dev-feature/add_transaction",
-                "version_normalized": "dev-feature/add_transaction",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/10up/MU-Migration.git",
-                    "reference": "9e3cbd5d0470c73ea7d87c1b7e6c4401f3a4337f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/9e3cbd5d0470c73ea7d87c1b7e6c4401f3a4337f",
-                    "reference": "9e3cbd5d0470c73ea7d87c1b7e6c4401f3a4337f",
-                    "shasum": ""
-                },
-                "require": {
-                    "alchemy/zippy": "^0.3.5"
-                },
-                "time": "2016-12-13 05:58:11",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "mu-migration.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Nícholas André",
-                        "email": "nicholas@iotecnologia.com.br"
-                    }
-                ],
-                "description": "A set of WP-CLI commands to support the migration of single WordPress instances to multisite",
-                "homepage": "https://github.com/10up/MU-Migration",
-                "support": {
-                    "issues": "https://github.com/10up/MU-Migration/issues",
-                    "source": "https://github.com/10up/MU-Migration/tree/feature/add_transaction"
                 }
             }
         },
