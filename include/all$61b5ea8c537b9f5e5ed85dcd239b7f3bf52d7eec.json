@@ -5736,15 +5736,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/iandunn/wp-cli-rename-db-prefix.git",
-                    "reference": "5b81867b0ab8b54509178ea8859a4acd95667afa"
+                    "reference": "95ce5b2e7b9699214c12017220963fc35fdcf456"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/iandunn/wp-cli-rename-db-prefix/zipball/5b81867b0ab8b54509178ea8859a4acd95667afa",
-                    "reference": "5b81867b0ab8b54509178ea8859a4acd95667afa",
+                    "url": "https://api.github.com/repos/iandunn/wp-cli-rename-db-prefix/zipball/95ce5b2e7b9699214c12017220963fc35fdcf456",
+                    "reference": "95ce5b2e7b9699214c12017220963fc35fdcf456",
                     "shasum": ""
                 },
-                "time": "2016-11-04 16:55:32",
+                "time": "2016-12-16 21:47:08",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
