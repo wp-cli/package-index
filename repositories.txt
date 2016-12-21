@@ -68,6 +68,7 @@ https://github.com/sinebridge/wp-cli-about
 https://github.com/rxnlabs/wp-composer
 https://github.com/sommarnatt/wp-cli-oderland
 https://github.com/srtfisher/wp-composer
+https://github.com/stephenharris/wp-test-library
 https://github.com/stianlik/wp-cli-mig
 https://github.com/szepeviktor/wp-cli-database-prefix-command
 https://github.com/tillkruss/wp-cli-kraken
