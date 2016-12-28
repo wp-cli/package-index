@@ -2340,30 +2340,30 @@
                 }
             }
         },
-        "brightoak/envoyer": {
+        "brightoak/wp-cli-envoyer": {
             "dev-master": {
-                "name": "brightoak/envoyer",
+                "name": "brightoak/wp-cli-envoyer",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/brightoak/wp-cli-envoyer.git",
-                    "reference": "2c65cf68692567e40bb88a3d8417a5acb6092953"
+                    "reference": "f279151811227de82e402bde03820beddecf1b9f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/brightoak/wp-cli-envoyer/zipball/2c65cf68692567e40bb88a3d8417a5acb6092953",
-                    "reference": "2c65cf68692567e40bb88a3d8417a5acb6092953",
+                    "url": "https://api.github.com/repos/brightoak/wp-cli-envoyer/zipball/f279151811227de82e402bde03820beddecf1b9f",
+                    "reference": "f279151811227de82e402bde03820beddecf1b9f",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4",
-                    "wp-cli/wp-cli": "^0.23.0"
+                    "wp-cli/wp-cli": ">=0.23.0"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-20 14:18:04",
+                "time": "2016-12-28 19:47:47",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -2371,7 +2371,7 @@
                     ]
                 },
                 "description": "A command to invoke a deployment via envoyer using the DEPLOY_URL environment variable",
-                "homepage": "https://github.com/brightoak/envoyer",
+                "homepage": "https://github.com/brightoak/wp-cli-envoyer",
                 "support": {
                     "source": "https://github.com/brightoak/wp-cli-envoyer/tree/master",
                     "issues": "https://github.com/brightoak/wp-cli-envoyer/issues"
