@@ -6224,6 +6224,54 @@
                     "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/master",
                     "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
                 }
+            },
+            "dev-feature/allow-test-data-removal": {
+                "name": "JayWood/jw-wpcli-random-posts",
+                "version": "dev-feature/allow-test-data-removal",
+                "version_normalized": "dev-feature/allow-test-data-removal",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
+                    "reference": "2c32061149bcb25fc1887d5be0d4e8bcb131186b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/2c32061149bcb25fc1887d5be0d4e8bcb131186b",
+                    "reference": "2c32061149bcb25fc1887d5be0d4e8bcb131186b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-12-30 04:49:00",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "generate-posts.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Jay Wood",
+                        "email": "jjwood2004@gmail.com",
+                        "homepage": "http://plugish.com"
+                    }
+                ],
+                "description": "A robust random post generator for WP CLI which supports multisite, post types, post counts, taxonomies, terms, term counts and featured images.",
+                "homepage": "http://plugish.com",
+                "keywords": [
+                    "placeholder",
+                    "random posts",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/feature/allow-test-data-removal",
+                    "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
+                }
             }
         },
         "lucatume/wpcli-wpbrowser-tests": {
