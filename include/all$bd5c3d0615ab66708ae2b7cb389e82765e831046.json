@@ -1856,18 +1856,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/binarygary/db-checkpoint.git",
-                    "reference": "fea87779898066cda2be1dcd0052d980f415e20e"
+                    "reference": "bb2d810f8b0745bf0b4f21fd2591fe1bd52980c6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/fea87779898066cda2be1dcd0052d980f415e20e",
-                    "reference": "fea87779898066cda2be1dcd0052d980f415e20e",
+                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/bb2d810f8b0745bf0b4f21fd2591fe1bd52980c6",
+                    "reference": "bb2d810f8b0745bf0b4f21fd2591fe1bd52980c6",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-12-11 02:07:23",
+                "time": "2017-01-07 03:29:12",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
