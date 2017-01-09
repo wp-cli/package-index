@@ -5084,26 +5084,26 @@
                     "source": "https://github.com/eriktorsner/wp-checksum/tree/0.2.0"
                 }
             },
-            "dev-master": {
+            "0.2.1": {
                 "name": "eriktorsner/wp-checksum",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/eriktorsner/wp-checksum.git",
-                    "reference": "5a20cfbe2c985560b2ae79d30ec61eb196fb0e21"
+                    "reference": "e9de22bf9386112a9220cb3e76052039d3247a89"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/eriktorsner/wp-checksum/zipball/5a20cfbe2c985560b2ae79d30ec61eb196fb0e21",
-                    "reference": "5a20cfbe2c985560b2ae79d30ec61eb196fb0e21",
+                    "url": "https://api.github.com/repos/eriktorsner/wp-checksum/zipball/e9de22bf9386112a9220cb3e76052039d3247a89",
+                    "reference": "e9de22bf9386112a9220cb3e76052039d3247a89",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.9",
                     "pimple/pimple": "~3.0"
                 },
-                "time": "2017-01-09 12:08:06",
+                "time": "2017-01-09 14:09:06",
                 "type": "wp-cli-package",
                 "autoload": {
                     "psr-4": {
@@ -5130,7 +5130,56 @@
                 ],
                 "support": {
                     "issues": "https://github.com/eriktorsner/wp-checksum/issues",
-                    "source": "https://github.com/eriktorsner/wp-checksum/tree/0.2.0"
+                    "source": "https://github.com/eriktorsner/wp-checksum/tree/0.2.1"
+                }
+            },
+            "dev-master": {
+                "name": "eriktorsner/wp-checksum",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eriktorsner/wp-checksum.git",
+                    "reference": "a9b20ae369c28f941f1f5165b1c16d40b3907f2c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eriktorsner/wp-checksum/zipball/a9b20ae369c28f941f1f5165b1c16d40b3907f2c",
+                    "reference": "a9b20ae369c28f941f1f5165b1c16d40b3907f2c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.9",
+                    "pimple/pimple": "~3.0"
+                },
+                "time": "2017-01-09 14:14:17",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "psr-4": {
+                        "WPChecksum\\": "src"
+                    },
+                    "files": [
+                        "wpcli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Erik Torsner",
+                        "email": "erik@torgesta.com",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Check plugin and theme consistency",
+                "homepage": "https://github.com/eriktorsner/wp-checksum/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/eriktorsner/wp-checksum/issues",
+                    "source": "https://github.com/eriktorsner/wp-checksum/tree/master"
                 }
             }
         },
