@@ -5042,19 +5042,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/eriktorsner/wp-checksum.git",
-                    "reference": "cbf8fc40c44a0a8e02468c1a59b014a486f20776"
+                    "reference": "24be0fe2b0289393c08cc0efd3578697d87be18e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/eriktorsner/wp-checksum/zipball/cbf8fc40c44a0a8e02468c1a59b014a486f20776",
-                    "reference": "cbf8fc40c44a0a8e02468c1a59b014a486f20776",
+                    "url": "https://api.github.com/repos/eriktorsner/wp-checksum/zipball/24be0fe2b0289393c08cc0efd3578697d87be18e",
+                    "reference": "24be0fe2b0289393c08cc0efd3578697d87be18e",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.9",
                     "pimple/pimple": "~3.0"
                 },
-                "time": "2016-12-18 17:49:26",
+                "time": "2017-01-09 11:24:23",
                 "type": "wp-cli-package",
                 "autoload": {
                     "psr-4": {
@@ -5081,7 +5081,7 @@
                 ],
                 "support": {
                     "issues": "https://github.com/eriktorsner/wp-checksum/issues",
-                    "source": "https://github.com/eriktorsner/wp-checksum/tree/0.1.4"
+                    "source": "https://github.com/eriktorsner/wp-checksum/tree/master"
                 }
             }
         },
