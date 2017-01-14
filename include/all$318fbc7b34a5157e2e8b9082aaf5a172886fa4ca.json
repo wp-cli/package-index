@@ -5140,19 +5140,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/eriktorsner/wp-checksum.git",
-                    "reference": "a9b20ae369c28f941f1f5165b1c16d40b3907f2c"
+                    "reference": "8275adc1752a9eb3739671c1ff06b85c17636c51"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/eriktorsner/wp-checksum/zipball/a9b20ae369c28f941f1f5165b1c16d40b3907f2c",
-                    "reference": "a9b20ae369c28f941f1f5165b1c16d40b3907f2c",
+                    "url": "https://api.github.com/repos/eriktorsner/wp-checksum/zipball/8275adc1752a9eb3739671c1ff06b85c17636c51",
+                    "reference": "8275adc1752a9eb3739671c1ff06b85c17636c51",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.9",
                     "pimple/pimple": "~3.0"
                 },
-                "time": "2017-01-09 14:14:17",
+                "time": "2017-01-14 09:49:45",
                 "type": "wp-cli-package",
                 "autoload": {
                     "psr-4": {
