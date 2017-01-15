@@ -859,12 +859,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
-                    "reference": "e887281b93af9bca6bb1d343559de94dda28fc7c"
+                    "reference": "5fa3e7900b30e1f2ef78705e7a32941f251759fc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/e887281b93af9bca6bb1d343559de94dda28fc7c",
-                    "reference": "e887281b93af9bca6bb1d343559de94dda28fc7c",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/5fa3e7900b30e1f2ef78705e7a32941f251759fc",
+                    "reference": "5fa3e7900b30e1f2ef78705e7a32941f251759fc",
                     "shasum": ""
                 },
                 "require": {
@@ -875,9 +875,10 @@
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "johnpbloch/wordpress": "^4.6",
+                    "phpunit/phpunit": "^4.8",
                     "wp-cli/wp-cli": "^0.24.0"
                 },
-                "time": "2016-08-29 13:18:35",
+                "time": "2017-01-15 22:15:44",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -887,9 +888,14 @@
                         "command.php"
                     ]
                 },
+                "autoload-dev": {
+                    "classmap": [
+                        "plugin"
+                    ]
+                },
                 "scripts": {
                     "run-behat": [
-                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
+                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi"
                     ]
                 },
                 "license": [
@@ -902,7 +908,7 @@
                         "homepage": "https://aaemnnost.tv"
                     }
                 ],
-                "description": "Login to WordPress with secure passwordless magic links.",
+                "description": "Log in to WordPress with secure passwordless magic links.",
                 "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command",
                 "support": {
                     "source": "https://github.com/aaemnnosttv/wp-cli-login-command/tree/develop",
