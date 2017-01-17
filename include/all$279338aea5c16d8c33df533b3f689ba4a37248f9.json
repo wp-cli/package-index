@@ -11301,6 +11301,50 @@
                     "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
                 }
             },
+            "dev-add-generate-command": {
+                "name": "shifter/cli",
+                "version": "dev-add-generate-command",
+                "version_normalized": "dev-add-generate-command",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "4073f32f16f27ad091288bc67265b5cf7b799c52"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/4073f32f16f27ad091288bc67265b5cf7b799c52",
+                    "reference": "4073f32f16f27ad091288bc67265b5cf7b799c52",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-01-17 12:49:58",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/add-generate-command",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
             "dev-add-project-command": {
                 "name": "shifter/cli",
                 "version": "dev-add-project-command",
