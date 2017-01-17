@@ -13275,6 +13275,51 @@
                 }
             }
         },
+        "wp-cli/admin-command": {
+            "dev-master": {
+                "name": "wp-cli/admin-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/admin-command.git",
+                    "reference": "67a95e64b361aead6bb97bab8cd39d8503b34b77"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/admin-command/zipball/67a95e64b361aead6bb97bab8cd39d8503b34b77",
+                    "reference": "67a95e64b361aead6bb97bab8cd39d8503b34b77",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-01-17 13:31:23",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "admin"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Open /wp-admin/ in a browser.",
+                "homepage": "https://github.com/wp-cli/admin-command",
+                "support": {
+                    "source": "https://github.com/wp-cli/admin-command/tree/master",
+                    "issues": "https://github.com/wp-cli/admin-command/issues"
+                }
+            }
+        },
         "wp-cli/restful": {
             "v0.1.0": {
                 "name": "wp-cli/restful",
