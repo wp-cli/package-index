@@ -504,6 +504,168 @@
                     "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
                     "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v1.0.2"
                 }
+            },
+            "dev-master": {
+                "name": "aaemnnosttv/wp-cli-dotenv-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
+                    "reference": "f09b5df6a12d8a370432452141e12f945f9ecf5f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/f09b5df6a12d8a370432452141e12f945f9ecf5f",
+                    "reference": "f09b5df6a12d8a370432452141e12f945f9ecf5f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5 | ^7.0",
+                    "tightenco/collect": "5.2.*"
+                },
+                "require-dev": {
+                    "behat/behat": "2.5.*",
+                    "phpunit/phpunit": "^4.8",
+                    "satooshi/php-coveralls": "^1.0",
+                    "wp-cli/wp-cli": "^0.22.0"
+                },
+                "time": "2016-10-20 18:53:33",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI_Dotenv\\": "src/"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/Fixtures.php"
+                    ]
+                },
+                "scripts": {
+                    "run-phpunit": [
+                        "vendor/bin/phpunit --colors=always"
+                    ],
+                    "run-behat": [
+                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Evan Mattson",
+                        "email": "me@aaemnnost.tv",
+                        "homepage": "https://aaemnnost.tv"
+                    }
+                ],
+                "description": "Dotenv commands for WP-CLI",
+                "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
+                "support": {
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master"
+                }
+            }
+        },
+        "aaemnnosttv/wp-cli-http-command": {
+            "dev-master": {
+                "name": "aaemnnosttv/wp-cli-http-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-http-command.git",
+                    "reference": "ee6d74158447b8bc455a6fadee5773e6a7837b6e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-http-command/zipball/ee6d74158447b8bc455a6fadee5773e6a7837b6e",
+                    "reference": "ee6d74158447b8bc455a6fadee5773e6a7837b6e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5 | ^7.0"
+                },
+                "time": "2016-10-20 18:54:09",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "psr-4": {
+                        "WP_HTTP_Command\\": "src"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Evan Mattson",
+                        "email": "me@aaemnnost.tv",
+                        "homepage": "https://aaemnnost.tv"
+                    }
+                ],
+                "description": "WP-CLI command for using the WordPress HTTP API",
+                "support": {
+                    "source": "https://github.com/aaemnnosttv/wp-cli-http-command/tree/master",
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-http-command/issues"
+                }
+            },
+            "dev-develop": {
+                "name": "aaemnnosttv/wp-cli-http-command",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-http-command.git",
+                    "reference": "930886dd9ba6199d358728c64660a7852970790a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-http-command/zipball/930886dd9ba6199d358728c64660a7852970790a",
+                    "reference": "930886dd9ba6199d358728c64660a7852970790a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5 | ^7.0"
+                },
+                "require-dev": {
+                    "behat/behat": "2.5.*",
+                    "johnpbloch/wordpress": "^4.6",
+                    "wp-cli/wp-cli": "^0.24.1"
+                },
+                "time": "2016-08-20 20:15:11",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "WP_HTTP_Command\\": "src"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "scripts": {
+                    "run-behat": [
+                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Evan Mattson",
+                        "email": "me@aaemnnost.tv",
+                        "homepage": "https://aaemnnost.tv"
+                    }
+                ],
+                "description": "WP-CLI command for using the WordPress HTTP API",
+                "support": {
+                    "source": "https://github.com/aaemnnosttv/wp-cli-http-command/tree/develop",
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-http-command/issues"
+                }
             }
         },
         "aaemnnosttv/wp-cli-login-command": {
@@ -1396,6 +1558,57 @@
                 }
             }
         },
+        "anhskohbo/wp-cli-themecheck": {
+            "dev-master": {
+                "name": "anhskohbo/wp-cli-themecheck",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/anhskohbo/wp-cli-themecheck.git",
+                    "reference": "0fa69d4acef1339536f2ee682d202c13fad8e73e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/anhskohbo/wp-cli-themecheck/zipball/0fa69d4acef1339536f2ee682d202c13fad8e73e",
+                    "reference": "0fa69d4acef1339536f2ee682d202c13fad8e73e",
+                    "shasum": ""
+                },
+                "require": {
+                    "symfony/finder": "~2.0|~3.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-20 20:57:28",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "scripts": {
+                    "run-behat": [
+                        "./vendor/bin/behat --strict --ansi"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nguyen Van Anh",
+                        "email": "anhskohbo@gmail.com"
+                    }
+                ],
+                "description": "Run Themecheck in WP_CLI",
+                "homepage": "https://github.com/anhskohbo/wp-cli-themecheck",
+                "support": {
+                    "source": "https://github.com/anhskohbo/wp-cli-themecheck/tree/master",
+                    "issues": "https://github.com/anhskohbo/wp-cli-themecheck/issues"
+                }
+            }
+        },
         "billerickson/wp-cli-plugin-install-missing": {
             "dev-master": {
                 "name": "billerickson/wp-cli-plugin-install-missing",
@@ -2185,7 +2398,97 @@
                 }
             }
         },
+        "brightoak/wp-cli-envoyer": {
+            "dev-master": {
+                "name": "brightoak/wp-cli-envoyer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/brightoak/wp-cli-envoyer.git",
+                    "reference": "f279151811227de82e402bde03820beddecf1b9f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/brightoak/wp-cli-envoyer/zipball/f279151811227de82e402bde03820beddecf1b9f",
+                    "reference": "f279151811227de82e402bde03820beddecf1b9f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": ">=0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-12-28 19:47:47",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "description": "A command to invoke a deployment via envoyer using the DEPLOY_URL environment variable",
+                "homepage": "https://github.com/brightoak/wp-cli-envoyer",
+                "support": {
+                    "source": "https://github.com/brightoak/wp-cli-envoyer/tree/master",
+                    "issues": "https://github.com/brightoak/wp-cli-envoyer/issues"
+                }
+            }
+        },
         "c10b10/wp-cli-deploy": {
+            "v1.0.0": {
+                "name": "c10b10/wp-cli-deploy",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/c10b10/wp-cli-deploy.git",
+                    "reference": "5e2226b3b5797923fbcf5ccadccaa168328f992e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/5e2226b3b5797923fbcf5ccadccaa168328f992e",
+                    "reference": "5e2226b3b5797923fbcf5ccadccaa168328f992e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": ">=0.14"
+                },
+                "time": "2014-02-28 13:11:25",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "deploy.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Alex Ciobica",
+                        "email": "alex.ciobica@gmail.com",
+                        "homepage": "http://ciobi.ca"
+                    }
+                ],
+                "description": "Deploys the local WordPress database or the uploads directory to a remote server using ssh.",
+                "homepage": "https://github.com/c10b10/wp-cli-deploy",
+                "keywords": [
+                    "deploy",
+                    "dump",
+                    "git",
+                    "mysql",
+                    "uploads",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/c10b10/wp-cli-deploy/tree/v1.0.0",
+                    "issues": "https://github.com/c10b10/wp-cli-deploy/issues"
+                }
+            },
             "dev-master": {
                 "name": "c10b10/wp-cli-deploy",
                 "version": "dev-master",
@@ -2328,6 +2631,88 @@
                 "description": "The Dictator controls the state of WordPress",
                 "support": {
                     "source": "https://github.com/danielbachhuber/dictator/tree/v0.1",
+                    "issues": "https://github.com/danielbachhuber/dictator/issues"
+                }
+            },
+            "dev-master": {
+                "name": "danielbachhuber/dictator",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/dictator.git",
+                    "reference": "5151f24afc9ecad4ff7980ac340e293c2f7d72c7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/5151f24afc9ecad4ff7980ac340e293c2f7d72c7",
+                    "reference": "5151f24afc9ecad4ff7980ac340e293c2f7d72c7",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-20 14:09:27",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "dictator.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "d@danielbachhuber.com",
+                        "homepage": "http://danielbachhuber.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "The Dictator controls the state of WordPress",
+                "homepage": "https://github.com/danielbachhuber/dictator",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/dictator/tree/master",
+                    "issues": "https://github.com/danielbachhuber/dictator/issues"
+                }
+            },
+            "dev-sidebar-region": {
+                "name": "danielbachhuber/dictator",
+                "version": "dev-sidebar-region",
+                "version_normalized": "dev-sidebar-region",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/dictator.git",
+                    "reference": "a061b1c67283613884c4d4ef83ebeefc0f42f64c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/a061b1c67283613884c4d4ef83ebeefc0f42f64c",
+                    "reference": "a061b1c67283613884c4d4ef83ebeefc0f42f64c",
+                    "shasum": ""
+                },
+                "time": "2014-04-10 00:06:25",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "dictator.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "d@danielbachhuber.com",
+                        "homepage": "http://danielbachhuber.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "The Dictator controls the state of WordPress",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/dictator/tree/sidebar-region",
                     "issues": "https://github.com/danielbachhuber/dictator/issues"
                 }
             }
@@ -4351,6 +4736,63 @@
                     "issues": "https://github.com/eriktorsner/wp-bootstrap/issues",
                     "source": "https://github.com/eriktorsner/wp-bootstrap/tree/master"
                 }
+            },
+            "dev-master": {
+                "name": "eriktorsner/wp-bootstrap",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eriktorsner/wp-bootstrap.git",
+                    "reference": "a167760282831974c418f577a45d35a1383a9e80"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eriktorsner/wp-bootstrap/zipball/a167760282831974c418f577a45d35a1383a9e80",
+                    "reference": "a167760282831974c418f577a45d35a1383a9e80",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.9",
+                    "pimple/pimple": "~3.0",
+                    "symfony/yaml": "^2.8",
+                    "vlucas/phpdotenv": "^2.2"
+                },
+                "require-dev": {
+                    "10up/wp_mock": "dev-master"
+                },
+                "time": "2016-11-30 09:47:42",
+                "bin": [
+                    "bin/wpbootstrap"
+                ],
+                "type": "wp-cli-package",
+                "autoload": {
+                    "psr-4": {
+                        "Wpbootstrap\\": "src"
+                    },
+                    "files": [
+                        "wpcli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Erik Torsner",
+                        "email": "erik@torgesta.com",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Utils for bootstrapping a WordPress installation",
+                "homepage": "https://github.com/eriktorsner/wp-bootstrap/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/eriktorsner/wp-bootstrap/issues",
+                    "source": "https://github.com/eriktorsner/wp-bootstrap/tree/master"
+                }
             }
         },
         "eriktorsner/wp-checksum": {
@@ -5221,6 +5663,102 @@
                 }
             }
         },
+        "frozzare/wp-cli-media-restore": {
+            "v1.0.0": {
+                "name": "frozzare/wp-cli-media-restore",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/frozzare/wp-cli-media-restore.git",
+                    "reference": "7eed33c3765373908f52063cc9cd20133f81c0b8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/frozzare/wp-cli-media-restore/zipball/7eed33c3765373908f52063cc9cd20133f81c0b8",
+                    "reference": "7eed33c3765373908f52063cc9cd20133f81c0b8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2015-11-22 08:20:08",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "src/class-media-restore-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fredrik Forsmo",
+                        "email": "fredrik.forsmo@gmail.com",
+                        "homepage": "https://github.com/frozzare"
+                    }
+                ],
+                "description": "Restore media attachments using WP CLI",
+                "homepage": "https://github.com/frozzare/wp-cli-media-restore",
+                "keywords": [
+                    "attachments",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/frozzare/wp-cli-media-restore/tree/v1.0.0",
+                    "issues": "https://github.com/frozzare/wp-cli-media-restore/issues"
+                }
+            },
+            "dev-master": {
+                "name": "frozzare/wp-cli-media-restore",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/frozzare/wp-cli-media-restore.git",
+                    "reference": "5f81ba1c3cb6ad40de9db5a8433a51dd9e1f7143"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/frozzare/wp-cli-media-restore/zipball/5f81ba1c3cb6ad40de9db5a8433a51dd9e1f7143",
+                    "reference": "5f81ba1c3cb6ad40de9db5a8433a51dd9e1f7143",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-10-20 14:11:53",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "src/class-media-restore-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fredrik Forsmo",
+                        "email": "fredrik.forsmo@gmail.com",
+                        "homepage": "https://github.com/frozzare"
+                    }
+                ],
+                "description": "Restore media attachments using WP CLI",
+                "homepage": "https://github.com/frozzare/wp-cli-media-restore",
+                "keywords": [
+                    "attachments",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/frozzare/wp-cli-media-restore/tree/master",
+                    "issues": "https://github.com/frozzare/wp-cli-media-restore/issues"
+                }
+            }
+        },
         "geekpress/wp-rocket-cli": {
             "1.0": {
                 "name": "GeekPress/wp-rocket-cli",
@@ -5316,6 +5854,254 @@
                 "support": {
                     "issues": "https://github.com/GeekPress/wp-rocket-cli/issues",
                     "source": "https://github.com/GeekPress/wp-rocket-cli"
+                }
+            }
+        },
+        "humanmade/wp-remote-cli": {
+            "dev-master": {
+                "name": "humanmade/wp-remote-cli",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/wp-remote-cli.git",
+                    "reference": "4305ca16cc24dc3dd473adb2c893c26576357ac3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/4305ca16cc24dc3dd473adb2c893c26576357ac3",
+                    "reference": "4305ca16cc24dc3dd473adb2c893c26576357ac3",
+                    "shasum": ""
+                },
+                "time": "2014-01-09 02:56:03",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-remote-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Humanmade",
+                        "email": "hello@hmn.md"
+                    },
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@hmn.md"
+                    }
+                ],
+                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
+                "support": {
+                    "source": "https://github.com/humanmade/wp-remote-cli/tree/master",
+                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
+                }
+            },
+            "dev-deploy": {
+                "name": "humanmade/wp-remote-cli",
+                "version": "dev-deploy",
+                "version_normalized": "dev-deploy",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/wp-remote-cli.git",
+                    "reference": "f1690c6fe510a48b3106b2c833f6c6f49a5c7064"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/f1690c6fe510a48b3106b2c833f6c6f49a5c7064",
+                    "reference": "f1690c6fe510a48b3106b2c833f6c6f49a5c7064",
+                    "shasum": ""
+                },
+                "time": "2013-11-23 00:56:39",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-remote-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Humanmade",
+                        "email": "hello@hmn.md"
+                    },
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@hmn.md"
+                    }
+                ],
+                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
+                "support": {
+                    "source": "https://github.com/humanmade/wp-remote-cli/tree/deploy",
+                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
+                }
+            },
+            "dev-endpoint-fixes": {
+                "name": "humanmade/wp-remote-cli",
+                "version": "dev-endpoint-fixes",
+                "version_normalized": "dev-endpoint-fixes",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/wp-remote-cli.git",
+                    "reference": "137cf5bc98860fc8336e339d273b9adc4057ce51"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/137cf5bc98860fc8336e339d273b9adc4057ce51",
+                    "reference": "137cf5bc98860fc8336e339d273b9adc4057ce51",
+                    "shasum": ""
+                },
+                "time": "2013-10-03 16:47:27",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-remote-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Humanmade",
+                        "email": "hello@hmn.md"
+                    },
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@hmn.md"
+                    }
+                ],
+                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
+                "support": {
+                    "source": "https://github.com/humanmade/wp-remote-cli/tree/endpoint-fixes",
+                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
+                }
+            },
+            "dev-fourth-level-commands": {
+                "name": "humanmade/wp-remote-cli",
+                "version": "dev-fourth-level-commands",
+                "version_normalized": "dev-fourth-level-commands",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/wp-remote-cli.git",
+                    "reference": "1ffb5234066a6fa1d5ff802e5e03590f7000d91a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/wp-remote-cli/zipball/1ffb5234066a6fa1d5ff802e5e03590f7000d91a",
+                    "reference": "1ffb5234066a6fa1d5ff802e5e03590f7000d91a",
+                    "shasum": ""
+                },
+                "time": "2013-10-30 01:49:59",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-remote-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Humanmade",
+                        "email": "hello@hmn.md"
+                    },
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@hmn.md"
+                    }
+                ],
+                "description": "Manage your WordPress sites using WP Remote and WP-CLI.",
+                "support": {
+                    "source": "https://github.com/humanmade/wp-remote-cli/tree/fourth-level-commands",
+                    "issues": "https://github.com/humanmade/wp-remote-cli/issues"
+                }
+            }
+        },
+        "iandunn/wp-cli-plugin-active-on-sites": {
+            "dev-master": {
+                "name": "iandunn/wp-cli-plugin-active-on-sites",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/iandunn/wp-cli-plugin-active-on-sites.git",
+                    "reference": "620f8f3cd8d441959dda5ed3bf409bb6e26e704c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/iandunn/wp-cli-plugin-active-on-sites/zipball/620f8f3cd8d441959dda5ed3bf409bb6e26e704c",
+                    "reference": "620f8f3cd8d441959dda5ed3bf409bb6e26e704c",
+                    "shasum": ""
+                },
+                "time": "2016-10-21 14:11:58",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-cli-plugin-active-on-sites.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Ian Dunn",
+                        "email": "ian@iandunn.name",
+                        "homepage": "https://iandunn.name"
+                    }
+                ],
+                "description": "A WP-CLI command to list all sites in a Multisite network that have activated a given plugin",
+                "homepage": "https://github.com/iandunn/wp-cli-plugin-active-on-sites",
+                "support": {
+                    "source": "https://github.com/iandunn/wp-cli-plugin-active-on-sites/tree/master",
+                    "issues": "https://github.com/iandunn/wp-cli-plugin-active-on-sites/issues"
+                }
+            }
+        },
+        "iandunn/wp-cli-rename-db-prefix": {
+            "dev-master": {
+                "name": "iandunn/wp-cli-rename-db-prefix",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/iandunn/wp-cli-rename-db-prefix.git",
+                    "reference": "95ce5b2e7b9699214c12017220963fc35fdcf456"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/iandunn/wp-cli-rename-db-prefix/zipball/95ce5b2e7b9699214c12017220963fc35fdcf456",
+                    "reference": "95ce5b2e7b9699214c12017220963fc35fdcf456",
+                    "shasum": ""
+                },
+                "time": "2016-12-16 21:47:08",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-cli-rename-db-prefix.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Ian Dunn",
+                        "email": "ian@iandunn.name",
+                        "homepage": "https://iandunn.name"
+                    }
+                ],
+                "description": "A WP-CLI command to rename WordPress' database prefix.",
+                "homepage": "https://github.com/iandunn/wp-cli-rename-db-prefix",
+                "support": {
+                    "source": "https://github.com/iandunn/wp-cli-rename-db-prefix/tree/master",
+                    "issues": "https://github.com/iandunn/wp-cli-rename-db-prefix/issues"
                 }
             }
         },
@@ -5499,6 +6285,51 @@
                     "source": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/tree/v0.1.3",
                     "issues": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/issues"
                 }
+            },
+            "dev-master": {
+                "name": "itspriddle/wp-cli-tgmpa-plugin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/itspriddle/wp-cli-tgmpa-plugin.git",
+                    "reference": "1936bdeb09325ef9953c725c9a997a7e6fedf0c3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/itspriddle/wp-cli-tgmpa-plugin/zipball/1936bdeb09325ef9953c725c9a997a7e6fedf0c3",
+                    "reference": "1936bdeb09325ef9953c725c9a997a7e6fedf0c3",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-02 02:08:14",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joshua Priddle",
+                        "email": "jpriddle@me.com",
+                        "homepage": "https://github.com/itspriddle"
+                    }
+                ],
+                "description": "Manage TGMPA plugins with WP-CLI",
+                "homepage": "https://github.com/itspriddle/wp-cli-tgmpa-plugin",
+                "support": {
+                    "source": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/tree/v0.1.3",
+                    "issues": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/issues"
+                }
             }
         },
         "ivankruchkoff/wp-hammer": {
@@ -5547,6 +6378,412 @@
                 "support": {
                     "source": "https://github.com/10up/wp-hammer/tree/master",
                     "issues": "https://github.com/10up/wp-hammer/issues"
+                }
+            }
+        },
+        "jaywood/jw-wpcli-random-posts": {
+            "1.1": {
+                "name": "JayWood/jw-wpcli-random-posts",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
+                    "reference": "2b2ecab7350e6ff8307ea896f59be0fc47427295"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/2b2ecab7350e6ff8307ea896f59be0fc47427295",
+                    "reference": "2b2ecab7350e6ff8307ea896f59be0fc47427295",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-12-30 05:53:44",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "generate-posts.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Jay Wood",
+                        "email": "jjwood2004@gmail.com",
+                        "homepage": "http://plugish.com"
+                    }
+                ],
+                "description": "A robust random post generator for WP CLI which supports multisite, post types, post counts, taxonomies, terms, term counts and featured images.",
+                "homepage": "http://plugish.com",
+                "keywords": [
+                    "placeholder",
+                    "random posts",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/1.1",
+                    "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
+                }
+            },
+            "dev-master": {
+                "name": "JayWood/jw-wpcli-random-posts",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
+                    "reference": "2b2ecab7350e6ff8307ea896f59be0fc47427295"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/2b2ecab7350e6ff8307ea896f59be0fc47427295",
+                    "reference": "2b2ecab7350e6ff8307ea896f59be0fc47427295",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-12-30 05:53:44",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "generate-posts.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Jay Wood",
+                        "email": "jjwood2004@gmail.com",
+                        "homepage": "http://plugish.com"
+                    }
+                ],
+                "description": "A robust random post generator for WP CLI which supports multisite, post types, post counts, taxonomies, terms, term counts and featured images.",
+                "homepage": "http://plugish.com",
+                "keywords": [
+                    "placeholder",
+                    "random posts",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/1.1",
+                    "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
+                }
+            },
+            "dev-feature/allow-test-data-removal": {
+                "name": "JayWood/jw-wpcli-random-posts",
+                "version": "dev-feature/allow-test-data-removal",
+                "version_normalized": "dev-feature/allow-test-data-removal",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
+                    "reference": "2b2ecab7350e6ff8307ea896f59be0fc47427295"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/2b2ecab7350e6ff8307ea896f59be0fc47427295",
+                    "reference": "2b2ecab7350e6ff8307ea896f59be0fc47427295",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-12-30 05:53:44",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "generate-posts.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Jay Wood",
+                        "email": "jjwood2004@gmail.com",
+                        "homepage": "http://plugish.com"
+                    }
+                ],
+                "description": "A robust random post generator for WP CLI which supports multisite, post types, post counts, taxonomies, terms, term counts and featured images.",
+                "homepage": "http://plugish.com",
+                "keywords": [
+                    "placeholder",
+                    "random posts",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/1.1",
+                    "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
+                }
+            }
+        },
+        "lucatume/wpcli-wpbrowser-tests": {
+            "1.0.0": {
+                "name": "lucatume/wpcli-wpbrowser-tests",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lucatume/wpcli-wpbrowser-tests.git",
+                    "reference": "26ba53fcc2bd7f636780c25a6397aca125492f5e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lucatume/wpcli-wpbrowser-tests/zipball/26ba53fcc2bd7f636780c25a6397aca125492f5e",
+                    "reference": "26ba53fcc2bd7f636780c25a6397aca125492f5e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "wp-cli/wp-cli": "~0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "mikey179/vfsstream": "1.6.*",
+                    "phpunit/phpunit": "4.8.*",
+                    "wp-cli/wp-cli": "^0.23"
+                },
+                "time": "2016-11-08 22:36:26",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-4": {
+                        "tad\\WPCLI\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Luca Tumedei",
+                        "email": "luca@theaveragedev.com",
+                        "homepage": "http://theaveragedev.com"
+                    }
+                ],
+                "description": "Scaffold wp-browser based tests for a plugin or theme",
+                "homepage": "https://github.com/lucatume/wpcli-wpbrowser-tests",
+                "support": {
+                    "source": "https://github.com/lucatume/wpcli-wpbrowser-tests/tree/master",
+                    "issues": "https://github.com/lucatume/wpcli-wpbrowser-tests/issues"
+                }
+            },
+            "1.0.1": {
+                "name": "lucatume/wpcli-wpbrowser-tests",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lucatume/wpcli-wpbrowser-tests.git",
+                    "reference": "699927d80cfe373281934f74b77da4cf1103fe5a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lucatume/wpcli-wpbrowser-tests/zipball/699927d80cfe373281934f74b77da4cf1103fe5a",
+                    "reference": "699927d80cfe373281934f74b77da4cf1103fe5a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "wp-cli/wp-cli": "^0.23"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "mikey179/vfsstream": "1.6.*",
+                    "phpunit/phpunit": "4.8.*",
+                    "wp-cli/wp-cli": "^0.23"
+                },
+                "time": "2016-11-10 08:49:30",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-4": {
+                        "tad\\WPCLI\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Luca Tumedei",
+                        "email": "luca@theaveragedev.com",
+                        "homepage": "http://theaveragedev.com"
+                    }
+                ],
+                "description": "Scaffold wp-browser based tests for a plugin or theme",
+                "homepage": "https://github.com/lucatume/wpcli-wpbrowser-tests",
+                "support": {
+                    "source": "https://github.com/lucatume/wpcli-wpbrowser-tests/tree/master",
+                    "issues": "https://github.com/lucatume/wpcli-wpbrowser-tests/issues"
+                }
+            },
+            "1.0.2": {
+                "name": "lucatume/wpcli-wpbrowser-tests",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lucatume/wpcli-wpbrowser-tests.git",
+                    "reference": "80c5a878f9ee816237cf891c82312d7dd6ba7a69"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lucatume/wpcli-wpbrowser-tests/zipball/80c5a878f9ee816237cf891c82312d7dd6ba7a69",
+                    "reference": "80c5a878f9ee816237cf891c82312d7dd6ba7a69",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "wp-cli/wp-cli": "^0.23"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "mikey179/vfsstream": "1.6.*",
+                    "phpunit/phpunit": "4.8.*",
+                    "wp-cli/wp-cli": "^0.23"
+                },
+                "time": "2016-11-10 20:58:21",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-4": {
+                        "tad\\WPCLI\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Luca Tumedei",
+                        "email": "luca@theaveragedev.com",
+                        "homepage": "http://theaveragedev.com"
+                    }
+                ],
+                "description": "Scaffold wp-browser based tests for a plugin or theme",
+                "homepage": "https://github.com/lucatume/wpcli-wpbrowser-tests",
+                "support": {
+                    "source": "https://github.com/lucatume/wpcli-wpbrowser-tests/tree/1.0.2",
+                    "issues": "https://github.com/lucatume/wpcli-wpbrowser-tests/issues"
+                }
+            },
+            "1.0.3": {
+                "name": "lucatume/wpcli-wpbrowser-tests",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lucatume/wpcli-wpbrowser-tests.git",
+                    "reference": "68851782346adbbdb681312cf7205eeb023c9062"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lucatume/wpcli-wpbrowser-tests/zipball/68851782346adbbdb681312cf7205eeb023c9062",
+                    "reference": "68851782346adbbdb681312cf7205eeb023c9062",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "mikey179/vfsstream": "1.6.*",
+                    "phpunit/phpunit": "4.8.*",
+                    "wp-cli/wp-cli": "^0.23"
+                },
+                "time": "2016-11-11 09:20:41",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-4": {
+                        "tad\\WPCLI\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Luca Tumedei",
+                        "email": "luca@theaveragedev.com",
+                        "homepage": "http://theaveragedev.com"
+                    }
+                ],
+                "description": "Scaffold wp-browser based tests for a plugin or theme",
+                "homepage": "https://github.com/lucatume/wpcli-wpbrowser-tests",
+                "support": {
+                    "source": "https://github.com/lucatume/wpcli-wpbrowser-tests/tree/master",
+                    "issues": "https://github.com/lucatume/wpcli-wpbrowser-tests/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lucatume/wpcli-wpbrowser-tests",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lucatume/wpcli-wpbrowser-tests.git",
+                    "reference": "68851782346adbbdb681312cf7205eeb023c9062"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lucatume/wpcli-wpbrowser-tests/zipball/68851782346adbbdb681312cf7205eeb023c9062",
+                    "reference": "68851782346adbbdb681312cf7205eeb023c9062",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "mikey179/vfsstream": "1.6.*",
+                    "phpunit/phpunit": "4.8.*",
+                    "wp-cli/wp-cli": "^0.23"
+                },
+                "time": "2016-11-11 09:20:41",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-4": {
+                        "tad\\WPCLI\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Luca Tumedei",
+                        "email": "luca@theaveragedev.com",
+                        "homepage": "http://theaveragedev.com"
+                    }
+                ],
+                "description": "Scaffold wp-browser based tests for a plugin or theme",
+                "homepage": "https://github.com/lucatume/wpcli-wpbrowser-tests",
+                "support": {
+                    "source": "https://github.com/lucatume/wpcli-wpbrowser-tests/tree/master",
+                    "issues": "https://github.com/lucatume/wpcli-wpbrowser-tests/issues"
                 }
             }
         },
@@ -5657,6 +6894,46 @@
                 "support": {
                     "source": "https://github.com/markri/wp-sec/tree/fixvendor",
                     "issues": "https://github.com/markri/wp-sec/issues"
+                }
+            }
+        },
+        "matt/wp-installer": {
+            "dev-master": {
+                "name": "matt/wp-installer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mattgrshaw/wp-installer.git",
+                    "reference": "d13db0033fa688e437594ab9e0dc432c92a873cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mattgrshaw/wp-installer/zipball/d13db0033fa688e437594ab9e0dc432c92a873cb",
+                    "reference": "d13db0033fa688e437594ab9e0dc432c92a873cb",
+                    "shasum": ""
+                },
+                "time": "2016-10-26 02:38:35",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "installer.php"
+                    ]
+                },
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Matt Shaw",
+                        "email": "matt@expandedfronts.com"
+                    }
+                ],
+                "description": "WP Installer CLI Command",
+                "homepage": "https://github.com/mattgrshaw/wp-installer",
+                "support": {
+                    "issues": "https://github.com/mattgrshaw/wp-installer",
+                    "source": "https://github.com/mattgrshaw/wp-installer/tree/master"
                 }
             }
         },
@@ -5858,6 +7135,57 @@
                 }
             }
         },
+        "mattes/wp-cli-quick-command": {
+            "dev-master": {
+                "name": "mattes/wp-cli-quick-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mattes/wp-cli-quick-command.git",
+                    "reference": "5baccddf856272116d3e0965caf8ab6d9f363d41"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mattes/wp-cli-quick-command/zipball/5baccddf856272116d3e0965caf8ab6d9f363d41",
+                    "reference": "5baccddf856272116d3e0965caf8ab6d9f363d41",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.11"
+                },
+                "time": "2014-03-05 16:39:09",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-quick-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Matthias Kadenbach",
+                        "email": "matthias.kadenbach@gmail.com",
+                        "homepage": "http://matthiaskadenbach.de"
+                    }
+                ],
+                "description": "Quick WordPress helpers.",
+                "homepage": "https://github.com/mattes/wp-cli-quick-command",
+                "keywords": [
+                    "helpers",
+                    "install",
+                    "quick",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/mattes/wp-cli-quick-command/issues",
+                    "source": "https://github.com/mattes/wp-cli-quick-command"
+                }
+            }
+        },
         "michaloo/wp-cli-environmentalize": {
             "dev-master": {
                 "name": "michaloo/wp-cli-environmentalize",
@@ -5899,6 +7227,94 @@
                 "support": {
                     "source": "https://github.com/michaloo/wp-cli-environmentalize/tree/master",
                     "issues": "https://github.com/michaloo/wp-cli-environmentalize/issues"
+                }
+            }
+        },
+        "mikedance/wp-cli-favorite-plugins": {
+            "dev-master": {
+                "name": "mikedance/wp-cli-favorite-plugins",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikedance/wp-cli-favorite-plugins.git",
+                    "reference": "57d1963356be2084661ba663d338c0b537b609cd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mikedance/wp-cli-favorite-plugins/zipball/57d1963356be2084661ba663d338c0b537b609cd",
+                    "reference": "57d1963356be2084661ba663d338c0b537b609cd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-20 17:17:55",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Dance"
+                    }
+                ],
+                "description": "WP-CLI command to grab favorited plugins from any wordpress.org account.",
+                "homepage": "https://github.com/mikedance/wp-cli-favorite-plugins",
+                "support": {
+                    "source": "https://github.com/mikedance/wp-cli-favorite-plugins/tree/master",
+                    "issues": "https://github.com/mikedance/wp-cli-favorite-plugins/issues"
+                }
+            },
+            "dev-dev": {
+                "name": "mikedance/wp-cli-favorite-plugins",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikedance/wp-cli-favorite-plugins.git",
+                    "reference": "e53557ca3e17a966a9aa66c4b1b5019e8cd329a7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mikedance/wp-cli-favorite-plugins/zipball/e53557ca3e17a966a9aa66c4b1b5019e8cd329a7",
+                    "reference": "e53557ca3e17a966a9aa66c4b1b5019e8cd329a7",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-07-29 19:43:24",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Dance"
+                    }
+                ],
+                "description": "WP-CLI command to grab favorited plugins from any wordpress.org account.",
+                "homepage": "https://github.com/mikedance/wp-cli-favorite-plugins",
+                "support": {
+                    "source": "https://github.com/mikedance/wp-cli-favorite-plugins/tree/dev",
+                    "issues": "https://github.com/mikedance/wp-cli-favorite-plugins/issues"
                 }
             }
         },
@@ -7065,9 +8481,9 @@
                 }
             }
         },
-        "pixline/wp-cli-devtools": {
+        "pixline/wp-cli-php-devtools": {
             "0.2.2": {
-                "name": "pixline/wp-cli-devtools",
+                "name": "pixline/wp-cli-php-devtools",
                 "version": "0.2.2",
                 "version_normalized": "0.2.2.0",
                 "source": {
@@ -7129,9 +8545,7 @@
                     "issues": "https://github.com/pixline/wp-cli-devtools/issues",
                     "source": "https://github.com/pixline/wp-cli-devtools"
                 }
-            }
-        },
-        "pixline/wp-cli-php-devtools": {
+            },
             "0.2.3": {
                 "name": "pixline/wp-cli-php-devtools",
                 "version": "0.2.3",
@@ -7819,6 +9233,86 @@
                     "source": "https://github.com/pressbooks/pb-cli/tree/v1.0.0",
                     "issues": "https://github.com/pressbooks/pb-cli/issues"
                 }
+            },
+            "dev-master": {
+                "name": "pressbooks/pb-cli",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pressbooks/pb-cli.git",
+                    "reference": "63a59e54284a08f32da1ded3c0523d50c07bfbb5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/63a59e54284a08f32da1ded3c0523d50c07bfbb5",
+                    "reference": "63a59e54284a08f32da1ded3c0523d50c07bfbb5",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-26 16:30:56",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold book-theme"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL 2.0+"
+                ],
+                "description": "A suite of wp-cli commands for Pressbooks.",
+                "homepage": "https://github.com/pressbooks/pb-cli/",
+                "support": {
+                    "source": "https://github.com/pressbooks/pb-cli/tree/dev",
+                    "issues": "https://github.com/pressbooks/pb-cli/issues"
+                }
+            },
+            "dev-dev": {
+                "name": "pressbooks/pb-cli",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pressbooks/pb-cli.git",
+                    "reference": "63a59e54284a08f32da1ded3c0523d50c07bfbb5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/63a59e54284a08f32da1ded3c0523d50c07bfbb5",
+                    "reference": "63a59e54284a08f32da1ded3c0523d50c07bfbb5",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-26 16:30:56",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold book-theme"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL 2.0+"
+                ],
+                "description": "A suite of wp-cli commands for Pressbooks.",
+                "homepage": "https://github.com/pressbooks/pb-cli/",
+                "support": {
+                    "source": "https://github.com/pressbooks/pb-cli/tree/dev",
+                    "issues": "https://github.com/pressbooks/pb-cli/issues"
+                }
             }
         },
         "pulsestorm/wp-static-html-output-plugin": {
@@ -8117,6 +9611,124 @@
                     "source": "https://github.com/Redkiwi-NL/local-config/tree/0.3.1",
                     "issues": "https://github.com/Redkiwi-NL/local-config/issues"
                 }
+            },
+            "dev-master": {
+                "name": "redkiwi-nl/localconfig",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Redkiwi-NL/local-config.git",
+                    "reference": "930fce7528d1ae7bb5a54c1bf8ba052e044b3306"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Redkiwi-NL/local-config/zipball/930fce7528d1ae7bb5a54c1bf8ba052e044b3306",
+                    "reference": "930fce7528d1ae7bb5a54c1bf8ba052e044b3306",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "php": ">=5.6"
+                },
+                "time": "2016-11-12 16:39:08",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-0": {
+                        "JKetelaar": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jeroen Ketelaar",
+                        "email": "jeroen@ketelaar.me",
+                        "homepage": "http://jketelaar.nl",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Redkiwi",
+                        "email": "info@redkiwi.nl",
+                        "homepage": "https://www.redkiwi.nl",
+                        "role": "Company"
+                    }
+                ],
+                "description": "Creates a local config for any WordPress installation, based on a few questions you get asked.",
+                "support": {
+                    "source": "https://github.com/Redkiwi-NL/local-config/tree/master",
+                    "issues": "https://github.com/Redkiwi-NL/local-config/issues"
+                }
+            }
+        },
+        "runcommand/assign-featured-images": {
+            "dev-master": {
+                "name": "runcommand/assign-featured-images",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/assign-featured-images.git",
+                    "reference": "1f7dfc09daa010691e52ea4c42adeca8577f1808"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/assign-featured-images/zipball/1f7dfc09daa010691e52ea4c42adeca8577f1808",
+                    "reference": "1f7dfc09daa010691e52ea4c42adeca8577f1808",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-01 18:24:42",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "assign-featured-images"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/assign-featured-images.svg?branch=master)](https://travis-ci.org/runcommand/assign-featured-images)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Assign featured images to posts that support thumbnails.",
+                "homepage": "https://runcommand.io/wp/assign-featured-images/",
+                "support": {
+                    "source": "https://github.com/runcommand/assign-featured-images/tree/master",
+                    "issues": "https://github.com/runcommand/assign-featured-images/issues"
+                }
             }
         },
         "runcommand/db-ack": {
@@ -8176,6 +9788,174 @@
                 "homepage": "https://runcommand.io/wp/db-ack/",
                 "support": {
                     "source": "https://github.com/runcommand/db-ack/tree/master"
+                }
+            }
+        },
+        "runcommand/dist-archive": {
+            "v0.1.0": {
+                "name": "runcommand/dist-archive",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/dist-archive.git",
+                    "reference": "0401b15354c69ed7aa5e59f5639b5f6c17b9bdad"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/0401b15354c69ed7aa5e59f5639b5f6c17b9bdad",
+                    "reference": "0401b15354c69ed7aa5e59f5639b5f6c17b9bdad",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-07 23:25:46",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
+                "homepage": "https://runcommand.io/wp/dist-archive/",
+                "support": {
+                    "source": "https://github.com/runcommand/dist-archive/tree/v0.1.0",
+                    "issues": "https://github.com/runcommand/dist-archive/issues"
+                }
+            },
+            "dev-master": {
+                "name": "runcommand/dist-archive",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/dist-archive.git",
+                    "reference": "85454c7b036a2db3ae6006ee4f7a25aedd96ee0b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/85454c7b036a2db3ae6006ee4f7a25aedd96ee0b",
+                    "reference": "85454c7b036a2db3ae6006ee4f7a25aedd96ee0b",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-09 20:10:36",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "dist-archive"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![CircleCI](https://circleci.com/gh/runcommand/dist-archive/tree/master.svg?style=svg)](https://circleci.com/gh/runcommand/dist-archive/tree/master)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
+                "homepage": "https://runcommand.io/wp/dist-archive/",
+                "support": {
+                    "source": "https://github.com/runcommand/dist-archive/tree/master"
+                }
+            }
+        },
+        "runcommand/find-unused-themes": {
+            "dev-master": {
+                "name": "runcommand/find-unused-themes",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/find-unused-themes.git",
+                    "reference": "cecae9e2f16fb239bdfadd2ec62130e5e76fb991"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/cecae9e2f16fb239bdfadd2ec62130e5e76fb991",
+                    "reference": "cecae9e2f16fb239bdfadd2ec62130e5e76fb991",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-01 18:24:25",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "find-unused-themes"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/find-unused-themes.svg?branch=master)](https://travis-ci.org/runcommand/find-unused-themes)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Find unused themes on a multisite network.",
+                "homepage": "https://runcommand.io/wp/find-unused-themes/",
+                "support": {
+                    "source": "https://github.com/runcommand/find-unused-themes/tree/master"
                 }
             }
         },
@@ -8464,6 +10244,68 @@
                 }
             }
         },
+        "runcommand/precache": {
+            "dev-master": {
+                "name": "runcommand/precache",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/precache.git",
+                    "reference": "517b32c483ff06d7c8901e8ef29d197626682e34"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/517b32c483ff06d7c8901e8ef29d197626682e34",
+                    "reference": "517b32c483ff06d7c8901e8ef29d197626682e34",
+                    "shasum": ""
+                },
+                "time": "2016-11-01 18:23:48",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "precache core",
+                        "precache plugin",
+                        "precache theme"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/media-sizes.svg?branch=master)](https://travis-ci.org/runcommand/media-sizes)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Proactively download and cache core, theme, and plugin files for later installation.",
+                "homepage": "https://runcommand.io/wp/precache/",
+                "support": {
+                    "source": "https://github.com/runcommand/precache/tree/master"
+                }
+            }
+        },
         "runcommand/query-debug": {
             "dev-master": {
                 "name": "runcommand/query-debug",
@@ -8504,6 +10346,126 @@
                 "homepage": "https://runcommand.io/wp/query-debug/",
                 "support": {
                     "source": "https://github.com/runcommand/query-debug/tree/master"
+                }
+            }
+        },
+        "runcommand/user-reset-password": {
+            "v0.1.0": {
+                "name": "runcommand/user-reset-password",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/user-reset-password.git",
+                    "reference": "b3f3cd27b6d63438ac66131050212e7b941d2aa3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/user-reset-password/zipball/b3f3cd27b6d63438ac66131050212e7b941d2aa3",
+                    "reference": "b3f3cd27b6d63438ac66131050212e7b941d2aa3",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-05 22:36:25",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "user reset-password"
+                    ],
+                    "readme": {
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Reset passwords for one or more WordPress users.",
+                "homepage": "https://runcommand.io/wp/user-reset-password/",
+                "support": {
+                    "source": "https://github.com/runcommand/user-reset-password/tree/master"
+                }
+            },
+            "dev-master": {
+                "name": "runcommand/user-reset-password",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/user-reset-password.git",
+                    "reference": "56b243a2a0ebeed3902d59a79fb217629bc890cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/user-reset-password/zipball/56b243a2a0ebeed3902d59a79fb217629bc890cb",
+                    "reference": "56b243a2a0ebeed3902d59a79fb217629bc890cb",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-01 18:23:41",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "user reset-password"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/user-reset-password.svg?branch=master)](https://travis-ci.org/runcommand/user-reset-password)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Reset passwords for one or more WordPress users.",
+                "homepage": "https://runcommand.io/wp/user-reset-password/",
+                "support": {
+                    "source": "https://github.com/runcommand/user-reset-password/tree/master"
                 }
             }
         },
@@ -8675,6 +10637,712 @@
                 "support": {
                     "source": "https://github.com/sebastiaandegeus/wp-cli-salts-command/tree/master",
                     "issues": "https://github.com/sebastiaandegeus/wp-cli-salts-command/issues"
+                }
+            }
+        },
+        "shifter/cli": {
+            "0.1.0": {
+                "name": "shifter/cli",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "d837549f9aeb888794a116d50132100e36b2a01e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/d837549f9aeb888794a116d50132100e36b2a01e",
+                    "reference": "d837549f9aeb888794a116d50132100e36b2a01e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-14 17:24:47",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://github.com/getshifter"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/0.1.0",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "0.1.1": {
+                "name": "shifter/cli",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "63fdf633e21abf25100bba7ee0bcb62a5dca70e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/63fdf633e21abf25100bba7ee0bcb62a5dca70e6",
+                    "reference": "63fdf633e21abf25100bba7ee0bcb62a5dca70e6",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-30 05:38:47",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/master",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "1.0.1": {
+                "name": "shifter/cli",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "b6f4ca27731d3d9fb5f55103d5867c426d37e46e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/b6f4ca27731d3d9fb5f55103d5867c426d37e46e",
+                    "reference": "b6f4ca27731d3d9fb5f55103d5867c426d37e46e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-30 06:04:17",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/1.0.1",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "1.0.2": {
+                "name": "shifter/cli",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "2fdf92bcc38e0d2c30a2ba8729c01d459b5dcd1a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/2fdf92bcc38e0d2c30a2ba8729c01d459b5dcd1a",
+                    "reference": "2fdf92bcc38e0d2c30a2ba8729c01d459b5dcd1a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-21 19:10:23",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/stable",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "1.1.0": {
+                "name": "shifter/cli",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "065c562e785c7e0dc0259a07d9e65ca0cfef511a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/065c562e785c7e0dc0259a07d9e65ca0cfef511a",
+                    "reference": "065c562e785c7e0dc0259a07d9e65ca0cfef511a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-11 12:11:53",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/1.1.0",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "1.2.0": {
+                "name": "shifter/cli",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "cfe3b493cc55fb9ad528aa2518797a7e10ba2c0d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/cfe3b493cc55fb9ad528aa2518797a7e10ba2c0d",
+                    "reference": "cfe3b493cc55fb9ad528aa2518797a7e10ba2c0d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-23 06:45:20",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/stable",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "1.2.1": {
+                "name": "shifter/cli",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "2694adcd80fc17d76d0e01bd22f91fa83f9cda9c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/2694adcd80fc17d76d0e01bd22f91fa83f9cda9c",
+                    "reference": "2694adcd80fc17d76d0e01bd22f91fa83f9cda9c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-24 07:44:51",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/1.2.1",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "1.2.2": {
+                "name": "shifter/cli",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "de7cd22de7973cd7d26eec8ec4df02ed452dc972"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/de7cd22de7973cd7d26eec8ec4df02ed452dc972",
+                    "reference": "de7cd22de7973cd7d26eec8ec4df02ed452dc972",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-24 08:47:05",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/1.2.2",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "1.3.0": {
+                "name": "shifter/cli",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "7928e5a4fd4efa82bb8d3320ba869457a987ff4f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/7928e5a4fd4efa82bb8d3320ba869457a987ff4f",
+                    "reference": "7928e5a4fd4efa82bb8d3320ba869457a987ff4f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-12-05 21:40:37",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/1.3.0",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "1.4.0": {
+                "name": "shifter/cli",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "18da3bf85039b177a2f0be6e696eff939e3a512f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/18da3bf85039b177a2f0be6e696eff939e3a512f",
+                    "reference": "18da3bf85039b177a2f0be6e696eff939e3a512f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-12-19 05:48:16",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/1.4.0",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "1.5.0": {
+                "name": "shifter/cli",
+                "version": "1.5.0",
+                "version_normalized": "1.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "ad39a8acfe66c700581d9d865a4aea71f98921f2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/ad39a8acfe66c700581d9d865a4aea71f98921f2",
+                    "reference": "ad39a8acfe66c700581d9d865a4aea71f98921f2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-12-19 06:37:33",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/1.5.0",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "1.5.1": {
+                "name": "shifter/cli",
+                "version": "1.5.1",
+                "version_normalized": "1.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "14d17f910c04da6f757fe1e2da2c5c690c592ecd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/14d17f910c04da6f757fe1e2da2c5c690c592ecd",
+                    "reference": "14d17f910c04da6f757fe1e2da2c5c690c592ecd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-12-19 07:35:29",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/1.5.1",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "1.6.0": {
+                "name": "shifter/cli",
+                "version": "1.6.0",
+                "version_normalized": "1.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "fb97cfb40d92411965b448cc12ce9c4d7a45ae30"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/fb97cfb40d92411965b448cc12ce9c4d7a45ae30",
+                    "reference": "fb97cfb40d92411965b448cc12ce9c4d7a45ae30",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-01-12 09:41:08",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/1.6.0",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "dev-master": {
+                "name": "shifter/cli",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "3e39f7ab3858b41848f42afd46c18c2b0aa611bc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/3e39f7ab3858b41848f42afd46c18c2b0aa611bc",
+                    "reference": "3e39f7ab3858b41848f42afd46c18c2b0aa611bc",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-01-12 09:34:12",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/master",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "dev-add-generate-command": {
+                "name": "shifter/cli",
+                "version": "dev-add-generate-command",
+                "version_normalized": "dev-add-generate-command",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "65fa25ffec6dc2d19d9c527a4586bacf746e33c0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/65fa25ffec6dc2d19d9c527a4586bacf746e33c0",
+                    "reference": "65fa25ffec6dc2d19d9c527a4586bacf746e33c0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-01-17 15:06:42",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/add-generate-command",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
+            "dev-stable": {
+                "name": "shifter/cli",
+                "version": "dev-stable",
+                "version_normalized": "dev-stable",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "fb97cfb40d92411965b448cc12ce9c4d7a45ae30"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/fb97cfb40d92411965b448cc12ce9c4d7a45ae30",
+                    "reference": "fb97cfb40d92411965b448cc12ce9c4d7a45ae30",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-01-12 09:41:08",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/1.6.0",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
                 }
             }
         },
@@ -8932,6 +11600,191 @@
                 }
             }
         },
+        "srtfisher/wp-composer": {
+            "0.1": {
+                "name": "srtfisher/wp-composer",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/srtfisher/wp-composer.git",
+                    "reference": "a3f9ddf1b8c28a9208f203490e75f816e1e000fe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/srtfisher/wp-composer/zipball/a3f9ddf1b8c28a9208f203490e75f816e1e000fe",
+                    "reference": "a3f9ddf1b8c28a9208f203490e75f816e1e000fe",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "1.0.*@alpha"
+                },
+                "provide": {
+                    "wp-composer": "*"
+                },
+                "time": "2013-06-10 13:22:41",
+                "type": "wp-cli",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Sean Fisher",
+                        "homepage": "http://seanfisher.co"
+                    }
+                ],
+                "description": "WP-CLI wrapper for Composer",
+                "homepage": "http://wordpress.org/plugins/composer",
+                "keywords": [
+                    "composer",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/srtfisher/wp-composer/tree/0.1",
+                    "issues": "https://github.com/srtfisher/wp-composer/issues"
+                }
+            },
+            "0.1.1": {
+                "name": "srtfisher/wp-composer",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/srtfisher/wp-composer.git",
+                    "reference": "470dfc117d78044c77bb3b3eace5ee0f5019a80f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/srtfisher/wp-composer/zipball/470dfc117d78044c77bb3b3eace5ee0f5019a80f",
+                    "reference": "470dfc117d78044c77bb3b3eace5ee0f5019a80f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "1.0.*@alpha"
+                },
+                "provide": {
+                    "wp-composer": "*"
+                },
+                "time": "2013-06-16 18:04:02",
+                "type": "wp-cli",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Sean Fisher",
+                        "homepage": "http://seanfisher.co"
+                    }
+                ],
+                "description": "WP-CLI wrapper for Composer",
+                "homepage": "http://wordpress.org/plugins/composer",
+                "keywords": [
+                    "composer",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/srtfisher/wp-composer/tree/0.1.1",
+                    "issues": "https://github.com/srtfisher/wp-composer/issues"
+                }
+            },
+            "0.1.2": {
+                "name": "srtfisher/wp-composer",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/srtfisher/wp-composer.git",
+                    "reference": "5f1462f9cb1944c691506b5cc72d66e2fd5213a2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/srtfisher/wp-composer/zipball/5f1462f9cb1944c691506b5cc72d66e2fd5213a2",
+                    "reference": "5f1462f9cb1944c691506b5cc72d66e2fd5213a2",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "1.0.*@alpha",
+                    "php": ">=5.3.2"
+                },
+                "provide": {
+                    "wp-composer": "*"
+                },
+                "time": "2013-07-15 03:16:50",
+                "type": "wp-cli",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Sean Fisher",
+                        "homepage": "http://seanfisher.co"
+                    }
+                ],
+                "description": "WP-CLI wrapper for Composer",
+                "homepage": "http://wordpress.org/plugins/composer",
+                "keywords": [
+                    "composer",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/srtfisher/wp-composer/tree/0.1.2",
+                    "issues": "https://github.com/srtfisher/wp-composer/issues"
+                }
+            },
+            "dev-master": {
+                "name": "srtfisher/wp-composer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/srtfisher/wp-composer.git",
+                    "reference": "bcb1e78d21e5a4649297a0c12e2b24961fe87efa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/srtfisher/wp-composer/zipball/bcb1e78d21e5a4649297a0c12e2b24961fe87efa",
+                    "reference": "bcb1e78d21e5a4649297a0c12e2b24961fe87efa",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "1.0.*@alpha",
+                    "php": ">=5.3.2"
+                },
+                "provide": {
+                    "wp-composer": "*"
+                },
+                "time": "2013-08-18 16:28:32",
+                "type": "wp-cli",
+                "autoload": {
+                    "files": [
+                        "wp-cli-composer-command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Sean Fisher",
+                        "homepage": "http://seanfisher.co"
+                    }
+                ],
+                "description": "WP-CLI wrapper for Composer",
+                "homepage": "http://wordpress.org/plugins/composer",
+                "keywords": [
+                    "composer",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/srtfisher/wp-composer/tree/master",
+                    "issues": "https://github.com/srtfisher/wp-composer/issues"
+                }
+            }
+        },
         "szepeviktor/wp-cli-database-prefix-command": {
             "dev-master": {
                 "name": "szepeviktor/wp-cli-database-prefix-command",
@@ -9019,6 +11872,49 @@
                 "support": {
                     "source": "https://github.com/tillkruss/wp-cli-kraken/tree/master",
                     "issues": "https://github.com/tillkruss/wp-cli-kraken/issues"
+                }
+            }
+        },
+        "timhysniu/wp-cli-template": {
+            "dev-master": {
+                "name": "timhysniu/wp-cli-template",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/timhysniu/wp-cli-template.git",
+                    "reference": "81e7373c6570d8a40636c8c019e261d76d22a305"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/timhysniu/wp-cli-template/zipball/81e7373c6570d8a40636c8c019e261d76d22a305",
+                    "reference": "81e7373c6570d8a40636c8c019e261d76d22a305",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-20 14:35:55",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Tim Hysniu",
+                        "email": "tim@hysniu.com"
+                    }
+                ],
+                "description": "Find, list and update templates for WP-CLI",
+                "homepage": "https://github.com/timhysniu/wp-cli-template",
+                "support": {
+                    "source": "https://github.com/timhysniu/wp-cli-template/tree/master",
+                    "issues": "https://github.com/timhysniu/wp-cli-template/issues"
                 }
             }
         },
@@ -9113,6 +12009,55 @@
                     "source": "https://github.com/trendwerk/faker/tree/master",
                     "issues": "https://github.com/trendwerk/faker/issues"
                 }
+            },
+            "dev-master": {
+                "name": "trendwerk/faker",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/trendwerk/faker.git",
+                    "reference": "7cef92b08b982c8f271961bfb99d31792c209093"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/7cef92b08b982c8f271961bfb99d31792c209093",
+                    "reference": "7cef92b08b982c8f271961bfb99d31792c209093",
+                    "shasum": ""
+                },
+                "require": {
+                    "nelmio/alice": "^2.2"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-10-27 14:35:20",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "init.php"
+                    ],
+                    "psr-4": {
+                        "Trendwerk\\Faker\\": "src/"
+                    }
+                },
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Harold Angenent",
+                        "email": "harold@trendwerk.nl",
+                        "homepage": "https://github.com/haroldangenent"
+                    }
+                ],
+                "description": "Fake post data with WP-CLI.",
+                "homepage": "https://github.com/trendwerk/faker",
+                "support": {
+                    "source": "https://github.com/trendwerk/faker/tree/master",
+                    "issues": "https://github.com/trendwerk/faker/issues"
+                }
             }
         },
         "trepmal/blog-extractor": {
@@ -9152,6 +12097,46 @@
                 "support": {
                     "source": "https://github.com/trepmal/blog-extractor/tree/master",
                     "issues": "https://github.com/trepmal/blog-extractor/issues"
+                }
+            }
+        },
+        "trepmal/wp-revisions-cli": {
+            "dev-master": {
+                "name": "trepmal/wp-revisions-cli",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/trepmal/wp-revisions-cli.git",
+                    "reference": "b5113237393c64e7c9553ece7a832a12f008027c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/trepmal/wp-revisions-cli/zipball/b5113237393c64e7c9553ece7a832a12f008027c",
+                    "reference": "b5113237393c64e7c9553ece7a832a12f008027c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-07 23:26:24",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "revisions-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Manage revisions",
+                "homepage": "https://github.com/trepmal/wp-revisions-cli",
+                "support": {
+                    "source": "https://github.com/trepmal/wp-revisions-cli/tree/master",
+                    "issues": "https://github.com/trepmal/wp-revisions-cli/issues"
                 }
             }
         },
@@ -9506,6 +12491,500 @@
                 "support": {
                     "source": "https://github.com/vccw-team/scaffold-vccw/tree/1.2.0",
                     "issues": "https://github.com/vccw-team/scaffold-vccw/issues"
+                }
+            }
+        },
+        "vccw/wp-cli-scaffold-movefile": {
+            "1.1.2": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "d5dc37c1d4dc5f918b79b295eedc7ffc8f446c46"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/d5dc37c1d4dc5f918b79b295eedc7ffc8f446c46",
+                    "reference": "d5dc37c1d4dc5f918b79b295eedc7ffc8f446c46",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-02 11:33:39",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.1.2",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.2.0": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "0a77eb44ff41f8ed93b653c75667e2a27bda2dc2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/0a77eb44ff41f8ed93b653c75667e2a27bda2dc2",
+                    "reference": "0a77eb44ff41f8ed93b653c75667e2a27bda2dc2",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-04 05:27:12",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/master",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.3.0": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "5d817aa785d1408b645ddb71e88aa567cb4263b7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/5d817aa785d1408b645ddb71e88aa567cb4263b7",
+                    "reference": "5d817aa785d1408b645ddb71e88aa567cb4263b7",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-04 20:07:10",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.3.0",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.4.0": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "714661e56a3a58bbb4ca312d913e1ef978a56b12"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/714661e56a3a58bbb4ca312d913e1ef978a56b12",
+                    "reference": "714661e56a3a58bbb4ca312d913e1ef978a56b12",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-14 04:23:16",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.0",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.4.1": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "f94e18799512ab30e1c7323313d81d64bcb31984"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/f94e18799512ab30e1c7323313d81d64bcb31984",
+                    "reference": "f94e18799512ab30e1c7323313d81d64bcb31984",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-14 04:40:38",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.1",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.4.2": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "1.4.2",
+                "version_normalized": "1.4.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "9f77df2d14ee82ade55b5ee0f83279ceff7911be"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/9f77df2d14ee82ade55b5ee0f83279ceff7911be",
+                    "reference": "9f77df2d14ee82ade55b5ee0f83279ceff7911be",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-14 04:48:58",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.2",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.4.3": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "1.4.3",
+                "version_normalized": "1.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "e30d5380588461ee97c5833e1fe267e4aac2b441"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/e30d5380588461ee97c5833e1fe267e4aac2b441",
+                    "reference": "e30d5380588461ee97c5833e1fe267e4aac2b441",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-21 19:13:32",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.3",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.4.4": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "1.4.4",
+                "version_normalized": "1.4.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "6ef17d1df715d1f58045025a09c096991d1614b4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/6ef17d1df715d1f58045025a09c096991d1614b4",
+                    "reference": "6ef17d1df715d1f58045025a09c096991d1614b4",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-12 17:47:06",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.4",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.5.0": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "1.5.0",
+                "version_normalized": "1.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "3d6697cf14a0806e26b38dbddd93103045e15732"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/3d6697cf14a0806e26b38dbddd93103045e15732",
+                    "reference": "3d6697cf14a0806e26b38dbddd93103045e15732",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-01-18 04:50:22",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.5.0",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "dev-master": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "1b02ff4e7a462bf12c629da546ba5c21e1b21498"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/1b02ff4e7a462bf12c629da546ba5c21e1b21498",
+                    "reference": "1b02ff4e7a462bf12c629da546ba5c21e1b21498",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-01-18 04:44:59",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/master",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "dev-stable": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "dev-stable",
+                "version_normalized": "dev-stable",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "6ef17d1df715d1f58045025a09c096991d1614b4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/6ef17d1df715d1f58045025a09c096991d1614b4",
+                    "reference": "6ef17d1df715d1f58045025a09c096991d1614b4",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-12 17:47:06",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.4",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "dev-v1-4-0": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "dev-v1-4-0",
+                "version_normalized": "dev-v1-4-0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "d4744aa4b1db7acedc5a51d01c6c88019dfe47cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/d4744aa4b1db7acedc5a51d01c6c88019dfe47cb",
+                    "reference": "d4744aa4b1db7acedc5a51d01c6c88019dfe47cb",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-13 16:08:16",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/v1-4-0",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
                 }
             }
         },
@@ -9913,6 +13392,234 @@
                 "support": {
                     "source": "https://github.com/wp-cli/restful/tree/master",
                     "issues": "https://github.com/wp-cli/restful/issues"
+                }
+            }
+        },
+        "wp-cli/scaffold-package-command": {
+            "v0.1.0": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "34ae4473eb58907654fb87342ce054b205abee72"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/34ae4473eb58907654fb87342ce054b205abee72",
+                    "reference": "34ae4473eb58907654fb87342ce054b205abee72",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-05 23:14:12",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
+                }
+            },
+            "v0.2.0": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "v0.2.0",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "79028a9f34d1b08b8f01d39d63886778bf4f9d74"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/79028a9f34d1b08b8f01d39d63886778bf4f9d74",
+                    "reference": "79028a9f34d1b08b8f01d39d63886778bf4f9d74",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-27 02:23:43",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
+                }
+            },
+            "dev-master": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "79028a9f34d1b08b8f01d39d63886778bf4f9d74"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/79028a9f34d1b08b8f01d39d63886778bf4f9d74",
+                    "reference": "79028a9f34d1b08b8f01d39d63886778bf4f9d74",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-27 02:23:43",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
+                }
+            },
+            "dev-render-mustache": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-render-mustache",
+                "version_normalized": "dev-render-mustache",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "bfd80eb2d3cee5e62d04114a8d8775838e493285"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/bfd80eb2d3cee5e62d04114a8d8775838e493285",
+                    "reference": "bfd80eb2d3cee5e62d04114a8d8775838e493285",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-07 23:40:21",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/render-mustache"
+                }
+            }
+        },
+        "wp-cli/server-command": {
+            "dev-master": {
+                "name": "wp-cli/server-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/server-command.git",
+                    "reference": "9bf8dee2d34db0ecf11e05e79c390e68d4125a7c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/9bf8dee2d34db0ecf11e05e79c390e68d4125a7c",
+                    "reference": "9bf8dee2d34db0ecf11e05e79c390e68d4125a7c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2015-06-02 17:00:38",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Start a development server for WordPress",
+                "homepage": "https://github.com/wp-cli/server-command",
+                "support": {
+                    "source": "https://github.com/wp-cli/server-command/tree/master",
+                    "issues": "https://github.com/wp-cli/server-command/issues"
                 }
             }
         },
