@@ -6833,18 +6833,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/markri/wp-sec.git",
-                    "reference": "9263033d53dceaf3f3b0627be93335a7017e4493"
+                    "reference": "ec4acd345c4b81ccd8db9783b3e7e6f90a500b9f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/9263033d53dceaf3f3b0627be93335a7017e4493",
-                    "reference": "9263033d53dceaf3f3b0627be93335a7017e4493",
+                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/ec4acd345c4b81ccd8db9783b3e7e6f90a500b9f",
+                    "reference": "ec4acd345c4b81ccd8db9783b3e7e6f90a500b9f",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-01-19 19:54:42",
+                "time": "2017-01-19 20:15:46",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -6853,6 +6853,9 @@
                 },
                 "license": [
                     "MIT"
+                ],
+                "authors": [
+                    "Marco de Krijger"
                 ],
                 "description": "Checks Wordpress installation for CVE security issues at wpvulndb.com",
                 "homepage": "https://github.com/markri/wp-sec",
@@ -6868,18 +6871,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/markri/wp-sec.git",
-                    "reference": "9263033d53dceaf3f3b0627be93335a7017e4493"
+                    "reference": "ec4acd345c4b81ccd8db9783b3e7e6f90a500b9f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/9263033d53dceaf3f3b0627be93335a7017e4493",
-                    "reference": "9263033d53dceaf3f3b0627be93335a7017e4493",
+                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/ec4acd345c4b81ccd8db9783b3e7e6f90a500b9f",
+                    "reference": "ec4acd345c4b81ccd8db9783b3e7e6f90a500b9f",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-01-19 19:54:42",
+                "time": "2017-01-19 20:15:46",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -6888,6 +6891,9 @@
                 },
                 "license": [
                     "MIT"
+                ],
+                "authors": [
+                    "Marco de Krijger"
                 ],
                 "description": "Checks Wordpress installation for CVE security issues at wpvulndb.com",
                 "homepage": "https://github.com/markri/wp-sec",
