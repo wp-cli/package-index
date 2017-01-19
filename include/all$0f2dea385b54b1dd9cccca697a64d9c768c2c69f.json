@@ -6833,18 +6833,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/markri/wp-sec.git",
-                    "reference": "ec4acd345c4b81ccd8db9783b3e7e6f90a500b9f"
+                    "reference": "1008e3398439d7ec1c310365403b25f5151bff7d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/ec4acd345c4b81ccd8db9783b3e7e6f90a500b9f",
-                    "reference": "ec4acd345c4b81ccd8db9783b3e7e6f90a500b9f",
+                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/1008e3398439d7ec1c310365403b25f5151bff7d",
+                    "reference": "1008e3398439d7ec1c310365403b25f5151bff7d",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-01-19 20:15:46",
+                "time": "2017-01-19 21:27:53",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -6855,7 +6855,10 @@
                     "MIT"
                 ],
                 "authors": [
-                    "Marco de Krijger"
+                    {
+                        "name": "Marco de Krijger",
+                        "homepage": "http://wp-sec.org"
+                    }
                 ],
                 "description": "Checks Wordpress installation for CVE security issues at wpvulndb.com",
                 "homepage": "https://github.com/markri/wp-sec",
@@ -6871,18 +6874,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/markri/wp-sec.git",
-                    "reference": "ec4acd345c4b81ccd8db9783b3e7e6f90a500b9f"
+                    "reference": "1008e3398439d7ec1c310365403b25f5151bff7d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/ec4acd345c4b81ccd8db9783b3e7e6f90a500b9f",
-                    "reference": "ec4acd345c4b81ccd8db9783b3e7e6f90a500b9f",
+                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/1008e3398439d7ec1c310365403b25f5151bff7d",
+                    "reference": "1008e3398439d7ec1c310365403b25f5151bff7d",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-01-19 20:15:46",
+                "time": "2017-01-19 21:27:53",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -6893,7 +6896,10 @@
                     "MIT"
                 ],
                 "authors": [
-                    "Marco de Krijger"
+                    {
+                        "name": "Marco de Krijger",
+                        "homepage": "http://wp-sec.org"
+                    }
                 ],
                 "description": "Checks Wordpress installation for CVE security issues at wpvulndb.com",
                 "homepage": "https://github.com/markri/wp-sec",
@@ -11838,6 +11844,46 @@
                 "support": {
                     "source": "https://github.com/szepeviktor/wp-cli-database-prefix-command/tree/master",
                     "issues": "https://github.com/szepeviktor/wp-cli-database-prefix-command/issues"
+                }
+            }
+        },
+        "tillkruss/wp-cli-kraken": {
+            "dev-master": {
+                "name": "tillkruss/wp-cli-kraken",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tillkruss/wp-cli-kraken.git",
+                    "reference": "637b47ae0c2c4c0d40ba981e306724b7af327236"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tillkruss/wp-cli-kraken/zipball/637b47ae0c2c4c0d40ba981e306724b7af327236",
+                    "reference": "637b47ae0c2c4c0d40ba981e306724b7af327236",
+                    "shasum": ""
+                },
+                "time": "2016-10-20 14:39:14",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Till Krüss",
+                        "homepage": "http://till.kruss.me/"
+                    }
+                ],
+                "description": "WP-CLI command to optimize WordPress image attachments using the Kraken Image Optimizer.",
+                "homepage": "https://github.com/tillkruss/wp-cli-kraken",
+                "support": {
+                    "source": "https://github.com/tillkruss/wp-cli-kraken/tree/master",
+                    "issues": "https://github.com/tillkruss/wp-cli-kraken/issues"
                 }
             }
         },
