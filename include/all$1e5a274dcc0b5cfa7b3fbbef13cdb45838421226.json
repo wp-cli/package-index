@@ -9916,18 +9916,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/find-unused-themes.git",
-                    "reference": "cecae9e2f16fb239bdfadd2ec62130e5e76fb991"
+                    "reference": "920f953aca751801d87cf7533d0166de2a3ac2e2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/cecae9e2f16fb239bdfadd2ec62130e5e76fb991",
-                    "reference": "cecae9e2f16fb239bdfadd2ec62130e5e76fb991",
+                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/920f953aca751801d87cf7533d0166de2a3ac2e2",
+                    "reference": "920f953aca751801d87cf7533d0166de2a3ac2e2",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-11-01 18:24:25",
+                "time": "2017-01-24 00:43:01",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -9967,7 +9967,8 @@
                 "description": "Find unused themes on a multisite network.",
                 "homepage": "https://runcommand.io/wp/find-unused-themes/",
                 "support": {
-                    "source": "https://github.com/runcommand/find-unused-themes/tree/master"
+                    "source": "https://github.com/runcommand/find-unused-themes/tree/master",
+                    "issues": "https://github.com/runcommand/find-unused-themes/issues"
                 }
             }
         },
