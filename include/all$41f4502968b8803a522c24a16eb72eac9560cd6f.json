@@ -1078,326 +1078,6 @@
                     "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
                     "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/v1.1.0"
                 }
-            },
-            "dev-master": {
-                "name": "aaemnnosttv/wp-cli-valet-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "5637efca1c1efd8ccc52adc7c01bc4774b0b043b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/5637efca1c1efd8ccc52adc7c01bc4774b0b043b",
-                    "reference": "5637efca1c1efd8ccc52adc7c01bc4774b0b043b",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/container": "^5.1",
-                    "php": "^5.5|^7.0",
-                    "symfony/filesystem": "^2.7 | ^3.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "johnpbloch/wordpress": "^4.6",
-                    "wp-cli/wp-cli": "^0.24.1"
-                },
-                "time": "2016-10-20 18:54:52",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "valet new",
-                        "valet destroy"
-                    ],
-                    "readme": {
-                        "shields": [
-                            "[![Travis Build](https://img.shields.io/travis/aaemnnosttv/wp-cli-valet-command/master.svg)](https://travis-ci.org/aaemnnosttv/wp-cli-valet-command)",
-                            "[![Packagist](https://img.shields.io/packagist/v/aaemnnosttv/wp-cli-valet-command.svg)](https://packagist.org/packages/aaemnnosttv/wp-cli-valet-command)"
-                        ],
-                        "installing": {
-                            "pre": "PREREQUISITES.md"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "WP_CLI_Valet\\": "src"
-                    },
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "scripts": {
-                    "update-readme": [
-                        "wp scaffold package-readme . --force"
-                    ],
-                    "run-behat": [
-                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Evan Mattson",
-                        "email": "me@aaemnnost.tv",
-                        "homepage": "https://aaemnnost.tv"
-                    }
-                ],
-                "description": "White-glove services for turn-key installs in seconds.",
-                "homepage": "https://aaemnnost.tv/wp-cli-commands/valet/",
-                "keywords": [
-                    "laravel",
-                    "valet",
-                    "wordpress",
-                    "zonda"
-                ],
-                "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/master"
-                }
-            },
-            "dev-develop": {
-                "name": "aaemnnosttv/wp-cli-valet-command",
-                "version": "dev-develop",
-                "version_normalized": "dev-develop",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "a0c9cc3b222abc94bcd727979053782e6448b501"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/a0c9cc3b222abc94bcd727979053782e6448b501",
-                    "reference": "a0c9cc3b222abc94bcd727979053782e6448b501",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/container": "^5.1",
-                    "php": "^5.5|^7.0",
-                    "symfony/filesystem": "^2.7 | ^3.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "johnpbloch/wordpress": "^4.6",
-                    "wp-cli/wp-cli": "^0.24.1"
-                },
-                "time": "2016-09-20 10:16:08",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "valet new",
-                        "valet destroy"
-                    ],
-                    "readme": {
-                        "installing": {
-                            "pre": "PREREQUISITES.md"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "WP_CLI_Valet\\": "src"
-                    },
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "scripts": {
-                    "update-readme": [
-                        "wp scaffold package-readme . --force"
-                    ],
-                    "run-behat": [
-                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Evan Mattson",
-                        "email": "me@aaemnnost.tv",
-                        "homepage": "https://aaemnnost.tv"
-                    }
-                ],
-                "description": "White-glove services for turn-key installs in seconds.",
-                "homepage": "https://aaemnnost.tv/wp-cli-commands/valet/",
-                "keywords": [
-                    "laravel",
-                    "valet",
-                    "wordpress",
-                    "zonda"
-                ],
-                "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/develop"
-                }
-            },
-            "dev-project-support/themosis": {
-                "name": "aaemnnosttv/wp-cli-valet-command",
-                "version": "dev-project-support/themosis",
-                "version_normalized": "dev-project-support/themosis",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "a9825e7af5d8a05a0465479047a3d7c50e2dfc48"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/a9825e7af5d8a05a0465479047a3d7c50e2dfc48",
-                    "reference": "a9825e7af5d8a05a0465479047a3d7c50e2dfc48",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/container": "^5.1",
-                    "php": "^5.5|^7.0",
-                    "symfony/filesystem": "^2.7 | ^3.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "johnpbloch/wordpress": "^4.6",
-                    "wp-cli/wp-cli": "^0.24.1"
-                },
-                "time": "2016-09-21 10:56:49",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "valet new",
-                        "valet destroy"
-                    ],
-                    "readme": {
-                        "shields": [
-                            "[![Travis Build](https://img.shields.io/travis/aaemnnosttv/wp-cli-valet-command/master.svg)](https://travis-ci.org/aaemnnosttv/wp-cli-valet-command)",
-                            "[![Packagist](https://img.shields.io/packagist/v/aaemnnosttv/wp-cli-valet-command.svg)](https://packagist.org/packages/aaemnnosttv/wp-cli-valet-command)"
-                        ],
-                        "installing": {
-                            "pre": "PREREQUISITES.md"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "WP_CLI_Valet\\": "src"
-                    },
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "scripts": {
-                    "update-readme": [
-                        "wp scaffold package-readme . --force"
-                    ],
-                    "run-behat": [
-                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Evan Mattson",
-                        "email": "me@aaemnnost.tv",
-                        "homepage": "https://aaemnnost.tv"
-                    }
-                ],
-                "description": "White-glove services for turn-key installs in seconds.",
-                "homepage": "https://aaemnnost.tv/wp-cli-commands/valet/",
-                "keywords": [
-                    "laravel",
-                    "valet",
-                    "wordpress",
-                    "zonda"
-                ],
-                "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/project-support/themosis"
-                }
-            },
-            "dev-project-support/wordplate": {
-                "name": "aaemnnosttv/wp-cli-valet-command",
-                "version": "dev-project-support/wordplate",
-                "version_normalized": "dev-project-support/wordplate",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "f77ab8faf82070a5dbeff377b640457f39e5e8ad"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/f77ab8faf82070a5dbeff377b640457f39e5e8ad",
-                    "reference": "f77ab8faf82070a5dbeff377b640457f39e5e8ad",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/container": "^5.1",
-                    "php": "^5.5|^7.0",
-                    "symfony/filesystem": "^2.7 | ^3.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "johnpbloch/wordpress": "^4.6",
-                    "wp-cli/wp-cli": "^0.24.1"
-                },
-                "time": "2016-09-21 10:43:17",
-                "type": "library",
-                "extra": {
-                    "commands": [
-                        "valet new",
-                        "valet destroy"
-                    ],
-                    "readme": {
-                        "shields": [
-                            "[![Travis Build](https://img.shields.io/travis/aaemnnosttv/wp-cli-valet-command/master.svg)](https://travis-ci.org/aaemnnosttv/wp-cli-valet-command)",
-                            "[![Packagist](https://img.shields.io/packagist/v/aaemnnosttv/wp-cli-valet-command.svg)](https://packagist.org/packages/aaemnnosttv/wp-cli-valet-command)"
-                        ],
-                        "installing": {
-                            "pre": "PREREQUISITES.md"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "WP_CLI_Valet\\": "src"
-                    },
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "scripts": {
-                    "update-readme": [
-                        "wp scaffold package-readme . --force"
-                    ],
-                    "run-behat": [
-                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Evan Mattson",
-                        "email": "me@aaemnnost.tv",
-                        "homepage": "https://aaemnnost.tv"
-                    }
-                ],
-                "description": "White-glove services for turn-key installs in seconds.",
-                "homepage": "https://aaemnnost.tv/wp-cli-commands/valet/",
-                "keywords": [
-                    "laravel",
-                    "valet",
-                    "wordpress",
-                    "zonda"
-                ],
-                "support": {
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/project-support/wordplate"
-                }
             }
         },
         "adrigen/wp-cli-piwik": {
@@ -1487,77 +1167,6 @@
                 }
             }
         },
-        "alessandrotesoro/wp-usergen-cli": {
-            "dev-master": {
-                "name": "alessandrotesoro/wp-usergen-cli",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/alessandrotesoro/wp-usergen-cli.git",
-                    "reference": "c985d31aa1ae835e476822ce42fb19a4d78a7828"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/alessandrotesoro/wp-usergen-cli/zipball/c985d31aa1ae835e476822ce42fb19a4d78a7828",
-                    "reference": "c985d31aa1ae835e476822ce42fb19a4d78a7828",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2016-10-23 16:40:28",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "wp-usergen-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Simple command to generate random users for testing purposes.",
-                "homepage": "https://github.com/alessandrotesoro/wp-usergen-cli",
-                "support": {
-                    "source": "https://github.com/alessandrotesoro/wp-usergen-cli/tree/master",
-                    "issues": "https://github.com/alessandrotesoro/wp-usergen-cli/issues"
-                }
-            }
-        },
-        "alleyinteractive/wp-doc-command": {
-            "dev-master": {
-                "name": "alleyinteractive/wp-doc-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/alleyinteractive/wp-doc-command.git",
-                    "reference": "78f4f4ffe601533334234848ef532ccb93af8107"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/alleyinteractive/wp-doc-command/zipball/78f4f4ffe601533334234848ef532ccb93af8107",
-                    "reference": "78f4f4ffe601533334234848ef532ccb93af8107",
-                    "shasum": ""
-                },
-                "time": "2016-10-20 14:17:16",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "View PHPDoc of any class, method, property, or function.",
-                "homepage": "https://github.com/alleyinteractive/wp-doc-command",
-                "support": {
-                    "issues": "https://github.com/alleyinteractive/wp-doc-command",
-                    "source": "https://github.com/alleyinteractive/wp-doc-command/tree/master"
-                }
-            }
-        },
         "anhskohbo/wp-cli-themecheck": {
             "dev-master": {
                 "name": "anhskohbo/wp-cli-themecheck",
@@ -1643,372 +1252,6 @@
                 "support": {
                     "source": "https://github.com/billerickson/wp-cli-plugin-install-missing/tree/master",
                     "issues": "https://github.com/billerickson/wp-cli-plugin-install-missing/issues"
-                }
-            }
-        },
-        "binarygary/db-checkpoint": {
-            "0.1.0": {
-                "name": "binarygary/db-checkpoint",
-                "version": "0.1.0",
-                "version_normalized": "0.1.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/binarygary/db-checkpoint.git",
-                    "reference": "8af4829663f0619d7c1fc0082e7b6dbe6dfccd8a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/8af4829663f0619d7c1fc0082e7b6dbe6dfccd8a",
-                    "reference": "8af4829663f0619d7c1fc0082e7b6dbe6dfccd8a",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2016-10-14 00:50:16",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "db-checkpoint.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Gary Kovar",
-                        "email": "plugins@binarygary.com",
-                        "homepage": "https://www.binarygary.com"
-                    }
-                ],
-                "description": "Create quick db snapshots for development purposes.",
-                "homepage": "https://github.com/binarygary/db-checkpoint",
-                "keywords": [
-                    "db snapshot",
-                    "deploy",
-                    "dump",
-                    "git",
-                    "mysql",
-                    "uploads",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/binarygary/db-checkpoint/tree/0.1.0",
-                    "issues": "https://github.com/binarygary/db-checkpoint/issues"
-                }
-            },
-            "0.1.1": {
-                "name": "binarygary/db-checkpoint",
-                "version": "0.1.1",
-                "version_normalized": "0.1.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/binarygary/db-checkpoint.git",
-                    "reference": "0e13e2f991343110ef2b36c1ef6d526b786fc609"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/0e13e2f991343110ef2b36c1ef6d526b786fc609",
-                    "reference": "0e13e2f991343110ef2b36c1ef6d526b786fc609",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2016-10-14 02:00:21",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "db-checkpoint.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Gary Kovar",
-                        "email": "plugins@binarygary.com",
-                        "homepage": "https://www.binarygary.com"
-                    }
-                ],
-                "description": "Create quick db snapshots for development purposes.",
-                "homepage": "https://github.com/binarygary/db-checkpoint",
-                "keywords": [
-                    "db snapshot",
-                    "deploy",
-                    "dump",
-                    "git",
-                    "mysql",
-                    "uploads",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/binarygary/db-checkpoint/tree/master",
-                    "issues": "https://github.com/binarygary/db-checkpoint/issues"
-                }
-            },
-            "0.2.0": {
-                "name": "binarygary/db-checkpoint",
-                "version": "0.2.0",
-                "version_normalized": "0.2.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/binarygary/db-checkpoint.git",
-                    "reference": "73cddeba8ad2e82aa7a567ff31244dea536e5dad"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/73cddeba8ad2e82aa7a567ff31244dea536e5dad",
-                    "reference": "73cddeba8ad2e82aa7a567ff31244dea536e5dad",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2016-10-17 02:22:07",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "db-checkpoint.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Gary Kovar",
-                        "email": "plugins@binarygary.com",
-                        "homepage": "https://www.binarygary.com"
-                    }
-                ],
-                "description": "Create quick db snapshots for development purposes.",
-                "homepage": "https://github.com/binarygary/db-checkpoint",
-                "keywords": [
-                    "db snapshot",
-                    "deploy",
-                    "dump",
-                    "git",
-                    "mysql",
-                    "uploads",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/binarygary/db-checkpoint/tree/0.2.0",
-                    "issues": "https://github.com/binarygary/db-checkpoint/issues"
-                }
-            },
-            "0.2.0.x-dev": {
-                "name": "binarygary/db-checkpoint",
-                "version": "0.2.0.x-dev",
-                "version_normalized": "0.2.0.9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/binarygary/db-checkpoint.git",
-                    "reference": "8bd0af1e95682a1cfc76bdbec591c10e9a208ac2"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/8bd0af1e95682a1cfc76bdbec591c10e9a208ac2",
-                    "reference": "8bd0af1e95682a1cfc76bdbec591c10e9a208ac2",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2016-10-17 02:18:35",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "db-checkpoint.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Gary Kovar",
-                        "email": "plugins@binarygary.com",
-                        "homepage": "https://www.binarygary.com"
-                    }
-                ],
-                "description": "Create quick db snapshots for development purposes.",
-                "homepage": "https://github.com/binarygary/db-checkpoint",
-                "keywords": [
-                    "db snapshot",
-                    "deploy",
-                    "dump",
-                    "git",
-                    "mysql",
-                    "uploads",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/binarygary/db-checkpoint/tree/0.2.0",
-                    "issues": "https://github.com/binarygary/db-checkpoint/issues"
-                }
-            },
-            "0.2.1": {
-                "name": "binarygary/db-checkpoint",
-                "version": "0.2.1",
-                "version_normalized": "0.2.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/binarygary/db-checkpoint.git",
-                    "reference": "bb2d810f8b0745bf0b4f21fd2591fe1bd52980c6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/bb2d810f8b0745bf0b4f21fd2591fe1bd52980c6",
-                    "reference": "bb2d810f8b0745bf0b4f21fd2591fe1bd52980c6",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2017-01-07 03:29:12",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "db-checkpoint.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Gary Kovar",
-                        "email": "plugins@binarygary.com",
-                        "homepage": "https://www.binarygary.com"
-                    }
-                ],
-                "description": "Create quick db snapshots for development purposes.",
-                "homepage": "https://github.com/binarygary/db-checkpoint",
-                "keywords": [
-                    "db snapshot",
-                    "deploy",
-                    "dump",
-                    "git",
-                    "mysql",
-                    "uploads",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/binarygary/db-checkpoint/tree/master",
-                    "issues": "https://github.com/binarygary/db-checkpoint/issues"
-                }
-            },
-            "dev-master": {
-                "name": "binarygary/db-checkpoint",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/binarygary/db-checkpoint.git",
-                    "reference": "0cb93e12820e252359023a29bab247a4dd0c8a77"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/0cb93e12820e252359023a29bab247a4dd0c8a77",
-                    "reference": "0cb93e12820e252359023a29bab247a4dd0c8a77",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2017-01-08 01:56:49",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "db-checkpoint.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Gary Kovar",
-                        "email": "plugins@binarygary.com",
-                        "homepage": "https://www.binarygary.com"
-                    }
-                ],
-                "description": "Create quick db snapshots for development purposes.",
-                "homepage": "https://github.com/binarygary/db-checkpoint",
-                "keywords": [
-                    "db snapshot",
-                    "deploy",
-                    "dump",
-                    "git",
-                    "mysql",
-                    "uploads",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/binarygary/db-checkpoint/tree/0.2.2",
-                    "issues": "https://github.com/binarygary/db-checkpoint/issues"
-                }
-            },
-            "dev-feature/add-functional-test": {
-                "name": "binarygary/db-checkpoint",
-                "version": "dev-feature/add-functional-test",
-                "version_normalized": "dev-feature/add-functional-test",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/binarygary/db-checkpoint.git",
-                    "reference": "17c74de7d4a6e0957b7e56d8db72b2877c2122e0"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/17c74de7d4a6e0957b7e56d8db72b2877c2122e0",
-                    "reference": "17c74de7d4a6e0957b7e56d8db72b2877c2122e0",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2016-11-20 01:12:24",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "db-checkpoint.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Gary Kovar",
-                        "email": "plugins@binarygary.com",
-                        "homepage": "https://www.binarygary.com"
-                    }
-                ],
-                "description": "Create quick db snapshots for development purposes.",
-                "homepage": "https://github.com/binarygary/db-checkpoint",
-                "keywords": [
-                    "db snapshot",
-                    "deploy",
-                    "dump",
-                    "git",
-                    "mysql",
-                    "uploads",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/binarygary/db-checkpoint/tree/feature/add-functional-test",
-                    "issues": "https://github.com/binarygary/db-checkpoint/issues"
                 }
             }
         },
@@ -2488,110 +1731,6 @@
                     "source": "https://github.com/c10b10/wp-cli-deploy/tree/v1.0.0",
                     "issues": "https://github.com/c10b10/wp-cli-deploy/issues"
                 }
-            },
-            "dev-master": {
-                "name": "c10b10/wp-cli-deploy",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/c10b10/wp-cli-deploy.git",
-                    "reference": "82ac2b8c3add028a8db67baf3d56189eb31da6fe"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/82ac2b8c3add028a8db67baf3d56189eb31da6fe",
-                    "reference": "82ac2b8c3add028a8db67baf3d56189eb31da6fe",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4",
-                    "wp-cli/wp-cli": ">=0.14"
-                },
-                "time": "2016-10-22 10:00:04",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "deploy.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Alex Ciobica",
-                        "email": "alex.ciobica@gmail.com",
-                        "homepage": "http://ciobi.ca"
-                    }
-                ],
-                "description": "Deploys the local WordPress database or the uploads directory to a remote server using ssh.",
-                "homepage": "https://github.com/c10b10/wp-cli-deploy",
-                "keywords": [
-                    "deploy",
-                    "dump",
-                    "git",
-                    "mysql",
-                    "uploads",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/c10b10/wp-cli-deploy/tree/master",
-                    "issues": "https://github.com/c10b10/wp-cli-deploy/issues"
-                }
-            },
-            "dev-dev": {
-                "name": "c10b10/wp-cli-deploy",
-                "version": "dev-dev",
-                "version_normalized": "dev-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/c10b10/wp-cli-deploy.git",
-                    "reference": "4fbf2347b58da714630e1cdd3e497373409d4a8c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/4fbf2347b58da714630e1cdd3e497373409d4a8c",
-                    "reference": "4fbf2347b58da714630e1cdd3e497373409d4a8c",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4",
-                    "wp-cli/wp-cli": ">=0.14"
-                },
-                "time": "2014-07-29 10:20:39",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "deploy.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Alex Ciobica",
-                        "email": "alex.ciobica@gmail.com",
-                        "homepage": "http://ciobi.ca"
-                    }
-                ],
-                "description": "Deploys the local WordPress database or the uploads directory to a remote server using ssh.",
-                "homepage": "https://github.com/c10b10/wp-cli-deploy",
-                "keywords": [
-                    "deploy",
-                    "dump",
-                    "git",
-                    "mysql",
-                    "uploads",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/c10b10/wp-cli-deploy/tree/dev",
-                    "issues": "https://github.com/c10b10/wp-cli-deploy/issues"
-                }
             }
         },
         "danielbachhuber/dictator": {
@@ -2717,45 +1856,6 @@
                 }
             }
         },
-        "danielbachhuber/wp-cli-reset-post-date-command": {
-            "dev-master": {
-                "name": "danielbachhuber/wp-cli-reset-post-date-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/danielbachhuber/wp-cli-reset-post-date-command.git",
-                    "reference": "b8fee099420a86e6fb1e1c0009655c4a136bb465"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/wp-cli-reset-post-date-command/zipball/b8fee099420a86e6fb1e1c0009655c4a136bb465",
-                    "reference": "b8fee099420a86e6fb1e1c0009655c4a136bb465",
-                    "shasum": ""
-                },
-                "time": "2016-10-20 14:08:38",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "wp-cli-reset-post-date-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "d@danielbachhuber.com"
-                    }
-                ],
-                "description": "Reset the post_date field on your posts after you change the timezone.",
-                "support": {
-                    "source": "https://github.com/danielbachhuber/wp-cli-reset-post-date-command/tree/master",
-                    "issues": "https://github.com/danielbachhuber/wp-cli-reset-post-date-command/issues"
-                }
-            }
-        },
         "danielbachhuber/wp-cli-stat-command": {
             "dev-master": {
                 "name": "danielbachhuber/wp-cli-stat-command",
@@ -2802,6 +1902,48 @@
                 "support": {
                     "source": "https://github.com/danielbachhuber/wp-cli-stat-command/tree/master",
                     "issues": "https://github.com/danielbachhuber/wp-cli-stat-command/issues"
+                }
+            }
+        },
+        "danielbachhuber/wp-rest-cli": {
+            "v0.1.0": {
+                "name": "danielbachhuber/wp-rest-cli",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/restful.git",
+                    "reference": "fc8e09651c1846ef71f3bf78ef11760ea0c2125b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/fc8e09651c1846ef71f3bf78ef11760ea0c2125b",
+                    "reference": "fc8e09651c1846ef71f3bf78ef11760ea0c2125b",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-02-04 14:47:53",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "wp-rest-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "Unlock the potential of the WP REST API at the command line",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/wp-rest-cli/tree/v0.1.0",
+                    "issues": "https://github.com/danielbachhuber/wp-rest-cli/issues"
                 }
             }
         },
@@ -5440,181 +4582,6 @@
                 }
             }
         },
-        "foogile/wp-cli-mig": {
-            "v0.0.0": {
-                "name": "foogile/wp-cli-mig",
-                "version": "v0.0.0",
-                "version_normalized": "0.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/stianlik/wp-cli-mig.git",
-                    "reference": "baa3e64209844c50551f42955fa1bc6b81fe1afd"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/stianlik/wp-cli-mig/zipball/baa3e64209844c50551f42955fa1bc6b81fe1afd",
-                    "reference": "baa3e64209844c50551f42955fa1bc6b81fe1afd",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0"
-                },
-                "time": "2014-02-17 15:18:47",
-                "type": "library",
-                "autoload": {
-                    "psr-0": {
-                        "Foogile\\WpCli\\Migrate\\": "src/"
-                    },
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "WTFPL"
-                ],
-                "authors": [
-                    {
-                        "name": "Stian Liknes",
-                        "email": "stianlik@gmail.com"
-                    }
-                ],
-                "description": "General migration command for WP-CLI",
-                "support": {
-                    "source": "https://github.com/stianlik/wp-cli-mig/tree/v0.0.0",
-                    "issues": "https://github.com/stianlik/wp-cli-mig/issues"
-                }
-            },
-            "v0.0.1": {
-                "name": "foogile/wp-cli-mig",
-                "version": "v0.0.1",
-                "version_normalized": "0.0.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/stianlik/wp-cli-mig.git",
-                    "reference": "c5f953f6e12dca7e1aac3c7eeafacb6457213251"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/stianlik/wp-cli-mig/zipball/c5f953f6e12dca7e1aac3c7eeafacb6457213251",
-                    "reference": "c5f953f6e12dca7e1aac3c7eeafacb6457213251",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0"
-                },
-                "time": "2014-02-18 11:56:42",
-                "type": "library",
-                "autoload": {
-                    "psr-0": {
-                        "Foogile\\WpCli\\Migrate\\": "src/"
-                    },
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "WTFPL"
-                ],
-                "authors": [
-                    {
-                        "name": "Stian Liknes",
-                        "email": "stianlik@gmail.com"
-                    }
-                ],
-                "description": "General migration command for WP-CLI",
-                "support": {
-                    "source": "https://github.com/stianlik/wp-cli-mig/tree/v0.0.1",
-                    "issues": "https://github.com/stianlik/wp-cli-mig/issues"
-                }
-            },
-            "v0.0.2": {
-                "name": "foogile/wp-cli-mig",
-                "version": "v0.0.2",
-                "version_normalized": "0.0.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/stianlik/wp-cli-mig.git",
-                    "reference": "dc5363b8657aef90f404aaa325ab003fa6a2bbf5"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/stianlik/wp-cli-mig/zipball/dc5363b8657aef90f404aaa325ab003fa6a2bbf5",
-                    "reference": "dc5363b8657aef90f404aaa325ab003fa6a2bbf5",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0"
-                },
-                "time": "2014-03-31 12:10:32",
-                "type": "library",
-                "autoload": {
-                    "psr-0": {
-                        "Foogile\\WpCli\\Migrate\\": "src/"
-                    },
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "WTFPL"
-                ],
-                "authors": [
-                    {
-                        "name": "Stian Liknes",
-                        "email": "stianlik@gmail.com"
-                    }
-                ],
-                "description": "General migration command for WP-CLI",
-                "support": {
-                    "source": "https://github.com/stianlik/wp-cli-mig/tree/v0.0.2",
-                    "issues": "https://github.com/stianlik/wp-cli-mig/issues"
-                }
-            },
-            "dev-master": {
-                "name": "foogile/wp-cli-mig",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/stianlik/wp-cli-mig.git",
-                    "reference": "9da130c566cfeb2a11b7afa7a98d1d9ad00fb891"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/stianlik/wp-cli-mig/zipball/9da130c566cfeb2a11b7afa7a98d1d9ad00fb891",
-                    "reference": "9da130c566cfeb2a11b7afa7a98d1d9ad00fb891",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0"
-                },
-                "time": "2016-10-20 20:10:19",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "psr-0": {
-                        "Foogile\\WpCli\\Migrate\\": "src/"
-                    },
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "WTFPL"
-                ],
-                "authors": [
-                    {
-                        "name": "Stian Liknes",
-                        "email": "stianlik@gmail.com"
-                    }
-                ],
-                "description": "General migration command for WP-CLI",
-                "homepage": "https://github.com/stianlik/wp-cli-mig/",
-                "support": {
-                    "source": "https://github.com/stianlik/wp-cli-mig/tree/master",
-                    "issues": "https://github.com/stianlik/wp-cli-mig/issues"
-                }
-            }
-        },
         "frozzare/wp-cli-lint": {
             "dev-master": {
                 "name": "frozzare/wp-cli-lint",
@@ -5663,151 +4630,7 @@
                 }
             }
         },
-        "frozzare/wp-cli-media-restore": {
-            "v1.0.0": {
-                "name": "frozzare/wp-cli-media-restore",
-                "version": "v1.0.0",
-                "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/frozzare/wp-cli-media-restore.git",
-                    "reference": "7eed33c3765373908f52063cc9cd20133f81c0b8"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/frozzare/wp-cli-media-restore/zipball/7eed33c3765373908f52063cc9cd20133f81c0b8",
-                    "reference": "7eed33c3765373908f52063cc9cd20133f81c0b8",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2015-11-22 08:20:08",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "src/class-media-restore-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Fredrik Forsmo",
-                        "email": "fredrik.forsmo@gmail.com",
-                        "homepage": "https://github.com/frozzare"
-                    }
-                ],
-                "description": "Restore media attachments using WP CLI",
-                "homepage": "https://github.com/frozzare/wp-cli-media-restore",
-                "keywords": [
-                    "attachments",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/frozzare/wp-cli-media-restore/tree/v1.0.0",
-                    "issues": "https://github.com/frozzare/wp-cli-media-restore/issues"
-                }
-            },
-            "dev-master": {
-                "name": "frozzare/wp-cli-media-restore",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/frozzare/wp-cli-media-restore.git",
-                    "reference": "5f81ba1c3cb6ad40de9db5a8433a51dd9e1f7143"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/frozzare/wp-cli-media-restore/zipball/5f81ba1c3cb6ad40de9db5a8433a51dd9e1f7143",
-                    "reference": "5f81ba1c3cb6ad40de9db5a8433a51dd9e1f7143",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2016-10-20 14:11:53",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "src/class-media-restore-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Fredrik Forsmo",
-                        "email": "fredrik.forsmo@gmail.com",
-                        "homepage": "https://github.com/frozzare"
-                    }
-                ],
-                "description": "Restore media attachments using WP CLI",
-                "homepage": "https://github.com/frozzare/wp-cli-media-restore",
-                "keywords": [
-                    "attachments",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/frozzare/wp-cli-media-restore/tree/master",
-                    "issues": "https://github.com/frozzare/wp-cli-media-restore/issues"
-                }
-            }
-        },
         "geekpress/wp-rocket-cli": {
-            "1.0": {
-                "name": "GeekPress/wp-rocket-cli",
-                "version": "1.0",
-                "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/GeekPress/wp-rocket-cli.git",
-                    "reference": "e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/GeekPress/wp-rocket-cli/zipball/e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c",
-                    "reference": "e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0"
-                },
-                "time": "2014-05-23 18:29:43",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "wp-rocket-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Jonathan Buttigieg (WP Rocket Team)",
-                        "homepage": "http://wp-rocket.me",
-                        "email": "jonathan@wp-rocket.me",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Add a `wp rocket` command to support the WP Rocket plugin",
-                "homepage": "https://github.com/GeekPress/WP-Rocket-CLI",
-                "keywords": [
-                    "cache",
-                    "rocket",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/GeekPress/wp-rocket-cli/tree/1.0",
-                    "issues": "https://github.com/GeekPress/wp-rocket-cli/issues"
-                }
-            },
             "dev-master": {
                 "name": "GeekPress/wp-rocket-cli",
                 "version": "dev-master",
@@ -5854,6 +4677,52 @@
                 "support": {
                     "issues": "https://github.com/GeekPress/wp-rocket-cli/issues",
                     "source": "https://github.com/GeekPress/wp-rocket-cli"
+                }
+            }
+        },
+        "getshifter/wp-cli-shifter": {
+            "0.1.1": {
+                "name": "getshifter/wp-cli-shifter",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "63fdf633e21abf25100bba7ee0bcb62a5dca70e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/63fdf633e21abf25100bba7ee0bcb62a5dca70e6",
+                    "reference": "63fdf633e21abf25100bba7ee0bcb62a5dca70e6",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-30 05:38:47",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/master",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
                 }
             }
         },
@@ -6020,88 +4889,6 @@
                 "support": {
                     "source": "https://github.com/humanmade/wp-remote-cli/tree/fourth-level-commands",
                     "issues": "https://github.com/humanmade/wp-remote-cli/issues"
-                }
-            }
-        },
-        "iandunn/wp-cli-plugin-active-on-sites": {
-            "dev-master": {
-                "name": "iandunn/wp-cli-plugin-active-on-sites",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/iandunn/wp-cli-plugin-active-on-sites.git",
-                    "reference": "620f8f3cd8d441959dda5ed3bf409bb6e26e704c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/iandunn/wp-cli-plugin-active-on-sites/zipball/620f8f3cd8d441959dda5ed3bf409bb6e26e704c",
-                    "reference": "620f8f3cd8d441959dda5ed3bf409bb6e26e704c",
-                    "shasum": ""
-                },
-                "time": "2016-10-21 14:11:58",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "wp-cli-plugin-active-on-sites.php"
-                    ]
-                },
-                "license": [
-                    "GPLv2"
-                ],
-                "authors": [
-                    {
-                        "name": "Ian Dunn",
-                        "email": "ian@iandunn.name",
-                        "homepage": "https://iandunn.name"
-                    }
-                ],
-                "description": "A WP-CLI command to list all sites in a Multisite network that have activated a given plugin",
-                "homepage": "https://github.com/iandunn/wp-cli-plugin-active-on-sites",
-                "support": {
-                    "source": "https://github.com/iandunn/wp-cli-plugin-active-on-sites/tree/master",
-                    "issues": "https://github.com/iandunn/wp-cli-plugin-active-on-sites/issues"
-                }
-            }
-        },
-        "iandunn/wp-cli-rename-db-prefix": {
-            "dev-master": {
-                "name": "iandunn/wp-cli-rename-db-prefix",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/iandunn/wp-cli-rename-db-prefix.git",
-                    "reference": "95ce5b2e7b9699214c12017220963fc35fdcf456"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/iandunn/wp-cli-rename-db-prefix/zipball/95ce5b2e7b9699214c12017220963fc35fdcf456",
-                    "reference": "95ce5b2e7b9699214c12017220963fc35fdcf456",
-                    "shasum": ""
-                },
-                "time": "2016-12-16 21:47:08",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "wp-cli-rename-db-prefix.php"
-                    ]
-                },
-                "license": [
-                    "GPLv2"
-                ],
-                "authors": [
-                    {
-                        "name": "Ian Dunn",
-                        "email": "ian@iandunn.name",
-                        "homepage": "https://iandunn.name"
-                    }
-                ],
-                "description": "A WP-CLI command to rename WordPress' database prefix.",
-                "homepage": "https://github.com/iandunn/wp-cli-rename-db-prefix",
-                "support": {
-                    "source": "https://github.com/iandunn/wp-cli-rename-db-prefix/tree/master",
-                    "issues": "https://github.com/iandunn/wp-cli-rename-db-prefix/issues"
                 }
             }
         },
@@ -6788,126 +5575,6 @@
             }
         },
         "markri/wp-sec": {
-            "0.0.1": {
-                "name": "markri/wp-sec",
-                "version": "0.0.1",
-                "version_normalized": "0.0.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/markri/wp-sec.git",
-                    "reference": "adae7185ac4d07006d718fdde77fd22174482e1c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/adae7185ac4d07006d718fdde77fd22174482e1c",
-                    "reference": "adae7185ac4d07006d718fdde77fd22174482e1c",
-                    "shasum": ""
-                },
-                "require": {
-                    "guzzlehttp/guzzle": "~6.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-25 15:28:31",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Checks Wordpress installation for CVE security issues at wpvulndb.com",
-                "homepage": "https://github.com/markri/wp-sec",
-                "support": {
-                    "source": "https://github.com/markri/wp-sec/tree/0.0.1",
-                    "issues": "https://github.com/markri/wp-sec/issues"
-                }
-            },
-            "0.0.2": {
-                "name": "markri/wp-sec",
-                "version": "0.0.2",
-                "version_normalized": "0.0.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/markri/wp-sec.git",
-                    "reference": "1008e3398439d7ec1c310365403b25f5151bff7d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/1008e3398439d7ec1c310365403b25f5151bff7d",
-                    "reference": "1008e3398439d7ec1c310365403b25f5151bff7d",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-01-19 21:27:53",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Marco de Krijger",
-                        "homepage": "http://wp-sec.org"
-                    }
-                ],
-                "description": "Checks Wordpress installation for CVE security issues at wpvulndb.com",
-                "homepage": "https://github.com/markri/wp-sec",
-                "support": {
-                    "source": "https://github.com/markri/wp-sec/tree/0.0.2",
-                    "issues": "https://github.com/markri/wp-sec/issues"
-                }
-            },
-            "0.0.3": {
-                "name": "markri/wp-sec",
-                "version": "0.0.3",
-                "version_normalized": "0.0.3.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/markri/wp-sec.git",
-                    "reference": "173987424cb5df4a1cddf9193d375893f358fd3c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/markri/wp-sec/zipball/173987424cb5df4a1cddf9193d375893f358fd3c",
-                    "reference": "173987424cb5df4a1cddf9193d375893f358fd3c",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-01-25 12:22:51",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Marco de Krijger",
-                        "homepage": "http://wp-sec.org"
-                    }
-                ],
-                "description": "Checks Wordpress installation for CVE security issues at wpvulndb.com",
-                "homepage": "https://github.com/markri/wp-sec",
-                "support": {
-                    "source": "https://github.com/markri/wp-sec/tree/0.0.3",
-                    "issues": "https://github.com/markri/wp-sec/issues"
-                }
-            },
             "dev-master": {
                 "name": "markri/wp-sec",
                 "version": "dev-master",
@@ -7236,263 +5903,6 @@
                 "support": {
                     "issues": "https://github.com/mattes/wp-cli-quick-command/issues",
                     "source": "https://github.com/mattes/wp-cli-quick-command"
-                }
-            }
-        },
-        "michaloo/wp-cli-environmentalize": {
-            "dev-master": {
-                "name": "michaloo/wp-cli-environmentalize",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/michaloo/wp-cli-environmentalize.git",
-                    "reference": "cb65ec3e9ddc5411c0238562d2fada6a0e0a5ee0"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/michaloo/wp-cli-environmentalize/zipball/cb65ec3e9ddc5411c0238562d2fada6a0e0a5ee0",
-                    "reference": "cb65ec3e9ddc5411c0238562d2fada6a0e0a5ee0",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2016-10-25 20:47:05",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Michał Rączka",
-                        "email": "me@michaloo.net",
-                        "homepage": "http://raczka.me"
-                    }
-                ],
-                "description": "Makes wp-config to load settings from ENV variables.",
-                "homepage": "https://github.com/michaloo/wp-cli-environmentalize",
-                "support": {
-                    "source": "https://github.com/michaloo/wp-cli-environmentalize/tree/master",
-                    "issues": "https://github.com/michaloo/wp-cli-environmentalize/issues"
-                }
-            }
-        },
-        "mikedance/wp-cli-favorite-plugins": {
-            "dev-master": {
-                "name": "mikedance/wp-cli-favorite-plugins",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mikedance/wp-cli-favorite-plugins.git",
-                    "reference": "57d1963356be2084661ba663d338c0b537b609cd"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/mikedance/wp-cli-favorite-plugins/zipball/57d1963356be2084661ba663d338c0b537b609cd",
-                    "reference": "57d1963356be2084661ba663d338c0b537b609cd",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-20 17:17:55",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPLv2"
-                ],
-                "authors": [
-                    {
-                        "name": "Michael Dance"
-                    }
-                ],
-                "description": "WP-CLI command to grab favorited plugins from any wordpress.org account.",
-                "homepage": "https://github.com/mikedance/wp-cli-favorite-plugins",
-                "support": {
-                    "source": "https://github.com/mikedance/wp-cli-favorite-plugins/tree/master",
-                    "issues": "https://github.com/mikedance/wp-cli-favorite-plugins/issues"
-                }
-            },
-            "dev-dev": {
-                "name": "mikedance/wp-cli-favorite-plugins",
-                "version": "dev-dev",
-                "version_normalized": "dev-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mikedance/wp-cli-favorite-plugins.git",
-                    "reference": "e53557ca3e17a966a9aa66c4b1b5019e8cd329a7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/mikedance/wp-cli-favorite-plugins/zipball/e53557ca3e17a966a9aa66c4b1b5019e8cd329a7",
-                    "reference": "e53557ca3e17a966a9aa66c4b1b5019e8cd329a7",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-07-29 19:43:24",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPLv2"
-                ],
-                "authors": [
-                    {
-                        "name": "Michael Dance"
-                    }
-                ],
-                "description": "WP-CLI command to grab favorited plugins from any wordpress.org account.",
-                "homepage": "https://github.com/mikedance/wp-cli-favorite-plugins",
-                "support": {
-                    "source": "https://github.com/mikedance/wp-cli-favorite-plugins/tree/dev",
-                    "issues": "https://github.com/mikedance/wp-cli-favorite-plugins/issues"
-                }
-            }
-        },
-        "miya0001/wp-cli-plugins-api": {
-            "1.0": {
-                "name": "miya0001/wp-cli-plugins-api",
-                "version": "1.0",
-                "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/miya0001/wp-plugins-api.git",
-                    "reference": "5549c1521de89d1e9834ed8e60ce1af42a9a79da"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/miya0001/wp-plugins-api/zipball/5549c1521de89d1e9834ed8e60ce1af42a9a79da",
-                    "reference": "5549c1521de89d1e9834ed8e60ce1af42a9a79da",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2014-12-02 10:04:11",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "https://github.com/miya0001"
-                    }
-                ],
-                "description": "WP-CLI command for Plugins API",
-                "homepage": "http://github.com/miya0001/wp-cli-plugins-api",
-                "support": {
-                    "source": "https://github.com/miya0001/wp-plugins-api/tree/1.0",
-                    "issues": "https://github.com/miya0001/wp-plugins-api/issues"
-                }
-            },
-            "1.0.1": {
-                "name": "miya0001/wp-cli-plugins-api",
-                "version": "1.0.1",
-                "version_normalized": "1.0.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/miya0001/wp-plugins-api.git",
-                    "reference": "995fe01095dd9186751cc34df7231fec0c588f40"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/miya0001/wp-plugins-api/zipball/995fe01095dd9186751cc34df7231fec0c588f40",
-                    "reference": "995fe01095dd9186751cc34df7231fec0c588f40",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-20 19:59:22",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "https://github.com/miya0001"
-                    }
-                ],
-                "description": "WP-CLI command for Plugins API",
-                "homepage": "http://github.com/miya0001/wp-cli-plugins-api",
-                "support": {
-                    "source": "https://github.com/miya0001/wp-plugins-api/tree/master",
-                    "issues": "https://github.com/miya0001/wp-plugins-api/issues"
-                }
-            },
-            "dev-master": {
-                "name": "miya0001/wp-cli-plugins-api",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/miya0001/wp-plugins-api.git",
-                    "reference": "995fe01095dd9186751cc34df7231fec0c588f40"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/miya0001/wp-plugins-api/zipball/995fe01095dd9186751cc34df7231fec0c588f40",
-                    "reference": "995fe01095dd9186751cc34df7231fec0c588f40",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-20 19:59:22",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "https://github.com/miya0001"
-                    }
-                ],
-                "description": "WP-CLI command for Plugins API",
-                "homepage": "http://github.com/miya0001/wp-cli-plugins-api",
-                "support": {
-                    "source": "https://github.com/miya0001/wp-plugins-api/tree/master",
-                    "issues": "https://github.com/miya0001/wp-plugins-api/issues"
                 }
             }
         },
@@ -9368,104 +7778,6 @@
                 }
             }
         },
-        "pulsestorm/wp-static-html-output-plugin": {
-            "dev-master": {
-                "name": "pulsestorm/wp-static-html-output-plugin",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/astorm/wp-static-html-output-plugin.git",
-                    "reference": "91c19d998635ad5b148809e90c834fb763d21314"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/91c19d998635ad5b148809e90c834fb763d21314",
-                    "reference": "91c19d998635ad5b148809e90c834fb763d21314",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3"
-                },
-                "time": "2016-10-20 14:56:57",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Alan Storm",
-                        "homepage": "http://alanstorm.com"
-                    }
-                ],
-                "description": "Unofficial WP-CLI wrapper for the WP Static HTML Output Plugin ",
-                "homepage": "https://github.com/astorm/wp-static-html-output-plugin",
-                "keywords": [
-                    "",
-                    "html",
-                    "static",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "issues": "https://github.com/astorm/wp-static-html-output-plugin/issues",
-                    "source": "https://github.com/astorm/wp-static-html-output-plugin"
-                }
-            },
-            "dev-alanstorm-dot-com": {
-                "name": "pulsestorm/wp-static-html-output-plugin",
-                "version": "dev-alanstorm-dot-com",
-                "version_normalized": "dev-alanstorm-dot-com",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/astorm/wp-static-html-output-plugin.git",
-                    "reference": "67fa4609e584374344422f609344f28e40f3abd0"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/67fa4609e584374344422f609344f28e40f3abd0",
-                    "reference": "67fa4609e584374344422f609344f28e40f3abd0",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3"
-                },
-                "time": "2016-10-09 00:59:19",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Alan Storm",
-                        "homepage": "http://alanstorm.com"
-                    }
-                ],
-                "description": "Unofficial WP-CLI wrapper for the WP Static HTML Output Plugin ",
-                "homepage": "https://github.com/astorm/wp-static-html-output-plugin",
-                "keywords": [
-                    "",
-                    "html",
-                    "static",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "issues": "https://github.com/astorm/wp-static-html-output-plugin/issues",
-                    "source": "https://github.com/astorm/wp-static-html-output-plugin"
-                }
-            }
-        },
         "redkiwi-nl/localconfig": {
             "0.1": {
                 "name": "redkiwi-nl/localconfig",
@@ -10739,50 +9051,6 @@
                     "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
                 }
             },
-            "0.1.1": {
-                "name": "shifter/cli",
-                "version": "0.1.1",
-                "version_normalized": "0.1.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
-                    "reference": "63fdf633e21abf25100bba7ee0bcb62a5dca70e6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/63fdf633e21abf25100bba7ee0bcb62a5dca70e6",
-                    "reference": "63fdf633e21abf25100bba7ee0bcb62a5dca70e6",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-30 05:38:47",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Shifter Team",
-                        "homepage": "https://getshifter.io/"
-                    }
-                ],
-                "description": "WP-CLI commands for the Shifter",
-                "homepage": "https://github.com/getshifter/wp-cli-shifter",
-                "support": {
-                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/master",
-                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
-                }
-            },
             "1.0.1": {
                 "name": "shifter/cli",
                 "version": "1.0.1",
@@ -11610,50 +9878,6 @@
                 }
             }
         },
-        "sommarnatt/wp-cli-oderland": {
-            "dev-master": {
-                "name": "sommarnatt/wp-cli-oderland",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/sommarnatt/wp-cli-oderland.git",
-                    "reference": "059e81a4a3eef4cb562844db667cbb27981fa3f9"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/sommarnatt/wp-cli-oderland/zipball/059e81a4a3eef4cb562844db667cbb27981fa3f9",
-                    "reference": "059e81a4a3eef4cb562844db667cbb27981fa3f9",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.29"
-                },
-                "time": "2016-11-22 13:26:42",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "wpclioderland.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Package Maintainer",
-                        "email": "david@oderland.se",
-                        "homepage": "https://www.oderland.se"
-                    }
-                ],
-                "description": "Manage Databases and Domains for Oderland Hosting Services",
-                "homepage": "https://github.com/sommarnatt/wp-cli-oderland",
-                "support": {
-                    "source": "https://github.com/sommarnatt/wp-cli-oderland/tree/master",
-                    "issues": "https://github.com/sommarnatt/wp-cli-oderland/issues"
-                }
-            }
-        },
         "srtfisher/wp-composer": {
             "0.1": {
                 "name": "srtfisher/wp-composer",
@@ -11836,56 +10060,6 @@
                 "support": {
                     "source": "https://github.com/srtfisher/wp-composer/tree/master",
                     "issues": "https://github.com/srtfisher/wp-composer/issues"
-                }
-            }
-        },
-        "szepeviktor/wp-cli-database-prefix-command": {
-            "dev-master": {
-                "name": "szepeviktor/wp-cli-database-prefix-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/szepeviktor/wp-cli-database-prefix-command.git",
-                    "reference": "337036bfad4a1b6f7151651ec9f933ac7dc074b1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/szepeviktor/wp-cli-database-prefix-command/zipball/337036bfad4a1b6f7151651ec9f933ac7dc074b1",
-                    "reference": "337036bfad4a1b6f7151651ec9f933ac7dc074b1",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0"
-                },
-                "time": "2016-10-21 00:18:26",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "wp-cli-database-prefix-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Viktor Szépe",
-                        "email": "viktor@szepe.net",
-                        "homepage": "http://www.online1.hu",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Perform operations on prefixed database tables.",
-                "homepage": "https://github.com/szepeviktor/wp-cli-database-prefix-command",
-                "keywords": [
-                    "database",
-                    "prefix",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/szepeviktor/wp-cli-database-prefix-command/tree/master",
-                    "issues": "https://github.com/szepeviktor/wp-cli-database-prefix-command/issues"
                 }
             }
         },
@@ -13369,46 +11543,6 @@
             }
         },
         "wp-cli/restful": {
-            "v0.1.0": {
-                "name": "wp-cli/restful",
-                "version": "v0.1.0",
-                "version_normalized": "0.1.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "fc8e09651c1846ef71f3bf78ef11760ea0c2125b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/fc8e09651c1846ef71f3bf78ef11760ea0c2125b",
-                    "reference": "fc8e09651c1846ef71f3bf78ef11760ea0c2125b",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-02-04 14:47:53",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "wp-rest-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co"
-                    }
-                ],
-                "description": "Unlock the potential of the WP REST API at the command line",
-                "support": {
-                    "source": "https://github.com/danielbachhuber/wp-rest-cli/tree/v0.1.0",
-                    "issues": "https://github.com/danielbachhuber/wp-rest-cli/issues"
-                }
-            },
             "v0.2.0": {
                 "name": "wp-cli/restful",
                 "version": "v0.2.0",
@@ -13429,46 +11563,6 @@
                 },
                 "time": "2016-07-19 14:56:00",
                 "type": "library",
-                "autoload": {
-                    "files": [
-                        "wp-rest-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co"
-                    }
-                ],
-                "description": "Unlock the potential of the WP REST API at the command line.",
-                "support": {
-                    "source": "https://github.com/wp-cli/restful/tree/master",
-                    "issues": "https://github.com/wp-cli/restful/issues"
-                }
-            },
-            "dev-master": {
-                "name": "wp-cli/restful",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "466a9eb8be7fd96d53a3697c286fb7474a34bde0"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/466a9eb8be7fd96d53a3697c286fb7474a34bde0",
-                    "reference": "466a9eb8be7fd96d53a3697c286fb7474a34bde0",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-11-06 14:07:51",
-                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "wp-rest-cli.php"
@@ -13715,6 +11809,56 @@
                 "support": {
                     "source": "https://github.com/wp-cli/server-command/tree/master",
                     "issues": "https://github.com/wp-cli/server-command/issues"
+                }
+            }
+        },
+        "wp-cli/wp-rocket-cli": {
+            "1.0": {
+                "name": "wp-cli/wp-rocket-cli",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/GeekPress/wp-rocket-cli.git",
+                    "reference": "e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/GeekPress/wp-rocket-cli/zipball/e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c",
+                    "reference": "e835fbc7a06fdfcaf6dbd8b04fb3f1998aef952c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-05-23 18:29:43",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-rocket-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jonathan Buttigieg (WP Rocket Team)",
+                        "homepage": "http://wp-rocket.me",
+                        "email": "jonathan@wp-rocket.me",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Add a `wp rocket` command to support the WP Rocket plugin",
+                "homepage": "https://github.com/GeekPress/WP-Rocket-CLI",
+                "keywords": [
+                    "cache",
+                    "rocket",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/GeekPress/wp-rocket-cli/tree/1.0",
+                    "issues": "https://github.com/GeekPress/wp-rocket-cli/issues"
                 }
             }
         },
