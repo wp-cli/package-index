@@ -11302,6 +11302,50 @@
                     "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
                 }
             },
+            "1.7.0": {
+                "name": "shifter/cli",
+                "version": "1.7.0",
+                "version_normalized": "1.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "c32042c86f79891b2c3ebe1b67cb80f27a2e96e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/c32042c86f79891b2c3ebe1b67cb80f27a2e96e5",
+                    "reference": "c32042c86f79891b2c3ebe1b67cb80f27a2e96e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-02-02 09:26:47",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/stable",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
             "dev-master": {
                 "name": "shifter/cli",
                 "version": "dev-master",
