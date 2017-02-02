@@ -13675,18 +13675,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "12366aed935794db481a2db923806723a3d0a56a"
+                    "reference": "499d7d7a640227c51546a9b1a3a752029d797ecf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/12366aed935794db481a2db923806723a3d0a56a",
-                    "reference": "12366aed935794db481a2db923806723a3d0a56a",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/499d7d7a640227c51546a9b1a3a752029d797ecf",
+                    "reference": "499d7d7a640227c51546a9b1a3a752029d797ecf",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-02-02 12:59:54",
+                "time": "2017-02-02 13:42:17",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -13715,55 +13715,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
-                }
-            },
-            "dev-inc-circle-memory": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-inc-circle-memory",
-                "version_normalized": "dev-inc-circle-memory",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "d6f0b10db0f2a9b0782dc201d6abc10bbdc7eb21"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/d6f0b10db0f2a9b0782dc201d6abc10bbdc7eb21",
-                    "reference": "d6f0b10db0f2a9b0782dc201d6abc10bbdc7eb21",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-02-02 13:17:34",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/inc-circle-memory"
                 }
             },
             "dev-render-mustache": {
