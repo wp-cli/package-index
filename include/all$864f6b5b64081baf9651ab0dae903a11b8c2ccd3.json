@@ -8162,19 +8162,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pantheon-systems/wp_launch_check.git",
-                    "reference": "cc3e7f0a0264c960ebaf56994d98c336401d5833"
+                    "reference": "75b73f2fe5761d9c1e5f8d5ff8ffd0e3565337e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/cc3e7f0a0264c960ebaf56994d98c336401d5833",
-                    "reference": "cc3e7f0a0264c960ebaf56994d98c336401d5833",
+                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/75b73f2fe5761d9c1e5f8d5ff8ffd0e3565337e9",
+                    "reference": "75b73f2fe5761d9c1e5f8d5ff8ffd0e3565337e9",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "symfony/finder": "~2.3"
                 },
-                "time": "2017-02-01 23:33:11",
+                "time": "2017-02-03 15:30:33",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
