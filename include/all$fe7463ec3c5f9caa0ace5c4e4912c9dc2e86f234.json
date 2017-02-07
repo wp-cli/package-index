@@ -13793,6 +13793,63 @@
                     "source": "https://github.com/wp-cli/profile-command/tree/master",
                     "issues": "https://github.com/wp-cli/profile-command/issues"
                 }
+            },
+            "dev-reduce-travis-builds": {
+                "name": "wp-cli/profile",
+                "version": "dev-reduce-travis-builds",
+                "version_normalized": "dev-reduce-travis-builds",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/profile-command.git",
+                    "reference": "0e7eb355647bc78c40c2d1a36cad0d78f3c1d8d1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/0e7eb355647bc78c40c2d1a36cad0d78f3c1d8d1",
+                    "reference": "0e7eb355647bc78c40c2d1a36cad0d78f3c1d8d1",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-02-07 21:03:20",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "profile stage",
+                        "profile hook",
+                        "profile eval",
+                        "profile eval-file"
+                    ],
+                    "readme": {
+                        "sections": [
+                            "Overview",
+                            "Using",
+                            "Installing",
+                            "Contributing"
+                        ],
+                        "overview": {
+                            "post": "bin/readme/overview-body.md"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Quickly identify what's slow with WordPress.",
+                "homepage": "https://runcommand.io/wp/profile/",
+                "support": {
+                    "source": "https://github.com/wp-cli/profile-command/tree/reduce-travis-builds",
+                    "issues": "https://github.com/wp-cli/profile-command/issues"
+                }
             }
         },
         "wp-cli/restful": {
