@@ -10576,18 +10576,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/profile-command.git",
-                    "reference": "ead93c62f9f64bef0a2b6cb81e1e3fd78a3a364d"
+                    "reference": "90704d3212234e800c42ea2a7f949d8e4fe96e12"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/ead93c62f9f64bef0a2b6cb81e1e3fd78a3a364d",
-                    "reference": "ead93c62f9f64bef0a2b6cb81e1e3fd78a3a364d",
+                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/90704d3212234e800c42ea2a7f949d8e4fe96e12",
+                    "reference": "90704d3212234e800c42ea2a7f949d8e4fe96e12",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-02-07 16:11:06",
+                "time": "2017-02-07 17:24:20",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -13805,18 +13805,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/doctor-command.git",
-                    "reference": "c3ed24efa438abcaafe69df9afc138f23b333dc6"
+                    "reference": "bc819ddc1772f12a3a918906e3ba53e03b53926a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/c3ed24efa438abcaafe69df9afc138f23b333dc6",
-                    "reference": "c3ed24efa438abcaafe69df9afc138f23b333dc6",
+                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/bc819ddc1772f12a3a918906e3ba53e03b53926a",
+                    "reference": "bc819ddc1772f12a3a918906e3ba53e03b53926a",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-02-07 15:00:37",
+                "time": "2017-02-07 17:19:36",
                 "type": "wp-cli-package",
                 "extra": {
                     "readme": {
@@ -13854,65 +13854,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/wp-cli/doctor-command/tree/master",
-                    "issues": "https://github.com/wp-cli/doctor-command/issues"
-                }
-            },
-            "dev-danielbachhuber-patch-1": {
-                "name": "wp-cli/doctor",
-                "version": "dev-danielbachhuber-patch-1",
-                "version_normalized": "dev-danielbachhuber-patch-1",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/doctor-command.git",
-                    "reference": "c1a8a25f1cd8cc32ec3556a45cb3d2568d9b28b0"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/c1a8a25f1cd8cc32ec3556a45cb3d2568d9b28b0",
-                    "reference": "c1a8a25f1cd8cc32ec3556a45cb3d2568d9b28b0",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-02-07 16:27:09",
-                "type": "wp-cli-package",
-                "extra": {
-                    "readme": {
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Contributing"
-                        ],
-                        "overview": {
-                            "body": "bin/readme/overview-body.md"
-                        }
-                    },
-                    "commands": [
-                        "doctor check",
-                        "doctor list"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Diagnose problems within WordPress by running a series of checks for symptoms.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/wp-cli/doctor-command/tree/danielbachhuber-patch-1",
                     "issues": "https://github.com/wp-cli/doctor-command/issues"
                 }
             }
