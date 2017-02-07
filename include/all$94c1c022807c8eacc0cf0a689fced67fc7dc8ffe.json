@@ -10576,18 +10576,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/profile-command.git",
-                    "reference": "e254d2100b07b171967242b3da37f1b1433200dd"
+                    "reference": "ead93c62f9f64bef0a2b6cb81e1e3fd78a3a364d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/e254d2100b07b171967242b3da37f1b1433200dd",
-                    "reference": "e254d2100b07b171967242b3da37f1b1433200dd",
+                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/ead93c62f9f64bef0a2b6cb81e1e3fd78a3a364d",
+                    "reference": "ead93c62f9f64bef0a2b6cb81e1e3fd78a3a364d",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-02-07 01:07:34",
+                "time": "2017-02-07 16:11:06",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -13856,6 +13856,65 @@
                     "source": "https://github.com/wp-cli/doctor-command/tree/master",
                     "issues": "https://github.com/wp-cli/doctor-command/issues"
                 }
+            },
+            "dev-danielbachhuber-patch-1": {
+                "name": "wp-cli/doctor",
+                "version": "dev-danielbachhuber-patch-1",
+                "version_normalized": "dev-danielbachhuber-patch-1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/doctor-command.git",
+                    "reference": "c1a8a25f1cd8cc32ec3556a45cb3d2568d9b28b0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/c1a8a25f1cd8cc32ec3556a45cb3d2568d9b28b0",
+                    "reference": "c1a8a25f1cd8cc32ec3556a45cb3d2568d9b28b0",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-02-07 16:27:09",
+                "type": "wp-cli-package",
+                "extra": {
+                    "readme": {
+                        "sections": [
+                            "Overview",
+                            "Using",
+                            "Installing",
+                            "Contributing"
+                        ],
+                        "overview": {
+                            "body": "bin/readme/overview-body.md"
+                        }
+                    },
+                    "commands": [
+                        "doctor check",
+                        "doctor list"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Diagnose problems within WordPress by running a series of checks for symptoms.",
+                "homepage": "https://runcommand.io/wp/doctor/",
+                "support": {
+                    "source": "https://github.com/wp-cli/doctor-command/tree/danielbachhuber-patch-1",
+                    "issues": "https://github.com/wp-cli/doctor-command/issues"
+                }
             }
         },
         "wp-cli/restful": {
@@ -14126,6 +14185,55 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
+                }
+            },
+            "dev-75-limit-travis-builds": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-75-limit-travis-builds",
+                "version_normalized": "dev-75-limit-travis-builds",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "b79918be6f2e63d33948e61d55b683fc5cd59597"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/b79918be6f2e63d33948e61d55b683fc5cd59597",
+                    "reference": "b79918be6f2e63d33948e61d55b683fc5cd59597",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-02-07 16:22:55",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/75-limit-travis-builds"
                 }
             },
             "dev-render-mustache": {
