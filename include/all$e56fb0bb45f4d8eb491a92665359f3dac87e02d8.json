@@ -10576,18 +10576,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/profile-command.git",
-                    "reference": "90704d3212234e800c42ea2a7f949d8e4fe96e12"
+                    "reference": "6d66cc68956cb16ed09117f8c8476426004efaef"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/90704d3212234e800c42ea2a7f949d8e4fe96e12",
-                    "reference": "90704d3212234e800c42ea2a7f949d8e4fe96e12",
+                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/6d66cc68956cb16ed09117f8c8476426004efaef",
+                    "reference": "6d66cc68956cb16ed09117f8c8476426004efaef",
                     "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-02-07 17:24:20",
+                "time": "2017-02-07 19:30:13",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
