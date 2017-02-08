@@ -13592,6 +13592,65 @@
                     "source": "https://github.com/wp-cli/doctor-command/tree/master",
                     "issues": "https://github.com/wp-cli/doctor-command/issues"
                 }
+            },
+            "dev-fix-composer-json": {
+                "name": "wp-cli/doctor",
+                "version": "dev-fix-composer-json",
+                "version_normalized": "dev-fix-composer-json",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/doctor-command.git",
+                    "reference": "80d95de6ef02a596a41d1b2b66ee4f5af7f07630"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/80d95de6ef02a596a41d1b2b66ee4f5af7f07630",
+                    "reference": "80d95de6ef02a596a41d1b2b66ee4f5af7f07630",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-02-08 19:47:04",
+                "type": "wp-cli-package",
+                "extra": {
+                    "readme": {
+                        "sections": [
+                            "Overview",
+                            "Using",
+                            "Installing",
+                            "Contributing"
+                        ],
+                        "overview": {
+                            "body": "bin/readme/overview-body.md"
+                        }
+                    },
+                    "commands": [
+                        "doctor check",
+                        "doctor list"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Diagnose problems within WordPress by running a series of checks for symptoms.",
+                "homepage": "https://runcommand.io/wp/doctor/",
+                "support": {
+                    "source": "https://github.com/wp-cli/doctor-command/tree/fix-composer-json",
+                    "issues": "https://github.com/wp-cli/doctor-command/issues"
+                }
             }
         },
         "wp-cli/profile": {
@@ -13791,6 +13850,63 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/wp-cli/profile-command/tree/master",
+                    "issues": "https://github.com/wp-cli/profile-command/issues"
+                }
+            },
+            "dev-fix-composer-json": {
+                "name": "wp-cli/profile",
+                "version": "dev-fix-composer-json",
+                "version_normalized": "dev-fix-composer-json",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/profile-command.git",
+                    "reference": "dfa98d184d707c18c7aa048b78d609614186f707"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/dfa98d184d707c18c7aa048b78d609614186f707",
+                    "reference": "dfa98d184d707c18c7aa048b78d609614186f707",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-02-08 19:48:13",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "profile stage",
+                        "profile hook",
+                        "profile eval",
+                        "profile eval-file"
+                    ],
+                    "readme": {
+                        "sections": [
+                            "Overview",
+                            "Using",
+                            "Installing",
+                            "Contributing"
+                        ],
+                        "overview": {
+                            "post": "bin/readme/overview-body.md"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Quickly identify what's slow with WordPress.",
+                "homepage": "https://runcommand.io/wp/profile/",
+                "support": {
+                    "source": "https://github.com/wp-cli/profile-command/tree/fix-composer-json",
                     "issues": "https://github.com/wp-cli/profile-command/issues"
                 }
             }
