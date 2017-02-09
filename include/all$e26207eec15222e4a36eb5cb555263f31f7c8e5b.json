@@ -9295,18 +9295,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pressbooks/pb-cli.git",
-                    "reference": "63a59e54284a08f32da1ded3c0523d50c07bfbb5"
+                    "reference": "1ca3dd98587d8b4b5cd280fcbc2376cee494619f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/63a59e54284a08f32da1ded3c0523d50c07bfbb5",
-                    "reference": "63a59e54284a08f32da1ded3c0523d50c07bfbb5",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/1ca3dd98587d8b4b5cd280fcbc2376cee494619f",
+                    "reference": "1ca3dd98587d8b4b5cd280fcbc2376cee494619f",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-26 16:30:56",
+                "time": "2017-02-09 15:59:22",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
