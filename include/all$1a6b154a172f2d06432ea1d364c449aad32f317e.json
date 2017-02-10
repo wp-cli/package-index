@@ -6293,6 +6293,55 @@
                 }
             }
         },
+        "ivankruchkoff/wp-hammer": {
+            "dev-master": {
+                "name": "ivankruchkoff/wp-hammer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/10up/wp-hammer.git",
+                    "reference": "f377696b44c1c8e350fe47480ff8f2b4e50af5f8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/10up/wp-hammer/zipball/f377696b44c1c8e350fe47480ff8f2b4e50af5f8",
+                    "reference": "f377696b44c1c8e350fe47480ff8f2b4e50af5f8",
+                    "shasum": ""
+                },
+                "require": {
+                    "heidilabs/markov-php": "dev-master",
+                    "joshtronic/php-loremipsum": "dev-master",
+                    "roderik/pwgen-php": "dev-master"
+                },
+                "time": "2016-11-07 14:16:32",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI\\Hammer\\": "includes/"
+                    },
+                    "files": [
+                        "wp-hammer.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Kruchkoff",
+                        "email": "ivan@kruchkoff.com",
+                        "homepage": "https://github.com/ivankruchkoff"
+                    }
+                ],
+                "description": "WP CLI Hammer Command to remove personally identifiable information and extra content for dev/test/stage purposes",
+                "homepage": "https://github.com/10up/wp-hammer",
+                "support": {
+                    "source": "https://github.com/10up/wp-hammer/tree/master",
+                    "issues": "https://github.com/10up/wp-hammer/issues"
+                }
+            }
+        },
         "jaywood/jw-wpcli-random-posts": {
             "1.1": {
                 "name": "JayWood/jw-wpcli-random-posts",
