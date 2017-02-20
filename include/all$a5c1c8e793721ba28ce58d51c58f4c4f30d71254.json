@@ -11401,6 +11401,50 @@
                     "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
                 }
             },
+            "dev-allow-to-exec-on-staging": {
+                "name": "shifter/cli",
+                "version": "dev-allow-to-exec-on-staging",
+                "version_normalized": "dev-allow-to-exec-on-staging",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/getshifter/wp-cli-shifter.git",
+                    "reference": "65bc8a56165e3be240aa1a4dd3889b937a6764f2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/65bc8a56165e3be240aa1a4dd3889b937a6764f2",
+                    "reference": "65bc8a56165e3be240aa1a4dd3889b937a6764f2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-02-20 03:31:30",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Shifter Team",
+                        "homepage": "https://getshifter.io/"
+                    }
+                ],
+                "description": "WP-CLI commands for the Shifter",
+                "homepage": "https://github.com/getshifter/wp-cli-shifter",
+                "support": {
+                    "source": "https://github.com/getshifter/wp-cli-shifter/tree/allow-to-exec-on-staging",
+                    "issues": "https://github.com/getshifter/wp-cli-shifter/issues"
+                }
+            },
             "dev-stable": {
                 "name": "shifter/cli",
                 "version": "dev-stable",
