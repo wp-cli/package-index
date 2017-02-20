@@ -5583,12 +5583,12 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/frozzare/wp-cli-lint.git",
+                    "url": "https://github.com/wpup/wp-cli-lint.git",
                     "reference": "cb1d807d51d38cd2a5d073606ea5fbdfd62ff2b7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/frozzare/wp-cli-lint/zipball/cb1d807d51d38cd2a5d073606ea5fbdfd62ff2b7",
+                    "url": "https://api.github.com/repos/wpup/wp-cli-lint/zipball/cb1d807d51d38cd2a5d073606ea5fbdfd62ff2b7",
                     "reference": "cb1d807d51d38cd2a5d073606ea5fbdfd62ff2b7",
                     "shasum": ""
                 },
