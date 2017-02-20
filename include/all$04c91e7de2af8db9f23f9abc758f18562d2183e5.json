@@ -5631,12 +5631,12 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/frozzare/wp-cli-media-restore.git",
+                    "url": "https://github.com/wpup/wp-cli-media-restore.git",
                     "reference": "7eed33c3765373908f52063cc9cd20133f81c0b8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/frozzare/wp-cli-media-restore/zipball/7eed33c3765373908f52063cc9cd20133f81c0b8",
+                    "url": "https://api.github.com/repos/wpup/wp-cli-media-restore/zipball/7eed33c3765373908f52063cc9cd20133f81c0b8",
                     "reference": "7eed33c3765373908f52063cc9cd20133f81c0b8",
                     "shasum": ""
                 },
@@ -5678,12 +5678,12 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/frozzare/wp-cli-media-restore.git",
+                    "url": "https://github.com/wpup/wp-cli-media-restore.git",
                     "reference": "5f81ba1c3cb6ad40de9db5a8433a51dd9e1f7143"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/frozzare/wp-cli-media-restore/zipball/5f81ba1c3cb6ad40de9db5a8433a51dd9e1f7143",
+                    "url": "https://api.github.com/repos/wpup/wp-cli-media-restore/zipball/5f81ba1c3cb6ad40de9db5a8433a51dd9e1f7143",
                     "reference": "5f81ba1c3cb6ad40de9db5a8433a51dd9e1f7143",
                     "shasum": ""
                 },
