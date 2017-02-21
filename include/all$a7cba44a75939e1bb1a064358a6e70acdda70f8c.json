@@ -6919,15 +6919,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mattgrshaw/wp-installer.git",
-                    "reference": "fc660b8fa793a9f79aa9b4fc8e254d407a379acc"
+                    "reference": "6cee1c7abfd8dda3aa99efcc5182746afcc74a2c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mattgrshaw/wp-installer/zipball/fc660b8fa793a9f79aa9b4fc8e254d407a379acc",
-                    "reference": "fc660b8fa793a9f79aa9b4fc8e254d407a379acc",
+                    "url": "https://api.github.com/repos/mattgrshaw/wp-installer/zipball/6cee1c7abfd8dda3aa99efcc5182746afcc74a2c",
+                    "reference": "6cee1c7abfd8dda3aa99efcc5182746afcc74a2c",
                     "shasum": ""
                 },
-                "time": "2017-02-21 03:13:50",
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-02-21 05:47:17",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -6948,47 +6951,6 @@
                 "support": {
                     "issues": "https://github.com/mattgrshaw/wp-installer",
                     "source": "https://github.com/mattgrshaw/wp-installer/tree/master"
-                }
-            },
-            "dev-create-functional-tests": {
-                "name": "matt/wp-installer",
-                "version": "dev-create-functional-tests",
-                "version_normalized": "dev-create-functional-tests",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mattgrshaw/wp-installer.git",
-                    "reference": "13db5c8a25ae20b2de630909f9220873e33a9ab1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/mattgrshaw/wp-installer/zipball/13db5c8a25ae20b2de630909f9220873e33a9ab1",
-                    "reference": "13db5c8a25ae20b2de630909f9220873e33a9ab1",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-02-15 00:00:13",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "installer.php"
-                    ]
-                },
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Matt Shaw",
-                        "email": "matt@expandedfronts.com"
-                    }
-                ],
-                "description": "WP Installer CLI Command",
-                "homepage": "https://github.com/mattgrshaw/wp-installer",
-                "support": {
-                    "issues": "https://github.com/mattgrshaw/wp-installer",
-                    "source": "https://github.com/mattgrshaw/wp-installer/tree/create-functional-tests"
                 }
             }
         },
