@@ -14031,18 +14031,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "d4fb8882a8e4a4dc471bbd94c9df7ff161e7dbac"
+                    "reference": "e57b0c992415a7e7172094a53aa6781c81e97462"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/d4fb8882a8e4a4dc471bbd94c9df7ff161e7dbac",
-                    "reference": "d4fb8882a8e4a4dc471bbd94c9df7ff161e7dbac",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/e57b0c992415a7e7172094a53aa6781c81e97462",
+                    "reference": "e57b0c992415a7e7172094a53aa6781c81e97462",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-02-15 22:58:06",
+                "time": "2017-02-21 17:41:48",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -14113,55 +14113,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/render-mustache"
-                }
-            },
-            "dev-require-1-1-0": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-require-1-1-0",
-                "version_normalized": "dev-require-1-1-0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "534a260abdffcb3d053fe381f4bc5686fe1fca05"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/534a260abdffcb3d053fe381f4bc5686fe1fca05",
-                    "reference": "534a260abdffcb3d053fe381f4bc5686fe1fca05",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-02-21 15:03:05",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/require-1-1-0"
                 }
             }
         },
