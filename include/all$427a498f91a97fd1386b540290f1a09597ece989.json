@@ -6919,15 +6919,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mattgrshaw/wp-installer.git",
-                    "reference": "4050d7f1f80578fa0091eca8d158fb08f8627769"
+                    "reference": "fc660b8fa793a9f79aa9b4fc8e254d407a379acc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mattgrshaw/wp-installer/zipball/4050d7f1f80578fa0091eca8d158fb08f8627769",
-                    "reference": "4050d7f1f80578fa0091eca8d158fb08f8627769",
+                    "url": "https://api.github.com/repos/mattgrshaw/wp-installer/zipball/fc660b8fa793a9f79aa9b4fc8e254d407a379acc",
+                    "reference": "fc660b8fa793a9f79aa9b4fc8e254d407a379acc",
                     "shasum": ""
                 },
-                "time": "2017-02-20 16:59:44",
+                "time": "2017-02-21 03:13:50",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
