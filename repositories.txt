@@ -82,6 +82,7 @@ https://github.com/viewone/wp-cli-environment
 https://github.com/welaika/wp-cli-db2utf8
 https://github.com/wp-cli/admin-command
 https://github.com/wp-cli/doctor-command
+https://github.com/wp-cli/find-command
 https://github.com/wp-cli/scaffold-package-command
 https://github.com/wp-cli/profile-command
 https://github.com/wp-cli/server-command
