@@ -13610,12 +13610,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/find-command.git",
-                    "reference": "bb3ac690143948eae8be5d2f687d76c6aa658d22"
+                    "reference": "c960d4dbc1d5f0492f4c7697ea59c2c53e210ee0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/bb3ac690143948eae8be5d2f687d76c6aa658d22",
-                    "reference": "bb3ac690143948eae8be5d2f687d76c6aa658d22",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/c960d4dbc1d5f0492f4c7697ea59c2c53e210ee0",
+                    "reference": "c960d4dbc1d5f0492f4c7697ea59c2c53e210ee0",
                     "shasum": ""
                 },
                 "require": {
@@ -13624,7 +13624,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-02-22 23:29:01",
+                "time": "2017-02-23 14:26:21",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -13966,6 +13966,46 @@
                 "description": "Unlock the potential of the WP REST API at the command line.",
                 "support": {
                     "source": "https://github.com/wp-cli/restful/tree/master",
+                    "issues": "https://github.com/wp-cli/restful/issues"
+                }
+            },
+            "dev-update-wp-4-7": {
+                "name": "wp-cli/restful",
+                "version": "dev-update-wp-4-7",
+                "version_normalized": "dev-update-wp-4-7",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/restful.git",
+                    "reference": "dee2e16b8df137f8129d8e60f761eb3cb34f8e26"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/dee2e16b8df137f8129d8e60f761eb3cb34f8e26",
+                    "reference": "dee2e16b8df137f8129d8e60f761eb3cb34f8e26",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-02-23 14:18:47",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-rest-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "Unlock the potential of the WP REST API at the command line.",
+                "support": {
+                    "source": "https://github.com/wp-cli/restful/tree/update-wp-4-7",
                     "issues": "https://github.com/wp-cli/restful/issues"
                 }
             }
