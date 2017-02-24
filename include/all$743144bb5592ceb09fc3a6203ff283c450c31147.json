@@ -6446,18 +6446,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
-                    "reference": "4bd83c8e3c3381db6ef0e6fbd655e7ea59bf701e"
+                    "reference": "5066abd51f967fb48c15da5400d7df76d25bb645"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/4bd83c8e3c3381db6ef0e6fbd655e7ea59bf701e",
-                    "reference": "4bd83c8e3c3381db6ef0e6fbd655e7ea59bf701e",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/5066abd51f967fb48c15da5400d7df76d25bb645",
+                    "reference": "5066abd51f967fb48c15da5400d7df76d25bb645",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2017-02-24 19:17:20",
+                "time": "2017-02-24 19:58:00",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -6483,7 +6483,7 @@
                     "wp-cli"
                 ],
                 "support": {
-                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/1.2",
+                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/master",
                     "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
                 }
             },
