@@ -11749,8 +11749,8 @@
                 "description": "Manage Databases and Domains for Oderland Hosting Services",
                 "homepage": "https://github.com/sommarnatt/wp-cli-oderland",
                 "support": {
-                    "source": "https://github.com/sommarnatt/wp-cli-oderland/tree/master",
-                    "issues": "https://github.com/sommarnatt/wp-cli-oderland/issues"
+                    "source": "https://github.com/Oderland/wp-cli-oderland/tree/master",
+                    "issues": "https://github.com/Oderland/wp-cli-oderland/issues"
                 }
             }
         },
