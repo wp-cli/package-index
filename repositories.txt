@@ -70,6 +70,7 @@ https://github.com/oderland/wp-cli-oderland
 https://github.com/srtfisher/wp-composer
 https://github.com/stianlik/wp-cli-mig
 https://github.com/szepeviktor/wp-cli-database-prefix-command
+https://github.com/technosailor/prime-caches-wpcli
 https://github.com/tillkruss/wp-cli-kraken
 https://github.com/timhysniu/wp-cli-template
 https://github.com/timhysniu/wp-dbdelta
