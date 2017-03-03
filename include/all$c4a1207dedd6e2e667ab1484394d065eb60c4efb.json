@@ -7883,6 +7883,50 @@
                 }
             }
         },
+        "oderland/wp-cli-oderland": {
+            "dev-master": {
+                "name": "oderland/wp-cli-oderland",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/oderland/wp-cli-oderland.git",
+                    "reference": "09bf5ef77efa06a76011ff425522d5b0f62e6605"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/oderland/wp-cli-oderland/zipball/09bf5ef77efa06a76011ff425522d5b0f62e6605",
+                    "reference": "09bf5ef77efa06a76011ff425522d5b0f62e6605",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.29"
+                },
+                "time": "2017-03-03 14:30:50",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wpclioderland.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Package Maintainer",
+                        "email": "david@oderland.se",
+                        "homepage": "https://www.oderland.se"
+                    }
+                ],
+                "description": "Manage Databases and Domains for Oderland Hosting Services",
+                "homepage": "https://github.com/oderland/wp-cli-oderland",
+                "support": {
+                    "source": "https://github.com/oderland/wp-cli-oderland/tree/master",
+                    "issues": "https://github.com/oderland/wp-cli-oderland/issues"
+                }
+            }
+        },
         "pantheon-systems/wp_launch_check": {
             "v0.6.0": {
                 "name": "pantheon-systems/wp_launch_check",
@@ -11707,50 +11751,6 @@
                 "support": {
                     "source": "https://github.com/sinebridge/wp-cli-about/tree/develop",
                     "issues": "https://github.com/sinebridge/wp-cli-about/issues"
-                }
-            }
-        },
-        "sommarnatt/wp-cli-oderland": {
-            "dev-master": {
-                "name": "sommarnatt/wp-cli-oderland",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/oderland/wp-cli-oderland.git",
-                    "reference": "059e81a4a3eef4cb562844db667cbb27981fa3f9"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/oderland/wp-cli-oderland/zipball/059e81a4a3eef4cb562844db667cbb27981fa3f9",
-                    "reference": "059e81a4a3eef4cb562844db667cbb27981fa3f9",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.29"
-                },
-                "time": "2016-11-22 13:26:42",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "wpclioderland.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Package Maintainer",
-                        "email": "david@oderland.se",
-                        "homepage": "https://www.oderland.se"
-                    }
-                ],
-                "description": "Manage Databases and Domains for Oderland Hosting Services",
-                "homepage": "https://github.com/sommarnatt/wp-cli-oderland",
-                "support": {
-                    "source": "https://github.com/Oderland/wp-cli-oderland/tree/master",
-                    "issues": "https://github.com/Oderland/wp-cli-oderland/issues"
                 }
             }
         },
