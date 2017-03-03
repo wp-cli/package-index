@@ -7925,6 +7925,48 @@
                     "source": "https://github.com/oderland/wp-cli-oderland/tree/master",
                     "issues": "https://github.com/oderland/wp-cli-oderland/issues"
                 }
+            },
+            "dev-new": {
+                "name": "oderland/wp-cli-oderland",
+                "version": "dev-new",
+                "version_normalized": "dev-new",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/oderland/wp-cli-oderland.git",
+                    "reference": "9a4b585c75ccd0a883f7ef9325a9bb0f1f099450"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/oderland/wp-cli-oderland/zipball/9a4b585c75ccd0a883f7ef9325a9bb0f1f099450",
+                    "reference": "9a4b585c75ccd0a883f7ef9325a9bb0f1f099450",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.29"
+                },
+                "time": "2017-03-03 15:48:13",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wpclioderland.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Package Maintainer",
+                        "email": "david@oderland.se",
+                        "homepage": "https://www.oderland.se"
+                    }
+                ],
+                "description": "Manage Databases and Domains for Oderland Hosting Services",
+                "homepage": "https://github.com/oderland/wp-cli-oderland",
+                "support": {
+                    "source": "https://github.com/oderland/wp-cli-oderland/tree/new",
+                    "issues": "https://github.com/oderland/wp-cli-oderland/issues"
+                }
             }
         },
         "pantheon-systems/wp_launch_check": {
