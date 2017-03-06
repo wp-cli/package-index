@@ -43,6 +43,7 @@ https://github.com/michaloo/wp-cli-environmentalize
 https://github.com/mikedance/wp-cli-favorite-plugins
 https://github.com/miya0001/wp-cli-vhosts
 https://github.com/miya0001/wp-plugins-api
+https://github.com/newsuk/nu-wpcli-user-password-reset-link
 https://github.com/Nikschavan/revslider-search-replace
 https://github.com/ocean90/wp-cli-flush-cache
 https://github.com/pantheon-systems/wp_launch_check
