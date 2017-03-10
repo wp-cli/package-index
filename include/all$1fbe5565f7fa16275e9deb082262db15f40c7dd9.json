@@ -13777,18 +13777,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/find-command.git",
-                    "reference": "64db9e33507c9108e82c1af04b81a8d349876650"
+                    "reference": "5b31c880fdb44e5c94ebfd55d5d496b5368e68e1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/64db9e33507c9108e82c1af04b81a8d349876650",
-                    "reference": "64db9e33507c9108e82c1af04b81a8d349876650",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/5b31c880fdb44e5c94ebfd55d5d496b5368e68e1",
+                    "reference": "5b31c880fdb44e5c94ebfd55d5d496b5368e68e1",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-03-10 14:44:13",
+                "time": "2017-03-10 15:30:15",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -13810,49 +13810,6 @@
                 "homepage": "https://github.com/wp-cli/finder-command",
                 "support": {
                     "source": "https://github.com/wp-cli/find-command/tree/master",
-                    "issues": "https://github.com/wp-cli/find-command/issues"
-                }
-            },
-            "dev-quote-paths": {
-                "name": "wp-cli/find-command",
-                "version": "dev-quote-paths",
-                "version_normalized": "dev-quote-paths",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/find-command.git",
-                    "reference": "91b037ff6c48ee10e4d59186691ca961d553a28b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/91b037ff6c48ee10e4d59186691ca961d553a28b",
-                    "reference": "91b037ff6c48ee10e4d59186691ca961d553a28b",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-03-10 14:58:37",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "find"
-                    ]
-                },
-                "autoload": {
-                    "psr-4": {
-                        "": "src/"
-                    },
-                    "files": [
-                        "find-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Find WordPress installs on the filesystem.",
-                "homepage": "https://github.com/wp-cli/finder-command",
-                "support": {
-                    "source": "https://github.com/wp-cli/find-command/tree/quote-paths",
                     "issues": "https://github.com/wp-cli/find-command/issues"
                 }
             }
