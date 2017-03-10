@@ -13812,6 +13812,49 @@
                     "source": "https://github.com/wp-cli/find-command/tree/master",
                     "issues": "https://github.com/wp-cli/find-command/issues"
                 }
+            },
+            "dev-list-aliases": {
+                "name": "wp-cli/find-command",
+                "version": "dev-list-aliases",
+                "version_normalized": "dev-list-aliases",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/find-command.git",
+                    "reference": "79423e4d4ae1e922a465f8a689946d2c8747c8d2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/79423e4d4ae1e922a465f8a689946d2c8747c8d2",
+                    "reference": "79423e4d4ae1e922a465f8a689946d2c8747c8d2",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-03-10 21:38:13",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "find"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "find-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Find WordPress installs on the filesystem.",
+                "homepage": "https://github.com/wp-cli/finder-command",
+                "support": {
+                    "source": "https://github.com/wp-cli/find-command/tree/list-aliases",
+                    "issues": "https://github.com/wp-cli/find-command/issues"
+                }
             }
         },
         "wp-cli/profile-command": {
