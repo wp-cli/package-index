@@ -13777,18 +13777,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/find-command.git",
-                    "reference": "8e5f933a75c4f5f8729454cb900db0558125a8c5"
+                    "reference": "64db9e33507c9108e82c1af04b81a8d349876650"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/8e5f933a75c4f5f8729454cb900db0558125a8c5",
-                    "reference": "8e5f933a75c4f5f8729454cb900db0558125a8c5",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/64db9e33507c9108e82c1af04b81a8d349876650",
+                    "reference": "64db9e33507c9108e82c1af04b81a8d349876650",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-03-10 00:51:34",
+                "time": "2017-03-10 14:44:13",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -13813,25 +13813,25 @@
                     "issues": "https://github.com/wp-cli/find-command/issues"
                 }
             },
-            "dev-23-invalid-directory": {
+            "dev-quote-paths": {
                 "name": "wp-cli/find-command",
-                "version": "dev-23-invalid-directory",
-                "version_normalized": "dev-23-invalid-directory",
+                "version": "dev-quote-paths",
+                "version_normalized": "dev-quote-paths",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/find-command.git",
-                    "reference": "f9228f625983e24b5314d657e1fed37874ed4855"
+                    "reference": "91b037ff6c48ee10e4d59186691ca961d553a28b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/f9228f625983e24b5314d657e1fed37874ed4855",
-                    "reference": "f9228f625983e24b5314d657e1fed37874ed4855",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/91b037ff6c48ee10e4d59186691ca961d553a28b",
+                    "reference": "91b037ff6c48ee10e4d59186691ca961d553a28b",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-03-10 14:06:39",
+                "time": "2017-03-10 14:58:37",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -13852,50 +13852,7 @@
                 "description": "Find WordPress installs on the filesystem.",
                 "homepage": "https://github.com/wp-cli/finder-command",
                 "support": {
-                    "source": "https://github.com/wp-cli/find-command/tree/23-invalid-directory",
-                    "issues": "https://github.com/wp-cli/find-command/issues"
-                }
-            },
-            "dev-ignore-composer-lock": {
-                "name": "wp-cli/find-command",
-                "version": "dev-ignore-composer-lock",
-                "version_normalized": "dev-ignore-composer-lock",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/find-command.git",
-                    "reference": "3b3cc3a06eb66ffade37408e6da6ad4fb09ef3ea"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/3b3cc3a06eb66ffade37408e6da6ad4fb09ef3ea",
-                    "reference": "3b3cc3a06eb66ffade37408e6da6ad4fb09ef3ea",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-03-10 13:55:54",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "find"
-                    ]
-                },
-                "autoload": {
-                    "psr-4": {
-                        "": "src/"
-                    },
-                    "files": [
-                        "find-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Find WordPress installs on the filesystem.",
-                "homepage": "https://github.com/wp-cli/finder-command",
-                "support": {
-                    "source": "https://github.com/wp-cli/find-command/tree/ignore-composer-lock",
+                    "source": "https://github.com/wp-cli/find-command/tree/quote-paths",
                     "issues": "https://github.com/wp-cli/find-command/issues"
                 }
             }
