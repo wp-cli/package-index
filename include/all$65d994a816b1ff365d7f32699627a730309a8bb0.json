@@ -13813,6 +13813,49 @@
                     "issues": "https://github.com/wp-cli/find-command/issues"
                 }
             },
+            "dev-23-invalid-directory": {
+                "name": "wp-cli/find-command",
+                "version": "dev-23-invalid-directory",
+                "version_normalized": "dev-23-invalid-directory",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/find-command.git",
+                    "reference": "f9228f625983e24b5314d657e1fed37874ed4855"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/f9228f625983e24b5314d657e1fed37874ed4855",
+                    "reference": "f9228f625983e24b5314d657e1fed37874ed4855",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-03-10 14:06:39",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "find"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "find-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Find WordPress installs on the filesystem.",
+                "homepage": "https://github.com/wp-cli/finder-command",
+                "support": {
+                    "source": "https://github.com/wp-cli/find-command/tree/23-invalid-directory",
+                    "issues": "https://github.com/wp-cli/find-command/issues"
+                }
+            },
             "dev-ignore-composer-lock": {
                 "name": "wp-cli/find-command",
                 "version": "dev-ignore-composer-lock",
