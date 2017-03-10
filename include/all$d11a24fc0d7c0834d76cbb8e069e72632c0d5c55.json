@@ -13812,6 +13812,49 @@
                     "source": "https://github.com/wp-cli/find-command/tree/master",
                     "issues": "https://github.com/wp-cli/find-command/issues"
                 }
+            },
+            "dev-ignore-composer-lock": {
+                "name": "wp-cli/find-command",
+                "version": "dev-ignore-composer-lock",
+                "version_normalized": "dev-ignore-composer-lock",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/find-command.git",
+                    "reference": "3b3cc3a06eb66ffade37408e6da6ad4fb09ef3ea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/3b3cc3a06eb66ffade37408e6da6ad4fb09ef3ea",
+                    "reference": "3b3cc3a06eb66ffade37408e6da6ad4fb09ef3ea",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-03-10 13:55:54",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "find"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "find-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Find WordPress installs on the filesystem.",
+                "homepage": "https://github.com/wp-cli/finder-command",
+                "support": {
+                    "source": "https://github.com/wp-cli/find-command/tree/ignore-composer-lock",
+                    "issues": "https://github.com/wp-cli/find-command/issues"
+                }
             }
         },
         "wp-cli/profile-command": {
@@ -14243,18 +14286,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "dc42d5f90c6ec64e7dbd01c0bcfa1a022ad75a81"
+                    "reference": "bce0d4bc78321841a80d013ead37ccaac035797f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/dc42d5f90c6ec64e7dbd01c0bcfa1a022ad75a81",
-                    "reference": "dc42d5f90c6ec64e7dbd01c0bcfa1a022ad75a81",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/bce0d4bc78321841a80d013ead37ccaac035797f",
+                    "reference": "bce0d4bc78321841a80d013ead37ccaac035797f",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-02-21 20:55:32",
+                "time": "2017-03-10 13:43:17",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -14283,55 +14326,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
-                }
-            },
-            "dev-27-runcommand": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-27-runcommand",
-                "version_normalized": "dev-27-runcommand",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "d3eacbef438496e94dcabde78cc793eee277b9ca"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/d3eacbef438496e94dcabde78cc793eee277b9ca",
-                    "reference": "d3eacbef438496e94dcabde78cc793eee277b9ca",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-03-08 13:54:08",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/27-runcommand"
                 }
             },
             "dev-render-mustache": {
