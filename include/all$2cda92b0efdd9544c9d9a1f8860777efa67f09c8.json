@@ -13716,18 +13716,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/doctor-command.git",
-                    "reference": "6a908dad8d336bdc2a262137bc5ba2b0b7999d02"
+                    "reference": "5f601b746bbf66db2fd8dab552e501e5ca3bff97"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/6a908dad8d336bdc2a262137bc5ba2b0b7999d02",
-                    "reference": "6a908dad8d336bdc2a262137bc5ba2b0b7999d02",
+                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/5f601b746bbf66db2fd8dab552e501e5ca3bff97",
+                    "reference": "5f601b746bbf66db2fd8dab552e501e5ca3bff97",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-02-08 21:20:00",
+                "time": "2017-03-14 09:58:45",
                 "type": "wp-cli-package",
                 "extra": {
                     "readme": {
@@ -13765,65 +13765,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/wp-cli/doctor-command/tree/master",
-                    "issues": "https://github.com/wp-cli/doctor-command/issues"
-                }
-            },
-            "dev-104-warn-instead-error": {
-                "name": "wp-cli/doctor-command",
-                "version": "dev-104-warn-instead-error",
-                "version_normalized": "dev-104-warn-instead-error",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/doctor-command.git",
-                    "reference": "8a68028b44ec3ca3d665d0cf0ba568803da31123"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/8a68028b44ec3ca3d665d0cf0ba568803da31123",
-                    "reference": "8a68028b44ec3ca3d665d0cf0ba568803da31123",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-03-13 21:04:08",
-                "type": "wp-cli-package",
-                "extra": {
-                    "readme": {
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Contributing"
-                        ],
-                        "overview": {
-                            "body": "bin/readme/overview-body.md"
-                        }
-                    },
-                    "commands": [
-                        "doctor check",
-                        "doctor list"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Diagnose problems within WordPress by running a series of checks for symptoms.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/wp-cli/doctor-command/tree/104-warn-instead-error",
                     "issues": "https://github.com/wp-cli/doctor-command/issues"
                 }
             }
