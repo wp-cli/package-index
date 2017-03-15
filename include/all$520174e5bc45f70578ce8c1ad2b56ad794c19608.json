@@ -12331,6 +12331,55 @@
                     "source": "https://github.com/trendwerk/faker/tree/master",
                     "issues": "https://github.com/trendwerk/faker/issues"
                 }
+            },
+            "dev-12-progress-bar": {
+                "name": "trendwerk/faker",
+                "version": "dev-12-progress-bar",
+                "version_normalized": "dev-12-progress-bar",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/trendwerk/faker.git",
+                    "reference": "141c046ec0e7ba03da45fa30b1d3f69d1355697f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/141c046ec0e7ba03da45fa30b1d3f69d1355697f",
+                    "reference": "141c046ec0e7ba03da45fa30b1d3f69d1355697f",
+                    "shasum": ""
+                },
+                "require": {
+                    "nelmio/alice": "^2.2"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-03-15 12:34:50",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "init.php"
+                    ],
+                    "psr-4": {
+                        "Trendwerk\\Faker\\": "src/"
+                    }
+                },
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Harold Angenent",
+                        "email": "harold@trendwerk.nl",
+                        "homepage": "https://github.com/haroldangenent"
+                    }
+                ],
+                "description": "Fake post data with WP-CLI.",
+                "homepage": "https://github.com/trendwerk/faker",
+                "support": {
+                    "source": "https://github.com/trendwerk/faker/tree/12-progress-bar",
+                    "issues": "https://github.com/trendwerk/faker/issues"
+                }
             }
         },
         "trepmal/blog-extractor": {
