@@ -13905,25 +13905,25 @@
                     "issues": "https://github.com/wp-cli/find-command/issues"
                 }
             },
-            "dev-master": {
+            "v0.1.2": {
                 "name": "wp-cli/find-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v0.1.2",
+                "version_normalized": "0.1.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/find-command.git",
-                    "reference": "9978198a75fb351afef8240cc0f7fce2ddd1b697"
+                    "reference": "da45ef55314e3e267ead5777f8d0fb47b64c7e98"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/9978198a75fb351afef8240cc0f7fce2ddd1b697",
-                    "reference": "9978198a75fb351afef8240cc0f7fce2ddd1b697",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/da45ef55314e3e267ead5777f8d0fb47b64c7e98",
+                    "reference": "da45ef55314e3e267ead5777f8d0fb47b64c7e98",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-03-16 22:24:35",
+                "time": "2017-03-16 22:40:19",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -13944,7 +13944,50 @@
                 "description": "Find WordPress installs on the filesystem.",
                 "homepage": "https://github.com/wp-cli/finder-command",
                 "support": {
-                    "source": "https://github.com/wp-cli/find-command/tree/master",
+                    "source": "https://github.com/wp-cli/find-command/tree/v0.1.2",
+                    "issues": "https://github.com/wp-cli/find-command/issues"
+                }
+            },
+            "dev-master": {
+                "name": "wp-cli/find-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/find-command.git",
+                    "reference": "da45ef55314e3e267ead5777f8d0fb47b64c7e98"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/da45ef55314e3e267ead5777f8d0fb47b64c7e98",
+                    "reference": "da45ef55314e3e267ead5777f8d0fb47b64c7e98",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-03-16 22:40:19",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "find"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "find-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Find WordPress installs on the filesystem.",
+                "homepage": "https://github.com/wp-cli/finder-command",
+                "support": {
+                    "source": "https://github.com/wp-cli/find-command/tree/v0.1.2",
                     "issues": "https://github.com/wp-cli/find-command/issues"
                 }
             }
