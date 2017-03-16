@@ -12339,12 +12339,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/trendwerk/faker.git",
-                    "reference": "7f94ede050819f1df5cba74656634c2a0ee665af"
+                    "reference": "946ba5a7457beae28ea0e5e7ef0ad83525971c23"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/7f94ede050819f1df5cba74656634c2a0ee665af",
-                    "reference": "7f94ede050819f1df5cba74656634c2a0ee665af",
+                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/946ba5a7457beae28ea0e5e7ef0ad83525971c23",
+                    "reference": "946ba5a7457beae28ea0e5e7ef0ad83525971c23",
                     "shasum": ""
                 },
                 "require": {
@@ -12354,7 +12354,7 @@
                     "behat/behat": "~2.5",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2017-03-16 12:36:25",
+                "time": "2017-03-16 13:30:41",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -13912,18 +13912,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/find-command.git",
-                    "reference": "5949e3353694c7d2b668409bc6bc3e46dc3da80d"
+                    "reference": "97b388b70d476ee5ca3838b54e84722fd568ef26"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/5949e3353694c7d2b668409bc6bc3e46dc3da80d",
-                    "reference": "5949e3353694c7d2b668409bc6bc3e46dc3da80d",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/97b388b70d476ee5ca3838b54e84722fd568ef26",
+                    "reference": "97b388b70d476ee5ca3838b54e84722fd568ef26",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-03-15 22:38:38",
+                "time": "2017-03-16 13:25:00",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
