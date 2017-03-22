@@ -6959,6 +6959,49 @@
                 }
             }
         },
+        "matt/wp-installer": {
+            "dev-master": {
+                "name": "matt/wp-installer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mattgrshaw/wp-installer.git",
+                    "reference": "ec869535419b3a9146d1e0bf04ee658a0acea6a4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mattgrshaw/wp-installer/zipball/ec869535419b3a9146d1e0bf04ee658a0acea6a4",
+                    "reference": "ec869535419b3a9146d1e0bf04ee658a0acea6a4",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-02-21 07:43:53",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "installer.php"
+                    ]
+                },
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Matt Shaw",
+                        "email": "matt@expandedfronts.com"
+                    }
+                ],
+                "description": "WP Installer CLI Command",
+                "homepage": "https://github.com/mattgrshaw/wp-installer",
+                "support": {
+                    "issues": "https://github.com/mattgrshaw/wp-installer",
+                    "source": "https://github.com/mattgrshaw/wp-installer/tree/master"
+                }
+            }
+        },
         "mattes/wp-cli-git-command": {
             "v1.0.0": {
                 "name": "mattes/wp-cli-git-command",
@@ -14470,18 +14513,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "028466540ed8cdf6c4fd7d548bc65144635e6cc6"
+                    "reference": "eb00386d16c15ab1b22f63c68821604bcedafbd7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/028466540ed8cdf6c4fd7d548bc65144635e6cc6",
-                    "reference": "028466540ed8cdf6c4fd7d548bc65144635e6cc6",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/eb00386d16c15ab1b22f63c68821604bcedafbd7",
+                    "reference": "eb00386d16c15ab1b22f63c68821604bcedafbd7",
                     "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "^1.0.0"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-03-22 12:23:30",
+                "time": "2017-03-22 12:55:43",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
