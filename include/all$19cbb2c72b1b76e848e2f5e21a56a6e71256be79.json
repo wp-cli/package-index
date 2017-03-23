@@ -14464,18 +14464,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "bce0d4bc78321841a80d013ead37ccaac035797f"
+                    "reference": "3753f9797ac4df430f110ab10f38abf400d5dbf3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/bce0d4bc78321841a80d013ead37ccaac035797f",
-                    "reference": "bce0d4bc78321841a80d013ead37ccaac035797f",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/3753f9797ac4df430f110ab10f38abf400d5dbf3",
+                    "reference": "3753f9797ac4df430f110ab10f38abf400d5dbf3",
                     "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "^1.0.0"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-03-10 13:43:17",
+                "time": "2017-03-23 14:03:40",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -14504,58 +14507,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
-                }
-            },
-            "dev-install-wp-cli-composer": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-install-wp-cli-composer",
-                "version_normalized": "dev-install-wp-cli-composer",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "eb00386d16c15ab1b22f63c68821604bcedafbd7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/eb00386d16c15ab1b22f63c68821604bcedafbd7",
-                    "reference": "eb00386d16c15ab1b22f63c68821604bcedafbd7",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "^1.0.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-03-22 12:55:43",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/install-wp-cli-composer"
                 }
             },
             "dev-render-mustache": {
