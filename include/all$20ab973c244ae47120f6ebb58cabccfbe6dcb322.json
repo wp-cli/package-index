@@ -14509,6 +14509,58 @@
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
                 }
             },
+            "dev-caret-operator": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-caret-operator",
+                "version_normalized": "dev-caret-operator",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "774a8ef4cd7545c70a01ff560e7f19e515ffc73e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/774a8ef4cd7545c70a01ff560e7f19e515ffc73e",
+                    "reference": "774a8ef4cd7545c70a01ff560e7f19e515ffc73e",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "^1.0.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-03-23 19:23:51",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/caret-operator"
+                }
+            },
             "dev-render-mustache": {
                 "name": "wp-cli/scaffold-package-command",
                 "version": "dev-render-mustache",
