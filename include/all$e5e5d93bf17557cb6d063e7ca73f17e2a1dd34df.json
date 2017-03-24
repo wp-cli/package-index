@@ -14558,12 +14558,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "e5b2731992bd36a33ac0f0fabfa2c8e62cb4737b"
+                    "reference": "bf7d72757a70100ee12e85236de6d94e45ded613"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/e5b2731992bd36a33ac0f0fabfa2c8e62cb4737b",
-                    "reference": "e5b2731992bd36a33ac0f0fabfa2c8e62cb4737b",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/bf7d72757a70100ee12e85236de6d94e45ded613",
+                    "reference": "bf7d72757a70100ee12e85236de6d94e45ded613",
                     "shasum": ""
                 },
                 "require": {
@@ -14572,7 +14572,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-03-23 20:05:20",
+                "time": "2017-03-24 12:49:33",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14586,7 +14586,7 @@
                 },
                 "autoload": {
                     "psr-4": {
-                        "WP_CLI\\": "src/WP_CLI"
+                        "WP_CLI\\": "src"
                     },
                     "files": [
                         "scaffold-package-command.php"
@@ -14718,12 +14718,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "4253648a85fd5aef6a5974854f32ee2a1ba2e5c9"
+                    "reference": "a00bf1161d05ed98893221ae1ad1186ae2d847e2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/4253648a85fd5aef6a5974854f32ee2a1ba2e5c9",
-                    "reference": "4253648a85fd5aef6a5974854f32ee2a1ba2e5c9",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/a00bf1161d05ed98893221ae1ad1186ae2d847e2",
+                    "reference": "a00bf1161d05ed98893221ae1ad1186ae2d847e2",
                     "shasum": ""
                 },
                 "require": {
@@ -14732,7 +14732,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-03-23 23:08:23",
+                "time": "2017-03-24 12:40:01",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
