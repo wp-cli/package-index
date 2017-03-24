@@ -9551,18 +9551,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/astorm/wp-static-html-output-plugin.git",
-                    "reference": "91c19d998635ad5b148809e90c834fb763d21314"
+                    "reference": "2c7e2943e06e0a19759d1f92898c1a4f4b813877"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/91c19d998635ad5b148809e90c834fb763d21314",
-                    "reference": "91c19d998635ad5b148809e90c834fb763d21314",
+                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/2c7e2943e06e0a19759d1f92898c1a4f4b813877",
+                    "reference": "2c7e2943e06e0a19759d1f92898c1a4f4b813877",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3"
                 },
-                "time": "2016-10-20 14:56:57",
+                "time": "2017-03-24 18:39:32",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -9599,18 +9599,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/astorm/wp-static-html-output-plugin.git",
-                    "reference": "67fa4609e584374344422f609344f28e40f3abd0"
+                    "reference": "137c6ce6b3858cb081d27fa6d07e4969362c4892"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/67fa4609e584374344422f609344f28e40f3abd0",
-                    "reference": "67fa4609e584374344422f609344f28e40f3abd0",
+                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/137c6ce6b3858cb081d27fa6d07e4969362c4892",
+                    "reference": "137c6ce6b3858cb081d27fa6d07e4969362c4892",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3"
                 },
-                "time": "2016-10-09 00:59:19",
+                "time": "2017-03-24 18:37:27",
                 "type": "command",
                 "autoload": {
                     "files": [
