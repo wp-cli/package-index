@@ -14668,62 +14668,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "f3f59933bf0f74a6200c458d1fa732e84c8bceb5"
+                    "reference": "5192ff940b6c83b11635faef256daf1a5f2922ff"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/f3f59933bf0f74a6200c458d1fa732e84c8bceb5",
-                    "reference": "f3f59933bf0f74a6200c458d1fa732e84c8bceb5",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-03-13 21:48:36",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "server"
-                    ]
-                },
-                "autoload": {
-                    "psr-4": {
-                        "": "src/"
-                    },
-                    "files": [
-                        "server-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Launch PHP's built-in web server for this specific WordPress installation.",
-                "homepage": "https://github.com/wp-cli/server-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/server-command/issues",
-                    "source": "https://github.com/wp-cli/server-command/tree/v1.0.0"
-                }
-            },
-            "dev-composer-tests": {
-                "name": "wp-cli/server-command",
-                "version": "dev-composer-tests",
-                "version_normalized": "dev-composer-tests",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "a00bf1161d05ed98893221ae1ad1186ae2d847e2"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/a00bf1161d05ed98893221ae1ad1186ae2d847e2",
-                    "reference": "a00bf1161d05ed98893221ae1ad1186ae2d847e2",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/5192ff940b6c83b11635faef256daf1a5f2922ff",
+                    "reference": "5192ff940b6c83b11635faef256daf1a5f2922ff",
                     "shasum": ""
                 },
                 "require": {
@@ -14732,7 +14682,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-03-24 12:40:01",
+                "time": "2017-03-24 13:11:29",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14764,7 +14714,7 @@
                 "homepage": "https://github.com/wp-cli/server-command",
                 "support": {
                     "issues": "https://github.com/wp-cli/server-command/issues",
-                    "source": "https://github.com/wp-cli/server-command/tree/composer-tests"
+                    "source": "https://github.com/wp-cli/server-command/tree/master"
                 }
             }
         },
