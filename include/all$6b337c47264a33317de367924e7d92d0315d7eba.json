@@ -2633,6 +2633,49 @@
                     "source": "https://github.com/danielbachhuber/dictator/tree/v0.1",
                     "issues": "https://github.com/danielbachhuber/dictator/issues"
                 }
+            },
+            "dev-master": {
+                "name": "danielbachhuber/dictator",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/dictator.git",
+                    "reference": "5151f24afc9ecad4ff7980ac340e293c2f7d72c7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/5151f24afc9ecad4ff7980ac340e293c2f7d72c7",
+                    "reference": "5151f24afc9ecad4ff7980ac340e293c2f7d72c7",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-20 14:09:27",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "dictator.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "d@danielbachhuber.com",
+                        "homepage": "http://danielbachhuber.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "The Dictator controls the state of WordPress",
+                "homepage": "https://github.com/danielbachhuber/dictator",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/dictator/tree/master",
+                    "issues": "https://github.com/danielbachhuber/dictator/issues"
+                }
             }
         },
         "danielbachhuber/wp-cli-reset-post-date-command": {
