@@ -14716,6 +14716,62 @@
                     "issues": "https://github.com/wp-cli/server-command/issues",
                     "source": "https://github.com/wp-cli/server-command/tree/master"
                 }
+            },
+            "dev-prefer-stable": {
+                "name": "wp-cli/server-command",
+                "version": "dev-prefer-stable",
+                "version_normalized": "dev-prefer-stable",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/server-command.git",
+                    "reference": "297b5b79d453d6017393e666d74fd26b9c56e404"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/297b5b79d453d6017393e666d74fd26b9c56e404",
+                    "reference": "297b5b79d453d6017393e666d74fd26b9c56e404",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "dev-master"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-03-28 17:25:29",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "commands": [
+                        "server"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "server-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Launch PHP's built-in web server for this specific WordPress installation.",
+                "homepage": "https://github.com/wp-cli/server-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/server-command/issues",
+                    "source": "https://github.com/wp-cli/server-command/tree/prefer-stable"
+                }
             }
         },
         "wp-cli/wp-super-cache-cli": {
