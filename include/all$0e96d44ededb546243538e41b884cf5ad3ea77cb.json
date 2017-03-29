@@ -14616,12 +14616,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "a888bab8803b2c960e9f18b7b2d4968b1b0c2844"
+                    "reference": "a78a7774181de2222ee8f8e342f9aed1fb73fe80"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/a888bab8803b2c960e9f18b7b2d4968b1b0c2844",
-                    "reference": "a888bab8803b2c960e9f18b7b2d4968b1b0c2844",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/a78a7774181de2222ee8f8e342f9aed1fb73fe80",
+                    "reference": "a78a7774181de2222ee8f8e342f9aed1fb73fe80",
                     "shasum": ""
                 },
                 "require": {
@@ -14630,7 +14630,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-03-28 18:21:52",
+                "time": "2017-03-29 14:59:15",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
