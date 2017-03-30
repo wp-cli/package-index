@@ -63,6 +63,7 @@ https://github.com/runcommand/media-sideload
 https://github.com/runcommand/media-sizes
 https://github.com/runcommand/query-debug
 https://github.com/runcommand/reset-passwords
+https://github.com/ryanshoover/wpe-cli
 https://github.com/sebastiaandegeus/wp-cli-salts-command
 https://github.com/sinebridge/wp-cli-about
 https://github.com/rxnlabs/wp-composer
