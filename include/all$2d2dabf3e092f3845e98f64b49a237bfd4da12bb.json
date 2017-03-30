@@ -14721,28 +14721,28 @@
                     "source": "https://github.com/wp-cli/server-command/tree/v1.0.2"
                 }
             },
-            "dev-master": {
+            "v1.0.3": {
                 "name": "wp-cli/server-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v1.0.3",
+                "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "64514f9b4e493029565d0ba1524b128926b08402"
+                    "reference": "1e9a7c1067dbb67fc03379d9fdd509291021beb9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/64514f9b4e493029565d0ba1524b128926b08402",
-                    "reference": "64514f9b4e493029565d0ba1524b128926b08402",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/1e9a7c1067dbb67fc03379d9fdd509291021beb9",
+                    "reference": "1e9a7c1067dbb67fc03379d9fdd509291021beb9",
                     "shasum": ""
                 },
                 "require": {
-                    "wp-cli/wp-cli": "dev-master"
+                    "wp-cli/wp-cli": "*"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-03-30 16:26:55",
+                "time": "2017-03-30 18:25:50",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14774,7 +14774,63 @@
                 "homepage": "https://github.com/wp-cli/server-command",
                 "support": {
                     "issues": "https://github.com/wp-cli/server-command/issues",
-                    "source": "https://github.com/wp-cli/server-command/tree/v1.0.2"
+                    "source": "https://github.com/wp-cli/server-command/tree/v1.0.3"
+                }
+            },
+            "dev-master": {
+                "name": "wp-cli/server-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/server-command.git",
+                    "reference": "1e9a7c1067dbb67fc03379d9fdd509291021beb9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/1e9a7c1067dbb67fc03379d9fdd509291021beb9",
+                    "reference": "1e9a7c1067dbb67fc03379d9fdd509291021beb9",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "*"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-03-30 18:25:50",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "commands": [
+                        "server"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "server-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Launch PHP's built-in web server for this specific WordPress installation.",
+                "homepage": "https://github.com/wp-cli/server-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/server-command/issues",
+                    "source": "https://github.com/wp-cli/server-command/tree/v1.0.3"
                 }
             }
         },
