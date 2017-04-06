@@ -13732,21 +13732,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/admin-command.git",
-                    "reference": "baf3dc51cc28a726fab36350235b0a74e574d1e5"
+                    "reference": "a404623226b9cb88963458d716376faab4ecba5b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/admin-command/zipball/baf3dc51cc28a726fab36350235b0a74e574d1e5",
-                    "reference": "baf3dc51cc28a726fab36350235b0a74e574d1e5",
+                    "url": "https://api.github.com/repos/wp-cli/admin-command/zipball/a404623226b9cb88963458d716376faab4ecba5b",
+                    "reference": "a404623226b9cb88963458d716376faab4ecba5b",
                     "shasum": ""
                 },
                 "require": {
-                    "wp-cli/wp-cli": ">=0.23.0"
+                    "wp-cli/wp-cli": "*"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-04-06 06:13:04",
+                "time": "2017-04-06 06:57:27",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -13910,18 +13910,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/doctor-command.git",
-                    "reference": "64df1c93626d618854a9d59c123b1e6d0f4748cd"
+                    "reference": "050ba8db9c483c9c80cbefc33b1774c2f53b644c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/64df1c93626d618854a9d59c123b1e6d0f4748cd",
-                    "reference": "64df1c93626d618854a9d59c123b1e6d0f4748cd",
+                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/050ba8db9c483c9c80cbefc33b1774c2f53b644c",
+                    "reference": "050ba8db9c483c9c80cbefc33b1774c2f53b644c",
                     "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "*"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-04-06 05:53:51",
+                "time": "2017-04-06 06:57:42",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14189,18 +14192,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/find-command.git",
-                    "reference": "cdd19ef54c5d4d49ca885b1a2453c1d00fdc7d8a"
+                    "reference": "d5923e381b4ece5363a6dc82e4b52ca7577cb4b7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/cdd19ef54c5d4d49ca885b1a2453c1d00fdc7d8a",
-                    "reference": "cdd19ef54c5d4d49ca885b1a2453c1d00fdc7d8a",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/d5923e381b4ece5363a6dc82e4b52ca7577cb4b7",
+                    "reference": "d5923e381b4ece5363a6dc82e4b52ca7577cb4b7",
                     "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "*"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-04-06 06:02:50",
+                "time": "2017-04-06 06:50:58",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14436,21 +14442,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/profile-command.git",
-                    "reference": "2bf26d5704c79c3809980404e63d03e6e4ca5b7a"
+                    "reference": "75fffe0d5a3aa2b81a660be6711100916747ee71"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/2bf26d5704c79c3809980404e63d03e6e4ca5b7a",
-                    "reference": "2bf26d5704c79c3809980404e63d03e6e4ca5b7a",
+                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/75fffe0d5a3aa2b81a660be6711100916747ee71",
+                    "reference": "75fffe0d5a3aa2b81a660be6711100916747ee71",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.4"
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": "*"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-04-06 06:09:24",
+                "time": "2017-04-06 06:51:53",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14618,18 +14625,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "b4f5ac2592b5bbf50002a7d1ec8b553910b25e62"
+                    "reference": "57f861654c5c1e9271fc687555e0d6551d094256"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/b4f5ac2592b5bbf50002a7d1ec8b553910b25e62",
-                    "reference": "b4f5ac2592b5bbf50002a7d1ec8b553910b25e62",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/57f861654c5c1e9271fc687555e0d6551d094256",
+                    "reference": "57f861654c5c1e9271fc687555e0d6551d094256",
                     "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "*"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-04-06 06:08:19",
+                "time": "2017-04-06 06:51:21",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -14807,6 +14817,64 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
+                }
+            },
+            "dev-correct-wp-cli-required-version": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-correct-wp-cli-required-version",
+                "version_normalized": "dev-correct-wp-cli-required-version",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "80ddc81dcfc69be7c585c56a881886240a54f1bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/80ddc81dcfc69be7c585c56a881886240a54f1bd",
+                    "reference": "80ddc81dcfc69be7c585c56a881886240a54f1bd",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "*"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-04-06 06:57:59",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI\\": "src"
+                    },
+                    "files": [
+                        "scaffold-package-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/correct-wp-cli-required-version"
                 }
             },
             "dev-render-mustache": {
