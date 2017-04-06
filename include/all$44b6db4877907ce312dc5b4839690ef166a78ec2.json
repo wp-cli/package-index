@@ -14385,69 +14385,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/profile-command.git",
-                    "reference": "64143f2dbb1098bc520a71d3020fdf213de4bdcc"
+                    "reference": "ef44df536bfa2759b4df1b098fa41615681b80a4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/64143f2dbb1098bc520a71d3020fdf213de4bdcc",
-                    "reference": "64143f2dbb1098bc520a71d3020fdf213de4bdcc",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-02-08 21:19:46",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "profile stage",
-                        "profile hook",
-                        "profile eval",
-                        "profile eval-file"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Contributing"
-                        ],
-                        "overview": {
-                            "post": "bin/readme/overview-body.md"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/wp-cli/profile-command/tree/master",
-                    "issues": "https://github.com/wp-cli/profile-command/issues"
-                }
-            },
-            "dev-add-prefer-stable": {
-                "name": "wp-cli/profile-command",
-                "version": "dev-add-prefer-stable",
-                "version_normalized": "dev-add-prefer-stable",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/profile-command.git",
-                    "reference": "75fffe0d5a3aa2b81a660be6711100916747ee71"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/75fffe0d5a3aa2b81a660be6711100916747ee71",
-                    "reference": "75fffe0d5a3aa2b81a660be6711100916747ee71",
+                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/ef44df536bfa2759b4df1b098fa41615681b80a4",
+                    "reference": "ef44df536bfa2759b4df1b098fa41615681b80a4",
                     "shasum": ""
                 },
                 "require": {
@@ -14457,7 +14400,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-04-06 06:51:53",
+                "time": "2017-04-06 12:53:31",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14492,7 +14435,7 @@
                 "description": "Quickly identify what's slow with WordPress.",
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
-                    "source": "https://github.com/wp-cli/profile-command/tree/add-prefer-stable",
+                    "source": "https://github.com/wp-cli/profile-command/tree/master",
                     "issues": "https://github.com/wp-cli/profile-command/issues"
                 }
             }
@@ -15146,12 +15089,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "1e9a7c1067dbb67fc03379d9fdd509291021beb9"
+                    "reference": "a321d734b3c836c31b8a50e478f64069facb634d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/1e9a7c1067dbb67fc03379d9fdd509291021beb9",
-                    "reference": "1e9a7c1067dbb67fc03379d9fdd509291021beb9",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/a321d734b3c836c31b8a50e478f64069facb634d",
+                    "reference": "a321d734b3c836c31b8a50e478f64069facb634d",
                     "shasum": ""
                 },
                 "require": {
@@ -15160,7 +15103,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-03-30 18:25:50",
+                "time": "2017-04-06 12:59:40",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15192,63 +15135,7 @@
                 "homepage": "https://github.com/wp-cli/server-command",
                 "support": {
                     "issues": "https://github.com/wp-cli/server-command/issues",
-                    "source": "https://github.com/wp-cli/server-command/tree/v1.0.3"
-                }
-            },
-            "dev-update-testing-framework": {
-                "name": "wp-cli/server-command",
-                "version": "dev-update-testing-framework",
-                "version_normalized": "dev-update-testing-framework",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "e61848748531454d6ec4c1df9af3e3b461fd940c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/e61848748531454d6ec4c1df9af3e3b461fd940c",
-                    "reference": "e61848748531454d6ec4c1df9af3e3b461fd940c",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "*"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-04-06 09:03:37",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "server"
-                    ]
-                },
-                "autoload": {
-                    "psr-4": {
-                        "": "src/"
-                    },
-                    "files": [
-                        "server-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Launch PHP's built-in web server for this specific WordPress installation.",
-                "homepage": "https://github.com/wp-cli/server-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/server-command/issues",
-                    "source": "https://github.com/wp-cli/server-command/tree/update-testing-framework"
+                    "source": "https://github.com/wp-cli/server-command/tree/master"
                 }
             }
         },
