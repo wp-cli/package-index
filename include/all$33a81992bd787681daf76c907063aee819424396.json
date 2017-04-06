@@ -13724,6 +13724,52 @@
                     "source": "https://github.com/wp-cli/admin-command/tree/master",
                     "issues": "https://github.com/wp-cli/admin-command/issues"
                 }
+            },
+            "dev-add-prefer-stable": {
+                "name": "wp-cli/admin-command",
+                "version": "dev-add-prefer-stable",
+                "version_normalized": "dev-add-prefer-stable",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/admin-command.git",
+                    "reference": "baf3dc51cc28a726fab36350235b0a74e574d1e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/admin-command/zipball/baf3dc51cc28a726fab36350235b0a74e574d1e5",
+                    "reference": "baf3dc51cc28a726fab36350235b0a74e574d1e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-04-06 06:13:04",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "commands": [
+                        "admin"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Open /wp-admin/ in a browser.",
+                "homepage": "https://github.com/wp-cli/admin-command",
+                "support": {
+                    "source": "https://github.com/wp-cli/admin-command/tree/add-prefer-stable",
+                    "issues": "https://github.com/wp-cli/admin-command/issues"
+                }
             }
         },
         "wp-cli/doctor-command": {
@@ -14135,6 +14181,52 @@
                     "source": "https://github.com/wp-cli/find-command/tree/v0.1.3",
                     "issues": "https://github.com/wp-cli/find-command/issues"
                 }
+            },
+            "dev-add-prefer-stable": {
+                "name": "wp-cli/find-command",
+                "version": "dev-add-prefer-stable",
+                "version_normalized": "dev-add-prefer-stable",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/find-command.git",
+                    "reference": "cdd19ef54c5d4d49ca885b1a2453c1d00fdc7d8a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/cdd19ef54c5d4d49ca885b1a2453c1d00fdc7d8a",
+                    "reference": "cdd19ef54c5d4d49ca885b1a2453c1d00fdc7d8a",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-04-06 06:02:50",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "commands": [
+                        "find"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "find-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Find WordPress installs on the filesystem.",
+                "homepage": "https://github.com/wp-cli/finder-command",
+                "support": {
+                    "source": "https://github.com/wp-cli/find-command/tree/add-prefer-stable",
+                    "issues": "https://github.com/wp-cli/find-command/issues"
+                }
             }
         },
         "wp-cli/profile-command": {
@@ -14336,6 +14428,66 @@
                     "source": "https://github.com/wp-cli/profile-command/tree/master",
                     "issues": "https://github.com/wp-cli/profile-command/issues"
                 }
+            },
+            "dev-add-prefer-stable": {
+                "name": "wp-cli/profile-command",
+                "version": "dev-add-prefer-stable",
+                "version_normalized": "dev-add-prefer-stable",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/profile-command.git",
+                    "reference": "2bf26d5704c79c3809980404e63d03e6e4ca5b7a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/2bf26d5704c79c3809980404e63d03e6e4ca5b7a",
+                    "reference": "2bf26d5704c79c3809980404e63d03e6e4ca5b7a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-04-06 06:09:24",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "commands": [
+                        "profile stage",
+                        "profile hook",
+                        "profile eval",
+                        "profile eval-file"
+                    ],
+                    "readme": {
+                        "sections": [
+                            "Overview",
+                            "Using",
+                            "Installing",
+                            "Contributing"
+                        ],
+                        "overview": {
+                            "post": "bin/readme/overview-body.md"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Quickly identify what's slow with WordPress.",
+                "homepage": "https://runcommand.io/wp/profile/",
+                "support": {
+                    "source": "https://github.com/wp-cli/profile-command/tree/add-prefer-stable",
+                    "issues": "https://github.com/wp-cli/profile-command/issues"
+                }
             }
         },
         "wp-cli/restful": {
@@ -14456,6 +14608,46 @@
                 "description": "Unlock the potential of the WP REST API at the command line.",
                 "support": {
                     "source": "https://github.com/wp-cli/restful/tree/master",
+                    "issues": "https://github.com/wp-cli/restful/issues"
+                }
+            },
+            "dev-add-prefer-stable": {
+                "name": "wp-cli/restful",
+                "version": "dev-add-prefer-stable",
+                "version_normalized": "dev-add-prefer-stable",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/restful.git",
+                    "reference": "b4f5ac2592b5bbf50002a7d1ec8b553910b25e62"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/b4f5ac2592b5bbf50002a7d1ec8b553910b25e62",
+                    "reference": "b4f5ac2592b5bbf50002a7d1ec8b553910b25e62",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-04-06 06:08:19",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-rest-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "Unlock the potential of the WP REST API at the command line.",
+                "support": {
+                    "source": "https://github.com/wp-cli/restful/tree/add-prefer-stable",
                     "issues": "https://github.com/wp-cli/restful/issues"
                 }
             }
