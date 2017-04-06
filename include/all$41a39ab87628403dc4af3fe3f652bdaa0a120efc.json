@@ -13732,12 +13732,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/admin-command.git",
-                    "reference": "a404623226b9cb88963458d716376faab4ecba5b"
+                    "reference": "a95589ca86fce32d8f4aa49c349bffb02d536ab3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/admin-command/zipball/a404623226b9cb88963458d716376faab4ecba5b",
-                    "reference": "a404623226b9cb88963458d716376faab4ecba5b",
+                    "url": "https://api.github.com/repos/wp-cli/admin-command/zipball/a95589ca86fce32d8f4aa49c349bffb02d536ab3",
+                    "reference": "a95589ca86fce32d8f4aa49c349bffb02d536ab3",
                     "shasum": ""
                 },
                 "require": {
@@ -13746,7 +13746,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-04-06 06:57:27",
+                "time": "2017-04-06 08:00:40",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
