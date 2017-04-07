@@ -12470,12 +12470,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/trepmal/wp-revisions-cli.git",
-                    "reference": "934e7dac9d68da9db4c6200e8f9ed7ce54bc1c2d"
+                    "reference": "3438db050f964378b07597eb38f2f3ad0a3c511a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/trepmal/wp-revisions-cli/zipball/934e7dac9d68da9db4c6200e8f9ed7ce54bc1c2d",
-                    "reference": "934e7dac9d68da9db4c6200e8f9ed7ce54bc1c2d",
+                    "url": "https://api.github.com/repos/trepmal/wp-revisions-cli/zipball/3438db050f964378b07597eb38f2f3ad0a3c511a",
+                    "reference": "3438db050f964378b07597eb38f2f3ad0a3c511a",
                     "shasum": ""
                 },
                 "require": {
@@ -12484,7 +12484,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-04-07 01:29:42",
+                "time": "2017-04-07 02:41:46",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
