@@ -8,6 +8,7 @@ https://github.com/adrigen/wp-cli-piwik
 https://github.com/alessandrotesoro/wp-cli-helpscout-docs-parser
 https://github.com/alessandrotesoro/wp-usergen-cli
 https://github.com/alleyinteractive/wp-doc-command
+https://github.com/artem328/wp-cli-maintenance-command
 https://github.com/astorm/wp-static-html-output-plugin
 https://github.com/BeAPI/wp-cli-light-db-export
 https://github.com/billerickson/wp-cli-plugin-install-missing
