@@ -2164,18 +2164,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/boonebgorges/wp-cli-buddypress.git",
-                    "reference": "52c2cf9b5b9342db034eaf5e015a5c8a4908cf83"
+                    "reference": "30d912f5fb72342a5351f86151a358e4e185c465"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-buddypress/zipball/52c2cf9b5b9342db034eaf5e015a5c8a4908cf83",
-                    "reference": "52c2cf9b5b9342db034eaf5e015a5c8a4908cf83",
+                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-buddypress/zipball/30d912f5fb72342a5351f86151a358e4e185c465",
+                    "reference": "30d912f5fb72342a5351f86151a358e4e185c465",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3"
                 },
-                "time": "2016-07-20 20:15:08",
+                "time": "2017-04-12 16:13:19",
                 "type": "command",
                 "autoload": {
                     "files": [
@@ -2212,18 +2212,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/boonebgorges/wp-cli-buddypress.git",
-                    "reference": "a7d57ae0311ec0ada309a38c1723171bfb62b2fb"
+                    "reference": "59c77cbae29c977864ce7c9fa1834565e03cbed7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-buddypress/zipball/a7d57ae0311ec0ada309a38c1723171bfb62b2fb",
-                    "reference": "a7d57ae0311ec0ada309a38c1723171bfb62b2fb",
+                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-buddypress/zipball/59c77cbae29c977864ce7c9fa1834565e03cbed7",
+                    "reference": "59c77cbae29c977864ce7c9fa1834565e03cbed7",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3"
                 },
-                "time": "2016-10-20 19:32:52",
+                "time": "2017-04-12 16:14:57",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
