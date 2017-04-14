@@ -14526,12 +14526,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "8cdca38c30b81b268f828513e6e4c78d1b700e10"
+                    "reference": "9451724667a9a3099acefe7cf3fc822f71e40add"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/8cdca38c30b81b268f828513e6e4c78d1b700e10",
-                    "reference": "8cdca38c30b81b268f828513e6e4c78d1b700e10",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/9451724667a9a3099acefe7cf3fc822f71e40add",
+                    "reference": "9451724667a9a3099acefe7cf3fc822f71e40add",
                     "shasum": ""
                 },
                 "require": {
@@ -14540,7 +14540,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-04-06 13:09:43",
+                "time": "2017-04-14 14:32:04",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14575,64 +14575,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
-                }
-            },
-            "dev-mention-behat-dl": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-mention-behat-dl",
-                "version_normalized": "dev-mention-behat-dl",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "4929dd1ef729f830f0e1abddcd2b55d028bb3d42"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/4929dd1ef729f830f0e1abddcd2b55d028bb3d42",
-                    "reference": "4929dd1ef729f830f0e1abddcd2b55d028bb3d42",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "*"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-04-11 20:49:57",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme"
-                    ]
-                },
-                "autoload": {
-                    "psr-4": {
-                        "WP_CLI\\": "src"
-                    },
-                    "files": [
-                        "scaffold-package-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/mention-behat-dl"
                 }
             },
             "dev-render-mustache": {
