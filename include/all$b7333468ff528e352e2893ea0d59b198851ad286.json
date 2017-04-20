@@ -10647,15 +10647,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/precache.git",
-                    "reference": "517b32c483ff06d7c8901e8ef29d197626682e34"
+                    "reference": "84093d00a81448f6b8e15be49b87113c1f3cd633"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/517b32c483ff06d7c8901e8ef29d197626682e34",
-                    "reference": "517b32c483ff06d7c8901e8ef29d197626682e34",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/84093d00a81448f6b8e15be49b87113c1f3cd633",
+                    "reference": "84093d00a81448f6b8e15be49b87113c1f3cd633",
                     "shasum": ""
                 },
-                "time": "2016-11-01 18:23:48",
+                "time": "2017-04-20 12:44:13",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -10697,7 +10697,8 @@
                 "description": "Proactively download and cache core, theme, and plugin files for later installation.",
                 "homepage": "https://runcommand.io/wp/precache/",
                 "support": {
-                    "source": "https://github.com/runcommand/precache/tree/master"
+                    "source": "https://github.com/runcommand/precache/tree/master",
+                    "issues": "https://github.com/runcommand/precache/issues"
                 }
             }
         },
