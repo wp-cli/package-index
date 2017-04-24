@@ -11793,12 +11793,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/getshifter/wp-cli-shifter.git",
-                    "reference": "33b4c2ced3c3e3dcd67597c0f073c76b82678490"
+                    "reference": "eb29c41482938b05762db7a20c4fcb9ce9a65baa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/33b4c2ced3c3e3dcd67597c0f073c76b82678490",
-                    "reference": "33b4c2ced3c3e3dcd67597c0f073c76b82678490",
+                    "url": "https://api.github.com/repos/getshifter/wp-cli-shifter/zipball/eb29c41482938b05762db7a20c4fcb9ce9a65baa",
+                    "reference": "eb29c41482938b05762db7a20c4fcb9ce9a65baa",
                     "shasum": ""
                 },
                 "require": {
@@ -11808,7 +11808,7 @@
                     "behat/behat": "~2.5",
                     "phpunit/phpunit": "5.6"
                 },
-                "time": "2017-04-24 02:29:52",
+                "time": "2017-04-24 02:56:07",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
