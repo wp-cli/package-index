@@ -8017,18 +8017,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/oderland/wp-cli-oderland.git",
-                    "reference": "09bf5ef77efa06a76011ff425522d5b0f62e6605"
+                    "reference": "6b0d5789206da3c7cf89fe235977be2eacd7b6d2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/oderland/wp-cli-oderland/zipball/09bf5ef77efa06a76011ff425522d5b0f62e6605",
-                    "reference": "09bf5ef77efa06a76011ff425522d5b0f62e6605",
+                    "url": "https://api.github.com/repos/oderland/wp-cli-oderland/zipball/6b0d5789206da3c7cf89fe235977be2eacd7b6d2",
+                    "reference": "6b0d5789206da3c7cf89fe235977be2eacd7b6d2",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.29"
                 },
-                "time": "2017-03-03 14:30:50",
+                "time": "2017-03-20 14:18:11",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
