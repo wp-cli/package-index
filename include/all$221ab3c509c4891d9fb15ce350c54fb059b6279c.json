@@ -922,12 +922,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
-                    "reference": "51795e5123a0691ad90ca67aee4624a36b413e12"
+                    "reference": "e556b96dd8216a2ccf3f8625fc0015124354bee6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/51795e5123a0691ad90ca67aee4624a36b413e12",
-                    "reference": "51795e5123a0691ad90ca67aee4624a36b413e12",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/e556b96dd8216a2ccf3f8625fc0015124354bee6",
+                    "reference": "e556b96dd8216a2ccf3f8625fc0015124354bee6",
                     "shasum": ""
                 },
                 "require": {
@@ -941,7 +941,7 @@
                     "phpunit/phpunit": "^4.8",
                     "wp-cli/wp-cli": "^1.0"
                 },
-                "time": "2017-04-29 18:12:55",
+                "time": "2017-04-29 18:40:41",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -974,7 +974,7 @@
                 "description": "Log in to WordPress with secure passwordless magic links.",
                 "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command",
                 "support": {
-                    "source": "https://github.com/aaemnnosttv/wp-cli-login-command/tree/v1.3.0",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-login-command/tree/master",
                     "issues": "https://github.com/aaemnnosttv/wp-cli-login-command/issues"
                 }
             },
