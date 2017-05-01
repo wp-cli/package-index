@@ -12598,12 +12598,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/trendwerk/faker.git",
-                    "reference": "c72b81777bcb9d5c00e727106659226255812468"
+                    "reference": "e823ebb29df3f36ab6eb7a1f6766a303d93971c1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/c72b81777bcb9d5c00e727106659226255812468",
-                    "reference": "c72b81777bcb9d5c00e727106659226255812468",
+                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/e823ebb29df3f36ab6eb7a1f6766a303d93971c1",
+                    "reference": "e823ebb29df3f36ab6eb7a1f6766a303d93971c1",
                     "shasum": ""
                 },
                 "require": {
@@ -12613,7 +12613,7 @@
                     "behat/behat": "~2.5",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2017-03-16 14:10:07",
+                "time": "2017-05-01 11:19:29",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
