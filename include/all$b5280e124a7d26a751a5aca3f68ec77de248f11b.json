@@ -12542,6 +12542,55 @@
                     "issues": "https://github.com/trendwerk/faker/issues"
                 }
             },
+            "0.1.1": {
+                "name": "trendwerk/faker",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/trendwerk/faker.git",
+                    "reference": "ec5643a9f7f8aaf2b0b7e172efaa36dfd8706bc8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/ec5643a9f7f8aaf2b0b7e172efaa36dfd8706bc8",
+                    "reference": "ec5643a9f7f8aaf2b0b7e172efaa36dfd8706bc8",
+                    "shasum": ""
+                },
+                "require": {
+                    "nelmio/alice": "^2.2"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-05-01 11:48:19",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "init.php"
+                    ],
+                    "psr-4": {
+                        "Trendwerk\\Faker\\": "src/"
+                    }
+                },
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Harold Angenent",
+                        "email": "harold@trendwerk.nl",
+                        "homepage": "https://github.com/haroldangenent"
+                    }
+                ],
+                "description": "Fake post data with WP-CLI.",
+                "homepage": "https://github.com/trendwerk/faker",
+                "support": {
+                    "source": "https://github.com/trendwerk/faker/tree/0.1.1",
+                    "issues": "https://github.com/trendwerk/faker/issues"
+                }
+            },
             "dev-master": {
                 "name": "trendwerk/faker",
                 "version": "dev-master",
@@ -12549,12 +12598,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/trendwerk/faker.git",
-                    "reference": "794eb5ed8a578a2cc88dcf7a60943ca91312e2c1"
+                    "reference": "ec5643a9f7f8aaf2b0b7e172efaa36dfd8706bc8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/794eb5ed8a578a2cc88dcf7a60943ca91312e2c1",
-                    "reference": "794eb5ed8a578a2cc88dcf7a60943ca91312e2c1",
+                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/ec5643a9f7f8aaf2b0b7e172efaa36dfd8706bc8",
+                    "reference": "ec5643a9f7f8aaf2b0b7e172efaa36dfd8706bc8",
                     "shasum": ""
                 },
                 "require": {
@@ -12564,7 +12613,7 @@
                     "behat/behat": "~2.5",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2017-03-15 15:29:03",
+                "time": "2017-05-01 11:48:19",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -12587,56 +12636,7 @@
                 "description": "Fake post data with WP-CLI.",
                 "homepage": "https://github.com/trendwerk/faker",
                 "support": {
-                    "source": "https://github.com/trendwerk/faker/tree/master",
-                    "issues": "https://github.com/trendwerk/faker/issues"
-                }
-            },
-            "dev-1-delete-data": {
-                "name": "trendwerk/faker",
-                "version": "dev-1-delete-data",
-                "version_normalized": "dev-1-delete-data",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/trendwerk/faker.git",
-                    "reference": "e823ebb29df3f36ab6eb7a1f6766a303d93971c1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/trendwerk/faker/zipball/e823ebb29df3f36ab6eb7a1f6766a303d93971c1",
-                    "reference": "e823ebb29df3f36ab6eb7a1f6766a303d93971c1",
-                    "shasum": ""
-                },
-                "require": {
-                    "nelmio/alice": "^2.2"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "squizlabs/php_codesniffer": "2.*"
-                },
-                "time": "2017-05-01 11:19:29",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "init.php"
-                    ],
-                    "psr-4": {
-                        "Trendwerk\\Faker\\": "src/"
-                    }
-                },
-                "license": [
-                    "GPL-3.0+"
-                ],
-                "authors": [
-                    {
-                        "name": "Harold Angenent",
-                        "email": "harold@trendwerk.nl",
-                        "homepage": "https://github.com/haroldangenent"
-                    }
-                ],
-                "description": "Fake post data with WP-CLI.",
-                "homepage": "https://github.com/trendwerk/faker",
-                "support": {
-                    "source": "https://github.com/trendwerk/faker/tree/1-delete-data",
+                    "source": "https://github.com/trendwerk/faker/tree/0.1.1",
                     "issues": "https://github.com/trendwerk/faker/issues"
                 }
             }
