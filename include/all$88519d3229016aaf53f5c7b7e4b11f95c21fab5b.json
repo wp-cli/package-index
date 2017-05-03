@@ -10185,111 +10185,6 @@
                 }
             }
         },
-        "runcommand/dist-archive": {
-            "v0.1.0": {
-                "name": "runcommand/dist-archive",
-                "version": "v0.1.0",
-                "version_normalized": "0.1.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/dist-archive-command.git",
-                    "reference": "0401b15354c69ed7aa5e59f5639b5f6c17b9bdad"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/0401b15354c69ed7aa5e59f5639b5f6c17b9bdad",
-                    "reference": "0401b15354c69ed7aa5e59f5639b5f6c17b9bdad",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-09-07 23:25:46",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
-                "homepage": "https://runcommand.io/wp/dist-archive/",
-                "support": {
-                    "source": "https://github.com/runcommand/dist-archive/tree/v0.1.0",
-                    "issues": "https://github.com/runcommand/dist-archive/issues"
-                }
-            },
-            "dev-master": {
-                "name": "runcommand/dist-archive",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/dist-archive-command.git",
-                    "reference": "85454c7b036a2db3ae6006ee4f7a25aedd96ee0b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/85454c7b036a2db3ae6006ee4f7a25aedd96ee0b",
-                    "reference": "85454c7b036a2db3ae6006ee4f7a25aedd96ee0b",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-11-09 20:10:36",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "dist-archive"
-                    ],
-                    "readme": {
-                        "shields": [
-                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
-                            "[![CircleCI](https://circleci.com/gh/runcommand/dist-archive/tree/master.svg?style=svg)](https://circleci.com/gh/runcommand/dist-archive/tree/master)"
-                        ],
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
-                "homepage": "https://runcommand.io/wp/dist-archive/",
-                "support": {
-                    "source": "https://github.com/runcommand/dist-archive/tree/master"
-                }
-            }
-        },
         "runcommand/find-unused-themes": {
             "dev-master": {
                 "name": "runcommand/find-unused-themes",
@@ -13945,6 +13840,159 @@
                 "support": {
                     "source": "https://github.com/wp-cli/admin-command/tree/master",
                     "issues": "https://github.com/wp-cli/admin-command/issues"
+                }
+            }
+        },
+        "wp-cli/dist-archive-command": {
+            "v0.1.0": {
+                "name": "wp-cli/dist-archive-command",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/dist-archive-command.git",
+                    "reference": "0401b15354c69ed7aa5e59f5639b5f6c17b9bdad"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/0401b15354c69ed7aa5e59f5639b5f6c17b9bdad",
+                    "reference": "0401b15354c69ed7aa5e59f5639b5f6c17b9bdad",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-07 23:25:46",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
+                "homepage": "https://runcommand.io/wp/dist-archive/",
+                "support": {
+                    "source": "https://github.com/runcommand/dist-archive/tree/v0.1.0",
+                    "issues": "https://github.com/runcommand/dist-archive/issues"
+                }
+            },
+            "dev-master": {
+                "name": "wp-cli/dist-archive-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/dist-archive-command.git",
+                    "reference": "28fe7526191b7095e1033add708a6bf1834c058f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/28fe7526191b7095e1033add708a6bf1834c058f",
+                    "reference": "28fe7526191b7095e1033add708a6bf1834c058f",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-05-03 14:33:38",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "dist-archive"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![CircleCI](https://circleci.com/gh/runcommand/dist-archive/tree/master.svg?style=svg)](https://circleci.com/gh/runcommand/dist-archive/tree/master)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
+                "homepage": "https://runcommand.io/wp/dist-archive/",
+                "support": {
+                    "source": "https://github.com/wp-cli/dist-archive-command/tree/master",
+                    "issues": "https://github.com/wp-cli/dist-archive-command/issues"
+                }
+            },
+            "dev-update-tests-readme": {
+                "name": "wp-cli/dist-archive-command",
+                "version": "dev-update-tests-readme",
+                "version_normalized": "dev-update-tests-readme",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/dist-archive-command.git",
+                    "reference": "80c2d944bf22db9b88c28633ed4491d5228a5b61"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/80c2d944bf22db9b88c28633ed4491d5228a5b61",
+                    "reference": "80c2d944bf22db9b88c28633ed4491d5228a5b61",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-05-03 14:57:55",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "dist-archive"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "dist-archive-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
+                "homepage": "https://runcommand.io/wp/dist-archive/",
+                "support": {
+                    "source": "https://github.com/wp-cli/dist-archive-command/tree/update-tests-readme",
+                    "issues": "https://github.com/wp-cli/dist-archive-command/issues"
                 }
             }
         },
