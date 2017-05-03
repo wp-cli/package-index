@@ -10192,12 +10192,12 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/runcommand/dist-archive.git",
+                    "url": "https://github.com/wp-cli/dist-archive-command.git",
                     "reference": "0401b15354c69ed7aa5e59f5639b5f6c17b9bdad"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/0401b15354c69ed7aa5e59f5639b5f6c17b9bdad",
+                    "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/0401b15354c69ed7aa5e59f5639b5f6c17b9bdad",
                     "reference": "0401b15354c69ed7aa5e59f5639b5f6c17b9bdad",
                     "shasum": ""
                 },
@@ -10234,12 +10234,12 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/runcommand/dist-archive.git",
+                    "url": "https://github.com/wp-cli/dist-archive-command.git",
                     "reference": "85454c7b036a2db3ae6006ee4f7a25aedd96ee0b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/dist-archive/zipball/85454c7b036a2db3ae6006ee4f7a25aedd96ee0b",
+                    "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/85454c7b036a2db3ae6006ee4f7a25aedd96ee0b",
                     "reference": "85454c7b036a2db3ae6006ee4f7a25aedd96ee0b",
                     "shasum": ""
                 },
