@@ -13893,18 +13893,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/dist-archive-command.git",
-                    "reference": "bf561e59d0b83e16c635d0306a4fc9d3aa1496c8"
+                    "reference": "307431c92ea34cdd3748c11494a19a3246e38d2b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/bf561e59d0b83e16c635d0306a4fc9d3aa1496c8",
-                    "reference": "bf561e59d0b83e16c635d0306a4fc9d3aa1496c8",
+                    "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/307431c92ea34cdd3748c11494a19a3246e38d2b",
+                    "reference": "307431c92ea34cdd3748c11494a19a3246e38d2b",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-05-03 15:12:08",
+                "time": "2017-05-03 19:24:15",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -13912,6 +13912,9 @@
                     ]
                 },
                 "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
                     "files": [
                         "dist-archive-command.php"
                     ]
