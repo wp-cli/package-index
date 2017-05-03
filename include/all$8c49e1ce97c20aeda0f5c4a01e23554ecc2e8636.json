@@ -13935,6 +13935,56 @@
                     "source": "https://github.com/wp-cli/dist-archive-command/tree/master",
                     "issues": "https://github.com/wp-cli/dist-archive-command/issues"
                 }
+            },
+            "dev-ignore-ds-store": {
+                "name": "wp-cli/dist-archive-command",
+                "version": "dev-ignore-ds-store",
+                "version_normalized": "dev-ignore-ds-store",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/dist-archive-command.git",
+                    "reference": "29cb9caddfc5ff1d4b25376724b3181b0a20ee59"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/29cb9caddfc5ff1d4b25376724b3181b0a20ee59",
+                    "reference": "29cb9caddfc5ff1d4b25376724b3181b0a20ee59",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-05-03 19:48:51",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "dist-archive"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "dist-archive-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
+                "homepage": "https://runcommand.io/wp/dist-archive/",
+                "support": {
+                    "source": "https://github.com/wp-cli/dist-archive-command/tree/ignore-ds-store",
+                    "issues": "https://github.com/wp-cli/dist-archive-command/issues"
+                }
             }
         },
         "wp-cli/doctor-command": {
