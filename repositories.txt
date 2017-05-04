@@ -34,6 +34,7 @@ https://github.com/iandunn/wp-cli-rename-db-prefix
 https://github.com/iandunn/wp-cli-plugin-active-on-sites
 https://github.com/itspriddle/wp-cli-tgmpa-plugin
 https://github.com/JayWood/jw-wpcli-random-posts
+https://github.com/keesiemeijer/wp-parser-validate
 https://github.com/lucatume/wpcli-wpbrowser-tests
 https://github.com/markri/wp-sec
 https://github.com/mattclegg/wp-cli_check-content
