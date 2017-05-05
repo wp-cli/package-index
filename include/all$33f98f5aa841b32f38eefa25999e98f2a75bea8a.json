@@ -14016,12 +14016,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/doctor-command.git",
-                    "reference": "b957ea88fae872f23f30b3b085853582e7535d1e"
+                    "reference": "23c4ade828d2a0f06c296cc6f90042542a2dd13a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/b957ea88fae872f23f30b3b085853582e7535d1e",
-                    "reference": "b957ea88fae872f23f30b3b085853582e7535d1e",
+                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/23c4ade828d2a0f06c296cc6f90042542a2dd13a",
+                    "reference": "23c4ade828d2a0f06c296cc6f90042542a2dd13a",
                     "shasum": ""
                 },
                 "require": {
@@ -14030,7 +14030,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-05-02 16:33:25",
+                "time": "2017-05-05 17:13:11",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14071,71 +14071,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/wp-cli/doctor-command/tree/master",
-                    "issues": "https://github.com/wp-cli/doctor-command/issues"
-                }
-            },
-            "dev-update-tests": {
-                "name": "wp-cli/doctor-command",
-                "version": "dev-update-tests",
-                "version_normalized": "dev-update-tests",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/doctor-command.git",
-                    "reference": "eb1215bccda07f05d62179f6fa66445c03331447"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/eb1215bccda07f05d62179f6fa66445c03331447",
-                    "reference": "eb1215bccda07f05d62179f6fa66445c03331447",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "*"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-05-04 14:27:45",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "readme": {
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Contributing"
-                        ],
-                        "overview": {
-                            "body": "bin/readme/overview-body.md"
-                        }
-                    },
-                    "commands": [
-                        "doctor check",
-                        "doctor list"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Diagnose problems within WordPress by running a series of checks for symptoms.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/wp-cli/doctor-command/tree/update-tests",
                     "issues": "https://github.com/wp-cli/doctor-command/issues"
                 }
             }
@@ -14890,6 +14825,64 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/render-mustache"
+                }
+            },
+            "dev-strip-short-has": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-strip-short-has",
+                "version_normalized": "dev-strip-short-has",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "355a2ef9986274ffec8ebb128b9137a93f14147b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/355a2ef9986274ffec8ebb128b9137a93f14147b",
+                    "reference": "355a2ef9986274ffec8ebb128b9137a93f14147b",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "*"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-05-05 17:16:53",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI\\": "src"
+                    },
+                    "files": [
+                        "scaffold-package-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/strip-short-has"
                 }
             }
         },
