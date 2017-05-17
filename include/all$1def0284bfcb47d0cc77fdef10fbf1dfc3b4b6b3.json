@@ -2804,6 +2804,45 @@
                 }
             }
         },
+        "danielbachhuber/wp-cli-reset-post-date-command": {
+            "dev-master": {
+                "name": "danielbachhuber/wp-cli-reset-post-date-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/wp-cli-reset-post-date-command.git",
+                    "reference": "b8fee099420a86e6fb1e1c0009655c4a136bb465"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/wp-cli-reset-post-date-command/zipball/b8fee099420a86e6fb1e1c0009655c4a136bb465",
+                    "reference": "b8fee099420a86e6fb1e1c0009655c4a136bb465",
+                    "shasum": ""
+                },
+                "time": "2016-10-20 14:08:38",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-cli-reset-post-date-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "d@danielbachhuber.com"
+                    }
+                ],
+                "description": "Reset the post_date field on your posts after you change the timezone.",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/wp-cli-reset-post-date-command/tree/master",
+                    "issues": "https://github.com/danielbachhuber/wp-cli-reset-post-date-command/issues"
+                }
+            }
+        },
         "danielbachhuber/wp-cli-stat-command": {
             "dev-master": {
                 "name": "danielbachhuber/wp-cli-stat-command",
