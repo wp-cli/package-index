@@ -1293,12 +1293,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "a0c9cc3b222abc94bcd727979053782e6448b501"
+                    "reference": "3ae3f2736d98de2e59a4ce2187715176f03055c1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/a0c9cc3b222abc94bcd727979053782e6448b501",
-                    "reference": "a0c9cc3b222abc94bcd727979053782e6448b501",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/3ae3f2736d98de2e59a4ce2187715176f03055c1",
+                    "reference": "3ae3f2736d98de2e59a4ce2187715176f03055c1",
                     "shasum": ""
                 },
                 "require": {
@@ -1309,16 +1309,20 @@
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "johnpbloch/wordpress": "^4.6",
-                    "wp-cli/wp-cli": "^0.24.1"
+                    "wp-cli/wp-cli": "^1.0"
                 },
-                "time": "2016-09-20 10:16:08",
-                "type": "library",
+                "time": "2017-05-20 17:31:18",
+                "type": "wp-cli-package",
                 "extra": {
                     "commands": [
                         "valet new",
                         "valet destroy"
                     ],
                     "readme": {
+                        "shields": [
+                            "[![Travis Build](https://img.shields.io/travis/aaemnnosttv/wp-cli-valet-command/master.svg)](https://travis-ci.org/aaemnnosttv/wp-cli-valet-command)",
+                            "[![Packagist](https://img.shields.io/packagist/v/aaemnnosttv/wp-cli-valet-command.svg)](https://packagist.org/packages/aaemnnosttv/wp-cli-valet-command)"
+                        ],
                         "installing": {
                             "pre": "PREREQUISITES.md"
                         }
@@ -1337,7 +1341,7 @@
                         "wp scaffold package-readme . --force"
                     ],
                     "run-behat": [
-                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
+                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi"
                     ]
                 },
                 "license": [
