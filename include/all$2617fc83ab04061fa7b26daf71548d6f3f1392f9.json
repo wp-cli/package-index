@@ -9496,61 +9496,6 @@
                 }
             }
         },
-        "pods-framework/pods-wp-cli": {
-            "dev-master": {
-                "name": "pods-framework/pods-wp-cli",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pods-framework/pods-wp-cli.git",
-                    "reference": "57701ff5688b3514216ad724924c196dde914567"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pods-framework/pods-wp-cli/zipball/57701ff5688b3514216ad724924c196dde914567",
-                    "reference": "57701ff5688b3514216ad724924c196dde914567",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3"
-                },
-                "time": "2015-12-21 09:29:34",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "Pods_Command.php",
-                        "PodsAPI_Command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Pods Framework Team",
-                        "email": "contact@pods.io",
-                        "homepage": "http://pods.io/"
-                    },
-                    {
-                        "name": "Scott Kingsley Clark",
-                        "email": "lol@scottkclark.com",
-                        "homepage": "http://scottkclark.com"
-                    }
-                ],
-                "description": "WordPress Pods WP-CLI commands",
-                "homepage": "https://github.com/pods-framework/pods-wp-cli",
-                "keywords": [
-                    "pods",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "issues": "https://github.com/pods-framework/pods-wp-cli/issues",
-                    "source": "https://github.com/pods-framework/pods-wp-cli"
-                }
-            }
-        },
         "pressbooks/pb-cli": {
             "1.0.0": {
                 "name": "pressbooks/pb-cli",
