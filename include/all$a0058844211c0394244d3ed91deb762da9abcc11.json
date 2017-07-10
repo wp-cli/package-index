@@ -9657,29 +9657,30 @@
                     "issues": "https://github.com/pressbooks/pb-cli/issues"
                 }
             },
-            "dev-master": {
+            "1.5.0": {
                 "name": "pressbooks/pb-cli",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.5.0",
+                "version_normalized": "1.5.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pressbooks/pb-cli.git",
-                    "reference": "1bce0c4c3cd13048e6a96205c23b807a7fa59ff5"
+                    "reference": "5be19b36de0c4df62ae0d866b6afbd07770f5096"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/1bce0c4c3cd13048e6a96205c23b807a7fa59ff5",
-                    "reference": "1bce0c4c3cd13048e6a96205c23b807a7fa59ff5",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/5be19b36de0c4df62ae0d866b6afbd07770f5096",
+                    "reference": "5be19b36de0c4df62ae0d866b6afbd07770f5096",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-07-04 19:39:50",
+                "time": "2017-07-10 02:39:25",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
-                        "scaffold book-theme"
+                        "scaffold book-theme",
+                        "pb issue-template"
                     ]
                 },
                 "autoload": {
@@ -9693,7 +9694,89 @@
                 "description": "A suite of wp-cli commands for Pressbooks.",
                 "homepage": "https://github.com/pressbooks/pb-cli/",
                 "support": {
-                    "source": "https://github.com/pressbooks/pb-cli/tree/1.4.0",
+                    "source": "https://github.com/pressbooks/pb-cli/tree/1.5.0",
+                    "issues": "https://github.com/pressbooks/pb-cli/issues"
+                }
+            },
+            "1.5.1": {
+                "name": "pressbooks/pb-cli",
+                "version": "1.5.1",
+                "version_normalized": "1.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pressbooks/pb-cli.git",
+                    "reference": "03759c43e0a9f0bc2cc06de161a85ae3857bf740"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/03759c43e0a9f0bc2cc06de161a85ae3857bf740",
+                    "reference": "03759c43e0a9f0bc2cc06de161a85ae3857bf740",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-07-10 02:49:51",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold book-theme",
+                        "pb issue-template"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL 2.0+"
+                ],
+                "description": "A suite of wp-cli commands for Pressbooks.",
+                "homepage": "https://github.com/pressbooks/pb-cli/",
+                "support": {
+                    "source": "https://github.com/pressbooks/pb-cli/tree/1.5.1",
+                    "issues": "https://github.com/pressbooks/pb-cli/issues"
+                }
+            },
+            "dev-master": {
+                "name": "pressbooks/pb-cli",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pressbooks/pb-cli.git",
+                    "reference": "03759c43e0a9f0bc2cc06de161a85ae3857bf740"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/03759c43e0a9f0bc2cc06de161a85ae3857bf740",
+                    "reference": "03759c43e0a9f0bc2cc06de161a85ae3857bf740",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-07-10 02:49:51",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold book-theme",
+                        "pb issue-template"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL 2.0+"
+                ],
+                "description": "A suite of wp-cli commands for Pressbooks.",
+                "homepage": "https://github.com/pressbooks/pb-cli/",
+                "support": {
+                    "source": "https://github.com/pressbooks/pb-cli/tree/1.5.1",
                     "issues": "https://github.com/pressbooks/pb-cli/issues"
                 }
             },
@@ -9704,22 +9787,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pressbooks/pb-cli.git",
-                    "reference": "fc593d9da94282b8b938ad8464f784a492fd257c"
+                    "reference": "03759c43e0a9f0bc2cc06de161a85ae3857bf740"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/fc593d9da94282b8b938ad8464f784a492fd257c",
-                    "reference": "fc593d9da94282b8b938ad8464f784a492fd257c",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/03759c43e0a9f0bc2cc06de161a85ae3857bf740",
+                    "reference": "03759c43e0a9f0bc2cc06de161a85ae3857bf740",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-07-10 02:19:31",
+                "time": "2017-07-10 02:49:51",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
-                        "scaffold book-theme"
+                        "scaffold book-theme",
+                        "pb issue-template"
                     ]
                 },
                 "autoload": {
@@ -9733,47 +9817,7 @@
                 "description": "A suite of wp-cli commands for Pressbooks.",
                 "homepage": "https://github.com/pressbooks/pb-cli/",
                 "support": {
-                    "source": "https://github.com/pressbooks/pb-cli/tree/dev",
-                    "issues": "https://github.com/pressbooks/pb-cli/issues"
-                }
-            },
-            "dev-scaffold-issue-template": {
-                "name": "pressbooks/pb-cli",
-                "version": "dev-scaffold-issue-template",
-                "version_normalized": "dev-scaffold-issue-template",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pressbooks/pb-cli.git",
-                    "reference": "48e32718b08b182366f18b016397afd8669ff64c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/48e32718b08b182366f18b016397afd8669ff64c",
-                    "reference": "48e32718b08b182366f18b016397afd8669ff64c",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-07-10 02:22:42",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "scaffold book-theme"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "GPL 2.0+"
-                ],
-                "description": "A suite of wp-cli commands for Pressbooks.",
-                "homepage": "https://github.com/pressbooks/pb-cli/",
-                "support": {
-                    "source": "https://github.com/pressbooks/pb-cli/tree/scaffold-issue-template",
+                    "source": "https://github.com/pressbooks/pb-cli/tree/1.5.1",
                     "issues": "https://github.com/pressbooks/pb-cli/issues"
                 }
             }
