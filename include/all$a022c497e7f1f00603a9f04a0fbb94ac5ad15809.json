@@ -1696,12 +1696,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/anhskohbo/wp-cli-themecheck.git",
-                    "reference": "0fa69d4acef1339536f2ee682d202c13fad8e73e"
+                    "reference": "8a33d4c5495524ba91fdcbd2ba0f279c24048a65"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/anhskohbo/wp-cli-themecheck/zipball/0fa69d4acef1339536f2ee682d202c13fad8e73e",
-                    "reference": "0fa69d4acef1339536f2ee682d202c13fad8e73e",
+                    "url": "https://api.github.com/repos/anhskohbo/wp-cli-themecheck/zipball/8a33d4c5495524ba91fdcbd2ba0f279c24048a65",
+                    "reference": "8a33d4c5495524ba91fdcbd2ba0f279c24048a65",
                     "shasum": ""
                 },
                 "require": {
@@ -1710,7 +1710,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2016-10-20 20:57:28",
+                "time": "2017-07-13 06:37:23",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
