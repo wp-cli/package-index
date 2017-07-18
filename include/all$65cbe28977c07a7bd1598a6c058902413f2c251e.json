@@ -14920,19 +14920,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "8ba67d61f5858759883ce51668321bcec7f971ee"
+                    "reference": "f7710a6f7a379e4c931476d432acd6c6ac42fef6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/8ba67d61f5858759883ce51668321bcec7f971ee",
-                    "reference": "8ba67d61f5858759883ce51668321bcec7f971ee",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/f7710a6f7a379e4c931476d432acd6c6ac42fef6",
+                    "reference": "f7710a6f7a379e4c931476d432acd6c6ac42fef6",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-07-11 14:14:47",
+                "time": "2017-07-18 13:17:12",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14970,26 +14970,26 @@
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
                 }
             },
-            "dev-danielbachhuber-patch-1": {
+            "dev-119-realpath": {
                 "name": "wp-cli/scaffold-package-command",
-                "version": "dev-danielbachhuber-patch-1",
-                "version_normalized": "dev-danielbachhuber-patch-1",
+                "version": "dev-119-realpath",
+                "version_normalized": "dev-119-realpath",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "7cddeb3beebdf2744450a9e655545226395f5b33"
+                    "reference": "f7bc7697d74fd73cfd19a80fcda97c85097b88a2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/7cddeb3beebdf2744450a9e655545226395f5b33",
-                    "reference": "7cddeb3beebdf2744450a9e655545226395f5b33",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/f7bc7697d74fd73cfd19a80fcda97c85097b88a2",
+                    "reference": "f7bc7697d74fd73cfd19a80fcda97c85097b88a2",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-07-14 13:52:45",
+                "time": "2017-07-18 13:15:35",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15024,7 +15024,121 @@
                 "homepage": "https://github.com/wp-cli/scaffold-package-command",
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/danielbachhuber-patch-1"
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/119-realpath"
+                }
+            },
+            "dev-121-phpunit": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-121-phpunit",
+                "version_normalized": "dev-121-phpunit",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "66fa918c38c345a1204436783a536b9cbf45bf27"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/66fa918c38c345a1204436783a536b9cbf45bf27",
+                    "reference": "66fa918c38c345a1204436783a536b9cbf45bf27",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli": "*"
+                },
+                "time": "2017-07-18 13:12:41",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme",
+                        "scaffold package-github"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI\\": "src"
+                    },
+                    "files": [
+                        "scaffold-package-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/121-phpunit"
+                }
+            },
+            "dev-125-contributing-file": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-125-contributing-file",
+                "version_normalized": "dev-125-contributing-file",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "6979bc0b214868bdfeb39e52d4e24db5a0e08156"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/6979bc0b214868bdfeb39e52d4e24db5a0e08156",
+                    "reference": "6979bc0b214868bdfeb39e52d4e24db5a0e08156",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli": "*"
+                },
+                "time": "2017-07-18 13:27:02",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme",
+                        "scaffold package-github"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI\\": "src"
+                    },
+                    "files": [
+                        "scaffold-package-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffold WP-CLI commands with functional tests",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/125-contributing-file"
                 }
             },
             "dev-render-mustache": {
