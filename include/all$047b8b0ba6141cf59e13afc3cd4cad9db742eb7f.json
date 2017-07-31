@@ -14704,12 +14704,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "b5e9df3db29bc7f85c781fc74af54d1f6525de72"
+                    "reference": "9fee9ab9ad4452da25c11656b56225b7957ebb3d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/b5e9df3db29bc7f85c781fc74af54d1f6525de72",
-                    "reference": "b5e9df3db29bc7f85c781fc74af54d1f6525de72",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/9fee9ab9ad4452da25c11656b56225b7957ebb3d",
+                    "reference": "9fee9ab9ad4452da25c11656b56225b7957ebb3d",
                     "shasum": ""
                 },
                 "require": {
@@ -14718,7 +14718,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-07-30 18:47:54",
+                "time": "2017-07-31 03:05:47",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
