@@ -14977,19 +14977,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "35c7a59afea5994a0c1878c38b8eee8144f198d6"
+                    "reference": "5128f6ebbc800ed166dc06d00cb9f10b2d3cc8a4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/35c7a59afea5994a0c1878c38b8eee8144f198d6",
-                    "reference": "35c7a59afea5994a0c1878c38b8eee8144f198d6",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/5128f6ebbc800ed166dc06d00cb9f10b2d3cc8a4",
+                    "reference": "5128f6ebbc800ed166dc06d00cb9f10b2d3cc8a4",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-08-03 11:00:39",
+                "time": "2017-08-04 13:45:10",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15067,63 +15067,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/render-mustache"
-                }
-            },
-            "dev-use-trusty": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-use-trusty",
-                "version_normalized": "dev-use-trusty",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "5d61db4b8085cb361903d244c8505f869e6757b8"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/5d61db4b8085cb361903d244c8505f869e6757b8",
-                    "reference": "5d61db4b8085cb361903d244c8505f869e6757b8",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "wp-cli/wp-cli": "*"
-                },
-                "time": "2017-08-04 11:38:43",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme",
-                        "scaffold package-github"
-                    ]
-                },
-                "autoload": {
-                    "psr-4": {
-                        "WP_CLI\\": "src"
-                    },
-                    "files": [
-                        "scaffold-package-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/use-trusty"
                 }
             }
         },
