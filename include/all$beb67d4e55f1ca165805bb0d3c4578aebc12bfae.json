@@ -13916,12 +13916,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/admin-command.git",
-                    "reference": "3c3686d9a4df1f6439cac272dc1f2470b77df661"
+                    "reference": "8fcd0a199ffd27047c513b8c2002ee8bd2096d1c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/admin-command/zipball/3c3686d9a4df1f6439cac272dc1f2470b77df661",
-                    "reference": "3c3686d9a4df1f6439cac272dc1f2470b77df661",
+                    "url": "https://api.github.com/repos/wp-cli/admin-command/zipball/8fcd0a199ffd27047c513b8c2002ee8bd2096d1c",
+                    "reference": "8fcd0a199ffd27047c513b8c2002ee8bd2096d1c",
                     "shasum": ""
                 },
                 "require": {
@@ -13930,7 +13930,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-04-24 12:36:32",
+                "time": "2017-08-06 09:14:00",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14433,12 +14433,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/find-command.git",
-                    "reference": "35a8ca32e22af41f25e4041c4b98926ea7b87894"
+                    "reference": "f1fb159bbafce6e2e8a641d73db5e0fc8abe5c44"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/35a8ca32e22af41f25e4041c4b98926ea7b87894",
-                    "reference": "35a8ca32e22af41f25e4041c4b98926ea7b87894",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/f1fb159bbafce6e2e8a641d73db5e0fc8abe5c44",
+                    "reference": "f1fb159bbafce6e2e8a641d73db5e0fc8abe5c44",
                     "shasum": ""
                 },
                 "require": {
@@ -14447,7 +14447,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-04-24 12:37:05",
+                "time": "2017-08-06 09:15:13",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14675,12 +14675,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/profile-command.git",
-                    "reference": "a2c4dec3ed1c7e6d57c7107a160484fda2656b67"
+                    "reference": "46a84c789fb3518aab23d7e1b0618810acd8ddd3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/a2c4dec3ed1c7e6d57c7107a160484fda2656b67",
-                    "reference": "a2c4dec3ed1c7e6d57c7107a160484fda2656b67",
+                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/46a84c789fb3518aab23d7e1b0618810acd8ddd3",
+                    "reference": "46a84c789fb3518aab23d7e1b0618810acd8ddd3",
                     "shasum": ""
                 },
                 "require": {
@@ -14690,7 +14690,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-04-24 12:24:18",
+                "time": "2017-08-06 09:14:37",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14879,12 +14879,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "9fee9ab9ad4452da25c11656b56225b7957ebb3d"
+                    "reference": "4b4853a3c3ae9dbe3850c3134ad0f5a3bb8578c2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/9fee9ab9ad4452da25c11656b56225b7957ebb3d",
-                    "reference": "9fee9ab9ad4452da25c11656b56225b7957ebb3d",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/4b4853a3c3ae9dbe3850c3134ad0f5a3bb8578c2",
+                    "reference": "4b4853a3c3ae9dbe3850c3134ad0f5a3bb8578c2",
                     "shasum": ""
                 },
                 "require": {
@@ -14893,7 +14893,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-07-31 03:05:47",
+                "time": "2017-08-06 09:13:31",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14928,65 +14928,6 @@
                 "description": "Unlock the potential of the WP REST API at the command line.",
                 "support": {
                     "source": "https://github.com/wp-cli/restful/tree/master",
-                    "issues": "https://github.com/wp-cli/restful/issues"
-                }
-            },
-            "dev-update-package": {
-                "name": "wp-cli/restful",
-                "version": "dev-update-package",
-                "version_normalized": "dev-update-package",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "f33a78747fe8118be95abfc56e66ff533624e42a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/f33a78747fe8118be95abfc56e66ff533624e42a",
-                    "reference": "f33a78747fe8118be95abfc56e66ff533624e42a",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "*"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-08-06 07:17:31",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "readme": {
-                        "package_description": {
-                            "post": "bin/readme-stubs/package-description-post.md"
-                        },
-                        "using": {
-                            "body": "bin/readme-stubs/using.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme-stubs/installing.md"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "wp-rest-cli.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@handbuilt.co"
-                    }
-                ],
-                "description": "Unlock the potential of the WP REST API at the command line.",
-                "support": {
-                    "source": "https://github.com/wp-cli/restful/tree/update-package",
                     "issues": "https://github.com/wp-cli/restful/issues"
                 }
             }
