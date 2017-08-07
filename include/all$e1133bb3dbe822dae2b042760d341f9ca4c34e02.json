@@ -14539,55 +14539,6 @@
                     "source": "https://github.com/wp-cli/find-command/tree/master",
                     "issues": "https://github.com/wp-cli/find-command/issues"
                 }
-            },
-            "dev-update-package": {
-                "name": "wp-cli/find-command",
-                "version": "dev-update-package",
-                "version_normalized": "dev-update-package",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/find-command.git",
-                    "reference": "1d5ff236e012212a46161880d8e4a46db4b27948"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/1d5ff236e012212a46161880d8e4a46db4b27948",
-                    "reference": "1d5ff236e012212a46161880d8e4a46db4b27948",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "*"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-08-06 07:23:25",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "find"
-                    ]
-                },
-                "autoload": {
-                    "psr-4": {
-                        "": "src/"
-                    },
-                    "files": [
-                        "find-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Find WordPress installs on the filesystem.",
-                "homepage": "https://github.com/wp-cli/finder-command",
-                "support": {
-                    "source": "https://github.com/wp-cli/find-command/tree/update-package",
-                    "issues": "https://github.com/wp-cli/find-command/issues"
-                }
             }
         },
         "wp-cli/profile-command": {
@@ -14791,67 +14742,6 @@
                 "homepage": "https://runcommand.io/wp/profile/",
                 "support": {
                     "source": "https://github.com/wp-cli/profile-command/tree/master",
-                    "issues": "https://github.com/wp-cli/profile-command/issues"
-                }
-            },
-            "dev-update-package": {
-                "name": "wp-cli/profile-command",
-                "version": "dev-update-package",
-                "version_normalized": "dev-update-package",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/profile-command.git",
-                    "reference": "5bd4941f60de22b34b4ffbc4920ebbcb854d18e9"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/5bd4941f60de22b34b4ffbc4920ebbcb854d18e9",
-                    "reference": "5bd4941f60de22b34b4ffbc4920ebbcb854d18e9",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4",
-                    "wp-cli/wp-cli": "*"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-08-06 07:13:28",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "profile stage",
-                        "profile hook",
-                        "profile eval",
-                        "profile eval-file"
-                    ],
-                    "readme": {
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Contributing"
-                        ],
-                        "overview": {
-                            "post": "bin/readme/overview-body.md"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Quickly identify what's slow with WordPress.",
-                "homepage": "https://runcommand.io/wp/profile/",
-                "support": {
-                    "source": "https://github.com/wp-cli/profile-command/tree/update-package",
                     "issues": "https://github.com/wp-cli/profile-command/issues"
                 }
             }
