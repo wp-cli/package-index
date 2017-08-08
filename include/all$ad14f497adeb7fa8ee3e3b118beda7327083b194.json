@@ -14977,19 +14977,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "5128f6ebbc800ed166dc06d00cb9f10b2d3cc8a4"
+                    "reference": "53f51484541ae5bee20580dd1e9ce451370081c0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/5128f6ebbc800ed166dc06d00cb9f10b2d3cc8a4",
-                    "reference": "5128f6ebbc800ed166dc06d00cb9f10b2d3cc8a4",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/53f51484541ae5bee20580dd1e9ce451370081c0",
+                    "reference": "53f51484541ae5bee20580dd1e9ce451370081c0",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-08-04 13:45:10",
+                "time": "2017-08-08 14:49:04",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
