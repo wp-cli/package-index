@@ -922,12 +922,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
-                    "reference": "e47272ddf59746218edc62b8aedabd2a75af01b6"
+                    "reference": "7de411d0a7dd6ebbed15ebee30709f9bd2958e0f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/e47272ddf59746218edc62b8aedabd2a75af01b6",
-                    "reference": "e47272ddf59746218edc62b8aedabd2a75af01b6",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/7de411d0a7dd6ebbed15ebee30709f9bd2958e0f",
+                    "reference": "7de411d0a7dd6ebbed15ebee30709f9bd2958e0f",
                     "shasum": ""
                 },
                 "require": {
@@ -941,7 +941,7 @@
                     "phpunit/phpunit": "^4.8",
                     "wp-cli/wp-cli": "^1.0"
                 },
-                "time": "2017-07-29 08:32:07",
+                "time": "2017-08-26 10:42:43",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
