@@ -10647,69 +10647,6 @@
                 }
             }
         },
-        "runcommand/precache": {
-            "dev-master": {
-                "name": "runcommand/precache",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/runcommand/precache.git",
-                    "reference": "84093d00a81448f6b8e15be49b87113c1f3cd633"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/84093d00a81448f6b8e15be49b87113c1f3cd633",
-                    "reference": "84093d00a81448f6b8e15be49b87113c1f3cd633",
-                    "shasum": ""
-                },
-                "time": "2017-04-20 12:44:13",
-                "type": "wp-cli-package",
-                "extra": {
-                    "commands": [
-                        "precache core",
-                        "precache plugin",
-                        "precache theme"
-                    ],
-                    "readme": {
-                        "shields": [
-                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
-                            "[![Build Status](https://travis-ci.org/runcommand/media-sizes.svg?branch=master)](https://travis-ci.org/runcommand/media-sizes)"
-                        ],
-                        "sections": [
-                            "Using",
-                            "Installing",
-                            "Support"
-                        ],
-                        "support": {
-                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-                        },
-                        "show_powered_by": false
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Proactively download and cache core, theme, and plugin files for later installation.",
-                "homepage": "https://runcommand.io/wp/precache/",
-                "support": {
-                    "source": "https://github.com/runcommand/precache/tree/master",
-                    "issues": "https://github.com/runcommand/precache/issues"
-                }
-            }
-        },
         "runcommand/query-debug": {
             "dev-master": {
                 "name": "runcommand/query-debug",
