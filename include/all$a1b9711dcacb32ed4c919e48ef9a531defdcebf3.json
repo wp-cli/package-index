@@ -14977,19 +14977,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "bc39fb08de11924a3dbd24d9d37e527d137f820f"
+                    "reference": "5a6707fced2f39f4fd8ecad50bda03f61d98658e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/bc39fb08de11924a3dbd24d9d37e527d137f820f",
-                    "reference": "bc39fb08de11924a3dbd24d9d37e527d137f820f",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/5a6707fced2f39f4fd8ecad50bda03f61d98658e",
+                    "reference": "5a6707fced2f39f4fd8ecad50bda03f61d98658e",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-08-14 20:36:41",
+                "time": "2017-08-29 12:13:22",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15082,63 +15082,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/ignore-composer-lock"
-                }
-            },
-            "dev-patch-142": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-patch-142",
-                "version_normalized": "dev-patch-142",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "5156a9ee403ec6ae57abd9a1cb2e496f53e2659a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/5156a9ee403ec6ae57abd9a1cb2e496f53e2659a",
-                    "reference": "5156a9ee403ec6ae57abd9a1cb2e496f53e2659a",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "wp-cli/wp-cli": "*"
-                },
-                "time": "2017-08-28 23:10:00",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme",
-                        "scaffold package-github"
-                    ]
-                },
-                "autoload": {
-                    "psr-4": {
-                        "WP_CLI\\": "src"
-                    },
-                    "files": [
-                        "scaffold-package-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/patch-142"
                 }
             },
             "dev-render-mustache": {
