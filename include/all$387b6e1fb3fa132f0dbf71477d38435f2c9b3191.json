@@ -83,6 +83,47 @@
                     "source": "https://github.com/10up/MU-Migration/tree/develop"
                 }
             },
+            "dev-feature/single-site-import": {
+                "name": "10up/mu-migration",
+                "version": "dev-feature/single-site-import",
+                "version_normalized": "dev-feature/single-site-import",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/10up/MU-Migration.git",
+                    "reference": "d25266a42d5c7adf917aa0990f3b767b9254db75"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/d25266a42d5c7adf917aa0990f3b767b9254db75",
+                    "reference": "d25266a42d5c7adf917aa0990f3b767b9254db75",
+                    "shasum": ""
+                },
+                "require": {
+                    "alchemy/zippy": "^0.3.5"
+                },
+                "time": "2017-08-31 02:53:25",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "mu-migration.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nícholas André",
+                        "email": "nicholas@iotecnologia.com.br"
+                    }
+                ],
+                "description": "A set of WP-CLI commands to support the migration of single WordPress instances to multisite",
+                "homepage": "https://github.com/10up/MU-Migration",
+                "support": {
+                    "issues": "https://github.com/10up/MU-Migration/issues",
+                    "source": "https://github.com/10up/MU-Migration/tree/feature/single-site-import"
+                }
+            },
             "dev-feature/tables-param": {
                 "name": "10up/mu-migration",
                 "version": "dev-feature/tables-param",
