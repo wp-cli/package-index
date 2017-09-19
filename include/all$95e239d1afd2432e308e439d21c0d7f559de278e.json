@@ -13668,6 +13668,207 @@
                 }
             }
         },
+        "viewone/wp-cli-environment": {
+            "0.1.0": {
+                "name": "viewone/wp-cli-environment",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/viewone/wp-cli-environment.git",
+                    "reference": "53b022e5cee2418112e297a8022881c703da66bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/53b022e5cee2418112e297a8022881c703da66bd",
+                    "reference": "53b022e5cee2418112e297a8022881c703da66bd",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "czproject/phpdepend": "~1.0",
+                    "fabpot/php-cs-fixer": "~0.4",
+                    "instaclick/php-code-sniffer": "~1.4",
+                    "phploc/phploc": "~2.0",
+                    "phpmd/phpmd": "~1.5",
+                    "phpspec/phpspec": "~2.0",
+                    "sebastian/phpcpd": "~2.0"
+                },
+                "time": "2014-04-24 21:53:35",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "ViewOne": "src/"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Piotr Kierzniewski",
+                        "email": "p.kierzniewski@viewone.pl"
+                    }
+                ],
+                "description": "Environment package for wp-cli",
+                "support": {
+                    "source": "https://github.com/viewone/wp-cli-environment/tree/0.1.0",
+                    "issues": "https://github.com/viewone/wp-cli-environment/issues"
+                }
+            },
+            "0.2.0": {
+                "name": "viewone/wp-cli-environment",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/viewone/wp-cli-environment.git",
+                    "reference": "372c5464af372f29f09ab5523ad5e36af1b61a80"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/372c5464af372f29f09ab5523ad5e36af1b61a80",
+                    "reference": "372c5464af372f29f09ab5523ad5e36af1b61a80",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "czproject/phpdepend": "~1.0",
+                    "fabpot/php-cs-fixer": "~0.4",
+                    "instaclick/php-code-sniffer": "~1.4",
+                    "mustache/mustache": "~2.4",
+                    "phploc/phploc": "~2.0",
+                    "phpmd/phpmd": "~1.5",
+                    "phpspec/phpspec": "~2.0",
+                    "sebastian/phpcpd": "~2.0"
+                },
+                "time": "2014-05-15 22:41:46",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "ViewOne": "src/"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Piotr Kierzniewski",
+                        "email": "p.kierzniewski@viewone.pl"
+                    }
+                ],
+                "description": "Environment package for wp-cli",
+                "support": {
+                    "source": "https://github.com/viewone/wp-cli-environment/tree/0.2.0",
+                    "issues": "https://github.com/viewone/wp-cli-environment/issues"
+                }
+            },
+            "dev-master": {
+                "name": "viewone/wp-cli-environment",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/viewone/wp-cli-environment.git",
+                    "reference": "372c5464af372f29f09ab5523ad5e36af1b61a80"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/372c5464af372f29f09ab5523ad5e36af1b61a80",
+                    "reference": "372c5464af372f29f09ab5523ad5e36af1b61a80",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "czproject/phpdepend": "~1.0",
+                    "fabpot/php-cs-fixer": "~0.4",
+                    "instaclick/php-code-sniffer": "~1.4",
+                    "mustache/mustache": "~2.4",
+                    "phploc/phploc": "~2.0",
+                    "phpmd/phpmd": "~1.5",
+                    "phpspec/phpspec": "~2.0",
+                    "sebastian/phpcpd": "~2.0"
+                },
+                "time": "2014-05-15 22:41:46",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "ViewOne": "src/"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Piotr Kierzniewski",
+                        "email": "p.kierzniewski@viewone.pl"
+                    }
+                ],
+                "description": "Environment package for wp-cli",
+                "support": {
+                    "source": "https://github.com/viewone/wp-cli-environment/tree/0.2.0",
+                    "issues": "https://github.com/viewone/wp-cli-environment/issues"
+                }
+            },
+            "dev-develop": {
+                "name": "viewone/wp-cli-environment",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/viewone/wp-cli-environment.git",
+                    "reference": "0187d7fe9038edc7b03e1b513f3900a0436068fb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/viewone/wp-cli-environment/zipball/0187d7fe9038edc7b03e1b513f3900a0436068fb",
+                    "reference": "0187d7fe9038edc7b03e1b513f3900a0436068fb",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "czproject/phpdepend": "~1.0",
+                    "fabpot/php-cs-fixer": "~0.4",
+                    "instaclick/php-code-sniffer": "~1.4",
+                    "mustache/mustache": "~2.4",
+                    "phploc/phploc": "~2.0",
+                    "phpmd/phpmd": "~1.5",
+                    "phpspec/phpspec": "~2.0",
+                    "sebastian/phpcpd": "~2.0"
+                },
+                "time": "2016-04-08 08:07:18",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "WPCLIEnvironment": "src/"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Piotr Kierzniewski",
+                        "email": "p.kierzniewski@viewone.pl"
+                    }
+                ],
+                "description": "Environment package for wp-cli",
+                "support": {
+                    "source": "https://github.com/viewone/wp-cli-environment/tree/develop",
+                    "issues": "https://github.com/viewone/wp-cli-environment/issues"
+                }
+            }
+        },
         "welaika/wp-cli-db2utf8": {
             "dev-master": {
                 "name": "welaika/wp-cli-db2utf8",
