@@ -14493,12 +14493,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/find-command.git",
-                    "reference": "d06c71920f9fc689d6493dac84d5dab3faf07a1f"
+                    "reference": "3d321f7c7a09afdc9c51184f25ca804400b0bd86"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/d06c71920f9fc689d6493dac84d5dab3faf07a1f",
-                    "reference": "d06c71920f9fc689d6493dac84d5dab3faf07a1f",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/3d321f7c7a09afdc9c51184f25ca804400b0bd86",
+                    "reference": "3d321f7c7a09afdc9c51184f25ca804400b0bd86",
                     "shasum": ""
                 },
                 "require": {
@@ -14507,7 +14507,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-09-20 00:19:51",
+                "time": "2017-09-21 16:11:23",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
