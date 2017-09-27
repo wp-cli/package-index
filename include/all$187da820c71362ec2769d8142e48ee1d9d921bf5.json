@@ -131,12 +131,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/MU-Migration.git",
-                    "reference": "fa5460b2db9c51faa0a807081f6e8e1e95ea782b"
+                    "reference": "176960348a8c72e5a11415732a4c29417119f9f9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/fa5460b2db9c51faa0a807081f6e8e1e95ea782b",
-                    "reference": "fa5460b2db9c51faa0a807081f6e8e1e95ea782b",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/176960348a8c72e5a11415732a4c29417119f9f9",
+                    "reference": "176960348a8c72e5a11415732a4c29417119f9f9",
                     "shasum": ""
                 },
                 "require": {
@@ -145,7 +145,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-09-26 22:42:51",
+                "time": "2017-09-27 00:05:21",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
