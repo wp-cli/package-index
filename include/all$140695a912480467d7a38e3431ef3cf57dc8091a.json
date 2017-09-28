@@ -8,18 +8,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/MU-Migration.git",
-                    "reference": "29907bf4ddaf1f436e29f6c377d6c143099c48b0"
+                    "reference": "7d372a838cf85f97061a0bee22820501828f7f8f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/29907bf4ddaf1f436e29f6c377d6c143099c48b0",
-                    "reference": "29907bf4ddaf1f436e29f6c377d6c143099c48b0",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/7d372a838cf85f97061a0bee22820501828f7f8f",
+                    "reference": "7d372a838cf85f97061a0bee22820501828f7f8f",
                     "shasum": ""
                 },
                 "require": {
                     "alchemy/zippy": "^0.3.5"
                 },
-                "time": "2017-09-20 12:53:56",
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-09-28 13:46:37",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -131,12 +134,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/MU-Migration.git",
-                    "reference": "042b4198b8e09211ad9d2fbfcd6b7b8cd302531e"
+                    "reference": "2be7166d0892727499705e4262bdc5a56c77ca52"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/042b4198b8e09211ad9d2fbfcd6b7b8cd302531e",
-                    "reference": "042b4198b8e09211ad9d2fbfcd6b7b8cd302531e",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/2be7166d0892727499705e4262bdc5a56c77ca52",
+                    "reference": "2be7166d0892727499705e4262bdc5a56c77ca52",
                     "shasum": ""
                 },
                 "require": {
@@ -145,7 +148,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-09-28 03:44:28",
+                "time": "2017-09-28 13:31:41",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
