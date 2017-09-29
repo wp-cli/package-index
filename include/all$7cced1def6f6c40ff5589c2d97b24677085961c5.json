@@ -14354,6 +14354,72 @@
                     "source": "https://github.com/wp-cli/doctor-command/tree/master",
                     "issues": "https://github.com/wp-cli/doctor-command/issues"
                 }
+            },
+            "dev-feature/GH#88": {
+                "name": "wp-cli/doctor-command",
+                "version": "dev-feature/GH#88",
+                "version_normalized": "dev-feature/GH#88",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/doctor-command.git",
+                    "reference": "ab08679e6b334a419f366147ecbf98b9a5504108"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/ab08679e6b334a419f366147ecbf98b9a5504108",
+                    "reference": "ab08679e6b334a419f366147ecbf98b9a5504108",
+                    "shasum": ""
+                },
+                "require": {
+                    "brightnucleus/mime-types": "^0.1.1",
+                    "wp-cli/wp-cli": "*"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-09-29 13:15:33",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "readme": {
+                        "sections": [
+                            "Overview",
+                            "Using",
+                            "Installing",
+                            "Contributing"
+                        ],
+                        "overview": {
+                            "body": "bin/readme/overview-body.md"
+                        }
+                    },
+                    "commands": [
+                        "doctor check",
+                        "doctor list"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Diagnose problems within WordPress by running a series of checks for symptoms.",
+                "homepage": "https://runcommand.io/wp/doctor/",
+                "support": {
+                    "source": "https://github.com/wp-cli/doctor-command/tree/feature/GH#88",
+                    "issues": "https://github.com/wp-cli/doctor-command/issues"
+                }
             }
         },
         "wp-cli/find-command": {
