@@ -2942,6 +2942,52 @@
                     "source": "https://github.com/danielbachhuber/dictator/tree/master",
                     "issues": "https://github.com/danielbachhuber/dictator/issues"
                 }
+            },
+            "dev-require-spyc": {
+                "name": "danielbachhuber/dictator",
+                "version": "dev-require-spyc",
+                "version_normalized": "dev-require-spyc",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/danielbachhuber/dictator.git",
+                    "reference": "6da570520aae17eb38f88617ea179e91c5daba8d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/6da570520aae17eb38f88617ea179e91c5daba8d",
+                    "reference": "6da570520aae17eb38f88617ea179e91c5daba8d",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/mustangostang-spyc": "^0.6.3"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-10-03 16:38:48",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "dictator.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "d@danielbachhuber.com",
+                        "homepage": "http://danielbachhuber.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "The Dictator controls the state of WordPress",
+                "homepage": "https://github.com/danielbachhuber/dictator",
+                "support": {
+                    "source": "https://github.com/danielbachhuber/dictator/tree/require-spyc",
+                    "issues": "https://github.com/danielbachhuber/dictator/issues"
+                }
             }
         },
         "danielbachhuber/wp-cli-reset-post-date-command": {
