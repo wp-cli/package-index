@@ -2950,12 +2950,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/danielbachhuber/dictator.git",
-                    "reference": "6da570520aae17eb38f88617ea179e91c5daba8d"
+                    "reference": "05589e196ca50444f6a038ec13eaca127f002169"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/6da570520aae17eb38f88617ea179e91c5daba8d",
-                    "reference": "6da570520aae17eb38f88617ea179e91c5daba8d",
+                    "url": "https://api.github.com/repos/danielbachhuber/dictator/zipball/05589e196ca50444f6a038ec13eaca127f002169",
+                    "reference": "05589e196ca50444f6a038ec13eaca127f002169",
                     "shasum": ""
                 },
                 "require": {
@@ -2964,7 +2964,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-10-03 16:38:48",
+                "time": "2017-10-04 22:49:38",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
