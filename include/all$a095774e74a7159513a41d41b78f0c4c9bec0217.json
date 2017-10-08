@@ -6560,6 +6560,51 @@
                     "source": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/tree/v0.1.3",
                     "issues": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/issues"
                 }
+            },
+            "dev-feature/is-external": {
+                "name": "itspriddle/wp-cli-tgmpa-plugin",
+                "version": "dev-feature/is-external",
+                "version_normalized": "dev-feature/is-external",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/itspriddle/wp-cli-tgmpa-plugin.git",
+                    "reference": "326cd041bca7a3c25d9351deea3cc640b2401207"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/itspriddle/wp-cli-tgmpa-plugin/zipball/326cd041bca7a3c25d9351deea3cc640b2401207",
+                    "reference": "326cd041bca7a3c25d9351deea3cc640b2401207",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-10-07 23:38:21",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Joshua Priddle",
+                        "email": "jpriddle@me.com",
+                        "homepage": "https://github.com/itspriddle"
+                    }
+                ],
+                "description": "Manage TGMPA plugins with WP-CLI",
+                "homepage": "https://github.com/itspriddle/wp-cli-tgmpa-plugin",
+                "support": {
+                    "source": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/tree/feature/is-external",
+                    "issues": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/issues"
+                }
             }
         },
         "ivankruchkoff/wp-hammer": {
