@@ -14358,12 +14358,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/doctor-command.git",
-                    "reference": "91eab4059011d386e4dc870f9f8fdf8a0eac3914"
+                    "reference": "9298aaee2c0e7326848bdabf9386baf3fc6404cc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/91eab4059011d386e4dc870f9f8fdf8a0eac3914",
-                    "reference": "91eab4059011d386e4dc870f9f8fdf8a0eac3914",
+                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/9298aaee2c0e7326848bdabf9386baf3fc6404cc",
+                    "reference": "9298aaee2c0e7326848bdabf9386baf3fc6404cc",
                     "shasum": ""
                 },
                 "require": {
@@ -14373,7 +14373,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-10-02 12:57:54",
+                "time": "2017-10-09 07:16:11",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
