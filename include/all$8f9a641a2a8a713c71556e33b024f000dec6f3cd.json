@@ -6572,12 +6572,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/itspriddle/wp-cli-tgmpa-plugin.git",
-                    "reference": "0750019505443f7c1ed97df4c75693f3db19c165"
+                    "reference": "7e7b6e1c18095e24662d01a4950d42b088266135"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/itspriddle/wp-cli-tgmpa-plugin/zipball/0750019505443f7c1ed97df4c75693f3db19c165",
-                    "reference": "0750019505443f7c1ed97df4c75693f3db19c165",
+                    "url": "https://api.github.com/repos/itspriddle/wp-cli-tgmpa-plugin/zipball/7e7b6e1c18095e24662d01a4950d42b088266135",
+                    "reference": "7e7b6e1c18095e24662d01a4950d42b088266135",
                     "shasum": ""
                 },
                 "require": {
@@ -6586,7 +6586,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-10-08 01:45:39",
+                "time": "2017-10-09 16:54:54",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
