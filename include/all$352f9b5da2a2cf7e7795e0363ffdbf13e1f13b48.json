@@ -14942,6 +14942,67 @@
                     "source": "https://github.com/wp-cli/profile-command/tree/master",
                     "issues": "https://github.com/wp-cli/profile-command/issues"
                 }
+            },
+            "dev-grammar-fix-1": {
+                "name": "wp-cli/profile-command",
+                "version": "dev-grammar-fix-1",
+                "version_normalized": "dev-grammar-fix-1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/profile-command.git",
+                    "reference": "bb9445a68c94a7990ea887105331dec60bab717a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/bb9445a68c94a7990ea887105331dec60bab717a",
+                    "reference": "bb9445a68c94a7990ea887105331dec60bab717a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": "*"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-10-10 07:13:39",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "commands": [
+                        "profile stage",
+                        "profile hook",
+                        "profile eval",
+                        "profile eval-file"
+                    ],
+                    "readme": {
+                        "sections": [
+                            "Overview",
+                            "Using",
+                            "Installing",
+                            "Contributing"
+                        ],
+                        "overview": {
+                            "post": "bin/readme/overview-body.md"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Quickly identify what's slow with WordPress.",
+                "homepage": "https://runcommand.io/wp/profile/",
+                "support": {
+                    "source": "https://github.com/wp-cli/profile-command/tree/grammar-fix-1",
+                    "issues": "https://github.com/wp-cli/profile-command/issues"
+                }
             }
         },
         "wp-cli/restful": {
