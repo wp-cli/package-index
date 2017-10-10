@@ -15353,19 +15353,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "961cba078a05e9b1019347d3eacc59064e99040b"
+                    "reference": "83129fcb98492d35039fa54c01f31f3d5b0e6878"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/961cba078a05e9b1019347d3eacc59064e99040b",
-                    "reference": "961cba078a05e9b1019347d3eacc59064e99040b",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/83129fcb98492d35039fa54c01f31f3d5b0e6878",
+                    "reference": "83129fcb98492d35039fa54c01f31f3d5b0e6878",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-10-10 13:49:02",
+                "time": "2017-10-10 17:43:33",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15401,63 +15401,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
-                }
-            },
-            "dev-add-context-for-regex": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-add-context-for-regex",
-                "version_normalized": "dev-add-context-for-regex",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "33c371f4fe780135553bbc62801e42bae87def81"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/33c371f4fe780135553bbc62801e42bae87def81",
-                    "reference": "33c371f4fe780135553bbc62801e42bae87def81",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "wp-cli/wp-cli": "*"
-                },
-                "time": "2017-10-10 17:12:24",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme",
-                        "scaffold package-github"
-                    ]
-                },
-                "autoload": {
-                    "psr-4": {
-                        "WP_CLI\\": "src"
-                    },
-                    "files": [
-                        "scaffold-package-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/add-context-for-regex"
                 }
             },
             "dev-ignore-composer-lock": {
