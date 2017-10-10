@@ -2612,18 +2612,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/buddypress/wp-cli-buddypress.git",
-                    "reference": "553abf79107272a208ab6d9bf64169b3f7ac10de"
+                    "reference": "898b643104b7fac0995631abf6db49cae5035a9c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/553abf79107272a208ab6d9bf64169b3f7ac10de",
-                    "reference": "553abf79107272a208ab6d9bf64169b3f7ac10de",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/898b643104b7fac0995631abf6db49cae5035a9c",
+                    "reference": "898b643104b7fac0995631abf6db49cae5035a9c",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3"
                 },
-                "time": "2017-09-25 13:47:54",
+                "time": "2017-10-10 16:12:29",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -2697,6 +2697,54 @@
                     "bp",
                     "buddypress",
                     "community",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/buddypress/wp-cli-buddypress/issues",
+                    "source": "https://github.com/buddypress/wp-cli-buddypress"
+                }
+            },
+            "dev-groups": {
+                "name": "buddypress/wp-cli-buddypress",
+                "version": "dev-groups",
+                "version_normalized": "dev-groups",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/buddypress/wp-cli-buddypress.git",
+                    "reference": "6e64714e65c54bf58c97813b8f838497d848662a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/6e64714e65c54bf58c97813b8f838497d848662a",
+                    "reference": "6e64714e65c54bf58c97813b8f838497d848662a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "time": "2017-10-10 16:03:26",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-cli-bp.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Boone B Gorges",
+                        "email": "boone@gorg.es",
+                        "homepage": "http://boone.gorg.es/"
+                    }
+                ],
+                "description": "WP-CLI commands for BuddyPress",
+                "homepage": "https://github.com/buddypress/wp-cli-buddypress",
+                "keywords": [
+                    "bp",
+                    "buddypress",
                     "wordpress",
                     "wp-cli"
                 ],
