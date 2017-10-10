@@ -14950,12 +14950,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/profile-command.git",
-                    "reference": "bb9445a68c94a7990ea887105331dec60bab717a"
+                    "reference": "fe38615456940bde23d72c691df2a55e5868c34c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/bb9445a68c94a7990ea887105331dec60bab717a",
-                    "reference": "bb9445a68c94a7990ea887105331dec60bab717a",
+                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/fe38615456940bde23d72c691df2a55e5868c34c",
+                    "reference": "fe38615456940bde23d72c691df2a55e5868c34c",
                     "shasum": ""
                 },
                 "require": {
@@ -14965,7 +14965,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-10-10 07:13:39",
+                "time": "2017-10-10 11:54:16",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15366,19 +15366,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "63f1022d1aa38f9939f9056983613fc95fe6e364"
+                    "reference": "75dbc66e3175fe91a109b1b3d2b835b861839c86"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/63f1022d1aa38f9939f9056983613fc95fe6e364",
-                    "reference": "63f1022d1aa38f9939f9056983613fc95fe6e364",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/75dbc66e3175fe91a109b1b3d2b835b861839c86",
+                    "reference": "75dbc66e3175fe91a109b1b3d2b835b861839c86",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-09-26 14:17:57",
+                "time": "2017-10-10 11:58:51",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15471,63 +15471,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/ignore-composer-lock"
-                }
-            },
-            "dev-remove-composer-lock": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-remove-composer-lock",
-                "version_normalized": "dev-remove-composer-lock",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "2423a7ced219e38629fb3b529c45877302354b11"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/2423a7ced219e38629fb3b529c45877302354b11",
-                    "reference": "2423a7ced219e38629fb3b529c45877302354b11",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "wp-cli/wp-cli": "*"
-                },
-                "time": "2017-10-10 03:15:28",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme",
-                        "scaffold package-github"
-                    ]
-                },
-                "autoload": {
-                    "psr-4": {
-                        "WP_CLI\\": "src"
-                    },
-                    "files": [
-                        "scaffold-package-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffold WP-CLI commands with functional tests",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/remove-composer-lock"
                 }
             },
             "dev-render-mustache": {
