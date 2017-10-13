@@ -2760,18 +2760,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/buddypress/wp-cli-buddypress.git",
-                    "reference": "2a50545ee975eec9eda02a106b71a3421280392b"
+                    "reference": "f3e0dbcfc7f5841fffb0837a0779f579d6565413"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/2a50545ee975eec9eda02a106b71a3421280392b",
-                    "reference": "2a50545ee975eec9eda02a106b71a3421280392b",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/f3e0dbcfc7f5841fffb0837a0779f579d6565413",
+                    "reference": "f3e0dbcfc7f5841fffb0837a0779f579d6565413",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3"
                 },
-                "time": "2017-10-13 17:55:23",
+                "time": "2017-10-13 19:46:44",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
