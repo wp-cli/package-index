@@ -13414,6 +13414,59 @@
                     "issues": "https://github.com/vccw-team/scaffold-vccw/issues"
                 }
             },
+            "1.4.0": {
+                "name": "vccw/scaffold-vccw",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/scaffold-vccw.git",
+                    "reference": "9115dc3c8deb1096c9b7907d2bdf2341ec5ef837"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/scaffold-vccw/zipball/9115dc3c8deb1096c9b7907d2bdf2341ec5ef837",
+                    "reference": "9115dc3c8deb1096c9b7907d2bdf2341ec5ef837",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "phpunit/phpunit": "~5.6",
+                    "wp-cli/wp-cli": "*"
+                },
+                "time": "2017-10-14 19:17:09",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "scripts": {
+                    "install-phpunit-env": [
+                        "bash bin/install-wp-tests.sh wordpress_test root '' localhost latest"
+                    ],
+                    "install-behat-env": [
+                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar bash bin/install-package-tests.sh"
+                    ],
+                    "setup": [
+                        "composer run install-phpunit-env && composer run install-behat-env"
+                    ],
+                    "test": [
+                        "phpunit && WP_CLI_BIN_DIR=/tmp/wp-cli-phar behat"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "https://github.com/vccw-team/scaffold-vccw",
+                "support": {
+                    "source": "https://github.com/vccw-team/scaffold-vccw/tree/1.4.0",
+                    "issues": "https://github.com/vccw-team/scaffold-vccw/issues"
+                }
+            },
             "dev-master": {
                 "name": "vccw/scaffold-vccw",
                 "version": "dev-master",
@@ -13474,22 +13527,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/vccw-team/scaffold-vccw.git",
-                    "reference": "8cad05a557f4ba0807255da9507741bd5ad0b5aa"
+                    "reference": "9115dc3c8deb1096c9b7907d2bdf2341ec5ef837"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/scaffold-vccw/zipball/8cad05a557f4ba0807255da9507741bd5ad0b5aa",
-                    "reference": "8cad05a557f4ba0807255da9507741bd5ad0b5aa",
+                    "url": "https://api.github.com/repos/vccw-team/scaffold-vccw/zipball/9115dc3c8deb1096c9b7907d2bdf2341ec5ef837",
+                    "reference": "9115dc3c8deb1096c9b7907d2bdf2341ec5ef837",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
-                    "phpunit/phpunit": "^4.8",
-                    "wp-cli/wp-cli": ">=0.23.0"
+                    "phpunit/phpunit": "~5.6",
+                    "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-02-06 09:49:37",
+                "time": "2017-10-14 19:17:09",
                 "type": "wp-cli-package",
                 "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
                     "files": [
                         "cli.php"
                     ]
@@ -13513,7 +13569,7 @@
                 ],
                 "homepage": "https://github.com/vccw-team/scaffold-vccw",
                 "support": {
-                    "source": "https://github.com/vccw-team/scaffold-vccw/tree/1.3.0",
+                    "source": "https://github.com/vccw-team/scaffold-vccw/tree/1.4.0",
                     "issues": "https://github.com/vccw-team/scaffold-vccw/issues"
                 }
             }
