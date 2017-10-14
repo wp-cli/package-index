@@ -13414,6 +13414,59 @@
                     "issues": "https://github.com/vccw-team/scaffold-vccw/issues"
                 }
             },
+            "dev-master": {
+                "name": "vccw/scaffold-vccw",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/scaffold-vccw.git",
+                    "reference": "34fc5d0480b6cb23d59b68adc508e93326ece7a7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/scaffold-vccw/zipball/34fc5d0480b6cb23d59b68adc508e93326ece7a7",
+                    "reference": "34fc5d0480b6cb23d59b68adc508e93326ece7a7",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "phpunit/phpunit": "~5.6",
+                    "wp-cli/wp-cli": "*"
+                },
+                "time": "2017-10-14 17:37:41",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "scripts": {
+                    "install-phpunit-env": [
+                        "bash bin/install-wp-tests.sh wordpress_test root '' localhost latest"
+                    ],
+                    "install-behat-env": [
+                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar bash bin/install-package-tests.sh"
+                    ],
+                    "setup": [
+                        "composer run install-phpunit-env && composer run install-behat-env"
+                    ],
+                    "test": [
+                        "phpunit && WP_CLI_BIN_DIR=/tmp/wp-cli-phar behat"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "https://github.com/vccw-team/scaffold-vccw",
+                "support": {
+                    "source": "https://github.com/vccw-team/scaffold-vccw/tree/master",
+                    "issues": "https://github.com/vccw-team/scaffold-vccw/issues"
+                }
+            },
             "dev-stable": {
                 "name": "vccw/scaffold-vccw",
                 "version": "dev-stable",
