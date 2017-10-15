@@ -2912,6 +2912,58 @@
                     "issues": "https://github.com/buddypress/wp-cli-buddypress/issues",
                     "source": "https://github.com/buddypress/wp-cli-buddypress"
                 }
+            },
+            "dev-xprofile": {
+                "name": "buddypress/wp-cli-buddypress",
+                "version": "dev-xprofile",
+                "version_normalized": "dev-xprofile",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/buddypress/wp-cli-buddypress.git",
+                    "reference": "dd53c6fcd6dfe295e7e483ac8991c3ba28a7ff8e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/dd53c6fcd6dfe295e7e483ac8991c3ba28a7ff8e",
+                    "reference": "dd53c6fcd6dfe295e7e483ac8991c3ba28a7ff8e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "wp-cli/wp-cli": ">=0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-10-15 13:48:19",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-cli-bp.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "The BuddPress Contributors",
+                        "homepage": "https://buddypress.org/"
+                    }
+                ],
+                "description": "WP-CLI commands for BuddyPress",
+                "homepage": "https://github.com/buddypress/wp-cli-buddypress",
+                "keywords": [
+                    "bp",
+                    "buddypress",
+                    "community",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/buddypress/wp-cli-buddypress/issues",
+                    "source": "https://github.com/buddypress/wp-cli-buddypress"
+                }
             }
         },
         "c10b10/wp-cli-deploy": {
