@@ -6117,18 +6117,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpup/wp-cli-lint.git",
-                    "reference": "cb1d807d51d38cd2a5d073606ea5fbdfd62ff2b7"
+                    "reference": "efbb985cff651d07386ce461d0d253ad83843bd9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpup/wp-cli-lint/zipball/cb1d807d51d38cd2a5d073606ea5fbdfd62ff2b7",
-                    "reference": "cb1d807d51d38cd2a5d073606ea5fbdfd62ff2b7",
+                    "url": "https://api.github.com/repos/wpup/wp-cli-lint/zipball/efbb985cff651d07386ce461d0d253ad83843bd9",
+                    "reference": "efbb985cff651d07386ce461d0d253ad83843bd9",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-10-20 14:11:44",
+                "time": "2017-10-17 19:06:26",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -6152,8 +6152,8 @@
                     "wp-cli"
                 ],
                 "support": {
-                    "source": "https://github.com/frozzare/wp-cli-lint/tree/master",
-                    "issues": "https://github.com/frozzare/wp-cli-lint/issues"
+                    "source": "https://github.com/wpup/wp-cli-lint/tree/master",
+                    "issues": "https://github.com/wpup/wp-cli-lint/issues"
                 }
             }
         },
@@ -6212,18 +6212,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpup/wp-cli-media-restore.git",
-                    "reference": "5f81ba1c3cb6ad40de9db5a8433a51dd9e1f7143"
+                    "reference": "820f58110723c2e33f28ac658f11418dcf3668ef"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpup/wp-cli-media-restore/zipball/5f81ba1c3cb6ad40de9db5a8433a51dd9e1f7143",
-                    "reference": "5f81ba1c3cb6ad40de9db5a8433a51dd9e1f7143",
+                    "url": "https://api.github.com/repos/wpup/wp-cli-media-restore/zipball/820f58110723c2e33f28ac658f11418dcf3668ef",
+                    "reference": "820f58110723c2e33f28ac658f11418dcf3668ef",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2016-10-20 14:11:53",
+                "time": "2017-10-17 19:07:46",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -6248,8 +6248,8 @@
                     "wp-cli"
                 ],
                 "support": {
-                    "source": "https://github.com/frozzare/wp-cli-media-restore/tree/master",
-                    "issues": "https://github.com/frozzare/wp-cli-media-restore/issues"
+                    "source": "https://github.com/wpup/wp-cli-media-restore/tree/master",
+                    "issues": "https://github.com/wpup/wp-cli-media-restore/issues"
                 }
             }
         },
