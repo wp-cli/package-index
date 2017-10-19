@@ -6109,54 +6109,6 @@
                 }
             }
         },
-        "frozzare/wp-cli-lint": {
-            "dev-master": {
-                "name": "frozzare/wp-cli-lint",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wpup/wp-cli-lint.git",
-                    "reference": "efbb985cff651d07386ce461d0d253ad83843bd9"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wpup/wp-cli-lint/zipball/efbb985cff651d07386ce461d0d253ad83843bd9",
-                    "reference": "efbb985cff651d07386ce461d0d253ad83843bd9",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.4"
-                },
-                "time": "2017-10-17 19:06:26",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "src/class-lint-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Fredrik Forsmo",
-                        "email": "fredrik.forsmo@gmail.com",
-                        "homepage": "https://github.com/frozzare"
-                    }
-                ],
-                "description": "WP-CLI command for linting your code",
-                "homepage": "https://github.com/frozzare/wp-cli-lint",
-                "keywords": [
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "source": "https://github.com/wpup/wp-cli-lint/tree/master",
-                    "issues": "https://github.com/wpup/wp-cli-lint/issues"
-                }
-            }
-        },
         "frozzare/wp-cli-media-restore": {
             "v1.0.0": {
                 "name": "frozzare/wp-cli-media-restore",
