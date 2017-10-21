@@ -10371,18 +10371,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/astorm/wp-static-html-output-plugin.git",
-                    "reference": "137c6ce6b3858cb081d27fa6d07e4969362c4892"
+                    "reference": "179d949568fcc5b971409ebc884a51e0cd6b9634"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/137c6ce6b3858cb081d27fa6d07e4969362c4892",
-                    "reference": "137c6ce6b3858cb081d27fa6d07e4969362c4892",
+                    "url": "https://api.github.com/repos/astorm/wp-static-html-output-plugin/zipball/179d949568fcc5b971409ebc884a51e0cd6b9634",
+                    "reference": "179d949568fcc5b971409ebc884a51e0cd6b9634",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3"
                 },
-                "time": "2017-03-24 18:37:27",
+                "time": "2017-10-21 07:11:19",
                 "type": "command",
                 "autoload": {
                     "files": [
