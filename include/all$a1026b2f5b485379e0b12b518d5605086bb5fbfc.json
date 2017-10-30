@@ -8740,6 +8740,41 @@
                     "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
                 }
             },
+            "v0.6.3": {
+                "name": "pantheon-systems/wp_launch_check",
+                "version": "v0.6.3",
+                "version_normalized": "0.6.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pantheon-systems/wp_launch_check.git",
+                    "reference": "765c7cf7d70f3394f6c73fef4fe3820263c5dff3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/765c7cf7d70f3394f6c73fef4fe3820263c5dff3",
+                    "reference": "765c7cf7d70f3394f6c73fef4fe3820263c5dff3",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "symfony/finder": "~2.3"
+                },
+                "time": "2017-10-30 21:49:17",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "php/commands/launchcheck.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Check against a WordPress for performance and security",
+                "support": {
+                    "source": "https://github.com/pantheon-systems/wp_launch_check/tree/v0.6.3",
+                    "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
+                }
+            },
             "0.6.x-dev": {
                 "name": "pantheon-systems/wp_launch_check",
                 "version": "0.6.x-dev",
@@ -8747,19 +8782,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pantheon-systems/wp_launch_check.git",
-                    "reference": "ebda1af3c41b3290c7134672aa9b5e517f8ad4aa"
+                    "reference": "19e6af04432c27cf2fc6fa700e90011a0b4d8d74"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/ebda1af3c41b3290c7134672aa9b5e517f8ad4aa",
-                    "reference": "ebda1af3c41b3290c7134672aa9b5e517f8ad4aa",
+                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/19e6af04432c27cf2fc6fa700e90011a0b4d8d74",
+                    "reference": "19e6af04432c27cf2fc6fa700e90011a0b4d8d74",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "symfony/finder": "~2.3"
                 },
-                "time": "2017-10-30 19:54:15",
+                "time": "2017-10-30 22:00:46",
                 "type": "library",
                 "autoload": {
                     "files": [
