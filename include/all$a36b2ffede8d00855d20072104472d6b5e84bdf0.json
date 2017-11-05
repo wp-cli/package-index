@@ -2777,18 +2777,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/buddypress/wp-cli-buddypress.git",
-                    "reference": "65a978147be7563ef023161d8cff50dd102fa4b0"
+                    "reference": "6bffb92ec247325d2666d368c385d44e0a75faaf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/65a978147be7563ef023161d8cff50dd102fa4b0",
-                    "reference": "65a978147be7563ef023161d8cff50dd102fa4b0",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/6bffb92ec247325d2666d368c385d44e0a75faaf",
+                    "reference": "6bffb92ec247325d2666d368c385d44e0a75faaf",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.3"
+                    "php": ">=5.3",
+                    "wp-cli/wp-cli": ">=0.23.0"
                 },
-                "time": "2017-11-03 20:34:09",
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-11-05 21:49:34",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -2800,9 +2804,8 @@
                 ],
                 "authors": [
                     {
-                        "name": "Boone B Gorges",
-                        "email": "boone@gorg.es",
-                        "homepage": "http://boone.gorg.es/"
+                        "name": "The BuddPress Contributors",
+                        "homepage": "https://buddypress.org/"
                     }
                 ],
                 "description": "WP-CLI commands for BuddyPress",
@@ -2810,6 +2813,7 @@
                 "keywords": [
                     "bp",
                     "buddypress",
+                    "community",
                     "wordpress",
                     "wp-cli"
                 ],
