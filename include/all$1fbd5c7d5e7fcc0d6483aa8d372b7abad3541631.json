@@ -2612,12 +2612,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/buddypress/wp-cli-buddypress.git",
-                    "reference": "681461f446f6fec825399a68667cdfbb609a2044"
+                    "reference": "120b60cdc83a7fc8a1d1465b047cc9f6a1603968"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/681461f446f6fec825399a68667cdfbb609a2044",
-                    "reference": "681461f446f6fec825399a68667cdfbb609a2044",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/120b60cdc83a7fc8a1d1465b047cc9f6a1603968",
+                    "reference": "120b60cdc83a7fc8a1d1465b047cc9f6a1603968",
                     "shasum": ""
                 },
                 "require": {
@@ -2627,7 +2627,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-11-05 21:17:14",
+                "time": "2017-11-06 16:40:45",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -2829,12 +2829,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/buddypress/wp-cli-buddypress.git",
-                    "reference": "c182bef60b4938b9eb05251e264a5595f3d39d00"
+                    "reference": "1a98714a4e49508d4146e5a6ad322447ca931360"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/c182bef60b4938b9eb05251e264a5595f3d39d00",
-                    "reference": "c182bef60b4938b9eb05251e264a5595f3d39d00",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/1a98714a4e49508d4146e5a6ad322447ca931360",
+                    "reference": "1a98714a4e49508d4146e5a6ad322447ca931360",
                     "shasum": ""
                 },
                 "require": {
@@ -2844,7 +2844,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-11-06 01:23:08",
+                "time": "2017-11-06 16:33:56",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
