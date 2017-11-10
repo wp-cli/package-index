@@ -2734,12 +2734,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/buddypress/wp-cli-buddypress.git",
-                    "reference": "9ac0160d32ce8ac06770fe80ec8a5f84b1fca64e"
+                    "reference": "de97d2790eb1367e6551e386389619419a550012"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/9ac0160d32ce8ac06770fe80ec8a5f84b1fca64e",
-                    "reference": "9ac0160d32ce8ac06770fe80ec8a5f84b1fca64e",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/de97d2790eb1367e6551e386389619419a550012",
+                    "reference": "de97d2790eb1367e6551e386389619419a550012",
                     "shasum": ""
                 },
                 "require": {
@@ -2749,7 +2749,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-11-09 14:08:36",
+                "time": "2017-11-10 01:54:37",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
