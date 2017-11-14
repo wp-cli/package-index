@@ -14610,22 +14610,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/doctor-command.git",
-                    "reference": "9298aaee2c0e7326848bdabf9386baf3fc6404cc"
+                    "reference": "fa02aa019c22c72193be9a484da4a078074f7e53"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/9298aaee2c0e7326848bdabf9386baf3fc6404cc",
-                    "reference": "9298aaee2c0e7326848bdabf9386baf3fc6404cc",
+                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/fa02aa019c22c72193be9a484da4a078074f7e53",
+                    "reference": "fa02aa019c22c72193be9a484da4a078074f7e53",
                     "shasum": ""
                 },
                 "require": {
-                    "brightnucleus/mime-types": "^0.2.0",
                     "wp-cli/wp-cli": "*"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-10-09 07:16:11",
+                "time": "2017-11-14 20:39:10",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14732,71 +14731,6 @@
                 "homepage": "https://runcommand.io/wp/doctor/",
                 "support": {
                     "source": "https://github.com/wp-cli/doctor-command/tree/124-format-count",
-                    "issues": "https://github.com/wp-cli/doctor-command/issues"
-                }
-            },
-            "dev-revert-120-feature/GH#88": {
-                "name": "wp-cli/doctor-command",
-                "version": "dev-revert-120-feature/GH#88",
-                "version_normalized": "dev-revert-120-feature/GH#88",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/doctor-command.git",
-                    "reference": "8248a9da4622965fb18e581922ff37b56637882d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/doctor-command/zipball/8248a9da4622965fb18e581922ff37b56637882d",
-                    "reference": "8248a9da4622965fb18e581922ff37b56637882d",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "*"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-11-14 15:45:11",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "readme": {
-                        "sections": [
-                            "Overview",
-                            "Using",
-                            "Installing",
-                            "Contributing"
-                        ],
-                        "overview": {
-                            "body": "bin/readme/overview-body.md"
-                        }
-                    },
-                    "commands": [
-                        "doctor check",
-                        "doctor list"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Diagnose problems within WordPress by running a series of checks for symptoms.",
-                "homepage": "https://runcommand.io/wp/doctor/",
-                "support": {
-                    "source": "https://github.com/wp-cli/doctor-command/tree/revert-120-feature/GH#88",
                     "issues": "https://github.com/wp-cli/doctor-command/issues"
                 }
             }
