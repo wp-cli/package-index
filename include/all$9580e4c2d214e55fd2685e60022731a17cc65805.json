@@ -2132,18 +2132,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/binarygary/db-checkpoint.git",
-                    "reference": "46bc120a81d84581d4d942552ed35acdaa7bcd2f"
+                    "reference": "7e67f215eed00f6f361761aafc2fb0f447d34559"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/46bc120a81d84581d4d942552ed35acdaa7bcd2f",
-                    "reference": "46bc120a81d84581d4d942552ed35acdaa7bcd2f",
+                    "url": "https://api.github.com/repos/binarygary/db-checkpoint/zipball/7e67f215eed00f6f361761aafc2fb0f447d34559",
+                    "reference": "7e67f215eed00f6f361761aafc2fb0f447d34559",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2017-07-05 11:58:24",
+                "time": "2017-11-16 12:23:15",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
