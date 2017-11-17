@@ -16167,12 +16167,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "9f6a4daedea899688a8e4de02b97b7cc6d702884"
+                    "reference": "a1a7b02f9c8a0c7ae5c33b643fcfa312c6c8ab48"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/9f6a4daedea899688a8e4de02b97b7cc6d702884",
-                    "reference": "9f6a4daedea899688a8e4de02b97b7cc6d702884",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/a1a7b02f9c8a0c7ae5c33b643fcfa312c6c8ab48",
+                    "reference": "a1a7b02f9c8a0c7ae5c33b643fcfa312c6c8ab48",
                     "shasum": ""
                 },
                 "require": {
@@ -16181,7 +16181,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-09-29 15:14:01",
+                "time": "2017-11-17 20:38:51",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -16215,63 +16215,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/server-command/issues",
                     "source": "https://github.com/wp-cli/server-command/tree/master"
-                }
-            },
-            "dev-update-tests-enable-error-reporting": {
-                "name": "wp-cli/server-command",
-                "version": "dev-update-tests-enable-error-reporting",
-                "version_normalized": "dev-update-tests-enable-error-reporting",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "e7ef3dc5dfc557eb2a1005e594893be4bf9a37ef"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/e7ef3dc5dfc557eb2a1005e594893be4bf9a37ef",
-                    "reference": "e7ef3dc5dfc557eb2a1005e594893be4bf9a37ef",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "*"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-11-17 20:18:36",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "server"
-                    ],
-                    "bundled": true
-                },
-                "autoload": {
-                    "psr-4": {
-                        "": "src/"
-                    },
-                    "files": [
-                        "server-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Launch PHP's built-in web server for this specific WordPress installation.",
-                "homepage": "https://github.com/wp-cli/server-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/server-command/issues",
-                    "source": "https://github.com/wp-cli/server-command/tree/update-tests-enable-error-reporting"
                 }
             }
         },
