@@ -15507,19 +15507,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "e50da576428932e7841d00af2f8d1c5bfea50b73"
+                    "reference": "7bc8ce60b70405f7e5de66cddb8c5cc0874d2753"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/e50da576428932e7841d00af2f8d1c5bfea50b73",
-                    "reference": "e50da576428932e7841d00af2f8d1c5bfea50b73",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/7bc8ce60b70405f7e5de66cddb8c5cc0874d2753",
+                    "reference": "7bc8ce60b70405f7e5de66cddb8c5cc0874d2753",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-11-14 16:50:51",
+                "time": "2017-11-17 21:24:33",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15597,63 +15597,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/render-mustache"
-                }
-            },
-            "dev-restore-code-review-link": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-restore-code-review-link",
-                "version_normalized": "dev-restore-code-review-link",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "910602289ed7f327dd7001fb37534ccdcf0b98cd"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/910602289ed7f327dd7001fb37534ccdcf0b98cd",
-                    "reference": "910602289ed7f327dd7001fb37534ccdcf0b98cd",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "wp-cli/wp-cli": "*"
-                },
-                "time": "2017-11-17 20:22:36",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme",
-                        "scaffold package-github"
-                    ]
-                },
-                "autoload": {
-                    "psr-4": {
-                        "WP_CLI\\": "src"
-                    },
-                    "files": [
-                        "scaffold-package-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffolds WP-CLI commands with functional tests, full README.md, and more.",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/restore-code-review-link"
                 }
             },
             "dev-update-tests-enable-error-reporting": {
