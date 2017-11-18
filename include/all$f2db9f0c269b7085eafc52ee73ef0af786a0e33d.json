@@ -14155,12 +14155,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "fe58fadc09c56fd1f94d561305ac8249166b9794"
+                    "reference": "80bbf61a343a4e041e293b6809b5e39aa8248830"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/fe58fadc09c56fd1f94d561305ac8249166b9794",
-                    "reference": "fe58fadc09c56fd1f94d561305ac8249166b9794",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/80bbf61a343a4e041e293b6809b5e39aa8248830",
+                    "reference": "80bbf61a343a4e041e293b6809b5e39aa8248830",
                     "shasum": ""
                 },
                 "require-dev": {
@@ -14168,7 +14168,7 @@
                     "phpunit/phpunit": "~5.6",
                     "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-11-18 12:29:20",
+                "time": "2017-11-18 12:46:04",
                 "type": "wp-cli-package",
                 "autoload": {
                     "psr-4": {
