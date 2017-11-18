@@ -14155,20 +14155,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "ffe9b73034ab294406aefcd07b982a4cc6354ac5"
+                    "reference": "040cf650f74d678ef33c26b445521d281ef01507"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/ffe9b73034ab294406aefcd07b982a4cc6354ac5",
-                    "reference": "ffe9b73034ab294406aefcd07b982a4cc6354ac5",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/040cf650f74d678ef33c26b445521d281ef01507",
+                    "reference": "040cf650f74d678ef33c26b445521d281ef01507",
                     "shasum": ""
                 },
                 "require-dev": {
-                    "behat/behat": "~2.5"
+                    "behat/behat": "~2.5",
+                    "phpunit/phpunit": "~5.6",
+                    "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-11-18 11:23:47",
+                "time": "2017-11-18 11:57:45",
                 "type": "wp-cli-package",
                 "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
                     "files": [
                         "cli.php"
                     ]
@@ -14182,7 +14187,7 @@
                         "homepage": "http://vccw.cc/"
                     }
                 ],
-                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "description": "Get informations as YAML format for Wordmove's movefile.yml from WordPress",
                 "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
                 "support": {
                     "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/update-test-framework",
