@@ -14073,18 +14073,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "fb6574f0b84c6d3698551b89ebc7cda4c091b3ca"
+                    "reference": "55bd6c7fae1988bfd4483242d23eb80a45abbc52"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/fb6574f0b84c6d3698551b89ebc7cda4c091b3ca",
-                    "reference": "fb6574f0b84c6d3698551b89ebc7cda4c091b3ca",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/55bd6c7fae1988bfd4483242d23eb80a45abbc52",
+                    "reference": "55bd6c7fae1988bfd4483242d23eb80a45abbc52",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-11-18 15:00:43",
+                "time": "2017-11-18 15:03:06",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -14108,10 +14108,62 @@
                         "homepage": "http://vccw.cc/"
                     }
                 ],
-                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "description": "Get informations as YAML format for Wordmove's movefile.yml from WordPress",
                 "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
                 "support": {
                     "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/master",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "dev-bugfix-for-tests": {
+                "name": "vccw/wp-cli-scaffold-movefile",
+                "version": "dev-bugfix-for-tests",
+                "version_normalized": "dev-bugfix-for-tests",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "85b79e115acc911813f277ae2237d3206829cc00"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/85b79e115acc911813f277ae2237d3206829cc00",
+                    "reference": "85b79e115acc911813f277ae2237d3206829cc00",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-11-18 15:29:44",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "scripts": {
+                    "setup": [
+                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar bash bin/install-package-tests.sh"
+                    ],
+                    "test": [
+                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar ./vendor/bin/behat"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's movefile.yml from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/bugfix-for-tests",
                     "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
                 }
             },
