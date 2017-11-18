@@ -14073,22 +14073,30 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "7652ff5e08d0e289d8b5ef64f289bc86815a7e19"
+                    "reference": "fb6574f0b84c6d3698551b89ebc7cda4c091b3ca"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/7652ff5e08d0e289d8b5ef64f289bc86815a7e19",
-                    "reference": "7652ff5e08d0e289d8b5ef64f289bc86815a7e19",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/fb6574f0b84c6d3698551b89ebc7cda4c091b3ca",
+                    "reference": "fb6574f0b84c6d3698551b89ebc7cda4c091b3ca",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-07-18 22:10:04",
+                "time": "2017-11-18 15:00:43",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "cli.php"
+                    ]
+                },
+                "scripts": {
+                    "setup": [
+                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar bash bin/install-package-tests.sh"
+                    ],
+                    "test": [
+                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar ./vendor/bin/behat"
                     ]
                 },
                 "license": [
@@ -14155,12 +14163,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "bf8774c27f6581b54b20d6e786a4e6db4269127a"
+                    "reference": "79583d14ffeaecb893b670adc7c7378fd3fe72e1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/bf8774c27f6581b54b20d6e786a4e6db4269127a",
-                    "reference": "bf8774c27f6581b54b20d6e786a4e6db4269127a",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/79583d14ffeaecb893b670adc7c7378fd3fe72e1",
+                    "reference": "79583d14ffeaecb893b670adc7c7378fd3fe72e1",
                     "shasum": ""
                 },
                 "require-dev": {
@@ -14168,7 +14176,7 @@
                     "phpunit/phpunit": "~5.6",
                     "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-11-18 14:16:15",
+                "time": "2017-11-18 14:40:39",
                 "type": "wp-cli-package",
                 "autoload": {
                     "psr-4": {
