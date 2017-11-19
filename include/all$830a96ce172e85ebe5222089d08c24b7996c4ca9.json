@@ -6876,25 +6876,25 @@
                     "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
                 }
             },
-            "dev-master": {
+            "1.3": {
                 "name": "JayWood/jw-wpcli-random-posts",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
-                    "reference": "5066abd51f967fb48c15da5400d7df76d25bb645"
+                    "reference": "f19421701548fd2b044be89706fe4c8db5b8f529"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/5066abd51f967fb48c15da5400d7df76d25bb645",
-                    "reference": "5066abd51f967fb48c15da5400d7df76d25bb645",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/f19421701548fd2b044be89706fe4c8db5b8f529",
+                    "reference": "f19421701548fd2b044be89706fe4c8db5b8f529",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4"
                 },
-                "time": "2017-02-24 19:58:00",
+                "time": "2017-11-19 04:47:09",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -6920,7 +6920,55 @@
                     "wp-cli"
                 ],
                 "support": {
-                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/master",
+                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/1.3",
+                    "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
+                }
+            },
+            "dev-master": {
+                "name": "JayWood/jw-wpcli-random-posts",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
+                    "reference": "f19421701548fd2b044be89706fe4c8db5b8f529"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/f19421701548fd2b044be89706fe4c8db5b8f529",
+                    "reference": "f19421701548fd2b044be89706fe4c8db5b8f529",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2017-11-19 04:47:09",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "generate-posts.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Jay Wood",
+                        "email": "jjwood2004@gmail.com",
+                        "homepage": "http://plugish.com"
+                    }
+                ],
+                "description": "A robust random post generator for WP CLI which supports multisite, post types, post counts, taxonomies, terms, term counts and featured images.",
+                "homepage": "http://plugish.com",
+                "keywords": [
+                    "placeholder",
+                    "random posts",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/1.3",
                     "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
                 }
             },
