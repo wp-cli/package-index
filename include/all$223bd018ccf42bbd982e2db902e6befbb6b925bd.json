@@ -15600,19 +15600,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "7bc8ce60b70405f7e5de66cddb8c5cc0874d2753"
+                    "reference": "c9a48df3ac416564f00f4e78efc0b9ff191c2f0d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/7bc8ce60b70405f7e5de66cddb8c5cc0874d2753",
-                    "reference": "7bc8ce60b70405f7e5de66cddb8c5cc0874d2753",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/c9a48df3ac416564f00f4e78efc0b9ff191c2f0d",
+                    "reference": "c9a48df3ac416564f00f4e78efc0b9ff191c2f0d",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-11-17 21:24:33",
+                "time": "2017-11-20 15:13:09",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15690,63 +15690,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/render-mustache"
-                }
-            },
-            "dev-update-tests-enable-error-reporting": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-update-tests-enable-error-reporting",
-                "version_normalized": "dev-update-tests-enable-error-reporting",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "3a9bde1c81396586f0974774dc9212a0ac4cff38"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/3a9bde1c81396586f0974774dc9212a0ac4cff38",
-                    "reference": "3a9bde1c81396586f0974774dc9212a0ac4cff38",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "wp-cli/wp-cli": "*"
-                },
-                "time": "2017-11-18 18:45:20",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme",
-                        "scaffold package-github"
-                    ]
-                },
-                "autoload": {
-                    "psr-4": {
-                        "WP_CLI\\": "src"
-                    },
-                    "files": [
-                        "scaffold-package-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffolds WP-CLI commands with functional tests, full README.md, and more.",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/update-tests-enable-error-reporting"
                 }
             }
         },
