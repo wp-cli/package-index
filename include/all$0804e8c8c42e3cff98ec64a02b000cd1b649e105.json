@@ -14218,18 +14218,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "e22a3a11bd7e5bbeaedd825231e360f7b7955346"
+                    "reference": "85f34a5e3cc5da5f06a7e9ba0b92bcd107cbc9e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/e22a3a11bd7e5bbeaedd825231e360f7b7955346",
-                    "reference": "e22a3a11bd7e5bbeaedd825231e360f7b7955346",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/85f34a5e3cc5da5f06a7e9ba0b92bcd107cbc9e9",
+                    "reference": "85f34a5e3cc5da5f06a7e9ba0b92bcd107cbc9e9",
                     "shasum": ""
                 },
                 "require-dev": {
-                    "behat/behat": "~2.5"
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli": "dev-master"
                 },
-                "time": "2017-11-22 09:33:19",
+                "time": "2017-11-22 14:29:16",
                 "type": "wp-cli-package",
                 "autoload": {
                     "psr-4": {
@@ -14259,7 +14260,7 @@
                 "description": "Get informations as YAML format for Wordmove's movefile.yml from WordPress",
                 "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
                 "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.8.1",
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/master",
                     "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
                 }
             },
