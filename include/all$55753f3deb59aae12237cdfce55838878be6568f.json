@@ -6646,12 +6646,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/itspriddle/wp-cli-tgmpa-plugin.git",
-                    "reference": "e42828451ea8b9ca9c8ec61c80b93da69a79984e"
+                    "reference": "5c439addbdfec5b3860a3abedda970a09462ce31"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/itspriddle/wp-cli-tgmpa-plugin/zipball/e42828451ea8b9ca9c8ec61c80b93da69a79984e",
-                    "reference": "e42828451ea8b9ca9c8ec61c80b93da69a79984e",
+                    "url": "https://api.github.com/repos/itspriddle/wp-cli-tgmpa-plugin/zipball/5c439addbdfec5b3860a3abedda970a09462ce31",
+                    "reference": "5c439addbdfec5b3860a3abedda970a09462ce31",
                     "shasum": ""
                 },
                 "require": {
@@ -6660,7 +6660,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-10-09 17:54:54",
+                "time": "2017-11-22 17:57:47",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -6680,23 +6680,23 @@
                 "description": "Manage TGMPA plugins with WP-CLI",
                 "homepage": "https://github.com/itspriddle/wp-cli-tgmpa-plugin",
                 "support": {
-                    "source": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/tree/v0.2.0",
+                    "source": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/tree/master",
                     "issues": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/issues"
                 }
             },
-            "dev-bugfix/cache": {
+            "dev-bump/version": {
                 "name": "itspriddle/wp-cli-tgmpa-plugin",
-                "version": "dev-bugfix/cache",
-                "version_normalized": "dev-bugfix/cache",
+                "version": "dev-bump/version",
+                "version_normalized": "dev-bump/version",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/itspriddle/wp-cli-tgmpa-plugin.git",
-                    "reference": "dfc1d2c0477350b09ef0984dbdc82ff7fd29f22a"
+                    "reference": "0b02447936fe4838f5dc4cd8223646f8a5fd8ee7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/itspriddle/wp-cli-tgmpa-plugin/zipball/dfc1d2c0477350b09ef0984dbdc82ff7fd29f22a",
-                    "reference": "dfc1d2c0477350b09ef0984dbdc82ff7fd29f22a",
+                    "url": "https://api.github.com/repos/itspriddle/wp-cli-tgmpa-plugin/zipball/0b02447936fe4838f5dc4cd8223646f8a5fd8ee7",
+                    "reference": "0b02447936fe4838f5dc4cd8223646f8a5fd8ee7",
                     "shasum": ""
                 },
                 "require": {
@@ -6705,7 +6705,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-11-22 03:48:32",
+                "time": "2017-11-22 17:58:35",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -6725,7 +6725,7 @@
                 "description": "Manage TGMPA plugins with WP-CLI",
                 "homepage": "https://github.com/itspriddle/wp-cli-tgmpa-plugin",
                 "support": {
-                    "source": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/tree/bugfix/cache",
+                    "source": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/tree/bump/version",
                     "issues": "https://github.com/itspriddle/wp-cli-tgmpa-plugin/issues"
                 }
             },
