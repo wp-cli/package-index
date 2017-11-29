@@ -15675,19 +15675,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "1fe0c70a74acb0e1f75c6e6a27f37efa769d215b"
+                    "reference": "55b58806a6f0847cb0953e90bc93f8eda2f0ffbb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/1fe0c70a74acb0e1f75c6e6a27f37efa769d215b",
-                    "reference": "1fe0c70a74acb0e1f75c6e6a27f37efa769d215b",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/55b58806a6f0847cb0953e90bc93f8eda2f0ffbb",
+                    "reference": "55b58806a6f0847cb0953e90bc93f8eda2f0ffbb",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-11-29 14:16:20",
+                "time": "2017-11-29 17:21:32",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15780,63 +15780,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/dont-cache-vendor"
-                }
-            },
-            "dev-fix-label-generation": {
-                "name": "wp-cli/scaffold-package-command",
-                "version": "dev-fix-label-generation",
-                "version_normalized": "dev-fix-label-generation",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "28e29a1255770b146539924c29c2b7cd8ab42969"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/28e29a1255770b146539924c29c2b7cd8ab42969",
-                    "reference": "28e29a1255770b146539924c29c2b7cd8ab42969",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "wp-cli/wp-cli": "*"
-                },
-                "time": "2017-11-29 16:50:34",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "scaffold package",
-                        "scaffold package-tests",
-                        "scaffold package-readme",
-                        "scaffold package-github"
-                    ]
-                },
-                "autoload": {
-                    "psr-4": {
-                        "WP_CLI\\": "src"
-                    },
-                    "files": [
-                        "scaffold-package-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Scaffolds WP-CLI commands with functional tests, full README.md, and more.",
-                "homepage": "https://github.com/wp-cli/scaffold-package-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/fix-label-generation"
                 }
             },
             "dev-render-mustache": {
