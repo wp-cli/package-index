@@ -16335,12 +16335,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "836c6c704dff3241c3d97d957e022553eafc4852"
+                    "reference": "ed3d2b5c4edab8aaa2e2b0cb4603ca146dc7d2c2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/836c6c704dff3241c3d97d957e022553eafc4852",
-                    "reference": "836c6c704dff3241c3d97d957e022553eafc4852",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/ed3d2b5c4edab8aaa2e2b0cb4603ca146dc7d2c2",
+                    "reference": "ed3d2b5c4edab8aaa2e2b0cb4603ca146dc7d2c2",
                     "shasum": ""
                 },
                 "require": {
@@ -16349,7 +16349,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-11-21 00:44:40",
+                "time": "2017-11-29 16:06:06",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -16383,63 +16383,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/server-command/issues",
                     "source": "https://github.com/wp-cli/server-command/tree/master"
-                }
-            },
-            "dev-remove-sudo": {
-                "name": "wp-cli/server-command",
-                "version": "dev-remove-sudo",
-                "version_normalized": "dev-remove-sudo",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "da67e41359da4f6d13e1bfc3f4741a909bda7a6a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/da67e41359da4f6d13e1bfc3f4741a909bda7a6a",
-                    "reference": "da67e41359da4f6d13e1bfc3f4741a909bda7a6a",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "*"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-11-29 15:09:58",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "server"
-                    ],
-                    "bundled": true
-                },
-                "autoload": {
-                    "psr-4": {
-                        "": "src/"
-                    },
-                    "files": [
-                        "server-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Launch PHP's built-in web server for this specific WordPress installation.",
-                "homepage": "https://github.com/wp-cli/server-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/server-command/issues",
-                    "source": "https://github.com/wp-cli/server-command/tree/remove-sudo"
                 }
             }
         },
