@@ -16226,12 +16226,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "ed3d2b5c4edab8aaa2e2b0cb4603ca146dc7d2c2"
+                    "reference": "1d3548d642a0ee6c4b59d1cd38b889c3db526132"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/ed3d2b5c4edab8aaa2e2b0cb4603ca146dc7d2c2",
-                    "reference": "ed3d2b5c4edab8aaa2e2b0cb4603ca146dc7d2c2",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/1d3548d642a0ee6c4b59d1cd38b889c3db526132",
+                    "reference": "1d3548d642a0ee6c4b59d1cd38b889c3db526132",
                     "shasum": ""
                 },
                 "require": {
@@ -16240,7 +16240,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-11-29 16:06:06",
+                "time": "2017-12-06 01:05:27",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -16269,7 +16269,7 @@
                         "homepage": "https://runcommand.io"
                     }
                 ],
-                "description": "Launch PHP's built-in web server for this specific WordPress installation.",
+                "description": "Launches PHP's built-in web server for a specific WordPress installation.",
                 "homepage": "https://github.com/wp-cli/server-command",
                 "support": {
                     "issues": "https://github.com/wp-cli/server-command/issues",
