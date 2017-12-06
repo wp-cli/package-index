@@ -16226,12 +16226,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "1d3548d642a0ee6c4b59d1cd38b889c3db526132"
+                    "reference": "fae4547d65c5aef3c81a505e10e8931c9645be13"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/1d3548d642a0ee6c4b59d1cd38b889c3db526132",
-                    "reference": "1d3548d642a0ee6c4b59d1cd38b889c3db526132",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/fae4547d65c5aef3c81a505e10e8931c9645be13",
+                    "reference": "fae4547d65c5aef3c81a505e10e8931c9645be13",
                     "shasum": ""
                 },
                 "require": {
@@ -16240,7 +16240,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-12-06 01:05:27",
+                "time": "2017-12-06 21:51:40",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -16274,63 +16274,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/server-command/issues",
                     "source": "https://github.com/wp-cli/server-command/tree/master"
-                }
-            },
-            "dev-fix-github-labels": {
-                "name": "wp-cli/server-command",
-                "version": "dev-fix-github-labels",
-                "version_normalized": "dev-fix-github-labels",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "1daee8323f839ca48ede6e4346593261578373e8"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/1daee8323f839ca48ede6e4346593261578373e8",
-                    "reference": "1daee8323f839ca48ede6e4346593261578373e8",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "*"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-12-06 20:17:08",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "server"
-                    ],
-                    "bundled": true
-                },
-                "autoload": {
-                    "psr-4": {
-                        "": "src/"
-                    },
-                    "files": [
-                        "server-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Launches PHP's built-in web server for a specific WordPress installation.",
-                "homepage": "https://github.com/wp-cli/server-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/server-command/issues",
-                    "source": "https://github.com/wp-cli/server-command/tree/fix-github-labels"
                 }
             }
         },
