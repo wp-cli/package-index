@@ -16226,12 +16226,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "fae4547d65c5aef3c81a505e10e8931c9645be13"
+                    "reference": "7b3f3f1e4508a610b3254e0018ca32755492eef4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/fae4547d65c5aef3c81a505e10e8931c9645be13",
-                    "reference": "fae4547d65c5aef3c81a505e10e8931c9645be13",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/7b3f3f1e4508a610b3254e0018ca32755492eef4",
+                    "reference": "7b3f3f1e4508a610b3254e0018ca32755492eef4",
                     "shasum": ""
                 },
                 "require": {
@@ -16240,7 +16240,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-12-06 21:51:40",
+                "time": "2017-12-08 17:44:49",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -16274,63 +16274,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/server-command/issues",
                     "source": "https://github.com/wp-cli/server-command/tree/master"
-                }
-            },
-            "dev-scaffold-tests-readme-12-8": {
-                "name": "wp-cli/server-command",
-                "version": "dev-scaffold-tests-readme-12-8",
-                "version_normalized": "dev-scaffold-tests-readme-12-8",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "0c2fd3f19a002ac8dc854d998b31548db28abe1c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/0c2fd3f19a002ac8dc854d998b31548db28abe1c",
-                    "reference": "0c2fd3f19a002ac8dc854d998b31548db28abe1c",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "*"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-12-08 13:36:02",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "server"
-                    ],
-                    "bundled": true
-                },
-                "autoload": {
-                    "psr-4": {
-                        "": "src/"
-                    },
-                    "files": [
-                        "server-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Launches PHP's built-in web server for a specific WordPress installation.",
-                "homepage": "https://github.com/wp-cli/server-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/server-command/issues",
-                    "source": "https://github.com/wp-cli/server-command/tree/scaffold-tests-readme-12-8"
                 }
             }
         },
