@@ -7627,6 +7627,55 @@
                     "issues": "https://github.com/mattes/wp-cli-git-command/issues",
                     "source": "https://github.com/mattes/wp-cli-git-command"
                 }
+            },
+            "dev-master": {
+                "name": "mattes/wp-cli-git-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mattes/wp-cli-git-command.git",
+                    "reference": "aef050c531848b14d8a56ac60587d2575c60b4f2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mattes/wp-cli-git-command/zipball/aef050c531848b14d8a56ac60587d2575c60b4f2",
+                    "reference": "aef050c531848b14d8a56ac60587d2575c60b4f2",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.11"
+                },
+                "time": "2014-03-04 21:37:19",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-git-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Matthias Kadenbach",
+                        "email": "matthias.kadenbach@gmail.com",
+                        "homepage": "http://matthiaskadenbach.de"
+                    }
+                ],
+                "description": "WordPress Git helpers, like pre-commit hooks for automatic MySQL database dumps.",
+                "homepage": "https://github.com/mattes/wp-cli-git-command",
+                "keywords": [
+                    "dump",
+                    "git",
+                    "mysql",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/mattes/wp-cli-git-command/issues",
+                    "source": "https://github.com/mattes/wp-cli-git-command"
+                }
             }
         },
         "mattes/wp-cli-quick-command": {
