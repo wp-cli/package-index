@@ -7627,55 +7627,6 @@
                     "issues": "https://github.com/mattes/wp-cli-git-command/issues",
                     "source": "https://github.com/mattes/wp-cli-git-command"
                 }
-            },
-            "dev-master": {
-                "name": "mattes/wp-cli-git-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mattes/wp-cli-git-command.git",
-                    "reference": "aef050c531848b14d8a56ac60587d2575c60b4f2"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/mattes/wp-cli-git-command/zipball/aef050c531848b14d8a56ac60587d2575c60b4f2",
-                    "reference": "aef050c531848b14d8a56ac60587d2575c60b4f2",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": ">=0.11"
-                },
-                "time": "2014-03-04 21:37:19",
-                "type": "command",
-                "autoload": {
-                    "files": [
-                        "wp-cli-git-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Matthias Kadenbach",
-                        "email": "matthias.kadenbach@gmail.com",
-                        "homepage": "http://matthiaskadenbach.de"
-                    }
-                ],
-                "description": "WordPress Git helpers, like pre-commit hooks for automatic MySQL database dumps.",
-                "homepage": "https://github.com/mattes/wp-cli-git-command",
-                "keywords": [
-                    "dump",
-                    "git",
-                    "mysql",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "issues": "https://github.com/mattes/wp-cli-git-command/issues",
-                    "source": "https://github.com/mattes/wp-cli-git-command"
-                }
             }
         },
         "mattes/wp-cli-quick-command": {
@@ -16226,12 +16177,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "7b3f3f1e4508a610b3254e0018ca32755492eef4"
+                    "reference": "6192e6d7becd07e4c11a8f1560655c73a3b3526a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/7b3f3f1e4508a610b3254e0018ca32755492eef4",
-                    "reference": "7b3f3f1e4508a610b3254e0018ca32755492eef4",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/6192e6d7becd07e4c11a8f1560655c73a3b3526a",
+                    "reference": "6192e6d7becd07e4c11a8f1560655c73a3b3526a",
                     "shasum": ""
                 },
                 "require": {
@@ -16240,7 +16191,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-12-08 17:44:49",
+                "time": "2017-12-14 20:06:24",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -16274,63 +16225,6 @@
                 "support": {
                     "issues": "https://github.com/wp-cli/server-command/issues",
                     "source": "https://github.com/wp-cli/server-command/tree/master"
-                }
-            },
-            "dev-30-no-htaccess": {
-                "name": "wp-cli/server-command",
-                "version": "dev-30-no-htaccess",
-                "version_normalized": "dev-30-no-htaccess",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "f13e67da72734da0ddd48ddf83acd207d59ab2b1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/f13e67da72734da0ddd48ddf83acd207d59ab2b1",
-                    "reference": "f13e67da72734da0ddd48ddf83acd207d59ab2b1",
-                    "shasum": ""
-                },
-                "require": {
-                    "wp-cli/wp-cli": "*"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-12-14 19:39:00",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "commands": [
-                        "server"
-                    ],
-                    "bundled": true
-                },
-                "autoload": {
-                    "psr-4": {
-                        "": "src/"
-                    },
-                    "files": [
-                        "server-command.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Daniel Bachhuber",
-                        "email": "daniel@runcommand.io",
-                        "homepage": "https://runcommand.io"
-                    }
-                ],
-                "description": "Launches PHP's built-in web server for a specific WordPress installation.",
-                "homepage": "https://github.com/wp-cli/server-command",
-                "support": {
-                    "issues": "https://github.com/wp-cli/server-command/issues",
-                    "source": "https://github.com/wp-cli/server-command/tree/30-no-htaccess"
                 }
             }
         },
