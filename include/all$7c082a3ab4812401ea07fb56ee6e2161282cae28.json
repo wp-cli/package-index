@@ -1300,12 +1300,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "5637efca1c1efd8ccc52adc7c01bc4774b0b043b"
+                    "reference": "95cdb752ab139a205de31c8360002a696c689029"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/5637efca1c1efd8ccc52adc7c01bc4774b0b043b",
-                    "reference": "5637efca1c1efd8ccc52adc7c01bc4774b0b043b",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/95cdb752ab139a205de31c8360002a696c689029",
+                    "reference": "95cdb752ab139a205de31c8360002a696c689029",
                     "shasum": ""
                 },
                 "require": {
@@ -1318,7 +1318,7 @@
                     "johnpbloch/wordpress": "^4.6",
                     "wp-cli/wp-cli": "^0.24.1"
                 },
-                "time": "2016-10-20 18:54:52",
+                "time": "2017-12-30 08:56:51",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -1330,8 +1330,18 @@
                             "[![Travis Build](https://img.shields.io/travis/aaemnnosttv/wp-cli-valet-command/master.svg)](https://travis-ci.org/aaemnnosttv/wp-cli-valet-command)",
                             "[![Packagist](https://img.shields.io/packagist/v/aaemnnosttv/wp-cli-valet-command.svg)](https://packagist.org/packages/aaemnnosttv/wp-cli-valet-command)"
                         ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Troubleshooting",
+                            "Support",
+                            "Contributing"
+                        ],
                         "installing": {
                             "pre": "PREREQUISITES.md"
+                        },
+                        "troubleshooting": {
+                            "pre": "TROUBLESHOOTING.md"
                         }
                     }
                 },
