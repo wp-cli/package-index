@@ -2737,6 +2737,67 @@
                     "source": "https://github.com/buddypress/wp-cli-buddypress"
                 }
             },
+            "dev-list-components": {
+                "name": "buddypress/wp-cli-buddypress",
+                "version": "dev-list-components",
+                "version_normalized": "dev-list-components",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/buddypress/wp-cli-buddypress.git",
+                    "reference": "d6c45fab11f7040621916d55629f16615816209b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/d6c45fab11f7040621916d55629f16615816209b",
+                    "reference": "d6c45fab11f7040621916d55629f16615816209b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "wp-cli/wp-cli": ">=0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-12-30 22:32:01",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "bundled": true,
+                    "commands": [
+                        "bp"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "wp-cli-bp.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "The BuddPress Contributors",
+                        "homepage": "https://buddypress.org/"
+                    }
+                ],
+                "description": "WP-CLI Community Package of BuddyPress commands",
+                "homepage": "https://github.com/buddypress/wp-cli-buddypress",
+                "keywords": [
+                    "bp",
+                    "buddypress",
+                    "community",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/buddypress/wp-cli-buddypress/issues",
+                    "source": "https://github.com/buddypress/wp-cli-buddypress"
+                }
+            },
             "dev-msg-commands": {
                 "name": "buddypress/wp-cli-buddypress",
                 "version": "dev-msg-commands",
