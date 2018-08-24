@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/MU-Migration.git",
-                    "reference": "73eb5388aff1343f5d4b53f64d633748078248f2"
+                    "reference": "ff5eb5a6f9aa6754de3497a1b84e69508c707e5d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/73eb5388aff1343f5d4b53f64d633748078248f2",
-                    "reference": "73eb5388aff1343f5d4b53f64d633748078248f2",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/ff5eb5a6f9aa6754de3497a1b84e69508c707e5d",
+                    "reference": "ff5eb5a6f9aa6754de3497a1b84e69508c707e5d",
                     "shasum": ""
                 },
                 "require": {
@@ -22,7 +22,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-09-29 01:27:18",
+                "time": "2018-07-16 11:46:52",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -169,6 +169,50 @@
                 "support": {
                     "issues": "https://github.com/10up/MU-Migration/issues",
                     "source": "https://github.com/10up/MU-Migration/tree/feature/behat-tests"
+                }
+            },
+            "dev-feature/filter-process-args": {
+                "name": "10up/mu-migration",
+                "version": "dev-feature/filter-process-args",
+                "version_normalized": "dev-feature/filter-process-args",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/10up/MU-Migration.git",
+                    "reference": "e95ea41a4e05b836a2e75a487c8bf6677a38ae5f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/e95ea41a4e05b836a2e75a487c8bf6677a38ae5f",
+                    "reference": "e95ea41a4e05b836a2e75a487c8bf6677a38ae5f",
+                    "shasum": ""
+                },
+                "require": {
+                    "alchemy/zippy": "^0.3.5"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2018-03-17 17:28:53",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "mu-migration.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nícholas André",
+                        "email": "nicholas@iotecnologia.com.br"
+                    }
+                ],
+                "description": "A set of WP-CLI commands to support the migration of single WordPress instances to multisite",
+                "homepage": "https://github.com/10up/MU-Migration",
+                "support": {
+                    "issues": "https://github.com/10up/MU-Migration/issues",
+                    "source": "https://github.com/10up/MU-Migration/tree/feature/filter-process-args"
                 }
             },
             "dev-feature/tables-param": {
@@ -593,32 +637,30 @@
                     "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v1.0.2"
                 }
             },
-            "dev-master": {
+            "v2.0.0": {
                 "name": "aaemnnosttv/wp-cli-dotenv-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v2.0.0",
+                "version_normalized": "2.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
-                    "reference": "f09b5df6a12d8a370432452141e12f945f9ecf5f"
+                    "reference": "1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/f09b5df6a12d8a370432452141e12f945f9ecf5f",
-                    "reference": "f09b5df6a12d8a370432452141e12f945f9ecf5f",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c",
+                    "reference": "1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c",
                     "shasum": ""
                 },
                 "require": {
-                    "php": "^5.5 | ^7.0",
-                    "tightenco/collect": "5.2.*"
+                    "php": "^5.6 | ^7.0"
                 },
                 "require-dev": {
                     "behat/behat": "2.5.*",
-                    "phpunit/phpunit": "^4.8",
-                    "satooshi/php-coveralls": "^1.0",
-                    "wp-cli/wp-cli": "^0.22.0"
+                    "phpunit/phpunit": "^5.0",
+                    "wp-cli/wp-cli": "^1.0"
                 },
-                "time": "2016-10-20 18:53:33",
+                "time": "2018-05-21 06:56:59",
                 "type": "wp-cli-package",
                 "autoload": {
                     "psr-4": {
@@ -634,11 +676,15 @@
                     ]
                 },
                 "scripts": {
+                    "test": [
+                        "@composer run-phpunit",
+                        "@composer run-behat"
+                    ],
                     "run-phpunit": [
-                        "vendor/bin/phpunit --colors=always"
+                        "phpunit --colors=always"
                     ],
                     "run-behat": [
-                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
+                        "behat --ansi"
                     ]
                 },
                 "license": [
@@ -655,7 +701,74 @@
                 "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
                 "support": {
                     "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
-                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master"
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v2.0.0"
+                }
+            },
+            "dev-master": {
+                "name": "aaemnnosttv/wp-cli-dotenv-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
+                    "reference": "1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c",
+                    "reference": "1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.6 | ^7.0"
+                },
+                "require-dev": {
+                    "behat/behat": "2.5.*",
+                    "phpunit/phpunit": "^5.0",
+                    "wp-cli/wp-cli": "^1.0"
+                },
+                "time": "2018-05-21 06:56:59",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI_Dotenv\\": "src/"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/Fixtures.php"
+                    ]
+                },
+                "scripts": {
+                    "test": [
+                        "@composer run-phpunit",
+                        "@composer run-behat"
+                    ],
+                    "run-phpunit": [
+                        "phpunit --colors=always"
+                    ],
+                    "run-behat": [
+                        "behat --ansi"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Evan Mattson",
+                        "email": "me@aaemnnost.tv",
+                        "homepage": "https://aaemnnost.tv"
+                    }
+                ],
+                "description": "Dotenv commands for WP-CLI",
+                "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
+                "support": {
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/v2.0.0"
                 }
             }
         },
@@ -1010,12 +1123,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
-                    "reference": "7de411d0a7dd6ebbed15ebee30709f9bd2958e0f"
+                    "reference": "7550b13b7a7109f91056c704d3789280d658d632"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/7de411d0a7dd6ebbed15ebee30709f9bd2958e0f",
-                    "reference": "7de411d0a7dd6ebbed15ebee30709f9bd2958e0f",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/7550b13b7a7109f91056c704d3789280d658d632",
+                    "reference": "7550b13b7a7109f91056c704d3789280d658d632",
                     "shasum": ""
                 },
                 "require": {
@@ -1025,11 +1138,10 @@
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
-                    "johnpbloch/wordpress": "^4.6",
                     "phpunit/phpunit": "^4.8",
                     "wp-cli/wp-cli": "^1.0"
                 },
-                "time": "2017-08-26 10:42:43",
+                "time": "2018-06-19 13:17:27",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -1045,8 +1157,11 @@
                     ]
                 },
                 "scripts": {
+                    "test": [
+                        "phpunit"
+                    ],
                     "run-behat": [
-                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi"
+                        "behat --ansi"
                     ]
                 },
                 "license": [
@@ -1063,69 +1178,6 @@
                 "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command",
                 "support": {
                     "source": "https://github.com/aaemnnosttv/wp-cli-login-command/tree/master",
-                    "issues": "https://github.com/aaemnnosttv/wp-cli-login-command/issues"
-                }
-            },
-            "dev-develop": {
-                "name": "aaemnnosttv/wp-cli-login-command",
-                "version": "dev-develop",
-                "version_normalized": "dev-develop",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/aaemnnosttv/wp-cli-login-command.git",
-                    "reference": "2e516936a8eedfbaead031596aba59ec18d743c6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-login-command/zipball/2e516936a8eedfbaead031596aba59ec18d743c6",
-                    "reference": "2e516936a8eedfbaead031596aba59ec18d743c6",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer/semver": "^1.0",
-                    "paragonie/random_compat": "^2.0",
-                    "php": "^5.5 || ^7.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "johnpbloch/wordpress": "^4.6",
-                    "phpunit/phpunit": "^4.8",
-                    "wp-cli/wp-cli": "^1.0"
-                },
-                "time": "2017-07-29 08:06:28",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "WP_CLI_Login\\": "src/"
-                    },
-                    "files": [
-                        "command.php"
-                    ]
-                },
-                "autoload-dev": {
-                    "classmap": [
-                        "plugin"
-                    ]
-                },
-                "scripts": {
-                    "run-behat": [
-                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Evan Mattson",
-                        "email": "me@aaemnnost.tv",
-                        "homepage": "https://aaemnnost.tv"
-                    }
-                ],
-                "description": "Log in to WordPress with secure passwordless magic links.",
-                "homepage": "https://github.com/aaemnnosttv/wp-cli-login-command",
-                "support": {
-                    "source": "https://github.com/aaemnnosttv/wp-cli-login-command/tree/develop",
                     "issues": "https://github.com/aaemnnosttv/wp-cli-login-command/issues"
                 }
             }
@@ -1300,12 +1352,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "95cdb752ab139a205de31c8360002a696c689029"
+                    "reference": "82b07dd9f27167ae38715df49966b230cc40fe1c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/95cdb752ab139a205de31c8360002a696c689029",
-                    "reference": "95cdb752ab139a205de31c8360002a696c689029",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/82b07dd9f27167ae38715df49966b230cc40fe1c",
+                    "reference": "82b07dd9f27167ae38715df49966b230cc40fe1c",
                     "shasum": ""
                 },
                 "require": {
@@ -1318,7 +1370,7 @@
                     "johnpbloch/wordpress": "^4.6",
                     "wp-cli/wp-cli": "^0.24.1"
                 },
-                "time": "2017-12-30 08:56:51",
+                "time": "2018-05-14 06:39:52",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -1463,6 +1515,97 @@
                 "support": {
                     "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
                     "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/develop"
+                }
+            },
+            "dev-issue/32-dbprefix-with-bedrock": {
+                "name": "aaemnnosttv/wp-cli-valet-command",
+                "version": "dev-issue/32-dbprefix-with-bedrock",
+                "version_normalized": "dev-issue/32-dbprefix-with-bedrock",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
+                    "reference": "cd6c88fed8e41565ef5f6688c6f05ee97f998382"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/cd6c88fed8e41565ef5f6688c6f05ee97f998382",
+                    "reference": "cd6c88fed8e41565ef5f6688c6f05ee97f998382",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/container": "^5.1",
+                    "php": "^5.5|^7.0",
+                    "symfony/filesystem": "^2.7 | ^3.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "johnpbloch/wordpress": "^4.6",
+                    "wp-cli/wp-cli": "^0.24.1"
+                },
+                "time": "2018-05-28 20:04:14",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "valet new",
+                        "valet destroy"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![Travis Build](https://img.shields.io/travis/aaemnnosttv/wp-cli-valet-command/master.svg)](https://travis-ci.org/aaemnnosttv/wp-cli-valet-command)",
+                            "[![Packagist](https://img.shields.io/packagist/v/aaemnnosttv/wp-cli-valet-command.svg)](https://packagist.org/packages/aaemnnosttv/wp-cli-valet-command)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Troubleshooting",
+                            "Support",
+                            "Contributing"
+                        ],
+                        "installing": {
+                            "pre": "PREREQUISITES.md"
+                        },
+                        "troubleshooting": {
+                            "pre": "TROUBLESHOOTING.md"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI_Valet\\": "src"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "scripts": {
+                    "update-readme": [
+                        "wp scaffold package-readme . --force"
+                    ],
+                    "run-behat": [
+                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Evan Mattson",
+                        "email": "me@aaemnnost.tv",
+                        "homepage": "https://aaemnnost.tv"
+                    }
+                ],
+                "description": "White-glove services for turn-key installs in seconds.",
+                "homepage": "https://aaemnnost.tv/wp-cli-commands/valet/",
+                "keywords": [
+                    "laravel",
+                    "valet",
+                    "wordpress",
+                    "zonda"
+                ],
+                "support": {
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/issue/32-dbprefix-with-bedrock"
                 }
             },
             "dev-project-support/themosis": {
@@ -2567,54 +2710,6 @@
                     "source": "https://github.com/boonebgorges/wp-cli-buddypress"
                 }
             },
-            "1.3.x-dev": {
-                "name": "buddypress/wp-cli-buddypress",
-                "version": "1.3.x-dev",
-                "version_normalized": "1.3.9999999.9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/buddypress/wp-cli-buddypress.git",
-                    "reference": "161f2f8cf445e68b163d3fbc400aa4dfbf948d9c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/161f2f8cf445e68b163d3fbc400aa4dfbf948d9c",
-                    "reference": "161f2f8cf445e68b163d3fbc400aa4dfbf948d9c",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3"
-                },
-                "time": "2017-09-20 15:21:43",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "wp-cli-bp.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Boone B Gorges",
-                        "email": "boone@gorg.es",
-                        "homepage": "http://boone.gorg.es/"
-                    }
-                ],
-                "description": "WP-CLI commands for BuddyPress",
-                "homepage": "https://github.com/boonebgorges/wp-cli-buddypress",
-                "keywords": [
-                    "bp",
-                    "buddypress",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "issues": "https://github.com/boonebgorges/wp-cli-buddypress/issues",
-                    "source": "https://github.com/boonebgorges/wp-cli-buddypress"
-                }
-            },
             "1.5": {
                 "name": "buddypress/wp-cli-buddypress",
                 "version": "1.5",
@@ -2676,6 +2771,128 @@
                     "source": "https://github.com/buddypress/wp-cli-buddypress"
                 }
             },
+            "1.6": {
+                "name": "buddypress/wp-cli-buddypress",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/buddypress/wp-cli-buddypress.git",
+                    "reference": "fb7537c5fe5d0b388c9476f9cfb6078d902c877e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/fb7537c5fe5d0b388c9476f9cfb6078d902c877e",
+                    "reference": "fb7537c5fe5d0b388c9476f9cfb6078d902c877e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "wp-cli/wp-cli": ">=0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2018-05-24 11:58:29",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "bundled": true,
+                    "commands": [
+                        "bp"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "wp-cli-bp.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "The BuddPress Contributors",
+                        "homepage": "https://buddypress.org/"
+                    }
+                ],
+                "description": "WP-CLI Community Package of BuddyPress commands",
+                "homepage": "https://github.com/buddypress/wp-cli-buddypress",
+                "keywords": [
+                    "bp",
+                    "buddypress",
+                    "community",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/buddypress/wp-cli-buddypress/issues",
+                    "source": "https://github.com/buddypress/wp-cli-buddypress"
+                }
+            },
+            "1.7": {
+                "name": "buddypress/wp-cli-buddypress",
+                "version": "1.7",
+                "version_normalized": "1.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/buddypress/wp-cli-buddypress.git",
+                    "reference": "59a6c1cbd2e2927e9ed312923bb2db8a5e865c9c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/59a6c1cbd2e2927e9ed312923bb2db8a5e865c9c",
+                    "reference": "59a6c1cbd2e2927e9ed312923bb2db8a5e865c9c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "wp-cli/wp-cli": ">=0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2018-06-04 14:04:54",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "bundled": true,
+                    "commands": [
+                        "bp"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "wp-cli-bp.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "The BuddPress Contributors",
+                        "homepage": "https://buddypress.org/"
+                    }
+                ],
+                "description": "WP-CLI Community Package of BuddyPress commands",
+                "homepage": "https://github.com/buddypress/wp-cli-buddypress",
+                "keywords": [
+                    "bp",
+                    "buddypress",
+                    "community",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/buddypress/wp-cli-buddypress/issues",
+                    "source": "https://github.com/buddypress/wp-cli-buddypress"
+                }
+            },
             "dev-master": {
                 "name": "buddypress/wp-cli-buddypress",
                 "version": "dev-master",
@@ -2683,22 +2900,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/buddypress/wp-cli-buddypress.git",
-                    "reference": "0b61d10537f156aba401385abeef2d63c5dccfe6"
+                    "reference": "d5634e15c40710338634d481f4112282f09cb728"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/0b61d10537f156aba401385abeef2d63c5dccfe6",
-                    "reference": "0b61d10537f156aba401385abeef2d63c5dccfe6",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/d5634e15c40710338634d481f4112282f09cb728",
+                    "reference": "d5634e15c40710338634d481f4112282f09cb728",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.3",
+                    "php": ">=5.4",
                     "wp-cli/wp-cli": ">=0.23.0"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-12-18 23:48:00",
+                "time": "2018-07-20 19:29:46",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -2737,90 +2954,29 @@
                     "source": "https://github.com/buddypress/wp-cli-buddypress"
                 }
             },
-            "dev-list-components": {
+            "dev-notifications": {
                 "name": "buddypress/wp-cli-buddypress",
-                "version": "dev-list-components",
-                "version_normalized": "dev-list-components",
+                "version": "dev-notifications",
+                "version_normalized": "dev-notifications",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/buddypress/wp-cli-buddypress.git",
-                    "reference": "d6c45fab11f7040621916d55629f16615816209b"
+                    "reference": "063b23757653e46f89db8796162b9b90037ead49"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/d6c45fab11f7040621916d55629f16615816209b",
-                    "reference": "d6c45fab11f7040621916d55629f16615816209b",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/063b23757653e46f89db8796162b9b90037ead49",
+                    "reference": "063b23757653e46f89db8796162b9b90037ead49",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.3",
+                    "php": ">=5.4",
                     "wp-cli/wp-cli": ">=0.23.0"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-12-30 22:32:01",
-                "type": "wp-cli-package",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "bundled": true,
-                    "commands": [
-                        "bp"
-                    ]
-                },
-                "autoload": {
-                    "files": [
-                        "wp-cli-bp.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "The BuddPress Contributors",
-                        "homepage": "https://buddypress.org/"
-                    }
-                ],
-                "description": "WP-CLI Community Package of BuddyPress commands",
-                "homepage": "https://github.com/buddypress/wp-cli-buddypress",
-                "keywords": [
-                    "bp",
-                    "buddypress",
-                    "community",
-                    "wordpress",
-                    "wp-cli"
-                ],
-                "support": {
-                    "issues": "https://github.com/buddypress/wp-cli-buddypress/issues",
-                    "source": "https://github.com/buddypress/wp-cli-buddypress"
-                }
-            },
-            "dev-msg-commands": {
-                "name": "buddypress/wp-cli-buddypress",
-                "version": "dev-msg-commands",
-                "version_normalized": "dev-msg-commands",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/buddypress/wp-cli-buddypress.git",
-                    "reference": "1b925efc7cf716d195984dd5bc9b4ed917580e77"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/1b925efc7cf716d195984dd5bc9b4ed917580e77",
-                    "reference": "1b925efc7cf716d195984dd5bc9b4ed917580e77",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3",
-                    "wp-cli/wp-cli": ">=0.23.0"
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-12-30 21:43:11",
+                "time": "2018-08-06 14:56:24",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -2920,19 +3076,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/c10b10/wp-cli-deploy.git",
-                    "reference": "82ac2b8c3add028a8db67baf3d56189eb31da6fe"
+                    "reference": "f7157c0971832dee00fc06bc77740f7a09508cc2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/82ac2b8c3add028a8db67baf3d56189eb31da6fe",
-                    "reference": "82ac2b8c3add028a8db67baf3d56189eb31da6fe",
+                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/f7157c0971832dee00fc06bc77740f7a09508cc2",
+                    "reference": "f7157c0971832dee00fc06bc77740f7a09508cc2",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4",
                     "wp-cli/wp-cli": ">=0.14"
                 },
-                "time": "2016-10-22 10:00:04",
+                "time": "2018-05-22 08:59:37",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -6419,15 +6575,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/iandunn/wp-cli-plugin-active-on-sites.git",
-                    "reference": "87f4b0298203649c54cf412a2aeb396c4ca2d677"
+                    "reference": "9d2f0216b8af5d4daabfc1500f3073da72d3a631"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/iandunn/wp-cli-plugin-active-on-sites/zipball/87f4b0298203649c54cf412a2aeb396c4ca2d677",
-                    "reference": "87f4b0298203649c54cf412a2aeb396c4ca2d677",
+                    "url": "https://api.github.com/repos/iandunn/wp-cli-plugin-active-on-sites/zipball/9d2f0216b8af5d4daabfc1500f3073da72d3a631",
+                    "reference": "9d2f0216b8af5d4daabfc1500f3073da72d3a631",
                     "shasum": ""
                 },
-                "time": "2017-01-27 23:57:32",
+                "time": "2018-07-09 18:57:52",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -6460,15 +6616,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/iandunn/wp-cli-rename-db-prefix.git",
-                    "reference": "95ce5b2e7b9699214c12017220963fc35fdcf456"
+                    "reference": "cf5c7305ae5512c930a2d72e5228fb038013ce40"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/iandunn/wp-cli-rename-db-prefix/zipball/95ce5b2e7b9699214c12017220963fc35fdcf456",
-                    "reference": "95ce5b2e7b9699214c12017220963fc35fdcf456",
+                    "url": "https://api.github.com/repos/iandunn/wp-cli-rename-db-prefix/zipball/cf5c7305ae5512c930a2d72e5228fb038013ce40",
+                    "reference": "cf5c7305ae5512c930a2d72e5228fb038013ce40",
                     "shasum": ""
                 },
-                "time": "2016-12-16 21:47:08",
+                "time": "2018-08-06 20:56:34",
                 "type": "wp-cli-package",
                 "autoload": {
                     "files": [
@@ -7094,6 +7250,54 @@
                 ],
                 "support": {
                     "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/1.3",
+                    "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
+                }
+            },
+            "dev-develop": {
+                "name": "JayWood/jw-wpcli-random-posts",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
+                    "reference": "79c6231fbd14f0a6d264938436bfeb7f102cf3be"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/79c6231fbd14f0a6d264938436bfeb7f102cf3be",
+                    "reference": "79c6231fbd14f0a6d264938436bfeb7f102cf3be",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2018-04-16 04:12:11",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "generate-posts.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Jay Wood",
+                        "email": "jjwood2004@gmail.com",
+                        "homepage": "http://plugish.com"
+                    }
+                ],
+                "description": "A robust random post generator for WP CLI which supports multisite, post types, post counts, taxonomies, terms, term counts and featured images.",
+                "homepage": "http://plugish.com",
+                "keywords": [
+                    "placeholder",
+                    "random posts",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/develop",
                     "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
                 }
             },
@@ -8867,6 +9071,41 @@
                     "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
                 }
             },
+            "dev-85-next-timestamp": {
+                "name": "pantheon-systems/wp_launch_check",
+                "version": "dev-85-next-timestamp",
+                "version_normalized": "dev-85-next-timestamp",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pantheon-systems/wp_launch_check.git",
+                    "reference": "89aa2f2c14a6de095a2ca53d6879e413a66e1527"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pantheon-systems/wp_launch_check/zipball/89aa2f2c14a6de095a2ca53d6879e413a66e1527",
+                    "reference": "89aa2f2c14a6de095a2ca53d6879e413a66e1527",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "symfony/finder": "~2.3"
+                },
+                "time": "2018-08-13 14:16:24",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "php/commands/launchcheck.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Check against a WordPress for performance and security",
+                "support": {
+                    "source": "https://github.com/pantheon-systems/wp_launch_check/tree/85-next-timestamp",
+                    "issues": "https://github.com/pantheon-systems/wp_launch_check/issues"
+                }
+            },
             "dev-date-format-cron": {
                 "name": "pantheon-systems/wp_launch_check",
                 "version": "dev-date-format-cron",
@@ -10289,25 +10528,28 @@
                     "issues": "https://github.com/pressbooks/pb-cli/issues"
                 }
             },
-            "dev-master": {
+            "1.6.0": {
                 "name": "pressbooks/pb-cli",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.6.0",
+                "version_normalized": "1.6.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pressbooks/pb-cli.git",
-                    "reference": "03759c43e0a9f0bc2cc06de161a85ae3857bf740"
+                    "reference": "86184d393ea1482b3dcb888a535331c64d9444d2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/03759c43e0a9f0bc2cc06de161a85ae3857bf740",
-                    "reference": "03759c43e0a9f0bc2cc06de161a85ae3857bf740",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/86184d393ea1482b3dcb888a535331c64d9444d2",
+                    "reference": "86184d393ea1482b3dcb888a535331c64d9444d2",
                     "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-07-10 02:49:51",
+                "time": "2018-02-23 17:14:39",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -10321,12 +10563,295 @@
                     ]
                 },
                 "license": [
-                    "GPL 2.0+"
+                    "GPL-2.0-or-later"
                 ],
                 "description": "A suite of wp-cli commands for Pressbooks.",
                 "homepage": "https://github.com/pressbooks/pb-cli/",
                 "support": {
-                    "source": "https://github.com/pressbooks/pb-cli/tree/1.5.1",
+                    "source": "https://github.com/pressbooks/pb-cli/tree/1.6.0",
+                    "issues": "https://github.com/pressbooks/pb-cli/issues"
+                }
+            },
+            "1.6.1": {
+                "name": "pressbooks/pb-cli",
+                "version": "1.6.1",
+                "version_normalized": "1.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pressbooks/pb-cli.git",
+                    "reference": "91a2ed82fa6d4293ea1a53bc28cde1859db83f10"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/91a2ed82fa6d4293ea1a53bc28cde1859db83f10",
+                    "reference": "91a2ed82fa6d4293ea1a53bc28cde1859db83f10",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2018-03-06 20:19:26",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold book-theme",
+                        "pb issue-template"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "A suite of wp-cli commands for Pressbooks.",
+                "homepage": "https://github.com/pressbooks/pb-cli/",
+                "support": {
+                    "source": "https://github.com/pressbooks/pb-cli/tree/1.6.1",
+                    "issues": "https://github.com/pressbooks/pb-cli/issues"
+                }
+            },
+            "1.7.0": {
+                "name": "pressbooks/pb-cli",
+                "version": "1.7.0",
+                "version_normalized": "1.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pressbooks/pb-cli.git",
+                    "reference": "d9ebeff0fb2e91eedcc9a043735cdef10afd230d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/d9ebeff0fb2e91eedcc9a043735cdef10afd230d",
+                    "reference": "d9ebeff0fb2e91eedcc9a043735cdef10afd230d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli": "^1.5"
+                },
+                "time": "2018-03-07 14:48:30",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold book-theme",
+                        "pb issue-template",
+                        "pb theme lock",
+                        "pb theme unlock"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "A suite of wp-cli commands for Pressbooks.",
+                "homepage": "https://github.com/pressbooks/pb-cli/",
+                "support": {
+                    "source": "https://github.com/pressbooks/pb-cli/tree/1.7.0",
+                    "issues": "https://github.com/pressbooks/pb-cli/issues"
+                }
+            },
+            "1.8.0": {
+                "name": "pressbooks/pb-cli",
+                "version": "1.8.0",
+                "version_normalized": "1.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pressbooks/pb-cli.git",
+                    "reference": "f606bd405138b79a7ea7f07dff5bec54919d0b7e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/f606bd405138b79a7ea7f07dff5bec54919d0b7e",
+                    "reference": "f606bd405138b79a7ea7f07dff5bec54919d0b7e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli": "^1.5"
+                },
+                "time": "2018-03-15 18:07:46",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold book-theme",
+                        "pb issue-template",
+                        "pb theme lock",
+                        "pb theme unlock",
+                        "pb clone"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "A suite of wp-cli commands for Pressbooks.",
+                "homepage": "https://github.com/pressbooks/pb-cli/",
+                "support": {
+                    "source": "https://github.com/pressbooks/pb-cli/tree/1.8.0",
+                    "issues": "https://github.com/pressbooks/pb-cli/issues"
+                }
+            },
+            "1.8.1": {
+                "name": "pressbooks/pb-cli",
+                "version": "1.8.1",
+                "version_normalized": "1.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pressbooks/pb-cli.git",
+                    "reference": "62ba5c36b1d8cf8d856e6ab00ec50b2125bddd96"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/62ba5c36b1d8cf8d856e6ab00ec50b2125bddd96",
+                    "reference": "62ba5c36b1d8cf8d856e6ab00ec50b2125bddd96",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli": "^1.5"
+                },
+                "time": "2018-04-12 14:56:12",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold book-theme",
+                        "pb issue-template",
+                        "pb theme lock",
+                        "pb theme unlock",
+                        "pb clone"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "A suite of wp-cli commands for Pressbooks.",
+                "homepage": "https://github.com/pressbooks/pb-cli/",
+                "support": {
+                    "source": "https://github.com/pressbooks/pb-cli/tree/1.8.1",
+                    "issues": "https://github.com/pressbooks/pb-cli/issues"
+                }
+            },
+            "1.8.2": {
+                "name": "pressbooks/pb-cli",
+                "version": "1.8.2",
+                "version_normalized": "1.8.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pressbooks/pb-cli.git",
+                    "reference": "71335f06f0a404ecbccf55e2ac8e929a94d744a7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/71335f06f0a404ecbccf55e2ac8e929a94d744a7",
+                    "reference": "71335f06f0a404ecbccf55e2ac8e929a94d744a7",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli": "^1.5"
+                },
+                "time": "2018-04-12 15:00:10",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold book-theme",
+                        "pb issue-template",
+                        "pb theme lock",
+                        "pb theme unlock",
+                        "pb clone"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "A suite of wp-cli commands for Pressbooks.",
+                "homepage": "https://github.com/pressbooks/pb-cli/",
+                "support": {
+                    "source": "https://github.com/pressbooks/pb-cli/tree/1.8.2",
+                    "issues": "https://github.com/pressbooks/pb-cli/issues"
+                }
+            },
+            "dev-master": {
+                "name": "pressbooks/pb-cli",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pressbooks/pb-cli.git",
+                    "reference": "32f1291a0295bd5ae258c87ec5785ad5787872f6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/32f1291a0295bd5ae258c87ec5785ad5787872f6",
+                    "reference": "32f1291a0295bd5ae258c87ec5785ad5787872f6",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli": "^1.5"
+                },
+                "time": "2018-05-09 19:06:56",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "scaffold book-theme",
+                        "pb issue-template",
+                        "pb theme lock",
+                        "pb theme unlock",
+                        "pb clone"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "A suite of wp-cli commands for Pressbooks.",
+                "homepage": "https://github.com/pressbooks/pb-cli/",
+                "support": {
+                    "source": "https://github.com/pressbooks/pb-cli/tree/dev",
                     "issues": "https://github.com/pressbooks/pb-cli/issues"
                 }
             },
@@ -10337,23 +10862,30 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pressbooks/pb-cli.git",
-                    "reference": "03759c43e0a9f0bc2cc06de161a85ae3857bf740"
+                    "reference": "32f1291a0295bd5ae258c87ec5785ad5787872f6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/03759c43e0a9f0bc2cc06de161a85ae3857bf740",
-                    "reference": "03759c43e0a9f0bc2cc06de161a85ae3857bf740",
+                    "url": "https://api.github.com/repos/pressbooks/pb-cli/zipball/32f1291a0295bd5ae258c87ec5785ad5787872f6",
+                    "reference": "32f1291a0295bd5ae258c87ec5785ad5787872f6",
                     "shasum": ""
                 },
-                "require-dev": {
-                    "behat/behat": "~2.5"
+                "require": {
+                    "php": ">=7.0"
                 },
-                "time": "2017-07-10 02:49:51",
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli": "^1.5"
+                },
+                "time": "2018-05-09 19:06:56",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
                         "scaffold book-theme",
-                        "pb issue-template"
+                        "pb issue-template",
+                        "pb theme lock",
+                        "pb theme unlock",
+                        "pb clone"
                     ]
                 },
                 "autoload": {
@@ -10362,12 +10894,12 @@
                     ]
                 },
                 "license": [
-                    "GPL 2.0+"
+                    "GPL-3.0-or-later"
                 ],
                 "description": "A suite of wp-cli commands for Pressbooks.",
                 "homepage": "https://github.com/pressbooks/pb-cli/",
                 "support": {
-                    "source": "https://github.com/pressbooks/pb-cli/tree/1.5.1",
+                    "source": "https://github.com/pressbooks/pb-cli/tree/dev",
                     "issues": "https://github.com/pressbooks/pb-cli/issues"
                 }
             }
@@ -10796,15 +11328,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/db-ack.git",
-                    "reference": "aff8ccc8aaf064482f90ff89200681abf3508e72"
+                    "reference": "20151e144736f6dbbc52d274b81b6c29d416d259"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/aff8ccc8aaf064482f90ff89200681abf3508e72",
-                    "reference": "aff8ccc8aaf064482f90ff89200681abf3508e72",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/20151e144736f6dbbc52d274b81b6c29d416d259",
+                    "reference": "20151e144736f6dbbc52d274b81b6c29d416d259",
                     "shasum": ""
                 },
-                "time": "2016-11-01 18:24:48",
+                "time": "2018-03-02 14:18:59",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -10844,7 +11376,8 @@
                 "description": "Find a specific string in the database.",
                 "homepage": "https://runcommand.io/wp/db-ack/",
                 "support": {
-                    "source": "https://github.com/runcommand/db-ack/tree/master"
+                    "source": "https://github.com/runcommand/db-ack/tree/master",
+                    "issues": "https://github.com/runcommand/db-ack/issues"
                 }
             }
         },
@@ -13324,6 +13857,617 @@
                 }
             }
         },
+        "vccw-team/wp-cli-scaffold-movefile": {
+            "1.1.2": {
+                "name": "vccw-team/wp-cli-scaffold-movefile",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "d5dc37c1d4dc5f918b79b295eedc7ffc8f446c46"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/d5dc37c1d4dc5f918b79b295eedc7ffc8f446c46",
+                    "reference": "d5dc37c1d4dc5f918b79b295eedc7ffc8f446c46",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-02 11:33:39",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.1.2",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.2.0": {
+                "name": "vccw-team/wp-cli-scaffold-movefile",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "0a77eb44ff41f8ed93b653c75667e2a27bda2dc2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/0a77eb44ff41f8ed93b653c75667e2a27bda2dc2",
+                    "reference": "0a77eb44ff41f8ed93b653c75667e2a27bda2dc2",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-04 05:27:12",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/master",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.3.0": {
+                "name": "vccw-team/wp-cli-scaffold-movefile",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "5d817aa785d1408b645ddb71e88aa567cb4263b7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/5d817aa785d1408b645ddb71e88aa567cb4263b7",
+                    "reference": "5d817aa785d1408b645ddb71e88aa567cb4263b7",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-04 20:07:10",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.3.0",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.4.0": {
+                "name": "vccw-team/wp-cli-scaffold-movefile",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "714661e56a3a58bbb4ca312d913e1ef978a56b12"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/714661e56a3a58bbb4ca312d913e1ef978a56b12",
+                    "reference": "714661e56a3a58bbb4ca312d913e1ef978a56b12",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-14 04:23:16",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.0",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.4.1": {
+                "name": "vccw-team/wp-cli-scaffold-movefile",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "f94e18799512ab30e1c7323313d81d64bcb31984"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/f94e18799512ab30e1c7323313d81d64bcb31984",
+                    "reference": "f94e18799512ab30e1c7323313d81d64bcb31984",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-14 04:40:38",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.1",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.4.2": {
+                "name": "vccw-team/wp-cli-scaffold-movefile",
+                "version": "1.4.2",
+                "version_normalized": "1.4.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "9f77df2d14ee82ade55b5ee0f83279ceff7911be"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/9f77df2d14ee82ade55b5ee0f83279ceff7911be",
+                    "reference": "9f77df2d14ee82ade55b5ee0f83279ceff7911be",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-14 04:48:58",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.2",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.4.3": {
+                "name": "vccw-team/wp-cli-scaffold-movefile",
+                "version": "1.4.3",
+                "version_normalized": "1.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "e30d5380588461ee97c5833e1fe267e4aac2b441"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/e30d5380588461ee97c5833e1fe267e4aac2b441",
+                    "reference": "e30d5380588461ee97c5833e1fe267e4aac2b441",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-21 19:13:32",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.3",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.4.4": {
+                "name": "vccw-team/wp-cli-scaffold-movefile",
+                "version": "1.4.4",
+                "version_normalized": "1.4.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "6ef17d1df715d1f58045025a09c096991d1614b4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/6ef17d1df715d1f58045025a09c096991d1614b4",
+                    "reference": "6ef17d1df715d1f58045025a09c096991d1614b4",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-12 17:47:06",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.4",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.5.0": {
+                "name": "vccw-team/wp-cli-scaffold-movefile",
+                "version": "1.5.0",
+                "version_normalized": "1.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "3d6697cf14a0806e26b38dbddd93103045e15732"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/3d6697cf14a0806e26b38dbddd93103045e15732",
+                    "reference": "3d6697cf14a0806e26b38dbddd93103045e15732",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-01-18 04:50:22",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.5.0",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.6.0": {
+                "name": "vccw-team/wp-cli-scaffold-movefile",
+                "version": "1.6.0",
+                "version_normalized": "1.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "c14f423abf9a4cc6d6adb9fc30803afb831bbf21"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/c14f423abf9a4cc6d6adb9fc30803afb831bbf21",
+                    "reference": "c14f423abf9a4cc6d6adb9fc30803afb831bbf21",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-01-24 17:53:12",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.6.0",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.7.0": {
+                "name": "vccw-team/wp-cli-scaffold-movefile",
+                "version": "1.7.0",
+                "version_normalized": "1.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "4dbe1c41838e64e6f28a2c971c3e2a20fe5f10ef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/4dbe1c41838e64e6f28a2c971c3e2a20fe5f10ef",
+                    "reference": "4dbe1c41838e64e6f28a2c971c3e2a20fe5f10ef",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-07-18 18:05:29",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/master",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.8.1": {
+                "name": "vccw-team/wp-cli-scaffold-movefile",
+                "version": "1.8.1",
+                "version_normalized": "1.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "e22a3a11bd7e5bbeaedd825231e360f7b7955346"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/e22a3a11bd7e5bbeaedd825231e360f7b7955346",
+                    "reference": "e22a3a11bd7e5bbeaedd825231e360f7b7955346",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-11-22 09:33:19",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "scripts": {
+                    "setup": [
+                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar bash bin/install-package-tests.sh"
+                    ],
+                    "test": [
+                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar ./vendor/bin/behat"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's movefile.yml from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.8.1",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "1.9.0": {
+                "name": "vccw-team/wp-cli-scaffold-movefile",
+                "version": "1.9.0",
+                "version_normalized": "1.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "3f1776ceb9e764becd47aa0dd72a37c0a950d9a6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/3f1776ceb9e764becd47aa0dd72a37c0a950d9a6",
+                    "reference": "3f1776ceb9e764becd47aa0dd72a37c0a950d9a6",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli": "dev-master"
+                },
+                "time": "2018-03-04 11:16:21",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "scripts": {
+                    "setup": [
+                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar bash bin/install-package-tests.sh"
+                    ],
+                    "test": [
+                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar ./vendor/bin/behat"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's movefile.yml from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.9.0",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            },
+            "dev-master": {
+                "name": "vccw-team/wp-cli-scaffold-movefile",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
+                    "reference": "e76e72cb5c4d96f6fdd8fbf23e73a48a538d7cf3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/e76e72cb5c4d96f6fdd8fbf23e73a48a538d7cf3",
+                    "reference": "e76e72cb5c4d96f6fdd8fbf23e73a48a538d7cf3",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli": "dev-master"
+                },
+                "time": "2018-03-16 04:06:51",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "scripts": {
+                    "setup": [
+                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar bash bin/install-package-tests.sh"
+                    ],
+                    "test": [
+                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar ./vendor/bin/behat"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "http://vccw.cc/"
+                    }
+                ],
+                "description": "Get informations as YAML format for Wordmove's movefile.yml from WordPress",
+                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
+                "support": {
+                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/master",
+                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
+                }
+            }
+        },
         "vccw/scaffold-vccw": {
             "1.0.0": {
                 "name": "vccw/scaffold-vccw",
@@ -13787,616 +14931,6 @@
                 }
             }
         },
-        "vccw/wp-cli-scaffold-movefile": {
-            "1.1.2": {
-                "name": "vccw/wp-cli-scaffold-movefile",
-                "version": "1.1.2",
-                "version_normalized": "1.1.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "d5dc37c1d4dc5f918b79b295eedc7ffc8f446c46"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/d5dc37c1d4dc5f918b79b295eedc7ffc8f446c46",
-                    "reference": "d5dc37c1d4dc5f918b79b295eedc7ffc8f446c46",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-05-02 11:33:39",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "http://vccw.cc/"
-                    }
-                ],
-                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
-                "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.1.2",
-                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
-                }
-            },
-            "1.2.0": {
-                "name": "vccw/wp-cli-scaffold-movefile",
-                "version": "1.2.0",
-                "version_normalized": "1.2.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "0a77eb44ff41f8ed93b653c75667e2a27bda2dc2"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/0a77eb44ff41f8ed93b653c75667e2a27bda2dc2",
-                    "reference": "0a77eb44ff41f8ed93b653c75667e2a27bda2dc2",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-05-04 05:27:12",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "http://vccw.cc/"
-                    }
-                ],
-                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
-                "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/master",
-                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
-                }
-            },
-            "1.3.0": {
-                "name": "vccw/wp-cli-scaffold-movefile",
-                "version": "1.3.0",
-                "version_normalized": "1.3.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "5d817aa785d1408b645ddb71e88aa567cb4263b7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/5d817aa785d1408b645ddb71e88aa567cb4263b7",
-                    "reference": "5d817aa785d1408b645ddb71e88aa567cb4263b7",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-05-04 20:07:10",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "http://vccw.cc/"
-                    }
-                ],
-                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
-                "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.3.0",
-                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
-                }
-            },
-            "1.4.0": {
-                "name": "vccw/wp-cli-scaffold-movefile",
-                "version": "1.4.0",
-                "version_normalized": "1.4.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "714661e56a3a58bbb4ca312d913e1ef978a56b12"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/714661e56a3a58bbb4ca312d913e1ef978a56b12",
-                    "reference": "714661e56a3a58bbb4ca312d913e1ef978a56b12",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-14 04:23:16",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "http://vccw.cc/"
-                    }
-                ],
-                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
-                "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.0",
-                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
-                }
-            },
-            "1.4.1": {
-                "name": "vccw/wp-cli-scaffold-movefile",
-                "version": "1.4.1",
-                "version_normalized": "1.4.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "f94e18799512ab30e1c7323313d81d64bcb31984"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/f94e18799512ab30e1c7323313d81d64bcb31984",
-                    "reference": "f94e18799512ab30e1c7323313d81d64bcb31984",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-14 04:40:38",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "http://vccw.cc/"
-                    }
-                ],
-                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
-                "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.1",
-                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
-                }
-            },
-            "1.4.2": {
-                "name": "vccw/wp-cli-scaffold-movefile",
-                "version": "1.4.2",
-                "version_normalized": "1.4.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "9f77df2d14ee82ade55b5ee0f83279ceff7911be"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/9f77df2d14ee82ade55b5ee0f83279ceff7911be",
-                    "reference": "9f77df2d14ee82ade55b5ee0f83279ceff7911be",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-14 04:48:58",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "http://vccw.cc/"
-                    }
-                ],
-                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
-                "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.2",
-                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
-                }
-            },
-            "1.4.3": {
-                "name": "vccw/wp-cli-scaffold-movefile",
-                "version": "1.4.3",
-                "version_normalized": "1.4.3.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "e30d5380588461ee97c5833e1fe267e4aac2b441"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/e30d5380588461ee97c5833e1fe267e4aac2b441",
-                    "reference": "e30d5380588461ee97c5833e1fe267e4aac2b441",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-10-21 19:13:32",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "http://vccw.cc/"
-                    }
-                ],
-                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
-                "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.3",
-                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
-                }
-            },
-            "1.4.4": {
-                "name": "vccw/wp-cli-scaffold-movefile",
-                "version": "1.4.4",
-                "version_normalized": "1.4.4.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "6ef17d1df715d1f58045025a09c096991d1614b4"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/6ef17d1df715d1f58045025a09c096991d1614b4",
-                    "reference": "6ef17d1df715d1f58045025a09c096991d1614b4",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2016-11-12 17:47:06",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "http://vccw.cc/"
-                    }
-                ],
-                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
-                "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.4.4",
-                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
-                }
-            },
-            "1.5.0": {
-                "name": "vccw/wp-cli-scaffold-movefile",
-                "version": "1.5.0",
-                "version_normalized": "1.5.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "3d6697cf14a0806e26b38dbddd93103045e15732"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/3d6697cf14a0806e26b38dbddd93103045e15732",
-                    "reference": "3d6697cf14a0806e26b38dbddd93103045e15732",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-01-18 04:50:22",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "http://vccw.cc/"
-                    }
-                ],
-                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
-                "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.5.0",
-                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
-                }
-            },
-            "1.6.0": {
-                "name": "vccw/wp-cli-scaffold-movefile",
-                "version": "1.6.0",
-                "version_normalized": "1.6.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "c14f423abf9a4cc6d6adb9fc30803afb831bbf21"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/c14f423abf9a4cc6d6adb9fc30803afb831bbf21",
-                    "reference": "c14f423abf9a4cc6d6adb9fc30803afb831bbf21",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-01-24 17:53:12",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "http://vccw.cc/"
-                    }
-                ],
-                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
-                "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.6.0",
-                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
-                }
-            },
-            "1.7.0": {
-                "name": "vccw/wp-cli-scaffold-movefile",
-                "version": "1.7.0",
-                "version_normalized": "1.7.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "4dbe1c41838e64e6f28a2c971c3e2a20fe5f10ef"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/4dbe1c41838e64e6f28a2c971c3e2a20fe5f10ef",
-                    "reference": "4dbe1c41838e64e6f28a2c971c3e2a20fe5f10ef",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-07-18 18:05:29",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "http://vccw.cc/"
-                    }
-                ],
-                "description": "Get informations as YAML format for Wordmove's Movefile from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
-                "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/master",
-                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
-                }
-            },
-            "1.8.1": {
-                "name": "vccw/wp-cli-scaffold-movefile",
-                "version": "1.8.1",
-                "version_normalized": "1.8.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "e22a3a11bd7e5bbeaedd825231e360f7b7955346"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/e22a3a11bd7e5bbeaedd825231e360f7b7955346",
-                    "reference": "e22a3a11bd7e5bbeaedd825231e360f7b7955346",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-11-22 09:33:19",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "psr-4": {
-                        "": "src/"
-                    },
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "scripts": {
-                    "setup": [
-                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar bash bin/install-package-tests.sh"
-                    ],
-                    "test": [
-                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar ./vendor/bin/behat"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "http://vccw.cc/"
-                    }
-                ],
-                "description": "Get informations as YAML format for Wordmove's movefile.yml from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
-                "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/1.8.1",
-                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
-                }
-            },
-            "dev-master": {
-                "name": "vccw/wp-cli-scaffold-movefile",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "85f34a5e3cc5da5f06a7e9ba0b92bcd107cbc9e9"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/85f34a5e3cc5da5f06a7e9ba0b92bcd107cbc9e9",
-                    "reference": "85f34a5e3cc5da5f06a7e9ba0b92bcd107cbc9e9",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5",
-                    "wp-cli/wp-cli": "dev-master"
-                },
-                "time": "2017-11-22 14:29:16",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "psr-4": {
-                        "": "src/"
-                    },
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "scripts": {
-                    "setup": [
-                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar bash bin/install-package-tests.sh"
-                    ],
-                    "test": [
-                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar ./vendor/bin/behat"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "http://vccw.cc/"
-                    }
-                ],
-                "description": "Get informations as YAML format for Wordmove's movefile.yml from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
-                "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/master",
-                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
-                }
-            },
-            "dev-stable": {
-                "name": "vccw/wp-cli-scaffold-movefile",
-                "version": "dev-stable",
-                "version_normalized": "dev-stable",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/vccw-team/wp-cli-scaffold-movefile.git",
-                    "reference": "a5df70507fbe07c514e0bfa7f5c47d1d665d86ad"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/vccw-team/wp-cli-scaffold-movefile/zipball/a5df70507fbe07c514e0bfa7f5c47d1d665d86ad",
-                    "reference": "a5df70507fbe07c514e0bfa7f5c47d1d665d86ad",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "behat/behat": "~2.5"
-                },
-                "time": "2017-11-22 09:35:14",
-                "type": "wp-cli-package",
-                "autoload": {
-                    "psr-4": {
-                        "": "src/"
-                    },
-                    "files": [
-                        "cli.php"
-                    ]
-                },
-                "scripts": {
-                    "setup": [
-                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar bash bin/install-package-tests.sh"
-                    ],
-                    "test": [
-                        "WP_CLI_BIN_DIR=/tmp/wp-cli-phar ./vendor/bin/behat"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Takayuki Miyauchi",
-                        "homepage": "http://vccw.cc/"
-                    }
-                ],
-                "description": "Get informations as YAML format for Wordmove's movefile.yml from WordPress",
-                "homepage": "https://github.com/vccw-team/wp-cli-scaffold-movefile",
-                "support": {
-                    "source": "https://github.com/vccw-team/wp-cli-scaffold-movefile/tree/stable",
-                    "issues": "https://github.com/vccw-team/wp-cli-scaffold-movefile/issues"
-                }
-            }
-        },
         "viewone/wp-cli-environment": {
             "0.1.0": {
                 "name": "viewone/wp-cli-environment",
@@ -14645,12 +15179,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/admin-command.git",
-                    "reference": "db90c3ea10d5d8eb3f05b3163246d86093d82831"
+                    "reference": "384f6d3f56d896cf3b46b7ecae47468354d4cc85"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/admin-command/zipball/db90c3ea10d5d8eb3f05b3163246d86093d82831",
-                    "reference": "db90c3ea10d5d8eb3f05b3163246d86093d82831",
+                    "url": "https://api.github.com/repos/wp-cli/admin-command/zipball/384f6d3f56d896cf3b46b7ecae47468354d4cc85",
+                    "reference": "384f6d3f56d896cf3b46b7ecae47468354d4cc85",
                     "shasum": ""
                 },
                 "require": {
@@ -14659,7 +15193,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-09-17 07:04:00",
+                "time": "2018-04-14 21:45:25",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -14735,18 +15269,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/dist-archive-command.git",
-                    "reference": "14f022e76f34a78f7df3bfafe90c7ab9836f414f"
+                    "reference": "f49b9abadb8dc414e2fd86146d85836dbb3dcc37"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/14f022e76f34a78f7df3bfafe90c7ab9836f414f",
-                    "reference": "14f022e76f34a78f7df3bfafe90c7ab9836f414f",
+                    "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/f49b9abadb8dc414e2fd86146d85836dbb3dcc37",
+                    "reference": "f49b9abadb8dc414e2fd86146d85836dbb3dcc37",
                     "shasum": ""
                 },
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-05-30 22:31:19",
+                "time": "2018-07-24 13:12:25",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -15188,28 +15722,30 @@
                     "issues": "https://github.com/wp-cli/find-command/issues"
                 }
             },
-            "dev-master": {
+            "v0.2.0": {
                 "name": "wp-cli/find-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v0.2.0",
+                "version_normalized": "0.2.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/find-command.git",
-                    "reference": "f731434631047a8f3ef832d39b3a8a4e3dcd0187"
+                    "reference": "6fb09c84e7d022d26a95384041134484d35049e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/f731434631047a8f3ef832d39b3a8a4e3dcd0187",
-                    "reference": "f731434631047a8f3ef832d39b3a8a4e3dcd0187",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/6fb09c84e7d022d26a95384041134484d35049e9",
+                    "reference": "6fb09c84e7d022d26a95384041134484d35049e9",
                     "shasum": ""
                 },
                 "require": {
-                    "wp-cli/wp-cli": "*"
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": "2"
                 },
                 "require-dev": {
-                    "behat/behat": "~2.5"
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli-tests": "2"
                 },
-                "time": "2017-12-07 08:13:52",
+                "time": "2018-08-16 00:22:40",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15227,13 +15763,110 @@
                         "find-command.php"
                     ]
                 },
+                "scripts": {
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "phpunit": [
+                        "run-php-unit-tests"
+                    ],
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@phpunit",
+                        "@behat"
+                    ]
+                },
                 "license": [
                     "MIT"
                 ],
                 "description": "Find WordPress installations on the filesystem.",
                 "homepage": "https://github.com/wp-cli/finder-command",
                 "support": {
-                    "source": "https://github.com/wp-cli/find-command/tree/master",
+                    "source": "https://github.com/wp-cli/find-command/tree/v0.2.0",
+                    "issues": "https://github.com/wp-cli/find-command/issues"
+                }
+            },
+            "dev-master": {
+                "name": "wp-cli/find-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/find-command.git",
+                    "reference": "6fb09c84e7d022d26a95384041134484d35049e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/6fb09c84e7d022d26a95384041134484d35049e9",
+                    "reference": "6fb09c84e7d022d26a95384041134484d35049e9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": "2"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli-tests": "2"
+                },
+                "time": "2018-08-16 00:22:40",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "commands": [
+                        "find"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "find-command.php"
+                    ]
+                },
+                "scripts": {
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "phpunit": [
+                        "run-php-unit-tests"
+                    ],
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@phpunit",
+                        "@behat"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Find WordPress installations on the filesystem.",
+                "homepage": "https://github.com/wp-cli/finder-command",
+                "support": {
+                    "source": "https://github.com/wp-cli/find-command/tree/v0.2.0",
                     "issues": "https://github.com/wp-cli/find-command/issues"
                 }
             }
@@ -15388,12 +16021,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/profile-command.git",
-                    "reference": "efb296ba91c041bfeccea673df3019c3bb72b1b5"
+                    "reference": "ac6c1c236ddc73e9c41574d81c7fddc78ec7b56e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/efb296ba91c041bfeccea673df3019c3bb72b1b5",
-                    "reference": "efb296ba91c041bfeccea673df3019c3bb72b1b5",
+                    "url": "https://api.github.com/repos/wp-cli/profile-command/zipball/ac6c1c236ddc73e9c41574d81c7fddc78ec7b56e",
+                    "reference": "ac6c1c236ddc73e9c41574d81c7fddc78ec7b56e",
                     "shasum": ""
                 },
                 "require": {
@@ -15403,7 +16036,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-12-11 19:01:50",
+                "time": "2018-01-15 06:56:39",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15531,12 +16164,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "4b4853a3c3ae9dbe3850c3134ad0f5a3bb8578c2"
+                    "reference": "ba212201edc4a9bb8b291b9b824e341abfe1b7dc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/4b4853a3c3ae9dbe3850c3134ad0f5a3bb8578c2",
-                    "reference": "4b4853a3c3ae9dbe3850c3134ad0f5a3bb8578c2",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/ba212201edc4a9bb8b291b9b824e341abfe1b7dc",
+                    "reference": "ba212201edc4a9bb8b291b9b824e341abfe1b7dc",
                     "shasum": ""
                 },
                 "require": {
@@ -15545,7 +16178,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2017-08-06 09:13:31",
+                "time": "2018-02-21 10:14:51",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15797,26 +16430,29 @@
                     "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
                 }
             },
-            "dev-master": {
+            "v0.5.0": {
                 "name": "wp-cli/scaffold-package-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v0.5.0",
+                "version_normalized": "0.5.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/scaffold-package-command.git",
-                    "reference": "c07b5d9683ab04e32d8fc13748fb2935ea34fe07"
+                    "reference": "6457713c921b17a7ceef132fd78da744f86c7d65"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/c07b5d9683ab04e32d8fc13748fb2935ea34fe07",
-                    "reference": "c07b5d9683ab04e32d8fc13748fb2935ea34fe07",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/6457713c921b17a7ceef132fd78da744f86c7d65",
+                    "reference": "6457713c921b17a7ceef132fd78da744f86c7d65",
                     "shasum": ""
+                },
+                "require": {
+                    "wp-cli/scaffold-command": "*"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
                     "wp-cli/wp-cli": "*"
                 },
-                "time": "2017-12-21 00:20:41",
+                "time": "2018-07-24 10:21:12",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15851,7 +16487,67 @@
                 "homepage": "https://github.com/wp-cli/scaffold-package-command",
                 "support": {
                     "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
-                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/master"
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/v0.5.0"
+                }
+            },
+            "dev-master": {
+                "name": "wp-cli/scaffold-package-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/scaffold-package-command.git",
+                    "reference": "6457713c921b17a7ceef132fd78da744f86c7d65"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/scaffold-package-command/zipball/6457713c921b17a7ceef132fd78da744f86c7d65",
+                    "reference": "6457713c921b17a7ceef132fd78da744f86c7d65",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/scaffold-command": "*"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli": "*"
+                },
+                "time": "2018-07-24 10:21:12",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "commands": [
+                        "scaffold package",
+                        "scaffold package-tests",
+                        "scaffold package-readme",
+                        "scaffold package-github"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI\\": "src"
+                    },
+                    "files": [
+                        "scaffold-package-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Scaffolds WP-CLI commands with functional tests, full README.md, and more.",
+                "homepage": "https://github.com/wp-cli/scaffold-package-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/scaffold-package-command/issues",
+                    "source": "https://github.com/wp-cli/scaffold-package-command/tree/v0.5.0"
                 }
             },
             "dev-render-mustache": {
@@ -16457,37 +17153,37 @@
                     "source": "https://github.com/wp-cli/server-command/tree/master"
                 }
             },
-            "dev-master": {
+            "v2.0.0": {
                 "name": "wp-cli/server-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v2.0.0",
+                "version_normalized": "2.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/server-command.git",
-                    "reference": "6192e6d7becd07e4c11a8f1560655c73a3b3526a"
+                    "reference": "890b07db1dc22013721bf2189a3475ff4301c067"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/6192e6d7becd07e4c11a8f1560655c73a3b3526a",
-                    "reference": "6192e6d7becd07e4c11a8f1560655c73a3b3526a",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/890b07db1dc22013721bf2189a3475ff4301c067",
+                    "reference": "890b07db1dc22013721bf2189a3475ff4301c067",
                     "shasum": ""
                 },
                 "require": {
-                    "wp-cli/wp-cli": "*"
+                    "wp-cli/wp-cli": "^2"
                 },
                 "require-dev": {
-                    "behat/behat": "~2.5"
+                    "wp-cli/wp-cli-tests": "^2"
                 },
-                "time": "2017-12-14 20:06:24",
+                "time": "2018-08-05 15:41:52",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
-                        "dev-master": "1.x-dev"
+                        "dev-master": "2.x-dev"
                     },
+                    "bundled": true,
                     "commands": [
                         "server"
-                    ],
-                    "bundled": true
+                    ]
                 },
                 "autoload": {
                     "psr-4": {
@@ -16495,6 +17191,112 @@
                     },
                     "files": [
                         "server-command.php"
+                    ]
+                },
+                "scripts": {
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "phpunit": [
+                        "run-php-unit-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@phpunit",
+                        "@behat"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Launches PHP's built-in web server for a specific WordPress installation.",
+                "homepage": "https://github.com/wp-cli/server-command",
+                "support": {
+                    "issues": "https://github.com/wp-cli/server-command/issues",
+                    "source": "https://github.com/wp-cli/server-command/tree/v2.0.0"
+                }
+            },
+            "dev-master": {
+                "name": "wp-cli/server-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/server-command.git",
+                    "reference": "2c9644fd1504e96a7a8b800be62d9622e5f5a408"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/server-command/zipball/2c9644fd1504e96a7a8b800be62d9622e5f5a408",
+                    "reference": "2c9644fd1504e96a7a8b800be62d9622e5f5a408",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "^2"
+                },
+                "require-dev": {
+                    "wp-cli/wp-cli-tests": "^2.0.7"
+                },
+                "time": "2018-08-14 16:29:48",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    },
+                    "bundled": true,
+                    "commands": [
+                        "server"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "server-command.php"
+                    ]
+                },
+                "scripts": {
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "behat-rerun": [
+                        "rerun-behat-tests"
+                    ],
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "phpunit": [
+                        "run-php-unit-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@phpunit",
+                        "@behat"
                     ]
                 },
                 "license": [
@@ -16523,22 +17325,53 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/wp-super-cache-cli.git",
-                    "reference": "499375559c44339c29504ab9530aa99c5d2201ba"
+                    "reference": "ecc91089980b3ce4d05682eb962f0676851ecdad"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/wp-super-cache-cli/zipball/499375559c44339c29504ab9530aa99c5d2201ba",
-                    "reference": "499375559c44339c29504ab9530aa99c5d2201ba",
+                    "url": "https://api.github.com/repos/wp-cli/wp-super-cache-cli/zipball/ecc91089980b3ce4d05682eb962f0676851ecdad",
+                    "reference": "ecc91089980b3ce4d05682eb962f0676851ecdad",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.3.0"
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": "^2"
                 },
-                "time": "2017-03-21 12:22:54",
+                "require-dev": {
+                    "wp-cli/extension-command": "^2",
+                    "wp-cli/wp-cli-tests": "^2.0.7"
+                },
+                "time": "2018-08-21 16:57:21",
                 "type": "wp-cli-package",
                 "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
                     "files": [
                         "wp-super-cache-cli.php"
+                    ]
+                },
+                "scripts": {
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "phpunit": [
+                        "run-php-unit-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@phpunit",
+                        "@behat"
                     ]
                 },
                 "license": [
