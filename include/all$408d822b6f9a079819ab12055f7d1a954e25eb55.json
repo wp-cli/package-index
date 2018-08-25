@@ -15796,30 +15796,30 @@
                     "issues": "https://github.com/wp-cli/find-command/issues"
                 }
             },
-            "dev-master": {
+            "v0.2.1": {
                 "name": "wp-cli/find-command",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v0.2.1",
+                "version_normalized": "0.2.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/find-command.git",
-                    "reference": "6fb09c84e7d022d26a95384041134484d35049e9"
+                    "reference": "2ac0ed11f0ea6a677d24d7ea6c68a743a32243ad"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/6fb09c84e7d022d26a95384041134484d35049e9",
-                    "reference": "6fb09c84e7d022d26a95384041134484d35049e9",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/2ac0ed11f0ea6a677d24d7ea6c68a743a32243ad",
+                    "reference": "2ac0ed11f0ea6a677d24d7ea6c68a743a32243ad",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.4",
-                    "wp-cli/wp-cli": "2"
+                    "wp-cli/wp-cli": "^2"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
-                    "wp-cli/wp-cli-tests": "2"
+                    "wp-cli/wp-cli-tests": "^2"
                 },
-                "time": "2018-08-16 00:22:40",
+                "time": "2018-08-25 01:03:44",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
@@ -15866,7 +15866,81 @@
                 "description": "Find WordPress installations on the filesystem.",
                 "homepage": "https://github.com/wp-cli/finder-command",
                 "support": {
-                    "source": "https://github.com/wp-cli/find-command/tree/v0.2.0",
+                    "source": "https://github.com/wp-cli/find-command/tree/v0.2.1",
+                    "issues": "https://github.com/wp-cli/find-command/issues"
+                }
+            },
+            "dev-master": {
+                "name": "wp-cli/find-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/find-command.git",
+                    "reference": "2ac0ed11f0ea6a677d24d7ea6c68a743a32243ad"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/find-command/zipball/2ac0ed11f0ea6a677d24d7ea6c68a743a32243ad",
+                    "reference": "2ac0ed11f0ea6a677d24d7ea6c68a743a32243ad",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": "^2"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "wp-cli/wp-cli-tests": "^2"
+                },
+                "time": "2018-08-25 01:03:44",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "commands": [
+                        "find"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "": "src/"
+                    },
+                    "files": [
+                        "find-command.php"
+                    ]
+                },
+                "scripts": {
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "phpunit": [
+                        "run-php-unit-tests"
+                    ],
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@phpunit",
+                        "@behat"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Find WordPress installations on the filesystem.",
+                "homepage": "https://github.com/wp-cli/finder-command",
+                "support": {
+                    "source": "https://github.com/wp-cli/find-command/tree/v0.2.1",
                     "issues": "https://github.com/wp-cli/find-command/issues"
                 }
             }
