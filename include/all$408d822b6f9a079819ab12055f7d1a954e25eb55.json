@@ -1895,6 +1895,40 @@
                 }
             }
         },
+        "alleyinteractive/wp-doc-command": {
+            "dev-master": {
+                "name": "alleyinteractive/wp-doc-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/alleyinteractive/wp-doc-command.git",
+                    "reference": "78f4f4ffe601533334234848ef532ccb93af8107"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/alleyinteractive/wp-doc-command/zipball/78f4f4ffe601533334234848ef532ccb93af8107",
+                    "reference": "78f4f4ffe601533334234848ef532ccb93af8107",
+                    "shasum": ""
+                },
+                "time": "2016-10-20 14:17:16",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "View PHPDoc of any class, method, property, or function.",
+                "homepage": "https://github.com/alleyinteractive/wp-doc-command",
+                "support": {
+                    "issues": "https://github.com/alleyinteractive/wp-doc-command",
+                    "source": "https://github.com/alleyinteractive/wp-doc-command/tree/master"
+                }
+            }
+        },
         "anhskohbo/wp-cli-themecheck": {
             "dev-master": {
                 "name": "anhskohbo/wp-cli-themecheck",
@@ -13416,6 +13450,56 @@
                 "support": {
                     "source": "https://github.com/srtfisher/wp-composer/tree/master",
                     "issues": "https://github.com/srtfisher/wp-composer/issues"
+                }
+            }
+        },
+        "szepeviktor/wp-cli-database-prefix-command": {
+            "dev-master": {
+                "name": "szepeviktor/wp-cli-database-prefix-command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/szepeviktor/wp-cli-database-prefix-command.git",
+                    "reference": "337036bfad4a1b6f7151651ec9f933ac7dc074b1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/szepeviktor/wp-cli-database-prefix-command/zipball/337036bfad4a1b6f7151651ec9f933ac7dc074b1",
+                    "reference": "337036bfad4a1b6f7151651ec9f933ac7dc074b1",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2016-10-21 00:18:26",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-cli-database-prefix-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Viktor Szépe",
+                        "email": "viktor@szepe.net",
+                        "homepage": "http://www.online1.hu",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Perform operations on prefixed database tables.",
+                "homepage": "https://github.com/szepeviktor/wp-cli-database-prefix-command",
+                "keywords": [
+                    "database",
+                    "prefix",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/szepeviktor/wp-cli-database-prefix-command/tree/master",
+                    "issues": "https://github.com/szepeviktor/wp-cli-database-prefix-command/issues"
                 }
             }
         },
