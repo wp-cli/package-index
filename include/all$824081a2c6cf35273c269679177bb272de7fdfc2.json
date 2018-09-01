@@ -1528,25 +1528,29 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "cd6c88fed8e41565ef5f6688c6f05ee97f998382"
+                    "reference": "d67a4a255d5481fb7de2fe0fdb39d3aa2a53e5fb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/cd6c88fed8e41565ef5f6688c6f05ee97f998382",
-                    "reference": "cd6c88fed8e41565ef5f6688c6f05ee97f998382",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/d67a4a255d5481fb7de2fe0fdb39d3aa2a53e5fb",
+                    "reference": "d67a4a255d5481fb7de2fe0fdb39d3aa2a53e5fb",
                     "shasum": ""
                 },
                 "require": {
                     "illuminate/container": "^5.1",
-                    "php": "^5.5|^7.0",
-                    "symfony/filesystem": "^2.7 | ^3.0"
+                    "php": ">=5.5",
+                    "symfony/filesystem": "^2.7 || ^3 || ^4",
+                    "wp-cli/config-command": "^1 || ^2",
+                    "wp-cli/core-command": "^1 || ^2",
+                    "wp-cli/db-command": "^1 || ^2",
+                    "wp-cli/wp-cli": "^1 || ^2"
                 },
                 "require-dev": {
                     "behat/behat": "~2.5",
-                    "johnpbloch/wordpress": "^4.6",
-                    "wp-cli/wp-cli": "^0.24.1"
+                    "wp-cli/entity-command": "^1 || ^2",
+                    "wp-cli/scaffold-package-command": "^0.5.0"
                 },
-                "time": "2018-05-28 20:04:14",
+                "time": "2018-09-01 18:52:03",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -1586,7 +1590,7 @@
                         "wp scaffold package-readme . --force"
                     ],
                     "run-behat": [
-                        "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi --format=progress"
+                        "behat --ansi"
                     ]
                 },
                 "license": [
