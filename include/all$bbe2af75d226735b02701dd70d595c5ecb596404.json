@@ -1529,12 +1529,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
-                    "reference": "f7b04a9aeb6110490151975c516628ef34afb26c"
+                    "reference": "2673a4e76fd0b64b64c85d8fa45d689989191bcd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/f7b04a9aeb6110490151975c516628ef34afb26c",
-                    "reference": "f7b04a9aeb6110490151975c516628ef34afb26c",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/2673a4e76fd0b64b64c85d8fa45d689989191bcd",
+                    "reference": "2673a4e76fd0b64b64c85d8fa45d689989191bcd",
                     "shasum": ""
                 },
                 "require": {
@@ -1547,12 +1547,15 @@
                     "wp-cli/wp-cli": "^1 || ^2"
                 },
                 "require-dev": {
+                    "aaemnnosttv/wp-sqlite-db": "^1.0",
                     "behat/behat": "~2.5",
+                    "koodimonni/composer-dropin-installer": "^1.2",
+                    "roots/bedrock": "^1.8",
                     "wp-cli/entity-command": "^1 || ^2",
                     "wp-cli/eval-command": "^1 || ^2",
                     "wp-cli/scaffold-package-command": "^0.5.0"
                 },
-                "time": "2018-09-03 18:50:04",
+                "time": "2018-09-03 19:25:27",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
