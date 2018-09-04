@@ -1345,6 +1345,105 @@
                     "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/v1.1.0"
                 }
             },
+            "v1.2.0": {
+                "name": "aaemnnosttv/wp-cli-valet-command",
+                "version": "v1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/aaemnnosttv/wp-cli-valet-command.git",
+                    "reference": "a545585be79dc39c7e9653516def8490b7befbb3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-valet-command/zipball/a545585be79dc39c7e9653516def8490b7befbb3",
+                    "reference": "a545585be79dc39c7e9653516def8490b7befbb3",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/container": "^5.1",
+                    "php": ">=5.5",
+                    "symfony/filesystem": "^2.7 || ^3 || ^4",
+                    "wp-cli/config-command": "^1 || ^2",
+                    "wp-cli/core-command": "^1 || ^2",
+                    "wp-cli/db-command": "^1 || ^2",
+                    "wp-cli/wp-cli": "^1 || ^2"
+                },
+                "require-dev": {
+                    "aaemnnosttv/wp-sqlite-db": "^1.0",
+                    "behat/behat": "~2.5",
+                    "koodimonni/composer-dropin-installer": "^1.2",
+                    "roots/bedrock": "^1.8",
+                    "wp-cli/entity-command": "^1 || ^2",
+                    "wp-cli/eval-command": "^1 || ^2",
+                    "wp-cli/scaffold-package-command": "^0.5.0"
+                },
+                "time": "2018-09-04 07:21:24",
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "valet new",
+                        "valet destroy"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![Travis Build](https://img.shields.io/travis/aaemnnosttv/wp-cli-valet-command/master.svg)](https://travis-ci.org/aaemnnosttv/wp-cli-valet-command)",
+                            "[![Packagist](https://img.shields.io/packagist/v/aaemnnosttv/wp-cli-valet-command.svg)](https://packagist.org/packages/aaemnnosttv/wp-cli-valet-command)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Troubleshooting",
+                            "Support",
+                            "Contributing"
+                        ],
+                        "installing": {
+                            "pre": "PREREQUISITES.md"
+                        },
+                        "troubleshooting": {
+                            "pre": "TROUBLESHOOTING.md"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "WP_CLI_Valet\\": "src"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "scripts": {
+                    "update-readme": [
+                        "wp scaffold package-readme . --force"
+                    ],
+                    "run-behat": [
+                        "behat --ansi"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Evan Mattson",
+                        "email": "me@aaemnnost.tv",
+                        "homepage": "https://aaemnnost.tv"
+                    }
+                ],
+                "description": "White-glove services for turn-key installs in seconds.",
+                "homepage": "https://aaemnnost.tv/wp-cli-commands/valet/",
+                "keywords": [
+                    "laravel",
+                    "valet",
+                    "wordpress",
+                    "zonda"
+                ],
+                "support": {
+                    "issues": "https://github.com/aaemnnosttv/wp-cli-valet-command/issues",
+                    "source": "https://github.com/aaemnnosttv/wp-cli-valet-command/tree/master"
+                }
+            },
             "dev-master": {
                 "name": "aaemnnosttv/wp-cli-valet-command",
                 "version": "dev-master",
