@@ -15224,18 +15224,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/dist-archive-command.git",
-                    "reference": "f49b9abadb8dc414e2fd86146d85836dbb3dcc37"
+                    "reference": "cdda991bdc0f25e63bc18f1516d1ea3737533f83"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/f49b9abadb8dc414e2fd86146d85836dbb3dcc37",
-                    "reference": "f49b9abadb8dc414e2fd86146d85836dbb3dcc37",
+                    "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/cdda991bdc0f25e63bc18f1516d1ea3737533f83",
+                    "reference": "cdda991bdc0f25e63bc18f1516d1ea3737533f83",
                     "shasum": ""
                 },
-                "require-dev": {
-                    "behat/behat": "~2.5"
+                "require": {
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": "^2"
                 },
-                "time": "2018-07-24 13:12:25",
+                "require-dev": {
+                    "behat/behat": "~2.5",
+                    "wp-cli/extension-command": "^2",
+                    "wp-cli/scaffold-command": "^2",
+                    "wp-cli/wp-cli-tests": "^2"
+                },
+                "time": "2018-09-10 08:12:36",
                 "type": "wp-cli-package",
                 "extra": {
                     "commands": [
@@ -15248,6 +15255,29 @@
                     },
                     "files": [
                         "dist-archive-command.php"
+                    ]
+                },
+                "scripts": {
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "phpunit": [
+                        "run-php-unit-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@phpunit",
+                        "@behat"
                     ]
                 },
                 "license": [
