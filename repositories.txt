@@ -54,7 +54,6 @@ https://github.com/pressbooks/pb-cli
 https://github.com/Redkiwi-NL/local-config
 https://github.com/runcommand/assign-featured-images
 https://github.com/runcommand/db-ack
-https://github.com/runcommand/dist-archive
 https://github.com/runcommand/find-unused-themes
 https://github.com/runcommand/hook
 https://github.com/runcommand/manifest
@@ -79,13 +78,6 @@ https://github.com/vccw-team/scaffold-vccw
 https://github.com/vccw-team/wp-cli-scaffold-movefile
 https://github.com/viewone/wp-cli-environment
 https://github.com/welaika/wp-cli-db2utf8
-https://github.com/wp-cli/admin-command
-https://github.com/wp-cli/doctor-command
-https://github.com/wp-cli/find-command
-https://github.com/wp-cli/scaffold-package-command
-https://github.com/wp-cli/profile-command
-https://github.com/wp-cli/server-command
-https://github.com/wp-cli/wp-super-cache-cli
 https://github.com/x-team/wp-cli-ssh
 https://github.com/anhskohbo/wp-cli-themecheck
 https://github.com/mattgrshaw/wp-installer
