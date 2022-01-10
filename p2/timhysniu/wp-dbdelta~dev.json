@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "timhysniu/wp-dbdelta": [
+            {
+                "name": "timhysniu/wp-dbdelta",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/timhysniu/wp-dbdelta.git",
+                    "reference": "f601ba5b494ef61ef76f121cf4b1f43f788a5f54"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/timhysniu/wp-dbdelta/zipball/f601ba5b494ef61ef76f121cf4b1f43f788a5f54",
+                    "reference": "f601ba5b494ef61ef76f121cf4b1f43f788a5f54",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-20T14:36:20+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Tim Hysniu",
+                        "email": "tim@hysniu.com"
+                    }
+                ],
+                "description": "Database change management for WP-CLI",
+                "homepage": "https://github.com/timhysniu/wp-dbdelta",
+                "support": {
+                    "source": "https://github.com/timhysniu/wp-dbdelta/tree/master",
+                    "issues": "https://github.com/timhysniu/wp-dbdelta/issues"
+                }
+            }
+        ]
+    }
+}

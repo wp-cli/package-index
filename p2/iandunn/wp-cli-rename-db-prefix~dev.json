@@ -1,0 +1,46 @@
+{
+    "packages": {
+        "iandunn/wp-cli-rename-db-prefix": [
+            {
+                "name": "iandunn/wp-cli-rename-db-prefix",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/iandunn/wp-cli-rename-db-prefix.git",
+                    "reference": "af0d5b7a3cfc588b0d55a4df708acf713295ea34"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/iandunn/wp-cli-rename-db-prefix/zipball/af0d5b7a3cfc588b0d55a4df708acf713295ea34",
+                    "reference": "af0d5b7a3cfc588b0d55a4df708acf713295ea34",
+                    "shasum": ""
+                },
+                "time": "2020-06-24T14:37:00+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-cli-rename-db-prefix.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Ian Dunn",
+                        "email": "ian@iandunn.name",
+                        "homepage": "https://iandunn.name"
+                    }
+                ],
+                "description": "A WP-CLI command to rename WordPress' database prefix.",
+                "homepage": "https://github.com/iandunn/wp-cli-rename-db-prefix",
+                "support": {
+                    "source": "https://github.com/iandunn/wp-cli-rename-db-prefix/tree/master",
+                    "issues": "https://github.com/iandunn/wp-cli-rename-db-prefix/issues"
+                }
+            }
+        ]
+    }
+}

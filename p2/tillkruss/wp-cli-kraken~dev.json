@@ -1,0 +1,46 @@
+{
+    "packages": {
+        "tillkruss/wp-cli-kraken": [
+            {
+                "name": "tillkruss/wp-cli-kraken",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tillkruss/wp-cli-kraken.git",
+                    "reference": "637b47ae0c2c4c0d40ba981e306724b7af327236"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tillkruss/wp-cli-kraken/zipball/637b47ae0c2c4c0d40ba981e306724b7af327236",
+                    "reference": "637b47ae0c2c4c0d40ba981e306724b7af327236",
+                    "shasum": ""
+                },
+                "time": "2016-10-20T14:39:14+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Till Krüss",
+                        "homepage": "http://till.kruss.me/"
+                    }
+                ],
+                "description": "WP-CLI command to optimize WordPress image attachments using the Kraken Image Optimizer.",
+                "homepage": "https://github.com/tillkruss/wp-cli-kraken",
+                "support": {
+                    "source": "https://github.com/tillkruss/wp-cli-kraken/tree/master",
+                    "issues": "https://github.com/tillkruss/wp-cli-kraken/issues"
+                },
+                "abandoned": true
+            }
+        ]
+    }
+}

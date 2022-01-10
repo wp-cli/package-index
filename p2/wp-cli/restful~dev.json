@@ -1,0 +1,184 @@
+{
+    "packages": {
+        "wp-cli/restful": [
+            {
+                "name": "wp-cli/restful",
+                "version": "dev-dependabot/composer/behat/behat-approx-3.10",
+                "version_normalized": "dev-dependabot/composer/behat/behat-approx-3.10",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/restful.git",
+                    "reference": "ff94d24c9664c7e1c29906d791c9ade4afdf37b2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/ff94d24c9664c7e1c29906d791c9ade4afdf37b2",
+                    "reference": "ff94d24c9664c7e1c29906d791c9ade4afdf37b2",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "*"
+                },
+                "require-dev": {
+                    "behat/behat": "~3.10"
+                },
+                "time": "2021-11-03T14:01:43+00:00",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "readme": {
+                        "package_description": {
+                            "post": "bin/readme-stubs/package-description-post.md"
+                        },
+                        "using": {
+                            "body": "bin/readme-stubs/using.md"
+                        },
+                        "installing": {
+                            "body": "bin/readme-stubs/installing.md"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "wp-rest-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "Unlock the potential of the WP REST API at the command line.",
+                "support": {
+                    "source": "https://github.com/wp-cli/restful/tree/dependabot/composer/behat/behat-approx-3.10",
+                    "issues": "https://github.com/wp-cli/restful/issues"
+                }
+            },
+            {
+                "name": "wp-cli/restful",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/restful.git",
+                    "reference": "e911fc1c5356e6319762c29a1c771e3d6710b04d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/e911fc1c5356e6319762c29a1c771e3d6710b04d",
+                    "reference": "e911fc1c5356e6319762c29a1c771e3d6710b04d",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "*"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2021-12-10T08:05:36+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "readme": {
+                        "package_description": {
+                            "post": "bin/readme-stubs/package-description-post.md"
+                        },
+                        "using": {
+                            "body": "bin/readme-stubs/using.md"
+                        },
+                        "installing": {
+                            "body": "bin/readme-stubs/installing.md"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "wp-rest-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "Unlock the potential of the WP REST API at the command line.",
+                "support": {
+                    "source": "https://github.com/wp-cli/restful/tree/master",
+                    "issues": "https://github.com/wp-cli/restful/issues"
+                }
+            },
+            {
+                "name": "wp-cli/restful",
+                "version": "dev-regenerate-readme",
+                "version_normalized": "dev-regenerate-readme",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/restful.git",
+                    "reference": "0a3b8916f6274705d912c57e1c6cb25ed1d40494"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/0a3b8916f6274705d912c57e1c6cb25ed1d40494",
+                    "reference": "0a3b8916f6274705d912c57e1c6cb25ed1d40494",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "*"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2021-07-23T16:51:50+00:00",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "readme": {
+                        "package_description": {
+                            "post": "bin/readme-stubs/package-description-post.md"
+                        },
+                        "using": {
+                            "body": "bin/readme-stubs/using.md"
+                        },
+                        "installing": {
+                            "body": "bin/readme-stubs/installing.md"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "wp-rest-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "Unlock the potential of the WP REST API at the command line.",
+                "support": {
+                    "source": "https://github.com/wp-cli/restful/tree/regenerate-readme",
+                    "issues": "https://github.com/wp-cli/restful/issues"
+                }
+            }
+        ]
+    }
+}

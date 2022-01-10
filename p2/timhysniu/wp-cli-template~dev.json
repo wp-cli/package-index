@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "timhysniu/wp-cli-template": [
+            {
+                "name": "timhysniu/wp-cli-template",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/timhysniu/wp-cli-template.git",
+                    "reference": "81e7373c6570d8a40636c8c019e261d76d22a305"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/timhysniu/wp-cli-template/zipball/81e7373c6570d8a40636c8c019e261d76d22a305",
+                    "reference": "81e7373c6570d8a40636c8c019e261d76d22a305",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-20T14:35:55+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Tim Hysniu",
+                        "email": "tim@hysniu.com"
+                    }
+                ],
+                "description": "Find, list and update templates for WP-CLI",
+                "homepage": "https://github.com/timhysniu/wp-cli-template",
+                "support": {
+                    "source": "https://github.com/timhysniu/wp-cli-template/tree/master",
+                    "issues": "https://github.com/timhysniu/wp-cli-template/issues"
+                }
+            }
+        ]
+    }
+}

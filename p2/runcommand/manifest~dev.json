@@ -1,0 +1,113 @@
+{
+    "packages": {
+        "runcommand/manifest": [
+            {
+                "name": "runcommand/manifest",
+                "version": "dev-active-plugins",
+                "version_normalized": "dev-active-plugins",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/manifest.git",
+                    "reference": "5f4f61b17f118cc2361a1f5268153361b6054eab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/5f4f61b17f118cc2361a1f5268153361b6054eab",
+                    "reference": "5f4f61b17f118cc2361a1f5268153361b6054eab",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-09-26T21:14:51+00:00",
+                "type": "library",
+                "extra": {
+                    "commands": [
+                        "manifest"
+                    ],
+                    "readme": {
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "See what's going on inside of WordPress.",
+                "homepage": "https://runcommand.io/wp/manifest/",
+                "support": {
+                    "source": "https://github.com/runcommand/manifest/tree/active-plugins",
+                    "issues": "https://github.com/runcommand/manifest/issues"
+                }
+            },
+            {
+                "name": "runcommand/manifest",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/manifest.git",
+                    "reference": "073a74795b68a0ccdc7d804da610ae035a86fcd1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/manifest/zipball/073a74795b68a0ccdc7d804da610ae035a86fcd1",
+                    "reference": "073a74795b68a0ccdc7d804da610ae035a86fcd1",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-01T18:25:08+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "manifest"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/manifest.svg?branch=master)](https://travis-ci.org/runcommand/manifest)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "See what's going on inside of WordPress.",
+                "homepage": "https://runcommand.io/wp/manifest/",
+                "support": {
+                    "source": "https://github.com/runcommand/manifest/tree/master",
+                    "issues": "https://github.com/runcommand/manifest/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "packages": {
+        "wp-media/wp-rocket-cli": [
+            {
+                "name": "wp-media/wp-rocket-cli",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-media/wp-rocket-cli.git",
+                    "reference": "79e547cac6807099c6eb2ea85a50e6ba1c0c0ec0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-media/wp-rocket-cli/zipball/79e547cac6807099c6eb2ea85a50e6ba1c0c0ec0",
+                    "reference": "79e547cac6807099c6eb2ea85a50e6ba1c0c0ec0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2021-03-12T20:45:33+00:00",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-rocket-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "WP Rocket Team",
+                        "homepage": "https://wp-rocket.me",
+                        "email": "contact@wp-rocket.me"
+                    }
+                ],
+                "description": "Add a `wp rocket` command to support the WP Rocket plugin",
+                "homepage": "https://github.com/wp-media/wp-rocket-cli",
+                "keywords": [
+                    "cache",
+                    "rocket",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/wp-media/wp-rocket-cli/issues",
+                    "source": "https://github.com/wp-media/wp-rocket-cli"
+                }
+            },
+            {
+                "name": "wp-media/wp-rocket-cli",
+                "version": "dev-trunk",
+                "version_normalized": "dev-trunk",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-media/wp-rocket-cli.git",
+                    "reference": "4499a101a5fbe35595d2ca01377a3e4639a7825b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-media/wp-rocket-cli/zipball/4499a101a5fbe35595d2ca01377a3e4639a7825b",
+                    "reference": "4499a101a5fbe35595d2ca01377a3e4639a7825b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2021-03-12T20:47:33+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-rocket-cli.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "WP Rocket Team",
+                        "homepage": "https://wp-rocket.me",
+                        "email": "contact@wp-rocket.me"
+                    }
+                ],
+                "description": "Add a `wp rocket` command to support the WP Rocket plugin",
+                "homepage": "https://github.com/wp-media/wp-rocket-cli",
+                "keywords": [
+                    "cache",
+                    "rocket",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/wp-media/wp-rocket-cli/issues",
+                    "source": "https://github.com/wp-media/wp-rocket-cli"
+                }
+            }
+        ]
+    }
+}

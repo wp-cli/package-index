@@ -1,0 +1,58 @@
+{
+    "packages": {
+        "redkiwi-nl/localconfig": [
+            {
+                "name": "redkiwi-nl/localconfig",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Redkiwi-NL/local-config.git",
+                    "reference": "930fce7528d1ae7bb5a54c1bf8ba052e044b3306"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Redkiwi-NL/local-config/zipball/930fce7528d1ae7bb5a54c1bf8ba052e044b3306",
+                    "reference": "930fce7528d1ae7bb5a54c1bf8ba052e044b3306",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "php": ">=5.6"
+                },
+                "time": "2016-11-12T16:39:08+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ],
+                    "psr-0": {
+                        "JKetelaar": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jeroen Ketelaar",
+                        "email": "jeroen@ketelaar.me",
+                        "homepage": "http://jketelaar.nl",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Redkiwi",
+                        "email": "info@redkiwi.nl",
+                        "homepage": "https://www.redkiwi.nl",
+                        "role": "Company"
+                    }
+                ],
+                "description": "Creates a local config for any WordPress installation, based on a few questions you get asked.",
+                "support": {
+                    "source": "https://github.com/Redkiwi-NL/local-config/tree/master",
+                    "issues": "https://github.com/Redkiwi-NL/local-config/issues"
+                }
+            }
+        ]
+    }
+}

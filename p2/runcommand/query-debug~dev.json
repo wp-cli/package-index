@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "runcommand/query-debug": [
+            {
+                "name": "runcommand/query-debug",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/query-debug.git",
+                    "reference": "0b12f07fab88f77c0655dcd98e29cbffd1828469"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/query-debug/zipball/0b12f07fab88f77c0655dcd98e29cbffd1828469",
+                    "reference": "0b12f07fab88f77c0655dcd98e29cbffd1828469",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-20T13:41:02+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Find the query causing your performance issues.",
+                "homepage": "https://runcommand.io/wp/query-debug/",
+                "support": {
+                    "source": "https://github.com/runcommand/query-debug/tree/master"
+                }
+            }
+        ]
+    }
+}

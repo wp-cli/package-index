@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "ocean90/wp-cli-flush-cache": [
+            {
+                "name": "ocean90/wp-cli-flush-cache",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ocean90/wp-cli-flush-cache.git",
+                    "reference": "640809fac52baf14f349de6496295279d4b33b70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ocean90/wp-cli-flush-cache/zipball/640809fac52baf14f349de6496295279d4b33b70",
+                    "reference": "640809fac52baf14f349de6496295279d4b33b70",
+                    "shasum": ""
+                },
+                "time": "2016-11-07T13:51:04+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-cli-flush-cache.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "description": "Clear the cache of a user or a site.",
+                "homepage": "https://github.com/ocean90/wp-cli-flush-cache",
+                "support": {
+                    "source": "https://github.com/ocean90/wp-cli-flush-cache/tree/master",
+                    "issues": "https://github.com/ocean90/wp-cli-flush-cache/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "packages": {
+        "runcommand/assign-featured-images": [
+            {
+                "name": "runcommand/assign-featured-images",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/assign-featured-images.git",
+                    "reference": "1f7dfc09daa010691e52ea4c42adeca8577f1808"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/assign-featured-images/zipball/1f7dfc09daa010691e52ea4c42adeca8577f1808",
+                    "reference": "1f7dfc09daa010691e52ea4c42adeca8577f1808",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-11-01T18:24:42+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "assign-featured-images"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/assign-featured-images.svg?branch=master)](https://travis-ci.org/runcommand/assign-featured-images)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Assign featured images to posts that support thumbnails.",
+                "homepage": "https://runcommand.io/wp/assign-featured-images/",
+                "support": {
+                    "source": "https://github.com/runcommand/assign-featured-images/tree/master",
+                    "issues": "https://github.com/runcommand/assign-featured-images/issues"
+                }
+            }
+        ]
+    }
+}

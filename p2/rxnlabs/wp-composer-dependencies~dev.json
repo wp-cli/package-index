@@ -1,0 +1,139 @@
+{
+    "packages": {
+        "rxnlabs/wp-composer-dependencies": [
+            {
+                "name": "rxnlabs/wp-composer-dependencies",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rxnlabs/wp-composer.git",
+                    "reference": "29d633e5109dd4bec689af032e70cad3edfa0ff5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rxnlabs/wp-composer/zipball/29d633e5109dd4bec689af032e70cad3edfa0ff5",
+                    "reference": "29d633e5109dd4bec689af032e70cad3edfa0ff5",
+                    "shasum": ""
+                },
+                "require": {
+                    "camspiers/json-pretty": "^1.0",
+                    "league/flysystem": "^1.0",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "10up/wp_mock": "dev-master",
+                    "mockery/mockery": "^0.9.4",
+                    "phpunit/phpunit": "4.8.26",
+                    "whatthejeff/nyancat-phpunit-resultprinter": "^1.2"
+                },
+                "time": "2016-11-12T18:11:48+00:00",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "classmap": [
+                        "wp-composer-dependencies"
+                    ],
+                    "files": [
+                        "wp-composer-dependencies.php"
+                    ]
+                },
+                "archive": {
+                    "exclude": [
+                        ".gitignore",
+                        ".gitattributes",
+                        ".travis.yml",
+                        "tests",
+                        "phpunit.xml",
+                        ".editorconfig",
+                        "coverage",
+                        "docs/",
+                        "docs/*",
+                        "couscous.yml"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "De'Yonté W.",
+                        "email": "dev@rxnlabs.com",
+                        "homepage": "https://rxnlabs.com"
+                    }
+                ],
+                "description": "Manage your WordPress dependencies using the power of Composer, WP-CLI, and http://wpackagist.org/",
+                "keywords": [
+                    "wordpress wp composer dependencies wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/rxnlabs/wp-composer/issues",
+                    "source": "https://github.com/rxnlabs/wp-composer/tree/dev"
+                }
+            },
+            {
+                "name": "rxnlabs/wp-composer-dependencies",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rxnlabs/wp-composer.git",
+                    "reference": "29d633e5109dd4bec689af032e70cad3edfa0ff5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rxnlabs/wp-composer/zipball/29d633e5109dd4bec689af032e70cad3edfa0ff5",
+                    "reference": "29d633e5109dd4bec689af032e70cad3edfa0ff5",
+                    "shasum": ""
+                },
+                "require": {
+                    "camspiers/json-pretty": "^1.0",
+                    "league/flysystem": "^1.0",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "10up/wp_mock": "dev-master",
+                    "mockery/mockery": "^0.9.4",
+                    "phpunit/phpunit": "4.8.26",
+                    "whatthejeff/nyancat-phpunit-resultprinter": "^1.2"
+                },
+                "time": "2016-11-12T18:11:48+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "classmap": [
+                        "wp-composer-dependencies"
+                    ],
+                    "files": [
+                        "wp-composer-dependencies.php"
+                    ]
+                },
+                "archive": {
+                    "exclude": [
+                        ".gitignore",
+                        ".gitattributes",
+                        ".travis.yml",
+                        "tests",
+                        "phpunit.xml",
+                        ".editorconfig",
+                        "coverage",
+                        "docs/",
+                        "docs/*",
+                        "couscous.yml"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "De'Yonté W.",
+                        "email": "dev@rxnlabs.com",
+                        "homepage": "https://rxnlabs.com"
+                    }
+                ],
+                "description": "Manage your WordPress dependencies using the power of Composer, WP-CLI, and http://wpackagist.org/",
+                "keywords": [
+                    "wordpress wp composer dependencies wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/rxnlabs/wp-composer/issues",
+                    "source": "https://github.com/rxnlabs/wp-composer/tree/dev"
+                }
+            }
+        ]
+    }
+}

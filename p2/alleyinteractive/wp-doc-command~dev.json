@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "alleyinteractive/wp-doc-command": [
+            {
+                "name": "alleyinteractive/wp-doc-command",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/alleyinteractive/wp-doc-command.git",
+                    "reference": "78f4f4ffe601533334234848ef532ccb93af8107"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/alleyinteractive/wp-doc-command/zipball/78f4f4ffe601533334234848ef532ccb93af8107",
+                    "reference": "78f4f4ffe601533334234848ef532ccb93af8107",
+                    "shasum": ""
+                },
+                "time": "2016-10-20T14:17:16+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "View PHPDoc of any class, method, property, or function.",
+                "homepage": "https://github.com/alleyinteractive/wp-doc-command",
+                "support": {
+                    "issues": "https://github.com/alleyinteractive/wp-doc-command",
+                    "source": "https://github.com/alleyinteractive/wp-doc-command/tree/main"
+                }
+            }
+        ]
+    }
+}

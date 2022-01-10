@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "nikschavan/revslider-search-replace": [
+            {
+                "name": "nikschavan/revslider-search-replace",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Nikschavan/revslider-search-replace.git",
+                    "reference": "f82cce70433487d69afb6553a032b7650e276f19"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Nikschavan/revslider-search-replace/zipball/f82cce70433487d69afb6553a032b7650e276f19",
+                    "reference": "f82cce70433487d69afb6553a032b7650e276f19",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2019-09-14T02:29:19+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "class-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "WP CLI Command to Search Replace Strings in revolution slider",
+                "homepage": "https://github.com/Nikschavan/revslider-search-replace",
+                "support": {
+                    "source": "https://github.com/Nikschavan/revslider-search-replace/tree/master",
+                    "issues": "https://github.com/Nikschavan/revslider-search-replace/issues"
+                }
+            }
+        ]
+    }
+}

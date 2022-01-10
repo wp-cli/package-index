@@ -1,0 +1,66 @@
+{
+    "packages": {
+        "runcommand/db-ack": [
+            {
+                "name": "runcommand/db-ack",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/db-ack.git",
+                    "reference": "20151e144736f6dbbc52d274b81b6c29d416d259"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/db-ack/zipball/20151e144736f6dbbc52d274b81b6c29d416d259",
+                    "reference": "20151e144736f6dbbc52d274b81b6c29d416d259",
+                    "shasum": ""
+                },
+                "time": "2018-03-02T14:18:59+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "db ack"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/db-ack.svg?branch=master)](https://travis-ci.org/runcommand/db-ack)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Find a specific string in the database.",
+                "homepage": "https://runcommand.io/wp/db-ack/",
+                "support": {
+                    "source": "https://github.com/runcommand/db-ack/tree/master",
+                    "issues": "https://github.com/runcommand/db-ack/issues"
+                }
+            }
+        ]
+    }
+}

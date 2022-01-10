@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "ernilambar/database-command": [
+            {
+                "name": "ernilambar/database-command",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ernilambar/database-command.git",
+                    "reference": "170b5d3a98eb83ad4cc47218ec3418a7837a8ad9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/170b5d3a98eb83ad4cc47218ec3418a7837a8ad9",
+                    "reference": "170b5d3a98eb83ad4cc47218ec3418a7837a8ad9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2020-01-05T10:38:33+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nilambar Sharma",
+                        "email": "nilambar@outlook.com",
+                        "homepage": "https://www.nilambar.net",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Tool to reset WordPress database. This reset WP database but retains given administrator user account.",
+                "homepage": "https://github.com/ernilambar/database-command",
+                "keywords": [
+                    "database",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/ernilambar/database-command/tree/v0.1.2",
+                    "issues": "https://github.com/ernilambar/database-command/issues"
+                }
+            }
+        ]
+    }
+}

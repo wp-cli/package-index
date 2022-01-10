@@ -1,0 +1,88 @@
+{
+    "packages": {
+        "miya0001/wp-cli-plugins-api": [
+            {
+                "name": "miya0001/wp-cli-plugins-api",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/miya0001/wp-plugins-api.git",
+                    "reference": "5549c1521de89d1e9834ed8e60ce1af42a9a79da"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/miya0001/wp-plugins-api/zipball/5549c1521de89d1e9834ed8e60ce1af42a9a79da",
+                    "reference": "5549c1521de89d1e9834ed8e60ce1af42a9a79da",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2014-12-02T10:04:11+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "https://github.com/miya0001"
+                    }
+                ],
+                "description": "WP-CLI command for Plugins API",
+                "homepage": "http://github.com/miya0001/wp-cli-plugins-api",
+                "support": {
+                    "source": "https://github.com/miya0001/wp-plugins-api/tree/1.0",
+                    "issues": "https://github.com/miya0001/wp-plugins-api/issues"
+                }
+            },
+            {
+                "name": "miya0001/wp-cli-plugins-api",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/miya0001/wp-plugins-api.git",
+                    "reference": "995fe01095dd9186751cc34df7231fec0c588f40"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/miya0001/wp-plugins-api/zipball/995fe01095dd9186751cc34df7231fec0c588f40",
+                    "reference": "995fe01095dd9186751cc34df7231fec0c588f40",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-10-20T19:59:22+00:00",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "cli.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Takayuki Miyauchi",
+                        "homepage": "https://github.com/miya0001"
+                    }
+                ],
+                "description": "WP-CLI command for Plugins API",
+                "homepage": "http://github.com/miya0001/wp-cli-plugins-api",
+                "support": {
+                    "source": "https://github.com/miya0001/wp-plugins-api/tree/1.0.1",
+                    "issues": "https://github.com/miya0001/wp-plugins-api/issues"
+                }
+            }
+        ]
+    }
+}

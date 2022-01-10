@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "boonebgorges/wp-cli-git-helper": [
+            {
+                "name": "boonebgorges/wp-cli-git-helper",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/boonebgorges/wp-cli-git-helper.git",
+                    "reference": "90640e83c6877a4d6b2aa998d480370c931ac9bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/boonebgorges/wp-cli-git-helper/zipball/90640e83c6877a4d6b2aa998d480370c931ac9bd",
+                    "reference": "90640e83c6877a4d6b2aa998d480370c931ac9bd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "time": "2014-12-22T15:15:46+00:00",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-git-helper.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Boone B Gorges",
+                        "email": "boone@gorg.es",
+                        "homepage": "http://boone.gorg.es/"
+                    }
+                ],
+                "description": "Git helper for wp-cli core, plugin, and theme commands",
+                "homepage": "https://github.com/boonebgorges/wp-cli-git-helper",
+                "keywords": [
+                    "git",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/boonebgorges/wp-cli-git-helper/issues",
+                    "source": "https://github.com/boonebgorges/wp-cli-git-helper"
+                }
+            }
+        ]
+    }
+}

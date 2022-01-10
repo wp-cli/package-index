@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "mattes/wp-cli-quick-command": [
+            {
+                "name": "mattes/wp-cli-quick-command",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mattes/wp-cli-quick-command.git",
+                    "reference": "5baccddf856272116d3e0965caf8ab6d9f363d41"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mattes/wp-cli-quick-command/zipball/5baccddf856272116d3e0965caf8ab6d9f363d41",
+                    "reference": "5baccddf856272116d3e0965caf8ab6d9f363d41",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.11"
+                },
+                "time": "2014-03-05T16:39:09+00:00",
+                "default-branch": true,
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "wp-cli-quick-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Matthias Kadenbach",
+                        "email": "matthias.kadenbach@gmail.com",
+                        "homepage": "http://matthiaskadenbach.de"
+                    }
+                ],
+                "description": "Quick WordPress helpers.",
+                "homepage": "https://github.com/mattes/wp-cli-quick-command",
+                "keywords": [
+                    "helpers",
+                    "install",
+                    "quick",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/mattes/wp-cli-quick-command/issues",
+                    "source": "https://github.com/mattes/wp-cli-quick-command"
+                },
+                "abandoned": true
+            }
+        ]
+    }
+}

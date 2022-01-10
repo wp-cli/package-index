@@ -1,0 +1,88 @@
+{
+    "packages": {
+        "trepmal/blog-extractor": [
+            {
+                "name": "trepmal/blog-extractor",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/trepmal/blog-extractor.git",
+                    "reference": "f1d92bc8fd5ad0149dc33a1bcb1d0880095a6d36"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/trepmal/blog-extractor/zipball/f1d92bc8fd5ad0149dc33a1bcb1d0880095a6d36",
+                    "reference": "f1d92bc8fd5ad0149dc33a1bcb1d0880095a6d36",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "wp-cli/entity-command": "^2.1",
+                    "wp-cli/wp-cli": "^2.1"
+                },
+                "require-dev": {
+                    "wp-cli/wp-cli-tests": "^2.0.7"
+                },
+                "time": "2020-03-18T07:02:12+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "bundled": false,
+                    "commands": [
+                        "extract"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "blog-extractor.php"
+                    ]
+                },
+                "scripts": {
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "behat-rerun": [
+                        "rerun-behat-tests"
+                    ],
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "phpunit": [
+                        "run-php-unit-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@phpunit",
+                        "@behat"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kailey Lampert",
+                        "email": "trepmal@gmail.com"
+                    }
+                ],
+                "description": "Extract a single blog from a multisite",
+                "homepage": "https://github.com/trepmal/blog-extractor",
+                "support": {
+                    "source": "https://github.com/trepmal/blog-extractor/tree/master",
+                    "issues": "https://github.com/trepmal/blog-extractor/issues"
+                }
+            }
+        ]
+    }
+}

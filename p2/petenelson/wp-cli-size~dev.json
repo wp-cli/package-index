@@ -1,0 +1,89 @@
+{
+    "packages": {
+        "petenelson/wp-cli-size": [
+            {
+                "name": "petenelson/wp-cli-size",
+                "version": "dev-feature/media-size",
+                "version_normalized": "dev-feature/media-size",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/petenelson/wp-cli-size.git",
+                    "reference": "a08ebc82e5c45a37233b6f57c1ecbd28a6fb1a06"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/petenelson/wp-cli-size/zipball/a08ebc82e5c45a37233b6f57c1ecbd28a6fb1a06",
+                    "reference": "a08ebc82e5c45a37233b6f57c1ecbd28a6fb1a06",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-24T12:49:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pete Nelson",
+                        "email": "pete@petenelson.com"
+                    }
+                ],
+                "description": "Database and table sizes command for WP-CLI",
+                "homepage": "https://github.com/petenelson/wp-cli-size",
+                "support": {
+                    "source": "https://github.com/petenelson/wp-cli-size/tree/feature/media-size",
+                    "issues": "https://github.com/petenelson/wp-cli-size/issues"
+                }
+            },
+            {
+                "name": "petenelson/wp-cli-size",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/petenelson/wp-cli-size.git",
+                    "reference": "5842cf0bb0ec2a68f4b0649c1520ad4723a243e3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/petenelson/wp-cli-size/zipball/5842cf0bb0ec2a68f4b0649c1520ad4723a243e3",
+                    "reference": "5842cf0bb0ec2a68f4b0649c1520ad4723a243e3",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-04-11T13:55:39+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pete Nelson",
+                        "email": "pete@petenelson.com"
+                    }
+                ],
+                "description": "Database and table sizes command for WP-CLI",
+                "homepage": "https://github.com/petenelson/wp-cli-size",
+                "support": {
+                    "source": "https://github.com/petenelson/wp-cli-size/tree/master",
+                    "issues": "https://github.com/petenelson/wp-cli-size/issues"
+                }
+            }
+        ]
+    }
+}

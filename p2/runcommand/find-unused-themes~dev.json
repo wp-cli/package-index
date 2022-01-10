@@ -1,0 +1,69 @@
+{
+    "packages": {
+        "runcommand/find-unused-themes": [
+            {
+                "name": "runcommand/find-unused-themes",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/find-unused-themes.git",
+                    "reference": "7a71a7949f1aca351be4b052daf1644c084e4882"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/find-unused-themes/zipball/7a71a7949f1aca351be4b052daf1644c084e4882",
+                    "reference": "7a71a7949f1aca351be4b052daf1644c084e4882",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2021-06-01T12:15:30+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "find-unused-themes"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/find-unused-themes.svg?branch=master)](https://travis-ci.org/runcommand/find-unused-themes)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Find unused themes on a multisite network.",
+                "homepage": "https://runcommand.io/wp/find-unused-themes/",
+                "support": {
+                    "source": "https://github.com/runcommand/find-unused-themes/tree/master",
+                    "issues": "https://github.com/runcommand/find-unused-themes/issues"
+                }
+            }
+        ]
+    }
+}

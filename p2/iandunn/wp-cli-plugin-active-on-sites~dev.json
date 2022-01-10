@@ -1,0 +1,46 @@
+{
+    "packages": {
+        "iandunn/wp-cli-plugin-active-on-sites": [
+            {
+                "name": "iandunn/wp-cli-plugin-active-on-sites",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/iandunn/wp-cli-plugin-active-on-sites.git",
+                    "reference": "9d2f0216b8af5d4daabfc1500f3073da72d3a631"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/iandunn/wp-cli-plugin-active-on-sites/zipball/9d2f0216b8af5d4daabfc1500f3073da72d3a631",
+                    "reference": "9d2f0216b8af5d4daabfc1500f3073da72d3a631",
+                    "shasum": ""
+                },
+                "time": "2018-07-09T18:57:52+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-cli-plugin-active-on-sites.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Ian Dunn",
+                        "email": "ian@iandunn.name",
+                        "homepage": "https://iandunn.name"
+                    }
+                ],
+                "description": "A WP-CLI command to list all sites in a Multisite network that have activated a given plugin",
+                "homepage": "https://github.com/iandunn/wp-cli-plugin-active-on-sites",
+                "support": {
+                    "source": "https://github.com/iandunn/wp-cli-plugin-active-on-sites/tree/master",
+                    "issues": "https://github.com/iandunn/wp-cli-plugin-active-on-sites/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,213 @@
+{
+    "packages": {
+        "buddypress/wp-cli-buddypress": [
+            {
+                "name": "buddypress/wp-cli-buddypress",
+                "version": "dev-dependabot/composer/rmccue/requests-1.8.0",
+                "version_normalized": "dev-dependabot/composer/rmccue/requests-1.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/buddypress/wp-cli-buddypress.git",
+                    "reference": "57c399e2fd01a75811b42c95c4cfe30b28f07a4e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/57c399e2fd01a75811b42c95c4cfe30b28f07a4e",
+                    "reference": "57c399e2fd01a75811b42c95c4cfe30b28f07a4e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.6 || ^7.0",
+                    "wp-cli/wp-cli": "^2.5"
+                },
+                "require-dev": {
+                    "wp-cli/entity-command": "^2.0",
+                    "wp-cli/extension-command": "^2.0",
+                    "wp-cli/scaffold-command": "^1.2 || ^2",
+                    "wp-cli/wp-cli-tests": "^3.0.2"
+                },
+                "time": "2021-04-29T21:54:43+00:00",
+                "type": "wp-cli-package",
+                "extra": {
+                    "bundled": true,
+                    "commands": [
+                        "wp bp",
+                        "wp bp activity",
+                        "wp bp activity meta",
+                        "wp bp activity favorite",
+                        "wp bp group",
+                        "wp bp group meta",
+                        "wp bp group member",
+                        "wp bp group invite",
+                        "wp bp message",
+                        "wp bp email",
+                        "wp bp component",
+                        "wp bp member",
+                        "wp bp notification",
+                        "wp bp tool",
+                        "wp bp signup",
+                        "wp bp xprofile",
+                        "wp bp xprofile field",
+                        "wp bp xprofile group",
+                        "wp bp xprofile data",
+                        "wp bp scaffold"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "wp-cli-bp.php"
+                    ]
+                },
+                "scripts": {
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "behat-rerun": [
+                        "rerun-behat-tests"
+                    ],
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@behat"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "The BuddPress Contributors",
+                        "homepage": "https://buddypress.org/"
+                    }
+                ],
+                "description": "WP-CLI Community Package of BuddyPress commands",
+                "homepage": "https://github.com/buddypress/wp-cli-buddypress",
+                "keywords": [
+                    "bp",
+                    "buddypress",
+                    "community",
+                    "wordpress",
+                    "wp",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/buddypress/wp-cli-buddypress/issues",
+                    "source": "https://github.com/buddypress/wp-cli-buddypress"
+                }
+            },
+            {
+                "name": "buddypress/wp-cli-buddypress",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/buddypress/wp-cli-buddypress.git",
+                    "reference": "bdd26c6a49778dc821b00d772496581765141c6a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/buddypress/wp-cli-buddypress/zipball/bdd26c6a49778dc821b00d772496581765141c6a",
+                    "reference": "bdd26c6a49778dc821b00d772496581765141c6a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.6 || ^7.0",
+                    "wp-cli/wp-cli": "^2.5"
+                },
+                "require-dev": {
+                    "wp-cli/entity-command": "^2.0",
+                    "wp-cli/extension-command": "^2.0",
+                    "wp-cli/scaffold-command": "^1.2 || ^2",
+                    "wp-cli/wp-cli-tests": "^3.0.2"
+                },
+                "time": "2021-03-21T16:03:49+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "extra": {
+                    "bundled": true,
+                    "commands": [
+                        "wp bp",
+                        "wp bp activity",
+                        "wp bp activity meta",
+                        "wp bp activity favorite",
+                        "wp bp group",
+                        "wp bp group meta",
+                        "wp bp group member",
+                        "wp bp group invite",
+                        "wp bp message",
+                        "wp bp email",
+                        "wp bp component",
+                        "wp bp member",
+                        "wp bp notification",
+                        "wp bp tool",
+                        "wp bp signup",
+                        "wp bp xprofile",
+                        "wp bp xprofile field",
+                        "wp bp xprofile group",
+                        "wp bp xprofile data",
+                        "wp bp scaffold"
+                    ]
+                },
+                "autoload": {
+                    "files": [
+                        "wp-cli-bp.php"
+                    ]
+                },
+                "scripts": {
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "behat-rerun": [
+                        "rerun-behat-tests"
+                    ],
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@behat"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "The BuddPress Contributors",
+                        "homepage": "https://buddypress.org/"
+                    }
+                ],
+                "description": "WP-CLI Community Package of BuddyPress commands",
+                "homepage": "https://github.com/buddypress/wp-cli-buddypress",
+                "keywords": [
+                    "bp",
+                    "buddypress",
+                    "community",
+                    "wordpress",
+                    "wp",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/buddypress/wp-cli-buddypress/issues",
+                    "source": "https://github.com/buddypress/wp-cli-buddypress"
+                }
+            }
+        ]
+    }
+}

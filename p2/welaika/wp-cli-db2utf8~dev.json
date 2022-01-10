@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "welaika/wp-cli-db2utf8": [
+            {
+                "name": "welaika/wp-cli-db2utf8",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/welaika/wp-cli-db2utf8.git",
+                    "reference": "f2965280da7bc0837cbcfb4fba92f190371c27dc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/welaika/wp-cli-db2utf8/zipball/f2965280da7bc0837cbcfb4fba92f190371c27dc",
+                    "reference": "f2965280da7bc0837cbcfb4fba92f190371c27dc",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": ">=0.23.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2017-01-10T16:43:20+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "https://github.com/welaika/wp-cli-db2utf8",
+                "support": {
+                    "source": "https://github.com/welaika/wp-cli-db2utf8/tree/master",
+                    "issues": "https://github.com/welaika/wp-cli-db2utf8/issues"
+                }
+            }
+        ]
+    }
+}

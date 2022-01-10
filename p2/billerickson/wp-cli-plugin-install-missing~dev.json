@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "billerickson/wp-cli-plugin-install-missing": [
+            {
+                "name": "billerickson/wp-cli-plugin-install-missing",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/billerickson/wp-cli-plugin-install-missing.git",
+                    "reference": "2be8cca255c321080fb53e129ae20aef4abbdd7b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/billerickson/wp-cli-plugin-install-missing/zipball/2be8cca255c321080fb53e129ae20aef4abbdd7b",
+                    "reference": "2be8cca255c321080fb53e129ae20aef4abbdd7b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-10-20T14:17:11+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-cli-plugin-install-missing.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Install any plugins that are active but missing.",
+                "homepage": "https://github.com/billerickson/wp-cli-plugin-install-missing",
+                "support": {
+                    "source": "https://github.com/billerickson/wp-cli-plugin-install-missing/tree/master",
+                    "issues": "https://github.com/billerickson/wp-cli-plugin-install-missing/issues"
+                }
+            }
+        ]
+    }
+}

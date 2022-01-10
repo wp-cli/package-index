@@ -1,0 +1,66 @@
+{
+    "packages": {
+        "runcommand/media-sideload": [
+            {
+                "name": "runcommand/media-sideload",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/runcommand/media-sideload.git",
+                    "reference": "8db78cb999e801fe98806b506f84efa349325cf2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/runcommand/media-sideload/zipball/8db78cb999e801fe98806b506f84efa349325cf2",
+                    "reference": "8db78cb999e801fe98806b506f84efa349325cf2",
+                    "shasum": ""
+                },
+                "time": "2016-11-01T18:24:12+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "extra": {
+                    "commands": [
+                        "media sideload"
+                    ],
+                    "readme": {
+                        "shields": [
+                            "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
+                            "[![Build Status](https://travis-ci.org/runcommand/media-sideload.svg?branch=master)](https://travis-ci.org/runcommand/media-sideload)"
+                        ],
+                        "sections": [
+                            "Using",
+                            "Installing",
+                            "Support"
+                        ],
+                        "support": {
+                            "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
+                        },
+                        "show_powered_by": false
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@runcommand.io",
+                        "homepage": "https://runcommand.io"
+                    }
+                ],
+                "description": "Sideload embedded images, and update post content references.",
+                "homepage": "https://runcommand.io/wp/media-sideload/",
+                "support": {
+                    "source": "https://github.com/runcommand/media-sideload/tree/master",
+                    "issues": "https://github.com/runcommand/media-sideload/issues"
+                }
+            }
+        ]
+    }
+}

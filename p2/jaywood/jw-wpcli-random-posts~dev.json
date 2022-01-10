@@ -1,0 +1,201 @@
+{
+    "packages": {
+        "jaywood/jw-wpcli-random-posts": [
+            {
+                "name": "JayWood/jw-wpcli-random-posts",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
+                    "reference": "3238142f10fbfc3422b544c08505df1623cc7611"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/3238142f10fbfc3422b544c08505df1623cc7611",
+                    "reference": "3238142f10fbfc3422b544c08505df1623cc7611",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2019-01-07T00:57:20+00:00",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "generate-posts.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Jay Wood",
+                        "email": "jjwood2004@gmail.com",
+                        "homepage": "http://plugish.com"
+                    }
+                ],
+                "description": "A robust random post generator for WP CLI which supports multisite, post types, post counts, taxonomies, terms, term counts and featured images.",
+                "homepage": "http://plugish.com",
+                "keywords": [
+                    "placeholder",
+                    "random posts",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/develop",
+                    "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
+                }
+            },
+            {
+                "name": "JayWood/jw-wpcli-random-posts",
+                "version": "dev-feature/allow-test-data-removal",
+                "version_normalized": "dev-feature/allow-test-data-removal",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
+                    "reference": "2b2ecab7350e6ff8307ea896f59be0fc47427295"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/2b2ecab7350e6ff8307ea896f59be0fc47427295",
+                    "reference": "2b2ecab7350e6ff8307ea896f59be0fc47427295",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "time": "2016-12-30T05:53:44+00:00",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "generate-posts.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Jay Wood",
+                        "email": "jjwood2004@gmail.com",
+                        "homepage": "http://plugish.com"
+                    }
+                ],
+                "description": "A robust random post generator for WP CLI which supports multisite, post types, post counts, taxonomies, terms, term counts and featured images.",
+                "homepage": "http://plugish.com",
+                "keywords": [
+                    "placeholder",
+                    "random posts",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/1.1",
+                    "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
+                }
+            },
+            {
+                "name": "JayWood/jw-wpcli-random-posts",
+                "version": "dev-feature/faker",
+                "version_normalized": "dev-feature/faker",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
+                    "reference": "5009aee7935a0a3414e5164dac8cf401b5e9b9c7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/5009aee7935a0a3414e5164dac8cf401b5e9b9c7",
+                    "reference": "5009aee7935a0a3414e5164dac8cf401b5e9b9c7",
+                    "shasum": ""
+                },
+                "require": {
+                    "fzaninotto/faker": "^1.8",
+                    "php": ">=5.4"
+                },
+                "time": "2018-09-29T19:42:08+00:00",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "generate-posts.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Jay Wood",
+                        "email": "jjwood2004@gmail.com",
+                        "homepage": "http://plugish.com"
+                    }
+                ],
+                "description": "A robust random post generator for WP CLI which supports multisite, post types, post counts, taxonomies, terms, term counts and featured images.",
+                "homepage": "http://plugish.com",
+                "keywords": [
+                    "placeholder",
+                    "random posts",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/feature/faker",
+                    "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
+                }
+            },
+            {
+                "name": "JayWood/jw-wpcli-random-posts",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
+                    "reference": "91495b3e4b2e42ff395437a1a7986c9a74974094"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/91495b3e4b2e42ff395437a1a7986c9a74974094",
+                    "reference": "91495b3e4b2e42ff395437a1a7986c9a74974094",
+                    "shasum": ""
+                },
+                "require": {
+                    "fzaninotto/faker": "^1.8",
+                    "php": ">=7.0"
+                },
+                "time": "2019-10-13T18:57:14+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "psr-0": {
+                        "plugish\\CLI\\RandomPosts\\Util\\": "util/"
+                    }
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Jay Wood",
+                        "email": "jjwood2004@gmail.com",
+                        "homepage": "http://plugish.com"
+                    }
+                ],
+                "description": "A robust random post generator for WP CLI which supports multisite, post types, post counts, taxonomies, terms, term counts and featured images.",
+                "homepage": "http://plugish.com",
+                "keywords": [
+                    "placeholder",
+                    "random posts",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/2.0",
+                    "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
+                }
+            }
+        ]
+    }
+}

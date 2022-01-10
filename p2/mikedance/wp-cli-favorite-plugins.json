@@ -1,0 +1,92 @@
+{
+    "packages": {
+        "mikedance/wp-cli-favorite-plugins": [
+            {
+                "name": "mikedance/wp-cli-favorite-plugins",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikedance/wp-cli-favorite-plugins.git",
+                    "reference": "e53557ca3e17a966a9aa66c4b1b5019e8cd329a7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mikedance/wp-cli-favorite-plugins/zipball/e53557ca3e17a966a9aa66c4b1b5019e8cd329a7",
+                    "reference": "e53557ca3e17a966a9aa66c4b1b5019e8cd329a7",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-07-29T19:43:24+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Dance"
+                    }
+                ],
+                "description": "WP-CLI command to grab favorited plugins from any wordpress.org account.",
+                "homepage": "https://github.com/mikedance/wp-cli-favorite-plugins",
+                "support": {
+                    "source": "https://github.com/mikedance/wp-cli-favorite-plugins/tree/1.1",
+                    "issues": "https://github.com/mikedance/wp-cli-favorite-plugins/issues"
+                }
+            },
+            {
+                "name": "mikedance/wp-cli-favorite-plugins",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikedance/wp-cli-favorite-plugins.git",
+                    "reference": "10d2d6031b04fc49c2ea18810c40ec8fec6077f9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mikedance/wp-cli-favorite-plugins/zipball/10d2d6031b04fc49c2ea18810c40ec8fec6077f9",
+                    "reference": "10d2d6031b04fc49c2ea18810c40ec8fec6077f9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2019-12-05T19:19:06+00:00",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Dance"
+                    }
+                ],
+                "description": "WP-CLI command to grab favorited plugins from any wordpress.org account.",
+                "homepage": "https://github.com/mikedance/wp-cli-favorite-plugins",
+                "support": {
+                    "source": "https://github.com/mikedance/wp-cli-favorite-plugins/tree/1.2",
+                    "issues": "https://github.com/mikedance/wp-cli-favorite-plugins/issues"
+                }
+            }
+        ]
+    }
+}

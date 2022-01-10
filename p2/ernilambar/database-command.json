@@ -1,0 +1,156 @@
+{
+    "packages": {
+        "ernilambar/database-command": [
+            {
+                "name": "ernilambar/database-command",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ernilambar/database-command.git",
+                    "reference": "6e943faf76437f550a84b3f6600bf73e73f684bf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/6e943faf76437f550a84b3f6600bf73e73f684bf",
+                    "reference": "6e943faf76437f550a84b3f6600bf73e73f684bf",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-06T15:57:56+00:00",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nilambar Sharma",
+                        "email": "nilambar@outlook.com",
+                        "homepage": "http://nilambar.net",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Tool to reset WordPress database. This reset WP database but retains given administrator user account.",
+                "homepage": "https://github.com/ernilambar/database-command",
+                "keywords": [
+                    "database",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/ernilambar/database-command/tree/v0.1.0",
+                    "issues": "https://github.com/ernilambar/database-command/issues"
+                }
+            },
+            {
+                "name": "ernilambar/database-command",
+                "version": "v0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ernilambar/database-command.git",
+                    "reference": "254669f6e403e8f1743d4c4370670c4175281060"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/254669f6e403e8f1743d4c4370670c4175281060",
+                    "reference": "254669f6e403e8f1743d4c4370670c4175281060",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2016-05-23T11:22:30+00:00",
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nilambar Sharma",
+                        "email": "nilambar@outlook.com",
+                        "homepage": "http://nilambar.net",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Tool to reset WordPress database. This reset WP database but retains given administrator user account.",
+                "homepage": "https://github.com/ernilambar/database-command",
+                "keywords": [
+                    "database",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/ernilambar/database-command/tree/v0.1.1",
+                    "issues": "https://github.com/ernilambar/database-command/issues"
+                }
+            },
+            {
+                "name": "ernilambar/database-command",
+                "version": "v0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ernilambar/database-command.git",
+                    "reference": "170b5d3a98eb83ad4cc47218ec3418a7837a8ad9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ernilambar/database-command/zipball/170b5d3a98eb83ad4cc47218ec3418a7837a8ad9",
+                    "reference": "170b5d3a98eb83ad4cc47218ec3418a7837a8ad9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2020-01-05T10:38:33+00:00",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nilambar Sharma",
+                        "email": "nilambar@outlook.com",
+                        "homepage": "https://www.nilambar.net",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Tool to reset WordPress database. This reset WP database but retains given administrator user account.",
+                "homepage": "https://github.com/ernilambar/database-command",
+                "keywords": [
+                    "database",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/ernilambar/database-command/tree/v0.1.2",
+                    "issues": "https://github.com/ernilambar/database-command/issues"
+                }
+            }
+        ]
+    }
+}

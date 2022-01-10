@@ -1,0 +1,60 @@
+{
+    "packages": {
+        "pixline/wp-cli-proxy": [
+            {
+                "name": "pixline/wp-cli-proxy",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixline/wp-cli-proxy.git",
+                    "reference": "b7cdb4527f90130b59bdf846af4617cbdcdcef41"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixline/wp-cli-proxy/zipball/b7cdb4527f90130b59bdf846af4617cbdcdcef41",
+                    "reference": "b7cdb4527f90130b59bdf846af4617cbdcdcef41",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "dev-master"
+                },
+                "suggest": {
+                    "pixline/wp-cli-php-devtools": "dev-master",
+                    "pixline/wp-cli-theme-test-command": "dev-master",
+                    "wp-cli/server-command": "dev-master",
+                    "x-team/wp-cli-ssh": "dev-master"
+                },
+                "time": "2013-12-08T00:34:33+00:00",
+                "default-branch": true,
+                "type": "command",
+                "autoload": {
+                    "files": [
+                        "proxy-command.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Paolo Tresso",
+                        "email": "plugins@swergroup.com"
+                    }
+                ],
+                "description": "wp-cli debug proxy setup (mitmproxy.org)",
+                "homepage": "https://github.com/pixline/wp-cli-proxy",
+                "keywords": [
+                    "development",
+                    "mitmproxy",
+                    "proxy",
+                    "wp-cli"
+                ],
+                "support": {
+                    "issues": "https://github.com/pixline/wp-cli-devtools/issues",
+                    "source": "https://github.com/pixline/wp-cli-devtools"
+                }
+            }
+        ]
+    }
+}

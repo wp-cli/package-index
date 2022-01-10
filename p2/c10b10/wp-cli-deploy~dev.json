@@ -1,0 +1,111 @@
+{
+    "packages": {
+        "c10b10/wp-cli-deploy": [
+            {
+                "name": "c10b10/wp-cli-deploy",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/c10b10/wp-cli-deploy.git",
+                    "reference": "4fbf2347b58da714630e1cdd3e497373409d4a8c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/4fbf2347b58da714630e1cdd3e497373409d4a8c",
+                    "reference": "4fbf2347b58da714630e1cdd3e497373409d4a8c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": ">=0.14"
+                },
+                "time": "2014-07-29T10:20:39+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "deploy.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Alex Ciobica",
+                        "email": "alex.ciobica@gmail.com",
+                        "homepage": "http://ciobi.ca"
+                    }
+                ],
+                "description": "Deploys the local WordPress database or the uploads directory to a remote server using ssh.",
+                "homepage": "https://github.com/c10b10/wp-cli-deploy",
+                "keywords": [
+                    "deploy",
+                    "dump",
+                    "git",
+                    "mysql",
+                    "uploads",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/c10b10/wp-cli-deploy/tree/dev",
+                    "issues": "https://github.com/c10b10/wp-cli-deploy/issues"
+                }
+            },
+            {
+                "name": "c10b10/wp-cli-deploy",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/c10b10/wp-cli-deploy.git",
+                    "reference": "f7157c0971832dee00fc06bc77740f7a09508cc2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/c10b10/wp-cli-deploy/zipball/f7157c0971832dee00fc06bc77740f7a09508cc2",
+                    "reference": "f7157c0971832dee00fc06bc77740f7a09508cc2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "wp-cli/wp-cli": ">=0.14"
+                },
+                "time": "2018-05-22T08:59:37+00:00",
+                "default-branch": true,
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "deploy.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Alex Ciobica",
+                        "email": "alex.ciobica@gmail.com",
+                        "homepage": "http://ciobi.ca"
+                    }
+                ],
+                "description": "Deploys the local WordPress database or the uploads directory to a remote server using ssh.",
+                "homepage": "https://github.com/c10b10/wp-cli-deploy",
+                "keywords": [
+                    "deploy",
+                    "dump",
+                    "git",
+                    "mysql",
+                    "uploads",
+                    "wordpress",
+                    "wp-cli"
+                ],
+                "support": {
+                    "source": "https://github.com/c10b10/wp-cli-deploy/tree/master",
+                    "issues": "https://github.com/c10b10/wp-cli-deploy/issues"
+                }
+            }
+        ]
+    }
+}
