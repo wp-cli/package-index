@@ -13,7 +13,6 @@ https://github.com/boonebgorges/wp-cli-git-helper
 https://github.com/c10b10/wp-cli-deploy
 https://github.com/danielbachhuber/wp-cli-pre-cache-command
 https://github.com/danielbachhuber/wp-rest-cli
-https://github.com/ernilambar/database-command
 https://github.com/GeekPress/wp-rocket-cli
 https://github.com/getshifter/wp-cli-shifter
 https://github.com/iandunn/wp-cli-rename-db-prefix
