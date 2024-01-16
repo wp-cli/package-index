@@ -2,7 +2,7 @@
     "packages": {
         "jaywood/jw-wpcli-random-posts": [
             {
-                "name": "JayWood/jw-wpcli-random-posts",
+                "name": "jaywood/jw-wpcli-random-posts",
                 "version": "dev-develop",
                 "version_normalized": "dev-develop",
                 "source": {
@@ -50,7 +50,7 @@
                 }
             },
             {
-                "name": "JayWood/jw-wpcli-random-posts",
+                "name": "jaywood/jw-wpcli-random-posts",
                 "version": "dev-feature/allow-test-data-removal",
                 "version_normalized": "dev-feature/allow-test-data-removal",
                 "source": {
@@ -98,7 +98,7 @@
                 }
             },
             {
-                "name": "JayWood/jw-wpcli-random-posts",
+                "name": "jaywood/jw-wpcli-random-posts",
                 "version": "dev-feature/faker",
                 "version_normalized": "dev-feature/faker",
                 "source": {
@@ -147,25 +147,25 @@
                 }
             },
             {
-                "name": "JayWood/jw-wpcli-random-posts",
+                "name": "jaywood/jw-wpcli-random-posts",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/JayWood/jw-wpcli-random-posts.git",
-                    "reference": "91495b3e4b2e42ff395437a1a7986c9a74974094"
+                    "reference": "295b2840e1c642eb1e92fc17d12711877e6a201a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/91495b3e4b2e42ff395437a1a7986c9a74974094",
-                    "reference": "91495b3e4b2e42ff395437a1a7986c9a74974094",
+                    "url": "https://api.github.com/repos/JayWood/jw-wpcli-random-posts/zipball/295b2840e1c642eb1e92fc17d12711877e6a201a",
+                    "reference": "295b2840e1c642eb1e92fc17d12711877e6a201a",
                     "shasum": ""
                 },
                 "require": {
-                    "fzaninotto/faker": "^1.8",
+                    "fzaninotto/faker": "dev-master",
                     "php": ">=7.0"
                 },
-                "time": "2019-10-13T18:57:14+00:00",
+                "time": "2023-06-16T15:59:34+00:00",
                 "default-branch": true,
                 "type": "wp-cli-package",
                 "autoload": {
@@ -192,7 +192,7 @@
                     "wp-cli"
                 ],
                 "support": {
-                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/2.0",
+                    "source": "https://github.com/JayWood/jw-wpcli-random-posts/tree/master",
                     "issues": "https://github.com/JayWood/jw-wpcli-random-posts/issues"
                 }
             }

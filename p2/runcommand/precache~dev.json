@@ -8,15 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/runcommand/precache.git",
-                    "reference": "84093d00a81448f6b8e15be49b87113c1f3cd633"
+                    "reference": "009de3001f1821d4e54d423d5b38418b612762b8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/runcommand/precache/zipball/84093d00a81448f6b8e15be49b87113c1f3cd633",
-                    "reference": "84093d00a81448f6b8e15be49b87113c1f3cd633",
+                    "url": "https://api.github.com/repos/runcommand/precache/zipball/009de3001f1821d4e54d423d5b38418b612762b8",
+                    "reference": "009de3001f1821d4e54d423d5b38418b612762b8",
                     "shasum": ""
                 },
-                "time": "2017-04-20T12:44:13+00:00",
+                "time": "2022-07-25T10:52:56+00:00",
                 "default-branch": true,
                 "type": "wp-cli-package",
                 "extra": {

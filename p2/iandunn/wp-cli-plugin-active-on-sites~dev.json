@@ -8,15 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/iandunn/wp-cli-plugin-active-on-sites.git",
-                    "reference": "9d2f0216b8af5d4daabfc1500f3073da72d3a631"
+                    "reference": "eef6bc92d86a169788821c112e8bf43748de3595"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/iandunn/wp-cli-plugin-active-on-sites/zipball/9d2f0216b8af5d4daabfc1500f3073da72d3a631",
-                    "reference": "9d2f0216b8af5d4daabfc1500f3073da72d3a631",
+                    "url": "https://api.github.com/repos/iandunn/wp-cli-plugin-active-on-sites/zipball/eef6bc92d86a169788821c112e8bf43748de3595",
+                    "reference": "eef6bc92d86a169788821c112e8bf43748de3595",
                     "shasum": ""
                 },
-                "time": "2018-07-09T18:57:52+00:00",
+                "time": "2022-11-18T18:35:29+00:00",
                 "default-branch": true,
                 "type": "wp-cli-package",
                 "autoload": {

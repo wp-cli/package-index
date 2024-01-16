@@ -2,7 +2,7 @@
     "packages": {
         "jaywood/jw-wpcli-random-posts": [
             {
-                "name": "JayWood/jw-wpcli-random-posts",
+                "name": "jaywood/jw-wpcli-random-posts",
                 "version": "1.1",
                 "version_normalized": "1.1.0.0",
                 "source": {
@@ -50,7 +50,7 @@
                 }
             },
             {
-                "name": "JayWood/jw-wpcli-random-posts",
+                "name": "jaywood/jw-wpcli-random-posts",
                 "version": "1.2",
                 "version_normalized": "1.2.0.0",
                 "source": {
@@ -98,7 +98,7 @@
                 }
             },
             {
-                "name": "JayWood/jw-wpcli-random-posts",
+                "name": "jaywood/jw-wpcli-random-posts",
                 "version": "1.3",
                 "version_normalized": "1.3.0.0",
                 "source": {
@@ -146,7 +146,7 @@
                 }
             },
             {
-                "name": "JayWood/jw-wpcli-random-posts",
+                "name": "jaywood/jw-wpcli-random-posts",
                 "version": "1.4",
                 "version_normalized": "1.4.0.0",
                 "source": {
@@ -194,7 +194,7 @@
                 }
             },
             {
-                "name": "JayWood/jw-wpcli-random-posts",
+                "name": "jaywood/jw-wpcli-random-posts",
                 "version": "2.0",
                 "version_normalized": "2.0.0.0",
                 "source": {

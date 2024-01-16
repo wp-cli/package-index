@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$534219f40283e6b350358f35554691113520c917.json": {
-            "sha1": "534219f40283e6b350358f35554691113520c917"
+        "include/all$6d94824e322678fcea93d2d5c3f9646c556bb940.json": {
+            "sha1": "6d94824e322678fcea93d2d5c3f9646c556bb940"
         }
     },
     "metadata-url": "/package-index/p2/%package%.json",
@@ -15,7 +15,6 @@
         "brightoak/wp-cli-envoyer",
         "buddypress/wp-cli-buddypress",
         "c10b10/wp-cli-deploy",
-        "ernilambar/database-command",
         "foogile/wp-cli-mig",
         "iandunn/wp-cli-plugin-active-on-sites",
         "iandunn/wp-cli-rename-db-prefix",

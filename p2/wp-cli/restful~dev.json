@@ -3,30 +3,30 @@
         "wp-cli/restful": [
             {
                 "name": "wp-cli/restful",
-                "version": "dev-dependabot/composer/behat/behat-approx-3.10",
-                "version_normalized": "dev-dependabot/composer/behat/behat-approx-3.10",
+                "version": "dev-dependabot/composer/behat/behat-approx-3.14",
+                "version_normalized": "dev-dependabot/composer/behat/behat-approx-3.14",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "ff94d24c9664c7e1c29906d791c9ade4afdf37b2"
+                    "reference": "617b692475ebe7c417f7efee0d97928e7a9eed7f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/ff94d24c9664c7e1c29906d791c9ade4afdf37b2",
-                    "reference": "ff94d24c9664c7e1c29906d791c9ade4afdf37b2",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/617b692475ebe7c417f7efee0d97928e7a9eed7f",
+                    "reference": "617b692475ebe7c417f7efee0d97928e7a9eed7f",
                     "shasum": ""
                 },
                 "require": {
                     "wp-cli/wp-cli": "*"
                 },
                 "require-dev": {
-                    "behat/behat": "~3.10"
+                    "behat/behat": "~3.14"
                 },
-                "time": "2021-11-03T14:01:43+00:00",
+                "time": "2024-01-11T14:27:28+00:00",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
-                        "dev-master": "1.x-dev"
+                        "dev-main": "1.x-dev"
                     },
                     "readme": {
                         "package_description": {
@@ -56,23 +56,23 @@
                 ],
                 "description": "Unlock the potential of the WP REST API at the command line.",
                 "support": {
-                    "source": "https://github.com/wp-cli/restful/tree/dependabot/composer/behat/behat-approx-3.10",
+                    "source": "https://github.com/wp-cli/restful/tree/dependabot/composer/behat/behat-approx-3.14",
                     "issues": "https://github.com/wp-cli/restful/issues"
                 }
             },
             {
                 "name": "wp-cli/restful",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "e911fc1c5356e6319762c29a1c771e3d6710b04d"
+                    "reference": "024fe4207e4980e1f9b5fd2358693a268276e803"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/e911fc1c5356e6319762c29a1c771e3d6710b04d",
-                    "reference": "e911fc1c5356e6319762c29a1c771e3d6710b04d",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/024fe4207e4980e1f9b5fd2358693a268276e803",
+                    "reference": "024fe4207e4980e1f9b5fd2358693a268276e803",
                     "shasum": ""
                 },
                 "require": {
@@ -81,12 +81,12 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2021-12-10T08:05:36+00:00",
+                "time": "2023-05-27T15:51:40+00:00",
                 "default-branch": true,
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
-                        "dev-master": "1.x-dev"
+                        "dev-main": "1.x-dev"
                     },
                     "readme": {
                         "package_description": {
@@ -116,7 +116,7 @@
                 ],
                 "description": "Unlock the potential of the WP REST API at the command line.",
                 "support": {
-                    "source": "https://github.com/wp-cli/restful/tree/master",
+                    "source": "https://github.com/wp-cli/restful/tree/main",
                     "issues": "https://github.com/wp-cli/restful/issues"
                 }
             },
@@ -127,12 +127,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "0a3b8916f6274705d912c57e1c6cb25ed1d40494"
+                    "reference": "cc51b669c91f374f7536c06c6e702ad733e46e47"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/0a3b8916f6274705d912c57e1c6cb25ed1d40494",
-                    "reference": "0a3b8916f6274705d912c57e1c6cb25ed1d40494",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/cc51b669c91f374f7536c06c6e702ad733e46e47",
+                    "reference": "cc51b669c91f374f7536c06c6e702ad733e46e47",
                     "shasum": ""
                 },
                 "require": {
@@ -141,7 +141,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2021-07-23T16:51:50+00:00",
+                "time": "2022-08-11T16:31:21+00:00",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
