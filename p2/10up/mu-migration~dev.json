@@ -3,24 +3,27 @@
         "10up/mu-migration": [
             {
                 "name": "10up/mu-migration",
-                "version": "dev-develop",
-                "version_normalized": "dev-develop",
+                "version": "dev-dependabot/composer/composer-f53c1cc547",
+                "version_normalized": "dev-dependabot/composer/composer-f53c1cc547",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/MU-Migration.git",
-                    "reference": "90b7cfaf50719299a05dfb8481df3a3d940973a2"
+                    "reference": "62c8ef9f768dce2a74767759fc03929e931a08e4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/90b7cfaf50719299a05dfb8481df3a3d940973a2",
-                    "reference": "90b7cfaf50719299a05dfb8481df3a3d940973a2",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/62c8ef9f768dce2a74767759fc03929e931a08e4",
+                    "reference": "62c8ef9f768dce2a74767759fc03929e931a08e4",
                     "shasum": ""
                 },
                 "require": {
-                    "alchemy/zippy": "^0.3.5"
+                    "alchemy/zippy": "0.4.8"
                 },
-                "time": "2016-04-23T23:04:39+00:00",
-                "type": "library",
+                "require-dev": {
+                    "behat/behat": "~2.5"
+                },
+                "time": "2024-11-06T16:30:30+00:00",
+                "type": "wp-cli-package",
                 "autoload": {
                     "files": [
                         "mu-migration.php"
@@ -39,8 +42,9 @@
                 "homepage": "https://github.com/10up/MU-Migration",
                 "support": {
                     "issues": "https://github.com/10up/MU-Migration/issues",
-                    "source": "https://github.com/10up/MU-Migration/tree/develop"
-                }
+                    "source": "https://github.com/10up/MU-Migration/tree/dependabot/composer/composer-f53c1cc547"
+                },
+                "abandoned": true
             },
             {
                 "name": "10up/mu-migration",
@@ -84,7 +88,8 @@
                 "support": {
                     "issues": "https://github.com/10up/MU-Migration/issues",
                     "source": "https://github.com/10up/MU-Migration/tree/feature/behat-tests"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "10up/mu-migration",
@@ -129,7 +134,8 @@
                 "support": {
                     "issues": "https://github.com/10up/MU-Migration/issues",
                     "source": "https://github.com/10up/MU-Migration/tree/feature/cleanup"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "10up/mu-migration",
@@ -173,7 +179,8 @@
                 "support": {
                     "issues": "https://github.com/10up/MU-Migration/issues",
                     "source": "https://github.com/10up/MU-Migration/tree/feature/filter-process-args"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "10up/mu-migration",
@@ -182,12 +189,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/MU-Migration.git",
-                    "reference": "a13549ca68b36f4dc81c47984ccc20a3bc42285f"
+                    "reference": "c6ab6dbd1c1eb7c472a6d8e114f4ccfe5632c664"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/a13549ca68b36f4dc81c47984ccc20a3bc42285f",
-                    "reference": "a13549ca68b36f4dc81c47984ccc20a3bc42285f",
+                    "url": "https://api.github.com/repos/10up/MU-Migration/zipball/c6ab6dbd1c1eb7c472a6d8e114f4ccfe5632c664",
+                    "reference": "c6ab6dbd1c1eb7c472a6d8e114f4ccfe5632c664",
                     "shasum": ""
                 },
                 "require": {
@@ -196,7 +203,7 @@
                 "require-dev": {
                     "behat/behat": "~2.5"
                 },
-                "time": "2021-07-23T17:35:38+00:00",
+                "time": "2026-03-02T23:06:23+00:00",
                 "default-branch": true,
                 "type": "wp-cli-package",
                 "autoload": {
@@ -218,7 +225,8 @@
                 "support": {
                     "issues": "https://github.com/10up/MU-Migration/issues",
                     "source": "https://github.com/10up/MU-Migration/tree/master"
-                }
+                },
+                "abandoned": true
             }
         ]
     }

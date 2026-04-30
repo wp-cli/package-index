@@ -1,5 +1,91 @@
 {
     "packages": {
-        "alleyinteractive/wp-doc-command": []
+        "alleyinteractive/wp-doc-command": [
+            {
+                "name": "alleyinteractive/wp-doc-command",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/alleyinteractive/wp-doc-command.git",
+                    "reference": "8369088ca6aa2e8f4c5c0ecee50f41b0343edea5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/alleyinteractive/wp-doc-command/zipball/8369088ca6aa2e8f4c5c0ecee50f41b0343edea5",
+                    "reference": "8369088ca6aa2e8f4c5c0ecee50f41b0343edea5",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "^2.5"
+                },
+                "require-dev": {
+                    "wp-cli/wp-cli-tests": "^3.0.11"
+                },
+                "time": "2025-05-08T15:01:33+00:00",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    },
+                    "bundled": false,
+                    "commands": [
+                        "doc"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Alley\\WP\\Doc\\": "src/"
+                    },
+                    "files": [
+                        "command.php"
+                    ]
+                },
+                "scripts": {
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "behat-rerun": [
+                        "rerun-behat-tests"
+                    ],
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "phpcbf": [
+                        "run-phpcbf-cleanup"
+                    ],
+                    "phpunit": [
+                        "run-php-unit-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@phpunit",
+                        "@behat"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Matthew Boynes",
+                        "email": "info@alley.com"
+                    }
+                ],
+                "description": "View PHPDoc of any class, method, property, or function.",
+                "homepage": "https://github.com/alleyinteractive/wp-doc-command",
+                "support": {
+                    "issues": "https://github.com/alleyinteractive/wp-doc-command/issues",
+                    "source": "https://github.com/alleyinteractive/wp-doc-command/tree/v1.0.0"
+                }
+            }
+        ]
     }
 }

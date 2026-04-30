@@ -52,7 +52,8 @@
                 "support": {
                     "issues": "https://github.com/pixline/wp-cli-devtools/issues",
                     "source": "https://github.com/pixline/wp-cli-devtools"
-                }
+                },
+                "abandoned": true
             }
         ]
     }

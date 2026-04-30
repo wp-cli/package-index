@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/10up/wp-hammer.git",
-                    "reference": "0559573b569a7365e1c2cf5f26cb8ab8755f63a5"
+                    "reference": "8741e70fb6a41fd4f8a8caf4b3f339d2b26b15d0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/10up/wp-hammer/zipball/0559573b569a7365e1c2cf5f26cb8ab8755f63a5",
-                    "reference": "0559573b569a7365e1c2cf5f26cb8ab8755f63a5",
+                    "url": "https://api.github.com/repos/10up/wp-hammer/zipball/8741e70fb6a41fd4f8a8caf4b3f339d2b26b15d0",
+                    "reference": "8741e70fb6a41fd4f8a8caf4b3f339d2b26b15d0",
                     "shasum": ""
                 },
                 "require": {
@@ -21,7 +21,7 @@
                     "joshtronic/php-loremipsum": "1.0.5",
                     "roderik/pwgen-php": "0.1.8"
                 },
-                "time": "2022-06-29T16:49:52+00:00",
+                "time": "2024-01-24T19:09:09+00:00",
                 "default-branch": true,
                 "type": "wp-cli-package",
                 "autoload": {
@@ -47,7 +47,8 @@
                 "support": {
                     "source": "https://github.com/10up/wp-hammer/tree/trunk",
                     "issues": "https://github.com/10up/wp-hammer/issues"
-                }
+                },
+                "abandoned": "10up/wp-scrubber"
             }
         ]
     }

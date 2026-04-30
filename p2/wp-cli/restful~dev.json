@@ -3,46 +3,72 @@
         "wp-cli/restful": [
             {
                 "name": "wp-cli/restful",
-                "version": "dev-dependabot/composer/behat/behat-approx-3.14",
-                "version_normalized": "dev-dependabot/composer/behat/behat-approx-3.14",
+                "version": "dev-copilot/add-support-for-application-passwords",
+                "version_normalized": "dev-copilot/add-support-for-application-passwords",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "617b692475ebe7c417f7efee0d97928e7a9eed7f"
+                    "reference": "2530da8016854942123c1ed44642925f12d5f9cd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/617b692475ebe7c417f7efee0d97928e7a9eed7f",
-                    "reference": "617b692475ebe7c417f7efee0d97928e7a9eed7f",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/2530da8016854942123c1ed44642925f12d5f9cd",
+                    "reference": "2530da8016854942123c1ed44642925f12d5f9cd",
                     "shasum": ""
                 },
                 "require": {
-                    "wp-cli/wp-cli": "*"
+                    "wp-cli/wp-cli": "^2.13"
                 },
                 "require-dev": {
-                    "behat/behat": "~3.14"
+                    "wp-cli/entity-command": "^2.8",
+                    "wp-cli/wp-cli-tests": "^5.0"
                 },
-                "time": "2024-01-11T14:27:28+00:00",
+                "time": "2026-04-21T12:17:09+00:00",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
                         "dev-main": "1.x-dev"
-                    },
-                    "readme": {
-                        "package_description": {
-                            "post": "bin/readme-stubs/package-description-post.md"
-                        },
-                        "using": {
-                            "body": "bin/readme-stubs/using.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme-stubs/installing.md"
-                        }
                     }
                 },
                 "autoload": {
+                    "psr-4": {
+                        "WP_REST_CLI\\": "inc/"
+                    },
                     "files": [
                         "wp-rest-cli.php"
+                    ]
+                },
+                "scripts": {
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "behat-rerun": [
+                        "rerun-behat-tests"
+                    ],
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "phpcbf": [
+                        "run-phpcbf-cleanup"
+                    ],
+                    "phpstan": [
+                        "run-phpstan-tests"
+                    ],
+                    "phpunit": [
+                        "run-php-unit-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@phpstan",
+                        "@phpunit",
+                        "@behat"
                     ]
                 },
                 "license": [
@@ -56,7 +82,92 @@
                 ],
                 "description": "Unlock the potential of the WP REST API at the command line.",
                 "support": {
-                    "source": "https://github.com/wp-cli/restful/tree/dependabot/composer/behat/behat-approx-3.14",
+                    "source": "https://github.com/wp-cli/restful/tree/copilot/add-support-for-application-passwords",
+                    "issues": "https://github.com/wp-cli/restful/issues"
+                }
+            },
+            {
+                "name": "wp-cli/restful",
+                "version": "dev-fix-tests",
+                "version_normalized": "dev-fix-tests",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/restful.git",
+                    "reference": "8d53824c6e407fc0f5b952bc06ab668683007694"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/8d53824c6e407fc0f5b952bc06ab668683007694",
+                    "reference": "8d53824c6e407fc0f5b952bc06ab668683007694",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "^2.13"
+                },
+                "require-dev": {
+                    "wp-cli/entity-command": "^2.8",
+                    "wp-cli/wp-cli-tests": "^5.0"
+                },
+                "time": "2026-03-23T09:08:15+00:00",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "WP_REST_CLI\\": "inc/"
+                    },
+                    "files": [
+                        "wp-rest-cli.php"
+                    ]
+                },
+                "scripts": {
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "behat-rerun": [
+                        "rerun-behat-tests"
+                    ],
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "phpcbf": [
+                        "run-phpcbf-cleanup"
+                    ],
+                    "phpstan": [
+                        "run-phpstan-tests"
+                    ],
+                    "phpunit": [
+                        "run-php-unit-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@phpstan",
+                        "@phpunit",
+                        "@behat"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "Unlock the potential of the WP REST API at the command line.",
+                "support": {
+                    "source": "https://github.com/wp-cli/restful/tree/fix-tests",
                     "issues": "https://github.com/wp-cli/restful/issues"
                 }
             },
@@ -67,42 +178,68 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "024fe4207e4980e1f9b5fd2358693a268276e803"
+                    "reference": "6d5d213f9c68cfee4a700df700f9e2ae8322d04b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/024fe4207e4980e1f9b5fd2358693a268276e803",
-                    "reference": "024fe4207e4980e1f9b5fd2358693a268276e803",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/6d5d213f9c68cfee4a700df700f9e2ae8322d04b",
+                    "reference": "6d5d213f9c68cfee4a700df700f9e2ae8322d04b",
                     "shasum": ""
                 },
                 "require": {
-                    "wp-cli/wp-cli": "*"
+                    "wp-cli/wp-cli": "^2.13"
                 },
                 "require-dev": {
-                    "behat/behat": "~2.5"
+                    "wp-cli/entity-command": "^2.8",
+                    "wp-cli/wp-cli-tests": "^5.0"
                 },
-                "time": "2023-05-27T15:51:40+00:00",
+                "time": "2026-04-22T08:46:13+00:00",
                 "default-branch": true,
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
                         "dev-main": "1.x-dev"
-                    },
-                    "readme": {
-                        "package_description": {
-                            "post": "bin/readme-stubs/package-description-post.md"
-                        },
-                        "using": {
-                            "body": "bin/readme-stubs/using.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme-stubs/installing.md"
-                        }
                     }
                 },
                 "autoload": {
+                    "psr-4": {
+                        "WP_REST_CLI\\": "inc/"
+                    },
                     "files": [
                         "wp-rest-cli.php"
+                    ]
+                },
+                "scripts": {
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "behat-rerun": [
+                        "rerun-behat-tests"
+                    ],
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "phpcbf": [
+                        "run-phpcbf-cleanup"
+                    ],
+                    "phpstan": [
+                        "run-phpstan-tests"
+                    ],
+                    "phpunit": [
+                        "run-php-unit-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@phpstan",
+                        "@phpunit",
+                        "@behat"
                     ]
                 },
                 "license": [
@@ -127,41 +264,67 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wp-cli/restful.git",
-                    "reference": "cc51b669c91f374f7536c06c6e702ad733e46e47"
+                    "reference": "fde798a6b139aedfeb4d1ec50d228b4eb1492b80"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/cc51b669c91f374f7536c06c6e702ad733e46e47",
-                    "reference": "cc51b669c91f374f7536c06c6e702ad733e46e47",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/fde798a6b139aedfeb4d1ec50d228b4eb1492b80",
+                    "reference": "fde798a6b139aedfeb4d1ec50d228b4eb1492b80",
                     "shasum": ""
                 },
                 "require": {
-                    "wp-cli/wp-cli": "*"
+                    "wp-cli/wp-cli": "^2.13"
                 },
                 "require-dev": {
-                    "behat/behat": "~2.5"
+                    "wp-cli/entity-command": "^2.8",
+                    "wp-cli/wp-cli-tests": "^5.0"
                 },
-                "time": "2022-08-11T16:31:21+00:00",
+                "time": "2026-04-22T08:47:04+00:00",
                 "type": "wp-cli-package",
                 "extra": {
                     "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    },
-                    "readme": {
-                        "package_description": {
-                            "post": "bin/readme-stubs/package-description-post.md"
-                        },
-                        "using": {
-                            "body": "bin/readme-stubs/using.md"
-                        },
-                        "installing": {
-                            "body": "bin/readme-stubs/installing.md"
-                        }
+                        "dev-main": "1.x-dev"
                     }
                 },
                 "autoload": {
+                    "psr-4": {
+                        "WP_REST_CLI\\": "inc/"
+                    },
                     "files": [
                         "wp-rest-cli.php"
+                    ]
+                },
+                "scripts": {
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "behat-rerun": [
+                        "rerun-behat-tests"
+                    ],
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "phpcbf": [
+                        "run-phpcbf-cleanup"
+                    ],
+                    "phpstan": [
+                        "run-phpstan-tests"
+                    ],
+                    "phpunit": [
+                        "run-php-unit-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@phpstan",
+                        "@phpunit",
+                        "@behat"
                     ]
                 },
                 "license": [
@@ -176,6 +339,91 @@
                 "description": "Unlock the potential of the WP REST API at the command line.",
                 "support": {
                     "source": "https://github.com/wp-cli/restful/tree/regenerate-readme",
+                    "issues": "https://github.com/wp-cli/restful/issues"
+                }
+            },
+            {
+                "name": "wp-cli/restful",
+                "version": "dev-update-branch-alias",
+                "version_normalized": "dev-update-branch-alias",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wp-cli/restful.git",
+                    "reference": "7346bfe8c15f51b52ababaffcd7f8a8b93d41f3e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-cli/restful/zipball/7346bfe8c15f51b52ababaffcd7f8a8b93d41f3e",
+                    "reference": "7346bfe8c15f51b52ababaffcd7f8a8b93d41f3e",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-cli/wp-cli": "^2.12"
+                },
+                "require-dev": {
+                    "wp-cli/entity-command": "^2.8",
+                    "wp-cli/wp-cli-tests": "^5.0"
+                },
+                "time": "2026-03-17T18:00:48+00:00",
+                "type": "wp-cli-package",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "0.5.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "WP_REST_CLI\\": "inc/"
+                    },
+                    "files": [
+                        "wp-rest-cli.php"
+                    ]
+                },
+                "scripts": {
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "behat-rerun": [
+                        "rerun-behat-tests"
+                    ],
+                    "lint": [
+                        "run-linter-tests"
+                    ],
+                    "phpcs": [
+                        "run-phpcs-tests"
+                    ],
+                    "phpcbf": [
+                        "run-phpcbf-cleanup"
+                    ],
+                    "phpstan": [
+                        "run-phpstan-tests"
+                    ],
+                    "phpunit": [
+                        "run-php-unit-tests"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ],
+                    "test": [
+                        "@lint",
+                        "@phpcs",
+                        "@phpstan",
+                        "@phpunit",
+                        "@behat"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Daniel Bachhuber",
+                        "email": "daniel@handbuilt.co"
+                    }
+                ],
+                "description": "Unlock the potential of the WP REST API at the command line.",
+                "support": {
+                    "source": "https://github.com/wp-cli/restful/tree/update-branch-alias",
                     "issues": "https://github.com/wp-cli/restful/issues"
                 }
             }

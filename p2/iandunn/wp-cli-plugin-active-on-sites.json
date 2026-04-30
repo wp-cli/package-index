@@ -1,5 +1,62 @@
 {
     "packages": {
-        "iandunn/wp-cli-plugin-active-on-sites": []
+        "iandunn/wp-cli-plugin-active-on-sites": [
+            {
+                "name": "iandunn/wp-cli-plugin-active-on-sites",
+                "version": "v0.1.4",
+                "version_normalized": "0.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/iandunn/wp-cli-plugin-active-on-sites.git",
+                    "reference": "7148125cb7ba6f0c51fba1fe77b84ab6d54e9fb5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/iandunn/wp-cli-plugin-active-on-sites/zipball/7148125cb7ba6f0c51fba1fe77b84ab6d54e9fb5",
+                    "reference": "7148125cb7ba6f0c51fba1fe77b84ab6d54e9fb5",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "wp-cli/wp-cli-tests": "^4.2"
+                },
+                "time": "2026-03-09T17:17:24+00:00",
+                "type": "wp-cli-package",
+                "autoload": {
+                    "files": [
+                        "wp-cli-plugin-active-on-sites.php"
+                    ]
+                },
+                "scripts": {
+                    "behat": [
+                        "run-behat-tests"
+                    ],
+                    "behat-rerun": [
+                        "run-behat-tests --rerun"
+                    ],
+                    "behat-localwp": [
+                        "bin/behat-localwp"
+                    ],
+                    "prepare-tests": [
+                        "install-package-tests"
+                    ]
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Ian Dunn",
+                        "email": "ian@iandunn.name",
+                        "homepage": "https://iandunn.name"
+                    }
+                ],
+                "description": "A WP-CLI command to list all sites in a Multisite network that have activated a given plugin",
+                "homepage": "https://github.com/iandunn/wp-cli-plugin-active-on-sites",
+                "support": {
+                    "source": "https://github.com/iandunn/wp-cli-plugin-active-on-sites/tree/v0.1.4",
+                    "issues": "https://github.com/iandunn/wp-cli-plugin-active-on-sites/issues"
+                }
+            }
+        ]
     }
 }

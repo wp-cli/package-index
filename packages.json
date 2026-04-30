@@ -1,14 +1,15 @@
 {
     "packages": [],
     "includes": {
-        "include/all$6d94824e322678fcea93d2d5c3f9646c556bb940.json": {
-            "sha1": "6d94824e322678fcea93d2d5c3f9646c556bb940"
+        "include/all$aa381f07bd2cf99fee028077ae7aa699c3e9d3ff.json": {
+            "sha1": "aa381f07bd2cf99fee028077ae7aa699c3e9d3ff"
         }
     },
     "metadata-url": "/package-index/p2/%package%.json",
     "available-packages": [
         "10up/mu-migration",
         "alleyinteractive/wp-doc-command",
+        "beapi/wp-cli-light-db-export",
         "billerickson/wp-cli-plugin-install-missing",
         "binarygary/db-checkpoint",
         "boonebgorges/wp-cli-git-helper",
@@ -32,7 +33,6 @@
         "nikschavan/revslider-search-replace",
         "ocean90/wp-cli-flush-cache",
         "oderland/wp-cli-oderland",
-        "pantheon-systems/wp_launch_check",
         "petenelson/wp-cli-size",
         "pixline/wp-cli-proxy",
         "pulsestorm/wp-static-html-output-plugin",
