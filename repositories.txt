@@ -40,7 +40,6 @@ https://github.com/runcommand/media-sizes
 https://github.com/runcommand/query-debug
 https://github.com/runcommand/reset-passwords
 https://github.com/sebastiaandegeus/wp-cli-salts-command
-https://github.com/sinebridge/wp-cli-about
 https://github.com/rxnlabs/wp-composer
 https://github.com/oderland/wp-cli-oderland
 https://github.com/stianlik/wp-cli-mig
